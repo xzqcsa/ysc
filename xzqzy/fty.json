@@ -211,26 +211,7 @@
       "ext": "./lib/素白白.js"
     },
    
-     {
-      "key": "酷玩",
-      "name": "🎯酷玩┃云盘",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "token": "172a239f803f46a48a24101bd8f1c6a6",
-        "filter": "./lib/wogg.json"
-      },
-      "jar": "./lib/wogg.jar"
-    },
-    {
-      "key": "虎虎",
-      "name": "🐯Tiger┃TV",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./lib/虎虎.json"
-    },
+   
     {"key":"yqikan",
     "name":"🔥一起看吧",
     "type":3,"api":"csp_YQKAPP",
