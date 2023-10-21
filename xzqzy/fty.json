@@ -597,24 +597,8 @@
       "searchable": 1,
       "ext": "./lib/新视觉.json"
     },
- {
-      "key": "csp_淘剧",
-      "name": "🔥淘剧┃影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/淘剧.json"
-    },
- {
-      "key": "荐片",
-      "name": "🔪荐片┃磁力",
-      "type": 3,
-      "playerType": 1,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/荐片.js"
-    },
+
+
  {
       "key": "畅梦",
       "name": "🦄畅梦",
@@ -751,17 +735,7 @@
       ]
     },
    
-    {
-      "key": "hanju",
-      "name": "👑天天韩剧👑",
-      "type": 3,
-      "playerType": 2,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/天天韩剧.json"
-    },
+   
      {
       "key": "狐狸影视",
       "name": "👑狐狸影视2k【体育】👑",
@@ -903,95 +877,7 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/555电影.js"
     },
-    {
-      "key": "量子",
-      "name": "🔥量子[fm]",
-      "type": 0,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "国产动漫",
-        "日韩动漫",
-        "国产剧",
-        "韩国剧",
-        "日本剧",
-        "电影片",
-        "连续剧",
-        "综艺片",
-        "动漫片",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "台湾剧",
-        "香港剧",
-        "欧美剧",
-        "记录片",
-        "海外剧",
-        "泰国剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫",
-        "体育",
-        "足球",
-        "篮球",
-        "网球",
-        "斯诺克"
-      ]
-    },
-      
-        {"key": "百度资源","name": "🌐百度资源","type": 1,
-        "api": "https://api.apibdzy.com/api.php/provide/vod/",
-        "searchable": 1,"quickSearch": 1,
-        "categories": ["大陆剧","战争片","动作片","喜剧片"]},
-
-        {
-            "jar": "http://ftp6587948.host121.Sanfengyun.cn/yydf/lib/1012.jar",
-            "key": "🔥ok荐片弹幕版",
-            "name": "荐片弹幕版",
-            "type": 3,
-            "api": "csp_Jianpian",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
- 
-      
-{"key":"腾讯资源","name":"🔥腾讯资源(切)","type":1,"api":"http://playersll.gaoxin155.com.cn/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"量子资源","name":"🔥量子资源(切)","type":1,"api":"http://cj.lziapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"新浪资源","name":"🔥新浪资源(切)","type":1,"api":"http://api.xinlangapi.com/xinlangapi.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"卧龙资源","name":"🔥卧龙资源(切)","type":1,"api":"https://collect.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"红牛资源","name":"🔥红牛资源(切)","type":1,"api":"https://www.hongniuzy2.com/api.php/provide/vod/","searchable":0,"quickSearch":0},
-{"key":"樱花资源","name":"🔥樱花资源(切)","type":1,"api":"https://m3u8.apiyhzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"闪电资源","name":"🔥闪电资源(切)","type":1,"api":"http://sdzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"飞速资源","name":"🔥飞速资源(切)","type":1,"api":"https://www.feisuzy.com/api.php/provide/vod/","searchable":0,"quickSearch":0},
-{"key":"光速资源","name":"🔥光速资源(切)","type":1,"api":"https://api.guangsuapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"韩剧资源","name":"🔥韩剧资源(切)","type":1,"api":"http://www.hanjuzy.com/inc/apijson_vod.php","searchable":0,"quickSearch":0},
-{"key":"八戒资源","name":"🔥八戒资源(切)","type":1,"api":"http://cj.bajiecaiji.com/inc/apijson_vod.php","searchable":0,"quickSearch":0},
-{"key":"百度资源","name":"🔥百度资源(切)","type":1,"api":"https://api.apibdzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"6U资源","name":"🔥6U资源(官)","type":1,"api":"http://www.6uzy.cc/inc/apijson_vod.php","searchable":0,"quickSearch":0},
-{"key":"小猫咪","name":"🔥小猫咪(官)","type":1,"api":"http://zy.xiaomaomi.cc/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"步步高资源","name":"🔥步步高资源(切)","type":1,"api":"https://api.yparse.com/api/json","searchable":1,"quickSearch":1},
-{"key":"1080资源库","name":"🔥1080资源库(切)","type":1,"api":"https://api.1080zyku.com/inc/api_mac10.php","searchable":0,"quickSearch":0},
-{"key":"快车资源","name":"🔥快车资源(切)","type":1,"api":"https://caiji.kczyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"易看资源","name":"🔥易看资源(切)","type":1,"api":"https://api.yikanapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"新浪资源","name":"🔥新浪资源(切)","type":1,"api":"http://api.xinlangapi.com/xinlangapi.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"天空资源","name":"🔥天空资源(切)","type":1,"api":"https://api.tiankongapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"U酷资源","name":"🔥U酷资源(优)","type":1,"api":"https://api.ukuapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"每天看看","name":"🔥每天看看(优)","type":1,"api":"http://47.113.126.237:1234/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"影图","name":"🔥影图(聚)","type":1,"api":"https://cj.vodimg.top/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"飘零影院","name":"🔥飘零影院(聚)","type":1,"api":"https://p2100.net/api.php/provide/vod/","searchable":1,"quickSearch":1},
+   
         {
       "key": "dr_码上看_哔哩影视",
       "name": "🔥码上看动漫",
