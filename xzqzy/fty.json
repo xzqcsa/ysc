@@ -82,7 +82,43 @@
       "changeable": 1,
       "ext": "FbjDcUxPqpfNr0QF4QvE6sExbc1AGIRPUzIPtbexyEhcScOf53TW0F+D7rX5HCm9c3SL03FsmGsmXS04XZMlbxEVW4/ZgwONbnobxj8KzfJ8GvG6ETdzBCbfFw0WuoidvgjRb4EpUL8NqDk4unKXRBhjcoD99QoAIMsLc24lek3u9uBO+6JFAf41Z7sYL00hBBNM3xJsYyXCuX4BrzNYpZRwmfepqhEHQ08b/50BTD4Smp257RWMVpiQ1Tu3ht+MPo7oQAceapuyQGcL2fslXXHVrrb+9pyjtI9Qzph9HFoNJPIj5EXV+qGRI0CjSm9Dbm5nQFlZ6G2jvORw+5LMziXmuxDZH4U7qpnfjh/8hAu18546qyGmiWVI2mfDrKkVmeLq1KFA0rA="
     },
-  
+   {
+      "key": "csp_XBPQ_好戏",
+      "name": "👹好戏┃TV",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/好戏.json"
+    },
+     {
+      "key": "荐片",
+      "name": "🔪荐片┃磁力",
+      "type": 3,
+      "playerType": 1,
+      "api": "./lib/drpy2.min.js",
+      "ext": "http://xn--yet226clhctt4b.fun:66/js/荐片.js"
+    },
+    {
+      "key": "大鹏",
+      "name": "🦇嘉靓┃TV",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://api.jialiangos.com:88/api.php/app/"
+    },
+     {
+      "key": "电影港",
+      "name": "💫电影┃港湾",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "playerType": "1",
+      "ext": "./json/电影港.json",
+      "jar": "./lib/xyq.jar"
+    },
     {
       "key": "布雷",
       "name": "💥布雷┃App",
