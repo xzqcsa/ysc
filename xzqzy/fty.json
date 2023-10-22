@@ -61,6 +61,11 @@
 "name":"👶火狐☆影视","type":3,"api":"csp_XBPQ",
 "searchable":1,"quickSearch":1,"filterable":1,"jar": "./lib/xyqgy0922.jar",
 "ext":{"分类url":"https://www.huohutv.net/vod-show-area-{area}-by-{by}-class-{class}-id-{cateId}-letter-{letter}-page-{catePg}-year-{year}.htmlhttps://www.huohutv.net/vod-show-area-{area}-by-{by}-class-{class}-id-{cateId}-letter-{letter}-page-{catePg}-year-{year}.html","分类":"电影$1#电视剧$2#综艺$3#动漫$4"}},
+{"key":"yc",
+"name":"🏅影巢┃4K",
+"type": 3,"playerType":1,
+"api": "csp_Hdhive","searchable": 1,"quickSearch": 1,"filterable": 0,
+"ext":"dba669fc1dde45db8e5962beb2198e65","jar":"./lib/app.jar"},
 {
       "key": "YiSo",
       "name": "😹易搜┃搜索",
