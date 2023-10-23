@@ -98,13 +98,13 @@
 "ext":"https://www.ysgc.fun"},
 {
       "key": "夜幕",
-      "name": "️❤️春盈┃夜夜",
+      "name": "️❤️夜幕┃夜夜",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "jar": "./lib/350_123445_小暴脾气10.jar",
+      "jar": "./lib/350_123445_小暴脾气10.jar;md5;2045faa2c4337fd863c1b9f02cc69e31",
       "ext": {
         "站名": "夜光影院",
         "主页url": "https://www.ygpvp.com/",
@@ -132,7 +132,7 @@
     },
      {
             "key": "api┃百度",
-            "name": "❤️春盈┃百度",
+            "name": "❤️┃百度",
             "type": 1,
             "api": "https://api.apibdzy.com/api.php/provide/vod/",
             "searchable": 1,
