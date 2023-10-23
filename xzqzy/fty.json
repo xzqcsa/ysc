@@ -53,6 +53,23 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
     },
+     {
+      "ext": "eyJhcGlLZXkiOiI3MTQzZmQzNC0xZjY5LTQzZWYtYTE2Ny04ZTE3NWQ5ZTEwODkiLCJhcGkiOiJodHRwOi8vMjIyLjIxOC4xMjAuNzg6NzY1NCJ9",
+      "filterable": 1,
+      "quickSearch": 1,
+      "name": "♻️小雅搜索",
+      "viewType": {
+        "style": {
+          "type": "rect"
+        }
+      },
+      "changeable": 0,
+      "jar": "./lib/spring.jar",
+      "api": "csp_XiaoYa",
+      "type": 3,
+      "key": "csp_XiaoYa",
+      "searchable": 1
+    },
 {"key": "xml_玩偶",
 "name": "🧙玩偶┃哥哥",
 "type": 4,
@@ -61,6 +78,12 @@
 "name":"👶火狐☆影视","type":3,"api":"csp_XBPQ",
 "searchable":1,"quickSearch":1,"filterable":1,"jar": "./lib/xyqgy0922.jar",
 "ext":{"分类url":"https://www.huohutv.net/vod-show-area-{area}-by-{by}-class-{class}-id-{cateId}-letter-{letter}-page-{catePg}-year-{year}.htmlhttps://www.huohutv.net/vod-show-area-{area}-by-{by}-class-{class}-id-{cateId}-letter-{letter}-page-{catePg}-year-{year}.html","分类":"电影$1#电视剧$2#综艺$3#动漫$4"}},
+{"key": "快看",
+"name": "👀快看",
+"type": 3,
+"api": "csp_Kuaikan","searchable": 1,"quickSearch": 1,"filterable": 1,
+"jar": "./lib/Kuaikan.jar"},
+
 {"key":"yc",
 "name":"🏅影巢┃4K",
 "type": 3,"playerType":1,
