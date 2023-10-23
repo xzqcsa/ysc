@@ -78,7 +78,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "token": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt",
+        "token": "dba669fc1dde45db8e5962beb2198e65",
         "filter": "./lib/wogg.json"
       },
       "jar": "./lib/wogg.jar"
