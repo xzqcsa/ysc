@@ -104,7 +104,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "jar": "./lib/XYQ.jar",
+      "jar": "./lib/xyq.jar",
       "ext": {
         "站名": "夜光影院",
         "主页url": "https://www.ygpvp.com/",
