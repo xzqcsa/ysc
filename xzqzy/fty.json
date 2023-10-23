@@ -70,17 +70,19 @@
       "key": "csp_XiaoYa",
       "searchable": 1
     },
-    {
+   {
       "key": "酷玩",
       "name": "🎯酷玩┃云盘",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
       "changeable": 0,
-      "ext": ":http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt",
-        "filter": "./lib/wogg.json",
-        "jar": "./lib/wogg.jar"
+      "ext": {
+        "token": "651e8cf7f33f44229116b35845e5537b",
+        "filter": "./lib/wogg.json"
       },
+      "jar": "./lib/wogg.jar"
+    },
       
     
 {"key": "xml_玩偶",
