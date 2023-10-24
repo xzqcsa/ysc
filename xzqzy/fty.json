@@ -70,6 +70,42 @@
       "key": "csp_XiaoYa",
       "searchable": 1
     },
+    {
+      "key": "應用商店",
+      "name": "♻️业余-应用商店",
+      "type": 3,
+      "api": "csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./lib/market.json",
+      "jar": "./lib/fm商店.jar"
+    },
+     {
+      "key": "直播转点播2",
+      "name": "♻️T4┃直播.音乐",
+      "type": 4,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "api": "http://120.53.102.254/dsp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "直播转点播3",
+      "name": "♻️T4┃直播.综合",
+      "type": 4,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "api": "http://120.53.102.254/dsp999",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
      {
       "key": "艾旦影视",
       "name": "♻️艾旦",
