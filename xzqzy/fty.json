@@ -2473,15 +2473,92 @@
       "url": "Demo"
     },
     {
-      "name": "聚合0",
-      "type": 3,
-      "url": "Web"
+      "name": "无名解析",
+      "type": 1,
+      "url": "https://jx.m3u8.tv/jiexi/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "企鹅",
+          "IQiYi",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "YouKu",
+          "优酷",
+          "sohu",
+          "SoHu",
+          "搜狐",
+          "letv",
+          "LeShi",
+          "乐视",
+          "imgo",
+          "mgtv",
+          "MangGuo",
+          "芒果",
+          "SLYS4k",
+          "BYGA",
+          "luanzi",
+          "AliS",
+          "dxzy",
+          "bilibili",
+          "QEYSS",
+          "xigua",
+          "西瓜视频",
+          "腾讯视频",
+          "奇艺视频",
+          "优酷视频",
+          "芒果视频",
+          "乐视视频"
+        ]
+      }
     },
-    {
+     {
       "name": "玩的嗨解析",
       "type": 1,
-      "url": "https://tv.wandhi.com/go.html?url="
-      },
+      "url": "https://tv.wandhi.com/go.html?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "企鹅",
+          "IQiYi",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "YouKu",
+          "优酷",
+          "sohu",
+          "SoHu",
+          "搜狐",
+          "letv",
+          "LeShi",
+          "乐视",
+          "imgo",
+          "mgtv",
+          "MangGuo",
+          "芒果",
+          "SLYS4k",
+          "BYGA",
+          "luanzi",
+          "AliS",
+          "dxzy",
+          "bilibili",
+          "QEYSS",
+          "xigua",
+          "西瓜视频",
+          "腾讯视频",
+          "奇艺视频",
+          "优酷视频",
+          "芒果视频",
+          "乐视视频"
+        ]
+      }
+    },
+     
       {
       "name": "自购解析3万次",
       "type": 1,
@@ -2514,13 +2591,13 @@
           "bilibili",
           "哔哩哔哩",
           "哔哩"
-        ],
-        
-          "header": {
-          "User-Agent": "okhttp/4.1.0"
-        }
-      }
+        ]  }},
+    {
+      "name": "聚合0",
+      "type": 3,
+      "url": "Web"
     },
+    
      {
       "name": "超解析",
       "type": 3,
@@ -2568,11 +2645,14 @@
         "flag": [
           "YuMi"
         ],
+          "header": {
+          "User-Agent": "okhttp/4.1.0"}},
+
         "header": {
           "User-Agent": "okhttp/3.12.11"
         }
       }
-    },
+    ,
     {
       "name": "夜猫玉米",
       "type": 1,
