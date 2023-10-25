@@ -2530,7 +2530,7 @@
       }
     },
      {
-      "name": "玩的嗨解析",
+      "name": "玩22 析",
       "type": 1,
       "url": " http://106.225.218.183:10209/home/api?type=ys&uid=5538517&key=abcefklmwEGIJKNVW7&url=",
       "ext": {
@@ -2574,7 +2574,7 @@
     },
      
       {
-      "name": "自购解析3万次",
+      "name": "自3万次",
       "type": 1,
       "url": "http://106.225.218.183:10209/json-2.php?uid=5538517&key=abcefklmwEGIJKNVW7&url="
       },
@@ -2584,7 +2584,7 @@
       "url": "https://jx.777jiexi.com/player/?url="
       },
      {
-      "name": "茶桶解析",
+      "name": "茶桶1解析",
       "type": 1,
       "url": "http://119.91.123.253:1234/Api/cs.php?url=",
       "ext": {
@@ -2749,17 +2749,17 @@
           "YuMi"
         ]}},
     {
-      "name": "11",
+      "name": "1321",
       "type": 0,
       "url": "https://jx.777jiexi.com/player/?url="
     },
     {
-      "name": "️22",
+      "name": "️242",
       "type": 0,
       "url": "https://www.pangujiexi.com/pangu/?url="
     },
     {
-      "name": "33",
+      "name": "363",
       "type": 1,
       "url": "https://jxjson.cf/json.php?url=",
       "ext": {
@@ -2770,12 +2770,12 @@
       }
     },
     {
-      "name": "44",
+      "name": "4674",
       "type": 1,
       "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="
     },
     {
-      "name": "55",
+      "name": "52235",
       "type": 1,
       "url": "https://api.xn--kcr500a391b.cc/api/jiexi/common?Key=zcGXEL8jGntDoi3vSR&url=",
       "ext": {
@@ -2785,7 +2785,7 @@
       }
     },
     {
-      "name": "66",
+      "name": "65666",
       "type": 0,
       "url": "https://jx.xmflv.com/?url=",
       "ext": {
@@ -2815,7 +2815,7 @@
       }
     },
     {
-      "name": "77",
+      "name": "74347",
       "type": 0,
       "url": "https://jx.bozrc.com:4433/player/?url=",
       "ext": {
@@ -2844,7 +2844,7 @@
       }
     },
     {
-      "name": "88",
+      "name": "84558",
       "type": 1,
       "url": "http://110.42.2.247:880/analysis/json/?uid=2255&my=bcdkloqxzEFGPRT168&format=json&url=",
       "ext": {
@@ -2873,7 +2873,7 @@
       }
     },
     {
-      "name": "99",
+      "name": "94339",
       "type": 0,
       "url": "https://vip.lianfaka.com/vip/?url=",
       "ext": {
@@ -2902,7 +2902,7 @@
       }
     },
     {
-      "name": "10",
+      "name": "144340",
       "type": 0,
       "url": "https://jx.m3u8.tv/jiexi/?url=",
       "ext": {
@@ -2929,7 +2929,7 @@
       }
     },
     {
-      "name": "11",
+      "name": "1344341",
       "type": 0,
       "url": "https://www.ckplayer.vip/jiexi/?url=",
       "ext": {
@@ -2956,7 +2956,7 @@
       }
     },
     {
-      "name": "12",
+      "name": "13442",
       "type": 0,
       "url": "https://www.8090g.cn/?url=",
       "ext": {
@@ -2983,7 +2983,7 @@
       }
     },
     {
-      "name": "13",
+      "name": "14343",
       "type": 0,
       "url": "https://www.playm3u8.cn/jiexi.php?url=",
       "ext": {
@@ -3010,7 +3010,7 @@
       }
     },
     {
-      "name": "14",
+      "name": "14344",
       "type": 1,
       "url": "http://175.178.183.192:86/api/?key=b832096861839f56066bf4ae7a0d7be0&url=",
       "ext": {
@@ -3030,7 +3030,7 @@
       }
     },
     {
-      "name": "15",
+      "name": "134345",
       "type": 1,
       "url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url=",
       "ext": {
@@ -3059,7 +3059,7 @@
       }
     },
     {
-      "name": "16",
+      "name": "343416",
       "type": 1,
       "url": "http://api.huohua.vip/api/?key=6qwYWYpe4mSaPhFvSw&url=",
       "ext": {
@@ -3088,7 +3088,7 @@
       }
     },
     {
-      "name": "17",
+      "name": "134347",
       "type": 1,
       "url": "http://27.124.4.42:4567/jhjson/ceshi.php?url=",
       "ext": {
@@ -3117,7 +3117,7 @@
       }
     },
     {
-      "name": "18",
+      "name": "143438",
       "type": 1,
       "url": "http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url=",
       "ext": {
@@ -3479,30 +3479,7 @@
         "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
       ]
     },
-    {
-      "name": "磁力广告",
-      "hosts": [
-        "magnet"
-      ],
-      "regex": [
-        "更多",
-        "社 區",
-        "x u u",
-        "最 新",
-        "直 播",
-        "更 新",
-        "社 区",
-        "有 趣",
-        "英皇体育",
-        "全中文AV在线",
-        "澳门皇冠赌场",
-        "哥哥快来",
-        "美女荷官",
-        "裸聊",
-        "新片首发",
-        "UUE29"
-      ]
-    },
+   
     {
       "name": "火山嗅探",
       "hosts": [
