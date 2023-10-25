@@ -2606,97 +2606,9 @@
           "哔哩哔哩",
           "哔哩"
         ]  }},
-    {
-      "name": "聚合0",
-      "type": 3,
-      "url": "Web"
-    },
+  
     
-     {
-      "name": "超解析",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "超嗅探",
-      "type": 3,
-      "url": "Web"
-    },
     
-     {
-      "name": "解 析1",
-      "type": 1,
-      "url": "https://jx.centos.chat/?url= ",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "imgo",
-          "rx",
-          "ltnb",
-          "bilibili",
-          "1905",
-          "xigua"
-        ]
-      }
-    },
-     {
-      "name": "夜猫超解析",
-      "type": 1,
-      "url": "https://api.json.icu/api/?key=2d8f7d8ce736b70c7e3382b2fba57bc9&url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "企鹅",
-          "IQiYi",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "YouKu",
-          "优酷",
-          "sohu",
-          "SoHu",
-          "搜狐",
-          "letv",
-          "LeShi",
-          "乐视",
-          "imgo",
-          "mgtv",
-          "MangGuo",
-          "芒果",
-          "SLYS4k",
-          "BYGA",
-          "luanzi",
-          "AliS",
-          "dxzy",
-          "bilibili",
-          "QEYSS",
-          "xigua",
-          "西瓜视频",
-          "腾讯视频",
-          "奇艺视频",
-          "优酷视频",
-          "芒果视频",
-          "乐视视频"
-        ],
-        "header": {
-          "User-Agent": "Dart/3.0(dart:io)"
-        }
-      }
-    },
     {
       "name": "夜猫超聚合",
       "type": 1,
@@ -2837,17 +2749,17 @@
           "YuMi"
         ]}},
     {
-      "name": "业",
+      "name": "11",
       "type": 0,
       "url": "https://jx.777jiexi.com/player/?url="
     },
     {
-      "name": "️余",
+      "name": "️22",
       "type": 0,
       "url": "https://www.pangujiexi.com/pangu/?url="
     },
     {
-      "name": "打",
+      "name": "33",
       "type": 1,
       "url": "https://jxjson.cf/json.php?url=",
       "ext": {
@@ -2858,12 +2770,12 @@
       }
     },
     {
-      "name": "发",
+      "name": "44",
       "type": 1,
       "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="
     },
     {
-      "name": "免",
+      "name": "55",
       "type": 1,
       "url": "https://api.xn--kcr500a391b.cc/api/jiexi/common?Key=zcGXEL8jGntDoi3vSR&url=",
       "ext": {
@@ -2873,7 +2785,7 @@
       }
     },
     {
-      "name": "费",
+      "name": "66",
       "type": 0,
       "url": "https://jx.xmflv.com/?url=",
       "ext": {
@@ -2903,7 +2815,7 @@
       }
     },
     {
-      "name": "为",
+      "name": "77",
       "type": 0,
       "url": "https://jx.bozrc.com:4433/player/?url=",
       "ext": {
@@ -2932,7 +2844,7 @@
       }
     },
     {
-      "name": "你",
+      "name": "88",
       "type": 1,
       "url": "http://110.42.2.247:880/analysis/json/?uid=2255&my=bcdkloqxzEFGPRT168&format=json&url=",
       "ext": {
@@ -2961,7 +2873,7 @@
       }
     },
     {
-      "name": "服",
+      "name": "99",
       "type": 0,
       "url": "https://vip.lianfaka.com/vip/?url=",
       "ext": {
@@ -2990,7 +2902,7 @@
       }
     },
     {
-      "name": "务",
+      "name": "10",
       "type": 0,
       "url": "https://jx.m3u8.tv/jiexi/?url=",
       "ext": {
@@ -3017,7 +2929,7 @@
       }
     },
     {
-      "name": "别",
+      "name": "11",
       "type": 0,
       "url": "https://www.ckplayer.vip/jiexi/?url=",
       "ext": {
@@ -3044,7 +2956,7 @@
       }
     },
     {
-      "name": "昧",
+      "name": "12",
       "type": 0,
       "url": "https://www.8090g.cn/?url=",
       "ext": {
@@ -3071,7 +2983,7 @@
       }
     },
     {
-      "name": "着",
+      "name": "13",
       "type": 0,
       "url": "https://www.playm3u8.cn/jiexi.php?url=",
       "ext": {
@@ -3098,7 +3010,7 @@
       }
     },
     {
-      "name": "良",
+      "name": "14",
       "type": 1,
       "url": "http://175.178.183.192:86/api/?key=b832096861839f56066bf4ae7a0d7be0&url=",
       "ext": {
@@ -3118,7 +3030,7 @@
       }
     },
     {
-      "name": "心",
+      "name": "15",
       "type": 1,
       "url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url=",
       "ext": {
@@ -3147,7 +3059,7 @@
       }
     },
     {
-      "name": "还",
+      "name": "16",
       "type": 1,
       "url": "http://api.huohua.vip/api/?key=6qwYWYpe4mSaPhFvSw&url=",
       "ext": {
@@ -3176,7 +3088,7 @@
       }
     },
     {
-      "name": "吡",
+      "name": "17",
       "type": 1,
       "url": "http://27.124.4.42:4567/jhjson/ceshi.php?url=",
       "ext": {
@@ -3205,7 +3117,7 @@
       }
     },
     {
-      "name": "吡",
+      "name": "18",
       "type": 1,
       "url": "http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url=",
       "ext": {
