@@ -2475,7 +2475,7 @@
     {
       "name": "无名解析",
       "type": 1,
-      "url": "http://106.225.218.183:10209/json-2.php?uid=5538517&key=abcefklmwEGIJKNVW7&url=",
+      "url": "http://106.225.218.183:10209/json-1.php?uid=5538517&key=abcefklmwEGIJKNVW7&url=",
       "ext": {
         "flag": [
           "qq",
@@ -2518,7 +2518,7 @@
      {
       "name": "玩的嗨解析",
       "type": 1,
-      "url": "https://tv.wandhi.com/go.html?url=",
+      "url": " http://106.225.218.183:10209/home/api?type=ys&uid=5538517&key=abcefklmwEGIJKNVW7&url=",
       "ext": {
         "flag": [
           "qq",
@@ -2562,7 +2562,7 @@
       {
       "name": "自购解析3万次",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=5223550&key=defotCEIJKOPSUYZ67&url="
+      "url": "http://106.225.218.183:10209/json-2.php?uid=5538517&key=abcefklmwEGIJKNVW7&url="
       },
      {
       "name": "777",
