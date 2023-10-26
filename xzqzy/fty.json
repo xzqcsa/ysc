@@ -540,12 +540,13 @@
     },
     {
       "key": "Zhaozy",
-      "name": "🐺找资源┃搜索",
+      "name": "🔍阿里|找资源",
       "type": 3,
       "api": "csp_Zhaozy",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0,
+      "filterable": 1,
+        "jar": "./lib/HeChengChaXiu.jar",
       "ext": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
     },
     {
@@ -598,7 +599,7 @@
       "quickSearch": 1,
       "filterable": 1,
        "jar": "./lib/HeChengChaXiu.jar",
-      "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
+      "ext": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
     },
  {
       "key": "Mino",
@@ -2534,6 +2535,92 @@
       "url": "Parallel"
     },
      {
+      "name": "无名解析222",
+      "type": 1,
+      "url": " http://106.225.218.183:10209/home/api?type=ys&uid=5602231&key=bdemnyCFHQSUW01246&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "企鹅",
+          "IQiYi",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "YouKu",
+          "优酷",
+          "sohu",
+          "SoHu",
+          "搜狐",
+          "letv",
+          "LeShi",
+          "乐视",
+          "imgo",
+          "mgtv",
+          "MangGuo",
+          "芒果",
+          "SLYS4k",
+          "BYGA",
+          "luanzi",
+          "AliS",
+          "dxzy",
+          "bilibili",
+          "QEYSS",
+          "xigua",
+          "西瓜视频",
+          "腾讯视频",
+          "奇艺视频",
+          "优酷视频",
+          "芒果视频",
+          "乐视视频"
+        ]
+      }
+    },
+     {
+      "name": "无名解析221",
+      "type": 1,
+      "url": "http://106.225.218.183:10209/json-1.php?uid=5602231&key=bdemnyCFHQSUW01246&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "企鹅",
+          "IQiYi",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "YouKu",
+          "优酷",
+          "sohu",
+          "SoHu",
+          "搜狐",
+          "letv",
+          "LeShi",
+          "乐视",
+          "imgo",
+          "mgtv",
+          "MangGuo",
+          "芒果",
+          "SLYS4k",
+          "BYGA",
+          "luanzi",
+          "AliS",
+          "dxzy",
+          "bilibili",
+          "QEYSS",
+          "xigua",
+          "西瓜视频",
+          "腾讯视频",
+          "奇艺视频",
+          "优酷视频",
+          "芒果视频",
+          "乐视视频"
+        ]
+      }
+    },
+     {
       "name": "无名解析",
       "type": 1,
       "url": "http://106.225.218.183:10209/json-1.php?uid=5538517&key=abcefklmwEGIJKNVW7&url=",
@@ -2576,10 +2663,96 @@
         ]
       }
     },
-     {
+    {
       "name": "无名解析1",
       "type": 1,
-      "url": " http://106.225.218.183:10209/home/api?type=ys&uid=5575381&key=cfghjkmtxADFHIRSTZ&url=",
+      "url": "http://106.225.218.183:10209/home/api?type=ys&uid=5575381&key=cfghjkmtxADFHIRSTZ&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "企鹅",
+          "IQiYi",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "YouKu",
+          "优酷",
+          "sohu",
+          "SoHu",
+          "搜狐",
+          "letv",
+          "LeShi",
+          "乐视",
+          "imgo",
+          "mgtv",
+          "MangGuo",
+          "芒果",
+          "SLYS4k",
+          "BYGA",
+          "luanzi",
+          "AliS",
+          "dxzy",
+          "bilibili",
+          "QEYSS",
+          "xigua",
+          "西瓜视频",
+          "腾讯视频",
+          "奇艺视频",
+          "优酷视频",
+          "芒果视频",
+          "乐视视频"
+        ]
+      }
+    },
+    {
+      "name": "无名解析0",
+      "type": 1,
+      "url": "http://106.225.218.183:10209/home/api?type=ys&uid=5593332&key=eghjmorstBCKQRVWY7&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "企鹅",
+          "IQiYi",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "YouKu",
+          "优酷",
+          "sohu",
+          "SoHu",
+          "搜狐",
+          "letv",
+          "LeShi",
+          "乐视",
+          "imgo",
+          "mgtv",
+          "MangGuo",
+          "芒果",
+          "SLYS4k",
+          "BYGA",
+          "luanzi",
+          "AliS",
+          "dxzy",
+          "bilibili",
+          "QEYSS",
+          "xigua",
+          "西瓜视频",
+          "腾讯视频",
+          "奇艺视频",
+          "优酷视频",
+          "芒果视频",
+          "乐视视频"
+        ]
+      }
+    },
+     {
+      "name": "无名解析00",
+      "type": 1,
+      "url": "http://106.225.218.183:10209/json-1.php?uid=5593332&key=eghjmorstBCKQRVWY7&url=",
       "ext": {
         "flag": [
           "qq",
@@ -2665,7 +2838,7 @@
      {
       "name": "无名解析3",
       "type": 1,
-      "url": " http://106.225.218.183:10209/home/api?type=ys&uid=5584687&key=adfgitxCEGINU04789&url=",
+      "url": "http://106.225.218.183:10209/home/api?type=ys&uid=5584687&key=adfgitxCEGINU04789&url=",
       "ext": {
         "flag": [
           "qq",
@@ -2794,7 +2967,7 @@
      {
       "name": "玩22 析",
       "type": 1,
-      "url": " http://106.225.218.183:10209/home/api?type=ys&uid=5538517&key=abcefklmwEGIJKNVW7&url=",
+      "url": "http://106.225.218.183:10209/home/api?type=ys&uid=5538517&key=abcefklmwEGIJKNVW7&url=",
       "ext": {
         "flag": [
           "qq",
