@@ -2565,9 +2565,95 @@
       }
     },
      {
+      "name": "无名解析1",
+      "type": 1,
+      "url": " http://106.225.218.183:10209/home/api?type=ys&uid=5575381&key=cfghjkmtxADFHIRSTZ&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "企鹅",
+          "IQiYi",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "YouKu",
+          "优酷",
+          "sohu",
+          "SoHu",
+          "搜狐",
+          "letv",
+          "LeShi",
+          "乐视",
+          "imgo",
+          "mgtv",
+          "MangGuo",
+          "芒果",
+          "SLYS4k",
+          "BYGA",
+          "luanzi",
+          "AliS",
+          "dxzy",
+          "bilibili",
+          "QEYSS",
+          "xigua",
+          "西瓜视频",
+          "腾讯视频",
+          "奇艺视频",
+          "优酷视频",
+          "芒果视频",
+          "乐视视频"
+        ]
+      }
+    },
+     {
+      "name": "无名解析2",
+      "type": 1,
+      "url": "http://106.225.218.183:10209/json-1.php?uid=5575381&key=cfghjkmtxADFHIRSTZ&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "企鹅",
+          "IQiYi",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "YouKu",
+          "优酷",
+          "sohu",
+          "SoHu",
+          "搜狐",
+          "letv",
+          "LeShi",
+          "乐视",
+          "imgo",
+          "mgtv",
+          "MangGuo",
+          "芒果",
+          "SLYS4k",
+          "BYGA",
+          "luanzi",
+          "AliS",
+          "dxzy",
+          "bilibili",
+          "QEYSS",
+          "xigua",
+          "西瓜视频",
+          "腾讯视频",
+          "奇艺视频",
+          "优酷视频",
+          "芒果视频",
+          "乐视视频"
+        ]
+      }
+    },
+     {
       "name": "火花解析",
       "type": 1,
-      "url": "https://api.huohua.vip/api/xg/?key=7NLMIvsvgMqreGjGOg&url=",
+      "url": "http://106.225.218.183:10209/json-1.php?uid=5567750&key=fiptuxBHIJOPQRUW56&url=",
       "ext": {
         "flag": [
           "qq",
@@ -2673,7 +2759,7 @@
       {
       "name": "自3万次",
       "type": 1,
-      "url": "http://106.225.218.183:10209/json-2.php?uid=5538517&key=abcefklmwEGIJKNVW7&url="
+      "url": "http://106.225.218.183:10209/home/api?type=ys&uid=5567750&key=fiptuxBHIJOPQRUW56&url="
       },
      {
       "name": "777",
