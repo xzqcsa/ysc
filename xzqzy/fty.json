@@ -528,16 +528,7 @@
 "type": 3,"playerType":1,
 "api": "csp_Hdhive","searchable": 1,"quickSearch": 1,"filterable": 0,
 "ext":"dba669fc1dde45db8e5962beb2198e65","jar":"./lib/app.jar"},
-{
-      "key": "YiSo",
-      "name": "😹易搜┃搜索",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
-    },
+
     {
       "key": "Zhaozy",
       "name": "🔍阿里|找资源",
@@ -567,6 +558,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
+      "jar": "./lib/HeChengChaXiu.jar",
       "ext": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
     },
     {
