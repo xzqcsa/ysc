@@ -54,6 +54,19 @@
       "ext": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
     },
     {
+            "key": "天空影视",
+            "name": "🔥天空影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "分类url": "http://www.czfmyjc.com/show_/id/{cateId}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
+            }
+     },
+    {
       "key": "dr_兔小贝",
       "name": "📚儿童┃启蒙",
       "type": 3,
