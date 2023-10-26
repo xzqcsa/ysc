@@ -586,7 +586,19 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+       "jar": "./lib/HeChengChaXiu.jar",
       "ext": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
+    },
+      {
+      "key": "UpYun",
+      "name": "🔍阿里|优盘搜",
+      "type": 3,
+      "api": "csp_UpYun",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+       "jar": "./lib/HeChengChaXiu.jar",
+      "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
     },
  {
       "key": "Mino",
