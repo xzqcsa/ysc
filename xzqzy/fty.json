@@ -81,6 +81,15 @@
       "changeable": 0
     },
      {
+      "key": "gitcafe_php",
+      "name": "🔥小纸条PHP",
+      "type": 1,
+      "api": "http://tvbox.top/gitcafe.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+     {
       "key": "drpy_爱奇艺",
       "name": "👶爱奇艺┃儿童!",
       "type": 3,
