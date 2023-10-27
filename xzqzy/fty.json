@@ -40,6 +40,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
+       "jar": "./lib/spring.jar",
       "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$关"
     },
    
