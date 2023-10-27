@@ -264,6 +264,13 @@
       ]
     },
     {
+      "key": "熊猫",
+      "name": "🐼熊猫┃追剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./lib/熊猫.json"
+    },
+    {
       "key": "搜狐资源",
       "name": "️🦊搜狐影视♻️",
       "type": 1,
@@ -529,12 +536,31 @@
 "api": "csp_Hdhive","searchable": 1,"quickSearch": 1,"filterable": 0,
 "ext":"dba669fc1dde45db8e5962beb2198e65","jar":"./lib/app.jar"},
 
-  
+  {
+      "key": "UpYun",
+      "name": "📫Up┃云盘",
+      "type": 3,
+      "api": "csp_UpYun",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
+    },
     {
       "key": "PanSou",
       "name": "🦊盘搜┃搜索",
       "type": 3,
       "api": "csp_PanSou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
+    },
+    {
+      "key": "七夜",
+      "name": "😾七夜┃云盘",
+      "type": 3,
+      "api": "csp_Dovx",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
