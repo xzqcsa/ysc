@@ -79,6 +79,15 @@
        "jar": "./lib/fty1.jar",
       "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$关"
     },
+  {
+            "key":"csp_器星",
+            "name":"🔥齐心协力",
+            "type":3,
+            "api":"csp_XBPQ",
+            "searchable":1,"quickSearch":1,"filterable":1,
+            "ext":"./lib/rRsGDGBC_2.js"
+        }  ,
+    
    {"key":"csp_七星",
    "name":"🔥七星☆影视",
    "type":3,
