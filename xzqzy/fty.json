@@ -51,7 +51,7 @@
       "name": "♻️芒果少儿频道",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-       "jar": "./lib/fty1.jar",
+      
       "ext": "./lib/忙果.js"
     },
    
@@ -60,6 +60,7 @@
       "name": "♻️优酷少儿频道",
       "type": 3,
       "api": "./lib/drpy2.min.js",
+      "jar": "./lib/fty1.jar",
       "ext": "./lib/优酷.js"
     },
     {"key":"csp_Wo GG",
