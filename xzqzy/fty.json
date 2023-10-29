@@ -55,11 +55,20 @@
       "ext": "./lib/忙果.js"
     },
    {
-      "key": "优酷1",
-      "name": "♻️优酷少儿频道",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/优酷.js"
+      "key": "优酷资源",
+      "name": "️👔优酷少儿♻️",
+      "type": 1,
+      "api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/youku/?at/xml/",
+      "playUrl": "https://www.cgdyw.net/jiexi/jiexi-gf/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "少儿",
+        "亲子",
+        "教育",
+        "动漫"
+      ]
     },
     {"key":"csp_Wo GG",
     "name":"🔥玩偶☆弹幕",
@@ -258,38 +267,7 @@
         "动漫"
       ]
     },
-    {
-      "key": "优酷资源",
-      "name": "️👔优酷影视♻️",
-      "type": 1,
-      "api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/youku/?at/xml/",
-      "playUrl": "https://www.cgdyw.net/jiexi/jiexi-gf/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "韩国剧",
-        "香港剧",
-        "台湾剧",
-        "欧美剧",
-        "动作片",
-        "科幻片",
-        "战争片",
-        "奇幻片",
-        "喜剧片",
-        "爱情片",
-        "恐怖片",
-        "犯罪片",
-        "悬疑片",
-        "惊悚片",
-        "剧情片",
-        "冒险片",
-        "记录片",
-        "综艺",
-        "动漫"
-      ]
-    },
+   
     {
       "key": "熊猫",
       "name": "🐼熊猫┃追剧",
