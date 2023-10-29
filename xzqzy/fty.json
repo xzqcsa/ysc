@@ -79,24 +79,7 @@
        "jar": "./lib/fty1.jar",
       "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$关"
     },
-  {
-            "key":"csp_器星",
-            "name":"🔥齐心协力",
-            "type":3,
-            "api":"csp_XBPQ",
-            "searchable":1,"quickSearch":1,"filterable":1,
-            "ext":"./lib/rRsGDGBC_2.js"
-        }  ,
-    
-   {"key":"csp_七星",
-   "name":"🔥七星☆影视",
-   "type":3,
-   "api":"csp_XBPQ",
-   "searchable":1,"quickSearch":1,
-   "filterable":1,
-   "ext":"./lib/qx.json"
-   },
-
+ 
    {
            "key": "91free",
            "name": "💐91Free",
@@ -369,23 +352,7 @@
       "changeable": 0,
       "ext": "./lib/高中课堂.json"
     },
-     {
-      "ext": "eyJhcGlLZXkiOiI3MTQzZmQzNC0xZjY5LTQzZWYtYTE2Ny04ZTE3NWQ5ZTEwODkiLCJhcGkiOiJodHRwOi8vMjIyLjIxOC4xMjAuNzg6NzY1NCJ9",
-      "filterable": 1,
-      "quickSearch": 1,
-      "name": "♻️小雅搜索",
-      "viewType": {
-        "style": {
-          "type": "rect"
-        }
-      },
-      "changeable": 0,
-      "jar": "./lib/spring.jar",
-      "api": "csp_XiaoYa",
-      "type": 3,
-      "key": "csp_XiaoYa",
-      "searchable": 1
-    },
+    
     {
       "key": "jszy",
       "name": "极速资源",
@@ -475,19 +442,7 @@
       "quickSearch": 1,
       "filterable": 0
     },
-   {
-      "key": "酷玩",
-      "name": "🎯酷玩┃云盘",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "token": "651e8cf7f33f44229116b35845e5537b",
-        "filter": "./lib/wogg.json"
-      },
-      "jar": "./lib/wogg.jar"
-    },
+  
       
     
 {"key": "xml_玩偶",
@@ -634,16 +589,7 @@
       "changeable": 1,
       "ext": "FbjDcUxPqpfNr0QF4QvE6sExbc1AGIRPUzIPtbexyEhcScOf53TW0F+D7rX5HCm9c3SL03FsmGsmXS04XZMlbxEVW4/ZgwONbnobxj8KzfJ8GvG6ETdzBCbfFw0WuoidvgjRb4EpUL8NqDk4unKXRBhjcoD99QoAIMsLc24lek3u9uBO+6JFAf41Z7sYL00hBBNM3xJsYyXCuX4BrzNYpZRwmfepqhEHQ08b/50BTD4Smp257RWMVpiQ1Tu3ht+MPo7oQAceapuyQGcL2fslXXHVrrb+9pyjtI9Qzph9HFoNJPIj5EXV+qGRI0CjSm9Dbm5nQFlZ6G2jvORw+5LMziXmuxDZH4U7qpnfjh/8hAu18546qyGmiWVI2mfDrKkVmeLq1KFA0rA="
     },
-   {
-      "key": "csp_XBPQ_好戏",
-      "name": "👹好戏┃TV",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/好戏.json"
-    },
+ 
      {
       "key": "荐片",
       "name": "🔪荐片┃磁力",
@@ -652,25 +598,8 @@
       "api": "./lib/drpy2.min.js",
       "ext": "http://xn--yet226clhctt4b.fun:66/js/荐片.js"
     },
-    {
-      "key": "大鹏",
-      "name": "🦇嘉靓┃TV",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://api.jialiangos.com:88/api.php/app/"
-    },
-     {
-      "key": "电影港",
-      "name": "💫电影┃港湾",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "playerType": "1",
-      "ext": "./lib/电影港.json",
-      "jar": "./lib/xyq.jar"
-    },
+    
+    
     {
       "key": "布雷",
       "name": "💥布雷┃App",
@@ -680,18 +609,7 @@
       "ext": "FbjDcUxPqpfNr0QF4QvE6sExbctTA5hPEi0VqbGzxElfS8iS6G6dxFvYo6amRiS2bHOKw3Esnj46QzIsRoZ8bk4fG4OYi0iCaWwRj2ddkaM/FqHtLjQhalHiNTh6w9P3uBbzOpYja64omwk1u3D/dlZ+e5i4lng3PuAGTEUBPE34oPNY9+tFWr0Ibd9pVxAueSBD3QUsYQDulUET8DZ4nPtGpPvrhlgkKksJ9s4mWmxer4u57B2OO9qc8jua09TybbufTjMaeJGQem8U1MtbZnyk1e3UtOPZyIlX24R7PWpyLc4U0VzmkquLAB3kRiQZa1pOYUYuwm6vu/8spvSLhGbMhy+5bLc5qpPAk0mnh1ezzPQa03Cfg3JV6WGwrolC1+2steoOnaic6WQq9F2nYpq7a3QVfAbWyvIP+/mhJrtEycOuc999pfBr4Ub+yNWhIq06XaaI3EDX8h/oclhtPP9fIlIhPPNgZO/XgdX80PcGXdT2F0EtU+FJ+NoZjzcXq7OcD0dUFMudEpZ/ISVFLEQAhzFhoC3qYpmCY6xDrfjIL1W2Yh0LSk9qyfm9cw0EjDJZyt2PsVT3JxLuXjMgv0cdhPu2sTfBlL672ElQFkkjgpIL+YIQoLV69KeUYi3LYYjLFdixymHlDbdyGT19XRgwG5Z8t4e08xaRZXOd1ujQ/ZNncMJrpVQhY40mmnNcN2PHw5qapafKYcsoRMMM1d7R742jf5UE/zwNFXI+WRzxjrXerF/2fmmU0+8OGIVz9SWsllf++zV27ZOwFQ6qy07MrJ7TMEHHBrtYDaoFiOfBRLGyodnWIp1ZCPGqIxcA/5s+cdVwkd2wJdB1OKIqhz+Eg+0zmTRTFNUYUZWXvKEhDs7BuoaAQz5ArXla7xAg/F0Z1goy7k+xJZlmJlj1RJ5KdKlUvrDEQ8lCSIzPNPMz+g=="
     },
 
- {
-      "key": "csp_AliPS",
-      "name": "📀喵狸盘搜(搜索)",
-      "type": 3,
-      "api": "csp_AliPS",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "dba669fc1dde45db8e5962beb2198e65",
- "jar": "./lib/XYQ.jar"
-    },
+
     {
       "key": "csp_XYQHikerAL_云盘资源",
       "name": "📀云盘资源(搜索)",
@@ -718,16 +636,7 @@
     },
 
 
-    {
-      "key": "Vofl",
-      "name": "🔥鸟叔🎈直连",
-      "type": 3,
-      "api": "csp_Voflix",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },  
-      
+   
     {"key": "csp_Free",
     "name": "🔥Freeok",
     "type": 3,
@@ -743,15 +652,7 @@
 },
 
     
-     {
-      "key": "csp_Auete",
-      "name": "🔥Auete🔥",
-      "type": 3,
-      "api": "csp_Auete",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+   
     {
       "key": "dr_码上看_素白白",
       "name": "🔥码上看白白",
@@ -813,42 +714,7 @@
       "ext": "https://pan.shangui.cc/f/p5RUL/tk.php",
       "jar": "./lib/xry.jar"
     },
-    {
-      "key": "索尼",
-      "name": "🔥4KHDR站-B",
-      "type": 1,
-      "playerType": 2,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
-      "playUrl": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "欧美剧",
-        "韩剧",
-        "日剧",
-        "港剧",
-        "台剧",
-        "泰剧",
-        "记录片",
-        "海外剧",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺",
-        "足球",
-        "影视解说",
-        "国产动漫"
-      ]
-    }, 
+    
      {
       "key": "csp_101",
       "name": "🛎┃LOL┃2K",
@@ -896,15 +762,7 @@
       "quickSearch": 0,
       "changeable": 0
     },
-      {
-      "key": "追忆影视",
-      "name": "🐠追忆影视",
-      "type": 3,
-      "api": "csp_Appto",
-      "playerType": 2,
-      "ext": "SgfqwZ7mXT9kHnNF5fEfBFRfJVGiy4+WwnapqG/NY3BxdbcjxuSmnXN/KMdKfEmAbW86nRfRRsx8wG3JuaVRwKtFGrTNs9GKFMjzDysgVx+vXROKpT7GgFNl6mjK8KYx2Cd9N8wv9vOboEhX87E2+ckvZL2uDPkYk9cW+IePzeeW7N1VrtZGAJ5s8cnPumrviNowWKczX9/9g3IUgNAchFGWS8MIHy2LHJ/Jj1upM3boVaFchNX3fkkXpdfPjIHoRSgjQ3AkFnS7tcqEno/ZHQexTvGGwDN760tqsJnQiOJgr6wl3DaOAZpfS75U+i5cpvHkX9cYjCMp7Q33fl5FhFiMZruipNxP3ujfF1Y2sKhANvz+fycqBzvJr5ogkLc1sPDw+St4uFsGkDnmAraX0zPzwwggknimRXeudT7TZz1fk8Pfuh1acXEju5g8H6XPzbsi8KcJskusAiIoPiu86apOh6wNcWuD13IDIfs0RXSn+AkD6ELJFa+hPa1UZ8BddfI0Cd+LV15gKaZg0eiKs9n4t8rasm6x4KpP/XBwYR/kzMIS6aYri42R37koBsuHChJkOdsaRjS0+xUNTuIN8aM9QOWBK4fmoU1f4qYW3Nf/sdICVIh0FflXgHO0NgfE9tenAPWDCtxZia8eo3C4JcR43a7wRgJf3HyA6zcIh7eOs74eDoak9b1wU82+EHNhec3XrkfzSoSpqUzqz2NMtPYe8RU+lRXAiS6xGU8Uq7fYBzLiw/LfCnfoMXPbsQuwGCCy5348lrN3MqK1v/WMxHY2/7iGEDgHZAs/YJ+0Visz0mULi4bau8BJ9z/VYTZ9O67XWYSpZTvMA55rIDee9OwMGqqgRFVYE4xiiSj8JYVHT0WwxSYkcZes5qBL3h6hcCWUZoUXoY3rvNkdweATQ/nvnD5+Z6hvX6eNP4yUJWvB4CwqCI5htdXwTFQH6sdJWOLVK+oQiicDS8Non9FbFfgI6dGG+W5p5reMIfFExV+MdpOs5QWqVaw8tMPEMqKnG",
-      "jar": "./lib/6.txt"
-    },
+   
       {
       "key": "jszy",
       "name": "🔥极速采集",
