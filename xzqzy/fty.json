@@ -59,7 +59,7 @@
       "name": "️👔优酷少儿♻️",
       "type": 1,
       "api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/youku/?at/xml/",
-      "playUrl": "https://www.cgdyw.net/jiexi/jiexi-gf/?url=",
+      "playUrl": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
