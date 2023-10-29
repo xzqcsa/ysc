@@ -55,13 +55,11 @@
       "ext": "./lib/忙果.js"
     },
    
-     {
-      "key": "drpy_js_优酷",
-      "name": "♻️ 优酷少儿",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "jar": "./lib/YSC.jar",
-      "ext": "./lib/优酷.js"
+    {"key":"优酷",
+    "name":"♻️优酷少儿",
+    "type":3,
+    "api":"./lib/drpy2.min.js",
+    "ext":"./lib/youku.js"
     },
     {"key":"csp_Wo GG",
     "name":"🔥玩偶☆弹幕",
