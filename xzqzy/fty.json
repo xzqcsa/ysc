@@ -82,8 +82,8 @@
    {"key":"七新",
    "name":"🔥七新电影",
    "type":3,
+     "jar": "./lib/5.jar",
    "api":"csp_XBPQ",
-   "jar": "./lib/fty1.jar",
    "searchable":1,"quickSearch":1,"filterable":1,
    "ext":{"分类url": "http://www.7xdy.com/{cateId}/index{catePg}.html[firstPage=http://www.7xdy.com/{cateId}/index.html]",
    "倒序":"0",
@@ -2561,61 +2561,7 @@
       "type": 1,
       "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="
     },
-    {
-		"name": "官解1",
-		"type": 1,
-		"url": "http://api.huohua.vip/api/?key=6qwYWYpe4mSaPhFvSw&url=",
-		"ext": {
-			"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}
-		}
-	},{
-		"name": "官解2",
-		"type": 1,
-		"url": "http://27.124.4.42:4567/jhjson/ceshi.php?url=",
-		"ext": {
-			"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}
-		}    
-	},{
-		"name": "官解3",
-		"type": 1,
-		"url": "http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url=",
-		"ext": {
-			"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}
-		} 
-    },{
-		"name": "官解4",
-		"type": 1,
-		"url": "http://api.huohua.vip/api/?key=6qwYWYpe4mSaPhFvSw&url=",
-		"ext": {
-			"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}
-		}    
-	},{
-		"name": "影探",
-		"type": 1,
-		"url": "http://lflong.lyyytv.cn/json.php?url=",
-		"ext": {
-			"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}
-		}    
-	},{
-		"name": "蚂蚁",
-		"type": 1,
-		"url": "http://118.99.2.230:6688/api/?key=vAhZ67qzRdW2czQEo2&url=",
-		"ext": {
-			"flag": ["NBY"],"header":{"User-Agent":"okhttp/4.1.0"}
-		}    
-	},{
-		"name": "玉米",
-		"type": 1,
-		"url": "http://42.157.128.109:2323/CH/zy/Yumi.php?url=",
-	    "ext": {
-			"flag": ["YuMi-vip"],"header":{"User-Agent":"okhttp/4.1.0"}
-		}    
-	},{
-        "name": "飞云",
-        "type": 1, 
-        "url": "https://daina.hk/api/?key=db18410c19c9ef6713cb5aa1408d2da4&url=", 
-	    "ext": { "flag": [ "FY" ] ,"header":{"User-Agent": "Lavf/58.12.100"}}
-    },
+    
      {
       "name": "️余",
       "type": 0,
