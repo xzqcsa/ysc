@@ -55,18 +55,11 @@
       "ext": "./lib/忙果.js"
     },
    {
-      "key": "优酷资源",
-      "name": "️👔优酷少儿♻️",
-      "type": 1,
-      "api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/youku/?at/xml/",
-      "playUrl": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-       
-        "动漫"
-      ]
+      "key": "优酷1",
+      "name": "♻️优酷少儿频道",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/优酷.js"
     },
     {"key":"csp_Wo GG",
     "name":"🔥玩偶☆弹幕",
