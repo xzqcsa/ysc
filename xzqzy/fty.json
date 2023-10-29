@@ -59,7 +59,7 @@
       "name": "♻️优酷少儿频道",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./lib/优酷.js"
+      "ext": "clan://localhost/优酷.js"
     },
     {"key":"csp_Wo GG",
     "name":"🔥玩偶☆弹幕",
