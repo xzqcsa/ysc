@@ -60,6 +60,7 @@
       "name": "♻️ 优酷少儿",
       "type": 3,
       "api": "./lib/drpy2.min.js",
+      "jar": "./lib/f.jar",
       "ext": "./lib/优酷.js"
     },
     {"key":"csp_Wo GG",
