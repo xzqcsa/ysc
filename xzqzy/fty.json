@@ -123,7 +123,7 @@
    
    {
       "key": "七夜",
-      "name": "😾七夜┃云盘",
+      "name": "🔍七夜┃云盘🔍",
       "type": 3,
       "api": "csp_Dovx",
       "searchable": 1,
@@ -133,7 +133,7 @@
     },
     {
       "key": "PanSearch",
-      "name": "🙀盘Se┃搜索",
+      "name": "🔍盘Se┃搜索🔍",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
@@ -144,7 +144,7 @@
      
       {
       "key": "UpYun",
-      "name": "🔍阿里|优盘搜",
+      "name": "🔍阿里|优盘搜🔍",
       "type": 3,
       "api": "csp_UpYun",
       "searchable": 1,
