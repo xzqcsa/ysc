@@ -79,7 +79,23 @@
        "jar": "./lib/fty1.jar",
       "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$关"
     },
- 
+     {"key":"剧圈圈",
+     "name":"🔥剧圈圈影视",
+     "type":3,"api":"csp_XBPQ",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.jqqzx.cc/vodshow/id/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
+      "分类": "电影$dianying#剧集$juji#综艺$zongyi#动漫$dongman"}},
+         {
+      "key": "小纸条_cli",
+      "name": "🔥俊于 | 小纸条[T4]",
+      "type": 4,
+      "api": "http://home.jundie.top:9520/spider/cli_gitCafe",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt",
+      "timeout": 30
+    },
    {
            "key": "91free",
            "name": "💐91Free",
