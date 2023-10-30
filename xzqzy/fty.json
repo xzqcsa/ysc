@@ -120,16 +120,7 @@
       "ext": "./lib/少儿教育.json"
     },
 
-    {
-      "key": "PanSou",
-      "name": "🦊盘搜┃搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "./tvbox/tok.txt+4k|fhd|auto"
-    },
+   
    {
       "key": "七夜",
       "name": "😾七夜┃云盘",
@@ -150,17 +141,7 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
     },
-     {
-      "key": "Gitcafe",
-      "name": "🔍阿里|纸条搜",
-      "type": 3,
-      "api": "csp_Paper",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-       "jar": "./lib/HeChengChaXiu.jar",
-      "ext": "./tvbox/tok.txt+4k|fhd|auto"
-    },
+     
       {
       "key": "UpYun",
       "name": "🔍阿里|优盘搜",
