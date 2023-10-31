@@ -2327,6 +2327,18 @@
         ]
       }
     },
+    {
+            "name": "YuMi🥭解析",
+            "type": 1,
+            "url": "https://jxjson.cf/json.php?url=",
+            "ext": {
+                "flag": [
+                    "qiqi-",
+                    "YuMi",
+                    "YuMi-vip"
+                ]
+            }
+        },
      {
       "name": "小城解析",
       "type": 1,
