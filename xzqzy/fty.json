@@ -2287,7 +2287,7 @@
  {
       "name": "动画片",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=5223550&key=defotCEIJKOPSUYZ67&url="
     },
      {
       "name": "自动解析",
@@ -2318,10 +2318,60 @@
       }
     },
      {
-      "name": "️余",
-      "type": 0,
-      "url": "https://www.pangujiexi.com/pangu/?url="
-    }   ,
+      "name": "小城解析",
+      "type": 1,
+      "url": "https://jx.ccabc.cc/xc/?key=5567332json&url="
+    },
+     {
+      "name": "小新解析",
+      "type": 1,
+      "url": "http://xiaoxin.1080p.me/home/api?type=ys&uid=2781037&key=eijkoqxBDFGILRTUWZ&url="
+    },
+    {
+      "name": "小鱼解析",
+      "type": 1,
+      "url": "http://jx.wogg.link:63/jiexi/饭特析.php?url="
+    },
+    {
+      "name": "夜曲解析",
+      "type": 1,
+      "url": "http://xhww.fun:63/小米特别爱肥猫.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "CL4K",
+          "renrenmi",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua",
+          "nongmin",
+          "CL4K",
+          "xfyun",
+          "ffm3u8",
+          "lzm3u8",
+          "netease",
+          "pgyer",
+          "TD",
+          "qzone",
+          "FY",
+          "ppayun",
+          "Feiyun",
+          "zhibo"
+         ] }},
+    
      {
       "name": "茶桶1解析",
       "type": 1,
