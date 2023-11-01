@@ -116,6 +116,15 @@
       "ext": "https://m.kugou.com/"
    ,
             "jar": "./lib/pg.jar" },
+          
+            { "key": "酷狗",
+             "name": "🔥音乐☆大全",
+              "type": 3, 
+              "api": "csp_Kugou",
+               "searchable": 0, 
+               "changeable": 0,
+               "jar":"./lib/pg.jar"},
+
 
     {
       "key": "少儿教育",
