@@ -105,6 +105,18 @@
       "filterable": 1,
       "ext": "./lib/iqy.js"
     },
+     {
+      "key": "kugou",
+      "name": "🔥酷狗音乐🔥",
+      "type": 3,
+      "api": "csp_Kugou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://m.kugou.com/"
+   ,
+            "jar": "./lib/pg.jar" },
+
     {
       "key": "少儿教育",
       "name": "📚少儿┃教育",
