@@ -119,6 +119,15 @@
       "changeable": 0,
       "ext": "./lib/少儿教育.json"
     },
+    {"key":"csp_雷达",
+    "name":"💕春哥☆雷达",
+    "type":3,
+    "api":"csp_XBPQ",
+    "searchable":1,
+    "quickSearch":1,
+    "filterable":1,
+    "ext":"./lib/雷达.json"
+    },
  {
       "key": "YiSo",
       "name": "🔍一搜(阿里搜索)🔍",
