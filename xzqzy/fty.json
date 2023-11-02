@@ -72,6 +72,23 @@
       "jar": "./lib/v3.jar",
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
     },
+      {
+      "key": "玩偶",
+      "name": "😍玩偶哥哥|阿里线路",
+      "type": 3,
+      "style": {
+        "type": "rect",
+        "ratio": 1.485
+      },
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "f58bea917ce946c18479c25e453544b3",
+        "filter": "./lib/wogg_2.json"
+      }
+    },
     {"key":"csp_Wo GG",
     "name":"🔥玩偶☆弹幕",
     "type":3,"api":"csp_WoGG",
