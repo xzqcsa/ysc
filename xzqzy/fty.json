@@ -79,7 +79,9 @@
       "api": "csp_WoGG",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "filterable": 1,  
+        "jar": "./lib/fty1.jar",   
+
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$弹"
     },
