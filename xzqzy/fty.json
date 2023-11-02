@@ -124,6 +124,11 @@
       "quickSearch": 0,
       "changeable": 0
     },
+    {"key":"csp_淘剧猫","name":"淘剧☆春哥","type":3,
+    "api":"csp_XBPQ",
+    "searchable":1,"quickSearch":1,
+    "filterable":1,
+    "ext":"./lib/淘剧猫.json"},
     
      {
       "key": "drpy_爱奇艺",
