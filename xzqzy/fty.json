@@ -72,6 +72,17 @@
       "jar": "./lib/v3.jar",
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
     },
+     {
+      "key": "csp_WoGG",
+      "name": "👽玩偶🔥哥哥(弹幕测试)",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$弹"
+    },
       {
       "key": "玩偶",
       "name": "😍玩偶哥哥|阿里线路",
@@ -89,13 +100,14 @@
         "filter": "./lib/wogg_2.json"
       }
     },
-    {"key":"csp_Wo GG",
-    "name":"🔥玩偶☆弹幕",
-    "type":3,"api":"csp_WoGG",
-    "searchable":1,
-    "quickSearch":1,
-    "changeable":0,
-    "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$弹"},
+   {"key":"玩偶哥哥",
+   "name":"🔥玩偶哥哥┃4K弹幕",
+   "type":3,"api":"csp_WoGG",
+   "searchable":1,
+   "quickSearch":1,
+    "jar": "./lib/fty1.jar",
+   "changeable":0,
+   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.link/$$$弹"},
      {
       "key": "csp_WoGG",
       "name": "👽玩偶哥哥┃4K.饭",
