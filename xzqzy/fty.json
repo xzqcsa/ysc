@@ -61,6 +61,17 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/优酷.js"
     },
+    {
+      "key": "csp_FanYY",
+      "name": "🔥玩偶🌸影视",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./lib/v3.jar",
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
+    },
     {"key":"csp_Wo GG",
     "name":"🔥玩偶☆弹幕",
     "type":3,"api":"csp_WoGG",
