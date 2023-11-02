@@ -14,13 +14,13 @@
     },
        {
      "key":"py_cctv",
-     "name": "🦢CCTV🎈鸟叔整理🎈一月一更",
+     "name": "🦢CCTV🎈",
      "type": 3,
      "api":"py_cctv",
      "searchable": 0,
      "quickSearch": 0,
      "filterable": 0,
-      "jar": "./lib/v3.jar",
+      "jar": "./lib/Tong.jar",
      "ext": "./lib/py_cctv.py"
     },
      {
@@ -212,16 +212,7 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
     },
-    {
-     "key":"纸条",
-     "name": "🔍纸条🐏搜索🔍",
-     "type": 3,
-     "api": "csp_Paper",
-     "searchable": 1,
-     "filterable": 1,
-     "changeable": 0,
-     "jar":"./lib/6.jar"
-    },
+   
     {
       "key": "PanSearch",
       "name": "🔍盘Se┃搜索🔍",
