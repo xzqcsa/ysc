@@ -14,12 +14,13 @@
     },
      {
       "key":"py_cctv",
-     "name": "🦢CCTV鸟叔整理🎈",
+     "name": "🦢CCTV大全🎈",
      "type": 3,
      "api":"py_cctv",
      "searchable": 0,
      "quickSearch": 0,
      "filterable": 0,
+     "jar": "./lib/Tong.jar",
      "ext": "./lib/py_cctv.py"
     },
      {
@@ -61,17 +62,24 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/优酷.js"
     },
-    {
-      "key": "csp_FanYY",
-      "name": "🔥玩偶🌸影视",
+     {
+      "key": "YQK_spider",
+      "name": "🔥白虎",
       "type": 3,
-      "api": "csp_WoGG",
+      "api": "csp_YQKan",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "jar": "./lib/v3.jar",
-      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
+      "jar": "./lib/Tong.jar",
+      "filterable": 1
     },
+    {"key": "xml_玩偶",
+"name": "🧙玩偶┃哥哥",
+"type": 4,
+"api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=dba669fc1dde45db8e5962beb2198e65",
+"searchable": 1,
+"quickSearch": 1,
+"filterable": 1},
+    
      {
       "key": "csp_WoGG",
       "name": "👽玩偶🔥哥哥(弹幕测试)",
@@ -80,10 +88,10 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,  
-        "jar": "./lib/fty1.jar",   
+        "jar": "./fty.jar",   
 
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$弹"
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"
     },
      
    {"key":"玩偶哥哥",
@@ -93,7 +101,7 @@
    "quickSearch":1,
     "jar": "./lib/fty1.jar",
    "changeable":0,
-   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://www.wogg.link/$$$弹"},
+   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
      {
       "key": "csp_WoGG",
       "name": "👽玩偶哥哥┃4K.饭",
@@ -126,11 +134,7 @@
       "quickSearch": 0,
       "changeable": 0
     },
-    {"key":"csp_淘剧猫","name":"淘剧☆春哥","type":3,
-    "api":"csp_XBPQ",
-    "searchable":1,"quickSearch":1,
-    "filterable":1,
-    "ext":"./lib/淘剧猫.json"},
+   
     
      {
       "key": "drpy_爱奇艺",
@@ -576,10 +580,7 @@
   
       
     
-{"key": "xml_玩偶",
-"name": "🧙玩偶┃哥哥",
-"type": 4,
-"api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=dba669fc1dde45db8e5962beb2198e65","searchable": 1,"quickSearch": 1,"filterable": 1},
+
 {"key":"csp_XBPQ_火狐",
 "name":"👶火狐☆影视","type":3,"api":"csp_XBPQ",
 "searchable":1,"quickSearch":1,"filterable":1,"jar": "./lib/xyqgy0922.jar",
