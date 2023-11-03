@@ -634,27 +634,7 @@
       "quickSearch": 1,
       "filterable": 0
     },
-     {
-      "key": "艾旦影视",
-      "name": "♻️艾旦",
-      "type": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "api": "https://lovedan.net/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-  
-      
     
-
-{"key":"csp_XBPQ_火狐",
-"name":"👶火狐☆影视","type":3,"api":"csp_XBPQ",
-"searchable":1,"quickSearch":1,"filterable":1,"jar": "./lib/xyqgy0922.jar",
-"ext":{"分类url":"https://www.huohutv.net/vod-show-area-{area}-by-{by}-class-{class}-id-{cateId}-letter-{letter}-page-{catePg}-year-{year}.htmlhttps://www.huohutv.net/vod-show-area-{area}-by-{by}-class-{class}-id-{cateId}-letter-{letter}-page-{catePg}-year-{year}.html","分类":"电影$1#电视剧$2#综艺$3#动漫$4"}},
 {"key": "快看",
 "name": "👀快看",
 "type": 3,
@@ -669,10 +649,7 @@
       "filterable": 1,
       "api": "https://xkanzy10.com/api.php/provide/vod"
     },
-{"key":"csp_Ysgc",
-"name":"🎥┃影院┃工厂","type":3,"api":"csp_Ysgc",
-"searchable":1,"quickSearch":1,"filterable":1,"m3u8ads":"hd.youyhn.com",
-"ext":"https://www.ysgc.fun"},
+
  {
     "key": "影图影院",
     "name": "❤️┃影图",
@@ -760,31 +737,7 @@
     },
 
 
-    {
-      "key": "csp_XYQHikerAL_云盘资源",
-      "name": "📀云盘资源(搜索)",
-      "type": 3,
-      "api": "csp_XYQHikerAL",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/云盘资源分享.json",
- "jar": "./lib/XYQ.jar"
-    },
-    {
-      "key": "csp_XYQHikerAL_我的小站",
-      "name": "📀我的小站(搜索)",
-      "type": 3,
-      "api": "csp_XYQHikerAL",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/我的小站.json",
- "jar": "./lib/XYQ.jar"
-    },
-
+  
 
    
     {"key": "csp_Free",
@@ -1833,13 +1786,7 @@
       "ext": "./lib/菜狗.js"
     },
      
-     {
-      "key": "drpy_js_91free",
-      "name": "🔥 91free[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/91free.js"
-    },
+    
      {
       "key": "drpy_js_Voflix",
       "name": "🔥 Voflix[js]",
