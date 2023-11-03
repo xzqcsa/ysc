@@ -12,6 +12,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
+      "jar": "./lib/fty1.jar",
       "ext": "./py_cctvdh.py"
     },
 {"key": "py_cctv",
