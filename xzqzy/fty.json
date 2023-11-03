@@ -94,6 +94,16 @@
       "jar": "./lib/alibaba.jar"
     },
      {
+      "key": "drpy_爱奇艺",
+      "name": "👶爱奇艺┃儿童!",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/iqy.js"
+    },
+     {
       "key": "奇艺1",
       "name": "♻️爱奇艺少儿频道",
       "type": 3,
@@ -196,16 +206,7 @@
     },
    
     
-     {
-      "key": "drpy_爱奇艺",
-      "name": "👶爱奇艺┃儿童!",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/iqy.js"
-    },
+    
      {
       "key": "kugou",
       "name": "🔥酷狗音乐🔥",
@@ -269,6 +270,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+       "jar": "./lib/HeChengChaXiu.jar",  
+
       "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
     },
    {
