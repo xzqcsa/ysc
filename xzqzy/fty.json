@@ -3,31 +3,84 @@
   "spider": "./fty.jar;md5;8960305db3cdfcb9842298cc39959c11",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
-    {
-      "key": "豆豆",
-      "name": "🔥旺强影视🔥",
-      "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-      {
-    "key": "py_cctv_集合2",
-    "name": "🔥央视动画片",
-    "type": 3,
-    "api": "py_cctv",
-    "style": {
-        "type": "oval",
-        "ratio": 0.75
-    },
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-      "jar": "./lib/fty1.jar",
-    "ext": "./lib/央视合集.json"
+    
+   
+     {"key": "py_cctv",
+     "name": "🔥旺强影视🔥",
+     "type": 3,
+     "api": "py_cctv",
+     "searchable": 0,
+     "quickSearch": 0,"filterable": 1,
+     "ext": "./lib/cntv.py"
+     },
+{"key": "py_cctv_央视集合",
+"name": "❤️央视☆动画片,",
+"type": 3,
+"api": "py_cctv",
+"searchable": 1,
+"quickSearch": 1,
+"filterable": 1,
+"ext": "./lib/央视集合.json"
 },
-
+{"key": "py_baby",
+"name": "👶少儿☆综合",
+"type": 3,
+"api": "py_baby",
+"searchable": 0,
+"quickSearch": 0,
+"filterable": 1,
+"ext": "./lib/baby.py"
+},
+ {
+      "key": "儿童识字",
+      "name": "👶儿童☆识字",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/儿童识字.json"
+    },
+    {
+      "key": "儿童英语",
+      "name": "👶儿童☆英语",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/儿童英语.json"
+    },
+    {
+      "key": "儿童硬笔",
+      "name": "👶儿童☆硬笔",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/儿童硬笔.json"
+    },
+    {
+      "key": "儿童思维",
+      "name": "👶儿童☆思维",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/儿童思维.json"
+    },
+    {
+      "key": "兴趣培养",
+      "name": "👶兴趣☆培养",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/兴趣培养.json"
+    },
      {
       "key": "csp_KungFu404",
       "name": "🔥token设置（致敬404）",
