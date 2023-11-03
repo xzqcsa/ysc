@@ -12,17 +12,21 @@
       "quickSearch": 0,
       "filterable": 0
     },
-       {
-     "key":"py_cctv",
-     "name": "🦢CCTV🎈",
-     "type": 3,
-     "api":"py_cctv",
-     "searchable": 0,
-     "quickSearch": 0,
-     "filterable": 0,
-      "jar": "./lib/Tong.jar",
-     "ext": "./lib/py_cctv.py"
+      {
+    "key": "py_cctv_集合2",
+    "name": "🔥央视动画片",
+    "type": 3,
+    "api": "py_cctv",
+    "style": {
+        "type": "oval",
+        "ratio": 0.75
     },
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "./lib/央视合集.json"
+},
+
      {
       "key": "csp_KungFu404",
       "name": "🔥token设置（致敬404）",
