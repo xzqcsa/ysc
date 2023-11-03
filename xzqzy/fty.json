@@ -346,18 +346,7 @@
       "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt",
       "timeout": 30
     },
-   {
-           "key": "91free",
-           "name": "💐91Free",
-           "type": 3,
-           "jar": "./lib/5.jar",
-           "api": "csp_XBPQ",
-           "searchable": 1,
-           "quickSearch": 1,
-           "filterable": 1,
-           "changeable": 1,
-           "ext": "./lib/91free.json"
-       },
+  
     {
             "key": "天空影视",
             "name": "🔥天空影视",
@@ -876,14 +865,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "categories": ["动作片","爱情片","喜剧片","科幻片","恐怖片","剧情片","战争片","记录片","灾难片","悬疑片","犯罪片","奇幻片","动画片","中国动漫","日本动漫","欧美动漫","内地剧","欧美剧","香港剧","台湾剧","韩剧","日剧","马泰剧","伦理片","体育赛事","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
-      {
-      "key": "喵喵影视",
-      "name": "🦉喵喵影视",
-      "type": 3,
-      "api": "csp_Appto",
-      "ext": "XRZspkas5l6NsZJWpEURh6BqKRxqCIw3QY+Bj3/9Gbahdt/I/fP2xq6LIBnrWE8xh45v/vHcmXllR1G9Po2b5t7Z8VyUowvfHsXJA/bkW7XAzegsRcxq8ZqYgUtJTGeh4UtuRrbaaKK5cL96vwgHLQ9hOn8jppN5pZgJ3ZsWQuocwI45MZOaQqi7aNyJmi0PxTt07Djk0kqVoxoHrNGjT2BH7H4K65HXLRMWhyrWswhbnSciFfwjen91iAeJaMuwqQEWSRhShJWb6WTtjXghM8JBksS0432c31evYyFEEq5yiCHTpSm35nFsLmwiI2Q0F20FTMvOA8xIKqGyazVjCVUN3gc0LDqnLWBLFdxsJHh6asndaxPCn7UitiRVuW0Ans3FzhINr5QayshrUtqJHan9h7ItRlx8XkvCh83eWkuRoGBiPC4X/mcbrawRwOM04jIRiRhJl9Dit+b5Rw35Ugvd8qzARtaLkecNFS54zX1UfVJecKBrqSyl0dx8pk2EyG1vZZ0NnnZ2JMuBvywc0gxO45mAnyMM46+igcv76u4DkqA0wFVKHtLXu5TNbOZOfLnnMChe0PdbnQva25mMHgtHYHfZbYlldh6fPdMOidoaiyg+Yd/n1xgoo16k9zclT+ioH6OBrsKG2GYlFVFxLI4bwm+v6zk237jlWXg5bj4Q=",
-      "jar": "./lib/6.txt"
-    },
+      
    
    
    
@@ -893,33 +875,7 @@
        "ext": { "分类url": "https://aoao.tv/vodshow/{cateId}--------{catePg}---.html",
         "分类": "短剧$20#电视剧$21#电影$22#动漫$23#综艺$24" } }, 
       
-    {
-           "key": "kkys",
-           "name": "♻️可可影视",
-           "type": 3,
-           "style": {
-               "type": "rect",
-               "ratio": 1.597
-           },
-           "jar": "./lib/xbpq.jar",
-           "api": "csp_XBPQ",
-           "searchable": 1,
-           "quickSearch": 1,
-           "filterable": 1,
-           "changeable": 1,
-           "ext": {
-               "站名": "可可影视",
-               "作者": "yydf",
-               "主页url": "https://www.frwve.cn",
-               "数组": "class=\"module-item\">&&</a",
-               "链接": "href=\"&&\"",
-               "标题": "title=\"&&\"",
-               "副标题": "<span>&&</span>",
-               "图片链接": "src=\"&&\"",
-               "分类url": "https://www.frwve.cn/show/{cateId}--{area}--{year}-1-{catePg}.htmlhttps://www.frwve.cn/show/{cateId}--{area}--{year}-1-{catePg}.html",
-               "分类": "电影$1#连续剧$2#动漫$3#综艺纪录$4"
-           }
-       },
+  
         {
       "key": "探探",
       "name": "🔥影探☆影视",
