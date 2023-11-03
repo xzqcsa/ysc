@@ -272,7 +272,7 @@
       "filterable": 1,
        "jar": "./lib/HeChengChaXiu.jar",  
 
-      "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
+     "ext": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
     },
    {
       "key": "七夜",
