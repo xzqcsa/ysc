@@ -6,7 +6,7 @@
     
    
      {"key": "py_cctv",
-     "name": "🔥旺强影视🔥",
+     "name": "🔥央视大全🔥",
      "type": 3,
      "api": "py_cctv",
      "searchable": 0,
@@ -14,7 +14,7 @@
      "ext": "./lib/cntv.py"
      },
 {"key": "py_cctv_央视集合",
-"name": "❤️央视☆动画片,",
+"name": "❤️央视☆动画片",
 "type": 3,
 "api": "py_cctv",
 "searchable": 1,
