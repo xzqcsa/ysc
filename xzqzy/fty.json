@@ -261,7 +261,16 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto"
     },
-   
+    {
+      "key": "Gitcafe",
+      "name": "🔍网盘|小纸条🔍",
+      "type": 3,
+      "api": "csp_Paper",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
+    },
    {
       "key": "七夜",
       "name": "🔍七夜🌸搜索🔍",
