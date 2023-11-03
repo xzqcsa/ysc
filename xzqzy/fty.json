@@ -15,6 +15,15 @@
 "filterable": 1,
 "ext": "./lib/央视集合.json"
 },
+{"key": "py_cctv",
+"name": "❤️央视☆大全",
+"type": 3,
+"api": "py_cctv",
+"searchable": 0,
+"quickSearch": 0,
+"filterable": 1,
+"ext": "./lib/cntv.py"},
+
 {"key": "py_baby",
 "name": "👶少儿☆综合",
 "type": 3,
@@ -2130,7 +2139,7 @@
       "ext": "https://sk100.tv/api.php/app/"
    },
   
-   {"key":"py_cctv","name":"🔥央视大全","type":3,"api":"py_cctv","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/py_cctv.py"},
+
    
    
    
