@@ -168,6 +168,7 @@
     {"key": "xml_玩偶",
 "name": "🧙玩偶┃哥哥",
 "type": 4,
+ "jar": "./lib/fty2.jar",
 "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=dba669fc1dde45db8e5962beb2198e65",
 "searchable": 1,
 "quickSearch": 1,
