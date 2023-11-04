@@ -163,7 +163,7 @@
         "filter": "./lib/wogg.json",
         "danmu": true
       },
-      "jar": "./lib/fty1.jar"
+      "jar": "./lib/danmu.jar"
     },
     {"key": "xml_玩偶",
 "name": "🧙玩偶┃哥哥",
