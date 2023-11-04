@@ -246,6 +246,17 @@
     "filterable":1,
     "ext":"./lib/雷达.json"
     },
+     {
+      "key": "🍮Gitcafe6",
+      "name": "🔍纸条搜（带资源）🔍",
+      "type": 3,
+      "api": "csp_Paper",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://127.0.0.1:9978/file/千软汇/阿里/token.txt",
+      "jar": "./lib/HeChengChaXiupm.jar"
+    },
  {
       "key": "YiSo",
       "name": "🔍一搜(阿里搜索)🔍",
