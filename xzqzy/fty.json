@@ -149,6 +149,36 @@
       "jar": "./lib/Tong.jar",
       "filterable": 1
     },
+    {
+      "key": "玩偶",
+      "name": "🔥玩偶哥哥|4K",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt",
+        "filter": "./lib/wogg.json",
+        "danmu": false
+      },
+      "jar": "./lib/danmu.jar"
+    },
+    {
+      "key": "玩偶弹幕版",
+      "name": "🔥玩偶哥哥┃弹幕版",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt",
+        "filter": "./lib/wogg.json",
+        "danmu": true
+      },
+      "jar": "./lib/danmu.jar"
+    },
     {"key": "xml_玩偶",
 "name": "🧙玩偶┃哥哥",
 "type": 4,
@@ -178,17 +208,7 @@
       "ext": "http://127.0.0.1:9978/file/千软汇/阿里/token.txt",
       "jar": "./lib/HeChengChaXiupm.jar"
     },
-     {
-      "key": "csp_WoGG",
-      "name": "👽玩偶哥哥┃4K.饭",
-      "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-       "jar": "./lib/fty1.jar",
-      "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$关"
-    },
+    
     {"key":"csp_来看",
     "name":"💕来看☆春哥",
     "type":3,"api":"csp_XBPQ",
