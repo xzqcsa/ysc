@@ -149,21 +149,7 @@
       "jar": "./lib/Tong.jar",
       "filterable": 1
     },
-    {
-      "key": "玩偶",
-      "name": "🔥玩偶哥哥|4K",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt",
-        "filter": "./wogg.json",
-        "danmu": false
-      },
-      "jar": "./lib/danmu.jar"
-    },
+    
     {
       "key": "玩偶弹幕版",
       "name": "🔥玩偶哥哥┃弹幕版",
