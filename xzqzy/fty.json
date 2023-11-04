@@ -168,6 +168,17 @@
    "changeable":0,
    "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
      {
+      "key": "🍮Gitcafe6",
+      "name": "🔥纸条阿里🔥",
+      "type": 3,
+      "api": "csp_Paper",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://127.0.0.1:9978/file/千软汇/阿里/token.txt",
+      "jar": "./lib/HeChengChaXiupm.jar"
+    },
+     {
       "key": "csp_WoGG",
       "name": "👽玩偶哥哥┃4K.饭",
       "type": 3,
@@ -246,17 +257,7 @@
     "filterable":1,
     "ext":"./lib/雷达.json"
     },
-     {
-      "key": "🍮Gitcafe6",
-      "name": "🔍纸条搜（带资源）🔍",
-      "type": 3,
-      "api": "csp_Paper",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://127.0.0.1:9978/file/千软汇/阿里/token.txt",
-      "jar": "./lib/HeChengChaXiupm.jar"
-    },
+   
  {
       "key": "YiSo",
       "name": "🔍一搜(阿里搜索)🔍",
@@ -2011,19 +2012,7 @@
       "jar": "./lib/920.jar"
     },    
 
-   {
-  "key": "yp",
-  "name": "🔥YP",
-  "type": 1,
-  "playerType": 1,
-  "api": "http://zy.xzam.cn/api.php/provide/vod/",
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 1,
-  "changeable": 1,
-  "categories": ["欧美剧","日韩剧","国产剧","电影"]
-},
-
+ 
    
    {
         "key": "yqkan_open",
