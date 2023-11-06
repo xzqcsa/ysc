@@ -167,7 +167,7 @@
       "changeable": 0,
       "ext": {
         "token": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt",
-        "filter": "./lib/wogg.json",
+        "filter": "./wogg.json",
         "danmu": true
       },
       "jar": "./lib/danmu.jar"
