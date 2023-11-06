@@ -157,7 +157,16 @@
     "jar": "./lib/fty2.jar",
    "changeable":0,
    "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
-   
+   {
+      "key": "Wogg",
+      "name": "🅱️玩偶哥哥|T追剧",
+      "type": 3,
+      "api": "csp_XPathAli",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./lib/玩偶.json"
+    },
     {"key": "xml_玩偶",
 "name": "🧙玩偶┃哥哥",
 "type": 4,
