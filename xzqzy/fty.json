@@ -165,7 +165,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "jar": "./lib/HeChengChaXiupm.jar",
+        "jar": "./lib/fty2.jar",
       "ext": "./lib/玩偶.json"
     },
     {"key": "xml_玩偶",
