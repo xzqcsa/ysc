@@ -157,21 +157,7 @@
     "jar": "./lib/fty2.jar",
    "changeable":0,
    "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
-    {
-      "key": "玩偶弹幕版",
-      "name": "🔥玩偶弟弟┃弹幕版",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt",
-        "filter": "./wogg.json",
-        "danmu": true
-      },
-      "jar": "./lib/danmu.jar"
-    },
+   
     {"key": "xml_玩偶",
 "name": "🧙玩偶┃哥哥",
 "type": 4,
