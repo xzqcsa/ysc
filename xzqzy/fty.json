@@ -178,12 +178,13 @@
     
     {
       "key": "csp_woggcli",
-      "name": "玩偶(cli)",
+      "name": "🔥玩偶(cli)",
       "type": 4,
       "api": "http://home.jundie.top:9520/spider/csp_Wogg",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "jar": "./lib/fty2.jar",
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto"
     },
     {
@@ -216,16 +217,7 @@
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto",
       "jar": "./lib/rski.js"
     }, 
-     {
-      "key": "移动云盘",
-      "name": "移动云盘",
-      "type": 1,
-      "playerType": 1,
-      "api": "http://xn--yetu07f.xn--yetu07f.icu:66/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-   
+     
      {
       "key": "🍮Gitcafe6",
       "name": "🔥纸条阿里🔥",
