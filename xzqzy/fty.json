@@ -161,11 +161,11 @@
       "key": "Wogg",
       "name": "🅱️玩偶哥哥|T追剧",
       "type": 3,
-      "api": "csp_XPathAli",
+      "api": "csp_WoGG",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-        "jar": "./lib/fty2.jar",
+      
       "ext": "./lib/玩偶.json"
     },
     {"key": "xml_玩偶",
