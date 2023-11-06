@@ -149,10 +149,17 @@
       "jar": "./lib/Tong.jar",
       "filterable": 1
     },
-    
+    {"key":"玩偶哥哥",
+   "name":"🔥玩偶哥哥┃4K弹幕",
+   "type":3,"api":"csp_WoGG",
+   "searchable":1,
+   "quickSearch":1,
+    "jar": "./lib/fty2.jar",
+   "changeable":0,
+   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
     {
       "key": "玩偶弹幕版",
-      "name": "🔥玩偶哥哥┃弹幕版",
+      "name": "🔥玩偶弟弟┃弹幕版",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
@@ -168,7 +175,6 @@
     {"key": "xml_玩偶",
 "name": "🧙玩偶┃哥哥",
 "type": 4,
- "jar": "./lib/fty2.jar",
 "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=dba669fc1dde45db8e5962beb2198e65",
 "searchable": 1,
 "quickSearch": 1,
@@ -176,14 +182,7 @@
     
     
      
-   {"key":"玩偶哥哥",
-   "name":"🔥玩偶哥哥┃4K弹幕",
-   "type":3,"api":"csp_WoGG",
-   "searchable":1,
-   "quickSearch":1,
-    "jar": "./lib/fty2.jar",
-   "changeable":0,
-   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
+   
      {
       "key": "🍮Gitcafe6",
       "name": "🔥纸条阿里🔥",
