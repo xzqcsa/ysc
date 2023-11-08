@@ -175,7 +175,30 @@
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1},
-    
+     {  "key": "Wobg",
+      "name": "♻️阿里|玩偶表哥",
+      "type": 3,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "jar": "./jar/pg.jar",
+      "api": "csp_Wobg",
+      "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$http://wobge.run.goorm.io"
+    },
+    {
+      "key": "Hdhive",
+      "name": "♻️阿里|影巢",
+      "type": 3,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+       "jar": "./jar/pg.jar",
+      "api": "csp_Hdhive",
+      "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt"
+    },   
+      
    
     {
       "key": "csp_XYQHikerAL_阿里云盘网",
