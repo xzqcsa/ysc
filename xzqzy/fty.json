@@ -179,7 +179,7 @@
       "name": "♻️阿里|玩偶表哥",
       "type": 3,
       
-      "jar": "./lib/fty2.jar",
+       "jar": "./jar/pg.jar",
       "api": "csp_Wobg",
       "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$https://wobge.run.goorm.io/"
     },
