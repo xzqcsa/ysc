@@ -168,6 +168,17 @@
       "jar": "./HeChengChaXiu.jar",
       "ext": "./lib/玩偶.json"
     },
+     {
+      "key": "玩偶备用",
+      "name": "👽玩偶备用",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "jar": "./lib/fty2.jar",
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
+    },
     {"key": "xml_玩偶",
 "name": "🧙玩偶┃哥哥",
 "type": 4,
