@@ -182,7 +182,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-       "jar": "./HeChengChaXiu.jar",
+       "jar": "./lib/pg.jar",
       "api": "csp_Wobg",
       "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$https://wobge.run.goorm.io/"
     },
