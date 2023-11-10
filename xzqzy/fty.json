@@ -176,7 +176,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "./lib/fty2.jar",
+      "jar": "./lib/custom_spider.jar",
       "ext": "http://127.0.0.1:9978/file/tm/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$弹"
     },
     {"key": "xml_玩偶",
