@@ -167,6 +167,27 @@
       "jar": "./lib/Tong.jar",
       "filterable": 1
     },
+     {
+      "key": "影巢",
+      "name": "🔥巢巢┃4K",
+      "type": 3,
+      "api": "csp_Hdhive",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "jar": "./lib/xry.jar",
+      "ext": "http://127.0.0.1:9978/file/乐享TV/阿狸/token.txt"
+    },
+     {
+      "key":"Mm",
+      "name":"🔥毛毛┃4K",
+      "type":3,
+      "api":"csp_AppYsV2",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"http://ys.qtw.asia/lvdou_api.php/v1.vod"
+    }, 
     {"key":"玩偶哥哥",
    "name":"🔥玩偶哥哥┃4K弹幕",
    "type":3,"api":"csp_WoGG",
