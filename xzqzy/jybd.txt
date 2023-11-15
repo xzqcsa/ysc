@@ -1,4 +1,25 @@
+江苏|江阴新闻综合,http://221.228.70.101:8080/live/xinwen.m3u8
+CCTV-1,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225804/index.m3u8
 CCTV1-综合,http://124.234.172.107:9901/tsfile/live/0001_1.m3u8
+CCTV-1    2K,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8?
+江苏卫视,http://124.234.172.107:9901/tsfile/live/0127_1.m3u8
+江苏卫视,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225800/index.m3u8
+江苏卫视 (1080p),http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8
+江苏卫视,http://111.40.196.31:443/PLTV/88888888/224/3221225515/1.m3u8
+江苏卫视,http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw2983110475_-1591539074/ott.mobaibox.com/PLTV/3/224/3221228097/index.m3u8?
+CCTV-4K超高清,https://live.goodiptv.club/api/cqyx.php?id=CCTV4K
+浙江少儿 (1080p),https://hw-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+无锡新闻综合,http://stream.thmz.com/wxtv1/sd/live.m3u8?zjiangsd
+无锡娱乐,http://stream.thmz.com/wxtv2/sd/live.m3u8?zjiangsd
+无锡都市资讯,http://stream.thmz.com/wxtv3/sd/live.m3u8?zjiangsd
+优漫卡通,http://111.40.196.29:443/PLTV/88888888/224/3221225586/1.m3u8
+无锡生活,http://stream.thmz.com/wxtv4/sd/live.m3u8?zjiangsd
+东方影视HD,http://111.40.196.28:443/PLTV/88888888/224/3221225615/1.m3u8
+CCTV-5+ (1080p),http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225761/index.m3u8
+CCTV-7 (1080p),http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226192/index.m3u8
+上海都市HD,http://111.40.196.29:443/PLTV/88888888/224/3221225613/1.m3u8
+
+
 
 CCTV2-财经,http://124.234.172.107:9901/tsfile/live/0002_1.m3u8
 
@@ -46,7 +67,7 @@ CGTN英语高清,http://124.234.172.107:9901/tsfile/live/1008_1.m3u8
 
 浙江卫视,http://124.234.172.107:9901/tsfile/live/0124_1.m3u8
 
-江苏卫视,http://124.234.172.107:9901/tsfile/live/0127_1.m3u8
+
 
 安徽卫视,http://124.234.172.107:9901/tsfile/live/0130_1.m3u8
 
@@ -81,25 +102,6 @@ CGTN英语高清,http://124.234.172.107:9901/tsfile/live/1008_1.m3u8
 重庆卫视,http://124.234.172.107:9901/tsfile/live/0142_1.m3u8
 
 金鹰卡通,http://124.234.172.107:9901/tsfile/live/1007_1.m3u8
-江苏|江阴新闻综合,http://221.228.70.101:8080/live/xinwen.m3u8
-CCTV-1,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225804/index.m3u8
-CCTV-1    2K,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8?
-
-江苏卫视,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225800/index.m3u8
-江苏卫视 (1080p),http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8
-江苏卫视,http://111.40.196.31:443/PLTV/88888888/224/3221225515/1.m3u8
-江苏卫视,http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw2983110475_-1591539074/ott.mobaibox.com/PLTV/3/224/3221228097/index.m3u8?
-CCTV-4K超高清,https://live.goodiptv.club/api/cqyx.php?id=CCTV4K
-浙江少儿 (1080p),https://hw-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-无锡新闻综合,http://stream.thmz.com/wxtv1/sd/live.m3u8?zjiangsd
-无锡娱乐,http://stream.thmz.com/wxtv2/sd/live.m3u8?zjiangsd
-无锡都市资讯,http://stream.thmz.com/wxtv3/sd/live.m3u8?zjiangsd
-优漫卡通,http://111.40.196.29:443/PLTV/88888888/224/3221225586/1.m3u8
-无锡生活,http://stream.thmz.com/wxtv4/sd/live.m3u8?zjiangsd
-东方影视HD,http://111.40.196.28:443/PLTV/88888888/224/3221225615/1.m3u8
-CCTV-5+ (1080p),http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225761/index.m3u8
-CCTV-7 (1080p),http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226192/index.m3u8
-上海都市HD,http://111.40.196.29:443/PLTV/88888888/224/3221225613/1.m3u8
 
 上海都市HD,http://111.40.196.37:443/PLTV/88888888/224/3221225613/1.m3u8
 
