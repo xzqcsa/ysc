@@ -1,7 +1,4 @@
 
-
-
-
 江苏|江阴新闻综合,http://221.228.70.101:8080/live/xinwen.m3u8
 CCTV-1,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225804/index.m3u8
 CCTV1-综合,http://124.234.172.107:9901/tsfile/live/0001_1.m3u8
@@ -393,12 +390,3 @@ CGTN,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225745
 
 山东教育卫视,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226238/index.m3u8
 
-大湾区卫视,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226218/index.m3u8
-
-CHC家庭影院,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/index.m3u8
-
-CHC高清电影,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226463/index.m3u8
-
-CHC动作电影,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
-
-北京体育休闲,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226232/index.m3u8
