@@ -90,9 +90,6 @@ CCTV17,http://103.45.68.47:666/gy/gy292/百事.php?id=cctv17hd8m/8000000
 
 欢笑剧场,http://103.45.68.47:666/gy/gy292/百事.php?id=hxjc8m/8000000
 
-劲爆体育,http://103.45.68.47:666/gy/gy292/百事.php?id=jbtyhd8m/8000000
-
-快乐垂钓,http://103.45.68.47:666/gy/gy292/百事.php?id=klcd8m/8000000
 
 金鹰纪实,http://103.45.68.47:666/gy/gy292/百事.php?id=jyjs8m/8000000
 
@@ -176,8 +173,6 @@ CCTV17,http://103.45.68.47:666/gy/gy292/百事.php?id=cctv17hd8m/8000000
 
 金色学堂,http://103.45.68.47:666/gy/gy292/百事.php?id=jingsepd8m/8000000
 
-魅力足球,http://103.45.68.47:666/gy/gy292/百事.php?id=mlyyhd8m/8000000
-
 福建综合,http://103.45.68.47:666/gy/gy292/百事.php?id=fjzhhd4m/4000000
 
 福建新闻,http://103.45.68.47:666/gy/gy292/百事.php?id=fjxwhd8m/8000000
@@ -196,7 +191,6 @@ CCTV17,http://103.45.68.47:666/gy/gy292/百事.php?id=cctv17hd8m/8000000
 
 福建教育,http://103.45.68.47:666/gy/gy292/百事.php?id=fjjypdhd4m/4000000
 
-海峡卫视,http://103.45.68.47:666/gy/gy292/百事.php?id=hxwshd4m/4000000
 
 
 
