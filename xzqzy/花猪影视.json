@@ -139,6 +139,14 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/优酷.js"
     },
+       {"key":"csp_HK_黑料网",
+    "name":"🔥黑料网","type":3,
+    "api":"csp_XYQHiker",
+    "searchable":1,
+    "quickSearch":1,
+    "filterable":1,
+     "jar":"./XYQ.jar",
+     "ext":"./lib/黑料网.json"},
      {
       "key": "蝴蝶",
       "name": "🔥蝴蝶┃App",
