@@ -145,7 +145,7 @@
     "searchable":1,
     "quickSearch":1,
     "filterable":1,
-     "jar":"./lib/XYQ.jar",
+     "jar":"./XYQ.jar",
      "ext":"./lib/黑料网.json"},
      {
       "key": "蝴蝶",
