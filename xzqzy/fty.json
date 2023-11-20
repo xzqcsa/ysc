@@ -305,27 +305,7 @@
    
     
     
-     {
-      "key": "kugou",
-      "name": "🔥酷狗音乐🔥",
-      "type": 3,
-      "api": "csp_Kugou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://m.kugou.com/"
-   ,
-            "jar": "./lib/pg.jar" },
-          
-            { "key": "酷狗",
-             "name": "🔥音乐☆大全",
-              "type": 3, 
-              "api": "csp_Kugou",
-               "searchable": 0, 
-               "changeable": 0,
-               "jar":"./lib/pg.jar"},
-
-
+   
     {
       "key": "少儿教育",
       "name": "📚少儿┃教育",
@@ -454,18 +434,7 @@
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.jqqzx.cc/vodshow/id/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
       "分类": "电影$dianying#剧集$juji#综艺$zongyi#动漫$dongman"}},
-         {
-      
-      "key": "小纸条_cli",
-      "name": "🔥小纸条[俊.T4]",
-      "type": 4,
-      "api": "http://home.jundie.top:9520/spider/cli_gitCafe",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt",
-      "timeout": 30
-    },
+        
   
     {
             "key": "天空影视",
@@ -2459,39 +2428,19 @@
       "url": "http://42.157.129.144:2323/CH/caihong_1993138546.php?url="
     },
     {
-      "name": "巧技",
+      "name": "小城解析",
       "type": 1,
-      "url": "https://www.qiaoji8.com/tvbox/json1.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "tucheng",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "yzm",
-          "aliyun",
-          "RJuMao",
-          "bilibili",
-          "1905",
-          "xinvip",
-          "XAL",
-          "qiqi",
-          "XALS",
-          "YuMi-vip"
-        ]
-      }
+      "url": "http://json.84jia.com/home/api?type=ys&uid=9354910&key=dgmoprwzAGILQUZ156&url="
+    },
+     {
+      "name": "小新解析",
+      "type": 1,
+      "url": "http://json.84jia.com/home/api?type=ys&uid=9364789&key=aefkouxBKPTUWZ0379&url="
+    },
+    {
+      "name": "小鱼解析",
+      "type": 1,
+      "url": "http://json.84jia.com/home/api?type=ys&uid=6421528&key=afghisuwzGIJLNQU08&url="
     },
  {
       "name": "动画片",
@@ -2538,21 +2487,7 @@
                 ]
             }
         },
-     {
-      "name": "小城解析",
-      "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=6779052&key=adehinoquvDFGJKT04&url="
-    },
-     {
-      "name": "小新解析",
-      "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=6418058&key=beijoqsBFGJKMNT027&url="
-    },
-    {
-      "name": "小鱼解析",
-      "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=6421528&key=afghisuwzGIJLNQU08&url="
-    },
+    
     {
       "name": "夜曲解析",
       "type": 1,
