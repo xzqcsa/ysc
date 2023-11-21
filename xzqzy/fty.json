@@ -114,6 +114,7 @@
       "key": "奇艺1",
       "name": "♻️爱奇艺少儿频道",
       "type": 3,
+      "playerType": 1,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/异兽.js"
     },
