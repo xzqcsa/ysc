@@ -1,5 +1,7 @@
 
 江苏|江阴新闻综合,http://221.228.70.101:8080/live/xinwen.m3u8
+CCTV1
+http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225804/1.m3u8
 CCTV-1,http://cfss.cc/api/ysp/cctv1.m3u8
 CCTV1-综合,http://124.234.172.107:9901/tsfile/live/0001_1.m3u8
 CCTV-1    2K,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8?
