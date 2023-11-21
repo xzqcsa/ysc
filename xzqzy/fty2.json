@@ -110,10 +110,11 @@
       "filterable": 1,
       "ext": "./lib/iqy.js"
     },
-     {
+    {
       "key": "奇艺1",
       "name": "♻️爱奇艺少儿频道",
       "type": 3,
+      "playerType": 1,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/异兽.js"
     },
@@ -129,7 +130,7 @@
       "name": "♻️芒果少儿频道",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      
+       "playerType": 1,
       "ext": "./lib/忙果.js"
     },
    {
