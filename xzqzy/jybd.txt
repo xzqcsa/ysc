@@ -1,4 +1,4 @@
-CCTV1HD,http://vss.cbnmtv.com/live/yt_cctv1_h_1.m3u8?channelid=yt_cctv1_h
+CCTV-1高清,rtsp://180.100.166.166:554/PLTV/88888888/224/3221225627/10000100000000060000000000000181_0.smil
 
 江苏|江阴新闻综合,http://221.228.70.101:8080/live/xinwen.m3u8
 CCTV1,
