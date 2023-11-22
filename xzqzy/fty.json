@@ -2423,7 +2423,13 @@
       "type": 2,
       "url": "Parallel"
     },
-    
+      {
+      "name": "分享智能2",
+      "type": 1,
+      "url": "https://jx.shaoze.xyz/web/json?token=5201340&url="},
+      {
+  "name": "分享聚合", 
+  "type": 1, "url": "http://42.51.37.161:5678/json/520239app9/gf2.php?url="},  
      {
       "name": "高清11",
       "type": 1,
