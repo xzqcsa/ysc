@@ -2423,35 +2423,7 @@
       "type": 2,
       "url": "Parallel"
     },
-     {
-      "name": "解析线路2",
-      "url": "https://jx.961691.com/player/?url=",
-      "type": 0,
-      "ext": {
-        "flag": [
-          "qiyi",
-          "imgo",
-          "爱奇艺",
-          "奇艺",
-          "qq",
-          "腾讯",
-          "youku",
-          "优酷",
-          "pptv",
-          "PPTV",
-          "letv",
-          "乐视",
-          "leshi",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩",
-          "mgtv",
-          "芒果",
-          "sohu",
-          "xigua",
-          "fun",
-          "风行"
-        ]}},
+    
      {
       "name": "高清11",
       "type": 1,
