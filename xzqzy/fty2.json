@@ -170,7 +170,7 @@
       "filterable": 1
     },
     {"key":"玩偶哥哥",
-   "name":"🔥玩偶哥哥┃4K弹幕",
+   "name":"🔥玩偶哥哥┃请自行下载阿里云盘扫码观看",
    "type":3,"api":"csp_WoGG",
    "searchable":1,
    "quickSearch":1,
@@ -179,7 +179,7 @@
    "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
    {
       "key": "Wogg",
-      "name": "🅱️玩偶哥哥|T追剧",
+      "name": "🅱️玩偶哥哥|请自行下载阿里云盘扫码观看",
       "type": 3,
       "api": "csp_XPathAli",
       "searchable": 1,
@@ -190,7 +190,7 @@
     },
      {
       "key": "玩偶备用",
-      "name": "👽玩偶备用",
+      "name": "👽玩偶备用/请自行下载阿里云盘扫码观看",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
@@ -200,14 +200,14 @@
       "ext": "http://127.0.0.1:9978/file/tm/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$弹"
     },
     {"key": "xml_玩偶",
-"name": "🧙玩偶┃哥哥",
+"name": "🧙玩偶┃请自行下载阿里云盘扫码观看",
 "type": 4,
 "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=dba669fc1dde45db8e5962beb2198e65",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1},
      {  "key": "Wobg",
-      "name": "♻️阿里|玩偶表哥",
+      "name": "♻️阿里|请自行下载阿里云盘扫码观看",
       "type": 3,
        "style": {
         "type": "rect",
@@ -1951,6 +1951,26 @@
       "name": "Json并发",
       "type": 2,
       "url": "Parallel"
+    },
+    {
+      "name": "分享智能2",
+      "type": 1,
+      "url": "https://jx.shaoze.xyz/web/json?token=5201340&url="},
+      {
+  "name": "分享聚合", 
+  "type": 1, "url": "http://42.51.37.161:5678/json/520239app9/gf2.php?url="},  
+     {
+      "name": "高清11",
+      "type": 1,
+      "url": "http://154.94.5.156:5005/api/?key=is1QyCecZr9Gsx0CfE&url="
+    },
+    {
+        "name": "彩虹",
+        "type": 1, 
+        "url": "http://42.157.129.144:2323/CH/caihong_1993138546.php?url=",
+        "ext": {
+			"flag": ["qq","腾讯","qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}
+		}    
     },
      {
       "name": "官解2",
