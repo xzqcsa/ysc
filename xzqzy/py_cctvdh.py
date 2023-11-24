@@ -14,7 +14,7 @@ import time
 
 class Spider(Spider):  # 元类 默认的元类 type
 	def getName(self):
-		return "中央电视台"#可搜索
+		return ""#可搜索
 	def init(self,extend=""):
 		print("============{0}============".format(extend))
 		pass
