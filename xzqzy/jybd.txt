@@ -8,7 +8,7 @@ CCTV-13 新闻,https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8
 移动戏曲移动,http://39.165.35.152:9901/tsfile/live/1118_1.m3u8
 文物宝库移动,http://39.165.35.152:9901/tsfile/live/1119_1.m3u8
 梨园频道移动,http://39.165.35.152:9901/tsfile/live/1120_1.m3u8
-
+七彩戏剧移动,http://39.165.35.152:9901/tsfile/live/1016_1.m3u8
 CCTV-1    2K,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8?
 CCTV1,http://39.165.35.152:9901/tsfile/live/0001_1.m3u8
 CCTV2,http://39.165.35.152:9901/tsfile/live/0002_1.m3u8
@@ -59,9 +59,7 @@ CCTV5P,http://39.165.35.152:9901/tsfile/live/0016_1.m3u8
 内蒙古卫视移动,http://39.165.35.152:9901/tsfile/live/1150_1.m3u8
 广西卫视移动,http://39.165.35.152:9901/tsfile/live/1151_1.m3u8
 山西卫视移动,http://39.165.35.152:9901/tsfile/live/1152_1.m3u8
-海南卫视移动,http://39.165.35.152:9901/tsfile/live/1153_1.m3u8
-甘肃卫视移动,http://39.165.35.152:9901/tsfile/live/1154_1.m3u8
-青海卫视移动,http://39.165.35.152:9901/tsfile/live/1155_1.m3u8
+
 金鹰卡通移动,http://39.165.35.152:9901/tsfile/live/1156_1.m3u8
 嘉佳卡通移动,http://39.165.35.152:9901/tsfile/live/1157_1.m3u8
 卡酷动画移动,http://39.165.35.152:9901/tsfile/live/1158_1.m3u8
@@ -101,7 +99,7 @@ CCTV-5+ (1080p),http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224
 江苏|无锡经济,http://stream.thmz.com/wxtv5/sd/live.m3u8
 江苏|无锡生活,http://stream.thmz.com/wxtv4/sd/live.m3u8
 江苏|无锡娱乐,http://stream.thmz.com/wxtv2/sd/live.m3u8
-江苏|江阴新闻综合,http://221.228.70.101:8080/live/xinwen.m3u8
+
 
 
 江苏|常熟综合,http://cstvplay.21cs.cn/cstv1/cstv1.m3u8
