@@ -219,13 +219,7 @@
       "jar": "./lib/custom_spider.jar",
       "ext": "http://127.0.0.1:9978/file/tm/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$弹"
     },
-    {"key": "xml_玩偶",
-"name": "🧙玩偶┃哥哥",
-"type": 4,
-"api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=dba669fc1dde45db8e5962beb2198e65",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1},
+   
      {  "key": "Wobg",
       "name": "♻️阿里|玩偶表哥",
       "type": 3,
@@ -237,18 +231,7 @@
       "api": "csp_Wobg",
       "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$https://wobge.run.goorm.io/"
     },
-    {
-      "key": "Hdhive",
-      "name": "♻️阿里|影巢",
-      "type": 3,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-       "jar": "./jar/pg.jar",
-      "api": "csp_Hdhive",
-      "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt"
-    },   
+   
       
    
     {
@@ -266,21 +249,7 @@
       "filterable": 1,
       "ext": "./lib/cvU.json"
     },
-    {
-      "key": "csp_WoGG",
-      "name": "❤🤡玩偶哥哥┃4K",
-      "type": 3,
-      "style": {
-        "type": "rect",
-        "ratio": 0.8
-      },
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto",
-      "jar": "./lib/rski.js"
-    }, 
+    
      
      {
       "key": "🍮Gitcafe6",
@@ -753,13 +722,6 @@
 
 
 
-{"key":"yc",
-"name":"🏅影巢┃4K",
-"type": 3,"playerType":1,
-"api": "csp_Hdhive","searchable": 1,"quickSearch": 1,"filterable": 0,
-"ext":"dba669fc1dde45db8e5962beb2198e65","jar":"./lib/app.jar"},
-
- 
  {
       "key": "Mino",
       "name": "👻Mino┃App",
@@ -869,18 +831,7 @@
       "searchable": 1,
       "quickSearch": 1
     },
-    {
-      "key": "yc",
-      "name": "🔥4KHDR站-A",
-      "type": 3,
-      "playerType": 1,
-      "api": "csp_Hdhive",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://pan.shangui.cc/f/p5RUL/tk.php",
-      "jar": "./lib/xry.jar"
-    },
+   
     
      {
       "key": "csp_101",
@@ -961,28 +912,7 @@
       "filterable": 1,
       "ext": "http://vipcms.lyyytv.cn/api.php/app/"
     },
- {
-    "key": "wyystv",
-    "name": "🔥无忧影视",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "changeable": 1,
-    "playerType": "1",
-    "ext": {
-    "站名": "无忧影视",
-    "主页url": "https://wyys1.tv",
-    "数组": "class=\"module-items module-poster-items-base\">&&</a",
-    "链接": "href=\"&&\"",
-    "图片": "src=\"&&\"",
-    "标题": "title=\"&&\"",
-    "副标题": "class=\"module-poster-item-title\">&&</div>",
-    "分类url": "https://wyys1.tv/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
-    "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
-     }
-    },
+
      {
       "key": "dr_码上看_哔哩影视",
       "name": "🔥码上看动漫",
@@ -1105,60 +1035,10 @@
         "api":"https://49zyw.com/api.php/provide/vod/",
         "searchable":1,"quickSearch":1},
        
-       { 
-     "key": "csp_Alistxy",
-     "name": "️🔥Alist网盘",     
-     "type": 3,
-     "jar": "./jar/AListxy.jar",
-     "api": "csp_AListxy",
-     "searchable": 1,
-     "quickSearch": 1,
-     "ext": {
-    "drives": [
+       
+        
+        
          
-            {
-            "name": "💃自建小雅",
-            "server": "http://111.67.195.139:5678",
-            "version": 3
-          },
-           {
-            "name": "💃小雅搜索1",
-            "server": "http://124.71.206.236:5678",
-            "version": 3
-          },
-          {
-            "name": "💃小雅搜索2",
-            "server": "http://60.204.139.228:5678",
-            "version": 3
-          },
-          {
-            "name": "💃小雅搜索3",
-            "server": "http://182.116.92.150:5678",
-            "version": 3
-          },
-          {
-            "name": "💃小雅搜索4",
-            "server": "http://112.226.137.40:5678",
-            "version": 3
-          },
-          {
-            "name": "💃小雅搜索5",
-            "server": "http://115.57.11.199:5678",
-            "version": 3
-          },
-          {
-            "name": "💃小雅搜索6",
-            "server": "http://116.22.128.30:5678",
-            "version": 3
-          },
-          {
-            "name": "💃小雅搜索7",
-            "server": "http://117.63.42.183:5678",
-            "version": 3
-          }
-        ]
-      }
-    },
  
  {
       "key": "xsj",
@@ -1197,18 +1077,7 @@
 "quickSearch":1,
 "playUrl":"json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
  
-     {
-      "key": "yc",
-      "name": "👑夜猫影巢4K👑",
-      "type": 3,
-      "playerType": 1,
-      "api": "csp_Hdhive",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "http://111.67.195.139/token.txt",
-      "jar": "./lib/xry.jar"
-    },
+     
     {
       "key": "影院",
       "name": "👑夜猫蓝光2K👑",
@@ -1221,19 +1090,7 @@
       "ext": "https://www.gsjtlxy.top/xgapp.php/v3/"
     },
 
-           {
-            "jar": "http://ftp6587948.host121.Sanfengyun.cn/yydf/lib/1012.jar",
-            "key": "csp_OK荐片",
-            "name": "🔥荐片|无弹幕",
-            "type": 3,
-            "api": "csp_Jianpian",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": false
-            }
-        },
+          
         {
       "key": "drpy_js_阿布影院",
       "name": "🔥阿布影院[js]",
@@ -1301,18 +1158,7 @@
     },
    
    
-     {
-      "key": "狐狸影视",
-      "name": "👑狐狸影视2k【体育】👑",
-      "type": 3,
-      "playerType": 1,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://www.kuin.one/api.php/app/"
-    },
+    
  {
       "key": "csp_djtv",
       "name": "😻爱看短剧",
@@ -1742,49 +1588,7 @@
         "动漫"
       ]
     },
-    {
-      "key": "索尼资源",
-      "name": "🔥索尼┃资源",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "欧美剧",
-        "韩剧",
-        "日剧",
-        "港剧",
-        "台剧",
-        "泰剧",
-        "海外剧",
-        "纪录片",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "动画片",
-        "港台动漫",
-        "海外动漫",
-        "演唱会",
-        "体育赛事",
-        "篮球",
-        "足球",
-        "预告片",
-        "斯诺克",
-        "影视解说"
-      ],
-      "searchable": 1,
-      "quickSearch": 1
-    },
+   
     
      {
       "key": "drpy_js_360影视",
@@ -1864,13 +1668,7 @@
       "quickSearch": 1,
       "changeable": 1
     },
-    {
-      "key": "直播转点播",
-      "name": "🔥-🐼电视直播",
-      "type": 3,
-      "api": "./lib/直播转分线点播2.js",
-      "ext": "./lib/直播.js"
-    },
+   
    {
       "key": "爱迪V2",
       "name": "🔥-💡️爱迪影视",
@@ -1923,28 +1721,7 @@
       "jar": "./lib/xyq910.jar"
     },
    
- {
-      "key": "saohuo",
-      "name": "♻️火🔥",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "playerType": "1",
-      "api": "csp_XBPQ",
-      "jar": "./lib/xbpq.jar",
-      "ext": {
-        "分类url": "https://shdy3.com/list/{cateId}-{catePg}.html;;r1da",
-        "分类": "电影$1#电视剧$2#韩剧$22#美剧$23#动漫$4",
-        "ocr": "https://api.xhofe.top/ocr/b64/text",
-        "数组二次截取": "class=\"v_list\">&&</ul>",
-        "数组": "\"v_img\"&&/div>",
-        "标题": "title=\"&&\"",
-        "副标题": "v_note\"&&</div",
-        "跳转播放链接": "<iframe*src=\"&&\"",
-        "二次跳转播放链接": "https://hkjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
-        "三次跳转播放链接": "\"url\"*\"&&\""
-      }
-    },
+
 {
       "key": "csp_BLSGod",
       "name": "♻️80S影视🧲",
@@ -1957,17 +1734,7 @@
       "jar": "./lib/xyq910.jar"
     },
 
-{
-      "key": "csp_XYQHiker_‍dyx",
-      "name": "♻️宇宙磁力4k🧲",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/dyg.json",
-      "jar": "./lib/xyq910.jar"
-    },
+
      
        {
       "key": "csp_XBPQ_vstv",
@@ -2108,7 +1875,7 @@
 {"key":"狐狸","name":"🦊狐狸蓝光","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.kuin.one/api.php/app/" },
 {"key":"csp_Xunlei8","name":"🧲迅雷吧","type":3,"api":"csp_Xunlei8","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"jar":"./lib/83.jar"},
 {"key":"csp_XYQHiker_BT天堂","name":"🧲BT天堂","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/BT天堂.json","jar": "./lib/83.jar"},
-{"key":"csp_XBPQ_6V","name":"🌙宝盒4K磁力","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/6V磁.json"},
+
  {
       "key": "大米星球（APP）",
       "name": "🌙大米星球（APP）",
@@ -2186,15 +1953,7 @@
       "ext": "",
       "jar": "./lib/fix0804.jar;md5;f71431362b88ce020d9854eb9166841b"
     },
-{
-      "key": "T4_荐片",
-      "name": "👽荐片",
-      "type": 4,
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 1,
-      "api": "http://home.jundie.top:9520/spider/csp_JP"
-    },
+
  {
       "key": "南瓜",
       "name": "🎃南瓜",
@@ -2209,15 +1968,8 @@
       "api": "csp_AppYsV2",
       "ext": "http://www.miniku.cc/xgapp.php/v1/"
     },
-   {
-      "key": "Yj1211",
-      "name": "📽直播",
-      "type": 3,
-      "api": "csp_Yj1211",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
+   
+  
  {
       "key": "drpy_js_新片场",
       "name": "🆕新片",
