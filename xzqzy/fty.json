@@ -12,13 +12,13 @@
       "quickSearch": 0,
       "filterable": 0
     },
-     {
-      "key": "自建1",
-      "name": "♻️本地视频",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/本地.js"
-    },
+      {"key":"csp_自建",
+    "name":"💕本地视频",
+    "type":3,"api":"csp_XBPQ",
+    "searchable":1,
+    "quickSearch":1,
+    "filterable":1,
+    "ext":"./lib/本地.json"},
     {"key": "自建",
      "name": "🦊自建网站",
      "type": 1,
