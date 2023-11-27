@@ -12,42 +12,13 @@
       "quickSearch": 0,
       "filterable": 0
     },
-     {
-      "key": "全网采集",
-      "name": "️🐧全网采集♻️",
-      "type": 1,
-      "api": "https://caiji.yueai55.cc:2277/yuelove.php/provide/vod/at/xml",
      
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "韩国剧",
-        "香港剧",
-        "台湾剧",
-        "欧美剧",
-        "动作片",
-        "科幻片",
-        "战争片",
-        "奇幻片",
-        "喜剧片",
-        "爱情片",
-        "恐怖片",
-        "犯罪片",
-        "悬疑片",
-        "惊悚片",
-        "剧情片",
-        "冒险片",
-        "记录片",
-        "综艺",
-        "动漫"
-      ]
-    },
+      
     {"key": "自建",
      "name": "🦊自建网站",
      "type": 1,
      "api": "https://caiji.yueai55.cc:2277/yuelove.php/provide/vod/?ac=list",
+      "playUrl": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url=",
      "searchable": 1,"quickSearch": 0,"filterable": 1,
      "categories":
       ["内地剧","动作片","科幻片",
