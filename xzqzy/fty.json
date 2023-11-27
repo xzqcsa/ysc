@@ -15,10 +15,10 @@
      
       
     {"key": "自建",
-     "name": "🦊自建网站",
+     "name": "🦊综艺节目",
      "type": 1,
      "api": "https://caiji.yueai55.cc:2277/yuelove.php/provide/vod/?ac=list",
-      "playUrl": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url=",
+     
      "searchable": 1,"quickSearch": 0,"filterable": 1,
      "categories":
       ["内地剧","动作片","科幻片",
