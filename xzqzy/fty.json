@@ -15,7 +15,7 @@
     {"key": "自建",
      "name": "🦊自建网站",
      "type": 1,
-     "api": "https://caiji.yueai55.cc:2277/yuelove.php/provide/vod/at/json/?ac=videolist&pg=293&h=",
+     "api": "https://caiji.yueai55.cc:2277/yuelove.php/provide/vod/at/json",
      "searchable": 1,"quickSearch": 0,"filterable": 1,
      "categories":
       ["内地剧","动作片","科幻片",
