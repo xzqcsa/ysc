@@ -1,0 +1,14 @@
+{
+"token":"填入你的阿里32位token",
+"open_token":"填入你的阿里280位open_token",
+"thread_limit":10,
+"quark_thread_limit":10,
+"vod_flags":"4k|4kz|auto",
+"quark_flags":"4kz|auto",
+"aliproxy":"",
+"proxy":"",
+"open_api_url":"https://api.xhofe.top/alist/ali_open/",
+"danmu":true,
+"quark_danmu":true,
+"quark_cookie":"填入你的夸克cookie"
+}
