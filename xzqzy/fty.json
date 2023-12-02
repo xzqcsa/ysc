@@ -14,7 +14,7 @@
     },
       {
             "key": "Wogg111",
-            "name": "玩偶哥哥|阿里",
+            "name": "🔥玩偶哥哥|阿里🔥",
             "type": 3,
             "api": "csp_Wogg",
             "quickSearch": 1,
@@ -2459,11 +2459,7 @@
       {
   "name": "分享聚合", 
   "type": 1, "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="},  
-     {
-      "name": "高清11",
-      "type": 1,
-      "url": "http://154.94.5.156:5005/api/?key=is1QyCecZr9Gsx0CfE&url="
-    },
+    
     {
         "name": "彩虹",
         "type": 1, 
