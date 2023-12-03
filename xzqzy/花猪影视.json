@@ -2141,6 +2141,11 @@
 
   "parses": [
     {
+            "name": "超级嗅探",
+            "type": 3,
+            "url": "Web"
+        },
+   {
       "name": "解析聚合",
       "type": 3,
       "url": "Demo"
@@ -2160,17 +2165,29 @@
       "type": 2,
       "url": "Parallel"
     },
-     {
+   
+      {
       "name": "分享智能2",
       "type": 1,
       "url": "https://jx.shaoze.xyz/web/json?token=5201340&url="},
       {
   "name": "分享聚合", 
-  "type": 1, "url": "http://42.51.37.161:5678/json/520239app9/gf2.php?url="},  
-    {
-      "name": "高清11",
-      "type": 1,
-      "url": "http://154.94.5.156:5005/api/?key=is1QyCecZr9Gsx0CfE&url="
+  "type": 1, "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="},  
+     {
+      "name": "晨光解析",
+      "type": 0,
+      "url": "https://www.cgdyw.net/jiexi/jiexi-gf/?url=",
+      "ext": {
+        "flag": [
+          "youku",
+          "优酷",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯"
+        ]
+      }
     },
     {
         "name": "彩虹",
@@ -2179,7 +2196,7 @@
         "ext": {
 			"flag": ["qq","腾讯","qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}
 		}    
-    },
+    },		   
      {
       "name": "官解2",
       "type": 1,
@@ -2188,61 +2205,83 @@
      {
       "name": "小鱼解析1",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12177641&key=bcfiovwCGJQSW23478&url="
     },
-     {
+    {
       "name": "小城解析11",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=9814990&key=adhpqyACDMQZ014569&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12454919&key=cgjlmuBDEFGHJOX046&url="
     },
     {
       "name": "小城解析",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=9354910&key=dgmoprwzAGILQUZ156&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12468634&key=glntvwxyBEGIKRTUV7&url="
     },
      {
       "name": "小新解析",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=9364789&key=aefkouxBKPTUWZ0379&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12477566&key=cfklnowyCEFGKMWXY1&url="
     },
     {
       "name": "小鱼解析",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=6421528&key=afghisuwzGIJLNQU08&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12486049&key=beiktuwyAFIJMPXY68&url="
     },
  {
       "name": "动画片",
       "type": 1,
       "url": "http://json.84jia.com/home/api?type=ys&uid=5223550&key=defotCEIJKOPSUYZ67&url="
     },
-     {
-      "name": "自动解析",
-      "type": 1,
-      "url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url=",
+      
+   
+   
+        
+    {
+      "name": "晨光解析",
+      "type": 0,
+      "url": "https://www.cgdyw.net/jiexi/jiexi-gf/?url=",
       "ext": {
         "flag": [
-          "qq",
-          "腾讯",
+          "youku",
+          "优酷",
           "qiyi",
           "爱奇艺",
           "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "imgo",
-          "rx",
-          "ltnb",
-          "bilibili",
-          "1905",
-          "xigua"
+          "qq",
+          "腾讯"
         ]
       }
     },
+
+        
+  
+  
+    
+   
+  
+    
+         
+   
+    {
+      "name": "诺讯解析",
+      "type": 0,
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12493586&key=defghxyHJMNPQRX059&url=",
+      "ext": {
+        "flag": [
+          "youku",
+          "优酷",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯"
+        ]
+      }
+    }
+  ,
+  
+   
+    
     {
             "name": "YuMi🥭解析",
             "type": 1,
