@@ -19,7 +19,7 @@
       "key": "自建",
       "name": "️自建┃资源",
       "type": 1,
-      "api": "http://192.168.3.30:812/api.php/provide/vod/at/json",
+      "api": "http://192.168.3.30:812/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
