@@ -23,41 +23,8 @@
              "jar": "./jar/pg.jar",
             "ext": "./lib/tokenm.json$$$https://wogg.link/$$$null$$$1"
         },
-         {
-            "key": "业余采集",
-            "name": "♻ 业余自营 ",
-            "type": 1,
-            "api": "http://111.67.195.139/api.php/provide/vod/?ac=list",
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "电影",
-                "电视剧",
-                "动漫",
-                "综艺"
-            
-            ]
-        },
-        {
-            "key": "ZIJIAN",
-            "name": "♻自建影视 ",
-            "type": 1,
-            "api": "http://xzq.88.kele.plus/api.php/provide/vod/?ac=list",
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "电影",
-                "电视剧",
-                 "动画片",
-                "动漫",
-                "体育"
-            
-            ]
-        },
+        
+     
      
       
     {"key": "自建",
@@ -2536,22 +2503,22 @@
     {
       "name": "小城解析11",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=125865&key=56243xEMPRVYZ26&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12417785&key=bcejkpyDLOPQTYZ149&url="
     },
     {
       "name": "小城解析",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=9354910&key=dgmoprwzAGILQUZ156&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12426140&key=cgklnsDHIKLNTV0128&url="
     },
      {
       "name": "小新解析",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=9364789&key=aefkouxBKPTUWZ0379&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12437834&key=abchpswxyAHIJMOT01&url="
     },
     {
       "name": "小鱼解析",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=6421528&key=afghisuwzGIJLNQU08&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12446980&key=aehoqruBDGKTU23678&url="
     },
  {
       "name": "动画片",
