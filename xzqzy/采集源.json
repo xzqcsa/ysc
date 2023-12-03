@@ -16,23 +16,7 @@
   ],
   "sites": [
    
-    {
-            "key": "业余采集",
-            "name": "♻ 业余自营 ",
-            "type": 1,
-            "api": "http://111.67.195.139/api.php/provide/vod/?ac=list",
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "电影",
-                "电视剧",
-                "动漫",
-                "综艺"
-            
-            ]
-        },
+   
         {
             "key": "ZIJIAN",
             "name": "♻自建影视 ",
