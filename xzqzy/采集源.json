@@ -736,22 +736,22 @@
     {
       "name": "小城解析11",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=125865&key=56243xEMPRVYZ26&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12454919&key=cgjlmuBDEFGHJOX046&url="
     },
     {
       "name": "小城解析",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=9354910&key=dgmoprwzAGILQUZ156&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12468634&key=glntvwxyBEGIKRTUV7&url="
     },
      {
       "name": "小新解析",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=9364789&key=aefkouxBKPTUWZ0379&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12477566&key=cfklnowyCEFGKMWXY1&url="
     },
     {
       "name": "小鱼解析",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=6421528&key=afghisuwzGIJLNQU08&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12486049&key=beiktuwyAFIJMPXY68&url="
     },
  {
       "name": "动画片",
@@ -791,7 +791,7 @@
     {
       "name": "诺讯解析",
       "type": 0,
-      "url": "https://www.nxflv.com/?url=",
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12493586&key=defghxyHJMNPQRX059&url=",
       "ext": {
         "flag": [
           "youku",
