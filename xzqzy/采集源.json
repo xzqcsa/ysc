@@ -17,34 +17,8 @@
   "sites": [
    
    
-        {
-            "key": "ZIJIAN",
-            "name": "♻自建影视 ",
-            "type": 1,
-            "api": "http://xzq.88.kele.plus/api.php/provide/vod/?ac=list",
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "电影",
-                "电视剧",
-                 "动画片",
-                "动漫",
-                "体育"
-            
-            ]
-        },
-    {
-      "key": "T4_bookreader",
-      "name": "T4有声小说",
-      "type": 4,
-      "api": "https://api-lmteam.koyeb.app/PythonT4/bookreader",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "changeable": 0
-    },
+    
+   
     {
       "key": "A8",
       "name": "A8影视",
@@ -56,9 +30,34 @@
       "ext": "https://aaa.a8ys.xyz/ruifenglb_api.php/v1.vod"
     },
    
-    
+     {
+            "key": "业余采集A",
+            "name": "♻ 业余云自营 ",
+            "type": 1,
+            "api": "http://yydf.540734621.xyz/api.php/provide/vod/?ac=list",
+            "playerType": "2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "电影",
+                "电视剧",
+                "动漫",
+                "综艺"
+               
+            ]
+        },
   
-  
+   {
+      "key": "T4_bookreader",
+      "name": "T4有声小说",
+      "type": 4,
+      "api": "https://api-lmteam.koyeb.app/PythonT4/bookreader",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": 0
+    },
     
    
     {
