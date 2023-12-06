@@ -13,6 +13,122 @@
       "filterable": 0
     },
      {
+      "key": "A8",
+      "name": "A8影视",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://aaa.a8ys.xyz/ruifenglb_api.php/v1.vod"
+    },
+   
+     {
+            "key": "业余采集A",
+            "name": "♻ 业余云自营 ",
+            "type": 1,
+            "api": "http://yydf.540734621.xyz/api.php/provide/vod/?ac=list",
+            "playerType": "2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "电影",
+                "电视剧",
+                "动漫",
+                "综艺"
+               
+            ]
+        },
+          {
+      "key": "xml_轻简",
+      "name": "轻简☆采集",
+      "type": 1,
+      "api": "http://1.ahailove.cn:23456/cj/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫"
+      ]
+    },
+    {
+      "key": "xml_猫放",
+      "name": "猫放☆采集",
+      "type": 1,
+      "api": "https://www.mervod.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "少儿" , 
+        "电影",
+        "连续剧",
+        "综艺",
+        "动漫"
+      
+      ]
+    },
+    {
+      "key": "jszy",
+      "name": "极速≛采集",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8",
+      "playUrl": "https://k.playerla.com/?url=",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType":1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "内地剧",
+        "动画片",
+        "大陆综艺"
+      ]
+    },
+     {
+      "key": "魔都资源",
+      "name": "魔都资源",
+      "type": 1,
+      "api": "https://www.moduzy.com/api.php/provide/vod/?ac=list",
+      "playUrl": "https://www.moduzy.com/jiexi/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "金鹰资源",
+      "name": "金鹰资源",
+      "type": 1,
+      "api": "https://jyzyapi.com/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "飘零影院",
+      "name": "飘零影院",
+      "type": 1,
+      "api": "https://p2100.net/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+   
+    
+    {
+      "key": "Kuaikan",
+      "name": "🈷️月光快看(SP)",
+      "type": 3,
+      "api": "csp_Kuaikan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+     {
       "key":"py_cctv11",
      "name": "🦢CCTV动画🎈",
      "type": 3,
@@ -1952,17 +2068,28 @@
       "type": 2,
       "url": "Parallel"
     },
-    {
+     {
       "name": "分享智能2",
       "type": 1,
       "url": "https://jx.shaoze.xyz/web/json?token=5201340&url="},
       {
   "name": "分享聚合", 
-  "type": 1, "url": "http://42.51.37.161:5678/json/520239app9/gf2.php?url="},  
+  "type": 1, "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="},  
      {
-      "name": "高清11",
-      "type": 1,
-      "url": "http://154.94.5.156:5005/api/?key=is1QyCecZr9Gsx0CfE&url="
+      "name": "晨光解析",
+      "type": 0,
+      "url": "https://www.cgdyw.net/jiexi/jiexi-gf/?url=",
+      "ext": {
+        "flag": [
+          "youku",
+          "优酷",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯"
+        ]
+      }
     },
     {
         "name": "彩虹",
@@ -1971,11 +2098,16 @@
         "ext": {
 			"flag": ["qq","腾讯","qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}
 		}    
-    },
+    },		   
      {
       "name": "官解2",
       "type": 1,
       "url": "http://42.157.129.144:2323/CH/caihong_1993138546.php?url="
+    },
+     {
+      "name": "小鱼解析1",
+      "type": 1,
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12177641&key=bcfiovwCGJQSW23478&url="
     },
     {
       "name": "小城解析",
