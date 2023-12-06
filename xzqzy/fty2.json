@@ -23,23 +23,6 @@
       "ext": "https://aaa.a8ys.xyz/ruifenglb_api.php/v1.vod"
     },
    
-     {
-            "key": "业余采集A",
-            "name": "♻ 业余云自营 ",
-            "type": 1,
-            "api": "http://yydf.540734621.xyz/api.php/provide/vod/?ac=list",
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "电影",
-                "电视剧",
-                "动漫",
-                "综艺"
-               
-            ]
-        },
           {
       "key": "xml_轻简",
       "name": "轻简☆采集",
@@ -89,16 +72,7 @@
         "大陆综艺"
       ]
     },
-     {
-      "key": "魔都资源",
-      "name": "魔都资源",
-      "type": 1,
-      "api": "https://www.moduzy.com/api.php/provide/vod/?ac=list",
-      "playUrl": "https://www.moduzy.com/jiexi/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+    
     {
       "key": "金鹰资源",
       "name": "金鹰资源",
