@@ -23,23 +23,7 @@
       "ext": "https://aaa.a8ys.xyz/ruifenglb_api.php/v1.vod"
     },
    
-     {
-            "key": "业余采集A",
-            "name": "♻ 业余云自营 ",
-            "type": 1,
-            "api": "http://yydf.540734621.xyz/api.php/provide/vod/?ac=list",
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "电影",
-                "电视剧",
-                "动漫",
-                "综艺"
-               
-            ]
-        },
+   
           {
       "key": "xml_轻简",
       "name": "轻简☆采集",
@@ -89,16 +73,7 @@
         "大陆综艺"
       ]
     },
-     {
-      "key": "魔都资源",
-      "name": "魔都资源",
-      "type": 1,
-      "api": "https://www.moduzy.com/api.php/provide/vod/?ac=list",
-      "playUrl": "https://www.moduzy.com/jiexi/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+    
     {
       "key": "金鹰资源",
       "name": "金鹰资源",
@@ -2286,14 +2261,7 @@
       "name": "分享智能2",
       "type": 1,
       "url": "https://jx.shaoze.xyz/web/json?token=5201340&url="},
-       {
-        "name": "彩虹11",
-        "type": 1, 
-        "url": "http://json.84jia.com/home/api?type=ys&uid=394616&key=cefhlmrvwxEGHIJU6&url=",
-        "ext": {
-			"flag": ["qq","腾讯","qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}
-		}    
-    },		
+       
       {
   "name": "分享聚合", 
   "type": 1, "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="},  
