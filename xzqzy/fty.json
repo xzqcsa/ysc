@@ -46,7 +46,7 @@
             "key": "业余==A",
             "name": "♻ 新浪采集 ",
             "type": 1,
-            "api": " https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8",
+            "api": " https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
             "playerType": "2",
             "searchable": 1,
             "quickSearch": 1,
@@ -61,6 +61,117 @@
                
             ]
         },
+        {
+      "key": "业余采集A",
+      "name": "♻ 业余云自营 ",
+      "type": 1,
+      "api": "http://ys.540734621.xyz/api.php/provide/vod/",
+      "playerType": "2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "电影",
+         "电视剧",
+        "国产剧",
+        "欧美剧",
+        "日韩剧",
+        "短剧",
+        "动作片",
+        "剧情片",
+        "喜剧片",
+        "恐怖片",
+        "战争片",
+        "悬疑片",
+        "奇幻片",
+       
+        "港澳台",
+        "海外剧",
+        "国漫",
+        "日韩漫",
+        "欧美漫",
+        "国内综艺",
+       
+        "体育赛事"
+      ]
+    },
+     {
+      "key": "春哥☆自营",
+      "name": "💕春哥☆自营 ",
+      "type": 1,
+      "api": "http://mfsj.kele.plus/api.php/provide/vod/",
+      "playerType": "2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        
+         "少儿",
+        "电影",
+        "连续剧",
+       "短剧",
+        "动漫",
+        "综艺",
+        "体育赛事"
+      ]
+    },
+    {
+      "key": "black",
+      "name": "✌小胡自营",
+      "type": 1,
+      "playerType": 1,
+      "api": "http://d.xzam.cn/api.php/provide/vod/"
+    },
+    {
+      "key": "快车资源",
+      "name": "🚘 快车.云播 ",
+      "type": 1,
+      "api": "https://caiji.kczyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "国产剧",
+        "战争片",
+        "动作片",
+        "香港剧"
+      ]
+    },
+    {
+      "key": "卧龙资源",
+      "name": "🐉 卧龙.云播 ",
+      "type": 1,
+      "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "国产剧",
+        "香港剧",
+        "恐怖片",
+        "动作片"
+      ]
+    },
+    {
+      "key": "光速资源",
+      "name": "☄ 光速.云播 ",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "大陆剧",
+        "港澳剧",
+        "综艺",
+        "动漫"
+      ]
+    },
+    {
+      "key": "闪电资源",
+      "name": "⚡ 闪电.云播 ",
+      "type": 1,
+      "api": "http://sdzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
      {
       "key":"py_cctv11",
      "name": "🦢CCTV动画🎈",
