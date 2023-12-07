@@ -46,13 +46,13 @@
             "key": "业余==A",
             "name": "♻ 新浪采集 ",
             "type": 1,
-            "api": " https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+            "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
             "playerType": "2",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "categories": [
-                "电影",
+               
                  "动作片",
         "剧情片",
         "喜剧片",
@@ -73,7 +73,7 @@
             "key": "自建11",
             "name": "♻ 自建采集 ",
             "type": 1,
-            "api": "  http://xzq.88.kele.plus/api.php/provide/vod/",
+            "api": "http://xzq.88.kele.plus/api.php/provide/vod/",
             "playerType": "2",
             "searchable": 1,
             "quickSearch": 1,
@@ -182,7 +182,7 @@
       "quickSearch": 1,
       "categories": [
         "国产剧",
-         "电影",
+         "动画片",
         "香港剧",
         "恐怖片",
         "动作片"
@@ -197,7 +197,8 @@
       "quickSearch": 1,
       "categories": [
         "大陆剧",
-         "电影",
+         "动作片",
+         "战争片",
         "港澳剧",
         "综艺",
         "动漫"
