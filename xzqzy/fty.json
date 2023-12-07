@@ -75,7 +75,7 @@
       "key": "业余采集A",
       "name": "♻ 业余云自营 ",
       "type": 1,
-      "api": "http://ys.540734621.xyz",
+      "api": "http://ys.540734621.xyz/api.php/provide/vod/",
       "playerType": "2",
       "searchable": 1,
       "quickSearch": 1,
