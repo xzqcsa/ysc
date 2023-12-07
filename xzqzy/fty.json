@@ -48,6 +48,7 @@
             "type": 1,
             "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
             "playerType": "2",
+
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -78,6 +79,7 @@
       "playerType": "2",
       "searchable": 1,
       "quickSearch": 1,
+       "jar": "./uyv0t678c488189af47bb91dc108484d17431;md5;be6121b5c37471b191114027123912d2",
       "filterable": 1,
       "categories": [
         "电影",
