@@ -32,7 +32,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "jar": "./lib/xbpq.jar",
+     
       "ext": {
         "二次截取": "1&&-1+module-item-cover",
         "数组": "module-item-pic&&module-item-cover",
