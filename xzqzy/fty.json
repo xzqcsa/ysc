@@ -23,6 +23,17 @@
              "jar": "./jar/pg.jar",
             "ext": "./lib/tokenm.json$$$https://wogg.link/$$$null$$$1"
         },
+        {  "key": "Wobg",
+      "name": "♻️白泽表哥",
+      "type": 3,
+       "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+       "jar": "./lib/pg.jar",
+      "api": "csp_Wobg",
+      "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$http://www.214728327.xyz:56708/"
+    },
         
    {
       "key": "初见表哥",
