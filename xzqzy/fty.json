@@ -23,16 +23,26 @@
              "jar": "./jar/pg.jar",
             "ext": "./lib/tokenm.json$$$https://wogg.link/$$$null$$$1"
         },
-        {  "key": "Wobg3453",
-      "name": "♻️白泽玩偶",
-      "type": 3,
-       "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-       "jar": "./lib/pg.jar",
-      "api": "http://www.214728327.xyz:56708/",
-      "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$http://www.214728327.xyz:56708/"
+        {
+      "key": "初见白泽",
+      "name": "💕白泽玩偶",
+      "type": 1,
+      "api": "http://www.214728327.xyz:56708/api.php/provide/vod/",
+      "playerType": "2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+       "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$http://www.214728327.xyz:56708/",
+      "categories": [
+        
+         
+        "电影",
+        "剧集",
+      "短剧",
+        "动漫",
+        "综艺",
+        "音乐"
+      ]
     },
         
    {
