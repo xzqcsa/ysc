@@ -31,7 +31,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "jar": "./HeChengChaXiu.jar",
+      "jar": "./lib/fty3.jar",
       "ext": "./lib/白泽玩偶.json"
     },
 
