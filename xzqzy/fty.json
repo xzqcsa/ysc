@@ -23,18 +23,17 @@
              "jar": "./jar/pg.jar",
             "ext": "./lib/tokenm.json$$$https://wogg.link/$$$null$$$1"
         },
-      {"key":"初见表哥","name":"🔥白泽玩偶🔥","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":{
-    "二次截取": "1&&-1+module-item-cover",
-    "数组": "module-item-pic&&module-item-cover",
-    "副标题": "module-item-text*>&&<",
-    "导演": "导演：&&</div>",
-    "主演": "主演：&&</div>",
-    "简介": "剧情：&&</div>",
-    "搜索url": "http://www.214728327.xyz:56708/index.php/vodsearch/-------------.html?wd={wd}",
-    "分类url": "http://www.214728327.xyz:56708/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/letter/{letter}/year/{year}/page/{catePg}.html;;阿里",
- "阿里token": "http://127.0.0.1:9978/file/tvbox/token.txt",
-    "分类": "电影$1#剧集$2#综艺$4#动漫$3#短剧$5#音乐$6"
-}},
+      {
+      "key": "Wogg33455",
+      "name": "🔥白泽玩偶🔥",
+      "type": 3,
+      "api": "csp_XPathAli",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "jar": "./HeChengChaXiu.jar",
+      "ext": "./lib/白泽玩偶.json"
+    },
 
      
       
