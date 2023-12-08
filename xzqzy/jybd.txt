@@ -15,6 +15,8 @@
 江苏|无锡娱乐,http://stream.thmz.com/wxtv2/sd/live.m3u8
 江苏|常熟综合,http://cstvplay.21cs.cn/cstv1/cstv1.m3u8
 江苏|常熟民生经济,http://cstvplay.21cs.cn/cstv2/cstv2.m3u8
+江苏卫视,http://61.148.223.18:8888/newlive/live/hls/22/live.m3u8
+
 江苏卫视,http://cfss.cc/api/ysp/jsws.m3u8
 
 江苏卫视,http://106.39.160.155/live.aishang.ctlcdn.com/00000110240133_1/playlist.m3u8?CONTENTID=00000110240133_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR
