@@ -23,16 +23,16 @@
              "jar": "./jar/pg.jar",
             "ext": "./lib/tokenm.json$$$https://wogg.link/$$$null$$$1"
         },
-      {
-      "key": "Wogg33455",
-      "name": "🔥白泽玩偶🔥",
+      {  "key": "Wobg1111",
+      "name": "♻️白泽玩偶",
       "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "jar": "./lib/fty3.jar",
-      "ext": "./lib/白泽玩偶.json"
+       "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+       "jar": "./lib/pg.jar",
+      "api": "csp_Wobg",
+      "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$http://www.214728327.xyz:56708/"
     },
 
      
@@ -386,13 +386,7 @@
       "jar": "./lib/custom_spider.jar",
       "ext": "http://127.0.0.1:9978/file/tm/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$弹"
     },
-    {"key": "xml_玩偶",
-"name": "🧙玩偶┃哥哥",
-"type": 4,
-"api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=dba669fc1dde45db8e5962beb2198e65",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1},
+  
      {  "key": "Wobg",
       "name": "♻️阿里|玩偶表哥",
       "type": 3,
