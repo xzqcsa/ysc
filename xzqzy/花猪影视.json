@@ -326,6 +326,7 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
+      "playerType": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./lib/iqy.js"
@@ -334,6 +335,7 @@
       "key": "奇艺1",
       "name": "♻️爱奇艺少儿频道",
       "type": 3,
+      "playerType": 1,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/异兽.js"
     },
@@ -341,6 +343,7 @@
       "key": "腾讯1",
       "name": "♻️腾讯少儿频道",
       "type": 3,
+      "playerType": 1,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/腾讯.js"
     },
@@ -348,6 +351,7 @@
       "key": "芒果1",
       "name": "♻️芒果少儿频道",
       "type": 3,
+      "playerType": 1,
       "api": "./lib/drpy2.min.js",
       
       "ext": "./lib/忙果.js"
@@ -356,6 +360,7 @@
       "key": "优酷1",
       "name": "♻️优酷少儿频道",
       "type": 3,
+      "playerType": 1,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/优酷.js"
     },
