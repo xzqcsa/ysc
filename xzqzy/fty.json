@@ -2807,7 +2807,7 @@
      {
       "name": "茶桶1解析",
       "type": 1,
-      "url": "http://119.91.123.253:1234/Api/cs.php?url=",
+      "url": "http://authi.cnlav.cn/home/api?type=ys&uid=5466674&key=deglptABLMSVZ12346&url=",
       "ext": {
         "flag": [
           "qiyi",
