@@ -101,8 +101,7 @@ CCTV12,http://103.45.68.47:666/gy/gy292/百事.php?id=cctv12hd8m/8000000
 CCTV13,http://103.45.68.47:666/gy/gy292/百事.php?id=cctv13xwhd8m/8000000
 CCTV14,http://103.45.68.47:666/gy/gy292/百事.php?id=cctvsehd8m/8000000
 CCTV15,http://103.45.68.47:666/gy/gy292/百事.php?id=cctv15hd8m/8000000
-CCTV16,http://103.45.68.47:666/gy/gy292/百事.php?id=cctv16hd8m/8000000
-CCTV16-4K,http://103.45.68.47:666/gy/gy292/百事.php?id=cctv16hd4k/15000000
+
 CCTV-4K,http://103.45.68.47:666/gy/gy292/百事.php?id=cctv4k/15000000
 CCTV17,http://103.45.68.47:666/gy/gy292/百事.php?id=cctv17hd8m/8000000
 
