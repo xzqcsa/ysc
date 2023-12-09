@@ -335,6 +335,7 @@
       "key": "优酷1",
       "name": "♻️优酷少儿频道",
       "type": 3,
+      "playerType": 1,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/优酷.js"
     },
@@ -2596,11 +2597,7 @@
 
 
   "parses": [
-         {
-            "name": "超级嗅探",
-            "type": 3,
-            "url": "Web"
-        },
+        
     {
       "name": "解析聚合",
       "type": 3,
@@ -2621,7 +2618,16 @@
       "type": 2,
       "url": "Parallel"
     },
-   
+     {
+            "name": "超级嗅探",
+            "type": 3,
+            "url": "Web"
+        },
+    {
+      "name": "云边解析",
+      "type": 1,
+      "url": "https://api.jsdu.cn:8999/api/?type=diy&key=XrHZR1SEA4BagkHJrj&url="
+    },
       {
       "name": "分享智能2",
       "type": 1,
@@ -2740,7 +2746,7 @@
     {
       "name": "夜曲解析",
       "type": 1,
-      "url": "http://xhww.fun:63/小米特别爱肥猫.php?url=",
+      "url": "https://api.jsdu.cn:8999/api/?type=diy&key=XrHZR1SEA4BagkHJrj&url=",
       "ext": {
         "flag": [
           "qq",
