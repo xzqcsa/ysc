@@ -2391,6 +2391,72 @@
             "url": "Web"
         },
          {
+      "name": "云边解析0",
+      "type": 1,
+      "url": "https://api.jsdu.cn:8999/api/?key=edS7mOzDnIcrQqen80&url="
+    },
+    {
+      "name": "云边解析01",
+      "type": 1,
+      "url": "https://api.jsdu.cn:8999/api/?key=4lE1zmxR6wt2lQTKk1&url="
+    },
+     {
+      "name": "云边解析02",
+      "type": 1,
+      "url": "https://api.jsdu.cn:8999/api/?key=yrFYe9FmMN8EL177Yz&url="
+    },
+     {
+      "name": "云边解析03",
+      "type": 1,
+      "url": "https://api.jsdu.cn:8999/api/?key=lnuwLaNvwoAJmHQxDA&url="
+    },
+     {
+      "name": "云边解析04",
+      "type": 1,
+      "url": "https://api.jsdu.cn:8999/api/?key=eqKoxNyGZsOFTt5zOc&url="
+    },
+     {
+      "name": "云边解析05",
+      "type": 1,
+      "url": "https://api.jsdu.cn:8999/api/?key=q1EU2F5GN4CeIk1j3w&url="
+    },
+     {
+      "name": "云边解析06",
+      "type": 1,
+      "url": "https://api.jsdu.cn:8999/api/?key=A1q1atz7zl74t3oC0H&url="
+    },
+     {
+      "name": "云边解析07",
+      "type": 1,
+      "url": "https://api.jsdu.cn:8999/api/?key=mwzZVaBsNJoK3kG4zx&url="
+    },
+     {
+      "name": "云边解析08",
+      "type": 1,
+      "url": "https://api.jsdu.cn:8999/api/?key=9afYx9Wduq0seLzmw0&url="
+    },
+    {
+      "name": "云边解析09",
+      "type": 1,
+      "url": "https://api.jsdu.cn:8999/api/?key=1l8BlEk79EKKOxp9hx&url="
+    },
+    
+         {
+      "name": "云边解析10",
+      "type": 1,
+      "url": "https://api.jsdu.cn:8999/api/?key=H09GPOw9F6zRavj714&url="
+    },
+     {
+      "name": "云边解析11",
+      "type": 1,
+      "url": "https://api.jsdu.cn:8999/api/?key=mHPk3Ty3ugwzQUorGS&url="
+    },	
+     {
+      "name": "云边解析12",
+      "type": 1,
+      "url": "https://api.jsdu.cn:8999/api/?key=A7VTissGhikL0Xhu60&url="
+    },		
+         {
         "name": "彩虹",
         "type": 1, 
         "url": "https://api.jsdu.cn:8999/api/?key=XrHZR1SEA4BagkHJrj&url=",
