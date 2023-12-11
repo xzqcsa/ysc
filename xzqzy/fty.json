@@ -147,18 +147,7 @@
         "体育赛事"
       ]
     },
-    {
-      "key": "酷玩云盘",
-      "name": "🎯酷玩┃云盘",
-      "type": 3,
-      "api": "csp_XiaoZhang",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": "http://小盒酷玩.fun:71/禁止贩卖$$$null$$$1",
-      "timeout": 30
-    },
+   
     {
       "key": "black",
       "name": "✌小胡自营",
@@ -166,22 +155,7 @@
       "playerType": 1,
       "api": "http://d.xzam.cn/api.php/provide/vod/"
     },
-    {
-      "key": "快车资源",
-      "name": "🚘 快车.云播 ",
-      "type": 1,
-      "api": "https://caiji.kczyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "categories": [
-        "国产剧",
-         "动画片",
-        "电影",
-        "战争片",
-        "动作片",
-        "香港剧"
-      ]
-    },
+   
     {
       "key": "卧龙资源",
       "name": "🐉 卧龙.云播 ",
@@ -241,15 +215,7 @@
 "filterable": 1,
 "ext": "./lib/cntv.py"},
 
-{"key": "py_baby",
-"name": "👶少儿☆综合",
-"type": 3,
-"api": "py_baby",
-"searchable": 0,
-"quickSearch": 0,
-"filterable": 1,
-"ext": "./lib/baby.py"
-},
+
  {
       "key": "儿童识字",
       "name": "👶儿童☆识字",
