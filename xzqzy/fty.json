@@ -148,6 +148,18 @@
       ]
     },
     {
+      "key": "酷玩云盘",
+      "name": "🎯酷玩┃云盘",
+      "type": 3,
+      "api": "csp_XiaoZhang",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "http://小盒酷玩.fun:71/禁止贩卖$$$null$$$1",
+      "timeout": 30
+    },
+    {
       "key": "black",
       "name": "✌小胡自营",
       "type": 1,
