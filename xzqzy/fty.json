@@ -83,9 +83,9 @@
     },
     {
       "key": "1080zk",
-      "name": "🔥1080采集🔥 ",
+      "name": "🔥开心自营🔥 ",
       "type": 1,
-      "api": "https://api.1080zyku.com/inc/api_mac10.php",
+      "api": "http://ttkx.rihou.vip:55/api.php/provide/vod/",
       "playerType": "2",
       "searchable": 1,
       "quickSearch": 1,
