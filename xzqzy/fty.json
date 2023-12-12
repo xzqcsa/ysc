@@ -121,7 +121,7 @@
       "key": "1080k",
       "name": "🔥1080采集🔥 ",
       "type": 1,
-      "api": "https://api.1080zyku.com/api.php/provide/vod/",
+      "api": "https://api.1080zyku.com/inc/api_mac10.php",
       "playerType": "2",
       "searchable": 1,
       "quickSearch": 1,
