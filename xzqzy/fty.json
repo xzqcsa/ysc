@@ -44,7 +44,7 @@
     "简介": "剧情：&&</div>",
     "搜索url": "http://www.214728327.xyz:56708/index.php/vodsearch/-------------.html?wd={wd}",
     "分类url": "http://www.214728327.xyz:56708/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/letter/{letter}/year/{year}/page/{catePg}.html;;阿里",
-    "阿里token": "cdb2d91b895649ffb7ef4215990932b8",
+    "阿里token": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto",
     "分类": "电影$1#剧集$2#综艺$4#动漫$3#短剧$5#音乐$6"
 }},
 {
