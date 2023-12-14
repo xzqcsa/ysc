@@ -200,6 +200,7 @@
             "filterable": 1,
             "categories": [
                 "国产剧",
+                 "动画片",
                 "港台剧",
                 "日本剧",
                 "欧美剧",
@@ -229,6 +230,7 @@
             "filterable": 1,
             "categories": [
                 "国产剧",
+                "动画片",
                 "台湾剧",
                 "韩国剧",
                 "日本剧",
@@ -250,7 +252,7 @@
                 "日韩综艺",
                 "欧美综艺",
                 "记录片",
-                "动画片",
+                
                 "搞笑",
                 "音乐"
             ]
@@ -709,55 +711,7 @@
     "filterable":1,
     "ext":"./lib/雷达.json"
     },
-     {
-      "key": "csp_search_Panda_pansearch",
-      "name": "4K-HDR盘搜",
-      "type": 3,
-      "api": "csp_Panda",
-      "ext": {
-        "数组": "flex flex-col items-start&&</div></div><div",
-        "标题": "名称：&&描述：",
-        "副标题": "发布时间：&&</p>",
-        "图片": "<img src=\"&&\"",
-        "链接": "href=\"&&\"",
-        "搜索url": "https://www.pansearch.me/search?keyword={wd}&pan=aliyundrive;;kS5",
-        "timeout": 30,
-        "changeable": 0,
-        "阿里token": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
-      },
-      "jar": "./lib/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
-    },
-    {
-      "key": "csp_search_Panda_盘搜",
-      "name": "4K-HDR尽一",
-      "type": 3,
-      "api": "csp_Panda",
-      "ext": {
-        "标题": "<span*>&&</div>",
-        "副标题": "时间:&&格式",
-        "图片": "thumb=\"&&\"",
-        "链接": "/cv/+href=\"/s/&&\"",
-        "搜索url": "https://www.alipansou.com/search?page={pg}&k={wd}&s=0&t=7;;kS5",
-        "timeout": 30,
-        "changeable": 0,
-        "阿里token": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
-      },
-      "jar": "./lib/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
-    },
-    {
-      "key": "盘Se弹幕版",
-      "name": "🍭盘S弹幕┃🍭",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt",
-        "danmu": true
-      },
-      "jar": "./lib/danmu.jar"
-    },
+    
     {
       "key": "七夜弹幕版",
       "name": "🍭七夜弹幕┃🍭",
