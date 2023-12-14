@@ -709,6 +709,41 @@
     "filterable":1,
     "ext":"./lib/雷达.json"
     },
+     {
+      "key": "csp_search_Panda_pansearch",
+      "name": "4K-HDR盘搜",
+      "type": 3,
+      "api": "csp_Panda",
+      "ext": {
+        "数组": "flex flex-col items-start&&</div></div><div",
+        "标题": "名称：&&描述：",
+        "副标题": "发布时间：&&</p>",
+        "图片": "<img src=\"&&\"",
+        "链接": "href=\"&&\"",
+        "搜索url": "https://www.pansearch.me/search?keyword={wd}&pan=aliyundrive;;kS5",
+        "timeout": 30,
+        "changeable": 0,
+        "阿里token": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
+      },
+      "jar": "./lib/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
+    },
+    {
+      "key": "csp_search_Panda_盘搜",
+      "name": "4K-HDR尽一",
+      "type": 3,
+      "api": "csp_Panda",
+      "ext": {
+        "标题": "<span*>&&</div>",
+        "副标题": "时间:&&格式",
+        "图片": "thumb=\"&&\"",
+        "链接": "/cv/+href=\"/s/&&\"",
+        "搜索url": "https://www.alipansou.com/search?page={pg}&k={wd}&s=0&t=7;;kS5",
+        "timeout": 30,
+        "changeable": 0,
+        "阿里token": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
+      },
+      "jar": "./lib/PandaQ231205.jar;md5;9cc29f6286b2fe7910628852929c4bdb"
+    },
     {
       "key": "盘Se弹幕版",
       "name": "🍭盘S弹幕┃🍭",
@@ -1512,12 +1547,12 @@
          
             {
             "name": "💃自建小雅",
-            "server": "http://111.67.195.139:5678",
+            "server": "http://113.226.183.108:5678/",
             "version": 3
           },
            {
             "name": "💃小雅搜索1",
-            "server": "http://124.71.206.236:5678",
+            "server": "http://113.235.39.240:5678/",
             "version": 3
           },
           {
@@ -1527,12 +1562,12 @@
           },
           {
             "name": "💃小雅搜索3",
-            "server": "http://182.116.92.150:5678",
+            "server": "​http://120.12.211.50:5678/",
             "version": 3
           },
           {
             "name": "💃小雅搜索4",
-            "server": "http://112.226.137.40:5678",
+            "server": "​http://113.224.172.107:5678/",
             "version": 3
           },
           {
