@@ -16,8 +16,8 @@
 江苏|无锡娱乐,http://stream.thmz.com/wxtv2/sd/live.m3u8
 江苏|常熟综合,http://cstvplay.21cs.cn/cstv1/cstv1.m3u8
 江苏|常熟民生经济,http://cstvplay.21cs.cn/cstv2/cstv2.m3u8
-   梨园HD,http://180.102.253.93:8000/rtp/239.49.8.193:8000 
-    江苏新闻HD,http://180.102.253.93:8000/rtp/239.49.8.120:8000
+   梨园,http://180.102.253.93:8000/rtp/239.49.8.193:8000 
+    江苏新闻,http://180.102.253.93:8000/rtp/239.49.8.120:8000
   江苏卫视,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8?
 
 江苏卫视,http://hms2924nc1972666636.live.aikan.miguvideo.com/wh7f454c46tw1592593248_1989329552/wd_r2/cctv/jiangsuhd/2500/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073742&ContentId=264104188&timezone=UTC&mtv_session=6bc8392c0ce046c4a27b0d812696e9f8&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=a05b045f626d4764b5124f26a2f1d747
@@ -30,14 +30,14 @@
 
 江苏卫视,https://iptv.luas.edu.cn/liverespath/0be64515076e489456de2f33e7b58ff1b392d3b3/8c0352e42d-0-0-2529f61c8f420136013f1ab8a93169c3/index.m3u8
 江苏卫视,http://live.aishang.ctlcdn.com/00000110240133_1/playlist.m3u8?CONTENTID=00000110240133_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR
-   江苏城市HD,http://180.102.253.93:8000/rtp/239.49.8.107:8000
-                   江苏综艺HD,http://180.102.253.93:8000/rtp/239.49.8.108:8000
-                   江苏体育休闲HD,http://180.102.253.93:8000/rtp/239.49.8.117:8000
-                  江苏影视HD,http://180.102.253.93:8000/rtp/239.49.8.118:8000
-                   优漫卡通HD,http://180.102.253.93:8000/rtp/239.49.8.119:8000
-                   江苏教育HD,http://180.102.253.93:8000/rtp/239.49.8.122:8000
-                     风云音乐HD,http://180.102.253.93:8000/rtp/239.49.8.92:8000
-                        "快乐垂钓HD",http://180.102.253.93:8000/rtp/239.49.0.114:8000
+   江苏城市,http://180.102.253.93:8000/rtp/239.49.8.107:8000
+                   江苏综艺,http://180.102.253.93:8000/rtp/239.49.8.108:8000
+                   江苏体育休闲,http://180.102.253.93:8000/rtp/239.49.8.117:8000
+                  江苏影视,http://180.102.253.93:8000/rtp/239.49.8.118:8000
+                   优漫卡通,http://180.102.253.93:8000/rtp/239.49.8.119:8000
+                   江苏教育,http://180.102.253.93:8000/rtp/239.49.8.122:8000
+                     风云音乐,http://180.102.253.93:8000/rtp/239.49.8.92:8000
+                        "快乐垂钓",http://180.102.253.93:8000/rtp/239.49.0.114:8000
  CCTV1,http://180.109.223.156:8888/rtp/239.49.8.19:9614
                   CCTV2,http://180.109.223.156:8888/rtp/239.49.8.50:9802
                    CCTV3,http://180.109.223.156:8888/rtp/239.49.8.74:8000
