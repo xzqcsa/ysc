@@ -1,7 +1,7 @@
 ﻿
 江阴新闻综合,http://221.228.70.101:8080/live/xinwen.m3u8
 江阴新闻综合,http://221.228.70.101:8080/live/xinwen.m3u8
-  文物宝库,http://180.109.223.156:8888/rtp/239.49.0.209:8000
+ 
 金鹰卡通HD,http://180.102.253.93:8000/rtp/239.49.8.33:8000
 无锡经济,http://stream.thmz.com/wxtv5/sd/live.m3u8?zjiangsd
 张家港新闻综合,http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8?zjiangsd
