@@ -1,0 +1,16 @@
+{
+    "作者": "NB",
+    "站名": "电影鱼",
+    "主页url": "https://dydyy.vip/",
+    "简介": "资源仅供测试交流，请勿商用！观影时，请勿相信影片中的广告，以免上当受骗。+剧情：&&</p>",
+    "导演": "导演：&&</p>",
+    "主页url": "https://dydyy.vip/",
+    "图片": "data-src=\"&&\"",
+    "标题": "alt=\"&&\"",
+    "播放数组": "<div class=\"scroll-content&&</div>",
+    "线路数组": "data-dropdown-value=&&</div>[排序:索尼>4k>量子]",
+    "线路标题": "+<span>&&</small>[替换:</span><small>>>共]+集",
+    "捜索url": "/search/wd{wd}.html",
+    "分类url": "https://dydyy.vip/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html;;ak",
+    "分类": "电影$1#连续剧$2#综艺$4#动漫$44"
+}

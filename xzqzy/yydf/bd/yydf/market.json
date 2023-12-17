@@ -1,0 +1,349 @@
+[
+    {
+        "name": "推荐",
+        "list": [
+            {
+                "url": "http://yydf.540734621.xyz/yydf/jpg/打赏业余.jpeg",
+                "icon": "http://yydf.540734621.xyz/yydf/jpg/打赏业余.jpeg"
+            }
+        ]
+    },
+    {
+        "name": "壳子内置版",
+        "list": [
+            {
+                "name": "MT管理器",
+                "url": "http://yydf.540734621.xyz/yydf/apk/MT管理器_2.14.2.apk",
+                "icon": "http://yydf.540734621.xyz/yydf/jpg/MT.png",
+                "version": "2.14.2"
+            },
+            {
+                "name": "影视TV内置",
+                "url": "http://yydf.540734621.xyz/yydf/apk/影视TV版_2.0.7.apk",
+                "icon": "http://yydf.540734621.xyz/yydf/jpg/r8nk2.png",
+                "version": "v7a"
+            },
+            {
+                "name": "业余影视",
+                "url": "http://yydf.540734621.xyz/yydf/apk/业余影视.apk",
+                "icon": "http://yydf.540734621.xyz/yydf/jpg/yy.png",
+                "version": "1209"
+            },
+            {
+                "name": "TVBox俊版",
+                "url": "http://yydf.540734621.xyz/yydf/apk/TVBox.apk",
+                "icon": "http://yydf.540734621.xyz/yydf/jpg/mbox.png",
+                "version": "1113"
+            },
+            {
+                "name": "竖版MBOX",
+                "url": "http://yydf.540734621.xyz/yydf/apk/MBOX_1.0.2.apk",
+                "icon": "http://yydf.540734621.xyz/yydf/jpg/mbox.png",
+                "version": "1.0.2"
+            },
+            {
+                "name": "妙影内置",
+                "url": "http://yydf.540734621.xyz/yydf/apk/妙影_1209内置.apk",
+                "icon": "http://yydf.540734621.xyz/yydf/jpg/catbox.png",
+                "version": "1209"
+            },
+            {
+                "name": "影音壳子",
+                "url": "http://yydf.540734621.xyz/yydf/apk/影音壳子_1.6.8.apk",
+                "icon": "http://yydf.540734621.xyz/yydf/jpg/yykz.png",
+                "version": "1.6.8"
+            },
+            {
+                "name": "影视仓内置",
+                "url": "http://yydf.540734621.xyz/yydf/apk/影视仓.apk",
+                "icon": "http://yydf.540734621.xyz/yydf/jpg/ysc.png",
+                "version": "5.0.11"
+            },
+            {
+                "name": "影视仓内置",
+                "url": "http://yydf.540734621.xyz/yydf/apk/影视仓_5.0.13.apk",
+                "icon": "http://yydf.540734621.xyz/yydf/jpg/ysc.png",
+                "version": "5.0.13"
+            }
+        ]
+    },
+    {
+        "name": "正式版",
+        "list": [
+            {
+                "name": "電視-java",
+                "url": "https://my.t4tv.hz.cz/apk/release/leanback-java-armeabi_v7a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "v7a"
+            },
+            {
+                "name": "電視-java",
+                "url": "https://my.t4tv.hz.cz/apk/release/leanback-java-arm64_v8a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "v8a"
+            },
+            {
+                "name": "電視-py",
+                "url": "https://my.t4tv.hz.cz/apk/release/leanback-python-armeabi_v7a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "v7a"
+            },
+            {
+                "name": "電視-py",
+                "url": "https://my.t4tv.hz.cz/apk/release/leanback-python-arm64_v8a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "v8a"
+            },
+            {
+                "name": "Android-4.x",
+                "url": "https://my.t4tv.hz.cz/apk/kitkat/leanback.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            },
+            {
+                "name": "手機-java",
+                "url": "https://my.t4tv.hz.cz/apk/release/mobile-java-armeabi_v7a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+                "version": "v7a"
+            },
+            {
+                "name": "手機-java",
+                "url": "https://my.t4tv.hz.cz/apk/release/mobile-java-arm64_v8a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+                "version": "v8a"
+            },
+            {
+                "name": "手機-py",
+                "url": "https://my.t4tv.hz.cz/apk/release/mobile-python-armeabi_v7a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+                "version": "v7a"
+            },
+            {
+                "name": "手機-py",
+                "url": "https://my.t4tv.hz.cz/apk/release/mobile-python-arm64_v8a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+                "version": "v8a"
+            }
+        ]
+    },
+    {
+        "name": "內測版",
+        "list": [
+            {
+                "name": "電視-java",
+                "url": "https://my.t4tv.hz.cz/apk/dev/leanback-java-armeabi_v7a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "v7a"
+            },
+            {
+                "name": "電視-java",
+                "url": "https://my.t4tv.hz.cz/apk/dev/leanback-java-arm64_v8a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "v8a"
+            },
+            {
+                "name": "電視-py",
+                "url": "https://my.t4tv.hz.cz/apk/dev/leanback-python-armeabi_v7a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "v7a"
+            },
+            {
+                "name": "電視-py",
+                "url": "https://my.t4tv.hz.cz/apk/dev/leanback-python-arm64_v8a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "v8a"
+            },
+            {
+                "name": "手機-java",
+                "url": "https://my.t4tv.hz.cz/apk/dev/mobile-java-armeabi_v7a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+                "version": "v7a"
+            },
+            {
+                "name": "手機-java",
+                "url": "https://my.t4tv.hz.cz/apk/dev/mobile-java-arm64_v8a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+                "version": "v8a"
+            },
+            {
+                "name": "手機-py",
+                "url": "https://my.t4tv.hz.cz/apk/dev/mobile-python-armeabi_v7a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+                "version": "v7a"
+            },
+            {
+                "name": "手機-py",
+                "url": "https://my.t4tv.hz.cz/apk/dev/mobile-python-arm64_v8a.apk",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
+                "version": "v8a"
+            }
+        ]
+    },
+    {
+        "name": "SO-v7a",
+        "list": [
+            {
+                "name": "ffmpeg",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libffmpegJNI.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "EXO"
+            },
+            {
+                "name": "av1",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libgav1JNI.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "EXO"
+            },
+            {
+                "name": "ffmpeg",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libijkffmpeg.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "IJK"
+            },
+            {
+                "name": "sdl",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libijksdl.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "IJK"
+            },
+            {
+                "name": "player",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libplayer.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "IJK"
+            },
+            {
+                "name": "荐片",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libjpa.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            },
+            {
+                "name": "磁力-1",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libxl_stat.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            },
+            {
+                "name": "磁力-2",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libxl_thunder_sdk.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            },
+            {
+                "name": "晴天",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libmitv.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            },
+            {
+                "name": "P2P",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp2p.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            },
+            {
+                "name": "P3P",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp3p.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            },
+            {
+                "name": "P4P",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp4p.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            },
+            {
+                "name": "P5P",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp5p.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            },
+            {
+                "name": "P6P",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp6p.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            },
+            {
+                "name": "P7P",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp7p.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            },
+            {
+                "name": "P8P",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp8p.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            },
+            {
+                "name": "P9P",
+                "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp9p.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            }
+        ]
+    },
+    {
+        "name": "SO-v8a",
+        "list": [
+            {
+                "name": "ffmpeg",
+                "url": "https://my.t4tv.hz.cz/so/arm64-v8a/libffmpegJNI.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "EXO"
+            },
+            {
+                "name": "av1",
+                "url": "https://my.t4tv.hz.cz/so/arm64-v8a/libgav1JNI.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "EXO"
+            },
+            {
+                "name": "ffmpeg",
+                "url": "https://my.t4tv.hz.cz/so/arm64-v8a/libijkffmpeg.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "IJK"
+            },
+            {
+                "name": "sdl",
+                "url": "https://my.t4tv.hz.cz/so/arm64-v8a/libijksdl.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "IJK"
+            },
+            {
+                "name": "player",
+                "url": "https://my.t4tv.hz.cz/so/arm64-v8a/libplayer.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+                "version": "IJK"
+            },
+            {
+                "name": "荐片",
+                "url": "https://my.t4tv.hz.cz/so/arm64-v8a/libjpa.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            },
+            {
+                "name": "磁力-1",
+                "url": "https://my.t4tv.hz.cz/so/arm64-v8a/libxl_stat.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            },
+            {
+                "name": "磁力-2",
+                "url": "https://my.t4tv.hz.cz/so/arm64-v8a/libxl_thunder_sdk.so",
+                "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
+            }
+        ]
+    },
+    {
+        "name": "本地包",
+        "list": [
+            {
+                "name": "业余影视",
+                "url": "http://yydf.540734621.xyz/yydf/apk/业余影视.zip",
+                "icon": "http://yydf.540734621.xyz/yydf/jpg/业余影视.jpeg",
+                "version": "0917"
+            },
+            {
+                "name": "watson",
+                "url": "http://yydf.540734621.xyz/yydf/apk/watson.zip",
+                "icon": "http://yydf.540734621.xyz/yydf/jpg/watson.jpeg",
+                "version": "1115更新"
+            },
+            {
+                "name": "香雅情",
+                "url": "http://yydf.540734621.xyz/yydf/apk/XYQTVBox.zip",
+                "icon": "http://yydf.540734621.xyz/yydf/jpg/xyq.jpeg",
+                "version": "1112更新"
+            }
+        ]
+    }
+]
