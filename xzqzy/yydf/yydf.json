@@ -1,6 +1,10 @@
-{
+﻿{
     "warningText": "关注公众号:业余打发，分享者随时更新。",
     "urls": [
+{
+            "name": "♻️业余｜PG线路｜♻️",
+            "url": "clan://localhost/yydf/bd/pg.json"
+        },
         {
             "name": "👨｜业余本地1215｜👨",
             "url": "clan://localhost/yydf/bd/yydf.json"
