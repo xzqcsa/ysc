@@ -446,13 +446,7 @@
       ]
     },
    
-    {
-      "key": "black",
-      "name": "✌小胡自营",
-      "type": 1,
-      "playerType": 1,
-      "api": "http://d.xzam.cn/api.php/provide/vod/"
-    },
+   
    
     {
       "key": "卧龙资源",
