@@ -24,7 +24,7 @@
             "ext": "./lib/tokenm.json$$$https://wogg.link/$$$null$$$1"
         },
       {  "key": "Wobg1111",
-      "name": "♻️玩偶表弟",
+      "name": "🔥️玩偶表弟🔥",
       "type": 3,
        "style": {
         "type": "rect",
@@ -49,7 +49,7 @@
 }},
 {
             "key": "bili",
-            "name": "B站 | Bili[jar]",
+            "name": "🔥B站 | Bili🔥",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 1,
@@ -63,7 +63,7 @@
         },
 		 {
             "key": "Hdhive",
-            "name": "影巢|网盘",
+            "name": "🔥影巢|网盘🔥",
             "type": 3,
             "api": "csp_Hdhive",
             "quickSearch": 1,
@@ -75,7 +75,7 @@
         },
         {
             "key": "Ppxzy",
-            "name": "皮皮虾|网盘",
+            "name": "🔥皮皮虾|网盘🔥",
             "type": 3,
             "api": "csp_Ppxzy",
             "quickSearch": 1,
@@ -87,7 +87,7 @@
         },
         {
             "key": "校长影视",
-            "name": "校长影视|网盘",
+            "name": "🔥校长影视|网盘🔥",
             "type": 3,
             "api": "csp_XiaoZhang",
             "quickSearch": 1,
@@ -99,7 +99,7 @@
         },
         {
             "key": "团长资源",
-            "name": "团长资源|网盘",
+            "name": "🔥团长资源|网盘🔥",
             "type": 3,
             "api": "csp_TZFile",
             "quickSearch": 1,
@@ -111,7 +111,7 @@
         },
 		{
             "key": "4KHDR",
-            "name": "4KHDR|网盘",
+            "name": "🔥4KHDR|网盘🔥",
             "type": 3,
             "api": "csp_FourKHDR",
             "quickSearch": 1,
