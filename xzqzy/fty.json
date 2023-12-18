@@ -790,7 +790,7 @@
     },
       {
             "key": "Funletu",
-            "name": "趣盘搜|夸克",
+            "name": "🔍趣盘搜|夸克🔍",
             "type": 3,
             "api": "csp_Funletu",
             "quickSearch": 1,
@@ -802,7 +802,7 @@
         },
         {
             "key": "QuarkPanso",
-            "name": "夸克盘搜|夸克",
+            "name": "🔍夸克盘搜|夸克🔍",
             "type": 3,
             "api": "csp_QuarkPanso",
             "quickSearch": 1,
