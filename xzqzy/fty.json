@@ -20,7 +20,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
-             "jar": "./jar/pg.jar",
+             "jar": "./lib/pg.jar",
             "ext": "./lib/tokenm.json$$$https://wogg.link/$$$null$$$1"
         },
       {  "key": "Wobg1111",
@@ -114,6 +114,7 @@
             "name": "🔥巧技一┃App🔥🔥🔥🔥🔥",
             "type": 3,
             "api": "csp_qiao2",
+			"jar": "./lib/fix1209.jar",
             "playerType": 2,
             "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji1"
         },
@@ -122,6 +123,7 @@
             "name": "🔥🔥🔥🔥巧技二┃App🔥🔥🔥",
             "type": 3,
             "api": "csp_qiao2",
+			"jar": "./lib/fix1209.jar",
             "playerType": 2,
             "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji2"
         },
@@ -130,6 +132,7 @@
             "name": "🔥🔥巧技三┃App🔥",
             "type": 3,
             "api": "csp_qiao2",
+			"jar": "./lib/fix1209.jar",
             "playerType": 2,
             "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji3"
         },
