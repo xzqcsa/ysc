@@ -48,6 +48,80 @@
     "分类": "电影$1#剧集$2#综艺$4#动漫$3#短剧$5#音乐$6"
 }},
 {
+            "key": "bili",
+            "name": "B站 | Bili[jar]",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+			"jar": "./lib/pg.jar",
+            "ext": {
+                "type": "演唱会#电影#电视剧#帕梅拉#广场舞#纪录片#综艺#鬼畜#音乐#舞蹈#影视#知识#美食#风光#田园#户外#8K#徐云",
+                "cookie": "./lib/bili_cookie.txt"
+            }
+        },
+		 {
+            "key": "Hdhive",
+            "name": "影巢|网盘",
+            "type": 3,
+            "api": "csp_Hdhive",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+			"jar": "./lib/pg.jar",
+            "timeout": 30,
+            "ext": "./lib/tokenm.json$$$null$$$1"
+        },
+        {
+            "key": "Ppxzy",
+            "name": "皮皮虾|网盘",
+            "type": 3,
+            "api": "csp_Ppxzy",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+			"jar": "./lib/pg.jar",
+            "timeout": 30,
+            "ext": "./lib/tokenm.json$$$https://ppxzy.net/$$$null$$$1"
+        },
+        {
+            "key": "校长影视",
+            "name": "校长影视|网盘",
+            "type": 3,
+            "api": "csp_XiaoZhang",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+			"jar": "./lib/pg.jar",
+            "ext": "./lib/tokenm.json$$$null$$$1"
+        },
+        {
+            "key": "团长资源",
+            "name": "团长资源|网盘",
+            "type": 3,
+            "api": "csp_TZFile",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+			"jar": "./lib/pg.jar",
+            "timeout": 30,
+            "ext": "./lib/tokenm.json$$$null$$$1"
+        },
+		{
+            "key": "4KHDR",
+            "name": "4KHDR|网盘",
+            "type": 3,
+            "api": "csp_FourKHDR",
+            "quickSearch": 1,
+            "changeable": 1,
+			"jar": "./lib/pg.jar",
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/4khdr.txt$$$1"
+        },
+{
       "key": "aidfd",
       "name": "🔥爱困采集🔥 ",
       "type": 1,
@@ -726,7 +800,30 @@
       },
       "jar": "./lib/danmu.jar"
     },
-     
+      {
+            "key": "Funletu",
+            "name": "趣盘搜|夸克",
+            "type": 3,
+            "api": "csp_Funletu",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+			 "jar": "./lib/pg.jar",
+            "ext": "./lib/tokenm.json"
+        },
+        {
+            "key": "QuarkPanso",
+            "name": "夸克盘搜|夸克",
+            "type": 3,
+            "api": "csp_QuarkPanso",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+			 "jar": "./lib/pg.jar",
+            "ext": "./lib/tokenm.json"
+        },
  {
       "key": "YiSo",
       "name": "🔍一搜(阿里搜索)🔍",
