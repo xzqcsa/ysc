@@ -136,12 +136,50 @@
             "playerType": 2,
             "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji3"
         },
+		{
+      "key": "csp_非凡资源",
+      "name": "非凡资源",
+      "type": 1,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+      "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "恐怖片",
+        "爱情片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "国产剧",
+        "欧美剧",
+        "香港剧",
+        "韩国剧",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ]
+    },
 {
       "key": "aidfd",
       "name": "🔥爱困采集🔥 ",
       "type": 1,
       "api": " https://ikunzyapi.com/api.php/provide/vod/",
       "playerType": "2",
+	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -177,6 +215,7 @@
       "api": "http://www.ttkx.site/api.php/provide/vod/",
       "playerType": "2",
       "searchable": 1,
+	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
       "quickSearch": 1,
       "filterable": 1,
       "categories": [
@@ -213,6 +252,7 @@
       "type": 1,
       "api": "https://api.1080zyku.com/inc/api_mac10.php",
       "playerType": "2",
+	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -252,6 +292,7 @@
       "api": "https://www.feisuzyapi.com/api.php/provide/vod/",
       "playerType": "2",
       "searchable": 1,
+	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
       "quickSearch": 1,
       "filterable": 1,
       "categories": [
@@ -286,6 +327,7 @@
             "api": "http://kuaikan-api.com/api.php/provide/vod/",
             "playerType": 2,
             "searchable": 1,
+			"playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
             "quickSearch": 1,
             "filterable": 1,
             "categories": [
@@ -316,6 +358,7 @@
             "api": "https://api.1080zyku.com/inc/apijson.php?ac=list",
             "playerType": 2,
             "searchable": 1,
+			"playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
             "quickSearch": 1,
             "filterable": 1,
             "categories": [
@@ -354,6 +397,7 @@
      "api": " https://api.ukuapi.com/api.php/provide/vod/",
      
      "searchable": 1,"quickSearch": 0,"filterable": 1,
+	 "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
      "categories":
       ["动漫","国产剧","动作片","科幻片",
       "战争片","喜剧片","动漫电影",
@@ -368,6 +412,7 @@
             "name": "🔥新浪采集🔥 ",
             "type": 1,
             "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+			"playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
             "playerType": "2",
 
             "searchable": 1,
@@ -397,6 +442,7 @@
       "name": "🔥 豪华采集🔥 ",
       "type": 1,
       "api": " https://hhzyapi.com/api.php/provide/vod/",
+	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
       "playerType": "2",
       "searchable": 1,
       "quickSearch": 1,
@@ -431,6 +477,7 @@
       "name": "💕春哥☆自营 ",
       "type": 1,
       "api": "http://mfsj.kele.plus/api.php/provide/vod/",
+	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
       "playerType": "2",
       "searchable": 1,
       "quickSearch": 1,
@@ -454,6 +501,7 @@
       "name": "🐉 卧龙.云播 ",
       "type": 1,
       "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
+	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
       "searchable": 1,
       "quickSearch": 1,
       "categories": [
@@ -469,6 +517,7 @@
       "name": "☄ 光速.云播 ",
       "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
       "searchable": 1,
       "quickSearch": 1,
       "categories": [
@@ -486,6 +535,7 @@
       "name": "⚡ 闪电.云播 ",
       "type": 1,
       "api": "http://sdzyapi.com/api.php/provide/vod/",
+	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -894,6 +944,7 @@
      "name": "🦊茶杯狐",
      "type": 1,
      "api": "https://hhzyapi.com/api.php/provide/vod/",
+	 "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
      "searchable": 1,"quickSearch": 0,"filterable": 1,
      "categories":
       ["内地剧","动作片","科幻片",
