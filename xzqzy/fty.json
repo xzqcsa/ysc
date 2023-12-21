@@ -1,4 +1,4 @@
-{
+﻿{
   
   "spider": "./yydf.jar",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
@@ -179,7 +179,7 @@
       "type": 1,
       "api": " https://ikunzyapi.com/api.php/provide/vod/",
       "playerType": "2",
-	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+	 
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -215,7 +215,7 @@
       "api": "http://www.ttkx.site/api.php/provide/vod/",
       "playerType": "2",
       "searchable": 1,
-	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+	
       "quickSearch": 1,
       "filterable": 1,
       "categories": [
@@ -252,7 +252,7 @@
       "type": 1,
       "api": "https://api.1080zyku.com/inc/api_mac10.php",
       "playerType": "2",
-	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+	
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -292,7 +292,7 @@
       "api": "https://www.feisuzyapi.com/api.php/provide/vod/",
       "playerType": "2",
       "searchable": 1,
-	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+	 
       "quickSearch": 1,
       "filterable": 1,
       "categories": [
@@ -327,7 +327,7 @@
             "api": "http://kuaikan-api.com/api.php/provide/vod/",
             "playerType": 2,
             "searchable": 1,
-			"playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+			
             "quickSearch": 1,
             "filterable": 1,
             "categories": [
@@ -358,7 +358,7 @@
             "api": "https://api.1080zyku.com/inc/apijson.php?ac=list",
             "playerType": 2,
             "searchable": 1,
-			"playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+			
             "quickSearch": 1,
             "filterable": 1,
             "categories": [
@@ -397,7 +397,7 @@
      "api": " https://api.ukuapi.com/api.php/provide/vod/",
      
      "searchable": 1,"quickSearch": 0,"filterable": 1,
-	 "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+	
      "categories":
       ["动漫","国产剧","动作片","科幻片",
       "战争片","喜剧片","动漫电影",
@@ -412,7 +412,7 @@
             "name": "🔥新浪采集🔥 ",
             "type": 1,
             "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-			"playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+			
             "playerType": "2",
 
             "searchable": 1,
@@ -442,7 +442,7 @@
       "name": "🔥 豪华采集🔥 ",
       "type": 1,
       "api": " https://hhzyapi.com/api.php/provide/vod/",
-	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+	  
       "playerType": "2",
       "searchable": 1,
       "quickSearch": 1,
@@ -477,7 +477,7 @@
       "name": "💕春哥☆自营 ",
       "type": 1,
       "api": "http://mfsj.kele.plus/api.php/provide/vod/",
-	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+	
       "playerType": "2",
       "searchable": 1,
       "quickSearch": 1,
@@ -501,7 +501,7 @@
       "name": "🐉 卧龙.云播 ",
       "type": 1,
       "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
-	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+	 
       "searchable": 1,
       "quickSearch": 1,
       "categories": [
@@ -517,7 +517,7 @@
       "name": "☄ 光速.云播 ",
       "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/",
-	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+	  
       "searchable": 1,
       "quickSearch": 1,
       "categories": [
@@ -535,7 +535,7 @@
       "name": "⚡ 闪电.云播 ",
       "type": 1,
       "api": "http://sdzyapi.com/api.php/provide/vod/",
-	  "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+	
       "searchable": 1,
       "quickSearch": 1
     },
