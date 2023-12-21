@@ -138,7 +138,7 @@
         },
 		{
       "key": "csp_非凡资源",
-      "name": "非凡资源",
+      "name": "🔥非凡资源🔥",
       "type": 1,
       "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
       "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
