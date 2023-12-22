@@ -30,6 +30,16 @@
     "quickSearch":1,
     "filterable":1,
     "ext":"./18/玩偶姐姐.js"},
+	{
+      "key": "dr_码上看_素白白",
+      "name": "🔥码上看玩偶",
+      "type": 3,
+      "api": "./lib/merge.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/玩偶姐姐.js"
+    },
  
     {
       "key": "aidfd人",
