@@ -23,7 +23,13 @@
       "api": "https://hongkongdollvideo.com/api.php/provide/vod/"
 	   
     },
-	  
+	  {"key":"csp_来看",
+    "name":"💕玩偶姐姐",
+    "type":3,"api":"csp_XBPQ",
+    "searchable":1,
+    "quickSearch":1,
+    "filterable":1,
+    "ext":"./18/玩偶姐姐.js"},
  
     {
       "key": "aidfd人",
