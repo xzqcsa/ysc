@@ -28,6 +28,7 @@
     "type":3,"api":"csp_XBPQ",
     "searchable":1,
     "quickSearch":1,
+	"jar": "./18/0906.jar",
     "filterable":1,
     "ext":"./18/玩偶姐姐.js"},
 	{
