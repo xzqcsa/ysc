@@ -173,6 +173,15 @@
         "欧美综艺"
       ]
     },
+	{
+      "key": "Kuaikan",
+      "name": "🔥月光快看🔥",
+      "type": 3,
+      "api": "csp_Kuaikan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
 {
       "key": "aidfd",
       "name": "🔥爱困采集🔥 ",
