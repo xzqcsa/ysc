@@ -1021,7 +1021,7 @@
       "name": "️🔥芒果影视♻️",
       "type": 1,
       "api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/mgtv/?at/xml/",
-      "playUrl": "https://vip.lianfaka.com/vip/?url=",
+     
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1053,7 +1053,7 @@
       "name": "️🥝奇艺影视♻️",
       "type": 1,
       "api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/qiyi/?at/xml/",
-      "playUrl": "https://jxdp.codermart.net/?url=",
+      
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1093,7 +1093,7 @@
       "name": "️🦊搜狐影视♻️",
       "type": 1,
       "api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/sohu/?at/xml/",
-      "playUrl": "https://jx.xmflv.com/?url=",
+      
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,

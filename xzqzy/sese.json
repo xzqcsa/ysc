@@ -15,13 +15,15 @@
 	{
       "key": "玩偶姐姐",
       "name": "🔥玩偶姐姐",
-       "api": "https://hongkongdollvideo.com/api.php/provide/vod/",
-      "playerType": "2",
+      
+      "type": 1,
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
-	  
+      "filterable": 1,
+      "api": "https://hongkongdollvideo.com/api.php/provide/vod/"
     },
+	  
+ 
     {
       "key": "aidfd人",
       "name": "🔥sese采集🔥 ",
