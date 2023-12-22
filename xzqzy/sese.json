@@ -53,7 +53,16 @@
        
       ]
     }],
-     
+     {
+      "key": "玩偶姐姐",
+      "name": "🔥玩偶姐姐",
+      "type": 3,
+      "api": "./lib/merge.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./18/玩偶姐姐.js"
+    },
 
 
   "parses": [

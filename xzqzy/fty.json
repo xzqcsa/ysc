@@ -989,7 +989,7 @@
       "name": "️🐧腾讯影视♻️",
       "type": 1,
       "api": "http://playersll.gaoxin155.com.cn/api.php/provide/vod/from/qq/?at/xml/",
-      "playUrl": "https://jxdp.codermart.net/?url=",
+      
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
