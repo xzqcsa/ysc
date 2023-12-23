@@ -12,14 +12,7 @@
       "quickSearch": 0,
       "filterable": 0
     },
-	{ "key": "AV集中淫",
-"type":1,
-"name":"AV集中淫",
-"searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-"api":"https://www.caiji22.com/home/cjapi/klp0/mc/vod/xml"
-},
+
 {"key":"滴滴","name":"滴滴","type":1,"api":"https://api.ddapi.cc/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
 {"key":"雪豹","name":"雪豹","type":1,"api":"https://api.xbapi.cc/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
 {"key":"AIvin","name":"AIvin","type":1,"api":"http://lbapiby.com/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
