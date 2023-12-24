@@ -2978,31 +2978,7 @@
       "type": 1,
       "url": "https://api.jsdu.cn:8999/api/?key=BvqcUwkK1F4yUi8c1e&url="
     },
-	{
-      "name": "QIAOJI",
-      "type": 1,
-      "url": "https://www.qiaoji8.com/tvbox/neibu.php?url="
-    },
-         {
-      "name": "TV",
-      "type": 1,
-      "url": "https://json.oorl.cn/api/?key=gajpAki7cu8560ro4C&url="
-    },
-	{
-      "name": "TV1",
-      "type": 1,
-      "url": "https://api.huohua.vip/api/?key=8eTRVUKvl0tvEzlvzO&url="
-    },
-	{
-      "name": "TV2",
-      "type": 1,
-      "url": "http://110.42.2.247:880/analysis/json/?uid=2500&my=dmnoxzADHKMOQSXZ01&url="
-    },
-	{
-      "name": "TV3",
-      "type": 1,
-      "url": "https://jx.xmflv.com/?url="
-    },
+	
     {
       "name": "云边解析01",
       "type": 1,
