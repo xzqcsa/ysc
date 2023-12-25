@@ -47,6 +47,18 @@
     "阿里token": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto",
     "分类": "电影$1#剧集$2#综艺$4#动漫$3#短剧$5#音乐$6"
 }},
+ {
+            "key": "Wogg1213",
+            "name": "🔥运输车玩偶🔥",
+            "type": 3,
+            "api": "csp_Wogg",
+            "quickSearch": 1,
+			"jar": "./lib/pg.jar",
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./XYQTVBox/tokenm.json$$$https://m.weixine.net/$$$null$$$1"
+        },
    {
       "key": "csp_XYQHikerAL_玩偶哥哥",
       "name": "🔥运输车4K🔥",
