@@ -49,7 +49,7 @@
 }},
    {
       "key": "csp_XYQHikerAL_玩偶哥哥",
-      "name": "📀玩偶哥哥(优)",
+      "name": "🔥运输车4K🔥",
       "type": 3,
       "api": "csp_XYQHikerAL",
       "searchable": 1,
@@ -69,7 +69,7 @@
     "搜索url": "https://m.weixine.net/index.php/vodsearch/-------------.html?wd={wd}",
     "分类url": "https://m.weixine.net/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/letter/{letter}/year/{year}/page/{catePg}.html;;阿里",
     "阿里token": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto",
-    "分类": "电影&剧集&综艺&动漫&短剧&音乐"
+    "分类": "电影$1#剧集$2#综艺$4#动漫$3#短剧$5#音乐$6"
 }},
 		 {
             "key": "Hdhive",
