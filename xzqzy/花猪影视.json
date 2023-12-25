@@ -23,6 +23,58 @@
       "api": "csp_Wobg",
       "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$http://www.214728327.xyz:56708/"
     },
+	{
+      "key": "996",
+      "name": "🔥996影视🔥",
+      "type": 3,
+      "filterable": 1,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.cs1369.com/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类": "电影$1#动画片$13#电视剧$2#动漫$3#爽文短剧$4#动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#纪录片$14",
+        "筛选": "1"
+      },
+      "jar": "./lib/Yoursmile1.jar"
+    },
+	 {
+      "key": "xzqcs",
+      "name": "🔥旺强自营🔥 ",
+      "type": 1,
+      "api": "http://xzqcsa.gnway.cc:80/api.php/provide/vod/",
+      "playerType": "2",
+      "searchable": 1,
+	
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+      "动画片",
+	 
+      "国产剧",
+       "动作片",
+        "剧情片",
+        "喜剧片",
+        "恐怖片",
+        "战争片",
+        "悬疑片",
+        "奇幻片",
+       "科幻片",
+        "灾难片",
+       "海外剧",
+        "欧美剧",
+        "韩日剧",
+         "动漫",
+         "国产动漫",
+          "欧美动漫",
+          "日韩动漫",
+		 "体育",
+		 "短剧"
+         
+       
+        
+       
+       
+      ]
+    },
      {
       "key": "aidfd",
       "name": "🔥爱困采集🔥 ",
@@ -58,35 +110,37 @@
       ]
     },
     {
-      "key": "1080zk",
+      "key": "108k",
       "name": "🔥开心自营🔥 ",
       "type": 1,
-      "api": "http://ttkx.rihou.vip:55/api.php/provide/vod/",
+      "api": "http://www.ttkx.site/api.php/provide/vod/",
       "playerType": "2",
       "searchable": 1,
+	
       "quickSearch": 1,
       "filterable": 1,
       "categories": [
-      "电影",
-      "连续剧",
-         "动漫",
-         "动画片",
-          "少儿",
-        "国产剧",
-        "欧美剧",
-        "日韩剧",
-        "科幻片",
-        "香港剧",
-      
-        "动作片",
+      "动画片",
+      "国产剧",
+       "动作片",
         "剧情片",
         "喜剧片",
         "恐怖片",
         "战争片",
         "悬疑片",
         "奇幻片",
+       "科幻片",
+        "灾难片",
        
-        "灾难片"
+        "欧美剧",
+        "日韩剧",
+         "动漫",
+         "国产动漫",
+          "欧美动漫",
+          "日韩动漫",
+		 "国产综艺",
+		 "短剧"
+         
        
         
        
@@ -366,9 +420,9 @@
     },
    
     
-    {
+   {
       "key": "Kuaikan",
-      "name": "🈷️月光快看(SP)",
+      "name": "🔥月光快看🔥",
       "type": 3,
       "api": "csp_Kuaikan",
       "searchable": 1,
@@ -2533,55 +2587,56 @@
             "type": 3,
             "url": "Web"
         },
-         {
+        {
       "name": "云边解析0",
       "type": 1,
-      "url": "https://api.jsdu.cn:8999/api/?key=edS7mOzDnIcrQqen80&url="
+      "url": "https://api.jsdu.cn:8999/api/?key=BvqcUwkK1F4yUi8c1e&url="
     },
+	
     {
       "name": "云边解析01",
       "type": 1,
-      "url": "https://api.jsdu.cn:8999/api/?key=4lE1zmxR6wt2lQTKk1&url="
+      "url": "https://api.jsdu.cn:8999/api/?key=qbzYHY8e7R6SHXOEm6&url="
     },
      {
       "name": "云边解析02",
       "type": 1,
-      "url": "https://api.jsdu.cn:8999/api/?key=yrFYe9FmMN8EL177Yz&url="
+      "url": "https://api.jsdu.cn:8999/api/?key=ep8lYXZlNpeM8sw1r9&url="
     },
      {
       "name": "云边解析03",
       "type": 1,
-      "url": "https://api.jsdu.cn:8999/api/?key=lnuwLaNvwoAJmHQxDA&url="
+      "url": "https://api.jsdu.cn:8999/api/?key=3h1rcJP0p2AwOlkDDJ&url="
     },
      {
       "name": "云边解析04",
       "type": 1,
-      "url": "https://api.jsdu.cn:8999/api/?key=eqKoxNyGZsOFTt5zOc&url="
+      "url": "https://api.jsdu.cn:8999/api/?key=Cbicqp7OKkw1reMLNM&url="
     },
      {
       "name": "云边解析05",
       "type": 1,
-      "url": "https://api.jsdu.cn:8999/api/?key=q1EU2F5GN4CeIk1j3w&url="
+      "url": "https://api.jsdu.cn:8999/api/?key=3IwMqBOjOUbDVqcXtf&url="
     },
      {
       "name": "云边解析06",
       "type": 1,
-      "url": "https://api.jsdu.cn:8999/api/?key=A1q1atz7zl74t3oC0H&url="
+      "url": "https://api.jsdu.cn:8999/api/?key=fQK5iRg9spCv7t8Vno&url="
     },
      {
       "name": "云边解析07",
       "type": 1,
-      "url": "https://api.jsdu.cn:8999/api/?key=mwzZVaBsNJoK3kG4zx&url="
+      "url": "https://api.jsdu.cn:8999/api/?key=E3aqvKd2HuROeKdodD&url="
     },
      {
       "name": "云边解析08",
       "type": 1,
-      "url": "https://api.jsdu.cn:8999/api/?key=9afYx9Wduq0seLzmw0&url="
+      "url": "https://api.jsdu.cn:8999/api/?key=IVbcdpuBcZjbJ4NZf3&url="
     },
     {
       "name": "云边解析09",
       "type": 1,
-      "url": "https://api.jsdu.cn:8999/api/?key=1l8BlEk79EKKOxp9hx&url="
+      "url": "https://api.jsdu.cn:8999/api/?key=oixHbqZPbVhhAYuggR&url="
     },
     
          {
@@ -2669,7 +2724,7 @@
       "type": 1,
       "url": "https://api.jsdu.cn:8999/api/?key=ncLuB8Z62rW2kwTuF7&url="
     },
-     {
+    {
       "name": "小鱼解析1",
       "type": 1,
       "url": "http://json.84jia.com/home/api?type=ys&uid=12177641&key=bcfiovwCGJQSW23478&url="
@@ -2677,87 +2732,65 @@
     {
       "name": "小城解析11",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=12454919&key=cgjlmuBDEFGHJOX046&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12417785&key=bcejkpyDLOPQTYZ149&url="
     },
     {
       "name": "小城解析",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=12468634&key=glntvwxyBEGIKRTUV7&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12426140&key=cgklnsDHIKLNTV0128&url="
     },
      {
       "name": "小新解析",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=12477566&key=cfklnowyCEFGKMWXY1&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12437834&key=abchpswxyAHIJMOT01&url="
     },
     {
       "name": "小鱼解析",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=12486049&key=beiktuwyAFIJMPXY68&url="
+      "url": "http://json.84jia.com/home/api?type=ys&uid=12446980&key=aehoqruBDGKTU23678&url="
     },
  {
       "name": "动画片",
       "type": 1,
       "url": "http://json.84jia.com/home/api?type=ys&uid=5223550&key=defotCEIJKOPSUYZ67&url="
     },
-      
-   
-   
-        
-    {
-      "name": "晨光解析",
-      "type": 0,
-      "url": "https://www.cgdyw.net/jiexi/jiexi-gf/?url=",
+     {
+      "name": "自动解析",
+      "type": 1,
+      "url": "https://api.tyun77.cn/api.php/provide/parseDicturl?url=",
       "ext": {
         "flag": [
-          "youku",
-          "优酷",
+          "qq",
+          "腾讯",
           "qiyi",
           "爱奇艺",
           "奇艺",
-          "qq",
-          "腾讯"
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "imgo",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
         ]
       }
     },
-
-        
-  
-  
-    
-   
-  
-    
-         
-   
-    {
-      "name": "诺讯解析",
-      "type": 0,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=12493586&key=defghxyHJMNPQRX059&url=",
-      "ext": {
-        "flag": [
-          "youku",
-          "优酷",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "qq",
-          "腾讯"
-        ]
-      }
-    }
-  ,
-  
-   
-    
     {
             "name": "YuMi🥭解析",
             "type": 1,
             "url": "https://jxjson.cf/json.php?url=",
             "ext": {
                 "flag": [
-                    "qiqi-",
-                    "YuMi",
-                    "YuMi-vip"
+                      "qq",
+          "mgtv",
+          "YuMi-vip"
                 ]
             }
         },
@@ -2765,7 +2798,7 @@
     {
       "name": "夜曲解析",
       "type": 1,
-      "url": "http://xhww.fun:63/小米特别爱肥猫.php?url=",
+      "url": "https://api.jsdu.cn:8999/api/?type=diy&key=XrHZR1SEA4BagkHJrj&url=",
       "ext": {
         "flag": [
           "qq",
@@ -2805,7 +2838,7 @@
      {
       "name": "茶桶1解析",
       "type": 1,
-      "url": "http://119.91.123.253:1234/Api/cs.php?url=",
+      "url": "http://authi.cnlav.cn/home/api?type=ys&uid=5466674&key=deglptABLMSVZ12346&url=",
       "ext": {
         "flag": [
           "qiyi",
