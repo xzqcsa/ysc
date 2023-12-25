@@ -53,10 +53,10 @@
       "type": 3,
       "api": "csp_XYQHikerAL",
       "searchable": 1,
-	  "jar": "./lib/custom_spider.jar",
+	  "jar": "./custom_spider.jar",
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/运输车玩偶.json"
+      "ext": "./XYQHiker/运输车玩偶.json"
     },
      {"key":"运输车","name":"🔥运输车@玩偶🔥","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,
 "jar": "./lib/fty4.jar","ext":{
