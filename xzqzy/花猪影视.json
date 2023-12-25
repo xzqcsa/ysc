@@ -24,6 +24,24 @@
       "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$http://www.214728327.xyz:56708/"
     },
 	{
+            "key": "巧技一",
+            "name": "🔥巧技一┃App🔥",
+            "type": 3,
+            "api": "csp_qiao2",
+			"jar": "./lib/fix12210.jar",
+            "playerType": 2,
+            "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji1"
+        },
+		 {
+            "key": "巧技三",
+            "name": "🔥巧技三┃App🔥",
+            "type": 3,
+            "api": "csp_qiao2",
+			"jar": "./lib/fix12210.jar",
+            "playerType": 2,
+            "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji3"
+        },
+	{
       "key": "996",
       "name": "🔥996影视🔥",
       "type": 3,
