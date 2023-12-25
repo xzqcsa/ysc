@@ -3,7 +3,7 @@
 "open_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI4MjhmZmRmNWM2ZTA0NjUwYTE1MTFkZGRkMzkxMzgzOSIsImF1ZCI6Ijc2OTE3Y2NjY2Q0NDQxYzM5NDU3YTA0ZjYwODRmYjJmIiwiZXhwIjoxNzA5MjY2NDIzLCJpYXQiOjE3MDE0OTA0MjMsImp0aSI6ImU0OTM0NzA0ZjNkZDRmMmNhZjkwZDU1NzVlMzU5YmM5In0.UiWHVpEmQX1tTPkzI7AcrE0D8hYhYnrr_TpyVPE0Xt8Y3Ir4RCwg2vgvPp11uGAvkF5EjRCnsPUxpclLQ0A1EA",
 "thread_limit":20,
 "is_vip":true,
-"vip_thread_limit":10,
+"vip_thread_limit":20,
 "vod_flags":"4k|4kz|auto",
 "quark_thread_limit":20,
 "quark_is_vip":false,
