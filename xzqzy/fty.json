@@ -40,7 +40,7 @@
       "type": 3,
       "api": "csp_XYQHikerAL",
       "searchable": 1,
-"jar": "./XYQHiker/custom_spider.jar",
+"jar": "./XYQHiker/xyq11.jar",
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./XYQHiker/yingshiche(1).json$$$./XYQTVBox/alitoken.txt"
