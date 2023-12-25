@@ -182,6 +182,19 @@
       "playerType": 1,
       "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji4"
     },
+	{
+      "key": "997",
+      "name": "🔥旺强影视🔥",
+      "type": 3,
+      "filterable": 1,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "http://xzqcsa.gnway.cc:80/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类": "少儿$1#动画片$13#国产剧$2#韩日剧$15#国产动漫$3#短剧$4#动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#体育$14",
+        "筛选": "1"
+      },
+      "jar": "./lib/Yoursmile1.jar"
+    },
 	 {
       "key": "xzqcs",
       "name": "🔥旺强自营🔥 ",
