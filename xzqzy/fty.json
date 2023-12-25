@@ -60,6 +60,17 @@
     "阿里token": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto",
     "分类": "电影$1#剧集$2#综艺$4#动漫$3#短剧$5#音乐$6"
 }},
+ {  "key": "运输车1",
+      "name": "🔥️运输车@玩偶🔥",
+      "type": 3,
+       "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+       "jar": "./lib/pg.jar",
+      "api": "csp_Wobg",
+      "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$https://m.weixine.net/"
+    },
      
 		 {
             "key": "Hdhive",
