@@ -34,6 +34,17 @@
       "api": "csp_Wobg",
       "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$http://www.214728327.xyz:56708/"
     },
+ {
+      "key": "csp_XYQHikerAL_玩偶哥哥",
+      "name": "🔥运输车4K🔥",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "searchable": 1,
+"jar": "./XYQHiker/XYQ.jar",
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./XYQHiker/yingshiche(1).json"
+    },
 {"key":"初见表哥","name":"🔥白泽玩偶🔥","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,
 "jar": "./lib/fty4.jar","ext":{
     "二次截取": "1&&-1+module-item-cover",
