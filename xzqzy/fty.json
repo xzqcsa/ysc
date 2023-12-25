@@ -40,10 +40,10 @@
       "type": 3,
       "api": "csp_XYQHikerAL",
       "searchable": 1,
-"jar": "./XYQHiker/XYQ.jar",
+"jar": "./XYQHiker/custom_spider.jar",
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./XYQHiker/yingshiche(1).json"
+      "ext": "./XYQHiker/yingshiche(1).json$$$./XYQTVBox/alitoken.txt"
     },
 {"key":"初见表哥","name":"🔥白泽玩偶🔥","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,
 "jar": "./lib/fty4.jar","ext":{
