@@ -1080,6 +1080,29 @@
 			 "jar": "./lib/pg.jar",
             "ext": "./lib/tokenm.json"
         },
+		{
+            "key": "Panta",
+            "name": "🔍盘Ta|网盘🔍",
+            "type": 3,
+            "api": "csp_Panta",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1"
+        },
+        {
+            "key": "DaPanSo",
+            "name": "🔍大盘|网盘🔍",
+            "type": 3,
+            "api": "csp_DaPanSo",
+            "quickSearch": 1,
+            "changeable": 1,
+			 "jar": "./lib/pg.jar",
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./lib/tokenm.json$$$https://dapanso.com$$$null"
+        },
  {
       "key": "YiSo",
       "name": "🔍一搜(阿里搜索)🔍",
