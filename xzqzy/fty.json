@@ -43,7 +43,7 @@
 "jar": "./XYQHiker/xyq11.jar",
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./XYQHiker/yingshiche(1).json$$$./XYQTVBox/alitoken.txt"
+      "ext": "./XYQHiker/yingshiche(1).json"
     },
 {"key":"初见表哥","name":"🔥白泽玩偶🔥","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,
 "jar": "./lib/fty4.jar","ext":{
