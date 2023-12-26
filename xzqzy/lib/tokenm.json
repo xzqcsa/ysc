@@ -1,13 +1,13 @@
-﻿{
+{
 "token":"16d49cff5609467887ab50241ad27886",
 "open_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI4MjhmZmRmNWM2ZTA0NjUwYTE1MTFkZGRkMzkxMzgzOSIsImF1ZCI6Ijc2OTE3Y2NjY2Q0NDQxYzM5NDU3YTA0ZjYwODRmYjJmIiwiZXhwIjoxNzA5MjY2NDIzLCJpYXQiOjE3MDE0OTA0MjMsImp0aSI6ImU0OTM0NzA0ZjNkZDRmMmNhZjkwZDU1NzVlMzU5YmM5In0.UiWHVpEmQX1tTPkzI7AcrE0D8hYhYnrr_TpyVPE0Xt8Y3Ir4RCwg2vgvPp11uGAvkF5EjRCnsPUxpclLQ0A1EA",
-"thread_limit":20,
+"thread_limit":32,
 "is_vip":true,
-"vip_thread_limit":25,
+"vip_thread_limit":0,
 "vod_flags":"4k|4kz|auto",
-"quark_thread_limit":20,
+"quark_thread_limit":32,
 "quark_is_vip":false,
-"quark_vip_thread_limit":10,
+"quark_vip_thread_limit":16,
 "quark_flags":"4kz|auto",
 "uc_thread_limit":0,
 "uc_is_vip":false,
@@ -22,9 +22,13 @@
 "open_api_url":"https://api.xhofe.top/alist/ali_open/",
 "danmu":true,
 "quark_danmu":true,
-"quark_cookie":"_UP_A4A_11_=wb9081dd4ea84dd29fa0213e888de2b4; _UP_D_=pc; _UP_F7E_8D_=4YGKX36OIrhHtz%2Fm28er%2BEsem8D%2BGJzLUdRO7YsGUI%2BibipNZ4wWoKA3nkVDHeUjK77U6xYgqMbXDik4ZZxmO%2B6jibaMeh%2F15GPrrCl5M87ivs0EP%2FjAQTQimMgEdat62Byd22%2BZGM6Oj0PDrUxaLWCwa4mBg1T7vOTidzNw8s%2FWtKAIxWbnCzZn4%2FJMBUubWxICea0HlQhL7iW1WH5R%2BstiXtVvL6EJXWLC9CyKeBzZpYCBIC1ljhU4wR0Pq7NklczEGdRq2nIAcu7v22Uw2o%2FxMY0xBdeC9Korm5%2FNHnxl6K%2Bd6FXSoT9a3XIMQO359auZPiZWzrNlZe%2BqnOahXcx7KAhQIRqSOapSmL4ygJor4r5isJhRuDoXy7vJAVuH%2FRDtEJJ8rZTq0BdC23Bz%2B0MrsdgbK%2BiW; __pus=97b476a3d2489167d285747808545b68AASpo8q1H+CVshN7tuWi13lqfM4VUw6v2JKXzpGhhDesV/So48IbDYRWsNbjWMJQSGkeUDmCOQM4hso6Fm/MkKyl; __kp=6668f1a0-9ca3-11ee-a7b9-7194755a2cc4; __kps=AARV34A3h/sQkS2141bmaUaY; __ktd=YIpJN1Ai8eoC+EMIsrbpWA==; __uid=AARV34A3h/sQkS2141bmaUaY; __puus=2a6a27a1602336fc28989563cabcc01aAATNGk1IAi1nt0YZk8HQq5YjSs1dKBeUGZ+iVyWovJ3MgrCC4JDm/xeTQuZvJBDOjLVtM8uHgQW0C+Ik/VZg3emYsm3gPZlez3exRJJGNnQaA582qbSDA8mUhC0IGGCkfIPRGJ+FZa+NIYtp4xnA0nKIhNQYAnzVz35VFVTMjtI2XZQBAyccjfiBFeTIbmhGcQyJPl1ezCjYdySRgX/uGH/d",
+"quark_cookie":"_UP_A4A_11_=wb90411765e2483a86f972cac1022ffa; _UP_D_=pc; _UP_F7E_8D_=ZkyvVHnrBLo4%2FXTG4fqBXEPwKLOVbxJPcg0RzQPI6KmBtV6ZMgPh38l93pgubgHDQqhaZ2Sfc0qv%2BRantbfg1mWGAUpRMP4RqXP78Wvu%2FCfvkWWGc5NhCTV71tGOIGgDBR3%2Bu6%2Fjj47k%2F6eZcETcqUVcpp32p77ydjkhOclrgipqYAbrjqRo9YuUE9%2Fs5crDEn21dZLBeV9djqL5T1j77vfRSFhk%2BlcFGOsvlAzhVJltIHAC5kjWnSU1VZu4DtwRoAg3J36dS9aj1m9P204NQdNf5Nyo3ldtw6TWtrcg0yJducQVbH%2BT5yM6TQ0ySWQ88mFyMhj2VouQ%2B%2BFKM%2B0tL1ggY93VJqD%2BguZ2Gmw5X%2FVXG5%2BATr9eEKxIvk7CLNVTZPG%2BMXyVR0GjxobkrXAZ3eIMTE7RyZru; __pus=781985f8ad687b9e539083d91dcfdfa8AARp3wWuB8mnTux6uFu4Hai9sexO/WxK65nvO8F5g3B4AlSNAnIKvvAPw4W97cXqRL9aqin+hb3TLhsKkWec5oUb; __kp=d08b05c0-a3a4-11ee-82bd-4d8a37c3fd3f; __kps=AATDvojUKNHyN+62YjPbSy+W; __ktd=F5OnHpOfPBWSPsWW4xNLEg==; __uid=AATDvojUKNHyN+62YjPbSy+W; __puus=51fc48a680656045dcb62fa8522ef6d2AAQ9Gmn9S8Ooim2buju1v0QbElkSuGvU4NIJw73ub3tfNUi3i+L/KHYF0gk5pXY6EgjFtxQte8Ebon7cYwewUCkgMEZfxUGcqClD1zXZDB+J/47pGqrTxXNDu4t+vLgHAipeVdLQsA2zuwUiUSXEMMUpLoHooSfhH6pnDm0Y2/kCmEXL0KzAd+2G2xqanmRzcjLdN2hV+fE/hpadR5lzkbmD",
 "uc_cookie":"ctoken=p4Srn8gyeqfFrW7GKQ9rB2x-; b-user-id=a758cbfd-ce76-d1d9-a650-2959671a61f8; __itrace_wid=0e39542f-61d5-4541-205b-2c782c15ef48; __pus=9be0bde3105deda1725f5f711543b6f6AATmG8TX3DqsBlRTbVwATDOyI8pV7y5jHJL20vMXEaJdPbCHxKJGgeKsIIm37BgXAN+qltdqLCFX5WN/ymXXgJtN; __kp=ede7d840-9e0a-11ee-8ad4-ff67dac47c34; __kps=AAQ9twO4iEPaaxn30LhPruXt; __ktd=1XVRWQyYfvH+VL4qDpIDLA==; __uid=AAQ9twO4iEPaaxn30LhPruXt; __puus=ee21a7e99f24d2b63ebca11d02d723c9AAS9F6TODoXw3ZVxCu6rxDIBNmdJ0s6Y3jFCHhJ6QHURBcJ7BMvKw46eOAdZW5JRL0rtb02n+Fl4GHBVWROqp/1x74l8fR9ympZ3nMY8RSzqiwuEQbgU2DPbk8+6F6Y43PPIC18cJF8zPZZtwo2ZB+dlsGWyN9yAiQ+fan+dwkhoXusRa/mmYSD7QE6ORBqPa04=",
 "thunder_username":"+86 15896020219",
 "thunder_password":"305306csa",
-"thunder_captchatoken":"迅雷盘token值，请看PG线路必读说明"
+"thunder_captchatoken":"",
+"yd_auth":"",
+"yd_thread_limit":4,
+"yd_flags":"4kz|auto",
+"yd_danmu":true
 }

@@ -1,0 +1,14 @@
+{
+  "vodPic": "https://x.imgs.ovh/x/2023/09/05/64f680bb030b4.png",
+  "drives": [
+    {
+      "name": "名称",
+      "server": "https://api-lmteam.koyeb.app/PythonT4?alitoken=你的阿里32位token&thread=15",
+      "hidden": false,
+      "login": {
+        "username": "用户名",
+        "password": "密码"
+      }
+    }
+  ]
+}

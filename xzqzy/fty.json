@@ -83,6 +83,82 @@
             "timeout": 30,
             "ext": "./lib/tokenm.json$$$null$$$1"
         },
+		{
+      "key": "Libvio",
+      "name": "🔥LIBVIO|网盘🔥",
+      "type": 3,
+      "api": "csp_Libvio",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./lib/tokenm.json$$$https://www.libvio.vip$$$null"
+    },
+	 {
+      "key": "纯净资源",
+      "name": "🔥微信独享🔥",
+      "type": 1,
+      "api": "http://h.540734621.xyz/api.php/provide/vod/?ac=list",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "短剧",
+        "电影",
+        "电视剧",
+        "动漫",
+        "综艺",
+        "记录片"
+      ]
+    },
+    {
+      "key": "夸克",
+      "name": "🔥阿里夸克🔥",
+      "type": 3,
+      "jar": "./lib/pg.jar;md5;8e988c4f0c2423508393242fb1fc00da",
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./XYQTVBox/tokenm.json$$$https://www.weixine.net"
+    },
+    {
+      "key": "Wogg3434",
+      "name": "🔥夸克玩偶🔥",
+      "type": 3,
+      "jar": "./lib/pg.jar;md5;8e988c4f0c2423508393242fb1fc00da",
+      "api": "csp_Wogg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./XYQTVBox/tokenm.json$$$https://wogg.link/$$$null$$$1"
+    },
+    {
+      "key": "csp_XYQHiker_ys",
+      "name": "🔥夸克影视🔥",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./lib/xyq323.jar;md5;bba48578feac80051d93878d32d5133c",
+      "ext": "./lib/ys.json"
+    },
+    {
+      "key": "求嫖",
+      "name": "🔥求嫖影视🔥",
+      "type": 3,
+      "filterable": 1,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.cs1369.com/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类": "动画片$13#电影$1#电视剧$2#动漫$3#爽文短剧$4#动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#纪录片$14",
+        "筛选": "1"
+      }
+    },
         {
             "key": "Ppxzy",
             "name": "🔥皮皮虾|网盘🔥",
