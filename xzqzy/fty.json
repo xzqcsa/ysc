@@ -69,6 +69,18 @@
     "分类": "电影$1#剧集$2#综艺$4#动漫$3#短剧$5#音乐$6"
 }},
  {
+      "key": "夸克3333",
+      "name": "🔥白泽哥玩偶🔥",
+      "type": 3,
+      "jar": "./lib/pg.jar;md5;8e988c4f0c2423508393242fb1fc00da",
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./XYQTVBox/tokenm.json$$$http://www.214728327.xyz:56708/$$$null$$$1$$$./pg/lib/wogg.json"
+    },
+
+ {
             "key": "Wogg1213",
             "name": "🔥运输车玩偶🔥",
             "type": 3,
