@@ -1,5 +1,4 @@
-﻿{
-  
+﻿  
   "spider": "./yydf.jar",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
@@ -146,7 +145,10 @@
       "quickSearch": 1,
       "filterable": 1,
       "jar": "./lib/xyq323.jar;md5;bba48578feac80051d93878d32d5133c",
-      "ext": "./lib/ys.json$$$"
+      "ext": "./lib/ys.json"
+
+ 
+
     },
    
         {
@@ -1192,6 +1194,118 @@
 			 "jar": "./lib/pg.jar",
             "ext": "./lib/tokenm.json"
         },
+	  {
+            "key": "找資源",
+            "name": "🔍阿里|找資源🔍",
+            "type": 3,
+            "api": "csp_Zhaozy",
+            "searchable": 1,
+		   "jar": "./lib/pg.jar",
+            "quickSearch": 1,
+            "filterable": 0,
+            "timeout": 30,
+            "ext": "./lib/tokenm.json$$$yannanfei$$$abcdefg"
+        },
+        {
+            "key": "新6V",
+            "name": "🔍新6V|网盘🔍",
+            "type": 3,
+            "api": "csp_Xb6v",
+            "searchable": 1,
+            "changeable": 1,
+		 "jar": "./lib/pg.jar",
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
+        },
+	  {
+            "key": "Qianfan",
+            "name": "🔍千帆|网盘🔍",
+            "type": 3,
+            "api": "csp_Qianfan",
+            "quickSearch": 1,
+		   "jar": "./lib/pg.jar",
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$QianFanID=qlsnex1umpasft7om72uhqkyqi5d62g2; _ga_6Z94VT54DV=GS1.1.1703650120.1.1.1703650203.0.0.0"
+        },
+	  {
+            "key": "drpy_js_libvio",
+            "name": "🔍LIBVIO[js]|夸🔍",
+            "type": 3,
+		   "jar": "./lib/pg.jar",
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/libvio.js",
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 30
+        },
+        {
+            "key": "drpy_js_KKPANS",
+            "name": "🔍KK盘[js]|夸🔍",
+            "type": 3,
+		 "jar": "./lib/pg.jar",
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/kkpans.js",
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 30
+        },
+        {
+            "key": "drpy_js_meow",
+            "name": "🔍MEOW[js]|搜🔍",
+            "type": 3,
+		 "jar": "./lib/pg.jar",
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/meow.js",
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 30
+        },
+        {
+            "key": "drpy_js_愛盤搜",
+            "name": "🔍爱盘搜[js]|夸🔍",
+            "type": 3,
+		 "jar": "./lib/pg.jar",
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/aipanso.js",
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 30
+        },
+        {
+            "key": "drpy_js_奇妙搜",
+            "name": "🔍奇妙搜[js]|夸🔍",
+            "type": 3,
+		 "jar": "./lib/pg.jar",
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/qimiao.js",
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 30
+        },
+        {
+            "key": "drpy_js_dydhhy",
+            "name": "🔍dydhhy[js]|夸🔍",
+            "type": 3,
+		 "jar": "./lib/pg.jar",
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/dydhhy.js",
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 30
+        },
+	  {
+            "key": "AList",
+            "name": "🔍网盘|Alist[jar]🔍",
+            "type": 3,
+            "api": "csp_AList",
+		  "jar": "./lib/pg.jar",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./lib/alistjar.json"
+        },
         {
             "key": "QuarkPanso",
             "name": "🔍夸克盘搜|夸克🔍",
@@ -1211,6 +1325,7 @@
             "api": "csp_Panta",
             "quickSearch": 1,
             "changeable": 1,
+ "jar": "./lib/pg.jar",
             "filterable": 1,
             "timeout": 30,
             "ext": "./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1"
