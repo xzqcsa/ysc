@@ -1,24 +1,24 @@
 ﻿ { 
-  "spider": "./yydf.jar",
-  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  "spider":"./yydf.jar",
+  "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
   "sites": [
  {
-      "key": "豆豆",
-      "name": "🔥旺强影视🔥",
+      "key":"豆豆",
+      "name":"🔥旺强影视🔥",
       "type": 3,
-      "api": "csp_DouDou",
+      "api":"csp_DouDou",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
     },
       {
-            "key": "Wogg111",
-            "name": "🔥玩偶哥哥|阿里🔥",
+            "key":"Wogg111",
+            "name":"🔥玩偶哥哥|阿里🔥",
             "type": 3,
-            "api": "csp_Wogg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
+            "api":"csp_Wogg",
+            "quickSearch":1,
+            "changeable":1,
+            "filterable":1,
              "jar": "./lib/pg.jar",
             "ext": "./lib/tokenm.json$$$https://wogg.link/$$$null$$$1"
         },
@@ -144,8 +144,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "./lib/xyq323.jar;md5;bba48578feac80051d93878d32d5133c",
-      "ext": "./lib/ys.json"
+      "jar":"./lib/xyq323.jar;md5;bba48578feac80051d93878d32d5133c",
+      "ext":"./lib/ys.json"
 
  
 
@@ -159,9 +159,9 @@
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
-			"jar": "./lib/pg.jar",
+			"jar":"./lib/pg.jar",
             "timeout": 30,
-            "ext": "./lib/tokenm.json$$$https://ppxzy.net/$$$null$$$1"
+            "ext":"./lib/tokenm.json$$$https://ppxzy.net/$$$null$$$1"
         },
         {
             "key": "校长影视",
@@ -172,52 +172,52 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 30,
-			"jar": "./lib/pg.jar",
-            "ext": "./lib/tokenm.json$$$null$$$1"
+			"jar":"./lib/pg.jar",
+            "ext":"./lib/tokenm.json$$$null$$$1"
         },
         {
-            "key": "团长资源",
-            "name": "🔥团长资源|网盘🔥",
+            "key":"团长资源",
+            "name":"🔥团长资源|网盘🔥",
             "type": 3,
             "api": "csp_TZFile",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
-			"jar": "./lib/pg.jar",
+			"jar":"./lib/pg.jar",
             "timeout": 30,
-            "ext": "./lib/tokenm.json$$$null$$$1"
+            "ext":"./lib/tokenm.json$$$null$$$1"
         },
 		{
-      "key": "996",
-      "name": "🔥996影视🔥",
+      "key":"996",
+      "name":"🔥996影视🔥",
       "type": 3,
       "filterable": 1,
-      "api": "csp_XBPQ",
+      "api":"csp_XBPQ",
       "ext": {
         "分类url": "https://www.cs1369.com/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类": "电影$1#动画片$13#电视剧$2#动漫$3#爽文短剧$4#动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#纪录片$14",
-        "筛选": "1"
+        "分类":"电影$1#动画片$13#电视剧$2#动漫$3#爽文短剧$4#动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#纪录片$14",
+        "筛选":"1"
       },
-      "jar": "./lib/Yoursmile1.jar"
+      "jar":"./lib/Yoursmile1.jar"
     },
 	
 		{
-            "key": "4KHDR",
-            "name": "🔥4KHDR|网盘🔥",
+            "key":"4KHDR",
+            "name":"🔥4KHDR|网盘🔥",
             "type": 3,
-            "api": "csp_FourKHDR",
+            "api":"csp_FourKHDR",
             "quickSearch": 1,
             "changeable": 1,
-			"jar": "./lib/pg.jar",
+			"jar":"./lib/pg.jar",
             "filterable": 1,
             "timeout": 60,
-            "ext": "./lib/tokenm.json$$$./lib/4khdr.txt$$$1"
+            "ext":"./lib/tokenm.json$$$./lib/4khdr.txt$$$1"
         },
 		 {
-            "key": "巧技一",
-            "name": "🔥巧技一┃App🔥",
-            "type": 3,
-            "api": "csp_qiao2",
+            "key":"巧技一",
+            "name":"🔥巧技一┃App🔥",
+            "type":3,
+            "api":"csp_qiao2",
 			"jar": "./lib/fix12210.jar",
             "playerType": 2,
             "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji1"
