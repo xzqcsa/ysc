@@ -1,26 +1,26 @@
-﻿{{
+{
   
-  "蜘蛛": "./yydf.jar","spider": "./yydf.jar",
-  "wallpaper": "http://饭太硬.top/勘探色谱/api.php","wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-  “网站”：["sites": [
-{{
-      "key": "豆豆","key": "豆豆",
-      "name": "🔥旺强影视🔥","name": "🔥旺强影视🔥",
-      “类型”：3，"type": 3,
-      "api": "csp_DouDou","api": "csp_DouDou",
-      “可搜索”：0，"searchable": 0,
-      “快速搜索”：0，"quickSearch": 0,
-      “可过滤”：0"filterable": 0
-    },},
-      {{
-            “钥匙”：“Wogg111”，"key": "Wogg111",
-            "name": "🔥玩偶哥哥|阿里🔥","name": "🔥玩偶哥哥|阿里🔥",
-            “类型”：3，"type": 3,
-            “api”：“csp_Wogg”，"api": "csp_Wogg",
-            “快速搜索”：1，"quickSearch": 1,
-            “可变”：1、"changeable": 1,
-            “可过滤”：1，"filterable": 1,
-             "jar": "./lib/pg.jar","jar": "./lib/pg.jar",
+  "spider": "./yydf.jar",
+  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  "sites": [
+ {
+      "key": "豆豆",
+      "name": "🔥旺强影视🔥",
+      "type": 3,
+      "api": "csp_DouDou",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+      {
+            "key": "Wogg111",
+            "name": "🔥玩偶哥哥|阿里🔥",
+            "type": 3,
+            "api": "csp_Wogg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+             "jar": "./lib/pg.jar",
             "ext": "./lib/tokenm.json$$$https://wogg.link/$$$null$$$1"
         },
       {  "key": "Wobg1111",
