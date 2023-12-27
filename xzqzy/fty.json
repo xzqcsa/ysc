@@ -1123,39 +1123,7 @@
             "ext": "./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$QianFanID=qlsnex1umpasft7om72uhqkyqi5d62g2; _ga_6Z94VT54DV=GS1.1.1703650120.1.1.1703650203.0.0.0"
         },
 	 
-        {
-            "key": "drpy_js_meow",
-            "name": "🔍MEOW[js]|搜🔍",
-            "type": 3,
-		 "jar": "./lib/pg.jar",
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/meow.js",
-            "quickSearch": 1,
-            "changeable": 1,
-            "timeout": 30
-        },
-        {
-            "key": "drpy_js_愛盤搜",
-            "name": "🔍爱盘搜[js]|夸🔍",
-            "type": 3,
-		 "jar": "./lib/pg.jar",
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/aipanso.js",
-            "quickSearch": 1,
-            "changeable": 1,
-            "timeout": 30
-        },
-        {
-            "key": "drpy_js_奇妙搜",
-            "name": "🔍奇妙搜[js]|夸🔍",
-            "type": 3,
-		 "jar": "./lib/pg.jar",
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/qimiao.js",
-            "quickSearch": 1,
-            "changeable": 1,
-            "timeout": 30
-        },
+       
         {
             "key": "drpy_js_dydhhy",
             "name": "🔍dydhhy[js]|夸🔍",
