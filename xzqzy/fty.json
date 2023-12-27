@@ -65,21 +65,10 @@
     "简介": "剧情：&&</div>",
     "搜索url": "http://www.214728327.xyz:56708/index.php/vodsearch/-------------.html?wd={wd}",
     "分类url": "http://www.214728327.xyz:56708/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/letter/{letter}/year/{year}/page/{catePg}.html;;阿里",
-    "阿里token": "16d49cff5609467887ab50241ad27886",
+    "阿里token": "6bc87b2eb0f44f46b0b0940c7eae6220",
     "分类": "电影$1#剧集$2#综艺$4#动漫$3#短剧$5#音乐$6"
 }},
- {
-      "key": "夸克3333",
-      "name": "🔥白泽哥玩偶🔥",
-      "type": 3,
-      "jar": "./lib/pg.jar",
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./XYQTVBox/tokenm.json$$$http://www.214728327.xyz:56708/$$$null$$$1"
-    },
-
+ 
  {
             "key": "Wogg1213",
             "name": "🔥运输车玩偶🔥",
