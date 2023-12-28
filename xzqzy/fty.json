@@ -1219,7 +1219,7 @@
    
    {
       "key": "Gitcafe11",
-      "name": "📀小纸条(搜索)",
+      "name": "📀小纸条(搜索)🔍",
       "type": 3,
       "api": "csp_Gitcafe",
 	  "jar":"./XYQHiker/custom_spider.jar",
@@ -1230,7 +1230,7 @@
     },
     {
       "key": "csp_AliPS11",
-      "name": "📀喵狸盘搜(搜索)",
+      "name": "📀喵狸盘搜(搜索)🔍",
       "type": 3,
       "api": "csp_AliPS",
 	    "jar":"./XYQHiker/custom_spider.jar",
@@ -1239,20 +1239,10 @@
       "filterable": 0,
       "ext": "./XYQTVBox/alitoken.txt"
     },
-    {
-      "key": "csp_Yisou11",
-      "name": "📀易搜(搜索)",
-      "type": 3,
-      "api": "csp_Yisou",
-	   "jar":"./XYQHiker/custom_spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./XYQTVBox/alitoken.txt"
-    },
+    
     {
       "key": "csp_Upyunso11",
-      "name": "📀UP云搜(搜索)",
+      "name": "📀UP云搜(搜索)🔍",
       "type": 3,
       "api": "csp_Upyunso",
 	   "jar":"./XYQHiker/custom_spider.jar",
@@ -1263,7 +1253,7 @@
     },
        {
       "key": "csp_XYQHikerAL_云盘资源11",
-      "name": "📀云盘资源(搜索)",
+      "name": "📀云盘资源(搜索)🔍",
       "type": 3,
       "api": "csp_XYQHikerAL",
 	   "jar":"./XYQHiker/custom_spider.jar",
