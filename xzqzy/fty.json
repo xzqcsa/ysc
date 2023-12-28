@@ -951,12 +951,13 @@
       "name": "🅱️玩偶哥哥|T追剧",
       "type": 3,
       "api": "csp_XPathAli",
+	  "jar": "./HeChengChaXiu.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "jar": "./HeChengChaXiu.jar",
-      "ext": "./lib/玩偶.json"
+       "ext": "./玩偶哥哥.json"
     },
+  
      {
       "key": "玩偶备用",
       "name": "👽玩偶备用",
@@ -1094,17 +1095,7 @@
             "timeout": 30,
             "ext": "./lib/tokenm.json$$$xzqcsa$$$305306csa"
         },
-        {
-            "key": "新6V1",
-            "name": "🔍新6V|网盘🔍",
-            "type": 3,
-            "api": "csp_Xb6v",
-            "searchable": 1,
-            "changeable": 1,
-		 "jar": "./lib/pg.jar",
-            "timeout": 60,
-            "ext": "./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
-        },
+       
 	  {
             "key": "Qianfan",
             "name": "🔍千帆|网盘🔍",
@@ -1202,16 +1193,60 @@
       "ext": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
     },
      
-      {
+     {
+      "key": "PanSearch",
+      "name": "🔍阿里🌸网盘搜🔍",
+      "type": 3,
+      "api": "csp_PanSearch",
+	   "jar": "./HeChengChaXiu.jar",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
+    },
+    {
+      "key": "PanSou11",
+      "name": "🔍阿里🌸盘搜索🔍",
+      "type": 3,
+      "api": "csp_PanSou",
+	   "jar": "./HeChengChaXiu.jar",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
+    },
+    {
       "key": "UpYun",
-      "name": "🔍阿里|优盘搜🔍",
+      "name": "🔍阿里🌸优盘搜🔍",
       "type": 3,
       "api": "csp_UpYun",
+	   "jar": "./HeChengChaXiu.jar",
       "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1,
-       "jar": "./lib/HeChengChaXiu.jar",
-      "ext": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
+      "changeable": 1,
+      "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
+    },
+    {
+      "key": "YiSou",
+      "name": "🔍阿里🌸易搜搜🔍",
+      "type": 3,
+      "api": "csp_YiSou",
+      "searchable": 1,
+      "filterable": 1,
+	   "jar": "./HeChengChaXiu.jar",
+      "changeable": 1,
+      "ext": "b4242bebe6f144d3aa6a2cd842ac65aa$$$satoken=abfceef7-ca8f-40b6-afd8-5c11fab10336"
+    },
+    {
+      "key": "Zhaozy",
+      "name": "🔍阿里🌸找资源🔍",
+      "type": 3,
+      "api": "csp_Zhaozy",
+	   "jar": "./HeChengChaXiu.jar",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "b4242bebe6f144d3aa6a2cd842ac65aa$$$xzqcsa$$$305306csa"
     },
      
         
