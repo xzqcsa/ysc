@@ -1223,7 +1223,7 @@
       "api": "csp_Pan99",
 	   "jar":"./yydf微信独享.jar", 
       "searchable": 1,
-       "filterable": 1,
+      
      "changeable":0,
       "ext": "./XYQTVBox/alitoken.txt"
     },
