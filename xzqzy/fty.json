@@ -1204,17 +1204,7 @@
       "changeable": 1,
       "ext": "1f34013bd2d0471d94e200b730489623"
     },
-    {
-      "key": "PanSou11",
-      "name": "🔍阿里🌸盘搜索🔍",
-      "type": 3,
-      "api": "csp_PanSou",
-	   "jar": "./HeChengChaXiu.jar",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "1f34013bd2d0471d94e200b730489623"
-    },
+   
     {
       "key": "UpYun",
       "name": "🔍阿里🌸优盘搜🔍",
@@ -1226,29 +1216,62 @@
       "changeable": 1,
       "ext": "1f34013bd2d0471d94e200b730489623"
     },
-    {
-      "key": "YiSou",
-      "name": "🔍阿里🌸易搜搜🔍",
+   
+   {
+      "key": "Gitcafe11",
+      "name": "📀小纸条(搜索)",
       "type": 3,
-      "api": "csp_YiSou",
+      "api": "csp_Gitcafe",
+	  "jar":"./XYQHiker/custom_spider.jar",
       "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1,
-	   "jar": "./HeChengChaXiu.jar",
-      "changeable": 1,
-      "ext": "1f34013bd2d0471d94e200b730489623$$$satoken=abfceef7-ca8f-40b6-afd8-5c11fab10336"
+      "ext": "./XYQTVBox/alitoken.txt"
     },
     {
-      "key": "Zhaozy",
-      "name": "🔍阿里🌸找资源🔍",
+      "key": "csp_AliPS11",
+      "name": "📀喵狸盘搜(搜索)",
       "type": 3,
-      "api": "csp_Zhaozy",
-	   "jar": "./HeChengChaXiu.jar",
+      "api": "csp_AliPS",
+	    "jar":"./XYQHiker/custom_spider.jar",
       "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "1f34013bd2d0471d94e200b730489623$$$xzqcsa$$$305306csa"
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./XYQTVBox/alitoken.txt"
     },
-     
+    {
+      "key": "csp_Yisou11",
+      "name": "📀易搜(搜索)",
+      "type": 3,
+      "api": "csp_Yisou",
+	   "jar":"./XYQHiker/custom_spider.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./XYQTVBox/alitoken.txt"
+    },
+    {
+      "key": "csp_Upyunso11",
+      "name": "📀UP云搜(搜索)",
+      "type": 3,
+      "api": "csp_Upyunso",
+	   "jar":"./XYQHiker/custom_spider.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./XYQTVBox/alitoken.txt"
+    },
+       {
+      "key": "csp_XYQHikerAL_云盘资源11",
+      "name": "📀云盘资源(搜索)",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+	   "jar":"./XYQHiker/custom_spider.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./XYQHiker/云盘资源.json"
+    },
         
   
     {
