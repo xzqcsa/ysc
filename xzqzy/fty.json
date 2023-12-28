@@ -1217,15 +1217,16 @@
       "ext": "1f34013bd2d0471d94e200b730489623"
     },
 {
-"key": "盛99",
-"name"："🔍盘99🔍",
-"type": 3,
-"api": "csp_Pan99",
- "jar":"./XYQHiker/custom_spider.jar",
-"searchable": 1,
-"changeable": 0,
-"ext": "./XYQTVBox/alitoken.txt"
-},
+      "key": "pan99",
+      "name": "🔍盘99🔍",
+      "type": 3,
+      "api": "csp_Pan99",
+	  "jar":"./XYQHiker/custom_spider.jar",
+      "searchable": 1,
+     "changeable":0,
+      "ext": "./XYQTVBox/alitoken.txt"
+    },
+
    
    {
       "key": "Gitcafe11",
