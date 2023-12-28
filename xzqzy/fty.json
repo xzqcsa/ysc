@@ -34,6 +34,40 @@
       "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$http://www.214728327.xyz:56708/"
     },
 
+{"key":"xmL_ 火狐",
+"name":"🔥火狐影视",
+"type":1,"api":"https://hhzyapi.com/api.php/provide/vod/",
+"searchable":1,"quickSearch":1},
+{"key":"sohu",
+"name":"搜狐(秒播)",
+"type":1,
+"api":"http://tvbox-1-g5221611.deta.app/vod/sohu",
+"searchable":1,
+"quickSearch":1,
+"playUrl":"json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
+
+{"key": "火狐",
+     "name": "🦊茶杯狐",
+     "type": 1,
+     "api": "https://hhzyapi.com/api.php/provide/vod/",
+	 "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+     "searchable": 1,"quickSearch": 0,"filterable": 1,
+     "categories":
+      ["内地剧","动作片","科幻片",
+      "战争片","喜剧片","爱情片",
+      "恐怖片","犯罪片","剧情片",
+      "冒险片","记录片",
+      "韩剧","香港剧","台湾剧",
+      "欧美剧","日剧","马泰剧",
+      "体育赛事","综艺","动画片",
+      "中国动漫","日本动漫","欧美动漫"]},
+       {"key":"剧圈圈",
+     "name":"🔥剧圈圈影视",
+     "type":3,"api":"csp_XBPQ",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.jqqzx.cc/vodshow/id/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
+      "分类": "电影$dianying#剧集$juji#综艺$zongyi#动漫$dongman"}},
+
         {
             "key": "tvbsk",
             "name": "🔥️TVB云播┃App🔥️",
@@ -1113,18 +1147,7 @@
         },
 	 
        
-        {
-            "key": "drpy_js_dydhhy",
-            "name": "🔍dydhhy[js]|夸🔍",
-            "type": 3,
-		 "jar": "./lib/pg.jar",
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/dydhhy.js",
-            "quickSearch": 1,
-            "changeable": 1,
-            "timeout": 30
-        },
-	  
+        
       
         {
             "key": "QuarkPanso",
@@ -1218,27 +1241,7 @@
        "jar": "./lib/HeChengChaXiu.jar",
       "ext": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
     },
-     {"key": "火狐",
-     "name": "🦊茶杯狐",
-     "type": 1,
-     "api": "https://hhzyapi.com/api.php/provide/vod/",
-	 "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
-     "searchable": 1,"quickSearch": 0,"filterable": 1,
-     "categories":
-      ["内地剧","动作片","科幻片",
-      "战争片","喜剧片","爱情片",
-      "恐怖片","犯罪片","剧情片",
-      "冒险片","记录片",
-      "韩剧","香港剧","台湾剧",
-      "欧美剧","日剧","马泰剧",
-      "体育赛事","综艺","动画片",
-      "中国动漫","日本动漫","欧美动漫"]},
-       {"key":"剧圈圈",
-     "name":"🔥剧圈圈影视",
-     "type":3,"api":"csp_XBPQ",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.jqqzx.cc/vodshow/id/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
-      "分类": "电影$dianying#剧集$juji#综艺$zongyi#动漫$dongman"}},
+     
         
   
     {
@@ -2004,17 +2007,6 @@
        
 
 
-{"key":"xmL_ 火狐",
-"name":"🔥火狐影视",
-"type":1,"api":"https://hhzyapi.com/api.php/provide/vod/",
-"searchable":1,"quickSearch":1},
-{"key":"sohu",
-"name":"搜狐(秒播)",
-"type":1,
-"api":"http://tvbox-1-g5221611.deta.app/vod/sohu",
-"searchable":1,
-"quickSearch":1,
-"playUrl":"json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
  
      {
       "key": "yc",
