@@ -226,12 +226,12 @@
             "name": "🔥盘99|网盘🔥",
             "type": 3,
             "api": "csp_Pan99",
- "jar":"./yydf微信独享.jar", 
+"jar":"./lib/pg最新.jar", 
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
             "timeout": 30,
-            "ext": "./lib/tokenm.json$$$https://pan99.xyz$$$null$$$1"
+            "ext": "./XYQTVBox/tokenm.json$$$https://pan99.xyz$$$null$$$1"
         },
    
         {
