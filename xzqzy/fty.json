@@ -221,6 +221,18 @@
  
 
     },
+{
+            "key": "Pan99",
+            "name": "🔥盘99|网盘🔥",
+            "type": 3,
+            "api": "csp_Pan99",
+"jar":"./lib/pg.jar",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./lib/tokenm.json$$$https://pan99.xyz$$$null$$$1"
+        },
    
         {
             "key": "Ppxzy",
