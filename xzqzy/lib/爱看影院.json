@@ -31,13 +31,13 @@
     "搜索模式": "1",
                 
     "搜索二次截取": "type=\"application/json\">&&</script>",
-                                            "搜索数组": "{\"te&&}[包含:freeok]",
+                                            "搜索数组": "{\"te&&}[包含:爱看影视]",
     
     "搜索标题": "xt\":\"&&\"",
                 
     "搜索链接": "\"url\":\"&&\"",
                 
-    "搜索副标题": "FREEOK",
+    "搜索副标题": "爱看影视",
     
     "搜索图片":"http://shop.kdzj.vip/1.jpg",
     
@@ -51,9 +51,9 @@
     
     "播放列表":"<a&&</a>",
     
-    "分类url":"https://www.3ayy.com//vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+    "分类url":"https://www.3ayy.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
     
-    "分类":"电影$1#电视剧$2#综艺$3#动漫$4",
+    "分类":"电影$1#电视剧$2#动漫$3#综艺$4",
     
     "筛选":{
     "1":[
