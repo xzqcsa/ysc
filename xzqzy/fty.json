@@ -66,6 +66,7 @@
       "type": 1,
       "api": "https://m.mubai.link/api.php/provide/vod/",
       "searchable": 1,
+"jar":"./yydf微信独享.jar", 
       "changeable": 1,
       "quickSearch": 1,
       "filterable": 1,
