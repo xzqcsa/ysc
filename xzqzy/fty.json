@@ -51,11 +51,13 @@
     "name": "🔥爱看影院🔥",
     "type": 3,
     "api": "csp_XBPQ",
+"jar": "./lib/fty4.jar",
     "searchable":1,"quickSearch":1,"filterable":1,
     "ext":"./lib/爱看影院.json"
     },
   {"key": "6080",
     "name": "🔥6080🔥",
+"jar": "./lib/fty4.jar",
     "type": 3,
     "api": "csp_XBPQ",
     "searchable":1,"quickSearch":1,"filterable":1,
@@ -64,6 +66,7 @@
   {"key": "爱看剧",
     "name": "🔥爱看剧🔥",
     "type": 3,
+"jar": "./lib/fty4.jar",
     "api": "csp_XBPQ",
     "searchable":1,"quickSearch":1,"filterable":1,
     "ext":"./lib/爱看剧.json"
@@ -72,6 +75,7 @@
     "name": "🔥在线之家🔥",
     "type": 3,
     "api": "csp_XBPQ",
+"jar": "./lib/fty4.jar",
     "searchable":1,"quickSearch":1,"filterable":1,
     "ext":"./lib/在线之家.json"
     },
