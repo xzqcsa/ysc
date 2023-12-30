@@ -53,12 +53,12 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/爱看影院.js"
     },
-{
-      "key": "608055556",
-      "name": "🔥6080JS🔥",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/6080.js"
+  {"key": "爱看67677876",
+    "name": "🔥爱看影院122",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "searchable":1,"quickSearch":1,"filterable":1,
+    "ext":"./lib/爱看影院.json"
     },
 {
       "key":"爱看22",
