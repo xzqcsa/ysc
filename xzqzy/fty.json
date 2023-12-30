@@ -51,36 +51,26 @@
     "name": "🔥爱看影院🔥",
     "type": 3,
     "api": "csp_XBPQ",
-"jar": "./lib/fty4.jar",
+
     "searchable":1,"quickSearch":1,"filterable":1,
     "ext":"./lib/爱看影院.json"
     },
-  {"key": "6080",
-    "name": "🔥6080🔥",
-"jar": "./lib/fty4.jar",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "searchable":1,"quickSearch":1,"filterable":1,
-    "ext":"./lib/6080.json"
+{
+      "key":"爱看剧",
+      "name":"🔥爱看剧🔥",
+      "type": 3,
+      "filterable": 1,
+      "api":"csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.ikanju.vip/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类":"电视剧$1#电影$13#综艺$2#动漫$3#短剧$4",
+        "筛选":"1"
+      },
+      "jar":"./lib/Yoursmile1.jar"
     },
-  {"key": "爱看剧",
-    "name": "🔥爱看剧🔥",
-    "type": 3,
-"jar": "./lib/fty4.jar",
-    "api": "csp_XBPQ",
-    "searchable":1,"quickSearch":1,"filterable":1,
-    "ext":"./lib/爱看剧.json"
-    },
-  {"key": "4545",
-    "name": "🔥在线之家🔥",
-    "type": 3,
-    "api": "csp_XBPQ",
-"jar": "./lib/fty4.jar",
-    "searchable":1,"quickSearch":1,"filterable":1,
-    "ext":"./lib/在线之家.json"
-    },
-
-
+  
+  
+  
 
 
 
