@@ -46,7 +46,13 @@
 "quickSearch":1,
 "playUrl":"json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
 
-
+ {
+      "key": "爱看34555556",
+      "name": "🔥爱看影院JS🔥",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/爱看影院.js"
+    },
 {
       "key":"爱看22",
       "name":"🔥爱看影院🔥",
