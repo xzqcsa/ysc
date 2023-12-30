@@ -61,6 +61,19 @@
       "jar":"./lib/Yoursmile1.jar"
     },
 {
+      "key":"222233",
+      "name":"🔥影视TV1🔥",
+      "type": 3,
+      "filterable": 1,
+      "api":"csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.yingshi.tv/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类":"电影$1#韩剧$13#电视剧$2#动漫$3#短剧$4#动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#综艺$14",
+        "筛选":"1"
+      },
+      "jar":"./lib/Yoursmile1.jar"
+    },
+{
       "key": "狗",
       "name": "🔥影视TV🔥",
       "type": 1,
