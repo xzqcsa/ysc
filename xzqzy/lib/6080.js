@@ -1,9 +1,9 @@
 muban.mxpro.二级.desc = '.module-info-item:eq(4)&&Text;;;.module-info-item-content:eq(1)&&Text;.module-info-item-content:eq(0)&&Text';
 var rule={
-    title:'爱看影院',
+    title:'6080',
     模板:'mxpro',
-    // host:'https://www.3ayy.com/',
-    host:'https://www.3ayy.com/',
+    // host:'https://www.80yy3.com/',
+    host:'https://www.80yy3.com/',
     homeUrl:'/label/new.html',
     // url:'/show/fyclass--------fypage---.html',
     url:'/show/fyfilter.html',
