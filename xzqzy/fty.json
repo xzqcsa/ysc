@@ -46,24 +46,6 @@
 "quickSearch":1,
 "playUrl":"json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
 
-{
-      "key": "122",
-      "name": "🔥爱看剧2🔥",
-      "type": 1,
-      "api": "https://www.ikanju.vip/api.php/provide/vod/?ac=list",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "短剧",
-        "电影",
-        "电视剧",
-        "动漫",
-        "综艺"
-        
-      ]
-    },
 
 {
       "key":"爱看剧",
@@ -73,7 +55,7 @@
       "api":"csp_XBPQ",
       "ext": {
         "分类url": "https://www.ikanju.vip/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类":"电影$1#电视剧$2#动漫$3#短剧$4#综艺$5#",
+        "分类":"电视剧$1#电影$2#综艺$3#动漫$4#短剧$5#",
         "筛选":"1"
       },
       "jar":"./lib/Yoursmile1.jar"
