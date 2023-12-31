@@ -55,46 +55,7 @@
     "searchable":1,"quickSearch":1,"filterable":1,
     "ext":"./lib/爱看影院.json"
     },
-{
-      "key":"爱看剧",
-      "name":"🔥爱看剧搜索🔥",
-      "type": 3,
-      "filterable": 1,
-      "api":"csp_XBPQ",
-      "ext": {
-        "分类url": "https://www.ikanju.vip/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类":"电视剧$1#电影$13#综艺$2#动漫$3#短剧$4",
-        "筛选":"1"
-      },
-      "jar":"./lib/Yoursmile1.jar"
-    },
-  
-  {
-      "key":"爱看剧1111",
-      "name":"🔥爱看影院搜索🔥",
-      "type": 3,
-      "filterable": 1,
-      "api":"csp_XBPQ",
-      "ext": {
-        "分类url": "https://www.3ayy.com/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类":"电影$1#电视剧$13#综艺$2#动漫$3#纪录片$4",
-        "筛选":"1"
-      },
-      "jar":"./lib/Yoursmile1.jar"
-    },
-  {
-      "key":"6080",
-      "name":"🔥6080搜索🔥",
-      "type": 3,
-      "filterable": 1,
-      "api":"csp_XBPQ",
-      "ext": {
-        "分类url": "https://www.80yy3.com/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类":"电影$1#电视剧$13#综艺$2#动漫$3",
-        "筛选":"1"
-      },
-      "jar":"./lib/Yoursmile1.jar"
-    },
+
   
   
 
@@ -1263,6 +1224,46 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
+    },
+{
+      "key":"爱看剧",
+      "name":"🍭爱看剧搜索🍭",
+      "type": 3,
+      "filterable": 1,
+      "api":"csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.ikanju.vip/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类":"电视剧$1#电影$13#综艺$2#动漫$3#短剧$4",
+        "筛选":"1"
+      },
+      "jar":"./lib/Yoursmile1.jar"
+    },
+  
+  {
+      "key":"爱看剧1111",
+      "name":"🍭爱看影院搜索🍭",
+      "type": 3,
+      "filterable": 1,
+      "api":"csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.3ayy.com/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类":"电影$1#电视剧$13#综艺$2#动漫$3#纪录片$4",
+        "筛选":"1"
+      },
+      "jar":"./lib/Yoursmile1.jar"
+    },
+  {
+      "key":"6080",
+      "name":"🍭6080搜索🍭",
+      "type": 3,
+      "filterable": 1,
+      "api":"csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.80yy3.com/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类":"电影$1#电视剧$13#综艺$2#动漫$3",
+        "筛选":"1"
+      },
+      "jar":"./lib/Yoursmile1.jar"
     },
    
     {
