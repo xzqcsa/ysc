@@ -55,7 +55,14 @@
     "searchable":1,"quickSearch":1,"filterable":1,
     "ext":"./lib/爱看影院.json"
     },
+ {"key": "七味",
+    "name": "🔥七味🔥",
+    "type": 3,
+    "api": "csp_XBPQ",
 
+    "searchable":1,"quickSearch":1,"filterable":1,
+    "ext":"./lib/七味.json"
+    },
   
   
 
