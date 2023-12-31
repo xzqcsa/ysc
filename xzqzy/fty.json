@@ -2512,6 +2512,11 @@
             "type": 3,
             "url": "Web"
         },
+{
+      "name": "云边解析00",
+      "type": 1,
+      "url": "https://api.jsdu.cn:8999/api/?key=jwg58QboOkrF1G5nMD&url="
+    },
 		{
       "name": "云边解析0",
       "type": 1,
