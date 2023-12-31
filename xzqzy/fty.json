@@ -1127,6 +1127,19 @@
       },
       "jar": "./lib/danmu.jar"
     },
+{
+      "key":"七味",
+      "name":"🔍七味搜索🔍",
+      "type": 3,
+      "filterable": 1,
+      "api":"csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.pkmp4.xyz/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类":"电影$1#剧集$2#动漫$3#综艺$4",
+        "筛选":"1"
+      },
+      "jar":"./lib/Yoursmile1.jar"
+    },
 	 {
             "key": "Funletu",
             "name": "🔍趣盘搜|夸克🔍",
@@ -1239,7 +1252,7 @@
     },
 {
       "key":"爱看剧",
-      "name":"🍭爱看剧搜索🍭",
+      "name":"🔍爱看剧搜索🔍",
       "type": 3,
       "filterable": 1,
       "api":"csp_XBPQ",
@@ -1253,7 +1266,7 @@
   
   {
       "key":"爱看剧1111",
-      "name":"🍭爱看影院搜索🍭",
+      "name":"🔍爱看影院搜索🔍",
       "type": 3,
       "filterable": 1,
       "api":"csp_XBPQ",
