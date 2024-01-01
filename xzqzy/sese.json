@@ -12,6 +12,7 @@
       "quickSearch": 0,
       "filterable": 0
     },
+{"key":"csp_JavDb","name":"🧲JavDb","jar": "./lib/pg.jar","type":3,"api":"csp_JavDb","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"timeout":1801,"ext":"http://javdb.com"},
 {
             "key": "乐播",
             "name": "🔥乐播🔥",
@@ -35,7 +36,7 @@
 {"key":"番号","name":"番号","type":1,"api":"http://fhapi9.com/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
 {"key":"写真","name":"写真","type":1,"api":"https://kkzy.me/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
 {"key":"乐播","name":"乐播","type":1,"api":"https://lbapi9.com/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
-{"key":"91麻豆","name":"91麻豆","type":1,"api":"https://91md.me/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
+{"key":"91麻豆","name":"91麻豆","type":1,"jar": "./Madou.jar","api":"https://91md.me/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
     {
       "key": "aidfd人",
       "name": "🔥sese采集🔥 ",
