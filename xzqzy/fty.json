@@ -16,10 +16,12 @@
             "name": "🔥推送🔥",
             "type": 3,
             "api": "csp_Push",
- "jar": "./lib/pg.jar",
-            "changeable": 0,
-            "timeout": 30,
-            "ext": "./XYQTVBox/tokenm.json"
+"quickSearch": 0,
+"searchable":0,
+"jar": "./guafty.jar",
+           
+           
+            "ext": "1f34013bd2d0471d94e200b730489623"
         },
       {
             "key":"Wogg111",
@@ -43,6 +45,18 @@
       "api": "csp_Wobg",
       "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$http://www.214728327.xyz:56708/"
     },
+{
+            "key": "heme",
+            "name": "🔥河马🔥",
+            "type": 3,
+            "api": "csp_Hmys",
+
+
+"jar": "./guafty.jar",
+           
+           
+            "ext": "https://m.jmzp.net.cn/"
+        },
 
 {"key":"xmL_ 火狐",
 "name":"🔥火狐影视",
