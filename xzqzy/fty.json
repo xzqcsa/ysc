@@ -11,6 +11,16 @@
       "quickSearch": 0,
       "filterable": 0
     },
+{
+            "key": "push_agent",
+            "name": "推送",
+            "type": 3,
+            "api": "csp_Push",
+ "jar": "./lib/pg.jar",
+            "changeable": 0,
+            "timeout": 30,
+            "ext": "./XYQTVBox/tokenm.json"
+        }
       {
             "key":"Wogg111",
             "name":"🔥玩偶哥哥|阿里🔥",
@@ -45,7 +55,30 @@
 "searchable":1,
 "quickSearch":1,
 "playUrl":"json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
-
+{
+            "key": "乐播",
+            "name": "🔥乐播🔥",
+            "type": 0,
+            "playUrl": "https://lbjx9.com/?url=",
+            "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
+            "header": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+                "Referer": "https://lbjx9.com/",
+                "Accept-Encoding": "identity;q=1, *;q=0",
+                "Range": "bytes=0-"
+            }
+        },
+  {
+            "key": "csp_XYQHiker_爱看影视",
+            "name": "🔥素白白影视🔥 ",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/素白白影视.json"
+        },
  
   {"key": "爱看67677876",
     "name": "🔥爱看影院🔥",
