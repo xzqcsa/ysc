@@ -27,15 +27,15 @@
                 "Range": "bytes=0-"
             }
         },
-{"key":"滴滴","name":"滴滴","type":1,"api":"https://api.ddapi.cc/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
-{"key":"雪豹","name":"雪豹","type":1,"api":"https://api.xbapi.cc/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
+{"key":"滴滴","name":"滴滴","type":1,"jar": "./Madou.jar","api":"https://api.ddapi.cc/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
+{"key":"雪豹","name":"雪豹","type":1,"jar": "./Madou.jar","api":"https://api.xbapi.cc/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
 {"key":"AIvin","name":"AIvin","type":1,"api":"http://lbapiby.com/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
 
- {"key":"老色逼","name":"老色逼","type":1,"api":"https://apilsbzy1.com/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
-{"key":"色南国","name":"色南国","type":1,"api":"https://api.sexnguon.com/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
-{"key":"番号","name":"番号","type":1,"api":"http://fhapi9.com/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
-{"key":"写真","name":"写真","type":1,"api":"https://kkzy.me/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
-{"key":"乐播","name":"乐播","type":1,"api":"https://lbapi9.com/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
+ {"key":"老色逼","name":"老色逼","type":1,"jar": "./Madou.jar","api":"https://apilsbzy1.com/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
+{"key":"色南国","name":"色南国","type":1,"jar": "./Madou.jar","api":"https://api.sexnguon.com/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
+{"key":"番号","name":"番号","type":1,"jar": "./Madou.jar","api":"http://fhapi9.com/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
+{"key":"写真","name":"写真","type":1,"jar": "./Madou.jar","api":"https://kkzy.me/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
+
 {"key":"91麻豆","name":"91麻豆","type":1,"jar": "./Madou.jar","api":"https://91md.me/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
     {
       "key": "aidfd人",
