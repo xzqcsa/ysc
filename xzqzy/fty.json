@@ -46,14 +46,7 @@
 "quickSearch":1,
 "playUrl":"json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
 
- {"key": "咳咳咳",
-    "name": "🔥可可影院🔥",
-    "type": 3,
-    "api": "csp_XBPQ",
-
-    "searchable":1,"quickSearch":1,"filterable":1,
-    "ext":"./lib/可可.json"
-    },
+ 
   {"key": "爱看67677876",
     "name": "🔥爱看影院🔥",
     "type": 3,
@@ -1279,7 +1272,19 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
-  
+  {
+      "key":"可可",
+      "name":"🔍可可搜索🔍",
+      "type": 3,
+      "filterable": 1,
+      "api":"csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.keke7.app/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类":"电影$1#连续剧$13#综艺纪录$2#动漫$3#短剧$4",
+        "筛选":"1"
+      },
+      "jar":"./lib/Yoursmile1.jar"
+    },
   {
       "key":"爱看剧1111",
       "name":"🔍爱看影院搜索🔍",
