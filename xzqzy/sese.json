@@ -12,7 +12,20 @@
       "quickSearch": 0,
       "filterable": 0
     },
-
+{
+            "key": "乐播",
+            "name": "🔥乐播🔥",
+            "type": 0,
+            "playUrl": "https://lbjx9.com/?url=",
+            "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
+            "header": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+                "Referer": "https://lbjx9.com/",
+                "Accept-Encoding": "identity;q=1, *;q=0",
+                "Range": "bytes=0-"
+            }
+        },
 {"key":"滴滴","name":"滴滴","type":1,"api":"https://api.ddapi.cc/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
 {"key":"雪豹","name":"雪豹","type":1,"api":"https://api.xbapi.cc/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},
 {"key":"AIvin","name":"AIvin","type":1,"api":"http://lbapiby.com/api.php/provide/vod/","searchable":1,"filterable": 1,"quickSearch":1},

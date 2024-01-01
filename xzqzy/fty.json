@@ -13,7 +13,7 @@
     },
 {
             "key": "push_agent",
-            "name": "推送",
+            "name": "🔥推送🔥",
             "type": 3,
             "api": "csp_Push",
  "jar": "./lib/pg.jar",
@@ -55,24 +55,12 @@
 "searchable":1,
 "quickSearch":1,
 "playUrl":"json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
-{
-            "key": "乐播",
-            "name": "🔥乐播🔥",
-            "type": 0,
-            "playUrl": "https://lbjx9.com/?url=",
-            "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
-            "header": {
-                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
-                "Referer": "https://lbjx9.com/",
-                "Accept-Encoding": "identity;q=1, *;q=0",
-                "Range": "bytes=0-"
-            }
-        },
+
   {
             "key": "csp_XYQHiker_爱看影视",
             "name": "🔥素白白影视🔥",
             "type": 3,
+"jar": "./XYQHiker/xyq11.jar",
             "api": "csp_XYQHiker",
             "searchable": 1,
             "quickSearch": 1,
@@ -89,40 +77,7 @@
     "ext":"./lib/爱看影院.json"
     },
 
-        {
-            "key": "可可",
-            "name": "🐩可可影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "站名": "可可影视",
-                "作者": "旺强",
-                "主页url": "https://www.keke7.app",
-                "地区": "地区：&&</p",
-                "年代": "年代：&&</p",
-                "语言": "语言：&&</p",
-                "类型": "类型：&&</p",
-                "导演": "导演：&&</p",
-                "主演": "演员：&&</p",
-                "简介": "【旺强】公众号提醒你：“资源免费，广告勿信！”+<div class=\"desc_txt cf ec-palytcji cor3\">&&</div>",
-                "搜索url": "/index.php/vod/search.html?wd={wd}",
-                "数组": "<div class=\"pack-packcover returl list-top-b\">&&</div",
-                "链接": "href=\"&&\"",
-                "图片": "data-original=\"&&\"",
-                "标题": "title=\"&&\"",
-                "副标题": "<span class=\"pack-prb hidden\">&&</span>",
-                "线路数组": "<a class=\"channelname swiper-slide&&</a >",
-                "线路名称": "</i>&nbsp;&&</span>",
-                "播放数组": "<ul class=\"content_playlist cf\">&&</ul>",
-                "播放列表": ">&&</a",
-                "分类url": "https://www.keke7.app/index.php/vod/show/area/{area}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html",
-                "分类": "电影$1#连续剧$2#动漫$4#综艺纪录$3#短剧$5"
-            }
-        },
+       
 {"key": "多聚",
     "name": "🔥多聚影院🔥",
     "type": 3,
