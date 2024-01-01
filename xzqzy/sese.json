@@ -17,6 +17,7 @@
             "key": "乐播",
             "name": "🔥乐播🔥",
             "type": 0,
+"jar": "./Madou.jar",
             "playUrl": "https://lbjx9.com/?url=",
             "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
             "header": {
