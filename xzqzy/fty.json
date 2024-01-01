@@ -52,7 +52,7 @@
             "api": "csp_Hmys",
 
 
-"jar": "./guafty.jar",
+             "jar": "./guafty.jar",
            
            
             "ext": "https://m.jmzp.net.cn/"
@@ -70,17 +70,6 @@
 "quickSearch":1,
 "playUrl":"json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
 
-  {
-            "key": "csp_XYQHiker_爱看影视",
-            "name": "🔥素白白影视🔥",
-            "type": 3,
-"jar": "./XYQHiker/xyq11.jar",
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./lib/素白白影视.json"
-        },
  
   {"key": "爱看67677876",
     "name": "🔥爱看影院🔥",
