@@ -55,6 +55,41 @@
     "searchable":1,"quickSearch":1,"filterable":1,
     "ext":"./lib/爱看影院.json"
     },
+
+        {
+            "key": "可可",
+            "name": "🐩可可影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "站名": "可可影视",
+                "作者": "旺强",
+                "主页url": "https://www.keke7.app",
+                "地区": "地区：&&</p",
+                "年代": "年代：&&</p",
+                "语言": "语言：&&</p",
+                "类型": "类型：&&</p",
+                "导演": "导演：&&</p",
+                "主演": "演员：&&</p",
+                "简介": "【旺强】公众号提醒你：“资源免费，广告勿信！”+<div class=\"desc_txt cf ec-palytcji cor3\">&&</div>",
+                "搜索url": "/index.php/vod/search.html?wd={wd}",
+                "数组": "<div class=\"pack-packcover returl list-top-b\">&&</div",
+                "链接": "href=\"&&\"",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "<span class=\"pack-prb hidden\">&&</span>",
+                "线路数组": "<a class=\"channelname swiper-slide&&</a >",
+                "线路名称": "</i>&nbsp;&&</span>",
+                "播放数组": "<ul class=\"content_playlist cf\">&&</ul>",
+                "播放列表": ">&&</a",
+                "分类url": "https://www.keke7.app/index.php/vod/show/area/{area}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#连续剧$2#动漫$4#综艺纪录$3#短剧$5"
+            }
+        },
 {"key": "多聚",
     "name": "🔥多聚影院🔥",
     "type": 3,
@@ -1272,19 +1307,7 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
-  {
-      "key":"可可",
-      "name":"🔍可可搜索🔍",
-      "type": 3,
-      "filterable": 1,
-      "api":"csp_XBPQ",
-      "ext": {
-        "分类url": "https://www.keke7.app/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类":"电影$1#连续剧$13#综艺纪录$2#动漫$3#短剧$4",
-        "筛选":"1"
-      },
-      "jar":"./lib/Yoursmile1.jar"
-    },
+  
   {
       "key":"爱看剧1111",
       "name":"🔍爱看影院搜索🔍",
