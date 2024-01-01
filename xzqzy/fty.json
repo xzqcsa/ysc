@@ -20,7 +20,7 @@
             "changeable": 0,
             "timeout": 30,
             "ext": "./XYQTVBox/tokenm.json"
-        }
+        },
       {
             "key":"Wogg111",
             "name":"🔥玩偶哥哥|阿里🔥",
@@ -71,7 +71,7 @@
         },
   {
             "key": "csp_XYQHiker_爱看影视",
-            "name": "🔥素白白影视🔥 ",
+            "name": "🔥素白白影视🔥",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
