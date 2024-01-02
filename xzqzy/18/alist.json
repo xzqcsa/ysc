@@ -1,0 +1,27 @@
+{
+  "vodPic": "",
+  "drives": [
+    {
+      "name": "翠花",
+      "server": "https://alist10086.run.goorm.site"
+    },
+    {
+      "name": "rep",
+      "server": "https://gaobb.owen138.repl.co"
+    },
+    {
+      "name": "罗汉果",
+      "server": "https://lala-ofbip.run.goorm.site/"
+    },
+    // http://127.0.0.1:5244/
+    {
+      "name": "蜂蜜",
+      "server": "https://a74d291e-3b91-45a5-9ec6-9f08a9178e59.id.repl.co"
+    },
+    {
+      "name": "本地",
+      "server": "http://127.0.0.1:5244/"
+    }
+    
+  ]
+}
