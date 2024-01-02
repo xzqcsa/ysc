@@ -142,7 +142,11 @@
     "阿里token": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto",
     "分类": "电影$1#剧集$2#综艺$4#动漫$3#短剧$5#音乐$6"
 }},
- 
+ {"key": "ytvip11",
+ "name": "🕵️┃探探┃影视(CJ)",
+ "type": 3,"api": "csp_AppYsV2",
+ "ext": "http://vvvipcms.lyyytv.cn/api.php/app/",
+ "searchable": 1,"changeable": 1},
  {
             "key": "Wogg1213",
             "name": "🔥运输车玩偶🔥",
