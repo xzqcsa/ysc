@@ -12,6 +12,11 @@
       "quickSearch": 0,
       "filterable": 0
     },
+	{"key": "ytvip11",
+ "name": "🕵️┃探探┃影视(CJ)",
+ "type": 3,"api": "csp_AppYsV2",
+ "ext": "http://vvvipcms.lyyytv.cn/api.php/app/",
+ "searchable": 1,"changeable": 1},
 {
       "key":"七味",
       "name":"🔍七味搜索🔍",
