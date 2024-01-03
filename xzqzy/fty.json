@@ -1936,19 +1936,7 @@
     
    
    
-     {
-      "key": "狐狸影视",
-      "name": "👑狐狸影视2k【体育】👑",
-      "type": 3,
-      "playerType": 1,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://www.kuin.one/api.php/app/"
-    },
-
+   
     
     {
       "key": "csp_菲克",
