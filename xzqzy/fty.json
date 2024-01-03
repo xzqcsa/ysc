@@ -23,6 +23,21 @@
            
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
         },
+		{"key":"鑫鑫影视",
+		"name":"🔥鑫鑫影视🔥",
+		"type":3,"api":"csp_AppYsV2",
+		"searchable":1,"quickSearch":1,
+		"filterable":1,
+		"ext":"http://yingszj.xn--654a.cc/api.php/app/"
+		},
+		{"key": "玩我哥哥11",
+		"name":"🔥玩我|哥哥🔥",
+		"type":3,
+		"api":"csp_XYQHikerAL",
+		"jar": "./XYQHiker/xyq11.jar",
+		"searchable":1,"quickSearch":1,"filterable":1,
+		"ext":"./lib/玩我哥哥.json"
+		},
       {
             "key":"Wogg111",
             "name":"🔥玩偶哥哥|阿里🔥",
