@@ -188,6 +188,17 @@
             "ext": "./lib/tokenm.json$$$null$$$1"
         },
 		{
+			"key": "新6V111",
+			"name": "🔥新6V|网盘🔥",
+			"type": 3,
+			"api": "csp_Xb6v",
+			"jar": "./lib/pg.jar",
+			"searchable": 1,
+			"changeable": 1,
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
+		},
+		{
       "key": "Libvio",
       "name": "🔥LIBVIO|影视专用🔥",
       "type": 3,
@@ -1230,6 +1241,14 @@
             "timeout": 30,
             "ext": "./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$QianFanID=qlsnex1umpasft7om72uhqkyqi5d62g2; _ga_6Z94VT54DV=GS1.1.1703650120.1.1.1703650203.0.0.0"
         },
+		{"key":"YunPanOne",
+		"name":"🔍云盘资源|网盘🔍",
+		"type":3,"api":"csp_YunPanOne",
+		"quickSearch":1, "changeable":1,
+		"jar": "./lib/pg.jar",
+		"filterable":1, "timeout":30, 
+		"ext":"./lib/tokenm.json"
+		},
 	 
        {
             "key": "YunSo11",
@@ -1269,6 +1288,14 @@
             "timeout": 30,
             "ext": "./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1"
         },
+		{"key":"PanSearch",
+		"name":"🔍PanSearch|网盘🔍",
+		"type":3,"api":"csp_PanSearch",
+		"quickSearch":1, "changeable":1,
+		"filterable":1, "timeout":30,
+		"jar": "./lib/pg.jar",
+		"ext":"./lib/tokenm.json"
+		},
         {
             "key": "DaPanSo",
             "name": "🔍大盘|网盘🔍",
