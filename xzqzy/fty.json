@@ -93,14 +93,7 @@
     "searchable":1,"quickSearch":1,"filterable":1,
     "ext":"./lib/多聚.json"
     },
-{"key": "ZAIC",
-    "name": "🔥在线之家🔥",
-    "type": 3,
-    "api": "csp_XBPQ",
 
-    "searchable":1,"quickSearch":1,"filterable":1,
-    "ext":"./lib/在线之家.json"
-    },
 
 
 
@@ -1161,6 +1154,20 @@
         "danmu": true
       },
       "jar": "./lib/danmu.jar"
+    },
+	{
+      "key":"在线智能",
+      "name":"🔍在线之家🔍",
+      "type": 3,
+      "filterable": 1,
+      "api":"csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.zxzjhd.com/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        
+        "分类":"电影$1#美剧$2#韩剧$3#日剧$4#泰剧$5#动漫$6",
+        "筛选":"1"
+      },
+      "jar":"./lib/Yoursmile1.jar"
     },
 {
       "key":"多聚2222",
