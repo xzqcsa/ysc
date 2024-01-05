@@ -18,46 +18,7 @@
       "filterable": 1,
       "api":"csp_XBPQ",
       "ext": {
-	   "简介":"旺强提醒您：请勿相信影片中的广告，以免上当受骗！+module-info-introduction-content\">&&</p>",
 	   
-    "影片类型":"module-info-tag\">&&立即播放",
-    
-    "影片状态":"集数：&&</div>",
-    
-    "数组":"<a&&/div></div></a>",
-    
-    "标题":"title=\"&&\"",
-    
-    "副标题":"note\">&&</div>",
-    
-    "图片":"data-original=\"&&\"",
-    
-    "链接":"href=\"&&\"",
-    
-"搜索url": "/index.php/vod/search.html?wd={wd}",
-   
-    "搜索模式": "1",
-                
-  
-    
-    "搜索标题": "xt\":\"&&\"",
-                
-    "搜索链接": "\"url\":\"&&\"",
-                
- 
-    
-    "搜索图片":"http://shop.kdzj.vip/1.jpg",
-    
-    "线路数组":"data-dropdown-value=&&</div>",
-    
-    "线路标题":"旺强-+<span>&&</small>[替换:高清频道>>高清#备用频道>>备用#OK频道>>OK#</span><small>>>>共]+集",
-    
-    "播放数组":"<div class=\"module-play-list-content&&</div>",
-    
-    "播放标题":"<span>&&</span>",
-    
-    "播放列表":"<a&&</a>",
-    
         "分类url": "https://www.zxzjhd.com/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
        "分类":"电影$1#美剧$2#韩剧$3#日剧$4#泰剧$5#动漫$6" ,
         "筛选":"1"
