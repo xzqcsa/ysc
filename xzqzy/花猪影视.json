@@ -254,7 +254,7 @@
             "key": "在线之家",
             "name": "🔥在线之家🔥 ",
             "type": 3,
-            "jar": "./guafty.jar;md5;64110baeb9974690f7b374a8b2586ac5",
+            "jar": "./guafty.jar",
             "api": "csp_Zxzj",
             "searchable": 1,
             "quickSearch": 1,
