@@ -254,13 +254,14 @@
             "key": "在线之家",
             "name": "🔥在线之家🔥 ",
             "type": 3,
-            "jar": "./guafty.jar",
+            "jar": "./lib/guafty.jar",
             "api": "csp_Zxzj",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.zxzjhd.com/"
         },
+
 
  {
       "key": "108k2",
