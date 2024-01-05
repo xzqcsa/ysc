@@ -834,27 +834,7 @@
        
       ]
     },
-     {
-      "key": "春哥☆自营",
-      "name": "💕春哥☆自营 ",
-      "type": 1,
-      "api": "http://mfsj.kele.plus/api.php/provide/vod/",
-	
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        
-         "少儿",
-        "电影",
-        "连续剧",
-       "短剧",
-        "动漫",
-        "综艺",
-        "体育赛事"
-      ]
-    },
+    
    
    
    
@@ -1239,7 +1219,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 30,
-            "ext": "./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$QianFanID=qlsnex1umpasft7om72uhqkyqi5d62g2; _ga_6Z94VT54DV=GS1.1.1703650120.1.1.1703650203.0.0.0"
+            "ext": "./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$QianFanID=75gk6zvlj6sf4mm7c68vy5bwhz7tzczk; _ga_6Z94VT54DV=GS1.1.1704414762.3.1.1704414794.0.0.0"
         },
 		{"key":"YunPanOne",
 		"name":"🔍云盘资源|网盘🔍",
@@ -1288,7 +1268,7 @@
             "timeout": 30,
             "ext": "./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1"
         },
-		{"key":"PanSearch",
+		{"key":"PanSearch111",
 		"name":"🔍PanSearch|网盘🔍",
 		"type":3,"api":"csp_PanSearch",
 		"quickSearch":1, "changeable":1,
