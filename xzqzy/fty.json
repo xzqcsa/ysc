@@ -93,18 +93,14 @@
     "searchable":1,"quickSearch":1,"filterable":1,
     "ext":"./lib/多聚.json"
     },
-{
-            "key": "在线之家",
-            "name": "🔥在线之家🔥 ",
-            "type": 3,
-            "jar": "./lib/guafty.jar;md5;64110baeb9974690f7b374a8b2586ac5",
-            "api": "csp_Zxzj",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.zxzjhd.com/"
-        },
+{"key": "ZAIC",
+    "name": "🔥在线之家🔥",
+    "type": 3,
+    "api": "csp_XBPQ",
 
+    "searchable":1,"quickSearch":1,"filterable":1,
+    "ext":"./lib/在线之家.json"
+    },
 
 
 
