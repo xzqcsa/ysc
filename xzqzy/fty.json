@@ -19,11 +19,7 @@
       "api":"csp_XBPQ",
       "ext": {
 	   "简介":"旺强提醒您：请勿相信影片中的广告，以免上当受骗！+module-info-introduction-content\">&&</p>",
-    
-    "导演":"导演：&&</div>",
-    
-    "主演":"主演：&&</div>",
-    
+	   
     "影片类型":"module-info-tag\">&&立即播放",
     
     "影片状态":"集数：&&</div>",
@@ -38,18 +34,17 @@
     
     "链接":"href=\"&&\"",
     
-    "搜索url": "https://www.cupfox.app/s/{wd}",
-     
+"搜索url": "/index.php/vod/search.html?wd={wd}",
+   
     "搜索模式": "1",
                 
-    "搜索二次截取": "type=\"application/json\">&&</script>",
-                                            "搜索数组": "{\"te&&}[包含:freeok]",
+  
     
     "搜索标题": "xt\":\"&&\"",
                 
     "搜索链接": "\"url\":\"&&\"",
                 
-    "搜索副标题": "FREEOK",
+ 
     
     "搜索图片":"http://shop.kdzj.vip/1.jpg",
     
