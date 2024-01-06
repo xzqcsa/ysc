@@ -27,9 +27,9 @@
         },
 		{
       "key": "100",
-      "name": "🔥100影视🔥",
+      "name": "🔥在线影视🔥",
       "type": 1,
-      "api": "http://100fyy.top/api.php/provide/vod/",
+      "api": "https://www.zxzjhd.com/api.php/provide/vod/",
       "playerType": "2",
       "searchable": 1,
 	
@@ -37,9 +37,8 @@
       "filterable": 1,
       "categories": [
       "电影",
-	  "电视剧",
-      "国产剧",
-       "综艺",
+	  "韩剧",
+      
      
 		 "动漫"
          
