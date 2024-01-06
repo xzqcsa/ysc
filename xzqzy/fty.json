@@ -48,13 +48,30 @@
        
       ]
     },
-		{"key":"1000",
-		"name":"🔥100影视🔥",
-		"type":3,"api":"csp_AppYsV2",
-		"searchable":1,"quickSearch":1,
-		"filterable":1,
-		"ext":"http://100fyy.top/api.php/app/"
-		},
+	{
+      "key": "1000",
+      "name": "🔥100影视🔥",
+      "type": 1,
+      "api": "http://100fyy.top/api.php/provide/vod/",
+      "playerType": "2",
+      "searchable": 1,
+	
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+      "电影",
+	  "电视剧",
+      "综艺",
+     
+		 "动漫"
+         
+       
+        
+       
+       
+      ]
+    },
+		
 		{"key":"鑫鑫影视",
 		"name":"🔥鑫鑫影视🔥",
 		"type":3,"api":"csp_AppYsV2",
