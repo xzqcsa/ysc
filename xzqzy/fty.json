@@ -25,7 +25,20 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
-
+{
+      "key":"augue",
+      "name":"🔥AUGETE影视🔥",
+      "type": 3,
+      "filterable": 1,
+      "api":"csp_XBPQ",
+      "ext": {
+        "分类url": "https://auete.pro/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        
+        "分类":"电影$1#电视剧$2#综艺$3#综艺$4",
+        "筛选":"1"
+      },
+      "jar":"./lib/Yoursmile1.jar"
+    },
        
 {
             "key": "push_agent",
