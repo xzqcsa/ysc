@@ -75,7 +75,14 @@
 "searchable":1,
 "quickSearch":1,
 "playUrl":"json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
+{"key": "100份",
+    "name": "🔥100影院🔥",
+    "type": 3,
+    "api": "csp_XBPQ",
 
+    "searchable":1,"quickSearch":1,"filterable":1,
+    "ext":"./lib/100.json"
+    },
  
   {"key": "爱看67677876",
     "name": "🔥爱看影院🔥",
