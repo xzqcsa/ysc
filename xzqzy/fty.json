@@ -25,29 +25,7 @@
            
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
         },
-		{
-      "key": "100",
-      "name": "🔥在线影视🔥",
-      "type": 1,
-      "api": "https://www.zxzjhd.com/api.php/provide/vod/",
-      "playerType": "2",
-      "searchable": 1,
-	 "playUrl": "https://api.jsdu.cn:8999/api/?key=jwg58QboOkrF1G5nMD&url=",
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-      "电影",
-	  "韩剧",
-      
-     
-		 "动漫"
-         
-       
-        
-       
-       
-      ]
-    },
+		
 	
 		
 		{"key":"鑫鑫影视",
@@ -100,7 +78,14 @@
 "searchable":1,
 "quickSearch":1,
 "playUrl":"json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
+{"key": "787878",
+    "name": "🔥电影鱼🔥",
+    "type": 3,
+    "api": "csp_XBPQ",
 
+    "searchable":1,"quickSearch":1,"filterable":1,
+    "ext":"./lib/电影鱼.json"
+    },
  
   {"key": "爱看67677876",
     "name": "🔥爱看影院🔥",
