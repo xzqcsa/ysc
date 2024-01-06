@@ -22,7 +22,7 @@
 	{"key": "ytvip11",
  "name": "🕵️┃探探┃影视(CJ)",
  "type": 3,"api": "csp_AppYsV2",
- "ext": "http://vvvipcms.lyyytv.cn/api.php/app/",
+ "ext": "http://wvvipcms.lyyytv.cn:80/api.php/",
  "searchable": 1,"changeable": 1},
  {
       "key":"电影鱼",
