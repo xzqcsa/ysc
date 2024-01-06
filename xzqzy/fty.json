@@ -25,6 +25,30 @@
            
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
         },
+		{
+      "key": "100",
+      "name": "🔥100影视🔥",
+      "type": 1,
+      "api": "http://100fyy.top/api.php/provide/vod/",
+      "playerType": "2",
+      "searchable": 1,
+	
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+      "电影",
+	  "电视剧",
+      "国产剧",
+       "综艺",
+     
+		 "动漫"
+         
+       
+        
+       
+       
+      ]
+    },
 		{"key":"100",
 		"name":"🔥100影视🔥",
 		"type":3,"api":"csp_AppYsV2",
@@ -242,7 +266,7 @@
       "filterable": 1,
       "categories": [
         "短剧",
-         "B站",
+        
         "电影",
         "电视剧",
         "动漫",
