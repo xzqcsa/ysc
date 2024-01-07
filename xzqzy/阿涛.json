@@ -26,7 +26,13 @@
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
         },
 		
-	
+	 {
+      "key": "南瓜",
+      "name": "🎃南瓜",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/南瓜.js"
+    },
 		
 		{"key":"鑫鑫影视",
 		"name":"🔥鑫鑫影视🔥",
@@ -176,17 +182,7 @@
             "timeout": 30,
             "ext": "./lib/阿涛tokenm.json$$$null$$$1"
         },
-		{
-			"key": "新6V111",
-			"name": "🔥新6V|磁力🔥",
-			"type": 3,
-			"api": "csp_Xb6v",
-			"jar": "./lib/pg.jar",
-			"searchable": 1,
-			"changeable": 1,
-			"timeout": 60,
-			"ext": "./lib/阿涛tokenm.json$$$https://www.66ss.org$$$null$$$1"
-		},
+		
 		{
       "key": "Libvio",
       "name": "🔥LIBVIO|影视专用🔥",
@@ -415,23 +411,7 @@
         
        
       
-    {"key": "自建",
-     "name": "🦊Uku采集",
-     "type": 1,
-     "api": " https://api.ukuapi.com/api.php/provide/vod/",
-     
-     "searchable": 1,"quickSearch": 0,"filterable": 1,
-	
-     "categories":
-      ["动漫","国产剧","动作片","科幻片",
-      "战争片","喜剧片","动漫电影",
-      "综艺","犯罪片","剧情片",
-      "冒险片","奇幻片",
-      "韩剧",
-     "欧美剧"
-   
-      ]},
-      
+    
           
        {
       "key": "业余集A",
@@ -736,18 +716,7 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
-	 {
-            "key": "Funletu",
-            "name": "🔍趣盘搜|夸克🔍",
-            "type": 3,
-            "api": "csp_Funletu",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 30,
-			 "jar": "./lib/pg.jar",
-            "ext": "./lib/阿涛tokenm.json"
-        },
+	
 	 
        
 	 
@@ -763,30 +732,8 @@
       
         
       
-        {
-            "key": "QuarkPanso",
-            "name": "🔍夸克盘搜|夸克🔍",
-            "type": 3,
-            "api": "csp_QuarkPanso",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 30,
-			 "jar": "./lib/pg.jar",
-            "ext": "./lib/阿涛tokenm.json"
-        },
-		{
-            "key": "Panta",
-            "name": "🔍盘Ta|网盘🔍",
-            "type": 3,
-            "api": "csp_Panta",
-            "quickSearch": 1,
-            "changeable": 1,
- "jar": "./lib/pg.jar",
-            "filterable": 1,
-            "timeout": 30,
-            "ext": "./lib/阿涛tokenm.json$$$https://www.91panta.cn/$$$null$$$1"
-        },
+      
+		
 		{"key":"PanSearch111",
 		"name":"🔍PanSearch|网盘🔍",
 		"type":3,"api":"csp_PanSearch",
@@ -1578,13 +1525,7 @@
       "playerType": 1,
       "api": "http://home.jundie.top:9520/spider/csp_JP"
     },
- {
-      "key": "南瓜",
-      "name": "🎃南瓜",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/南瓜.js"
-    },
+
  {
       "key": "迷你库",
       "name": "🐹迷你",
