@@ -170,31 +170,7 @@
             "ext": "./XYQTVBox/阿涛tokenm.json$$$https://m.weixine.net/$$$null$$$1"
         },
    
-		 {
-            "key": "Hdhive",
-            "name": "🔥影巢|影视专用🔥",
-            "type": 3,
-            "api": "csp_Hdhive",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-			"jar": "./lib/pg.jar",
-            "timeout": 30,
-            "ext": "./lib/阿涛tokenm.json$$$null$$$1"
-        },
 		
-		{
-      "key": "Libvio",
-      "name": "🔥LIBVIO|影视专用🔥",
-      "type": 3,
-      "api": "csp_Libvio",
-      "quickSearch": 1,
-	  "jar": "./lib/pg老.jar",
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib/阿涛tokenm.json$$$https://www.libvio.pro$$$null"
-    },
 
 	 
 {
@@ -597,22 +573,7 @@
       
     
    
-    {
-      "key": "csp_XYQHikerAL_阿里云盘网",
-      "name": "❤☁️阿里云盘",
-      "type": 3,
-      "style": {
-        "type": "rect",
-        "ratio": 0.8
-      },
-      "api": "csp_XYQHikerAL",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/cvU.json"
-    },
-   
+  
      
      {
       "key": "🍮Gitcafe6",
@@ -1374,16 +1335,6 @@
     }, 
    
        
-		{
-			"key": "Xinsj",
-			"name": "🔥视觉┃直连",
-			"type": 3,
-			"api": "csp_Xinsj",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": "https://www.6080yy3.com"
-		},
 		
        
 
@@ -1526,22 +1477,8 @@
       "api": "http://home.jundie.top:9520/spider/csp_JP"
     },
 
- {
-      "key": "迷你库",
-      "name": "🐹迷你",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "http://www.miniku.cc/xgapp.php/v1/"
-    },
-   {
-      "key": "Yj1211",
-      "name": "📽直播",
-      "type": 3,
-      "api": "csp_Yj1211",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
+ 
+   
  {
       "key": "drpy_js_新片场",
       "name": "🆕新片",
