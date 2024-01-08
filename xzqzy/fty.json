@@ -105,6 +105,7 @@
 			"type": 3,
 			"api": "csp_XBPQ",
 			"searchable": 1,
+			"jar": "./lib/YSC(1).jar",
 			"quickSearch": 1,
 			"filterable": 1,
 			"playerType": "1",
@@ -115,6 +116,7 @@
 			"name": "🔥石榴影视🔥",
 			"type": 3,
 			"api": "csp_XBPQ",
+			"jar": "./lib/YSC(1).jar",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -126,6 +128,7 @@
 			"name": "🔥花猫影视🔥",
 			"type": 3,
 			"api": "csp_XBPQ",
+			"jar": "./lib/YSC(1).jar",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -134,6 +137,7 @@
 		{
 			"key": "在线之家",
 			"name": "🔥外剧┃🔥",
+			"jar": "./lib/YSC(1).jar",
 			"type": 3,
 			"api": "./lib/apiv291drpy2.min.js",
 			"ext": "./lib/zaixian.js"
@@ -141,6 +145,7 @@
 		{
 			"key": "素白白",
 			"name": "🔥素白┃🔥",
+			"jar": "./lib/YSC(1).jar",
 			"type": 3,
 			"api": "./lib/apiv291drpy2.min.js",
 			"ext": "./lib/subaibai.js"
