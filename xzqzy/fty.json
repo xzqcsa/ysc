@@ -123,33 +123,7 @@
 			"ext": "./lib/shiliu.json"
 		},
 		
-		{
-			"key": "花猫影视",
-			"name": "🔥花猫影视🔥",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./lib/YSC(1).jar",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./lib/huamao.json"
-		},
-		{
-			"key": "在线之家",
-			"name": "🔥外剧┃🔥",
-			"jar": "./lib/YSC(1).jar",
-			"type": 3,
-			"api": "./lib/apiv291drpy2.min.js",
-			"ext": "./lib/zaixian.js"
-		},
-		{
-			"key": "素白白",
-			"name": "🔥素白┃🔥",
-			"jar": "./lib/YSC(1).jar",
-			"type": 3,
-			"api": "./lib/apiv291drpy2.min.js",
-			"ext": "./lib/subaibai.js"
-		},
+		
 		{
 			"key": "徕米影视",
 			"name": "🔥徕米影视🔥",
@@ -161,16 +135,7 @@
 			"playerType": "1",
 			"ext": "./lib/laimi.json"
 		},
-		{
-			"key": "新视觉",
-			"name": "🔥视觉🔥",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./lib/xinshijue.json"
-		},
+	
 		  {
       "key": "csp_freeok11",
       "name": "🔥欧欧2k🔥",
