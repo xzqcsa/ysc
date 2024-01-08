@@ -41,7 +41,7 @@
       "type": 3,
       "filterable": 1,
       "api":"csp_XBPQ",
-	"playUrl":"https://jx.xmflv.com/?url=",  
+	"playUrl":"https://api.tyun77.cn/api.php/provide/parseDicturl?url=",  
       "ext": {
         "分类url": "https://www.qlintv.com/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
         "分类":"电影$1#连续剧$13#综艺$2#动漫$3",
