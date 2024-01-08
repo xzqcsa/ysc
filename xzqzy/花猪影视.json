@@ -81,6 +81,48 @@
       "searchable": 1,
       "quickSearch": 1
     },
+	{
+      "key":"美意达",
+      "name":"🔍美意达🔍",
+      "type": 3,
+      "filterable": 1,
+      "api":"csp_XBPQ",
+      "ext": {
+        "分类url": "https://meiyida01.com/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        
+        "分类":"电影$1#电视剧$2#综艺$3#动漫$4",
+        "筛选":"1"
+      },
+      "jar":"./lib/Yoursmile1.jar"
+    },
+	{
+      "key":"骑骑",
+      "name":"🔍琪琪影院🔍",
+      "type": 3,
+      "filterable": 1,
+      "api":"csp_XBPQ",
+      "ext": {
+        "分类url": "https://555mv.net/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        
+        "分类":"电影$1#电视剧$2#综艺$3#动漫$4",
+        "筛选":"1"
+      },
+      "jar":"./lib/Yoursmile1.jar"
+    },
+	{
+      "key":"2555",
+      "name":"🔍555影院🔍",
+      "type": 3,
+      "filterable": 1,
+      "api":"csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.qiqi93.com/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        
+        "分类":"电影$1#电视剧$2#综艺$3#动漫$4",
+        "筛选":"1"
+      },
+      "jar":"./lib/Yoursmile1.jar"
+    },
     {
       "key": "xgapp",
       "name": "🔥西瓜2k🔥",
