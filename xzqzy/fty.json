@@ -25,18 +25,7 @@
            
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
         },
-		 {
-      "key": "电影",
-      "name": "🔥电影2k🔥",
-      "type": 3,
-      "api": "csp_AppSK",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-	  "jar": "./lib/ftyzji.jar",
-      "changeable": 1,
-      "ext": "FbjPcVZY48PN/RIZ5QqOrspkJ4ZHF98MCHVX87i5y01XUNSIsT3IgxCP9qyzByO7aWmK03MmmHYwQmNlCJx9KFpYWNSc3hbeLTlD3SAclaw3AOnn"
-    },
+		 
     {
       "key": "IKUN资源",
       "name": "🔥爱看2k🔥",
@@ -110,14 +99,73 @@
       "filterable": 1,
       "ext": "https://www.gsjtlxy.top/xgapp.php/v3/"
     },
+	{
+			"key": "七年影视",
+			"name": "🔥七年影视🔥",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"playerType": "1",
+			"ext": "./lib/qinian.json"
+		},
+	{
+			"key": "石榴影视",
+			"name": "🔥石榴影视🔥",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./lib/shiliu.json"
+		},
+		
 		{
-      "key": "无限影视网（APP）",
-      "name": "🔥无限2k🔥",
-      "type": 3,
-	   "jar": "./lib/ftyzji.jar",
-      "api": "csp_AppYsV2",
-      "ext": "https://www.wxtv.net/api.php/app/"
-    },
+			"key": "花猫影视",
+			"name": "🔥花猫影视🔥",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./lib/huamao.json"
+		},
+		{
+			"key": "在线之家",
+			"name": "🔥外剧┃🔥",
+			"type": 3,
+			"api": "./lib/apiv291drpy2.min.js",
+			"ext": "./lib/zaixian.js"
+		},
+		{
+			"key": "素白白",
+			"name": "🔥素白┃🔥",
+			"type": 3,
+			"api": "./lib/apiv291drpy2.min.js",
+			"ext": "./lib/subaibai.js"
+		},
+		{
+			"key": "徕米影视",
+			"name": "🔥徕米影视🔥",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0,
+			"playerType": "1",
+			"ext": "./lib/laimi.json"
+		},
+		{
+			"key": "新视觉",
+			"name": "🔥视觉🔥",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./lib/xinshijue.json"
+		},
 		  {
       "key": "csp_freeok11",
       "name": "🔥欧欧2k🔥",
@@ -1887,7 +1935,7 @@
 
      {
       "key": "车妹",
-      "name": "🚛车妹┃2K",
+      "name": "🔥车妹┃2K",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -1982,7 +2030,7 @@
     },
 
         {"key":"49zy",
-        "name":"🚛49资源",
+        "name":"🔥49资源",
         "type":1,
         "api":"https://49zyw.com/api.php/provide/vod/",
         "searchable":1,"quickSearch":1},
