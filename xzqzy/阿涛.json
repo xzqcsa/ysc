@@ -1,6 +1,7 @@
-﻿ { 
-  "spider":"./yydf.jar",
-  "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
+﻿ {
+  
+  "spider": "./yydf.jar",
+  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
  {
       "key":"豆豆",
@@ -36,7 +37,7 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"playerType": "1",
-			"ext": "./lib/qinian.json"
+			"ext": "./lib/qinian.json" },
 	{
       "key":"2555",
       "name":"🔍555影院🔍",
