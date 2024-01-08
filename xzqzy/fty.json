@@ -2724,6 +2724,7 @@
             "type": 3,
             "url": "Web"
         },
+		
 		{
       "name": "🎯小盒解析",
       "type": 1,
@@ -2731,7 +2732,7 @@
     },
     {
       "name": "🎯酷玩解析",
-      "type": 0,
+      "type": 1,
       "url": "https://jx.xmflv.com/?url="
     },
 	{
@@ -2741,7 +2742,7 @@
     },
     {
       "name": "白胡子解析",
-      "type": 0,
+      "type": 1,
       "url": "https://jx.xmflv.com/?url="
     },
     {
