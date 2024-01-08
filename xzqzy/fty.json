@@ -37,13 +37,13 @@
     },
     {
       "key": "开心影视111",
-      "name": "🔥开心影视🔥",
+      "name": "🔥麒麟影视🔥",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/开心影视.json"
+      "ext": "./lib/麒麟影视.json"
     },
 	
 		
