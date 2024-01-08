@@ -25,30 +25,7 @@
            
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
         },
-		 {
-      "key": "开心HK影视",
-      "name": "🔥开心HK影视🔥",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/开心HK影视.json"
-    },
-     {
-      "key":"麒麟",
-      "name":"🍭麒麟搜索🍭",
-      "type": 3,
-      "filterable": 1,
-      "api":"csp_XBPQ",
-	"playUrl":"https://api.tyun77.cn/api.php/provide/parseDicturl?url=",  
-      "ext": {
-        "分类url": "https://www.qlintv.com/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类":"电影$1#连续剧$13#综艺$2#动漫$3",
-        "筛选":"1"
-      },
-      "jar":"./lib/Yoursmile1.jar"
-    },
+		
 	
 		
 		{"key":"鑫鑫影视",
