@@ -19,11 +19,101 @@
 		"filterable":1,
 		"ext":"http://yingszj.xn--654a.cc/api.php/app/"
 		},
-	{"key": "ytvip11",
- "name": "🕵️┃探探┃影视(CJ)",
- "type": 3,"api": "csp_AppYsV2",
- "ext": "http://wvvipcms.lyyytv.cn:80/api.php/",
- "searchable": 1,"changeable": 1},
+	{
+      "key": "IKUN资源",
+      "name": "🔥爱看2k🔥",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/",
+      "categories": [
+        "动作片",
+		"动画片",
+		 "动漫片",
+        "国产动漫",
+        "港台动漫",
+        "日本动漫",
+        "海外动漫",
+		
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "灾难片",
+        "犯罪片",
+        "悬疑片",
+        "惊悚片",
+        "奇幻片",
+        "冒险片",
+        "武侠片",
+        "其它片",
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "香港剧",
+        "台湾剧",
+        "美国剧",
+        "韩国剧",
+        "日本剧",
+        
+        "港澳剧",
+        "日剧",
+        "韩剧",
+       
+        
+        
+        "中漫",
+        "日漫",
+        "动漫",
+       
+        
+       
+        "日韩动漫",
+        "欧美动漫",
+        "动漫电影",
+        "国内综艺",
+        
+        "大陆综艺"
+        
+        
+      ],
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "xgapp",
+      "name": "🔥西瓜2k🔥",
+      "type": 3,
+      "playerType": 2,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.gsjtlxy.top/xgapp.php/v3/"
+    },
+	{
+      "key": "csp_freeok11",
+      "name": "🔥欧欧2k🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/freeok1.json",
+      "jar": "./lib/b.jar"
+    },
+    {
+      "key": "csp_Free11",
+      "name": "🔥小草2k🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "http://小盒酷玩.xyz:74/止贩卖",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/free1.json"
+    },
  {
       "key":"电影鱼",
       "name":"🔥凌云影视🔥",
@@ -153,45 +243,7 @@
       },
       "jar": "./lib/Yoursmile1.jar"
     },
-	 {
-      "key": "xzqcs",
-      "name": "🔥旺强自营🔥 ",
-      "type": 1,
-      "api": "http://xzqcsa.gnway.cc:80/api.php/provide/vod/",
-      "playerType": "2",
-      "searchable": 1,
 	
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-      "动画片",
-	 
-      "国产剧",
-       "动作片",
-        "剧情片",
-        "喜剧片",
-        "恐怖片",
-        "战争片",
-        "悬疑片",
-        "奇幻片",
-       "科幻片",
-        "灾难片",
-       "海外剧",
-        "欧美剧",
-        "韩日剧",
-         "动漫",
-         "国产动漫",
-          "欧美动漫",
-          "日韩动漫",
-		 "体育",
-		 "短剧"
-         
-       
-        
-       
-       
-      ]
-    },
      {
       "key": "aidfd",
       "name": "🔥爱困采集🔥 ",
@@ -264,17 +316,7 @@
        
       ]
     },
-	{
-            "key": "在线之家",
-            "name": "🔥在线之家🔥 ",
-            "type": 3,
-            "jar": "./lib/guafty.jar",
-            "api": "csp_Zxzj",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.zxzjhd.com/"
-        },
+	
 
 
  {
@@ -397,26 +439,6 @@
         "欧美动漫"
        
        
-      ]
-    },
-     {
-      "key": "春哥☆自营",
-      "name": "💕春哥☆自营 ",
-      "type": 1,
-      "api": "http://mfsj.kele.plus/api.php/provide/vod/",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        
-         "少儿",
-        "电影",
-        "连续剧",
-       "短剧",
-        "动漫",
-        "综艺",
-        "体育赛事"
       ]
     },
     
@@ -685,18 +707,7 @@
       "jar": "./HeChengChaXiu.jar",
       "ext": "./lib/玩偶.json"
     },
-     {
-      "key": "玩偶备用",
-      "name": "👽玩偶备用",
-      "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "jar": "./lib/custom_spider.jar",
-      "ext": "http://127.0.0.1:9978/file/tm/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$弹"
-    },
-   
+    
      {  "key": "Wobg",
       "name": "♻️阿里|玩偶表哥",
       "type": 3,
@@ -2540,6 +2551,26 @@
             "type": 3,
             "url": "Web"
         },
+		{
+      "name": "🎯小盒解析",
+      "type": 1,
+      "url": "http://119.91.123.253:2345/Api/yun.php?url="
+    },
+    {
+      "name": "🎯酷玩解析",
+      "type": 1,
+      "url": "https://jx.xmflv.com/?url="
+    },
+	{
+      "name": "路飞解析",
+      "type": 1,
+      "url": "http://42.157.129.144:2323/CH/caihong_1993138546.php?url="
+    },
+    {
+      "name": "白胡子解析",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
 {
       "name": "云边解析00",
       "type": 1,
