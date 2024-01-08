@@ -120,6 +120,16 @@
       "searchable": 1,
       "quickSearch": 1
     },
+	{
+            "key":"771111",
+            "name":"🔥七七App🔥",
+            "type":3,
+            "api":"csp_Kunyu77",
+			 "jar": "./guafty.jar",
+            "searchable":1,
+            "quickSearch":1,
+            "changeable":1
+       },
     {
       "key": "xgapp",
       "name": "🔥西瓜2k🔥",
