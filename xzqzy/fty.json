@@ -25,6 +25,15 @@
            
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
         },
+		{
+            "key":"77",
+            "name":"🔥七七App🔥",
+            "type":3,
+            "api":"csp_Kunyu77",
+            "searchable":1,
+            "quickSearch":1,
+            "changeable":1
+       },
 		  
     {
       "key": "IKUN资源",
