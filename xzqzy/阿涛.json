@@ -25,7 +25,7 @@
            
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
         },
-				"key": "七年影视",
+				{"key": "七年影视",
 			"name": "🔥七年影视🔥",
 			"type": 3,
 			"api": "csp_XBPQ",
