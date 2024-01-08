@@ -35,15 +35,18 @@
       "filterable": 1,
       "ext": "./lib/开心HK影视.json"
     },
-    {
-      "key": "开心影视111",
-      "name": "🔥麒麟影视🔥",
+     {
+      "key":"麒麟",
+      "name":"🍭麒麟搜索🍭",
       "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/麒麟影视.json"
+      "api":"csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.qlintv.com/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类":"电影$1#连续剧$13#综艺$2#动漫$3",
+        "筛选":"1"
+      },
+      "jar":"./lib/Yoursmile1.jar"
     },
 	
 		
