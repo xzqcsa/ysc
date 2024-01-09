@@ -35,18 +35,7 @@
             "timeout": 30,
             "ext": "./XYQTVBox/tokenm.json$$$https://wogg.link/|104.16.245.50$$$null$$$1$$$./pg/lib/wogg.json"
         },
-{
-            "key": "push_agent",
-            "name": "🔥阿里云盘推送🔥",
-            "type": 3,
-            "api": "csp_Push",
-            "quickSearch": 0,
-          "searchable":0,
-         "jar": "./lib/fty饭太硬.jar",
-           
-           
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
-        },
+
 		 {
             "key": "push_agent1111",
             "name": "🔥夸克迅雷推送🔥",
