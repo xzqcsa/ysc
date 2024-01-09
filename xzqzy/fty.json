@@ -35,7 +35,13 @@
             "quickSearch":1,
             "changeable":1
        },
-		  
+		 {
+      "key": "南瓜",
+      "name": "🎃南瓜",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/南瓜.js"
+    }, 
     {
       "key": "IKUN资源",
       "name": "🔥爱看2k🔥",
@@ -2435,13 +2441,7 @@
       "playerType": 1,
       "api": "http://home.jundie.top:9520/spider/csp_JP"
     },
- {
-      "key": "南瓜",
-      "name": "🎃南瓜",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/南瓜.js"
-    },
+ 
  {
       "key": "迷你库",
       "name": "🐹迷你",
@@ -2501,15 +2501,7 @@
       "quickSearch": 1,
       "changeable": 1
     },
-    {
-      "key": "77",
-      "name": "👒七七┃App",
-      "type": 3,
-      "api": "csp_Kunyu77",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
+    
     
     {
       "key": "Cokemv",
@@ -2543,16 +2535,6 @@
       "changeable": 0
     },
    
-    {
-      "key": "新6V",
-      "name": "🔥新6V磁力┃慎用",
-      "type": 3,
-      "api": "csp_SixV",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://www.xb6v.com/"
-    },
    
  
    
