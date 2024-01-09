@@ -26,6 +26,15 @@
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
         },
 		{
+            "key": "ZYJK111", 
+            "name": "🔥多线路🔥", 
+            "type": 1, 
+            "api": "http://film.benmx.com/api.php/tvbox", 
+            "searchable": 1, 
+            "quickSearch": 1, 
+            "filterable": 1
+        }, 
+		{
       "key": "zxzj11",
       "name": "🔥在线🔥",
       "type": 3,
