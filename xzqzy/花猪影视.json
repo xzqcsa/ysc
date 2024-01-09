@@ -12,6 +12,18 @@
       "quickSearch": 0,
       "filterable": 0
     },
+	 {"key":"1212",
+     "name":"🔥APP影院🔥",
+     "type":3,"api":"csp_XBPQ",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.appmovie.vip/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+      "分类": "电影$1#连续剧$2#综艺$3#动漫$4"}},
+	{"key":"开心",
+     "name":"🔥开心影院🔥",
+     "type":3,"api":"csp_XBPQ",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "http://www.ttkx.site:33/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+      "分类": "电影$1#连续剧$2#综艺$3#动漫$4#短剧$5"}},
 	{
             "key": "ZYJK111", 
             "name": "🔥多线路🔥", 

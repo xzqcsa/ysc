@@ -65,20 +65,7 @@
       "ext":{"分类url": "http://www.ttkx.site:33/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
       "分类": "电影$1#连续剧$2#综艺$3#动漫$4#短剧$5"}},
 	  
-	  {"key":"121111223",
-     "name":"🔥AUGU影院🔥",
-     "type":3,"api":"csp_XBPQ",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://auete.pro/auete9so.php?/id/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
-      "分类": "电影$Movie#电视剧$Tv#综艺$Zy#动漫$Dm"}},
-	  
-	  {"key":"123是",
-		"name":"🔥AUU影视🔥",
-		"type":3,"api":"csp_AppYsV2",
-		"searchable":1,"quickSearch":1,
-		"filterable":1,
-		"ext":"https://auete.pro/api.php/app/"
-		},
+	 
 	  
         {
 	 
