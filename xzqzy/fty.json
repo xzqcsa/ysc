@@ -11,8 +11,30 @@
       "quickSearch": 0,
       "filterable": 0
     },
-	
-
+	 {
+            "key": "Wogg11123",
+            "name": "🔥玩偶哥哥11🔥",
+            "type": 3,
+            "api": "csp_Wogg",
+            "quickSearch": 1,
+            "changeable": 1,
+			"jar": "./lib/pg2024.1.9.jar",
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./XYQTVBox/tokenm.json$$$https://wogg.xyz/|104.16.245.50$$$null$$$1$$$./pg/lib/wogg.json"
+        },
+{
+            "key": "Wogg11123222",
+            "name": "🔥玩偶哥哥12🔥",
+            "type": 3,
+            "api": "csp_Wogg",
+            "quickSearch": 1,
+			"jar": "./lib/pg2024.1.9.jar",
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./XYQTVBox/tokenm.json$$$https://wogg.link/|104.16.245.50$$$null$$$1$$$./pg/lib/wogg.json"
+        },
 {
             "key": "push_agent",
             "name": "🔥推送🔥",
@@ -202,7 +224,7 @@
             "ext": "./lib/tokenm.json$$$https://wogg.link/$$$null$$$1"
         },
       {  "key": "Wobg1111",
-      "name": "🔥️玩偶表弟🔥",
+      "name": "🔥️玩偶白泽🔥",
       "type": 3,
        "style": {
         "type": "rect",
