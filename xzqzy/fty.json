@@ -72,6 +72,14 @@
       "ext":{"分类url": "https://auete.pro/auete9so.php?/id/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
       "分类": "电影$Movie#电视剧$Tv#综艺$Zy#动漫$Dm"}},
 	  
+	  {"key":"123是",
+		"name":"🔥AUU影视🔥",
+		"type":3,"api":"csp_AppYsV2",
+		"searchable":1,"quickSearch":1,
+		"filterable":1,
+		"ext":"https://auete.pro/api.php/app/"
+		},
+	  
         {
 	 
             "key": "Wogg11123",
