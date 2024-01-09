@@ -49,7 +49,18 @@
             "timeout": 30,
             "ext": "./XYQTVBox/tokenm.json$$$https://wogg.link/|104.16.245.50$$$null$$$1$$$./pg/lib/wogg.json"
         },
-
+{
+            "key": "push_agent",
+            "name": "🔥阿里云盘推送🔥",
+            "type": 3,
+            "api": "csp_Push",
+            "quickSearch": 0,
+          "searchable":0,
+         "jar": "./lib/fty饭太硬.jar",
+           
+           
+            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+        },
 		 {
             "key": "push_agent1111",
             "name": "🔥夸克迅雷推送🔥",
@@ -497,19 +508,7 @@
  
 
     },
-{
-            "key": "Pan991",
-            "name": "🔥盘99|网盘🔥",
-            "type": 3,
-            "api": "csp_Pan99",
-"jar":"./lib/pg最新.jar", 
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 30,
-            "ext": "./XYQTVBox/tokenm.json$$$https://pan99.xyz$$$null$$$1"
-        },
-   
+
         {
             "key": "Ppxzy",
             "name": "🔥皮皮虾|网盘🔥",
@@ -1526,17 +1525,7 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
-{
-      "key": "pan99",
-      "name": "🔍盘99🔍",
-      "type": 3,
-      "api": "csp_Pan99",
-	   "jar":"./yydf微信独享.jar", 
-      "searchable": 1,
-      
-     "changeable":0,
-      "ext": "1f34013bd2d0471d94e200b730489623"
-    },
+
 
    
    {
