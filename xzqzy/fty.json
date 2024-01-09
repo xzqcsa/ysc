@@ -20,7 +20,7 @@
             "api": "csp_Push",
             "quickSearch": 0,
           "searchable":0,
-         "jar": "./guafty.jar",
+         "jar": "./lib/fty饭太硬.jar",
            
            
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
@@ -163,7 +163,17 @@
       "filterable": 1,
       "ext": "./lib/free1.json"
     },
-	
+	 {
+      "key": "zxzj11",
+      "name": "🔥在线🔥",
+      "type": 3,
+      "api": "csp_Zxzj",
+	    "jar": "./lib/fty饭太硬.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.zxzj.pro/"
+    },
 		
 		{"key":"鑫鑫影视",
 		"name":"🔥鑫鑫影视🔥",
@@ -1058,7 +1068,7 @@
    "type":3,"api":"csp_WoGG",
    "searchable":1,
    "quickSearch":1,
-    "jar": "./guafty.jar",
+    "jar": "./lib/fty饭太硬.jar",
    "changeable":0,
    "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
    {
