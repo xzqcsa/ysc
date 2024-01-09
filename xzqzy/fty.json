@@ -70,12 +70,7 @@
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://auete.pro/{cateId}/index{catePg}.html[https://auete.pro/{cateId}/index.html];;k",
       "分类": "电影$Movie#连续剧$Tv#综艺$Zy#动漫$Dm"}},
-	  {"key":"A37",
-     "name":"🔥37影院🔥",
-     "type":3,"api":"csp_XBPQ",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.37dyw.com/erjifenlei/{cateId}/{catePg}.html[https://www.37dyw.com/erjifenlei/{cateId}/.html];;k",
-      "分类": "电影$1#连续剧$2#综艺$3#动漫$4"}},
+	 
         {
 	 
             "key": "Wogg11123",
