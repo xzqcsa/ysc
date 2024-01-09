@@ -13,6 +13,16 @@
       "filterable": 0
     },
 	{
+      "key": "一起看11 ",
+      "name": "🔥一起┃App🔥",
+      "type": 3,
+      "api": "csp_YQKan",
+	  "jar": "./lib/fty饭太硬.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+	{
       "key": "zxzj11",
       "name": "🔥在线🔥",
       "type": 3,

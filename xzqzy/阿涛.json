@@ -36,6 +36,16 @@
       "changeable": 1,
       "ext": "https://www.zxzj.pro/"
     },
+	{
+      "key": "一起看11 ",
+      "name": "🔥一起┃App🔥",
+      "type": 3,
+      "api": "csp_YQKan",
+	  "jar": "./lib/fty饭太硬.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
 		
 		{
 			"key": "七年影视",
