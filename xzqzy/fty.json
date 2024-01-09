@@ -69,7 +69,7 @@
      "name":"🔥AUGU影院🔥",
      "type":3,"api":"csp_XBPQ",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://auete.pro/id/{cateId}/index/page/{catePg}/.html",
+      "ext":{"分类url": "https://auete.pro/id/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
       "分类": "电影$Movie#电视剧$Tv#综艺$Zy#动漫$Dm"}},
 	  
         {
