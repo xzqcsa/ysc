@@ -52,6 +52,7 @@
             "name": "🔥夸克迅雷推送🔥",
             "type": 3,
             "api": "csp_Push",
+			"jar": "./lib/pg2024.1.9.jar",
             "changeable": 0,
             "timeout": 30,
             "ext": "./XYQTVBox/tokenm.json"
