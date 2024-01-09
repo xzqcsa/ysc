@@ -75,7 +75,7 @@
      "name":"🔥37影院2🔥",
      "type":3,"api":"csp_XBPQ",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.37dyw.com/erjifenlei/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+      "ext":{"分类url": "https://www.37dyw.com/erjifenlei/id/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
       "分类": "电影$1#连续剧$2#综艺$3#动漫$4"}},
         {
 	 
