@@ -26,6 +26,22 @@
             "ext": "./XYQTVBox/tokenm.json"
         },
 		{
+            "key": "push_agent",
+            "name": "🔥OK推送🔥",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+			"jar": "./jar/ok.png;md5;e5f0a5283309c662bdaf3659a55e9f1d",
+            "ext": {
+                "token": "./XYQTVBox/alitoken.txt",
+                "cookie": "./XYQTVBox/quark_cookie.txt",
+                "danmu": true
+            },
+            "timeout": 25
+        },
+		{
             "key": "ZYJK111", 
             "name": "🔥多线路🔥", 
             "type": 1, 
