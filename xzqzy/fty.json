@@ -25,6 +25,16 @@
             },
             "ext": "./XYQTVBox/tokenm.json"
         },
+		{
+            "key": "ZYJK111", 
+            "name": "🔥多线路🔥", 
+            "type": 1, 
+            "api": "http://film.benmx.com/api.php/tvbox", 
+            "searchable": 1, 
+            "quickSearch": 1, 
+            "filterable": 1
+        }, 
+        {
 	 {
             "key": "Wogg11123",
             "name": "🔥玩偶哥哥11🔥",
