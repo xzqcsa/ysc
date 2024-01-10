@@ -23,7 +23,7 @@
      "type":3,"api":"csp_XBPQ",
 	  "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.libhd.com/vodshow/{cateId}-{area}--------{catePg}---{year}.html",
+      "ext":{"分类url": "https://www.libhd.com/vodshow/{cateId}-{area}----------{year}.html",
       "分类": "电影$1剧集$2#动漫$4#综艺$3"}},
 	  
 	{"key":"奈非",
