@@ -87,9 +87,10 @@
 	  
 	  {"key":"电影盒子",
      "name":"🔥电影盒子🔥",
-     "type":3,
+     "type":3,"api":"csp_XBPQ",
      "searchable":1,"quickSearch":1,"filterable":1,
-       "api": "http://www.tv012.com/api.php/provide/vod/"},
+      "ext":{"分类url": "http://www.tv012.com/id-{cateId}-area-{area}-year-{year}-p-{catePg}.html",
+      "分类": "电影$1#电视剧$2#综艺$4#动漫$3"}},
      
 	 
 	  
