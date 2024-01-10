@@ -18,6 +18,14 @@
       "ext":{"分类url": "https://www.appmovie.vip/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
       "分类": "电影$1#连续剧$2#综艺$3#动漫$4"}},
 	  
+	 {"key":"1dami11",
+     "name":"🔥NO影院🔥",
+     "type":3,"api":"csp_XBPQ",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.novipnoad.net/{cateId}/.html",
+      "分类": "电影$movie#剧集$tv#综艺$shows#动画$anime"}},  
+	  
+	  
 	{"key":"1dami",
      "name":"🔥大米影院🔥",
      "type":3,"api":"csp_XBPQ",
