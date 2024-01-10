@@ -16,7 +16,7 @@
      "name":"🔥AUGUET影院🔥",
      "type":3,"api":"csp_XBPQ",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://auete.pro/auete9so.php?page={catePg}&searchtype={cateId}&order=commend&tid={cateId}&area={cateId}&year={year}",
+      "ext":{"分类url": "https://auete.pro/{cateId}/index{catePg}.html",
       "分类": "电影$Movie#连续剧$Tv#综艺$Zy#动漫$Dm"}},
 	  
 	 {"key":"大米",
