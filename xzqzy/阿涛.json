@@ -43,7 +43,12 @@
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.pkmp4.xyz/ms/{cateId}-{area}-------{catePg}---{year}.html",
       "分类": "电影$1#剧集$2#综艺$3#动漫$4"}},
-
+        {"key":"小小",
+     "name":"🔥小小影院🔥",
+     "type":3,"api":"csp_XBPQ",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.xxtv4.com/{cateId}/index_{catePg}_{year}_{area}_.html",
+      "分类": "电影$mov#电视剧$tv#综艺$fun#动漫$cartoon"}},
 {
             "key": "push_agent",
             "name": "🔥推送🔥",
