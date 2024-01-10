@@ -42,6 +42,12 @@
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.damit.vip/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
       "分类": "电影$20#电视剧$21#综艺$23#动漫$22"}},
+	     {"key":"1215454",
+     "name":"🔥凌云影院🔥",
+     "type":3,"api":"csp_XBPQ",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.lyys8.com/list/{cateId}-{area}-------{catePg}---{year}.html",
+      "分类": "电影$movie#剧集$tv#动漫$cartoon"}},
 	{
             "key": "ZYJK111", 
             "name": "🔥多线路🔥", 
