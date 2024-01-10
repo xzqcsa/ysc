@@ -18,9 +18,10 @@
       "ext":{"分类url": "https://www.appmovie.vip/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
       "分类": "电影$1#连续剧$2#综艺$3#动漫$4"}},
 	  
-	{"key":"1奈非",
+	{"key":"奈非",
      "name":"🔥奈非影院🔥",
      "type":3,"api":"csp_XBPQ",
+	  "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.naifei.art/vodshow/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
       "分类": "电影$dy#剧集$juji#动漫$dongman#综艺$zongyi"}},
