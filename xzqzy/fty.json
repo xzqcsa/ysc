@@ -22,7 +22,7 @@
      "name":"🔥NO影院🔥",
      "type":3,"api":"csp_XBPQ",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.novipnoad.net/{cateId}/.html",
+      "ext":{"分类url": "https://www.novipnoad.net/{cateId}/",
       "分类": "电影$movie#剧集$tv#综艺$shows#动画$anime"}},  
 	  
 	  
