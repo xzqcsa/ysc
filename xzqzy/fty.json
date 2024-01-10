@@ -37,7 +37,7 @@
 	  {"key":"热榜剧",
      "name":"🔥热榜剧🔥",
      "type":3,"api":"csp_XBPQ",
-	  "jar":"./lib/Yoursmile1.jar",
+	 
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "http://www.rebangju.com/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
       "分类": "电影$1#连续剧$2#动漫$4#综艺$3"}},
