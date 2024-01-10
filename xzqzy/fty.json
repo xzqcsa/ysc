@@ -24,12 +24,7 @@
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.damit.vip/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
       "分类": "电影$20#电视剧$21#综艺$23#动漫$22"}},
-	  {"key":"小小",
-     "name":"🔥小小影院🔥",
-     "type":3,"api":"csp_XBPQ",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.xxtv4.com/{cateId}/index{catePg}.html[https://www.xxtv4.com/{cateId}/index.html];;k",
-      "分类": "电影$mov#电视剧$tv#综艺$fun#动漫$cartoon"}},
+	 
 	 {
             "key": "网盘配置",
             "name": "🔥网盘及彈幕配置🔥",
@@ -1507,6 +1502,12 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
+	 {"key":"小小",
+     "name":"🔍小小影院🔍",
+     "type":3,"api":"csp_XBPQ",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.xxtv4.com/{cateId}/index{catePg}.html[https://www.xxtv4.com/{cateId}/index.html];;k",
+      "分类": "电影$mov#电视剧$tv#综艺$fun#动漫$cartoon"}},
 	{
       "key":"2555",
       "name":"🔍555影院🔍",
