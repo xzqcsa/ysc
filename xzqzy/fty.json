@@ -91,7 +91,7 @@
      "name":"🔥AUGUET影院🔥",
      "type":3,"api":"csp_XBPQ",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://auete.pro/{cateId}/index{catePg}.html[https://auete.pro/{cateId}/index.html];;k",
+      "ext":{"分类url": "https://auete.pro/{cateId}/index{catePg}.html[https://auete.pro/{cateId}/index.html];;k","搜索url":"https://auete.pro/search.php?searchword=?wd={wd}",
       "分类": "电影$Movie#连续剧$Tv#综艺$Zy#动漫$Dm"}},
 	  
 	  {"key":"气味",
