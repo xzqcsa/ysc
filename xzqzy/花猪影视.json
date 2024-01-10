@@ -12,6 +12,13 @@
       "quickSearch": 0,
       "filterable": 0
     },
+	{"key":"LIBHD",
+     "name":"🔥LIBHD影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	  "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.libhd.com/vodshow/{cateId}-{area}----------{year}.html",
+      "分类": "电影$1#剧集$2#动漫$4#综艺$3"}},
 	{"key":"奈非",
      "name":"🔥奈非影院🔥",
      "type":3,"api":"csp_XBPQ",
