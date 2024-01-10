@@ -23,7 +23,7 @@
      "type":3,"api":"csp_XBPQ",
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.naifei.art/vodshow/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-      "分类": "电影$dy#剧集$juji#动漫$dongman$#综艺$zongyi"}},
+      "分类": "电影$dy#剧集$juji#动漫$dongman#综艺$zongyi"}},
 	  
 	  
 	{"key":"1dami",
