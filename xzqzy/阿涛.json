@@ -807,7 +807,13 @@
 		"ext":"./lib/阿涛tokenm.json"
 		},
 	 
-      
+      {"key":"秒搜",
+	"name":"🔍秒搜|网盘🔍",
+	"type":3,
+	"jar": "./lib/pg(5).jar",
+	"api":"csp_MiaoSou",
+	"timeout":30, 
+	"ext":"./lib/阿涛tokenm.json"},
         
       
       
