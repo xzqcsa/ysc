@@ -17,6 +17,13 @@
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.appmovie.vip/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
       "分类": "电影$1#连续剧$2#综艺$3#动漫$4"}},
+	  
+	  {"key":"大米",
+     "name":"🔥大米星球🔥",
+     "type":3,"api":"csp_XBPQ",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.damit.vip/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+      "分类": "电影$20#电视剧$21#综艺$23#动漫$22"}},
 	 {
             "key": "网盘配置",
             "name": "🔥网盘及彈幕配置🔥",
