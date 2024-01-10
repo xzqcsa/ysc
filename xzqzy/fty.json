@@ -1252,7 +1252,13 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
-	
+	{"key":"秒搜",
+	"name":"🔍秒搜|网盘🔍",
+	"type":3,
+	"jar": "./lib/pg(5).jar",
+	"api":"csp_MiaoSou",
+	"timeout":30, 
+	"ext":"./lib/tokenm.json"},
 {
       "key":"七味",
       "name":"🔍七味搜索🔍",
