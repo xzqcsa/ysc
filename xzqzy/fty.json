@@ -13,13 +13,13 @@
     },
 	
 	
-	 {"key":"keke",
-     "name":"🔥可可影院🔥",
+	 {"key":"影视工厂",
+     "name":"🔥影视工厂🔥",
      "type":3,"api":"csp_XBPQ",
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://16.162.225.100:5012/#/home/index.php/",
-      "分类": "电影$1#剧集$2#综艺纪录$3#动漫$4#短剧$6"}},
+      "ext":{"分类url": "https://ysgcfun.com/covodshow/{cateId}-{area}-------{catePg}---{year}.html",
+      "分类": "电影$1#连续剧$2#综艺$3#樱花动漫$4"}},
 	
 	 {"key":"freeOK",
      "name":"🔥freeOK影院🔥",
