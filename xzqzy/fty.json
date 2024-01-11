@@ -11,6 +11,70 @@
       "quickSearch": 0,
       "filterable": 0
     },
+	
+	 {"key":"freeOK",
+     "name":"🔥freeOK影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html",
+      "分类": "少儿$5#电影$1#剧集$2#综艺$3#动漫$4#短剧$12"}},
+	
+	{"key":"臭蛋蛋",
+     "name":"🔥臭蛋蛋影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://cddys.me/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
+	
+	{"key":"热播剧",
+     "name":"🔥热播剧影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://rebozj.pro/show/{cateId}-{area}-------{catePg}---{year}.html",
+      "分类": "电影$1#电视剧$2#综艺$5#动漫$4"}},
+	
+	{"key":"悠运",
+     "name":"🔥悠云影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://yoyys.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
+	
+	{"key":"MK",
+     "name":"🔥MK影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.mkvdo.com/{cateId}/page/{catePg}/",
+      "分类": "电影$dy#电剧集$ds#综艺$zy#动漫$dm"}},
+	
+	{"key":"韩剧迷",
+     "name":"🔥韩剧迷影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.hanjutv.me/{cateId}",
+      "分类": "韩剧$hanju#韩影$dianying#韩综$zongyi"}},
+	
+	{"key":"晴天",
+     "name":"🔥晴天影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.qinttv.com/qtyy/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
+      "分类": "电影$dianying#电视剧$dianshiju#动漫$dongmna#综艺$zongyi"}},
+	
+	
+	
+	
+	
+	
+	
+	
 	 {"key":"1212",
      "name":"🔥APP影院🔥",
      "type":3,"api":"csp_XBPQ",
@@ -1368,7 +1432,13 @@
 		"ext":"./lib/tokenm.json"
 		},
 	 
-      
+      {"key":"混合盘",
+	  "name":"🔍混合盘|网盘🔍",
+	  "type":3,"api":
+	  "csp_HunHePan",
+	  "jar": "./lib/pg(6).jar",
+	  "timeout":30,
+	  "ext":"./lib/tokenm.json"},
         
       
         {
