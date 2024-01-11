@@ -11,6 +11,26 @@
       "quickSearch": 0,
       "filterable": 0
     },
+	 {
+      "key": "可可",
+      "name": "🔥可可影视🔥",
+      "type": 1,
+      "api": "https://16.162.225.100:5012/api.php/provide/vod/",
+      "playerType": 2,
+	   "jar": "./yydf24.1.2.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "短剧",
+        
+        "电影",
+        "剧集",
+        "动漫",
+        "综艺纪录",
+        "Netflix"
+      ]
+    },
 	
 	 {"key":"freeOK",
      "name":"🔥freeOK影院🔥",
