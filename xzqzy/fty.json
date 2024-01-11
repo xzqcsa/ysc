@@ -18,7 +18,7 @@
      "type":3,"api":"csp_XBPQ",
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://16.162.225.100:5012/show/{cateId}--{area}--{year}-1-{catePg}.html",
+      "ext":{"分类url": "https://16.162.225.100:5012/#/home/index?channelId={cateId}",
       "分类": "电影$1#剧集$2#综艺纪录$3#动漫$4#短剧$6"}},
 	
 	 {"key":"freeOK",
