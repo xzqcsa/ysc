@@ -22,13 +22,13 @@
       "分类": "电影$1#连续剧$2#综艺$3#动漫$4"}},
 	  
 	  
-	  {"key":"饭团影视",
-     "name":"🔥饭团影视🔥",
+	  {"key":"doudou影视",
+     "name":"🔥朵朵影视🔥",
      "type":3,"api":"csp_XBPQ",
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.sjz42.net/sjvodshow/{cateId}-{area}-------{catePg}---{year}.html",
-      "分类": "电影$1#电视剧$2#综艺$3#动漫大全$4#豆瓣电影Top250$40"}},
+      "ext":{"分类url": "https://ddec.com.cn/vytghj/{cateId}-{area}-------{catePg}---{year}.html",
+      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
 	  
 	 {"key":"看戏",
      "name":"🔥看戏影院🔥",
