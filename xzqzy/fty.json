@@ -20,6 +20,15 @@
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://ysgcfun.com/covodshow/{cateId}-{area}-------{catePg}---{year}.html",
       "分类": "电影$1#连续剧$2#综艺$3#樱花动漫$4"}},
+	  
+	  
+	 {"key":"看戏",
+     "name":"🔥看戏影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.kanxig.com/tags/{cateId}-{area}-------{catePg}---{year}.html",
+      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
 	
 	 {"key":"freeOK",
      "name":"🔥freeOK影院🔥",
