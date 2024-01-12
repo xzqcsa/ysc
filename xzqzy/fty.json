@@ -18,6 +18,7 @@
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.jisu000.com/vod-list-id-{cateId}-pg-{catePg}.html",
+	  "搜索url": "https://www.jisu000.com/index.php?m=vod-search&wd={wd}",
       "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
 	  
 	{"key":"番茄",
