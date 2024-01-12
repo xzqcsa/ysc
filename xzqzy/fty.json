@@ -11,13 +11,13 @@
       "quickSearch": 0,
       "filterable": 0
     },
-	{"key":"被窝",
-	"name":"🔥被窝影视🔥",
+	{"key":"番茄",
+	"name":"🔥番茄影视🔥",
      "type":3,"api":"csp_XBPQ",
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.kmpos.net/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
-      "分类": "电影$1#连续剧$2#综艺$3#动漫$4"}},
+      "ext":{"分类url": "http://www.dkxin.com/vodshow/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
+      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
 	
 	
 	
