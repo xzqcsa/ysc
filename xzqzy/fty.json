@@ -52,6 +52,7 @@
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html",
+	  "搜索url": "https://www.freeok.vip/so1so/-------------.html?wd={wd}",
       "分类": "少儿$5#电影$1#剧集$2#综艺$3#动漫$4#短剧$12"}},
 	
 	{"key":"臭蛋蛋",
