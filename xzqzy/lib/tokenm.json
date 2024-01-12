@@ -1,7 +1,7 @@
 {
 "token":"1f34013bd2d0471d94e200b730489623",
 "open_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIyNTFmMzU1MDQ2NDU0YWY3YWFmODUyNGIyNjcxODJlNiIsImF1ZCI6Ijc2OTE3Y2NjY2Q0NDQxYzM5NDU3YTA0ZjYwODRmYjJmIiwiZXhwIjoxNzExNTAyNzg3LCJpYXQiOjE3MDM3MjY3ODcsImp0aSI6IjgzNWFhOTRhOTg4NTQ3YjRiODIyYmU4NmMwNTA1ZTdiIn0.LsUZ7sWt2N-LqVzdBWxk6ypjSHcxbPZVweG4LpLvebaxbOLSSkFTxM0t9Rn1KSN3RHAm-pUa-NRbCQhz2fDp4w",
-"thread_limit":12,
+"thread_limit":16,
 "is_vip":true,
 "vip_thread_limit":0,
 "vod_flags":"4k|4kz|auto",
