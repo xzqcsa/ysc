@@ -12,7 +12,14 @@
       "filterable": 0
     },
 	
-	
+	{"key":"PANSHI",
+	"name":"🔥磐石影视🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "http://isuan7.com/{cateId}.html",
+	  
+      "分类": "电影$dianying#电视剧$dianshiju"}},
 	
 	{"key":"极速",
 	"name":"🔥极速影视🔥",
