@@ -12,6 +12,15 @@
       "filterable": 0
     },
 	
+	{"key":"88",
+	"name":"🔥88影视🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.88mv.org/vod-type-id-{cateId}-pg-{catePg}.html",
+	  
+      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
+	
 	{"key":"极速",
 	"name":"🔥极速影视🔥",
      "type":3,"api":"csp_XBPQ",
