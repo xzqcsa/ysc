@@ -12,12 +12,12 @@
       "filterable": 0
     },
 	
-	{"key":"88",
-	"name":"🔥VIDEO影视🔥",
+	{"key":"OK",
+	"name":"🔥OK影视🔥",
      "type":3,"api":"csp_XBPQ",
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "http://www.tianhongpaint.com/mulu/{cateId}.html",
+      "ext":{"分类url": "https://www.okys5.com/show/{cateId}-{area}-------{catePg}---{year}.html",
 	  
       "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
 	
