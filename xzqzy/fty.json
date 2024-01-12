@@ -2866,14 +2866,13 @@
             "type": 3,
             "url": "Web"
         },
-		{"name": "飞云","type": 1,"url": "https://daina.hk/api/?key=e1e84ecae847b6e4a1a27fd4611f45f5&url="},
-		{"name": "米饭","type": 1,"url": "https://api.json.icu/api/?key=b1f3b1a9e1c0a42ae969db10bd315a95&url="},
-		{"name":"PM","url":"https://www.playm3u8.cn/jiexi.php?url=","type":0},
-		{"name":"看看","type":0,"url":"https://jx.m3u8.pw/?url="},
-		{"name":"m3u8","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
-		{"name":"巧技","type":1,"url":"http://pandown.pro/app/kkdy.php?url="},
-		{"name":"8090","url":"https://www.8090.la/8090/?url=","type":0},
-		{"name":"云解析","type":0,"url":"https://jx.yparse.com/index.php?url="},
+		
+		{"name":"PM（除优酷）","url":"https://www.playm3u8.cn/jiexi.php?url=","type":0},
+		
+		{"name":"m3u8（除优酷）","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
+		
+		{"name":"8090（除优酷）","url":"https://www.8090.la/8090/?url=","type":0},
+		{"name":"云解析（除优酷）","type":0,"url":"https://jx.yparse.com/index.php?url="},
 		{
       "name": "🎯小盒解析",
       "type": 1,
