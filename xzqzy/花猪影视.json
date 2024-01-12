@@ -12,6 +12,14 @@
       "quickSearch": 0,
       "filterable": 0
     },
+	{"key":"PANSHI",
+	"name":"🔥无限影视🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.wxtv.net/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+	  
+      "分类": "少儿$shaoer#电影$dianying#电视剧$lianxuju#综艺$zongyi#动漫$dongman#Bilibili$Bilibili"}},
 	 {"key":"VID",
      "name":"🔥VID影视🔥",
      "type":3,"api":"csp_XBPQ",
