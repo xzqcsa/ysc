@@ -10,41 +10,8 @@
      "ext": "./drpy.js"
     },
 	
-	{"key":"两个BT",
-	"name":"🔥两个BT🔥",
-	"type":3,
-	"api":"./py/两个BT.py",
-	"searchable":1,
-	"jar":"./lib/py.jar",
-	"quickSearch":1,
-	"filterable":1,
-	"ext":"./py/两个BT.json"},
 	
-	{"key":"PANSHI",
-	"name":"🔥无限影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.wxtv.net/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
-	  
-      "分类": "少儿$shaoer#电影$dianying#电视剧$lianxuju#综艺$zongyi#动漫$dongman#Bilibili$Bilibili"}},
 	
-	{"key":"极速",
-	"name":"🔥极速影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.jisu000.com/vod-list-id-{cateId}-pg-{catePg}.html",
-	  "搜索url": "https://www.jisu000.com/index.php?m=vod-search&wd={wd}",
-      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
-	  
-	{"key":"番茄",
-	"name":"🔥番茄影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "http://www.dkxin.com/vodshow/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
-      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
 	
 	
 	
@@ -419,6 +386,31 @@
 			"playerType": "1",
 			"ext": "./lib/qinian.json"
 		},
+	{"key":"PANSHI",
+	"name":"🔥无限影视🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.wxtv.net/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+	  
+      "分类": "少儿$shaoer#电影$dianying#电视剧$lianxuju#综艺$zongyi#动漫$dongman#Bilibili$Bilibili"}},
+	
+	{"key":"极速",
+	"name":"🔥极速影视🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.jisu000.com/vod-list-id-{cateId}-pg-{catePg}.html",
+	  "搜索url": "https://www.jisu000.com/index.php?m=vod-search&wd={wd}",
+      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
+	  
+	{"key":"番茄",
+	"name":"🔥番茄影视🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "http://www.dkxin.com/vodshow/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
+      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
 	
 		
 		{
