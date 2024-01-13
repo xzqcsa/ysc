@@ -27,13 +27,13 @@
 	
 	{
             "key": "push_agent",
-            "name": "推送",
+            "name": "🔥推送🔥",
             "type": 3,
             "api": "csp_Push",
 			"jar": "./lib/pg.jar",
             "changeable": 0,
             "timeout": 30,
-            "ext": "http://127.0.0.1:9978/file/XYQTVBox/tokenm.json"
+            "ext": "./XYQTVBox/tokenm.json"
         },
 	
 	
