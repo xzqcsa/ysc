@@ -44,13 +44,7 @@
       "ext":{"分类url": "https://www.xgitv.com/vshow/{cateId}--------{catePg}---.html",
       "分类": "电影$dianying#剧集$dianshiju#综艺$zongyi#动漫$dongman"}},
 	
-	 {"key":"歪片星球",
-     "name":"🔥歪片星球🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://waipian10.com/show-{cateId}-{area}-------{catePg}---{year}/",
-      "分类": "电影$dianying#电视剧$juji#综艺$zongyi#动漫$dongman#Netflix$netflix"}},
+	
 	  
 	 {"key":"VID",
      "name":"🔥VID影视🔥",
