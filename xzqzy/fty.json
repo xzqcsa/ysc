@@ -5,11 +5,9 @@
  {
       "key":"豆豆",
       "name":"🔥旺强影视🔥",
-      "type": 3,
-      "api":"csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
+     "type": 3,
+     "api": "./drpy2.min.js",
+     "ext": "./drpy.js"
     },
 	
 	{"key":"两个BT",
