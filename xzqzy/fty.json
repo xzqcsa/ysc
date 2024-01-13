@@ -1,5 +1,5 @@
 ﻿ { 
-  "spider":"./yydf.jar",
+  "spider":"./yydf.jar;md5;f362e434223a9b67903f9fe0c1f98c40",
   "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
   "sites": [
  {
@@ -11,6 +11,16 @@
       "quickSearch": 0,
       "filterable": 0
     },
+	
+	{"key":"两个BT",
+	"name":"🔥两个BT🔥",
+	"type":3,
+	"api":"./py/两个BT.py",
+	"searchable":1,
+	"jar":"./lib/py.jar",
+	"quickSearch":1,
+	"filterable":1,
+	"ext":"./py/两个BT.json"},
 	
 	{"key":"PANSHI",
 	"name":"🔥无限影视🔥",
@@ -200,7 +210,7 @@
             "name": "🔥网盘及彈幕配置🔥",
             "type": 3,
             "api": "csp_Config",
-			"jar": "./lib/pg2024.1.9.jar",
+			"jar": "./lib/pg.jar",
             "searchable": 0,
             "changeable": 0,
             "style": {
@@ -269,7 +279,7 @@
             "api": "csp_Wogg",
             "quickSearch": 1,
             "changeable": 1,
-			"jar": "./lib/pg2024.1.9.jar",
+			"jar": "./lib/pg.jar",
             "filterable": 1,
             "timeout": 30,
             "ext": "./XYQTVBox/tokenm.json$$$https://wogg.xyz/|104.16.245.50$$$null$$$1$$$./pg/lib/wogg.json"
@@ -280,7 +290,7 @@
             "type": 3,
             "api": "csp_Wogg",
             "quickSearch": 1,
-			"jar": "./lib/pg2024.1.9.jar",
+			"jar": "./lib/pg.jar",
             "changeable": 1,
             "filterable": 1,
             "timeout": 30,
@@ -482,7 +492,7 @@
             "quickSearch":1,
             "changeable":1,
             "filterable":1,
-             "jar": "./lib/pg老.jar",
+             "jar": "./lib/pg.jar",
             "ext": "./lib/tokenm.json$$$https://wogg.link/$$$null$$$1"
         },
       {  "key": "Wobg1111",
@@ -602,7 +612,7 @@
             "type": 3,
             "api": "csp_Wogg",
             "quickSearch": 1,
-			"jar": "./lib/pg老.jar",
+			"jar": "./lib/pg.jar",
             "changeable": 1,
             "filterable": 1,
             "timeout": 30,
@@ -638,7 +648,7 @@
       "type": 3,
       "api": "csp_Libvio",
       "quickSearch": 1,
-	  "jar": "./lib/pg老.jar",
+	  "jar": "./lib/pg.jar",
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
@@ -692,7 +702,7 @@
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
- "jar": "./lib/pg老.jar;md5;8e988c4f0c2423508393242fb1fc00da",
+ "jar": "./lib/pg.jar",
             "changeable": 1,
             "filterable": 1,
             "timeout": 30,
@@ -702,7 +712,7 @@
       "key": "夸克",
       "name": "🔥影视车玩偶🔥",
       "type": 3,
-      "jar": "./lib/pg老.jar;md5;8e988c4f0c2423508393242fb1fc00da",
+      "jar": "./lib/pg.jar",
       "api": "csp_Wogg",
       "searchable": 1,
       "quickSearch": 1,
@@ -713,7 +723,7 @@
       "key": "Wogg3434",
       "name": "🔥夸克玩偶🔥",
       "type": 3,
-      "jar": "./lib/pg老.jar;md5;8e988c4f0c2423508393242fb1fc00da",
+      "jar": "./lib/pg.jar",
       "api": "csp_Wogg",
       "quickSearch": 1,
       "changeable": 1,
@@ -1312,21 +1322,7 @@
       "filterable": 1,
       "ext": "./lib/cvU.json"
     },
-    {
-      "key": "csp_WoGG",
-      "name": "❤🤡玩偶哥哥┃4K",
-      "type": 3,
-      "style": {
-        "type": "rect",
-        "ratio": 0.8
-      },
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto",
-      "jar": "./lib/rski.js"
-    }, 
+    
      
      {
       "key": "🍮Gitcafe6",
@@ -1340,13 +1336,7 @@
       "jar": "./lib/HeChengChaXiupm.jar"
     },
     
-    {"key":"csp_来看",
-    "name":"💕来看☆春哥",
-    "type":3,"api":"csp_XBPQ",
-    "searchable":1,
-    "quickSearch":1,
-    "filterable":1,
-    "ext":"./lib/来看.json"},
+   
     {
       "key": "dr_兔小贝",
       "name": "📚儿童┃启蒙",
@@ -1426,7 +1416,7 @@
 	{"key":"秒搜",
 	"name":"🔍秒搜|网盘🔍",
 	"type":3,
-	"jar": "./lib/pg(5).jar",
+	"jar": "./lib/pg.jar",
 	"api":"csp_MiaoSou",
 	"timeout":30, 
 	"ext":"./lib/tokenm.json"},
@@ -1493,7 +1483,7 @@
 	  "name":"🔍混合盘|网盘🔍",
 	  "type":3,"api":
 	  "csp_HunHePan",
-	  "jar": "./lib/pg(6).jar",
+	  "jar": "./lib/pg.jar",
 	  "timeout":30,
 	  "ext":"./lib/tokenm.json"},
         
@@ -1513,14 +1503,14 @@
 		{"key":"易搜",
 		"name":"🔍易搜|网盘🔍",
 		"type":3,"api":"csp_YiSo",
-		 "jar": "./lib/pg(7).jar",
+		 "jar": "./lib/pg.jar",
 		"timeout":30,
 		"ext":"./lib/tokenm.json$$$./lib/yiso.txt"},
 		{"key":"PikaSo",
 		"name":"🔍皮卡搜|网盘🔍",
 		"type":3,"api":"csp_PikaSo",
 		"quickSearch":1, "changeable":1,
-	 "jar": "./lib/pg(7).jar",	
+	 "jar": "./lib/pg.jar",	
 		"filterable":1, "timeout":30,
 		"ext":"./lib/tokenm.json$$$https://www.pikaso.top/$$$null"},
 		{
