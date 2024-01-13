@@ -36,6 +36,13 @@
             "ext": "./XYQTVBox/tokenm.json"
         },
 	
+	 {"key":"雪糕",
+     "name":"🔥雪糕影视🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.xgitv.com/vshow/{cateId}--------{catePg}---.html",
+      "分类": "电影$dianying#剧集$dianshiju#综艺$zongyi#动漫$dongman"}},
 	
 	 {"key":"VID",
      "name":"🔥VID影视🔥",
