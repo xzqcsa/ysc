@@ -762,7 +762,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
-			"jar":"./lib/pg.jar",
+			"jar":"./lib/pg2024.1.6.jar",
             "timeout": 30,
             "ext":"./lib/tokenm.json$$$null$$$1"
         },
