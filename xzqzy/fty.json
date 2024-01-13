@@ -44,13 +44,13 @@
       "ext":{"分类url": "https://www.xgitv.com/vshow/{cateId}--------{catePg}---.html",
       "分类": "电影$dianying#剧集$dianshiju#综艺$zongyi#动漫$dongman"}},
 	
-	 {"key":"来米",
-     "name":"🔥来米影视🔥",
+	 {"key":"888",
+     "name":"🔥888影视🔥",
      "type":3,"api":"csp_XBPQ",
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "http://laimi.me/vodshow/{cateId}-{area}-------catePg}---{year}.html",
-      "分类": "电影$1#电视剧$2#综艺$4#动漫$3#短剧$5"}},
+      "ext":{"分类url": "http://www.888dyy.cc/8/{cateId}-a8---{year}---dalu--page{catePg}.html-{area}-------catePg}---.html",
+      "分类": "电影$1#电视剧$2#综艺娱乐$4#经典动漫$3"}},
 	
 	  
 	 {"key":"VID",
