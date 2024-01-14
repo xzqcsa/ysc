@@ -1259,7 +1259,7 @@
    "type":3,"api":"csp_WoGG",
    "searchable":1,
    "quickSearch":1,
-    "jar": "./lib/fty饭太硬.jar",
+    "jar": "./fty新.jar",
    "changeable":0,
    "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
    {
@@ -1534,6 +1534,7 @@
       "api": "csp_YiSo",
       "searchable": 1,
       "quickSearch": 1,
+	  "jar": "./fty新.jar",
       "filterable": 0,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto"
@@ -1555,6 +1556,7 @@
       "name": "🔍七夜🌸搜索🔍",
       "type": 3,
       "api": "csp_Dovx",
+	  "jar": "./fty新.jar",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -1605,6 +1607,7 @@
       "key": "PanSearch",
       "name": "🔍盘Se┃搜索🔍",
       "type": 3,
+	  "jar": "./fty新.jar",
       "api": "csp_PanSearch",
       "searchable": 1,
       "quickSearch": 1,
