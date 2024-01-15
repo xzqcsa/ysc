@@ -35,14 +35,7 @@
             "timeout": 30,
             "ext": "./XYQTVBox/tokenm.json"
         },
-		{"key":"aikanjiqiren ",
-     "name":"🔥素白白影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.subaibaiys.com/{cateId}/year/{year}/{cateId}_tags/action/page/{catePg}",
-	  "搜索url": "https://www.subaibaiys.com/?swd={wd}",
-      "分类": "电影$new-movie#电视剧$tv-drama#动漫剧$anime-drama"}},
+		
 	
 	 {"key":"雪糕",
      "name":"🔥雪糕影视🔥",
@@ -1389,6 +1382,14 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
+	{"key":"aikanjiqiren ",
+     "name":"🔍素白白影视🔍",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.subaibaiys.com/{cateId}/year/{year}/{cateId}_tags/action/page/{catePg}",
+	  "搜索url": "https://www.subaibaiys.com/?swd={wd}",
+      "分类": "电影$new-movie#电视剧$tv-drama#动漫剧$anime-drama"}},
 {
       "key":"多聚2222",
       "name":"🔍多聚搜索🔍",
