@@ -40,7 +40,7 @@
      "type":3,"api":"csp_XBPQ",
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.aikanbot.com/hot/index-{cateId}-{area}-p-{catePg}.html",
+      "ext":{"分类url": "https://www.aikanbot.com/hot/index-{cateId}-{area}.html",
       "分类": "电影$movie#剧集$movie"}},
 	
 	 {"key":"雪糕",
