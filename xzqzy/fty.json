@@ -36,12 +36,12 @@
             "ext": "./XYQTVBox/tokenm.json"
         },
 		{"key":"aikanjiqiren ",
-     "name":"🔥爱看机器人影视🔥",
+     "name":"🔥素白白影视🔥",
      "type":3,"api":"csp_XBPQ",
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.aikanbot.com/{cateId}/index{catePg}.html[https://auete.pro/{cateId}/index.html];;k",
-      "分类": "电影$movie#剧集$movie"}},
+      "ext":{"分类url": "https://www.subaibaiys.com/{cateId}/{catePg}.html",
+      "分类": "电影$new-movie#电视剧$tv-drama#动漫剧$anime-drama"}},
 	
 	 {"key":"雪糕",
      "name":"🔥雪糕影视🔥",
