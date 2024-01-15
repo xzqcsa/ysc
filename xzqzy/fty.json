@@ -36,6 +36,18 @@
             "ext": "./XYQTVBox/tokenm.json"
         },
 		
+		
+		{
+      "key": "阿里云集合",
+      "name": "🔥阿里云集合🔥",
+      "type": 3,
+      "api": "csp_阿里云集合",
+	  "jar": "./lib/真心1215.jar",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+    },
 	{"key":"4K",
      "name":"🔥4K4K影视🔥",
      "type":3,"api":"csp_XBPQ",
@@ -281,31 +293,8 @@
 	  
 	 
 	 
-        {
-	 
-            "key": "Wogg11123",
-            "name": "🔥玩偶哥哥11🔥",
-            "type": 3,
-            "api": "csp_Wogg",
-            "quickSearch": 1,
-            "changeable": 1,
-			"jar": "./lib/pg.jar",
-            "filterable": 1,
-            "timeout": 30,
-            "ext": "./XYQTVBox/tokenm.json$$$https://wogg.xyz/|104.16.245.50$$$null$$$1$$$./pg/lib/wogg.json"
-        },
-{
-            "key": "Wogg11123222",
-            "name": "🔥玩偶哥哥12🔥",
-            "type": 3,
-            "api": "csp_Wogg",
-            "quickSearch": 1,
-			"jar": "./lib/pg.jar",
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 30,
-            "ext": "./XYQTVBox/tokenm.json$$$https://wogg.link/|104.16.245.50$$$null$$$1$$$./pg/lib/wogg.json"
-        },
+       
+
 
 		 
 		{
@@ -481,17 +470,7 @@
       "filterable": 1,
       "ext": "./lib/free1.json"
     },
-	 {
-      "key": "zxzj11",
-      "name": "🔥在线🔥",
-      "type": 3,
-      "api": "csp_Zxzj",
-	    "jar": "./lib/fty饭太硬.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.zxzj.pro/"
-    },
+	
 		
 		{"key":"鑫鑫影视",
 		"name":"🔥鑫鑫影视🔥",
