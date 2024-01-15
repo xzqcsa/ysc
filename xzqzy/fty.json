@@ -40,7 +40,7 @@
      "type":3,"api":"csp_XBPQ",
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.subaibaiys.com/movie/{catePg}.html",
+      "ext":{"分类url": "https://www.subaibaiys.com/{cateId}/year/{year}/{cateId}_tags/action/page/{catePg}",
 	  "搜索url": "https://www.subaibaiys.com/?swd={wd}",
       "分类": "电影$new-movie#电视剧$tv-drama#动漫剧$anime-drama"}},
 	
