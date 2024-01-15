@@ -1404,6 +1404,14 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
+	{"key":"YydsVip",
+	"name":"🔍YYDSVIP|网盘🔍",
+	"type":3,"jar": "./lib/pg.jar",
+	"api":"csp_YydsVip_Disable",
+	"quickSearch":1, "changeable":1,
+	"filterable":1, "timeout":30,
+	"ext":"./lib/tokenm.json$$$http://yydsvip.cn$$$null$$$1"
+	},
 	{"key":"秒搜",
 	"name":"🔍秒搜|网盘🔍",
 	"type":3,
