@@ -79,7 +79,7 @@
      "type":3,"api":"csp_XBPQ",
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://hoho.tv/show/cateId}/area/{area}/page/{catePg}/year/{year}.html",
+      "ext":{"分类url": "https://hoho.tv/show/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
       "分类": "超清4K$53#电影$1#连续剧$2#综艺$3#动漫$4"}},
 	  
 	 {"key":"雪糕",
