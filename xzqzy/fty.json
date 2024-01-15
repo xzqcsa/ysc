@@ -35,6 +35,13 @@
             "timeout": 30,
             "ext": "./XYQTVBox/tokenm.json"
         },
+		{"key":"aikanjiqiren ",
+     "name":"🔥爱看机器人影视🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.aikanbot.com/hot/index-{cateId}-{area}-p-{catePg}.html",
+      "分类": "电影$movie#剧集$movie"}},
 	
 	 {"key":"雪糕",
      "name":"🔥雪糕影视🔥",
