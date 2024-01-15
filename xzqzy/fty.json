@@ -106,6 +106,14 @@
       "ext":{"分类url": "https://www.lovedan.net/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
       "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
 	  
+	   {"key":"蛋蛋剧",
+     "name":"🔥蛋蛋剧影视🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.dandanju.cc/show/{cateId}--------{catePg}---{year}.html",
+      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
+	  
 	 {"key":"雪糕",
      "name":"🔥雪糕影视🔥",
      "type":3,"api":"csp_XBPQ",
