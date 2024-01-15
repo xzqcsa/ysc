@@ -74,6 +74,14 @@
       "ext":{"分类url": "https://www.139ys.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
       "分类": "电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$dongman"}},
 	  
+	  {"key":"139",
+     "name":"🔥139影视🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.139ys.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+      "分类": "电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$dongman"}},
+	  
 	 {"key":"雪糕",
      "name":"🔥雪糕影视🔥",
      "type":3,"api":"csp_XBPQ",
@@ -1444,7 +1452,7 @@
 	{"key":"YydsVip",
 	"name":"🔍YYDSVIP|网盘🔍",
 	"type":3,"jar": "./lib/pg.jar",
-	"api":"csp_YydsVip_Disable",
+	"api":"csp_YydsVip",
 	"quickSearch":1, "changeable":1,
 	"filterable":1, "timeout":30,
 	"ext":"./lib/tokenm.json$$$http://yydsvip.cn$$$null$$$1"
