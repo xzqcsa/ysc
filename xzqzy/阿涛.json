@@ -12,6 +12,11 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
+	{"key": "ytvip11",
+ "name": "🕵️┃探探┃影视(CJ)",
+ "type": 3,"api": "csp_AppYsV2",
+ "ext": "http://wvwip.lyyytv.cn/api.php/app/",
+ "searchable": 1,"changeable": 1},
 	 	
 		{"key":"AA4",
      "name":"🔥AA4影视🔥",
