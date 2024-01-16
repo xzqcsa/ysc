@@ -43,7 +43,7 @@
      "type":3,"api":"csp_XBPQ",
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.k987.tv/show/{cateId}.html",
+      "ext":{"分类url": "https://www.k987.tv//type/{cateId}.html",
       "分类": "电影$1#剧集$2#综艺$4#动漫$3"}},
 		
 		
