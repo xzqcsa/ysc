@@ -41,22 +41,7 @@
 		
 		
 	  
-		{"key":"AA4",
-     "name":"🔥AA4影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.aa4.cc/vodshow/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-	  "搜索url": "https://www.aa4.cc/vodsearch.html?wd={wd}",
-      "分类": "电影$1#连续剧$2#综艺$3#动漫$4#体育$33"}},	
-		
-	{"key":"兰花",
-     "name":"🔥兰花影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.lanhuatv.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
-      "分类": "电影$1#电视剧$222#综艺$3#动漫$4"}},		
+			
 		
 	{"key":"4K",
      "name":"🔥4K4K影视🔥",
@@ -507,7 +492,7 @@
       "filterable": 1,
     
              "jar": "./lib/pg.jar",
-            "ext": "./lib/tokenm.json$$$https://www.wogg.link/$$$null$$$1"
+            "ext": "./lib/tokenm.json$$$https://wogg.link/$$$null$$$1"
         },
       {  "key": "Wobg1133311",
       "name": "🔥️玩偶白泽🔥",
@@ -773,7 +758,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "./XYQTVBox/tokenm.json$$$https://www.wogg.link/$$$null$$$1$$$./pg/lib/wogg.json"
+      "ext": "./XYQTVBox/tokenm.json$$$https://wogg.link/$$$null$$$1$$$./pg/lib/wogg.json"
     },
     {
       "key": "csp_XYQHiker_ys",
@@ -1330,7 +1315,7 @@
    "quickSearch":1,
     "jar": "./guafty.jar",
    "changeable":0,
-   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.link/$$$弹"},
+   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
    {
       "key": "Wogg",
       "name": "🅱️玩偶哥哥|T追剧",
@@ -1774,6 +1759,22 @@
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.xxtv4.com/{cateId}/index{catePg}.html[https://www.xxtv4.com/{cateId}/index.html];;k",
       "分类": "电影$mov#电视剧$tv#综艺$fun#动漫$cartoon"}},
+	  {"key":"AA4",
+     "name":"🔥AA4影视🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.aa4.cc/vodshow/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+	  "搜索url": "https://www.aa4.cc/vodsearch.html?wd={wd}",
+      "分类": "电影$1#连续剧$2#综艺$3#动漫$4#体育$33"}},	
+		
+	{"key":"兰花",
+     "name":"🔥兰花影视🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.lanhuatv.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+      "分类": "电影$1#电视剧$222#综艺$3#动漫$4"}},	
 	{
       "key":"2555",
       "name":"🔍555影院🔍",
