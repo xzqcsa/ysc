@@ -488,7 +488,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
-      "timeout": 30,
+    
              "jar": "./lib/pg转存.jar",
             "ext": "./lib/tokenm.json$$$https://wogg.link/$$$null$$$1"
         },
