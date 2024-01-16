@@ -3,7 +3,7 @@
 移动戏曲,http://171.14.89.201:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
 江苏卫视,http://171.14.89.201:9901/tsfile/live/0127_2.m3u8?key=txiptv&playlive=1&authid=0
 江苏卫视,http://222.135.78.62:8154/tsfile/live/0127_1.m3u8
-江苏卫视, http://61.172.255.69:3333/tsfile/live/0125_1.m3u8
+江苏卫视,http://61.172.255.69:3333/tsfile/live/0125_1.m3u8
 优漫卡通,http://171.14.89.201:9901/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
 金鹰卡通,http://171.14.89.201:9901/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
 北京卡通,http://171.14.89.201:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -28,7 +28,7 @@
 CCTV1,http://171.14.89.201:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV2,http://171.14.89.201:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV3,http://171.14.89.201:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV4-,http://171.14.89.201:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV4,http://171.14.89.201:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV5,http://171.14.89.201:9901/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV6,http://171.14.89.201:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV7,http://171.14.89.201:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
