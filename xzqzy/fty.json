@@ -39,14 +39,7 @@
             "ext": "./XYQTVBox/tokenm.json"
         },
 		
-		{"key":"A23",
-     "name":"🔥A23影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "http://tv.ersanyun.cn/vod/",
-	  
-      "分类": "电影$1#连续剧$2#综艺$3#动漫$4#体育$33#短剧$48"}},	
+		
 	  
 		{"key":"AA4",
      "name":"🔥AA4影视🔥",
