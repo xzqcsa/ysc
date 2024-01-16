@@ -484,12 +484,13 @@
             "key":"Wogg111",
             "name":"🔥玩偶哥哥|阿里🔥",
             "type": 3,
-            "api":"csp_Wogg",
-            "quickSearch":1,
-            "changeable":1,
-            "filterable":1,
+            "api": "csp_Wogg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
              "jar": "./lib/pg转存.jar",
-            "ext": "./lib/tokenm.json$$$https://wogg.link/$$$null$$$1"
+            "ext": "./pg/lib/wogg.json"
         },
       {  "key": "Wobg1133311",
       "name": "🔥️玩偶白泽🔥",
