@@ -44,7 +44,7 @@
      "type":3,"api":"csp_XBPQ",
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "http://tv.ersanyun.cn/vod/index.html?page={catePg}&type_id={cateId}",
+      "ext":{"分类url": "http://tv.ersanyun.cn/vod/index.html?type_id={cateId}",
 	  
       "分类": "电影$1#连续剧$2#综艺$3#动漫$4#体育$33#短剧$48"}},	
 	  
