@@ -6,8 +6,11 @@
       "key":"豆豆",
       "name":"🔥旺强影视🔥",
      "type": 3,
-     "api": "./drpy2.min.js",
-     "ext": "./drpy.js"
+     "api": "./lib/Api.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "./lib/Doubanrebo.js"
     },
 	
 	{
