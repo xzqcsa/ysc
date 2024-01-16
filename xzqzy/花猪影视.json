@@ -7,10 +7,11 @@
       "key": "豆豆",
       "name": "🔥花猪🔥影视定制版🎈",
       "type": 3,
-      "api": "csp_DouDou",
+       "api": "./lib/Api.js",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0
+      "filterable": 0,
+      "ext": "./lib/Doubanrebo.js"
     },
 	 	
 	{"key":"4K",
