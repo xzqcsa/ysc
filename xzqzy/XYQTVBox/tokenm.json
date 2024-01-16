@@ -1,11 +1,11 @@
 {
 "token":"阿里云盘32位token",
 "open_token":"阿里云盘280位open_token",
-"thread_limit":32,
+"thread_limit":16,
 "is_vip":true,
 "vip_thread_limit":0,
 "vod_flags":"4k|4kz|auto",
-"quark_thread_limit":32,
+"quark_thread_limit":16,
 "quark_is_vip":false,
 "quark_vip_thread_limit":16,
 "quark_flags":"4kz|auto",
