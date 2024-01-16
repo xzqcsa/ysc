@@ -1763,7 +1763,41 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
-
+{
+      "key": "csp_search_Panda_pansearch",
+      "name": "🔍盘搜┃网盘🔍",
+      "type": 3,
+	   "jar":"./lib/PandaQ231205.jar",
+      "api": "csp_Panda",
+      "ext": {
+        "数组": "flex flex-col items-start&&</div></div><div",
+        "标题": "名称：&&描述：",
+        "副标题": "发布时间：&&</p>",
+        "图片": "<img src=\"&&\"",
+        "链接": "href=\"&&\"",
+        "搜索url": "https://www.pansearch.me/search?keyword={wd}&pan=aliyundrive;;kS5",
+        "timeout": 30,
+        "changeable": 0,
+        "阿里token": "1f34013bd2d0471d94e200b730489623"
+      }
+    },
+    {
+      "key": "csp_search_Panda_盘搜",
+      "name": "🔍盘搜┃网盘2🔍",
+      "type": 3,
+      "api": "csp_Panda",
+	  "jar":"./lib/PandaQ231205.jar",
+      "ext": {
+        "标题": "<span*>&&</div>",
+        "副标题": "时间:&&格式",
+        "图片": "thumb=\"&&\"",
+        "链接": "/cv/+href=\"/s/&&\"",
+        "搜索url": "https://www.alipansou.com/search?page={pg}&k={wd}&s=0&t=7;;kS5",
+        "timeout": 30,
+        "changeable": 0,
+        "阿里token": "1f34013bd2d0471d94e200b730489623"
+      }
+    },
 
    
    {
