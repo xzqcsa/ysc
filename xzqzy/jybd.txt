@@ -6,7 +6,7 @@
 江苏卫视,http://61.172.255.69:3333/tsfile/live/0125_1.m3u8
 优漫卡通,http://171.14.89.201:9901/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
 金鹰卡通,http://171.14.89.201:9901/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
-北京卡通,http://171.14.89.201:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0
+
 炫动卡通,http://171.14.89.201:9901/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
 嘉佳卡通,http://171.14.89.201:9901/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
 金鹰卡通,http://121.237.53.178:8888/rtp/239.49.8.33:8000
