@@ -39,7 +39,18 @@
             "ext": "./XYQTVBox/tokenm.json"
         },
 		
-		
+		{"key":"AliShare",
+		"name":"🔥阿里云盘分享🔥",
+		"type":3,"api":
+		"csp_AliShare",
+		"jar": "./lib/pg.jar",
+		"searchable":1,
+		"quickSearch":1,
+		"changeable":1, 
+		"filterable":0, 
+		"timeout":60,
+		"ext":"./XYQTVBox/tokenm.json$$$./XYQTVBox/alishare.txt$$$./XYQTVBox/alishare.db.txt.gz"
+		},
 	  
 			
 		
