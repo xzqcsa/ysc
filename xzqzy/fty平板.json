@@ -1503,7 +1503,7 @@
     },
 	{"key":"YydsVip",
 	"name":"🔍YYDSVIP|网盘🔍",
-	"type":3,"jar": "./lib/pg.jar",
+	"type":3,"jar": "./lib/pg24.10.26.jar",
 	"api":"csp_YydsVip",
 	"quickSearch":1, "changeable":1,
 	"filterable":1, "timeout":30,
@@ -1579,7 +1579,7 @@
 	  "name":"🔍混合盘|网盘🔍",
 	  "type":3,"api":
 	  "csp_HunHePan",
-	  "jar": "./lib/pg.jar",
+	  "jar": "./lib/pg24.10.26.jar",
 	  "timeout":30,
 	  "ext":"./lib/tokenm1.json"},
         
