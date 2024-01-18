@@ -12,11 +12,16 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
-	{"key": "ytvip11",
- "name": "🕵️┃探探┃影视(CJ)",
- "type": 3,"api": "csp_AppYsV2",
- "ext": "http://wvwip.lyyytv.cn/api.php/app/",
- "searchable": 1,"changeable": 1},
+	 {"key":"Ys23",
+	  "name":"🔥影视23🔥",
+	  "type":3,
+	  "api":"csp_Ys23",
+	  "jar": "./lib/pg.jar",
+	  "quickSearch":1,
+	  "changeable":1,
+	  "filterable":1, 
+	  "timeout":30
+	  },
 	 	
 		
 	{"key":"4K",
