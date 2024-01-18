@@ -51,7 +51,30 @@
 		"timeout":60,
 		"ext":"./XYQTVBox/tokenm.json$$$./XYQTVBox/alishare.txt"
 		},
-	  
+	  {"key":"ThunderShare",
+	  "name":"🔥迅雷云盘分享🔥",
+	  "type":3,
+	  "api":"csp_ThunderShare",
+	  "searchable":1,
+	  "jar": "./lib/pg.jar",
+	  "quickSearch":1, 
+	  "changeable":1,
+	  "filterable":0, 
+	  "timeout":60,
+	  "ext":"./XYQTVBox/tokenm.json$$$./XYQTVBox/thundershare.txt"
+	  },
+		{"key":"QuarkShare",
+		"name":"🔥夸克云盘分享🔥",
+		"type":3,
+		"api":"csp_QuarkShare",
+		"searchable":1,
+		"jar": "./lib/pg.jar",
+		"quickSearch":1, 
+		"changeable":1, 
+		"filterable":0, 
+		"timeout":60, 
+		"ext":"./XYQTVBox/tokenm.json$$$./XYQTVBox/quarkshare.txt"
+		},
 			
 		
 	{"key":"4K",
@@ -69,7 +92,16 @@
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.7k789.com/vod-show-area-{area}-id-{cateId}-page-{catePg}-year-{year}.html",
       "分类": "电影$1#剧集$2#综艺$3#动漫$4"}},
-	  
+	  {"key":"Ys23",
+	  "name":"🔥影视23🔥",
+	  "type":3,
+	  "api":"csp_Ys23",
+	  "jar": "./lib/pg.jar",
+	  "quickSearch":1,
+	  "changeable":1,
+	  "filterable":1, 
+	  "timeout":30
+	  },
 	   
 	  
 	   {"key":"阿布",
@@ -819,7 +851,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
-			"jar":"./lib/pg.jar",
+			"jar":"./lib/pg2024.1.17.jar",
             "timeout": 30,
             "ext":"./lib/tokenm.json$$$null$$$1"
         },
