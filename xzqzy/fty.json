@@ -1352,14 +1352,17 @@
       "jar": "./lib/Tong.jar",
       "filterable": 1
     },
-    {"key":"玩偶哥哥",
-   "name":"🔥玩偶哥哥┃4K弹幕",
-   "type":3,"api":"csp_WoGG",
-   "searchable":1,
-   "quickSearch":1,
-    "jar": "./guafty.jar",
-   "changeable":0,
-   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
+   {
+      "key": "玩偶哥哥2221",
+      "name": "👽玩偶哥哥┃4K弹幕",
+      "type": 3,
+      "api": "csp_WoGG",
+	  "jar": "./fty新.jar;md5;28c7950d7b33ba3ee8e2d322882ffa87",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.link/$$$弹"
+    },
    {
       "key": "Wogg",
       "name": "🅱️玩偶哥哥|T追剧",
