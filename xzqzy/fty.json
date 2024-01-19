@@ -297,7 +297,7 @@
      "name":"🔥开心影院🔥",
      "type":3,"api":"csp_XBPQ",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "http://www.ttkx.site:33/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+      "ext":{"分类url": "http://www.ttkx.site:88/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
       "分类": "电影$1#连续剧$2#综艺$3#动漫$4#短剧$5"}},
 	{"key":"AUHGU",
      "name":"🔥AUGUET影院🔥",
@@ -677,7 +677,7 @@
  {"key": "ytvip11",
  "name": "🕵️┃探探┃影视(CJ)",
  "type": 3,"api": "csp_AppYsV2",
- "ext": "http://wvwip.lyyytv.cn/api.php/app/",
+ "ext": "http://vpp.lyyytv.cn/api.php/app/",
  "searchable": 1,"changeable": 1},
  {
             "key": "Wogg1213",
