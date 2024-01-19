@@ -2,18 +2,9 @@
   "spider":"./yydf.jar;md5;f362e434223a9b67903f9fe0c1f98c40",
   "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
   "sites": [
- {
-      "key":"豆豆",
-      "name":"🔥旺强影视🔥",
-     "type": 3,
-     "api": "./lib/Api.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "./lib/Doubanrebo.js"
-    },
+ 
 	{"key":"lf_js_search",
-	"name":"🔥路飞豆瓣🔥",
+	"name":"🔥旺强影视🔥",
 	"type":3,
 	"style":{"type":"rect","ratio":1.485},
 	"searchable":0,
