@@ -1582,6 +1582,7 @@
 		"type": 3, 
 		"api": "csp_Dovx",
 		"searchable": 1, 
+		 "jar": "./lib/pg.jar",
 		"quickSearch": 1, 
 		"filterable": 0,
 		"timeout":30, 

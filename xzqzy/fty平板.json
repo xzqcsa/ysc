@@ -1545,6 +1545,7 @@
 		"name": "🔍阿里|Dovx🔍",
 		"type": 3, 
 		"api": "csp_Dovx",
+		 "jar": "./lib/pg.jar",
 		"searchable": 1, 
 		"quickSearch": 1, 
 		"filterable": 0,
