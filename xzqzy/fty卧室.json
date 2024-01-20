@@ -1577,6 +1577,15 @@
 		"filterable":1, "timeout":30, 
 		"ext":"./lib/tokenm2.json"
 		},
+		{"key":"Dovx",
+		"name": "🔍阿里|Dovx🔍",
+		"type": 3, 
+		"api": "csp_Dovx",
+		"searchable": 1, 
+		"quickSearch": 1, 
+		"filterable": 0,
+		"timeout":30, 
+		"ext":"./lib/tokenm2.json" },
 	 
       {"key":"混合盘",
 	  "name":"🔍混合盘|网盘🔍",

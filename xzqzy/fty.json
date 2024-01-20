@@ -43,7 +43,7 @@
 		"name":"🔥阿里云盘分享🔥",
 		"type":3,
 		"api":"csp_AliShare",
-		"jar": "./lib/pg24.10.26.jar",
+		"jar": "./lib/pg.jar",
 		"searchable":1,
 		"quickSearch":1,
 		"changeable":1, 
@@ -1586,7 +1586,15 @@
 	  "timeout":30,
 	  "ext":"./lib/tokenm.json"},
         
-      
+      {"key":"Dovx",
+		"name": "🔍阿里|Dovx🔍",
+		"type": 3, 
+		"api": "csp_Dovx",
+		"searchable": 1, 
+		"quickSearch": 1, 
+		"filterable": 0,
+		"timeout":30, 
+		"ext":"./lib/tokenm.json" },
         {
             "key": "QuarkPanso",
             "name": "🔍夸克盘搜|夸克🔍",
