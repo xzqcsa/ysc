@@ -76,7 +76,17 @@
 		"timeout":60, 
 		"ext":"./XYQTVBox/tokenm.json$$$./XYQTVBox/quarkshare.txt"
 		},
-			
+		{
+            "key": "赞赞",
+            "name": "🔥赞赞切片🔥",
+            "type": 3,
+            "jar": "./lib/赞赞.jar",
+            "api": "csp_AppYsV2",
+            "ext": "http://111.230.51.151:9696//api.php/app/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },			
 		
 	{"key":"4K",
      "name":"🔥4K4K影视🔥",
@@ -852,7 +862,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
-			"jar":"./lib/pg2024.1.17.jar",
+			"jar":"./lib/pg.jar",
             "timeout": 30,
             "ext":"./lib/tokenm.json$$$null$$$1"
         },
