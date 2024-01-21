@@ -1567,7 +1567,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 30,
-            "ext": "./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$QianFanID=kgjsg4ar5l6y4dskslnmx9v4sx702n5o; _ga_6Z94VT54DV=GS1.1.1705034177.4.1.1705034219.0.0.0"
+            "ext": "./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$QianFanID=6wspzv9m1cslqxo4k5bschig2nyu3vja; _ga_6Z94VT54DV=GS1.1.1705804566.1.1.1705805316.0.0.0"
         },
 		{"key":"YunPanOne",
 		"name":"🔍云盘资源|网盘🔍",
@@ -1585,6 +1585,13 @@
 	  "jar": "./lib/pg24.10.26.jar",
 	  "timeout":30,
 	  "ext":"./lib/tokenm.json"},
+	  {"key":"88Pan",
+	"name":"🔍88网盘|网盘🔍",
+	"type":3,
+	 "jar": "./lib/pg.jar",
+	"api":"csp_EightEight",
+	"timeout":30, 
+	"ext":"./lib/tokenm.json$$$https://662688.xyz"},
         
       {"key":"Dovx",
 		"name": "🔍阿里|Dovx🔍",
