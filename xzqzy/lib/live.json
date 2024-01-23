@@ -1,9 +1,26 @@
 [
-{"name":"YanG","url":"https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u"},
-{"name":"范明明","url":"https://ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u"},
-{"name":"YueChan","url":"https://ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u"},
-{"name":"Yoursmile","url":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt"},
-{"name":"饭太硬","url":"https://agit.ai/fantaiying/0/raw/branch/main/tvlive.txt"},
-{"name":"Ray","url":"https://xhdwc.tk/tvlive.txt"},
-{"name":"俊于","url":"http://home.jundie.top:81/Cat/tv/live.txt"}
+    {
+        "name": "电视直播IPV6",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u"
+    },
+    {
+        "name": "电视直播一",
+        "url": "http://yydf.540734621.xyz/vx/zb/chunying.txt"
+    },
+    {
+        "name": "电视直播二",
+        "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt"
+    },
+    {
+        "name": "电视直播三",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV.m3u"
+    },
+    {
+        "name": "电视直播IPTV4",
+        "url": "http://yydf.540734621.xyz/vx/zb/zb2.txt"
+    },
+    {
+        "name": "电台之声",
+        "url": "http://yydf.540734621.xyz/vx/zb/Radio.txt"
+    }
 ]
