@@ -46,7 +46,7 @@
       "jar": "./lib/yydfzb.jar",
       "api": "csp_yydflive",
       "searchable": 0,
-      "ext": "央卫视-1IPV4$./zb/yydflive.txt#央卫视-2IPV4$./zb/zb.txt#央卫视IPV6$./zb/ipv6.m3u"
+      "ext": "央卫视-1IPV4$./lib/yydflive.txt"
     },
     {
       "key": "csp_yydflive-2",
