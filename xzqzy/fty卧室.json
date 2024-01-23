@@ -39,11 +39,39 @@
             "ext": "./XYQTVBox/tokenm2.json"
         },
 		
+		 {
+      "key": "csp_yydflive-2",
+      "name": "🔥电视电台🔥",
+      "type": 3,
+      "jar": "./lib/yydfzb.jar",
+      "api": "csp_yydflive",
+      "searchable": 0,
+      "ext": "./lib/live.json"
+    },
+	 {
+      "key": "XAL蓝光",
+      "name": "🔥|蓝光🔥",
+      "type": 1,
+      "api": "http://vipcom.xn--654a.cc/api.php/provide/vod/",
+      "playUrl": "json:http://json.xn--654a.cc/home/api?type=ys&uid=1323246&key=dfiopqzEHJKNOPSTY5&url=",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "风",
+      "name": "🔥️|业余520🔥",
+      "type": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "https://ys.zf520.cn/api.php/provide/vod/"
+    },
+		
 		{"key":"AliShare",
 		"name":"🔥阿里云盘分享🔥",
 		"type":3,
 		"api":"csp_AliShare",
-		"jar": "./lib/pg24.10.26.jar",
+		"jar": "./lib/pg2024.1.21.jar",
 		"searchable":1,
 		"quickSearch":1,
 		"changeable":1, 
@@ -3035,6 +3063,34 @@
             "type": 3,
             "url": "Web"
         },
+		{
+      "name": "专解1",
+      "type": 1,
+      "url": "https://api.qljson.xyz/api/?key=d6f721dc584c894f4161e3b942a0727a&url="},
+	   {
+      "name": "专解2",
+      "type": 1,
+      "url": "https://api.qljson.xyz/api/?key=d6f721dc584c894f4161e3b942a0727a&url="},
+	  {
+      "name": "专解3",
+      "type": 1,
+      "url": "https://json..url88k.cn/api/?format=zl&key=ce252c4a116ff2613202e17e2269c2fb&url="},
+	  {
+      "name": "专解4",
+      "type": 1,
+      "url": "https://mg.zrjx.xyz/?url="},
+	   {
+      "name": "线路1",
+      "type": 0,
+      "url": "https://www.yemu.xyz/?url="},
+	  {
+      "name": "线路2",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="},
+	   {
+      "name": "线路3",
+      "type": 0,
+      "url": "https://jx.quankan.app/?url="},
 		
 		{"name":"PM（除优酷）","url":"https://www.playm3u8.cn/jiexi.php?url=","type":0},
 		

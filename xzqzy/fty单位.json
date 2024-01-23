@@ -38,16 +38,7 @@
             "timeout": 30,
             "ext": "./XYQTVBox/tokenm3.json"
         },
-		 {
-      "key": "csp_yydflive-1",
-      "name": "🔥电视直播🔥",
-      "type": 3,
-      "playerType": 1,
-      "jar": "./lib/yydfzb.jar",
-      "api": "csp_yydflive",
-      "searchable": 0,
-      "ext": "央卫视-1IPV4$./lib/yydflive.txt"
-    },
+		 
     {
       "key": "csp_yydflive-2",
       "name": "🔥电视电台🔥",
