@@ -48,6 +48,16 @@
       "searchable": 0,
       "ext": "./lib/live.json"
     },
+	{
+      "key": "十一",
+      "name": "🔥发财🔥",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "ext": "http://xiutan.shiyifacai.com/zuoan/api.php/app/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
 	 {
       "key": "XAL蓝光",
       "name": "🔥|蓝光🔥",
@@ -3079,6 +3089,22 @@
             "type": 3,
             "url": "Web"
         },
+		{
+      "name": "发财🌾",
+      "type": 1,
+      "url": "http://xiutan.shiyifacai.com/json/qingfeng.php?url="},
+	   {
+      "name": "发运",
+      "type": 1,
+      "url": "http://122.228.84.103:7777/api/?key=EauMlPIBC3spoYGaOB&url="},
+	   {
+      "name": "发福",
+      "type": 1,
+      "url": "http://121.62.61.51:6888/api/?key=qy9VEMeeqwl3nI4gvA&url="},
+	   {
+      "name": "发体",
+      "type": 1,
+      "url": "http://122.228.84.103:5829/jx/?url="},
 		{
       "name": "专解1",
       "type": 1,
