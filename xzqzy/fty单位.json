@@ -3098,10 +3098,14 @@
             "type": 3,
             "url": "Web"
         },
-		{
+		  {
       "name": "发财🌾",
       "type": 1,
-      "url": "http://xiutan.shiyifacai.com/json/qingfeng.php?url="},
+      "url": "http://xiutan.shiyifacai.com/json/qingfeng.php?url=",
+      "ext": {
+        "flag": [
+          "seven"
+        ],
 	   {
       "name": "发运",
       "type": 1,
