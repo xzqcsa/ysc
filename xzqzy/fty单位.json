@@ -49,6 +49,16 @@
       "ext": "./lib/live.json"
     },
 	 {
+      "key": "十一",
+      "name": "🔥发财🔥",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "ext": "http://xiutan.shiyifacai.com/zuoan/api.php/app/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+	 {
       "key": "XAL蓝光",
       "name": "🔥|蓝光🔥",
       "type": 1,

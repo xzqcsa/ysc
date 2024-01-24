@@ -1,9 +1,5 @@
 [
     {
-        "name": "电视直播IPV6",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u"
-    },
-    {
         "name": "电视直播一",
         "url": "http://yydf.540734621.xyz/vx/zb/chunying.txt"
     },
@@ -18,6 +14,14 @@
     {
         "name": "电视直播IPTV4",
         "url": "http://yydf.540734621.xyz/vx/zb/zb2.txt"
+    },
+    {
+        "name": "电视直播IPV6",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u"
+    },
+    {
+        "name": "MTV三万九",
+        "url": "http://yydf.540734621.xyz/vx/zb/mv.txt"
     },
     {
         "name": "电台之声",
