@@ -12,6 +12,10 @@
         "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV.m3u"
     },
     {
+        "name": "8M直播",
+        "url": "http://yydf.540734621.xyz/vx/zb/8mzb.txt"
+    },
+    {
         "name": "电视直播IPTV4",
         "url": "http://yydf.540734621.xyz/vx/zb/zb2.txt"
     },
