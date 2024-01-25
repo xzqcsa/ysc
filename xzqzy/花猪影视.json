@@ -12,14 +12,6 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
-    }, {
-      "key": "csp_yydflive-2",
-      "name": "🔥电视电台🔥",
-      "type": 3,
-      "jar": "./lib/yydfzb.jar",
-      "api": "csp_yydflive",
-      "searchable": 0,
-      "ext": "./lib/live.json"
     },
 	{
       "key": "十一",
