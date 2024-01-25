@@ -39,15 +39,7 @@
             "ext": "./XYQTVBox/tokenm.json"
         },
 		
-		 {
-      "key": "csp_yydflive-2",
-      "name": "🔥电视电台🔥",
-      "type": 3,
-      "jar": "./lib/yydfzb.jar",
-      "api": "csp_yydflive",
-      "searchable": 0,
-      "ext": "./lib/live.json"
-    },
+		
 	{
       "key": "十一",
       "name": "🔥发财🔥",
@@ -82,6 +74,7 @@
 		"type":3,
 		"api":"csp_AliShare",
 		"jar": "./lib/pg.jar",
+		"style":{"type":"list"},
 		"searchable":1,
 		"quickSearch":1,
 		"changeable":1, 
@@ -95,6 +88,7 @@
 	  "api":"csp_ThunderShare",
 	  "searchable":1,
 	  "jar": "./lib/pg.jar",
+	  "style":{"type":"list"},
 	  "quickSearch":1, 
 	  "changeable":1,
 	  "filterable":0, 
