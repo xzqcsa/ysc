@@ -14,6 +14,16 @@
       "ext": "./lib/Doubanrebo.js"
     },
 	{
+       "key": "地瓜",
+       "name": "🔥地瓜🔥",
+       "type": 3,
+       "api": "csp_AppYsV2",
+       "searchable": 1,
+       "quickSearch": 1,
+       "filterable": 1,
+       "ext": "https://www.qiqiguai.cn/api.php/app/"
+     },
+	{
       "key": "十一",
       "name": "🔥发财🔥",
       "type": 3,
