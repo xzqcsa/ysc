@@ -2181,34 +2181,11 @@
         }
       }
     },
-		{
-      "name": "专解1",
-      "type": 1,
-      "url": "https://api.qljson.xyz/api/?key=d6f721dc584c894f4161e3b942a0727a&url="},
-	   {
-      "name": "专解2",
-      "type": 1,
-      "url": "https://api.qljson.xyz/api/?key=d6f721dc584c894f4161e3b942a0727a&url="},
+		
 	  {
-      "name": "专解3",
+      "name": "新街1",
       "type": 1,
-      "url": "https://json..url88k.cn/api/?format=zl&key=ce252c4a116ff2613202e17e2269c2fb&url="},
-	  {
-      "name": "专解4",
-      "type": 1,
-      "url": "https://mg.zrjx.xyz/?url="},
-	   {
-      "name": "线路1",
-      "type": 0,
-      "url": "https://www.yemu.xyz/?url="},
-	  {
-      "name": "线路2",
-      "type": 0,
-      "url": "https://jx.xmflv.com/?url="},
-	   {
-      "name": "线路3",
-      "type": 0,
-      "url": "https://jx.quankan.app/?url="},
+      "url": "http://175.178.27.186:75/aikuwudiwenjianjia/LXJSON/?key=5&url="},
 		{"name":"PM（除优酷）","url":"https://www.playm3u8.cn/jiexi.php?url=","type":0},
 		
 		{"name":"m3u8（除优酷）","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
