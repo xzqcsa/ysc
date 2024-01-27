@@ -570,14 +570,7 @@
 		"filterable":1,
 		"ext":"http://yingszj.xn--654a.cc/api.php/app/"
 		},
-		 {"key":"玩哥哥",
-   "name":"🔥玩我哥哥┃4K弹幕",
-   "type":3,"api":"csp_WoGG",
-   "searchable":1,
-   "quickSearch":1,
-    "jar": "./fty新.jar;md5;5543dae038ce2248e7759e9cbca295b9",
-   "changeable":0,
-   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://2026.ttkx.site:99"},
+		
 		{"key": "玩我哥哥11",
 		"name":"🔥玩我|哥哥🔥",
 		"type":3,
@@ -596,29 +589,8 @@
 		"filterable":1, 
 		"timeout":30, 
 		"ext":"./lib/tokenm1.json$$$https://wogg.link$$$null$$$1$$$./pg/lib/wogg.json"},
-      {
-            "key":"Wogg111",
-            "name":"🔥玩偶哥哥|阿里🔥",
-            "type": 3,
-            "api": "csp_Wogg",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
+      
     
-             "jar": "./lib/pg.jar",
-            "ext": "./lib/tokenm1.json$$$https://wogg.link/$$$null$$$1"
-        },
-      {  "key": "Wobg1133311",
-      "name": "🔥️玩偶白泽🔥",
-      "type": 3,
-       "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-       "jar": "./lib/pg.jar",
-      "api": "csp_Wobg",
-      "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$http://www.214728327.xyz:56708/"
-    },
 
 {"key":"348K",
      "name":"🔥348影视🔥",
