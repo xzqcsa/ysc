@@ -577,7 +577,7 @@
    "quickSearch":1,
     "jar": "./fty新.jar;md5;5543dae038ce2248e7759e9cbca295b9",
    "changeable":0,
-   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$./lib/玩我哥哥.json"},
+   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://2026.ttkx.site:99"},
 		{"key": "玩我哥哥11",
 		"name":"🔥玩我|哥哥🔥",
 		"type":3,
@@ -595,7 +595,7 @@
 		"changeable":1,
 		"filterable":1, 
 		"timeout":30, 
-		"ext":"./lib/tokenm1.json$$$https://wogg.link/|104.16.245.50$$$null$$$1$$$./pg/lib/wogg.json"},
+		"ext":"./lib/tokenm1.json$$$https://wogg.link$$$null$$$1$$$./pg/lib/wogg.json"},
       {
             "key":"Wogg111",
             "name":"🔥玩偶哥哥|阿里🔥",
