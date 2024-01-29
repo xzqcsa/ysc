@@ -39,13 +39,7 @@
             "ext": "./XYQTVBox/tokenm.json"
         },
 		
-	{"key":"天堂",
-     "name":"🔥天堂影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.ttyy9.tv/v/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
-      "分类": "电影$film#连续剧$tvshow#综艺$zongyi#动漫$dongman"}},	
+	
 	
 	{
       "key": "十一",
@@ -115,17 +109,7 @@
 		"timeout":60, 
 		"ext":"./XYQTVBox/tokenm.json$$$./XYQTVBox/quarkshare.txt"
 		},
-		{
-            "key": "赞赞",
-            "name": "🔥赞赞切片🔥",
-            "type": 3,
-            "jar": "./lib/赞赞.jar",
-            "api": "csp_AppYsV2",
-            "ext": "http://111.230.51.151:9696//api.php/app/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0
-        },			
+		
 		
 	{"key":"4K",
      "name":"🔥4K4K影视🔥",
