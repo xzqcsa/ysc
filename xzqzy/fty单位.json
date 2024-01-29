@@ -44,7 +44,7 @@
      "type":3,"api":"csp_XBPQ",
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.ttyy9.tv/v/film/area/{area}/page/{catePg}/year/{year}.html",
+      "ext":{"分类url": "https://www.ttyy9.tv/v/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
       "分类": "电影$film#连续剧$tvshow#综艺$zongyi#动漫$dongman"}},	
 	
 	{
