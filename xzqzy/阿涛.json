@@ -12,6 +12,33 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
+	
+	{"key":"AliShare",
+		"name":"🔥阿里云盘分享🔥",
+		"type":3,
+		"api":"csp_AliShare",
+		"jar": "./lib/pg.jar",
+		"searchable":1,
+		"style":{"type":"list"},
+		"quickSearch":1,
+		"changeable":1, 
+		"filterable":0, 
+		"timeout":60,
+		"ext":"./XYQTVBox/阿涛tokenm.json$$$./XYQTVBox/alishare.txt"
+		},
+		{"key":"QuarkShare",
+		"name":"🔥夸克云盘分享🔥",
+		"type":3,
+		"api":"csp_QuarkShare",
+		"searchable":1,
+		"style":{"type":"list"},
+		"jar": "./lib/pg.jar",
+		"quickSearch":1, 
+		"changeable":1, 
+		"filterable":0, 
+		"timeout":60, 
+		"ext":"./XYQTVBox/阿涛tokenm.json$$$./XYQTVBox/quarkshare.txt"
+		},
 	{
             "key": "网盘配置",
             "name": "🔥网盘及彈幕配置🔥",
