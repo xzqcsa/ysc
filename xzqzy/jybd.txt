@@ -194,7 +194,7 @@ CCTV4,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/322122619
 CCTV4,http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226191/index.m3u8
 CCTV4,http://180.101.226.42:9901/tsfile/live/0004_1.m3u8?key=txiptv
 CCTV4,http://42.176.154.142:9901/tsfile/live/1158_1.m3u8?key=txiptv
-CCTV4,https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
+CCTV4,https://global.cgtn.cicc.media.caton.cloud/master/cgtnamerica.m3u8
 CCTV5,http://180.158.145.181:9901/tsfile/live/0005_1.m3u8?key=txiptv
 CCTV5,http://221.233.192.152:9901/tsfile/live/0005_1.m3u8?key=txiptv
 CCTV5,http://220.180.229.250:9901/tsfile/live/0005_1.m3u8?key=txiptv
@@ -289,7 +289,53 @@ CCTV17,http://111.225.95.124:9901/tsfile/live/0017_1.m3u8?key=txiptv
 CCTV17,http://61.178.227.57:9901/tsfile/live/0142_1.m3u8?key=txiptv
 CCTV17,http://42.176.154.142:9901/tsfile/live/1164_1.m3u8?key=txiptv
 
- CCTV1,http://tljdh.vip:9901/tsfile/live/0001_1.m3u8
+
+CCTV1,http://58.252.12.164:8000/udp/239.77.1.17:5146
+CCTV1,http://58.252.12.164:8000/udp/239.77.1.144:5146
+CCTV1,http://58.252.12.164:8000/udp/239.77.0.86:5146
+CCTV1,http://58.252.12.164:8000/udp/239.77.0.129:5146
+CCTV2,http://58.252.12.164:8000/udp/239.77.1.158:5146
+CCTV2,http://58.252.12.164:8000/udp/239.253.43.17:5146
+CCTV2,http://58.252.12.164:8000/udp/239.77.0.137:5146
+CCTV3,http://58.252.12.164:8000/udp/239.77.0.169:5146
+CCTV3,http://58.252.12.164:8000/udp/239.77.0.175:5146
+CCTV4,http://58.252.12.164:8000/udp/239.77.1.163:5146
+CCTV4,http://58.252.12.164:8000/udp/239.77.1.166:5146
+CCTV4,http://58.252.12.164:8000/udp/239.77.0.78:5146
+CCTV5,http://58.252.12.164:8000/udp/239.77.0.170:5146
+CCTV5,http://58.252.12.164:8000/udp/239.77.0.177:5146
+CCTV5+,http://58.252.12.164:8000/udp/239.77.0.87:5146
+CCTV5+,http://58.252.12.164:8000/udp/239.77.1.31:5146
+CCTV5+,http://58.252.12.164:8000/udp/239.77.1.147:5146
+CCTV6,http://58.252.12.164:8000/udp/239.77.0.171:5146
+CCTV6,http://58.252.12.164:8000/udp/239.77.0.178:5146
+CCTV7,http://58.252.12.164:8000/udp/239.77.1.159:5146
+CCTV7 ,http://58.252.12.164:8000/udp/239.77.1.167:5146
+CCTV7,http://58.252.12.164:8000/udp/239.77.0.138:5146
+CCTV8,http://58.252.12.164:8000/udp/239.77.0.172:5146
+CCTV8,http://58.252.12.164:8000/udp/239.77.0.181:5146
+CCTV9,http://58.252.12.164:8000/udp/239.77.1.160:5146
+CCTV9,http://58.252.12.164:8000/udp/239.77.1.168:5146
+CCTV9测试,http://58.252.12.164:8000/udp/239.77.0.135:5146
+CCTV10,http://58.252.12.164:8000/udp/239.77.1.113:5146
+CCTV10,http://58.252.12.164:8000/udp/239.77.1.169:5146
+CCTV10,http://58.252.12.164:8000/udp/239.77.0.134:5146
+CCTV11,http://58.252.12.164:8000/udp/239.77.1.238:5146
+CCTV12,http://58.252.12.164:8000/udp/239.77.1.109:5146
+CCTV12,http://58.252.12.164:8000/udp/239.77.1.170:5146
+CCTV12,http://58.252.12.164:8000/udp/239.77.0.136:5146
+CCTV13,http://58.252.12.164:8000/udp/239.77.0.188:5146
+CCTV13,http://58.252.12.164:8000/udp/239.253.43.196:5146
+CCTV14,http://58.252.12.164:8000/udp/239.77.1.161:5146
+CCTV14,http://58.252.12.164:8000/udp/239.77.1.171:5146
+CCTV14,http://58.252.12.164:8000/udp/239.77.0.133:5146
+CCTV15,http://58.252.12.164:8000/udp/239.77.1.239:5146
+CCTV16,http://58.252.12.164:8000/udp/239.77.0.165:5146
+CCTV16,http://58.252.12.164:8000/udp/239.77.1.76:5146
+CCTV16 4K,http://58.252.12.164:8000/udp/239.77.1.98:5146
+CCTV17,http://58.252.12.164:8000/udp/239.77.1.121:5146
+CCTV17农业,http://58.252.12.164:8000/udp/239.77.0.198:5146
+CCTV1,http://tljdh.vip:9901/tsfile/live/0001_1.m3u8
 
 CCTV2,http://tljdh.vip:9901/tsfile/live/0002_1.m3u8
 
@@ -333,7 +379,7 @@ CCTV16,http://tljdh.vip:9901/tsfile/live/1003_1.m3u8
 
 CCTV17,http://tljdh.vip:9901/tsfile/live/0019_1.m3u8
 
-CCTV-news,http://tljdh.vip:9901/tsfile/live/1005_1.m3u8
+CCTVnews,http://tljdh.vip:9901/tsfile/live/1005_1.m3u8
 
 CCTV3P,http://tljdh.vip:9901/tsfile/live/1006_1.m3u8
 
@@ -530,6 +576,97 @@ CETV2,http://121.229.199.2:9000/rtp/239.49.0.71:8560
 江苏新闻,http://121.229.199.2:9000/rtp/239.49.8.120:8000
    
 江苏新闻,http://222.95.178.81:58888/rtp/239.49.8.120:8000
+湖南卫视 (CAVS),http://58.252.12.164:8000/udp/239.77.1.129:5146
+湖南卫视,http://58.252.12.164:8000/udp/239.77.0.88:5146
+湖南卫视,http://58.252.12.164:8000/udp/239.77.0.127:5146
+浙江卫视,http://58.252.12.164:8000/udp/239.77.1.33:5146
+浙江卫视 (CAVS),http://58.252.12.164:8000/udp/239.77.1.150:5146
+浙江卫视,http://58.252.12.164:8000/udp/239.77.0.89:5146
+浙江卫视 (CAVS),http://58.252.12.164:8000/udp/239.77.0.125:5146
+江苏卫视,http://58.252.12.164:8000/udp/239.77.1.18:5146
+江苏卫视 (CAVS),http://58.252.12.164:8000/udp/239.77.1.149:5146
+江苏卫视,http://58.252.12.164:8000/udp/239.77.0.90:5146
+江苏卫视 (CAVS),http://58.252.12.164:8000/udp/239.77.0.126:5146
+东方卫视,http://58.252.12.164:8000/udp/239.77.1.218:5146
+东方卫视 (CAVS),http://58.252.12.164:8000/udp/239.77.1.156:5146
+东方卫视,http://58.252.12.164:8000/udp/239.77.0.98:5146
+安徽卫视,http://58.252.12.164:8000/udp/239.77.1.92:5146
+安徽卫视 (CAVS),http://58.252.12.164:8000/udp/239.77.1.157:5146
+安徽卫视,http://58.252.12.164:8000/udp/239.77.0.183:5146
+北京卫视,http://58.252.12.164:8000/udp/239.77.1.4:5146
+北京卫视,http://58.252.12.164:8000/udp/239.77.1.151:5146
+北京卫视,http://58.252.12.164:8000/udp/239.77.0.91:5146
+天津卫视,http://58.252.12.164:8000/udp/239.77.1.141:5146
+天津卫视,http://58.252.12.164:8000/udp/239.77.1.182:5146
+天津卫视,http://58.252.12.164:8000/udp/239.77.0.97:5146
+天津卫视,http://58.252.12.164:8000/udp/239.77.0.131:5146
+山东卫视,http://58.252.12.164:8000/udp/239.77.1.142:5146
+山东卫视 (CAVS),http://58.252.12.164:8000/udp/239.77.1.153:5146
+山东卫视,http://58.252.12.164:8000/udp/239.77.0.94:5146
+山东卫视 (CAVS),http://58.252.12.164:8000/udp/239.77.0.132:5146
+江西卫视,http://58.252.12.164:8000/udp/239.77.1.219:5146
+江西卫视,http://58.252.12.164:8000/udp/239.77.0.149:5146
+湖北卫视,http://58.252.12.164:8000/udp/239.77.1.93:5146
+湖北卫视,http://58.252.12.164:8000/udp/239.77.1.174:5146
+湖北卫视,http://58.252.12.164:8000/udp/239.77.0.95:5146
+湖北卫视,http://58.252.12.164:8000/udp/239.77.0.128:5146
+辽宁卫视,http://58.252.12.164:8000/udp/239.77.1.103:5146
+辽宁卫视 ,http://58.252.12.164:8000/udp/239.77.0.123:5146
+辽宁卫视 (CAVS),http://58.252.12.164:8000/udp/239.77.0.161:5146
+黑龙江卫视,http://58.252.12.164:8000/udp/239.77.1.6:5146
+黑龙江卫视,http://58.252.12.164:8000/udp/239.77.1.179:5146
+黑龙江卫视,http://58.252.12.164:8000/udp/239.77.0.93:5146
+黑龙江卫视,http://58.252.12.164:8000/udp/239.77.0.124:5146
+贵州卫视,http://58.252.12.164:8000/udp/239.77.1.221:5146
+贵州卫视,http://58.252.12.164:8000/udp/239.77.0.230:5146
+四川卫视,http://58.252.12.164:8000/udp/239.77.1.215:5146
+四川卫视,http://58.252.12.164:8000/udp/239.77.0.159:5146
+四川卫视 (CAVS),http://58.252.12.164:8000/udp/239.77.0.163:5146
+河南卫视,http://58.252.12.164:8000/udp/239.77.1.229:5146
+河南卫视,http://58.252.12.164:8000/udp/239.77.0.17:5146
+云南卫视,http://58.252.12.164:8000/udp/239.253.43.37:5146
+云南卫视,http://58.252.12.164:8000/udp/239.253.43.100:5146
+重庆卫视,http://58.252.12.164:8000/udp/239.77.1.162:5146
+重庆卫视 (CAVS),http://58.252.12.164:8000/udp/239.77.1.210:5146
+重庆卫视,http://58.252.12.164:8000/udp/239.77.0.182:5146
+河北卫视,http://58.252.12.164:8000/udp/239.77.1.214:5146
+河北卫视,http://58.252.12.164:8000/udp/239.77.0.148:5146
+东南卫视,http://58.252.12.164:8000/udp/239.77.1.104:5146
+福建东南卫视,http://58.252.12.164:8000/udp/239.77.0.146:5146
+广西卫视,http://58.252.12.164:8000/udp/239.253.43.36:5146
+广西卫视,http://58.252.12.164:8000/udp/239.77.0.139:5146
+吉林卫视,http://58.252.12.164:8000/udp/239.77.1.111:5146
+吉林卫视,http://58.252.12.164:8000/udp/239.77.0.150:5146
+陕西卫视,http://58.252.12.164:8000/udp/239.77.0.68:5146
+陕西卫视,http://58.252.12.164:8000/udp/239.77.1.54:5146
+山西卫视,http://58.252.12.164:8000/udp/239.77.0.69:5146
+山西卫视,http://58.252.12.164:8000/udp/239.77.1.74:5146
+内蒙古卫视,http://58.252.12.164:8000/udp/239.77.0.70:5146
+内蒙古卫视,http://58.252.12.164:8000/udp/239.77.1.55:5146
+青海卫视,http://58.252.12.164:8000/udp/239.77.0.71:5146
+青海卫视,http://58.252.12.164:8000/udp/239.77.1.70:5146
+海南卫视,http://58.252.12.164:8000/udp/239.253.43.35:5146
+海南卫视,http://58.252.12.164:8000/udp/239.253.43.101:5146
+宁夏卫视,http://58.252.12.164:8000/udp/239.77.0.73:5146
+宁夏卫视,http://58.252.12.164:8000/udp/239.77.1.47:5146
+西藏卫视,http://58.252.12.164:8000/udp/239.77.0.74:5146
+西藏卫视,http://58.252.12.164:8000/udp/239.77.1.49:5146
+新疆卫视,http://58.252.12.164:8000/udp/239.77.0.75:5146
+新疆卫视,http://58.252.12.164:8000/udp/239.77.1.53:5146
+甘肃卫视,http://58.252.12.164:8000/udp/239.77.0.189:5146
+兵团卫视,http://58.252.12.164:8000/udp/239.77.0.77:5146
+兵团卫视,http://58.252.12.164:8000/udp/239.77.1.80:5146
+厦门卫视,http://58.252.12.164:8000/udp/239.77.0.96:5146
+三沙卫视,http://58.252.12.164:8000/udp/239.253.43.113:5146
+卡酷少儿,http://58.252.12.164:8000/udp/239.77.0.79:5146
+卡酷少儿,http://58.252.12.164:8000/udp/239.77.1.50:5146
+金鹰卡通,http://58.252.12.164:8000/udp/239.77.0.80:5146
+金鹰卡通,http://58.252.12.164:8000/udp/239.77.1.52:5146
+金鹰卡通,http://58.252.12.164:8000/udp/239.77.0.164:5146
+哈哈炫动,http://58.252.12.164:8000/udp/239.77.0.81:5146
+哈哈炫动,http://58.252.12.164:8000/udp/239.77.1.139:5146
+优漫卡通,http://58.252.12.164:8000/udp/239.77.0.222:5146
+优漫卡通,http://58.252.12.164:8000/udp/239.77.1.79:5146
 五星体育, http://61.172.255.69:3333/tsfile/live/0127_1.m3u8
 东方卫视, http://61.172.255.69:3333/tsfile/live/0128_1.m3u8
 湖南卫视, http://61.172.255.69:3333/tsfile/live/0107_1.m3u8
@@ -546,12 +683,12 @@ CCTV16,http://171.14.89.201:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&a
 重庆卫视,http://171.14.89.201:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 山东卫视,http://171.14.89.201:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
 贵州卫视,http://171.14.89.201:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
-安徽卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_ANHUI-HD-265-8M/G_ANHUI-HD-265-8M.m3u8
-北京卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_BEIJING-HD-265-8M/G_BEIJING-HD-265-8M.m3u8
-东方卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_DONGFANG-HD-265-8M/G_DONGFANG-HD-265-8M.m3u8
-东南卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_DONGNAN-HQ/G_DONGNAN-HQ.m3u8
-广东卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_GUANGDONG-HD-265-8M/G_GUANGDONG-HD-265-8M.m3u8
-广西卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/GXWS/GXWS.m3u8
+安徽卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_ANHUIHD2658M/G_ANHUIHD2658M.m3u8
+北京卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_BEIJINGHD2658M/G_BEIJINGHD2658M.m3u8
+东方卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_DONGFANGHD2658M/G_DONGFANGHD2658M.m3u8
+东南卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_DONGNANHQ/G_DONGNANHQ.m3u8
+广东卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_GUANGDONGHD2658M/G_GUANGDONGHD2658M.m3u8
+广西卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/GXWS/GXWS.m3u8
 湖南卫视,http://223.10.20.234:8085/udp/239.1.1.28:8028
 四川卫视,http://223.10.20.234:8085/udp/239.1.1.29:8029
 吉林卫视,http://223.10.20.234:8085/udp/239.1.1.30:8030
@@ -589,13 +726,13 @@ CCTV16,http://171.14.89.201:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&a
 卡酷少儿,http://223.10.20.234:8085/udp/239.1.1.62:8062
 金鹰纪实,http://223.10.20.234:8085/udp/239.1.1.63:8063
 哈哈炫动,http://223.10.20.234:8085/udp/239.1.1.64:8064
-贵州卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_GUIZHOU-CQ/G_GUIZHOU-CQ.m3u8
-海南卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/LYWS/LYWS.m3u8
-河南卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_HENAN-CQ/G_HENAN-CQ.m3u8
-黑龙江视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_HEILONGJIANG-HD-265-8M/G_HEILONGJIANG-HD-265-8M.m3u8
-湖北卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_HUBEI-HD-265-8M/G_HUBEI-HD-265-8M.m3u8
-湖南卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_HUNAN-CQ/G_HUNAN-CQ.m3u8
-吉林卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_JILIN-CQ/G_JILIN-CQ.m3u8
+贵州卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_GUIZHOUCQ/G_GUIZHOUCQ.m3u8
+海南卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/LYWS/LYWS.m3u8
+河南卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_HENANCQ/G_HENANCQ.m3u8
+黑龙江视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_HEILONGJIANGHD2658M/G_HEILONGJIANGHD2658M.m3u8
+湖北卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_HUBEIHD2658M/G_HUBEIHD2658M.m3u8
+湖南卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_HUNANCQ/G_HUNANCQ.m3u8
+吉林卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_JILINCQ/G_JILINCQ.m3u8
 河南新闻,http://222.89.107.42:9876/tsfile/live/0139_1.m3u8
 河南卫视,http://222.89.107.42:9876/tsfile/live/0128_1.m3u8
 江苏卫视,http://222.89.107.42:9876/tsfile/live/0127_1.m3u8
@@ -739,39 +876,39 @@ CCTV16,http://171.14.89.201:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&a
 生活卫视,http://124.115.205.101:8888/newlive/live/hls/47/live.m3u8
 影院卫视,http://124.115.205.101:8888/newlive/live/hls/48/live.m3u8
 公共卫视,http://124.115.205.101:8888/newlive/live/hls/49/live.m3u8
-江苏卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_JIANGSU-CQ/G_JIANGSU-CQ.m3u8
-江西卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_JIANGXI-CQ/G_JIANGXI-CQ.m3u8
-辽宁卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_LIAONING-HD-265-8M/G_LIAONING-HD-265-8M.m3u8
-山东卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_SHANDONG-HD-265-8M/G_SHANDONG-HD-265-8M.m3u8
-深圳卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_SHENZHEN-HD-265-8M/G_SHENZHEN-HD-265-8M.m3u8
-四川卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_SICHUAN-CQ/G_SICHUAN-CQ.m3u8
-天津卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_TIANJIN-HD-265-8M/G_TIANJIN-HD-265-8M.m3u8
-云南卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_YUNNAN-HQ/G_YUNNAN-HQ.m3u8
-浙江卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_ZHEJIANG-CQ/G_ZHEJIANG-CQ.m3u8
-重庆卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_CHONGQING-CQ/G_CHONGQING-CQ.m3u8
-四川卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_SICHUAN-CQ/G_SICHUAN-CQ.m3u8
-河北卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_HEBEI-CQ/G_HEBEI-CQ.m3u8
-甘肃卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_GANSU/G_GANSU.m3u8
-云南都市,http://yncbn.ks-cdn.gitv.tv/gitv_escape/G_YNTV-2/G_YNTV-2.m3u8
-云南娱乐,http://yncbn.ks-cdn.gitv.tv/gitv_escape/G_YNTV-3/G_YNTV-3.m3u8
-云南影院,http://yncbn.ks-cdn.gitv.tv/gitv_escape/G_YNTV-5/G_YNTV-5.m3u8
-云南康旅,http://yncbn.ks-cdn.gitv.tv/gitv_escape/G_YNTV-6/G_YNTV-6.m3u8
-陕西新闻,http://sncbn.ch-cdn.gitv.tv/gitv_escape/G_SHANXI-1-HQ/G_SHANXI-1-HQ.m3u8
-陕西青春,http://sncbn.ch-cdn.gitv.tv/gitv_escape/G_SHANXI-2-HQ/G_SHANXI-2-HQ.m3u8
-厦门卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_XIAMEN/G_XIAMEN.m3u8
-陕西卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_SHANXI/G_SHANXI.m3u8
-山西卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escapeS/G_SXWS/G_SXWS.m3u8
-延边卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_YANBIAN/G_YANBIAN.m3u8
-新疆卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_XINJIANG/G_XINJIANG.m3u8
-西藏卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_XIZANG/G_XIZANG.m3u8
-内蒙古视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_NEIMENGGU/G_NEIMENGGU.m3u8
-宁夏卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_NINGXIA/G_NINGXIA.m3u8
-青海卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_QINGHAI/G_QINGHAI.m3u8
-大湾区视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_NANFANG/G_NANFANG.m3u8
-安多卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_ANDUO/G_ANDUO.m3u8
-农林卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_NONGLIN/G_NONGLIN.m3u8
-兵团卫视,http://jscbn.tx-cdn.gitv.tv/gitv_escape/G_BINGTUAN/G_BINGTUAN.m3u8
-河南卫视,http://hacbn.ks-cdn.gitv.tv/gitv_escape/G_HENAN-HQ/G_HENAN-HQ.m3u8
+江苏卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_JIANGSUCQ/G_JIANGSUCQ.m3u8
+江西卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_JIANGXICQ/G_JIANGXICQ.m3u8
+辽宁卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_LIAONINGHD2658M/G_LIAONINGHD2658M.m3u8
+山东卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_SHANDONGHD2658M/G_SHANDONGHD2658M.m3u8
+深圳卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_SHENZHENHD2658M/G_SHENZHENHD2658M.m3u8
+四川卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_SICHUANCQ/G_SICHUANCQ.m3u8
+天津卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_TIANJINHD2658M/G_TIANJINHD2658M.m3u8
+云南卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_YUNNANHQ/G_YUNNANHQ.m3u8
+浙江卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_ZHEJIANGCQ/G_ZHEJIANGCQ.m3u8
+重庆卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_CHONGQINGCQ/G_CHONGQINGCQ.m3u8
+四川卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_SICHUANCQ/G_SICHUANCQ.m3u8
+河北卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_HEBEICQ/G_HEBEICQ.m3u8
+甘肃卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_GANSU/G_GANSU.m3u8
+云南都市,http://yncbn.kscdn.gitv.tv/gitv_escape/G_YNTV2/G_YNTV2.m3u8
+云南娱乐,http://yncbn.kscdn.gitv.tv/gitv_escape/G_YNTV3/G_YNTV3.m3u8
+云南影院,http://yncbn.kscdn.gitv.tv/gitv_escape/G_YNTV5/G_YNTV5.m3u8
+云南康旅,http://yncbn.kscdn.gitv.tv/gitv_escape/G_YNTV6/G_YNTV6.m3u8
+陕西新闻,http://sncbn.chcdn.gitv.tv/gitv_escape/G_SHANXI1HQ/G_SHANXI1HQ.m3u8
+陕西青春,http://sncbn.chcdn.gitv.tv/gitv_escape/G_SHANXI2HQ/G_SHANXI2HQ.m3u8
+厦门卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_XIAMEN/G_XIAMEN.m3u8
+陕西卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_SHANXI/G_SHANXI.m3u8
+山西卫视,http://jscbn.txcdn.gitv.tv/gitv_escapeS/G_SXWS/G_SXWS.m3u8
+延边卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_YANBIAN/G_YANBIAN.m3u8
+新疆卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_XINJIANG/G_XINJIANG.m3u8
+西藏卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_XIZANG/G_XIZANG.m3u8
+内蒙古视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_NEIMENGGU/G_NEIMENGGU.m3u8
+宁夏卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_NINGXIA/G_NINGXIA.m3u8
+青海卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_QINGHAI/G_QINGHAI.m3u8
+大湾区视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_NANFANG/G_NANFANG.m3u8
+安多卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_ANDUO/G_ANDUO.m3u8
+农林卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_NONGLIN/G_NONGLIN.m3u8
+兵团卫视,http://jscbn.txcdn.gitv.tv/gitv_escape/G_BINGTUAN/G_BINGTUAN.m3u8
+河南卫视,http://hacbn.kscdn.gitv.tv/gitv_escape/G_HENANHQ/G_HENANHQ.m3u8
 安徽卫视,http://171.14.89.201:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
 北京卫视,http://171.14.89.201:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
 云南卫视,http://171.14.89.201:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -937,7 +1074,7 @@ CCTV17,http://222.135.78.62:8154/tsfile/live/0019_1.m3u8
 辽宁卫视,http://42.176.154.142:9901/tsfile/live/1165_1.m3u8?key=txiptv
 辽宁卫视,http://111.225.95.124:9901/tsfile/live/0122_1.m3u8?key=txiptv
 海南卫视,http://42.176.154.142:9901/tsfile/live/1064_1.m3u8?key=txiptv
-海南卫视,http://livelyws.chinamcache.com/lyws/zb01.m3u8?auth_key=1593241343-0-0-90b80e74457c94b2015f9428a1cb9b0e
+海南卫视,http://livelyws.chinamcache.com/lyws/zb01.m3u8?auth_key=15932413430090b80e74457c94b2015f9428a1cb9b0e
 山东卫视,http://221.233.192.152:9901/tsfile/live/0131_1.m3u8?key=txiptv
 山东卫视,http://180.101.226.42:9901/tsfile/live/0131_1.m3u8?key=txiptv
 山东卫视,http://111.225.95.124:9901/tsfile/live/0135_1.m3u8?key=txiptv
