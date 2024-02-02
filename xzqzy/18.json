@@ -71,43 +71,8 @@
       "filterable": 1,
       "ext": "./lib1/lf_live1.txt"
     },
-    {
-      "key": "PikPakShare",
-      "name": "PikPak",
-      "type": 3,
-      "api": "csp_PikPakShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "filterable": 0,
-      "timeout": 60,
-      "ext": "http://127.0.0.1:9978/file/TV/token.json$$$./json/pikpakclass.a.json$$$./json/pikpakclass.a.json.db.gz"
-    },
-    {
-      "key": "PikPakShare1",
-      "name": "PikPak1",
-      "type": 3,
-      "api": "csp_PikPakShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "filterable": 0,
-      "timeout": 60,
-      "ext": "http://127.0.0.1:9978/file/TV/token.json$$$./json/pikpakclass.a1.json$$$./json/pikpakclass.a1.json.db.gz"
-    },
-    {
-      "key": "配置中心",
-      "name": "配置中心",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "ext": "http://127.0.0.1:9978/file/TV/token.json"
-    },
+   
+   
     {
       "key": "Cable",
       "name": "CableAV",
