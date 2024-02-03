@@ -588,7 +588,7 @@
 		"changeable":1,
 		"filterable":1, 
 		"timeout":30, 
-		"ext":"./lib/tokenm3.json$$$https://wogg.link/|104.16.245.50$$$null$$$1$$$./pg/lib/wogg.json"},
+		"ext":"./lib/tokenm3.json$$$https://www.wogg.link/|104.16.245.50$$$null$$$1$$$./pg/lib/wogg.json"},
       {
             "key":"Wogg111",
             "name":"🔥玩偶哥哥|阿里🔥",
@@ -599,7 +599,7 @@
       "filterable": 1,
     
              "jar": "./lib/pg.jar",
-            "ext": "./lib/tokenm3.json$$$https://wogg.link/$$$null$$$1"
+            "ext": "./lib/tokenm3.json$$$https://www.wogg.link/$$$null$$$1"
         },
       {  "key": "Wobg1133311",
       "name": "🔥️玩偶白泽🔥",
@@ -865,7 +865,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "./XYQTVBox/tokenm3.json$$$https://wogg.link/$$$null$$$1$$$./pg/lib/wogg.json"
+      "ext": "./XYQTVBox/tokenm3.json$$$https://www.wogg.link/$$$null$$$1$$$./pg/lib/wogg.json"
     },
     {
       "key": "csp_XYQHiker_ys",

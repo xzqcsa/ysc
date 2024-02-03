@@ -579,19 +579,9 @@
       "filterable": 1,
     
              "jar": "./lib/pg.jar",
-            "ext": "./lib/tokenm.json$$$https://wogg.link/$$$null$$$1"
+            "ext": "./lib/tokenm.json$$$https://www.wogg.link/$$$null$$$1"
         },
-      {  "key": "Wobg1133311",
-      "name": "🔥️玩偶白泽🔥",
-      "type": 3,
-       "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-       "jar": "./lib/pg.jar",
-      "api": "csp_Wobg",
-      "ext": "http://127.0.0.1:9978/file/业余影视/阿里/token.txt$$$http://www.214728327.xyz:56708/"
-    },
+     
 
 {"key":"348K",
      "name":"🔥348影视🔥",
@@ -845,7 +835,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "./XYQTVBox/tokenm.json$$$https://wogg.link/$$$null$$$1$$$./pg/lib/wogg.json"
+      "ext": "./XYQTVBox/tokenm.json$$$https://www.wogg.link/$$$null$$$1$$$./pg/lib/wogg.json"
     },
     {
       "key": "csp_XYQHiker_ys",
