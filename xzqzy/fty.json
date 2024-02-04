@@ -126,6 +126,7 @@
       "type": 3,
       "api": "csp_Wobg",
       "quickSearch": 1,
+	  "jar": "./lib/pg.jar",
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
