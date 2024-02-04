@@ -121,16 +121,16 @@
 		"ext":"./XYQTVBox/tokenm1.json$$$./XYQTVBox/quarkshare.txt"
 		},
 	{
-            "key": "赞赞",
-            "name": "🔥赞赞切片🔥",
-            "type": 3,
-            "jar": "./lib/赞赞.jar",
-            "api": "csp_AppYsV2",
-            "ext": "http://111.230.51.151:9696//api.php/app/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0
-        },		
+      "key": "Wobg111",
+      "name": "🔥土豆网盘🔥",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./XYQTVBox/tokenm1.json$$$https://ali.lvdoui.top$$$null$$$1$$$./pg/lib/wogg.json"
+    },
 		
 	{"key":"4K",
      "name":"🔥4K4K影视🔥",
@@ -590,7 +590,7 @@
 		"changeable":1,
 		"filterable":1, 
 		"timeout":30, 
-		"ext":"./lib/tokenm1.json$$$https://www.wogg.link$$$null$$$1$$$./pg/lib/wogg.json"},
+		"ext":"./lib/tokenm1.json$$$https://wogg.link$$$null$$$1$$$./pg/lib/wogg.json"},
       
     
 

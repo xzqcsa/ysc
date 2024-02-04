@@ -63,6 +63,17 @@
             "timeout": 30,
             "ext": "./XYQTVBox/阿涛tokenm.json"
         },
+		{
+      "key": "Wobg111",
+      "name": "🔥土豆网盘🔥",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./XYQTVBox/阿涛tokenm.json$$$https://ali.lvdoui.top$$$null$$$1$$$./pg/lib/wogg.json"
+    },
 	 
 	 {"key":"bili",
    "name":"🔥哔哩 | 大会员🔥",

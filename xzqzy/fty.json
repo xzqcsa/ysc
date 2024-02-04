@@ -120,7 +120,17 @@
 		"ext":"./XYQTVBox/tokenm.json$$$./XYQTVBox/quarkshare.txt"
 		},
 		
-		
+	{
+      "key": "Wobg111",
+      "name": "🔥土豆网盘🔥",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./XYQTVBox/tokenm.json$$$https://ali.lvdoui.top$$$null$$$1$$$./pg/lib/wogg.json"
+    },	
 	{"key":"4K",
      "name":"🔥4K4K影视🔥",
      "type":3,"api":"csp_XBPQ",
