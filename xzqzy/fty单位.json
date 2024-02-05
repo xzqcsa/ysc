@@ -51,6 +51,15 @@
       "timeout": 30,
       "ext": "./XYQTVBox/tokenm3.json$$$https://ali.lvdoui.top$$$null$$$1$$$./pg/lib/wogg.json"
     },
+	  {
+      "key": "酷看11",
+      "name": "🔥酷看🔥",
+      "type": 3,
+      "api": "csp_Kkys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
 	 {"key":"bili",
    "name":"🔥哔哩 | 大会员🔥",
    "type":3,
