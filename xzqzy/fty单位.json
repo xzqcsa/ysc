@@ -56,6 +56,7 @@
       "name": "🔥酷看🔥",
       "type": 3,
       "api": "csp_Kkys",
+	  "jar": "./fty新.jar;md5;5543dae038ce2248e7759e9cbca295b9",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -757,11 +758,7 @@
     "阿里token": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto",
     "分类": "电影$1#剧集$2#综艺$4#动漫$3#短剧$5#音乐$6"
 }},
-{"key": "ytvip11",
- "name": "🕵️┃探探┃影视(CJ)",
- "type": 3,"api": "csp_AppYsV2",
- "ext": "http://vpp.lyyytv.cn/api.php/app/",
- "searchable": 1,"changeable": 1},
+
  {
             "key": "Wogg1213",
             "name": "🔥运输车玩偶🔥",
@@ -787,17 +784,7 @@
             "timeout": 30,
             "ext": "./lib/tokenm3.json$$$null$$$1"
         },
-		{
-			"key": "新6V111",
-			"name": "🔥新6V|磁力🔥",
-			"type": 3,
-			"api": "csp_Xb6v",
-			"jar": "./lib/pg.jar",
-			"searchable": 1,
-			"changeable": 1,
-			"timeout": 60,
-			"ext": "./lib/tokenm3.json$$$https://www.66ss.org$$$null$$$1"
-		},
+		
 		{
       "key": "Libvio",
       "name": "🔥LIBVIO|影视专用🔥",
