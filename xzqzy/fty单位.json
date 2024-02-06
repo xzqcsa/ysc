@@ -38,7 +38,17 @@
             "timeout": 30,
             "ext": "./XYQTVBox/tokenm3.json"
         },
-		 
+	{"key":"阿里云集合外置",
+		"name":"🔥阿里云集合🔥",
+		"type":3,
+		"api":"csp_阿里云集合",
+		"searchable":1,
+		"filterable":0,
+		"switchable":0,
+		"changeable":0,
+		"timeout":60,
+		"ext":"./lib/阿里集合.json;./XYQTVBox/tokenm3.json",
+		"jar":"./lib/真心真语0204+列表+搜索.jar"},	 
   {
       "key": "Wobg111",
       "name": "🔥土豆网盘🔥",
