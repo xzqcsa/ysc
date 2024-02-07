@@ -9,6 +9,7 @@
        "api": "./lib/Api.js",
       "searchable": 0,
       "quickSearch": 0,
+	   "indexs": 1,
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
