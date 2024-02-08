@@ -50,6 +50,18 @@
 		"timeout":60,
 		"ext":"./lib/阿里集合.json;./XYQTVBox/tokenm3.json",
 		"jar":"./lib/真心真语0204+列表+搜索.jar"},	 
+		{
+            "key": "yingshiche",
+            "name": "🚒影视车",
+            "type": 3,
+            "jar": "./fm0207.jar",
+            "api": "csp_Yingshiche",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./XYQTVBox/alitoken.txt"
+        },
   {
       "key": "Wobg111",
       "name": "🔥土豆网盘🔥",
