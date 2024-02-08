@@ -60,7 +60,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 30,
-            "ext": "./XYQTVBox/alitoken.txt"
+            "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
         },
   {
       "key": "Wobg111",
