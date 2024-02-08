@@ -45,6 +45,18 @@
       "quickSearch": 1,
       "changeable": 0
     },
+	{
+            "key": "yingshiche",
+            "name": "🚒影视车",
+            "type": 3,
+            "jar": "./fm0207.jar",
+            "api": "csp_Yingshiche",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
+        },
 	 {
       "key": "XAL蓝光",
       "name": "🔥|蓝光🔥",
