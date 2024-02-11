@@ -163,13 +163,7 @@
 		"timeout":60, 
 		"ext":"./XYQTVBox/tokenm3.json$$$./XYQTVBox/quarkshare.txt"
 		},
-	{"key":"777",
-     "name":"🔥777影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.777ys1.com/show/{cateId}/area/{area}/page/{catePg}/year/{year}/",
-      "分类": "少儿$shaoer#电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman"}},	
+	
 		
 	{"key":"4K",
      "name":"🔥4K4K影视🔥",
