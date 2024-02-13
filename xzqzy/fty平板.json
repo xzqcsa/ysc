@@ -28,6 +28,35 @@
             },
             "ext": "./XYQTVBox/tokenm1.json"
         },
+		{
+            "key": "配置中心11",
+            "name": "👨‍🍳‍配置中心",
+            "type": 3,
+			"jar": "./XYQTVBox/ok.png;md5;56bcbe4bd1e0abc123b527b85b8c7039",
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.43
+            }
+        },
+        {
+            "key": "玩偶弹幕版11",
+            "name": "玩偶哥哥OK版",
+            "type": 3,
+            "api": "csp_Wogg",
+			"jar": "./XYQTVBox/ok.png;md5;56bcbe4bd1e0abc123b527b85b8c7039",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
+                "wogg": true,
+                "danmu": true
+            },
+            "timeout": 25
+        },
 	
 	{
             "key": "push_agent",
