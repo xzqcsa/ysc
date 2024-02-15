@@ -13,7 +13,17 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
-	
+	{
+      "key": "csp_yydflive-2",
+      "name": "💞电视电台",
+      "type": 3,
+      "playerType": 1,
+      "jar": "./lib/zb.jar;md5;bf1b124a45435a1be4f54d148280a749",
+      "api": "csp_zb",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./lib/live.json"
+    },
 	{
             "key": "网盘配置",
             "name": "🔥网盘及彈幕配置🔥",
@@ -57,7 +67,19 @@
             },
             "timeout": 25
         },
-	
+	 {
+      "key": "py_ali",
+      "name": "🔥阿里合集·Py🔥",
+      "type": 3,
+      "api": "./lib/py_ali.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
+        "thread": "32"
+      }
+    },
 	{
             "key": "push_agent",
             "name": "🔥推送🔥",
@@ -91,6 +113,27 @@
             "timeout": 30,
             "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"
         },
+		 {
+      "key": "业余采集A",
+      "name": "🔥业余自营🔥 ",
+      "type": 1,
+      "api": "http://154.3.2.163/api.php/provide/vod/",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "短剧",
+        "电影",
+        "电视剧",
+        "动漫",
+        "综艺",
+        "记录片",
+        "音乐",
+     
+        "体育"
+      ]
+    },
 	  {
       "key": "酷看11",
       "name": "🔥酷看🔥",
