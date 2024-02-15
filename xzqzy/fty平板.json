@@ -782,13 +782,7 @@
       "欧美剧","日剧","马泰剧",
       "体育赛事","综艺","动画片",
       "中国动漫","日本动漫","欧美动漫"]},
-       {"key":"剧圈圈",
-     "name":"🔥剧圈圈影视",
-     "type":3,"api":"csp_XBPQ",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.jqqzx.cc/vodshow/id/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
-      "分类": "电影$dianying#剧集$juji#综艺$zongyi#动漫$dongman"}},
-
+     
         {
             "key": "tvbsk",
             "name": "🔥️TVB云播┃App🔥️",
@@ -877,7 +871,7 @@
       "key": "纯净资源",
       "name": "🔥微信独享🔥",
       "type": 1,
-      "api": "http://540734621.xyz/api.php/provide/vod/",
+      "api": "http://47.108.190.141/api.php/provide/vod/",
       "playerType": 2,
 	   "jar": "./yydf24.1.2.jar",
       "searchable": 1,
