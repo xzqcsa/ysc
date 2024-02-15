@@ -867,26 +867,7 @@
                 "分类url": "https://www.nkvod.com/show/{cateId}--------{catePg}---{year}.html"
             }
         },
-	 {
-      "key": "纯净资源",
-      "name": "🔥微信独享🔥",
-      "type": 1,
-      "api": "http://47.108.190.141/api.php/provide/vod/",
-      "playerType": 2,
-	   "jar": "./yydf24.1.2.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "短剧",
-        
-        "电影",
-        "电视剧",
-        "动漫",
-        "综艺",
-        "记录片"
-      ]
-    },
+	
 	 {
       "key": "短劇22",
       "name": "🔥️|短劇🔥",

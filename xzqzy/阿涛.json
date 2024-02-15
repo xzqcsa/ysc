@@ -13,7 +13,38 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
-	
+	{
+      "key": "csp_yydflive-2",
+      "name": "💞电视电台",
+      "type": 3,
+      "playerType": 1,
+      "jar": "./lib/zb.jar;md5;bf1b124a45435a1be4f54d148280a749",
+      "api": "csp_zb",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./lib/live.json"
+    },
+	{
+      "key": "业余采集A",
+      "name": "🔥业余自营🔥 ",
+      "type": 1,
+      "api": "http://154.3.2.163/api.php/provide/vod/",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "短剧",
+        "电影",
+        "电视剧",
+        "动漫",
+        "综艺",
+        "记录片",
+        "音乐",
+     
+        "体育"
+      ]
+    },
 	{"key":"AliShare",
 		"name":"🔥阿里云盘分享🔥",
 		"type":3,
