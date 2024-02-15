@@ -1,7 +1,63 @@
 [
     {
+        "name": "电视IPTV6（移动优）",
+        "url": "http://47.108.190.141/wx/zb/IPTV6.txt"
+    },
+    {
+        "name": "电视直播（通用版）",
+        "url": "http://47.108.190.141/wx/zb/直播源.php"
+    },
+    {
+        "name": "电视直播（综合版）",
+        "url": "http://47.108.190.141/wx/zb/电视直播源.php"
+    },
+    {
+        "name": "电视直播IPTV4+6",
+        "url": "http://47.108.190.141/wx/zb/IPTV.txt"
+    },
+    {
+        "name": "电视直播IPTV4-1",
+        "url": "http://47.108.190.141/wx/zb/xbdmq.txt"
+    },
+    {
+        "name": "电视直播IPTV4-2",
+        "url": "http://47.108.190.141/wx/zb/IPTV.m3u"
+    },
+    {
+        "name": "电视直播IPTV4-3",
+        "url": "http://我不是.肥猫.live/TV/tvzb.txt"
+    },
+    {
+        "name": "电视直播IPTV4-4",
+        "url": "http://47.108.190.141/wx/zb/IPV4.m3u"
+    },
+    {
+        "name": "电视直播IPTV4-5",
+        "url": "http://47.108.190.141/wx/zb/ipv4-2.1.txt"
+    },
+    {
+        "name": "电视直播IPTV4-河北地区流畅",
+        "url": "http://47.108.190.141/wx/zb/zbb.txt"
+    },
+    {
+        "name": "电视直播IPTV4-6",
+        "url": "http://47.108.190.141/wx/zb/野火.txt"
+    },
+    {
+        "name": "电视直播IPTV4-7",
+        "url": "http://47.108.190.141/wx/zb/zb2.txt"
+    },
+    {
+        "name": "电视直播IPTV4-8",
+        "url": "http://47.108.190.141/wx/zb/tvlive.txt"
+    },
+    {
+        "name": "电视直播IPV6",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u"
+    },
+    {
         "name": "电视直播一",
-        "url": "http://yydf.540734621.xyz/vx/zb/chunying.txt"
+        "url": "http://47.108.190.141/wx/zb/chunying.txt"
     },
     {
         "name": "电视直播二",
@@ -12,23 +68,11 @@
         "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Meroser/IPTV/main/IPTV.m3u"
     },
     {
-        "name": "8M直播",
-        "url": "http://yydf.540734621.xyz/vx/zb/8mzb.txt"
-    },
-    {
-        "name": "电视直播IPTV4",
-        "url": "http://yydf.540734621.xyz/vx/zb/zb2.txt"
-    },
-    {
-        "name": "电视直播IPV6",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u"
-    },
-    {
         "name": "MTV三万九",
-        "url": "http://yydf.540734621.xyz/vx/zb/mv.txt"
+        "url": "http://47.108.190.141/wx/zb/mv.txt"
     },
     {
         "name": "电台之声",
-        "url": "http://yydf.540734621.xyz/vx/zb/Radio.txt"
+        "url": "http://47.108.190.141/wx/zb/Radio.txt"
     }
 ]
