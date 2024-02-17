@@ -42,7 +42,7 @@
             "key": "配置中心11",
             "name": "👨‍🍳‍配置中心",
             "type": 3,
-			"jar": "./XYQTVBox/okpng.txt;md5;cc67703b8f4394472c3abd099c7836b6",
+			 "jar": "./lib/okpng.txt;md5;61dbc5fd12fbd1d9185c1da71919a5f9",
             "api": "csp_Config",
             "searchable": 0,
             "changeable": 0,
@@ -56,7 +56,7 @@
             "name": "玩偶哥哥OK版",
             "type": 3,
             "api": "csp_Wogg",
-			"jar": "./XYQTVBox/okpng.txt;md5;cc67703b8f4394472c3abd099c7836b6",
+			 "jar": "./lib/okpng.txt;md5;61dbc5fd12fbd1d9185c1da71919a5f9",
             "searchable": 1,
             "filterable": 1,
             "changeable": 1,
@@ -67,6 +67,20 @@
             },
             "timeout": 25
         },
+		{
+      "key": "厂长弹幕版",
+      "name": "🔥厂长|弹幕🔥",
+      "type": 3,
+      "api": "csp_Czzy",
+	  "jar": "./lib/okpng.txt;md5;61dbc5fd12fbd1d9185c1da71919a5f9",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "timeout": 25
+    },
 	 {
       "key": "py_ali",
       "name": "🔥阿里合集·Py🔥",
@@ -1632,6 +1646,21 @@
 	"api":"csp_EightEight",
 	"timeout":30, 
 	"ext":"./lib/tokenm1.json$$$https://662688.xyz"},
+	 {
+      "key": "csp_AiPanSou",
+      "name": "🔍爱盘搜┃搜索🔍",
+      "type": 3,
+      "api": "csp_AiPanSou",
+	  "jar": "./lib/okpng.txt;md5;61dbc5fd12fbd1d9185c1da71919a5f9",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "cookie": "./XYQTVBox/quark_cookie.txt",
+        "danmu": true
+      },
+      "timeout": 15
+    },
 	 {
             "key": "Funletu",
             "name": "🔍趣盘搜|夸克🔍",
