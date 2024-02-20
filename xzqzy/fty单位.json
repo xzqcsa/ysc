@@ -667,7 +667,7 @@
 		"changeable":1,
 		"filterable":1, 
 		"timeout":30, 
-		"ext":"./lib/tokenm3.json$$$https://www.wogg.link/|104.16.245.50$$$null$$$1$$$./pg/lib/wogg.json"},
+		"ext":"./lib/tokenm3.json$$$http://wogg.link/|104.16.245.50$$$null$$$1$$$./pg/lib/wogg.json"},
       {
             "key":"Wogg111",
             "name":"🔥玩偶哥哥|阿里🔥",
@@ -678,7 +678,7 @@
       "filterable": 1,
     
              "jar": "./lib/pg.jar",
-            "ext": "./lib/tokenm3.json$$$https://www.wogg.link/$$$null$$$1"
+            "ext": "./lib/tokenm3.json$$$http://wogg.link/$$$null$$$1"
         },
     
 
@@ -903,7 +903,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "./XYQTVBox/tokenm3.json$$$https://www.wogg.link/$$$null$$$1$$$./pg/lib/wogg.json"
+      "ext": "./XYQTVBox/tokenm3.json$$$http://wogg.link/$$$null$$$1$$$./pg/lib/wogg.json"
     },
     {
       "key": "csp_XYQHiker_ys",
@@ -1460,9 +1460,9 @@
    "type":3,"api":"csp_WoGG",
    "searchable":1,
    "quickSearch":1,
-    "jar": "./fty新.jar;md5;5543dae038ce2248e7759e9cbca295b9",
+    "jar": "./fty24.2.20.jar;md5;87d5916b7bb5c8acacac5490e802828e",
    "changeable":0,
-   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.link/$$$弹"},
+   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://wogg.link/$$$弹"},
    {
       "key": "Wogg",
       "name": "🅱️玩偶哥哥|T追剧",

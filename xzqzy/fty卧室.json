@@ -669,7 +669,7 @@
       "filterable": 1,
     
              "jar": "./lib/pg.jar",
-            "ext": "./lib/tokenm2.json$$$https://www.wogg.link/$$$null$$$1"
+            "ext": "./lib/tokenm2.json$$$http://wogg.link/$$$null$$$1"
         },
       {  "key": "Wobg1133311",
       "name": "🔥️玩偶白泽🔥",
@@ -935,7 +935,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "./XYQTVBox/tokenm2.json$$$https://www.wogg.link/$$$null$$$1$$$./pg/lib/wogg.json"
+      "ext": "./XYQTVBox/tokenm2.json$$$http://wogg.link/$$$null$$$1$$$./pg/lib/wogg.json"
     },
     {
       "key": "csp_XYQHiker_ys",
@@ -1478,11 +1478,11 @@
       "name": "👽玩偶哥哥┃4K弹幕",
       "type": 3,
       "api": "csp_WoGG",
-	  "jar": "./fty新.jar;md5;5543dae038ce2248e7759e9cbca295b9",
+	  "jar": "./fty24.2.20.jar;md5;87d5916b7bb5c8acacac5490e802828e",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.link/$$$弹"
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://wogg.link/$$$弹"
     },
    {
       "key": "Wogg",
