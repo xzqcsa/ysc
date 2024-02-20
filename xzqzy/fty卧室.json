@@ -1484,16 +1484,16 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://wogg.link/$$$弹"
     },
-   {
-      "key": "Wogg",
-      "name": "🅱️玩偶哥哥|T追剧",
+    {
+      "key": "wogg",
+      "name": "🅱️玩偶阿里|T追剧",
       "type": 3,
-      "api": "csp_XPathAli",
-	  "jar": "./HeChengChaXiu.jar",
+      "api": "csp_XYQHikerAL",
       "searchable": 1,
+	  "jar": "./HeChengChaXiu.jar",
       "quickSearch": 1,
       "filterable": 0,
-       "ext": "./玩偶哥哥.json"
+      "ext": "./lib/玩偶哥哥.json"
     },
   
      {
