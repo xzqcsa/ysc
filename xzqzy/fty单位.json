@@ -63,7 +63,7 @@
 	{
       "key": "Yingtantv",
       "name": "🔥影探🔥",
-	  "jar": "./lib/影探王二小放牛娃.jar",
+	  "jar": "./影探王二小放牛娃.jar",
       "type": 3,
       "api": "csp_Yingtantv",
       "searchable": 1,
@@ -74,9 +74,20 @@
             "name": "🔥短剧┃影视🔥",
             "type": 3,
             "api": "csp_Duanju",
+			"jar": "./lib/./lib/pg.jar",
             "searchable": 0,
             "changeable": 0,
             "ext": "http://aiduanju.vip/"
+        },
+        {
+            "key": "18哈",
+            "name": "🔥18哈🔥",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/18哈.js",
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 30
         },
 
 
