@@ -74,7 +74,7 @@
             "name": "🔥短剧┃影视🔥",
             "type": 3,
             "api": "csp_Duanju",
-			"jar": "./lib/./lib/pg.jar",
+			"jar": "./lib/pg.jar",
             "searchable": 0,
             "changeable": 0,
             "ext": "http://aiduanju.vip/"
@@ -83,6 +83,7 @@
             "key": "18哈",
             "name": "🔥18哈🔥",
             "type": 3,
+			"jar": "./lib/pg.jar",
             "api": "./lib/drpy2.min.js",
             "ext": "./lib/18哈.js",
             "quickSearch": 1,
