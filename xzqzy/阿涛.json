@@ -24,6 +24,33 @@
       "changeable": 0,
       "ext": "./lib/live.json"
     },
+	{
+      "key": "Buleitv222",
+      "name": "💯布蕾┃TV┃App",
+      "type": 3,
+	  "jar": "./追忆影探布蕾带自动追踪.jar",
+      "api": "csp_Buleitv",
+      "searchable": 1,
+      "changeable": 0
+    },
+	{
+      "key": "Yingtantv22",
+      "name": "💯影探┃TV┃App",
+      "type": 3,
+	  "jar": "./追忆影探布蕾带自动追踪.jar",
+      "api": "csp_Yingtantv2",
+      "searchable": 1,
+      "changeable": 0
+    },
+  {
+      "key": "Zhuiyitv11",
+      "name": "💯追忆┃TV┃App",
+	  "jar": "./追忆影探布蕾带自动追踪.jar",
+      "type": 3,
+      "api": "csp_Zhuiyitv",
+      "searchable": 1,
+      "changeable": 0
+    },
 	{"key":"Yingtantv11",
 	"name":"🔥影探PG🔥",
 	"type":3,
