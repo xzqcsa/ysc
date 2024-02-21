@@ -25,6 +25,34 @@
       "ext": "./lib/live.json"
     },
 	{
+      "key": "Yingtantv",
+      "name": "🔥影探🔥",
+	  "jar": "./影探王二小放牛娃.jar",
+      "type": 3,
+      "api": "csp_Yingtantv",
+      "searchable": 1,
+      "changeable": 0
+    },
+	{
+            "key": "布蕾",
+            "name": "🔥布蕾TV🔥",
+            "type": 3,
+            "api": "csp_Lvdou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "playerType": 1,
+            "ext": {
+                "server": "http://38.12.25.109:158/api.php/app/",
+                "mackey": "weZtRbfJDgzyvHiG|YLdoqhUccdDmEPQU",
+                "parsekey": "mupfinBA986icmAZ|eV7YDmhgzThSiR1s",
+                "parseurl": "https://maya.x3322.net/api/index?parsesId=5&parsesUrl="
+            },
+            "jar": "./lib/PandaQ240219.jar"
+        },
+
+	{
       "key": "厂长弹幕版",
       "name": "🔥厂长|弹幕🔥",
       "type": 3,
