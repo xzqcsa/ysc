@@ -63,12 +63,22 @@
 	{
       "key": "Yingtantv",
       "name": "🔥影探🔥",
-	  "jar": "./影探王二小放牛娃.jar",
+	  "jar": "./影探你大爷.jar",
       "type": 3,
       "api": "csp_Yingtantv",
       "searchable": 1,
       "changeable": 0
     },
+	{"key":"Yingtantv",
+	"name":"🔥影探PG🔥",
+	"type":3,
+	"jar": "./lib/pg.jar",
+	"api":"csp_Yingtantv",
+	"quickSearch":1,
+	"changeable":1,
+	"filterable":1,
+	"timeout":30, 
+	"ext":"./lib/yt.json"},
 	{
             "key": "布蕾",
             "name": "🔥布蕾TV🔥",
