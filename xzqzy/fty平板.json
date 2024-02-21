@@ -51,15 +51,7 @@
                 "ratio": 1.43
             }
         },
-		{
-      "key": "Yingtantv",
-      "name": "🔥影探🔥",
-	  "jar": "./custom_spider.jar",
-      "type": 3,
-      "api": "csp_Yingtantv",
-      "searchable": 1,
-      "changeable": 0
-    },
+		
 	{"key":"Yingtantv11",
 	"name":"🔥影探PG🔥",
 	"type":3,

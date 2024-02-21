@@ -24,34 +24,25 @@
       "changeable": 0,
       "ext": "./lib/live.json"
     },
+	{"key":"Yingtantv11",
+	"name":"🔥影探PG🔥",
+	"type":3,
+	"jar": "./lib/pg.jar",
+	"api":"csp_Yingtantv",
+	"quickSearch":1,
+	"changeable":1,
+	"filterable":1,
+	"timeout":30, 
+	"ext":"$$$./lib/yt.json$$$1"},
 	{
-      "key": "Yingtantv",
-      "name": "🔥影探🔥",
-	  "jar": "./影探王二小放牛娃.jar",
+      "key": "Buleitv11",
+      "name": "🔥布蕾🔥",
+	  "jar": "./custom_spider.jar",
       "type": 3,
-      "api": "csp_Yingtantv",
+      "api": "csp_Buleitv",
       "searchable": 1,
       "changeable": 0
     },
-	{
-            "key": "布蕾",
-            "name": "🔥布蕾TV🔥",
-            "type": 3,
-            "api": "csp_Lvdou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "playerType": 1,
-            "ext": {
-                "server": "http://38.12.25.109:158/api.php/app/",
-                "mackey": "weZtRbfJDgzyvHiG|YLdoqhUccdDmEPQU",
-                "parsekey": "mupfinBA986icmAZ|eV7YDmhgzThSiR1s",
-                "parseurl": "https://maya.x3322.net/api/index?parsesId=5&parsesUrl="
-            },
-            "jar": "./lib/PandaQ240219.jar"
-        },
-
 	{
       "key": "业余采集A",
       "name": "🔥业余自营🔥 ",
