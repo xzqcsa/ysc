@@ -28,7 +28,7 @@
       "key": "Buleitv222",
       "name": "💯布蕾┃TV┃App",
       "type": 3,
-	  "jar": "./追忆影探布蕾带自动追踪.jar",
+	  "jar": "http://47.108.190.141/wx/yydf/txt/yt.txt",
       "api": "csp_Buleitv",
       "searchable": 1,
       "changeable": 0
@@ -37,7 +37,7 @@
       "key": "Yingtantv22",
       "name": "💯影探┃TV┃App",
       "type": 3,
-	  "jar": "./追忆影探布蕾带自动追踪.jar",
+	  "jar": "http://47.108.190.141/wx/yydf/txt/yt.txt",
       "api": "csp_Yingtantv2",
       "searchable": 1,
       "changeable": 0
@@ -45,7 +45,7 @@
   {
       "key": "Zhuiyitv11",
       "name": "💯追忆┃TV┃App",
-	  "jar": "./追忆影探布蕾带自动追踪.jar",
+	  "jar": "http://47.108.190.141/wx/yydf/txt/yt.txt",
       "type": 3,
       "api": "csp_Zhuiyitv",
       "searchable": 1,
