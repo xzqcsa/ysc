@@ -60,23 +60,7 @@
         "体育"
       ]
     },
-	{"key":"🔥LvDou_YingShiChe",
-	"name":"🔥影视车PG🔥",
-	"type":3,
-	"api":"csp_LvDou",
-	"jar": "./lib/pg.jar",
-	"quickSearch":1, 
-	"changeable":1,
-	"filterable":1, 
-	"timeout":30, 
-	"playerType":1, 
-	"playerType":1, 
-	"ext":{
-			"server":"https://4k.ysctv.cn/api.php/app/",
-			"mackey":"yingshiche123456|PHPBxdt7PppocRJ5",
-			"danmu":true
-			}
-		},
+	
 		{"key":"🔥Zhuiyitv",
 		"name":"🔥追忆PG🔥",
 		"type":3,
