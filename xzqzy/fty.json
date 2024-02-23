@@ -1482,7 +1482,7 @@
       "key": "优酷1",
       "name": "♻️优酷少儿频道",
       "type": 3,
-      "playerType": 1,
+      
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/优酷.js"
     },
