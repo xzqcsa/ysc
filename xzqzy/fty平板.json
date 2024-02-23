@@ -3217,16 +3217,98 @@
       }
     },
 	 {
-      "name": "-官解-",
-      "type": 0,
-      "url": "https://jx.xyflv.cc/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
-          "referer": "https://www.xyflv.cc/"
-        }
-      }
-    },
+            "name": "爱酷",
+            "type": 1,
+            "url": "https://api.json.icu/api/?key=0552aa8f6891d762a00b070a740f30aa&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "企鹅",
+                    "IQiYi",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "YouKu",
+                    "优酷",
+                    "sohu",
+                    "SoHu",
+                    "搜狐",
+                    "letv",
+                    "LeShi",
+                    "乐视",
+                    "imgo",
+                    "mgtv",
+                    "MangGuo",
+                    "芒果",
+                    "SLYS4k",
+                    "BYGA",
+                    "luanzi",
+                    "AliS",
+                    "dxzy",
+                    "bilibili",
+                    "QEYSS",
+                    "xigua",
+                    "西瓜视频",
+                    "腾讯视频",
+                    "奇艺视频",
+                    "优酷视频",
+                    "芒果视频",
+                    "乐视视频"
+                ],
+                "header": {
+                    "User-Agent": "Dart/2.18 (dart:io)"
+                }
+            }
+        },
+		 {
+            "name": "小鱼1111",
+            "type": 1,
+            "url": "http://json.84jia.com/home/api?type=ys&uid=489522&key=fqtvyACFGHMNV13567&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "企鹅",
+                    "IQiYi",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "YouKu",
+                    "优酷",
+                    "sohu",
+                    "SoHu",
+                    "搜狐",
+                    "letv",
+                    "LeShi",
+                    "乐视",
+                    "imgo",
+                    "mgtv",
+                    "MangGuo",
+                    "芒果",
+                    "SLYS4k",
+                    "BYGA",
+                    "luanzi",
+                    "AliS",
+                    "dxzy",
+                    "bilibili",
+                    "QEYSS",
+                    "xigua",
+                    "西瓜视频",
+                    "腾讯视频",
+                    "奇艺视频",
+                    "优酷视频",
+                    "芒果视频",
+                    "乐视视频"
+                ],
+                "header": {
+                    "User-Agent": "Dart/2.18 (dart:io)"
+                }
+            }
+        },
+		
 	        {
             "name": "春盈解析",
             "type": 1,
@@ -3801,7 +3883,7 @@
    {
       "name": "夜猫超聚合",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=489522&key=fqtvyACFGHMNV13567&url=",
+      "url": "http://zy.uiovo.com/api/?key=3c2d8ba20cf254ef7cb6df9478d033a6&ud=74&url=",
       "ext": {
         "flag": [
           "qq",
