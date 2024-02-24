@@ -101,16 +101,7 @@
 	"timeout":30, 
 	"ext":"$$$./lib/yt.json$$$1"},
 	
-	{"key":"美剧迷",
-	"name":"🔥美剧迷🔥",
-	"jar": "./lib/pg.jar",
-	"type":3,
-	"api":"csp_Meijumi",
-	"quickSearch":1, 
-	"changeable":1,
-	"filterable":1, 
-	"timeout":30,
-	"ext":"./lib/token1.json$$$https://www.meijumi.net/$$$null$$$1"},
+	
 
         {
             "key": "玩偶弹幕版11",
