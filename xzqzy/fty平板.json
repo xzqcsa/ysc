@@ -100,15 +100,17 @@
 	"filterable":1,
 	"timeout":30, 
 	"ext":"$$$./lib/yt.json$$$1"},
-	{
-      "key": "Buleitv11",
-      "name": "🔥布蕾🔥",
-	  "jar": "./custom_spider.jar",
-      "type": 3,
-      "api": "csp_Buleitv",
-      "searchable": 1,
-      "changeable": 0
-    },
+	
+	{"key":"美剧迷",
+	"name":"🔥美剧迷🔥",
+	"jar": "./lib/pg.jar",
+	"type":3,
+	"api":"csp_Meijumi",
+	"quickSearch":1, 
+	"changeable":1,
+	"filterable":1, 
+	"timeout":30,
+	"ext":"./lib/token.json$$$https://www.meijumi.net/$$$socks5://192.168.101.1:1080$$$1"},
 
         {
             "key": "玩偶弹幕版11",
