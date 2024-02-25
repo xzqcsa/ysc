@@ -75,7 +75,7 @@
       "key": "Yingtantv22",
       "name": "💯影探┃TV┃App",
       "type": 3,
-	  "jar": "http://47.108.190.141/wx/yydf/txt/yt.txt",
+	  "jar": "http://47.108.190.141/wx/yydf/txt/zhuiyi.txt",
       "api": "csp_Yingtantv2",
       "searchable": 1,
       "changeable": 0
@@ -3285,7 +3285,10 @@
         }
       }
     },
-	   {
+	   {"name":"运输车","type":1,"url":"http://119.91.123.253:2345/Api/yun.php?url="},
+	   
+{"name":"飞云","type":1,"url":"http://122.228.84.103:7777/api/?key=lEoJRrX01Drg8Of5aA&url="},
+{
       "name": "AP云",
       "type": 1,
       "url": "http://119.91.123.253:2345/Api/yun.php?url="

@@ -3271,11 +3271,8 @@
         }
       }
     },
-	   {
-      "name": "AP云",
-      "type": 1,
-      "url": "http://119.91.123.253:2345/Api/yun.php?url="
-    },
+	   {"name":"运输车","type":1,"url":"http://119.91.123.253:2345/Api/yun.php?url="},
+{"name":"飞云","type":1,"url":"http://122.228.84.103:7777/api/?key=lEoJRrX01Drg8Of5aA&url="},
     {
       "name": "后来",
       "type": 1,
