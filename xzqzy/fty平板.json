@@ -66,7 +66,7 @@
       "key": "Buleitv222",
       "name": "💯布蕾┃TV┃App",
       "type": 3,
-	  "jar": "http://47.108.190.141/wx/yydf/txt/yt.txt",
+	  "jar": "http://47.108.190.141/wx/yydf/txt/zhuiyi.txt",
       "api": "csp_Buleitv",
       "searchable": 1,
       "changeable": 0
@@ -83,7 +83,7 @@
   {
       "key": "Zhuiyitv11",
       "name": "💯追忆┃TV┃App",
-	  "jar": "http://47.108.190.141/wx/yydf/txt/yt.txt",
+	  "jar": "http://47.108.190.141/wx/yydf/txt/zhuiyi.txt",
       "type": 3,
       "api": "csp_Zhuiyitv",
       "searchable": 1,
