@@ -26,18 +26,17 @@
             }
         },
 			
-	 {
-      "key": "tudou1",
-      "name": "🔥土豆蓝光站点🔥",
-      "playerType": 1,
+	    
+        {
+      "key": "宇宙影视",
+      "name": "🔥宇宙影视🔥",
       "type": 3,
       "api": "csp_AppYsV2",
-	  "jar": "./lib/tudou.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://39.99.140.24:91/api.php/app/"
-    },
+      "ext": "http://ds.yuzhoukeji.top/api.php/app/"
+    },   
     {
       "key": "zhibo",
       "name": "🔥斗鱼直播🔥",
