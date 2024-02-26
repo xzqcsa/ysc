@@ -24,6 +24,18 @@
       "changeable": 0,
       "ext": "./lib/live.json"
     },
+	{
+            "key": "飞云",
+            "name": "🔥飞云🔥",
+            "type": 3,
+            "api": "./lib/appysv2.js",
+            "ext": {
+                "host": "http://122.228.84.103:5821/api.php/app/",
+                "*": [
+                    "http://122.228.84.103:7777/api/?key=lEoJRrX01Drg8Of5aA&url="
+                ]
+            }
+        },
 	
 		{"key":"🔥Zhuiyitv",
 		"name":"🔥追忆PG🔥",
