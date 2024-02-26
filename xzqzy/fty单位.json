@@ -109,15 +109,17 @@
 	"timeout":30, 
 	"ext":"$$$./lib/yt.json$$$1"},
 	{
-      "key": "Buleitv11",
-      "name": "🔥布蕾🔥",
-	  "jar": "./custom_spider.jar",
-      "type": 3,
-      "api": "csp_Buleitv",
-      "searchable": 1,
-      "changeable": 0
-    },
-
+            "key": "飞云",
+            "name": "🔥飞云🔥",
+            "type": 3,
+            "api": "./lib/appysv2.js",
+            "ext": {
+                "host": "http://122.228.84.103:5821/api.php/app/",
+                "*": [
+                    "http://122.228.84.103:7777/api/?key=lEoJRrX01Drg8Of5aA&url="
+                ]
+            }
+        },
         
 
 
