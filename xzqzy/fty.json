@@ -3247,8 +3247,43 @@
     },
 	{
             "name": "后来1",
-            "type": 0,
+            "type": 1,
             "url": "https://jx.kemi.lol:2087/api/?key=fQ1A2zqeiyaowu0V0U&url="
+        },
+	        {
+            "name": "亿视云",
+            "type": 1,
+            "url": "http://122.228.84.103:7777/api/?key=lEoJRrX01Drg8Of5aA&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "tucheng",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "yzm",
+                    "aliyun",
+                    "RJuMao",
+                    "bilibili",
+                    "1905",
+                    "xinvip",
+                    "XAL",
+                    "qiqi",
+                    "XALS",
+                    "YuMi-vip"
+                ]
+            }
         },
       {
       "name": "青春",
