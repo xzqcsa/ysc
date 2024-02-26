@@ -3409,7 +3409,7 @@
     },
 	{
       "name": "-云解析-",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.yparse.com/index.php?url=",
       "ext": {
         "header": {
@@ -3419,7 +3419,7 @@
     },
 	   {
       "name": "-全看-",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.quankan.app/?url=",
       "ext": {
         "header": {
@@ -3429,7 +3429,7 @@
     },
 	{
       "name": "-爱豆-",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.aidouer.net/?url=",
       "ext": {
         "header": {
@@ -3705,7 +3705,7 @@
     },
     {
       "name": "线路1",
-      "type": 0,
+       "type": 1,
       "url": "https://www.yemu.xyz/?url=",
       "ext": {
         "flag": [
@@ -3732,7 +3732,7 @@
     },
     {
       "name": "线路2",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.xmflv.com/?url=",
       "ext": {
         "header": {
@@ -3742,7 +3742,7 @@
     },
     {
       "name": "线路3",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.quankan.app/?url=",
       "ext": {
         "header": {
@@ -3778,7 +3778,7 @@
     },
     {
       "name": "白胡子解析",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.xmflv.com/?url="
     },
     {
@@ -3907,7 +3907,7 @@
   "type": 1, "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="},  
      {
       "name": "晨光解析",
-      "type": 0,
+       "type": 1,
       "url": "https://www.cgdyw.net/jiexi/jiexi-gf/?url=",
       "ext": {
         "flag": [
@@ -4272,22 +4272,22 @@
     
     {
       "name": "嗅探1",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.haokantv.cyou/player/?url="
     },
     {
       "name": "嗅探2",
-      "type": 0,
+       "type": 1,
       "url": "http://bfqjc.xwyxpw.cn/?url="
     },
     {
       "name": "嗅探3",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.jsonplayer.com/player/?url="
     },
     {
       "name": "嗅探4",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.4kdv.com/?url=",
       "ext": {
         "header": {
@@ -4318,7 +4318,7 @@
     },
     {
       "name": "嗅探5",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.ppjbk.cn/?url=",
       "ext": {
         "header": {
@@ -4328,7 +4328,7 @@
     },
     {
       "name": "嗅探6",
-      "type": 0,
+       "type": 1,
       "url": "http://www.miaoys.cc/vip/?url="
     }
   ],
