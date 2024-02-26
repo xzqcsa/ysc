@@ -269,7 +269,13 @@
 		"timeout":60, 
 		"ext":"./XYQTVBox/tokenm3.json$$$./XYQTVBox/quarkshare.txt"
 		},
-	
+	{"key":"咳咳",
+     "name":"🔥可可影视🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"./lib/可可影视.json"
+      },	
 		
 	{"key":"4K",
      "name":"🔥4K4K影视🔥",
