@@ -26,32 +26,31 @@
       "ext": "./lib/live.json"
     },
 	{
-      "key": "Yingtantv",
-      "name": "🔥影探🔥",
-	  "jar": "./影探王二小放牛娃.jar",
-      "type": 3,
-      "api": "csp_Yingtantv",
-      "searchable": 1,
-      "changeable": 0
-    },
-	{
-            "key": "布蕾",
-            "name": "🔥布蕾TV🔥",
+            "key": "飞云",
+            "name": "🔥飞云🔥",
             "type": 3,
-            "api": "csp_Lvdou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "playerType": 1,
+            "api": "./lib/appysv2.js",
             "ext": {
-                "server": "http://38.12.25.109:158/api.php/app/",
-                "mackey": "weZtRbfJDgzyvHiG|YLdoqhUccdDmEPQU",
-                "parsekey": "mupfinBA986icmAZ|eV7YDmhgzThSiR1s",
-                "parseurl": "https://maya.x3322.net/api/index?parsesId=5&parsesUrl="
-            },
-            "jar": "./lib/PandaQ240219.jar"
+                "host": "http://122.228.84.103:5821/api.php/app/",
+                "*": [
+                    "http://122.228.84.103:7777/api/?key=lEoJRrX01Drg8Of5aA&url="
+                ]
+            }
         },
+	
+	    
+        
+    {
+      "key": "zhibo",
+      "name": "🔥斗鱼直播🔥",
+      "playerType": 2,
+	   "jar": "./lib/tudou.jar",
+      "type": 3,
+      "api": "csp_JustLive",
+      "searchable": 1,
+      "changeable": 1
+    },
+    
 
 	{
       "key": "业余采集A",
@@ -2904,7 +2903,7 @@
     },
 	{
             "name": "后来1",
-            "type": 0,
+            "type": 1,
             "url": "https://jx.kemi.lol:2087/api/?key=fQ1A2zqeiyaowu0V0U&url="
         }, {
             "name": "巧技",
@@ -2941,6 +2940,72 @@
                 ]
             }
         },
+	        {
+            "name": "亿视云",
+            "type": 1,
+            "url": "http://122.228.84.103:7777/api/?key=lEoJRrX01Drg8Of5aA&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "tucheng",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "yzm",
+                    "aliyun",
+                    "RJuMao",
+                    "bilibili",
+                    "1905",
+                    "xinvip",
+                    "XAL",
+                    "qiqi",
+                    "XALS",
+                    "YuMi-vip"
+                ]
+            }
+        },
+		{
+      "name": "-云解析-",
+       "type": 1,
+      "url": "https://jx.yparse.com/index.php?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+	   {
+      "name": "-全看-",
+       "type": 1,
+      "url": "https://jx.quankan.app/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+	{
+      "name": "-爱豆-",
+       "type": 1,
+      "url": "https://jx.aidouer.net/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
+          "referer": "https://jiejie.uk/"
+        }
+      }
+    },
       {
       "name": "青春",
       "type": 1,
@@ -3041,7 +3106,7 @@
       "type": 1,
       "url": "http://yh.xn--yi7aa.top:3977/home/api?type=ys&uid=23519&key=deghilnpszBCDHLM48&url="
     },
-			{"name":"777","type":0,"url":"https://jx.777jiexi.com/player/?url="},
+			{"name":"777","type":1,"url":"https://jx.777jiexi.com/player/?url="},
     {
       "name": "发财🌾",
       "type": 1,
@@ -3321,7 +3386,7 @@
     },
     {
       "name": "线路1",
-      "type": 0,
+      "type": 1,
       "url": "https://www.yemu.xyz/?url=",
       "ext": {
         "flag": [
@@ -3348,7 +3413,7 @@
     },
     {
       "name": "线路2",
-      "type": 0,
+      "type": 1,
       "url": "https://jx.xmflv.com/?url=",
       "ext": {
         "header": {
@@ -3358,7 +3423,7 @@
     },
     {
       "name": "线路3",
-      "type": 0,
+      "type": 1,
       "url": "https://jx.quankan.app/?url=",
       "ext": {
         "header": {
@@ -3394,7 +3459,7 @@
     },
     {
       "name": "白胡子解析",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.xmflv.com/?url="
     },
 {
@@ -3519,7 +3584,7 @@
   "type": 1, "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="},  
      {
       "name": "晨光解析",
-      "type": 0,
+       "type": 1,
       "url": "https://www.cgdyw.net/jiexi/jiexi-gf/?url=",
       "ext": {
         "flag": [
@@ -3884,22 +3949,22 @@
     
     {
       "name": "嗅探1",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.haokantv.cyou/player/?url="
     },
     {
       "name": "嗅探2",
-      "type": 0,
+       "type": 1,
       "url": "http://bfqjc.xwyxpw.cn/?url="
     },
     {
       "name": "嗅探3",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.jsonplayer.com/player/?url="
     },
     {
       "name": "嗅探4",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.4kdv.com/?url=",
       "ext": {
         "header": {
@@ -3930,7 +3995,7 @@
     },
     {
       "name": "嗅探5",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.ppjbk.cn/?url=",
       "ext": {
         "header": {
@@ -3940,7 +4005,7 @@
     },
     {
       "name": "嗅探6",
-      "type": 0,
+       "type": 1,
       "url": "http://www.miaoys.cc/vip/?url="
     }
   ],

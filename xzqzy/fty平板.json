@@ -51,6 +51,41 @@
                 "ratio": 1.43
             }
         },
+		{
+            "key": "飞云",
+            "name": "🔥飞云🔥",
+            "type": 3,
+            "api": "./lib/appysv2.js",
+            "ext": {
+                "host": "http://122.228.84.103:5821/api.php/app/",
+                "*": [
+                    "http://122.228.84.103:7777/api/?key=lEoJRrX01Drg8Of5aA&url="
+                ]
+            }
+        },
+		    
+       
+    {
+      "key": "zhibo",
+      "name": "🔥斗鱼直播🔥",
+      "playerType": 2,
+	   "jar": "./lib/tudou.jar",
+      "type": 3,
+      "api": "csp_JustLive",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "qiusai",
+      "name": "🔥球赛直播🔥",
+      "playerType": 2,
+	   "jar": "./lib/tudou.jar",
+      "type": 3,
+      "api": "csp_Kanqiu",
+      "searchable": 1,
+      "changeable": 1
+    },
+
 		
 		{"key":"🔥Zhuiyitv",
 		"name":"🔥追忆PG🔥",
@@ -437,25 +472,6 @@
 	
 	
 	
-	{"key":"晴天",
-     "name":"🔥晴天影院🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.qinttv.com/qtyy/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
-      "分类": "电影$dianying#电视剧$dianshiju#动漫$dongmna#综艺$zongyi"}},
-	
-	
-	{"key":"河马",
-     "name":"🔥河马影院🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.hemaha.com/tags/{cateId}-{area}-------{catePg}---{year}.html",
-      "分类": "电影$1#电视剧$2#综艺$4#动漫$3"}},
-	
-	
-	
 	
 	
 	
@@ -472,14 +488,6 @@
 	  "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.libhd.com/vodshow/{cateId}-{area}----------{year}.html",
-      "分类": "电影$1#剧集$2#动漫$4#综艺$3"}},
-	  
-	  {"key":"看他",
-     "name":"🔥看他影院🔥",
-     "type":3,"api":"csp_XBPQ",
-	  "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://kanta.vip/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
       "分类": "电影$1#剧集$2#动漫$4#综艺$3"}},
 	 
 	 
@@ -514,13 +522,7 @@
       "ext":{"分类url": "https://www.lyys8.com/list/{cateId}-{area}-------{catePg}---{year}.html",
       "分类": "电影$movie#剧集$tv#动漫$cartoon"}},
 	  
-	  
-	  {"key":"大米",
-     "name":"🔥大米星球🔥",
-     "type":3,"api":"csp_XBPQ",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.damit.vip/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
-      "分类": "电影$20#电视剧$21#综艺$23#动漫$22"}},
+	 
 	  
 	 
 	 
@@ -549,21 +551,7 @@
       "ext":{"分类url": "https://auete.pro/{cateId}/index{catePg}.html[https://auete.pro/{cateId}/index.html];;k","搜索url":"https://auete.pro/search.php?searchword=?wd={wd}",
       "分类": "电影$Movie#连续剧$Tv#综艺$Zy#动漫$Dm"}},
 	  
-	  {"key":"气味",
-     "name":"🔥七味影院🔥",
-     "type":3,"api":"csp_XBPQ",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.pkmp4.xyz/ms/{cateId}-{area}-------{catePg}---{year}.html",
-      "分类": "电影$1#剧集$2#综艺$3#动漫$4"}},
-	  
-	 {"key":"艾丹",
-     "name":"🔥艾丹影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.lovedan.net/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
-      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
-	  
+	
 	   {"key":"金曼",
      "name":"🔥金曼影视🔥",
      "type":3,"api":"csp_XBPQ",
@@ -691,44 +679,8 @@
 			"playerType": "1",
 			"ext": "./lib/qinian.json"
 		},
-	{"key":"PANSHI",
-	"name":"🔥无限影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.wxtv.net/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
-	  
-      "分类": "少儿$shaoer#电影$dianying#电视剧$lianxuju#综艺$zongyi#动漫$dongman#Bilibili$Bilibili"}},
 	
-	{"key":"极速",
-	"name":"🔥极速影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.jisu000.com/vod-list-id-{cateId}-pg-{catePg}.html",
-	  "搜索url": "https://www.jisu000.com/index.php?m=vod-search&wd={wd}",
-      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
-	  
-	{"key":"番茄",
-	"name":"🔥番茄影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "http://www.dkxin.com/vodshow/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
-      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
 	
-		
-		{
-			"key": "徕米影视",
-			"name": "🔥徕米影视🔥",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 0,
-			"playerType": "1",
-			"ext": "./lib/laimi.json"
-		},
 	
 		  {
       "key": "csp_freeok11",
@@ -783,30 +735,7 @@
       
     
 
-{"key":"348K",
-     "name":"🔥348影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.348z.com/vodshow/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-      "分类": "4K$37#电影$1#连续剧$2#综艺$3#动漫$4"}},
-	  
-	  {"key":"139",
-     "name":"🔥139影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.139ys.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
-      "分类": "电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$dongman"}},
-	  
-	  {"key":"539",
-     "name":"🔥吼吼影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://hoho.tv/show/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
-      "分类": "超清4K$53#电影$1#连续剧$2#综艺$3#动漫$4"}},
-	  
+
 	  {"key":"纽约",
      "name":"🔥纽约影视🔥",
      "type":3,"api":"csp_XBPQ",
@@ -3257,6 +3186,37 @@
         }
       }
     },
+	{
+      "name": "-云解析-",
+       "type": 1,
+      "url": "https://jx.yparse.com/index.php?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+	   {
+      "name": "-全看-",
+       "type": 1,
+      "url": "https://jx.quankan.app/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+        }
+      }
+    },
+	{
+      "name": "-爱豆-",
+       "type": 1,
+      "url": "https://jx.aidouer.net/?url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36",
+          "referer": "https://jiejie.uk/"
+        }
+      }
+    },
       {
       "name": "青春",
       "type": 1,
@@ -3307,12 +3267,47 @@
     },
 	{
             "name": "后来1",
-            "type": 0,
+            "type": 1,
             "url": "https://jx.kemi.lol:2087/api/?key=fQ1A2zqeiyaowu0V0U&url="
         }, {
             "name": "巧技",
             "type": 1,
             "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "tucheng",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "yzm",
+                    "aliyun",
+                    "RJuMao",
+                    "bilibili",
+                    "1905",
+                    "xinvip",
+                    "XAL",
+                    "qiqi",
+                    "XALS",
+                    "YuMi-vip"
+                ]
+            }
+        },
+	        {
+            "name": "亿视云",
+            "type": 1,
+            "url": "http://122.228.84.103:7777/api/?key=lEoJRrX01Drg8Of5aA&url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -3402,7 +3397,7 @@
       "type": 1,
       "url": "http://yh.xn--yi7aa.top:3977/home/api?type=ys&uid=23519&key=deghilnpszBCDHLM48&url="
     },
-			{"name":"777","type":0,"url":"https://jx.777jiexi.com/player/?url="},
+			{"name":"777","type":1,"url":"https://jx.777jiexi.com/player/?url="},
     {
       "name": "发财🌾",
       "type": 1,
@@ -3682,7 +3677,7 @@
     },
     {
       "name": "线路1",
-      "type": 0,
+       "type": 1,
       "url": "https://www.yemu.xyz/?url=",
       "ext": {
         "flag": [
@@ -3709,7 +3704,7 @@
     },
     {
       "name": "线路2",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.xmflv.com/?url=",
       "ext": {
         "header": {
@@ -3719,7 +3714,7 @@
     },
     {
       "name": "线路3",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.quankan.app/?url=",
       "ext": {
         "header": {
@@ -3755,7 +3750,7 @@
     },
     {
       "name": "白胡子解析",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.xmflv.com/?url="
     },
     {
@@ -3884,7 +3879,7 @@
   "type": 1, "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="},  
      {
       "name": "晨光解析",
-      "type": 0,
+       "type": 1,
       "url": "https://www.cgdyw.net/jiexi/jiexi-gf/?url=",
       "ext": {
         "flag": [
@@ -4249,22 +4244,22 @@
     
     {
       "name": "嗅探1",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.haokantv.cyou/player/?url="
     },
     {
       "name": "嗅探2",
-      "type": 0,
+       "type": 1,
       "url": "http://bfqjc.xwyxpw.cn/?url="
     },
     {
       "name": "嗅探3",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.jsonplayer.com/player/?url="
     },
     {
       "name": "嗅探4",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.4kdv.com/?url=",
       "ext": {
         "header": {
@@ -4295,7 +4290,7 @@
     },
     {
       "name": "嗅探5",
-      "type": 0,
+       "type": 1,
       "url": "https://jx.ppjbk.cn/?url=",
       "ext": {
         "header": {
@@ -4305,7 +4300,7 @@
     },
     {
       "name": "嗅探6",
-      "type": 0,
+       "type": 1,
       "url": "http://www.miaoys.cc/vip/?url="
     }
   ],
