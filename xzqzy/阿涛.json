@@ -37,7 +37,15 @@
       "api": "csp_JustLive",
       "searchable": 1,
       "changeable": 1
-    },
+    },{
+            "key": "Fangniu4k",
+            "name": "🇨🇳放牛·4k",
+            "type": 3,
+            "api": "csp_Fangniu4k",
+            "searchable": 1,
+            "changeable": 0,
+            "jar": "./lib/fangniu.jar"
+        },
     {
       "key": "qiusai",
       "name": "🔥球赛直播🔥",
