@@ -72,32 +72,23 @@
 		"timeout":30, 
 		"ext":"$$$./lib/yt.json$$$1"},
 	{
-      "key": "Buleitv222",
-      "name": "💯布蕾┃TV┃App",
+      "key": "宇宙",
+      "name": "🔥宇宙4K自营🔥",
       "type": 3,
-	  "jar": "http://47.108.190.141/wx/yydf/txt/zhuiyi.txt",
-      "api": "csp_Buleitv",
-      "searchable": 1,
-      "changeable": 0
+      "api": "csp_LvDou",
+	  "jar": "./lib/pg.jar",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "playerType": 1,
+      "ext": {
+        "server": "http://ds1.yuzhoukeji.top/api.php/app/",
+        "mackey": "btC11NMbhWho2LsL|vZfPqkHE71Epi167",
+        "danmu": true
+      }
     },
-	{
-      "key": "Yingtantv22",
-      "name": "💯影探┃TV┃App",
-      "type": 3,
-	  "jar": "http://47.108.190.141/wx/yydf/txt/zhuiyi.txt",
-      "api": "csp_Yingtantv2",
-      "searchable": 1,
-      "changeable": 0
-    },
-  {
-      "key": "Zhuiyitv11",
-      "name": "💯追忆┃TV┃App",
-	  "jar": "http://47.108.190.141/wx/yydf/txt/zhuiyi.txt",
-      "type": 3,
-      "api": "csp_Zhuiyitv",
-      "searchable": 1,
-      "changeable": 0
-    },
+	
 	{"key":"Yingtantv11",
 	"name":"🔥影探PG🔥",
 	"type":3,
