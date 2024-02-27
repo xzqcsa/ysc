@@ -203,16 +203,7 @@
       "timeout": 30,
       "ext": "./XYQTVBox/tokenm3.json$$$https://aliz.lvdoui.top$$$null$$$1$$$./pg/lib/wogg.json"
     },
-	  {
-      "key": "酷看11",
-      "name": "🔥酷看🔥",
-      "type": 3,
-      "api": "csp_Kkys",
-	  "jar": "./fty24.2.5.jar;md5;c3e8c08b4cd6f7fd0f868ea48dd42cb2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
+	 
 	 {"key":"bili",
    "name":"🔥哔哩 | 大会员🔥",
    "type":3,
@@ -292,12 +283,7 @@
 		"timeout":60, 
 		"ext":"./XYQTVBox/tokenm3.json$$$./XYQTVBox/quarkshare.txt"
 		},
-	{"key":"咳咳444",
-     "name":"🔥可可电影🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"./lib/可可影视.json"},	
+	
 		
 	{"key":"4K",
      "name":"🔥4K4K影视🔥",
