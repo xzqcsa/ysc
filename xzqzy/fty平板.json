@@ -130,7 +130,7 @@
       "timeout": 30,
       "playerType": 1,
       "ext": {
-        "server": "http://ds2.yuzhoukeji.top/api.php/app/",
+        "server": "http://toudongxidegou.yuzhoukeji.top",
         "mackey": "toudongxidegou88|qunimagebishagou",
         "danmu": true
       }
