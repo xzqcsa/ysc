@@ -13,7 +13,22 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
-	
+	{
+            "key": "SambaShare",
+            "name": "🔥局域网共享🔥",
+            "type": 3,
+			"jar": "./lib/pg电脑共享.jar",
+            "style": {
+                "type": "list"
+            },
+            "api": "csp_SambaShare",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./XYQTVBox/tokenm3.json$$$./XYQTVBox/sambashare.txt"
+        },
 	{
             "key": "网盘配置",
             "name": "🔥网盘及彈幕配置🔥",
