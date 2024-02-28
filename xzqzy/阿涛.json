@@ -1028,7 +1028,13 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
-	
+	{"key":"YunSo1122",
+		"name":"🔍小云搜索🔍",
+		"jar": "./lib/pg.jar",
+		"type":3,"api":"csp_YunSo",
+		"quickSearch":1, "changeable":1,
+		"filterable":1, "timeout":30,
+		"ext":"./lib/阿涛tokenm.json$$$https://www.yunso.net$$$null$$$1"},
 {
       "key":"七味",
       "name":"🔍七味搜索🔍",

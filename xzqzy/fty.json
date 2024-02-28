@@ -48,8 +48,8 @@
       "timeout": 30,
       "playerType": 1,
       "ext": {
-        "server": "http://goulanzi.yuzhoukeji.top/api.php/app/",
-        "mackey": "toudongxidegou88|qunimagebishabib",
+        "server": "http://goulanzi.yuzhoukeji.top/api.php",
+        "mackey": "toudongxidegou88|qunimagebishabi9",
         "danmu": true
       }
     },
@@ -1491,7 +1491,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 30,
-            "ext": "./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$QianFanID=he83pasl1feec27megalopbzkjhn0vho; _ga_6Z94VT54DV=GS1.1.1708754167.2.1.1708754188.0.0.0"
+            "ext": "./lib/tokenm.json$$$https://pan.qianfan.app$$$null$$$QianFanID=he83pasl1feec27megalopbzkjhn0vho;_ga_6Z94VT54DV=GS1.1.1708754167.2.1.1708754188.0.0.0$$$1"
         },
 		{"key":"YunPanOne",
 		"name":"🔍云盘资源|网盘🔍",
@@ -1749,6 +1749,13 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
+	{"key":"YunSo1122",
+		"name":"🔍小云搜索🔍",
+		"jar": "./lib/pg.jar",
+		"type":3,"api":"csp_YunSo",
+		"quickSearch":1, "changeable":1,
+		"filterable":1, "timeout":30,
+		"ext":"./lib/tokenm.json$$$https://www.yunso.net$$$null$$$1"},
 {
       "key": "csp_search_Panda_pansearch",
       "name": "🔍盘搜┃网盘🔍",
