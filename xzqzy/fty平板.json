@@ -1545,6 +1545,13 @@
 			 "jar": "./lib/pg.jar",
             "ext": "./lib/tokenm1.json"
         },
+		{"key":"YunSo1122",
+		"name":"🔍小云搜索🔍",
+		"jar": "./lib/pg.jar",
+		"type":3,"api":"csp_YunSo",
+		"quickSearch":1, "changeable":1,
+		"filterable":1, "timeout":30,
+		"ext":"./lib/tokenm1.json$$$https://www.yunso.net$$$null$$$1"},
 		{"key":"Dovx",
 		"name": "🔍阿里|Dovx🔍",
 		"type": 3, 
