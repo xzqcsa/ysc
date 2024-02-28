@@ -1,1 +1,1 @@
-﻿ADMIN:305306@192.168.36.88/D 电影 0 updated_at DESC
+﻿Admin:305306@192.168.36.88/D 电影 0 updated_at DESC
