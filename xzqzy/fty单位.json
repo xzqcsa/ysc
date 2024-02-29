@@ -53,7 +53,7 @@
       "searchable": 0,
       "changeable": 0,
       "ext": "./lib/live.json"
-    }, {
+    },{
       "key": "Yinyuetai",
      "name": "🛰音悦台┃音乐┃MV",
 	   "jar": "./lib/放牛娃.jar",
@@ -61,7 +61,12 @@
       "api": "csp_Yinyuetai",
       "searchable": 1,
       "changeable": 0
-    },
+    },{
+            "key": "xyyy",
+            "name": "🎙旺强音乐",
+            "type": 4,
+            "api": "https://catbox.n13.club/wy.php"
+        },
 	{
       "key": "业余采集A",
       "name": "🔥业余自营🔥 ",
@@ -147,7 +152,7 @@
       "changeable": 1
     },{
             "key": "Fangniu4k",
-            "name": "🇨🇳放牛·4k",
+           "name": "🇨🇳放牛·4k", "jar": "./lib/放牛娃.jar",
             "type": 3,
 			"quickSearch":1,
             "api": "csp_Fangniu4k",
