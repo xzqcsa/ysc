@@ -78,13 +78,13 @@
       "changeable": 1
     },{
             "key": "Fangniu4k",
-           "name": "🇨🇳放牛·4k", "jar": "./lib/放牛娃.jar",
+           "name": "🇨🇳放牛·4k",
             "type": 3,
-			"quickSearch":1,
             "api": "csp_Fangniu4k",
+			"quickSearch":1,
             "searchable": 1,
             "changeable": 0,
-            "jar": "./lib/fangniu.jar"
+             "jar": "./lib/放牛娃.jar",
         },
     {
       "key": "qiusai",
