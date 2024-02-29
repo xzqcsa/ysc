@@ -53,6 +53,14 @@
       "searchable": 0,
       "changeable": 0,
       "ext": "./lib/live.json"
+    }, {
+      "key": "Yinyuetai",
+     "name": "🛰音悦台┃音乐┃MV",
+	   "jar": "./lib/放牛娃.jar",
+      "type": 3,
+      "api": "csp_Yinyuetai",
+      "searchable": 1,
+      "changeable": 0
     },
 	{
       "key": "业余采集A",
