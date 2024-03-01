@@ -26,7 +26,15 @@
             }
         },
 		
-	    
+	     {
+			"key": "天天",
+			"name": "🔥天天🔥",
+			"type": 3,
+			"jar": "./lib/pg.jar",
+			"api": "csp_TTian",
+			"playerType": 1,
+			"ext": "http://op.ysdqjs.cn$$$null$$$1"
+		},	
       
     {
       "key": "zhibo",
