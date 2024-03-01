@@ -53,7 +53,7 @@
 			"quickSearch":1,
             "searchable": 1,
             "changeable": 0,
-             "jar": "./lib/放牛娃.jar",
+             "jar": "./lib/放牛娃1.jar",
         },
     {
       "key": "qiusai",
@@ -80,7 +80,7 @@
     },{
       "key": "Yinyuetai",
      "name": "🛰音悦台┃音乐┃MV",
-	   "jar": "./lib/放牛娃.jar",
+	   "jar": "./lib/放牛娃1.jar",
       "type": 3,
       "api": "csp_Yinyuetai",
       "searchable": 1,
