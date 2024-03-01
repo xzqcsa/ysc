@@ -49,6 +49,25 @@
                 ]
             }
         },
+		{
+			"key": "天天",
+			"name": "🔥天天🔥",
+			"type": 3,
+			"jar": "./lib/pg.jar",
+			"api": "csp_TTian",
+			"playerType": 1,
+			"ext": "http://op.ysdqjs.cn$$$null$$$1"
+		},	
+	    
+		{"key":"美剧迷",
+		"name":"🔥美剧迷🔥",
+		"type":3,"api":"csp_Meijumi",
+		"quickSearch":1,
+		"jar": "./lib/pg.jar",
+		"changeable":1,
+		"filterable":1, 
+		"timeout":60,
+		"ext":"./lib/tokenm.json$$$https://www.meijumi.xyz/$$$null$$$1"},
 	    {
       "key": "宇宙",
       "name": "🔥宇宙4K自营🔥",
