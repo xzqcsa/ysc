@@ -50,6 +50,15 @@
             }
         },
 		{
+			"key": "追剧",
+			"name": "🔥追剧┃App🔥",
+			"jar": "./lib/pg.jar",
+			"type": 3,
+			"api": "csp_TTian",
+			"playerType": 1,
+			"ext": "http://app.kzjtv.com$$$null$$$1"
+		},
+		{
 			"key": "天天",
 			"name": "🔥天天🔥",
 			"type": 3,
@@ -497,15 +506,7 @@
 		
 		
 		 
-		{
-            "key": "ZYJK111", 
-            "name": "🔥多线路🔥", 
-            "type": 1, 
-            "api": "http://film.benmx.com/api.php/tvbox", 
-            "searchable": 1, 
-            "quickSearch": 1, 
-            "filterable": 1
-        }, 
+		
 		{"key":"开心",
      "name":"🔥开心影院🔥",
      "type":3,"api":"csp_XBPQ",
@@ -822,35 +823,8 @@
                 "分类url": "https://www.nkvod.com/show/{cateId}--------{catePg}---{year}.html"
             }
         },
-	 {
-      "key": "纯净资源",
-      "name": "🔥微信独享🔥",
-      "type": 1,
-      "api": "http://540734621.xyz/api.php/provide/vod/",
-      "playerType": 2,
-	   "jar": "./yydf24.1.2.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "短剧",
-        
-        "电影",
-        "电视剧",
-        "动漫",
-        "综艺",
-        "记录片"
-      ]
-    },
-	 {
-      "key": "短劇22",
-      "name": "🔥️|短劇🔥",
-      "type": 3,
-	  "jar": "./yydf24.1.2.jar",
-      "api": "csp_Duanju",
-      "searchable": 1,
-      "changeable": 0
-    },
+	
+	
 {
             "key": "Wobg999",
             "name": "🔥玩偶表哥🔥",
