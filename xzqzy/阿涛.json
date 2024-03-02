@@ -14,6 +14,13 @@
       "ext": "./lib/Doubanrebo.js"
     },
 	{
+            "key": "drpy_js_影探",
+            "name": "🔥影探4K🔥",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/影探.js"
+        },
+	{
             "key": "飞云",
             "name": "🔥飞云🔥",
             "type": 3,

@@ -96,16 +96,13 @@
         "体育"
       ]
     },
-	 {
-      "key": "酷看11",
-      "name": "🔥酷看🔥",
-      "type": 3,
-      "api": "csp_Kkys",
-	  "jar": "./fty24.2.5.jar;md5;c3e8c08b4cd6f7fd0f868ea48dd42cb2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
+	{
+            "key": "drpy_js_影探",
+            "name": "🔥影探4K🔥",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/影探.js"
+        },
 	
 	 {"key":"bili",
    "name":"🔥哔哩 | 大会员🔥",
