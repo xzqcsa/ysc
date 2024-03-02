@@ -39,7 +39,21 @@
       "searchable": 0,
       "changeable": 0,
       "ext": "./lib/live.json"
-    },{
+    },
+	{
+            "key": "drpy_js_影探",
+            "name": "🔥影探4K🔥",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/影探.js"
+        },
+		{"key": "咕噜",
+		"name": " 🔥宇宙四线🔥",
+		"type": 3,
+		"api": "csp_Movie2",
+		"ext": "./lib/Movie5.json",
+		"jar": "./lib/wyog.jar"},
+	{
       "key": "Yinyuetai",
      "name": "🛰音悦台┃音乐┃MV",
 	   "jar": "./lib/放牛娃1.jar",
