@@ -103,16 +103,7 @@
 			"playerType": 1,
 			"ext": "http://app.kzjtv.com$$$null$$$1"
 		},
-		{
-			"key": "蝴蝶",
-			"name": "🔥蝴蝶┃App🔥",
-			"type": 3,
-			"jar": "./lib/pg.jar",
-			"api": "csp_Hudie",
-			"searchable":0,
-			"playerType": 2,
-			"ext": "https://yundun-hdsign.zhuifeng100.cn|kT2taP|75f7fac7f56d812d1f9ce89d9f312984|b7688bd6347da0b2b62515b0730b872b$$$null$$$1"
-		},
+		
 		 {
 			"key": "天天",
 			"name": "🔥天天🔥",
@@ -200,7 +191,7 @@
       "playerType": 1,
       "ext": {
         "server": "http://goulanzi.yuzhoukeji.top/api.php/app/",
-        "mackey": "toudongxidegou88|qunimagebisha559",
+        "mackey": "toudongxidegou88|qunimagebisha857",
         "danmu": true
       }
     },
@@ -554,16 +545,7 @@
 	 
 		
 		
-		 
-		{
-            "key": "ZYJK111", 
-            "name": "🔥多线路🔥", 
-            "type": 1, 
-            "api": "http://film.benmx.com/api.php/tvbox", 
-            "searchable": 1, 
-            "quickSearch": 1, 
-            "filterable": 1
-        }, 
+		
 		{"key":"开心",
      "name":"🔥开心影院🔥",
      "type":3,"api":"csp_XBPQ",
@@ -578,14 +560,7 @@
       "分类": "电影$Movie#连续剧$Tv#综艺$Zy#动漫$Dm"}},
 	  
 	
-	   {"key":"金曼",
-     "name":"🔥金曼影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://jinmantv.com/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
-	 
+	  
 	  
 	 
 	 
@@ -900,15 +875,7 @@
             }
         },
 	
-	 {
-      "key": "短劇22",
-      "name": "🔥️|短劇🔥",
-      "type": 3,
-	  "jar": "./yydf24.1.2.jar",
-      "api": "csp_Duanju",
-      "searchable": 1,
-      "changeable": 0
-    },
+	 
 {
             "key": "Wobg999",
             "name": "🔥玩偶表哥🔥",
@@ -1168,22 +1135,7 @@
             ]
         },
       
-    {"key": "自建",
-     "name": "🦊Uku采集",
-     "type": 1,
-     "api": " https://api.ukuapi.com/api.php/provide/vod/",
-     
-     "searchable": 1,"quickSearch": 0,"filterable": 1,
-	
-     "categories":
-      ["动漫","国产剧","动作片","科幻片",
-      "战争片","喜剧片","动漫电影",
-      "综艺","犯罪片","剧情片",
-      "冒险片","奇幻片",
-      "韩剧",
-     "欧美剧"
    
-      ]},
        {
             "key": "业A",
             "name": "🔥新浪采集🔥 ",
