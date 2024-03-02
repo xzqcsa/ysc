@@ -47,12 +47,7 @@
             "api": "./lib/drpy2.min.js",
             "ext": "./lib/影探.js"
         },
-		{"key": "咕噜",
-		"name": " 🔥宇宙四线🔥",
-		"type": 3,
-		"api": "csp_Movie2",
-		"ext": "./lib/Movie5.json",
-		"jar": "./lib/wyog.jar"},
+		
 	{
       "key": "Yinyuetai",
      "name": "🛰音悦台┃音乐┃MV",
@@ -61,7 +56,8 @@
       "api": "csp_Yinyuetai",
       "searchable": 1,
       "changeable": 0
-    },{
+    },
+	{
             "key": "xyyy",
             "name": "🎙旺强音乐",
             "type": 4,
