@@ -90,7 +90,26 @@
     },
 	
 	    
-	 {
+	{
+			"key": "追剧",
+			"name": "🔥追剧┃App🔥",
+			"jar": "./lib/pg.jar",
+			"type": 3,
+			"api": "csp_TTian",
+			"playerType": 1,
+			"ext": "http://app.kzjtv.com$$$null$$$1"
+		},
+		{
+			"key": "蝴蝶",
+			"name": "🔥蝴蝶┃App🔥",
+			"type": 3,
+			"jar": "./lib/pg.jar",
+			"api": "csp_Hudie",
+			"searchable":0,
+			"playerType": 2,
+			"ext": "https://yundun-hdsign.zhuifeng100.cn|kT2taP|75f7fac7f56d812d1f9ce89d9f312984|b7688bd6347da0b2b62515b0730b872b$$$null$$$1"
+		},
+		 {
 			"key": "天天",
 			"name": "🔥天天🔥",
 			"type": 3,
@@ -133,7 +152,7 @@
       "playerType": 1,
       "ext": {
         "server": "http://goulanzi.yuzhoukeji.top/api.php/app/",
-        "mackey": "toudongxidegou88|qunimagebisha855",
+        "mackey": "toudongxidegou88|qunimagebisha559",
         "danmu": true
       }
     },
@@ -304,7 +323,7 @@
 		"changeable":1, 
 		"filterable":0, 
 		"timeout":60,
-		"ext":"./XYQTVBox/tokenm3.json$$$./XYQTVBox/alishare.txt"
+		"ext":"./XYQTVBox/tokenm3.json$$$./XYQTVBox/alishare.txt$$$db$$$1"
 		},
 	  {"key":"ThunderShare",
 	  "name":"🔥迅雷云盘分享🔥",

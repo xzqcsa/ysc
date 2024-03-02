@@ -81,7 +81,7 @@
       "playerType": 1,
       "ext": {
         "server": "http://goulanzi.yuzhoukeji.top/api.php/app/",
-        "mackey": "toudongxidegou88|qunimagebisha855",
+        "mackey": "toudongxidegou88|qunimagebisha559",
         "danmu": true
       }
     },
@@ -263,7 +263,7 @@
 		"changeable":1, 
 		"filterable":0, 
 		"timeout":60,
-		"ext":"./XYQTVBox/tokenm.json$$$./XYQTVBox/alishare.txt"
+		"ext":"./XYQTVBox/tokenm.json$$$./XYQTVBox/alishare.txt$$$db$$$1"
 		},
 	  {"key":"ThunderShare",
 	  "name":"🔥迅雷云盘分享🔥",
