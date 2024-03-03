@@ -329,12 +329,7 @@
       "timeout": 30,
       "ext": "./XYQTVBox/tokenm.json$$$https://aliz.lvdoui.top$$$null$$$1$$$./pg/lib/wogg.json"
     },
-     "name":"🔥4K4K影视🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://4k4k.live/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
-      "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},	
+     	
 	  
 	  {"key":"789K",
      "name":"🔥789影视🔥",
