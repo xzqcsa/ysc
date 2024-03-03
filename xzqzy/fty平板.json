@@ -91,6 +91,13 @@
                 "ratio": 1.43
             }
         },
+		{"key":"NOVIP",
+     "name":"🔥NOVIP影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.novipnoad.net/{cateId}/{cateId}.html",
+      "分类": "电影$movie#剧集$tv#动画$anime"}}, 
 		{
             "key": "飞云",
             "name": "🔥飞云🔥",
@@ -103,7 +110,14 @@
                 ]
             }
         },
-		
+		{
+            "key": "云2",
+            "name": "🔥梦影🔥",
+            "type": 3,
+            "api": "csp_Movie2",
+            "jar": "./lib/mengying.txt",
+            "ext": "./lib/Movie5.txt"
+        },
 		{
 			"key": "追剧",
 			"name": "🔥追剧┃App🔥",
@@ -128,7 +142,7 @@
 		"name":"🔥美剧迷🔥",
 		"type":3,"api":"csp_Meijumi",
 		"quickSearch":1,
-		"jar": "./lib/pg美剧迷.jar",
+		"jar": "./lib/pg.jar",
 		"changeable":1,
 		"filterable":1, 
 		"timeout":60,
@@ -1598,7 +1612,13 @@
 	  "jar": "./lib/pg24.10.26.jar",
 	  "timeout":30,
 	  "ext":"./lib/tokenm1.json"},
-        
+        {"key":"易搜",
+		"name":"🔍易搜|网盘🔍",
+		"type":3,
+		"jar": "./lib/pg.jar",
+		"api":"csp_YiSo",
+		"timeout":60,
+		"ext":"./lib/tokenm1.json$$$./XYQTVBox/yiso.txt"},
       
         {
             "key": "QuarkPanso",
