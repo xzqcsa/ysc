@@ -95,7 +95,15 @@
             "type": 3,
             "api": "./lib/drpy2.min.js",
             "ext": "./lib/影探.js"
-        },  
+        },
+	{
+            "key": "云2",
+            "name": "🔥梦影🔥",
+            "type": 3,
+            "api": "csp_Movie2",
+            "jar": "./lib/jar.php",
+            "ext": "./lib/Movie5.txt"
+        },		
 	{
 			"key": "追剧",
 			"name": "🔥追剧┃App🔥",
@@ -1905,6 +1913,13 @@
 		"jar": "./lib/pg.jar",
 		"ext":"./lib/tokenm3.json"
 		},
+		 {"key":"易搜",
+		"name":"🔍易搜|网盘🔍",
+		"type":3,
+		"jar": "./lib/pg.jar",
+		"api":"csp_YiSo",
+		"timeout":60,
+		"ext":"./lib/tokenm3.json$$$./XYQTVBox/yiso.txt"},
         {
             "key": "DaPanSo",
             "name": "🔍大盘|网盘🔍",

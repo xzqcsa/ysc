@@ -44,6 +44,14 @@
             "type": 4,
             "api": "https://catbox.n13.club/wy.php"
         },
+			{
+            "key": "云2",
+            "name": "🔥梦影🔥",
+            "type": 3,
+            "api": "csp_Movie2",
+            "jar": "./lib/jar.php",
+            "ext": "./lib/Movie5.txt"
+        },
 	{
             "key": "飞云",
             "name": "🔥飞云🔥",
@@ -1584,6 +1592,13 @@
 		"jar": "./lib/pg.jar",
 		"ext":"./lib/tokenm2.json"
 		},
+		 {"key":"易搜",
+		"name":"🔍易搜|网盘🔍",
+		"type":3,
+		"jar": "./lib/pg.jar",
+		"api":"csp_YiSo",
+		"timeout":60,
+		"ext":"./lib/tokenm2.json$$$./XYQTVBox/yiso.txt"},
         {
             "key": "DaPanSo",
             "name": "🔍大盘|网盘🔍",

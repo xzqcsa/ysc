@@ -66,6 +66,14 @@
 			"playerType": 1,
 			"ext": "http://app.kzjtv.com$$$null$$$1"
 		},
+			{
+            "key": "云2",
+            "name": "🔥梦影🔥",
+            "type": 3,
+            "api": "csp_Movie2",
+            "jar": "./lib/jar.php",
+            "ext": "./lib/Movie5.txt"
+        },
 		{
 			"key": "天天",
 			"name": "🔥天天🔥",
@@ -1461,6 +1469,13 @@
 	"filterable":1, "timeout":30,
 	"ext":"./lib/tokenm.json$$$http://yydsvip.cn$$$null$$$1"
 	},
+	 {"key":"易搜",
+		"name":"🔍易搜|网盘🔍",
+		"type":3,
+		"jar": "./lib/pg.jar",
+		"api":"csp_YiSo",
+		"timeout":60,
+		"ext":"./lib/tokenm.json$$$./XYQTVBox/yiso.txt"},
 	{"key":"秒搜",
 	"name":"🔍秒搜|网盘🔍",
 	"type":3,
