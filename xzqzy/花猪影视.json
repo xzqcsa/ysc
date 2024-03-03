@@ -14,6 +14,14 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
+		{
+            "key": "云2",
+            "name": "🔥梦影🔥",
+            "type": 3,
+            "api": "csp_Movie2",
+            "jar": "./lib/jar.php",
+            "ext": "./lib/Movie5.txt"
+        },
 	{
 			"key": "天天",
 			"name": "🔥天天🔥",
