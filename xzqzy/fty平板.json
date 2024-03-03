@@ -91,13 +91,7 @@
                 "ratio": 1.43
             }
         },
-		{"key":"NOVIP",
-     "name":"🔥NOVIP影院🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.novipnoad.net/{cateId}/{cateId}.html",
-      "分类": "电影$movie#剧集$tv#动画$anime"}}, 
+		
 		{
             "key": "飞云",
             "name": "🔥飞云🔥",
@@ -115,7 +109,7 @@
             "name": "🔥梦影🔥",
             "type": 3,
             "api": "csp_Movie2",
-            "jar": "./lib/mengying.txt",
+            "jar": "./lib/jar.php",
             "ext": "./lib/Movie5.txt"
         },
 		{
