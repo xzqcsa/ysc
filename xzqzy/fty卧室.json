@@ -30,6 +30,17 @@
 		"filterable":1,
 		"timeout":60, 
 		"ext":"./lib/tokenm2.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json"},
+		{
+            "key": "飘雪影院",
+            "name": "🔥飘雪影院🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+			"jar":"./lib/Yoursmile1.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "分类url": "http://www.cityzc.net/vodshow/{cateId}--{by}---B---{catePg}---.html[]"}},
 	{
       "key": "csp_yydflive-2",
       "name": "💞电视电台",
