@@ -40,7 +40,16 @@
                 ]
             }
         },
-		
+		{"key":"Moli",
+		"name":"🔥HDmoli|网盘🔥",
+		"type":3,
+		"jar": "./lib/pg.jar",
+		"api":"csp_Moli",
+		"quickSearch":1, 
+		"changeable":1, 
+		"filterable":1,
+		"timeout":60, 
+		"ext":"./lib/阿涛tokenm.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json"},
 	    {
 			"key": "追剧",
 			"name": "🔥追剧┃App🔥",

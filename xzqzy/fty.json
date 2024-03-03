@@ -31,6 +31,16 @@
             "api": "./lib/drpy2.min.js",
             "ext": "./lib/影探.js"
         },
+		{"key":"Moli",
+		"name":"🔥HDmoli|网盘🔥",
+		"type":3,
+		"jar": "./lib/pg.jar",
+		"api":"csp_Moli",
+		"quickSearch":1, 
+		"changeable":1, 
+		"filterable":1,
+		"timeout":60, 
+		"ext":"./lib/tokenm.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json"},
 	{
       "key": "Yinyuetai",
      "name": "🛰音悦台┃音乐┃MV",

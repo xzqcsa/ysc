@@ -43,6 +43,16 @@
             },
             "ext": "./XYQTVBox/tokenm3.json"
         },
+		{"key":"Moli",
+		"name":"🔥HDmoli|网盘🔥",
+		"type":3,
+		"jar": "./lib/pg.jar",
+		"api":"csp_Moli",
+		"quickSearch":1, 
+		"changeable":1, 
+		"filterable":1,
+		"timeout":60, 
+		"ext":"./lib/tokenm3.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json"},
 	{
       "key": "csp_yydflive-2",
       "name": "💞电视电台",
