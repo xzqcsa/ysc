@@ -25,6 +25,18 @@
       "ext": "./lib/live.json"
     },
 	{
+            "key": "好的MO",
+            "name": "🔥HDMOI影院🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+			"jar":"./lib/Yoursmile1.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "分类url": "https://www.hdmoli.pro/mlist/index{cateId}.html",
+				"分类": "电影$1#剧集$2#动画$41"}},
+	{
       "key": "Iktv",
       "jar": "./lib/放牛.jar","name": "🛰KTV┃音乐┃MV",
       "type": 3,

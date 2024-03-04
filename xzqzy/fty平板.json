@@ -14,6 +14,33 @@
       "ext": "./lib/Doubanrebo.js"
     },
 	{
+            "key": "网盘配置",
+            "name": "🔥网盘及彈幕配置🔥",
+            "type": 3,
+            "api": "csp_Config",
+			"jar": "./lib/pg.jar",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "ext": "./XYQTVBox/tokenm1.json"
+        },
+		{
+            "key": "配置中心11",
+            "name": "👨‍🍳‍配置中心",
+            "type": 3,
+			 "jar": "./lib/okpng.txt;md5;e4c8798b38e4f49fb859df1f66db0f74",
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.43
+            }
+        },
+	{
       "key": "Iktv",
       "jar": "./lib/放牛.jar","name": "🛰KTV┃音乐┃MV",
       "type": 3,
@@ -127,33 +154,7 @@
             "filterable": 1,
             "ext": {
                 "分类url": "http://www.cityzc.net/vodshow/{cateId}--{by}---B---{catePg}---.html[]"}},
-	{
-            "key": "网盘配置",
-            "name": "🔥网盘及彈幕配置🔥",
-            "type": 3,
-            "api": "csp_Config",
-			"jar": "./lib/pg.jar",
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "ext": "./XYQTVBox/tokenm1.json"
-        },
-		{
-            "key": "配置中心11",
-            "name": "👨‍🍳‍配置中心",
-            "type": 3,
-			 "jar": "./lib/okpng.txt;md5;e4c8798b38e4f49fb859df1f66db0f74",
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.43
-            }
-        },
+	
 		
 		{
             "key": "飞云",
