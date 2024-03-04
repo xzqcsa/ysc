@@ -53,7 +53,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "分类url": "https://www.hdmoli.pro/search.php?page={catePg}&searchtype=5&tid={cateId}&area={area}&year={year}",
+                "分类url": "https://www.hdmoli.pro/{cateId}/index{catePg}.html",
 				"分类": "电影$1#剧集$2#动画$41"}},
 				
 		{
