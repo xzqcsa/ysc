@@ -140,6 +140,8 @@
 			"name": "🔥蝴蝶┃App🔥",
 			"type": 3,
 			"jar": "./lib/pg.jar",
+			"quickSearch":1,
+	 "searchable": 1,
 			"api": "csp_Hudie",
 			"searchable":0,
 			"playerType": 2,
