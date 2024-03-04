@@ -13,7 +13,7 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
-	{
+{
             "key": "网盘配置",
             "name": "🔥网盘及彈幕配置🔥",
             "type": 3,
@@ -42,7 +42,8 @@
         },
 	{
       "key": "Iktv",
-      "jar": "./lib/放牛.jar","name": "🛰KTV┃音乐┃MV",
+     "name": "🛰KTV┃音乐┃MV",
+	  "jar": "./lib/放牛.jar",
       "type": 3,
       "api": "csp_Iktv",
       "searchable": 1,
