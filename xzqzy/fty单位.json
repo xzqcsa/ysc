@@ -44,6 +44,17 @@
             "ext": "./XYQTVBox/tokenm3.json"
         },
 		{
+            "key": "好的MO",
+            "name": "🔥HDMOI影院🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+			"jar":"./lib/Yoursmile1.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "分类url": "https://www.hdmoli.pro/mlist/index{cateId}.html}},
+		{
             "key": "飘雪影院",
             "name": "🔥飘雪影院🔥",
             "type": 3,
