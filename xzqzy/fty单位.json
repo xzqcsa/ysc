@@ -54,6 +54,17 @@
             "filterable": 1,
             "ext": {
                 "分类url": "https://www.hdmoli.pro/mlist/index{cateId}.html"}},
+				{"key":"Moli222",
+		"name":"🔥七味|网盘🔥",
+		"type":3,
+		"jar": "./lib/pg.jar",
+		"api":"csp_Moli",
+		"quickSearch":1,
+	 "searchable": 1,	
+		"changeable":1, 
+		"filterable":1,
+		"timeout":60, 
+		"ext":"./lib/tokenm3.json$$$https://www.pkmp4.xyz/$$$null$$$1$$$./lib/moli.json"},
 		{
             "key": "飘雪影院",
             "name": "🔥飘雪影院🔥",
