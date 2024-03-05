@@ -1611,7 +1611,7 @@
 	  "name":"🔍混合盘|网盘🔍",
 	  "type":3,"api":
 	  "csp_HunHePan",
-	  "jar": "./lib/pg24.10.26.jar",
+	  "jar": "./lib/pg.jar",
 	  "timeout":30,
 	  "ext":"./lib/tokenm1.json"},
         {"key":"易搜",

@@ -13,6 +13,18 @@
 	"quickSearch":0,
 	"filterable":1,
 	"api":"./lib/uukw.js"},
+	 {
+            "key": "DaPanSo11",
+            "name": "🔍我的小站|网盘🔍",
+            "type": 3,
+            "api": "csp_DaPanSo",
+            "quickSearch": 1,
+            "changeable": 1,
+			 "jar": "./lib/pg.jar",
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./lib/tokenm2.json$$$https://pan666.net$$$null$$$1"
+        },
 	{"key":"呀奈非",
      "name":"🔥鸭奈飞影院🔥",
      "type":3,"api":"csp_XBPQ",
@@ -1625,7 +1637,7 @@
 	  "name":"🔍混合盘|网盘🔍",
 	  "type":3,"api":
 	  "csp_HunHePan",
-	  "jar": "./lib/pg24.10.26.jar",
+	  "jar": "./lib/pg.jar",
 	  "timeout":30,
 	  "ext":"./lib/tokenm2.json"},
         
