@@ -239,28 +239,9 @@
     },
 
 		
-		{"key":"🔥Zhuiyitv",
-		"name":"🔥追忆PG🔥",
-		"type":3,
-		"api":"csp_Zhuiyitv",
-		"jar": "./lib/pg.jar",
-		"quickSearch":1,
-		"changeable":1, 
-		"filterable":1, 
-		"timeout":30, 
-		"ext":"$$$./lib/yt.json$$$1"},
 		
 		
-	{"key":"Yingtantv11",
-	"name":"🔥影探PG🔥",
-	"type":3,
-	"jar": "./lib/pg.jar",
-	"api":"csp_Yingtantv",
-	"quickSearch":1,
-	"changeable":1,
-	"filterable":1,
-	"timeout":30, 
-	"ext":"$$$./lib/yt.json$$$1"},
+	
    
 	{
       "key": "宇宙",
@@ -282,22 +263,7 @@
 	
 	
 
-        {
-            "key": "玩偶弹幕版11",
-            "name": "🔥玩偶哥哥OK版🔥",
-            "type": 3,
-            "api": "csp_Wogg",
-			 "jar": "./lib/okpng.txt;md5;e4c8798b38e4f49fb859df1f66db0f74",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-                "wogg": true,
-                "danmu": true
-            },
-            "timeout": 25
-        },
+      
 		{
       "key": "厂长弹幕版",
       "name": "🔥厂长|弹幕🔥",
@@ -488,16 +454,7 @@
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.7k789.com/vod-show-area-{area}-id-{cateId}-page-{catePg}-year-{year}.html",
       "分类": "电影$1#剧集$2#综艺$3#动漫$4"}},
-	  {"key":"Ys23",
-	  "name":"🔥影视23🔥",
-	  "type":3,
-	  "api":"csp_Ys23",
-	  "jar": "./lib/pg.jar",
-	  "quickSearch":1,
-	  "changeable":1,
-	  "filterable":1, 
-	  "timeout":30
-	  },
+	 
 	   
 	  
 	   {"key":"阿布",
@@ -922,17 +879,7 @@
             "timeout": 30,
             "ext": "./lib/tokenm1.json$$$null$$$1"
         },
-		{
-			"key": "新6V111",
-			"name": "🔥新6V|磁力🔥",
-			"type": 3,
-			"api": "csp_Xb6v",
-			"jar": "./lib/pg.jar",
-			"searchable": 1,
-			"changeable": 1,
-			"timeout": 60,
-			"ext": "./lib/tokenm1.json$$$https://www.66ss.org$$$null$$$1"
-		},
+		
 		{
       "key": "Libvio",
       "name": "🔥LIBVIO|影视专用🔥",
@@ -945,20 +892,7 @@
       "timeout": 30,
       "ext": "./lib/tokenm1.json$$$https://www.libvio.fun$$$null"
     },
-{
-            "key": "耐看",
-            "name": "👁耐看┃自建",
-            "type": 3,
-"jar":"./yydf微信独享.jar", 
-            "api": "csp_XBPQ",
-            "ext": {
-                "分类数组": "swiper-wrapper\"*&&</ul>",
-                "线路数组": "data-dropdown-value=&&</div>",
-                "线路标题": "<span>&&</small>[替换:新自建.5>>耐看Ⓐ#新自建>>耐看Ⓑ#自建一>>耐看①#自建二>>耐看②#自建三>>耐看③#自建四>>耐看④#自建五>>耐看⑤#自建三.5>>耐看⓺#腾讯视频>>腾讯#优酷视频>>优酷#奇艺视频>>奇艺#芒果视频>>芒果#暴风资源>>暴风#快看资源>>快看#量子资源>>量子#非凡资源>>非凡#</span><small>>>共]+集",
-                "分类url": "https://www.nkvod.com/show/{cateId}--------{catePg}---{year}.html"
-            }
-        },
-	
+
 	 
 {
             "key": "Wobg999",
@@ -1054,6 +988,7 @@
             "name":"🔥4KHDR|网盘🔥",
             "type": 3,
             "api":"csp_FourKHDR",
+			"searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
 			"jar":"./lib/pg.jar",
@@ -1432,7 +1367,7 @@
    "quickSearch":1,
     "jar": "./fty.jar;md5;b283549a522bd5a164524d7ae4781806",
    "changeable":0,
-   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://wogg.link/$$$弹"},
+   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
     {
       "key": "wogg",
       "name": "🅱️玩偶阿里|T追剧",

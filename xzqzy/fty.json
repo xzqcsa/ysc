@@ -984,6 +984,7 @@
             "name":"🔥4KHDR|网盘🔥",
             "type": 3,
             "api":"csp_FourKHDR",
+			searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
 			"jar":"./lib/pg.jar",
@@ -1363,7 +1364,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://wogg.link/$$$弹"
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"
     },
     {
       "key": "wogg",

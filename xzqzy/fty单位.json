@@ -1946,12 +1946,7 @@
 			 "jar": "./lib/pg.jar",
             "ext": "./lib/tokenm3.json"
         },
-		{"key":"易搜",
-		"name":"🔍易搜|网盘🔍",
-		"type":3,"api":"csp_YiSo",
-		 "jar": "./lib/pg.jar",
-		"timeout":30,
-		"ext":"./lib/tokenm3.json$$$./lib/yiso.txt"},
+		
 		{"key":"PikaSo",
 		"name":"🔍皮卡搜|网盘🔍",
 		"type":3,"api":"csp_PikaSo",
