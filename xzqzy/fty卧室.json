@@ -13,6 +13,13 @@
 	"quickSearch":0,
 	"filterable":1,
 	"api":"./lib/uukw.js"},
+	{"key":"呀奈非",
+     "name":"🔥鸭奈飞影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	  "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.netflixgc.com/vodtype/{cateId}.html",
+      "分类": "电影$1#电视剧$2#动漫$3"}},
 	{
             "key": "好的MO",
             "name": "🔥HDMOI影院🔥",
@@ -27,7 +34,8 @@
 				"分类": "电影$1#剧集$2#动画$41"}},
 	{
       "key": "Iktv",
-      "jar": "./lib/放牛.jar","name": "🛰KTV┃音乐┃MV",
+      "jar": "./lib/放牛.jar",
+	  "name": "🛰KTV┃音乐┃MV",
       "type": 3,
       "api": "csp_Iktv",
       "searchable": 1,
