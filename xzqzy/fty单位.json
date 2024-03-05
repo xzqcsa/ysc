@@ -43,6 +43,13 @@
             },
             "ext": "./XYQTVBox/tokenm3.json"
         },
+		{"key":"呀奈非",
+     "name":"🔥鸭奈飞影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	  "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.netflixgc.com/vodtype/{cateId}.html",
+      "分类": "电影$1#电视剧$2#动漫$3"}},
 		{
             "key": "好的MO",
             "name": "🔥HDMOI影院🔥",
