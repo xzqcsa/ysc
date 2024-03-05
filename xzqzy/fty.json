@@ -1519,6 +1519,18 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
+	 {
+            "key": "DaPanSo11",
+            "name": "🔍我的小站|网盘🔍",
+            "type": 3,
+            "api": "csp_DaPanSo",
+            "quickSearch": 1,
+            "changeable": 1,
+			 "jar": "./lib/pg.jar",
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./lib/tokenm.json$$$https://pan666.net$$$null$$$1"
+        },
 	{"key":"YydsVip",
 	"name":"🔍YYDSVIP|网盘🔍",
 	"type":3,"jar": "./lib/pg24.10.26.jar",
