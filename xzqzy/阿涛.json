@@ -13,6 +13,13 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
+	{"key":"盘友圈",
+	"name":"🔥盘友圈🔥",
+	"type":3,
+	"jar": "./lib/pg.jar",
+	"api":"csp_Panyq",
+	"timeout":60,
+	"ext":"./lib/阿涛tokenm.json"},
 	
 	{"key":"呀奈非",
      "name":"🔥鸭奈飞影院🔥",

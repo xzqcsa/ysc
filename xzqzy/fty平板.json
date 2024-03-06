@@ -47,6 +47,13 @@
                 "ratio": 1.43
             }
         },
+		{"key":"盘友圈",
+	"name":"🔥盘友圈🔥",
+	"type":3,
+	"jar": "./lib/pg.jar",
+	"api":"csp_Panyq",
+	"timeout":60,
+	"ext":"./lib/tokenm1.json"},
 	{
       "key": "Iktv",
      "name": "🛰KTV┃音乐┃MV",

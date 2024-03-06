@@ -13,7 +13,13 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
-	
+	{"key":"盘友圈",
+	"name":"🔥盘友圈🔥",
+	"type":3,
+	"jar": "./lib/pg.jar",
+	"api":"csp_Panyq",
+	"timeout":60,
+	"ext":"./lib/tokenm3.json"},
 	{
             "key": "SambaShare",
             "name": "🔥局域网共享🔥",
