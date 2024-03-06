@@ -2041,7 +2041,7 @@
             "changeable": 1,
 			 "jar": "./lib/pg.jar",
             "filterable": 1,
-            "timeout": 30,
+            "timeout": 60,
             "ext": "./lib/tokenm3.json$$$https://pan666.net$$$null$$$1"
         },
    {
