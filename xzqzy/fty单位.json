@@ -13,13 +13,7 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
-	{"key":"盘友圈",
-	"name":"🔥盘友圈🔥",
-	"type":3,
-	"jar": "./lib/pg.jar",
-	"api":"csp_Panyq",
-	"timeout":60,
-	"ext":"./lib/tokenm3.json"},
+	
 	{
             "key": "SambaShare",
             "name": "🔥局域网共享🔥",
@@ -2203,7 +2197,17 @@
 	 "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.lanhuatv.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
-      "分类": "电影$1#电视剧$222#综艺$3#动漫$4"}},	
+      "分类": "电影$1#电视剧$222#综艺$3#动漫$4"}},
+	 {"key":"盘友圈",
+	"name":"🔍盘友圈🔍",
+	"type":3,
+	"jar": "./lib/pg.jar",
+	"quickSearch":1,
+	"changeable":1, 
+	"filterable":1, 
+	"api":"csp_Panyq",
+	"timeout":60,
+	"ext":"./lib/tokenm3.json"}, 
 	{
       "key":"2555",
       "name":"🔍555影院🔍",
