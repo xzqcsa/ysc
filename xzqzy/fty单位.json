@@ -2206,7 +2206,7 @@
 	"filterable":1, 
 	"api":"csp_Panyq",
 	"timeout":60,
-	"ext":"./lib/tokenm3.json$$$https://panyq.com$$$null$$$1"}, 
+	"ext":"./lib/tokenm3.json"}, 
 	{
       "key":"2555",
       "name":"🔍555影院🔍",
