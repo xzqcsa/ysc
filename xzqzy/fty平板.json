@@ -1673,7 +1673,7 @@
 	"filterable":1, 
 	"api":"csp_Panyq",
 	"timeout":60,
-	"ext":"./lib/tokenm1.json"},
+	"ext":"./lib/tokenm1.json$$$null$$$1"},
 		{
             "key": "Panta",
             "name": "🔍盘Ta|网盘🔍",
