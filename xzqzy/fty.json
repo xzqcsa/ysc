@@ -148,13 +148,7 @@
                 "分类url": "http://www.baipiaoys.cc/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/lang/{lang}/letter/{letter}/year/{year}.html"
             }
         },
-	{
-            "key": "drpy_js_影探",
-            "name": "🔥影探4K🔥",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./lib/影探.js"
-        },
+	
 		{
             "key": "飘雪影院",
             "name": "🔥飘雪影院🔥",
