@@ -171,7 +171,62 @@
 		"filterable":1, 
 		"timeout":60,
 		"ext":"./lib/tokenm2.json$$$https://www.meijumi.xyz/$$$null$$$1"},
-       
+       {
+            "key": "AList16",
+            "name": "🔥AList｜网盘🔥",
+            "type": 3,
+            "api": "csp_AList",
+			"jar": "./lib/pg.jar",
+            "searchable": 1,
+            "recordable": 0,
+            "ext": {
+                "vodPic": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180504/82b2eff6f5bf489e9b4a90fbe9fc7e84.jpeg",
+                "drives": [
+                    {
+                        "name": "小雅",
+                        "server": "http://xiaoya.xlog.cc/",
+                        "startPage": "/",
+                        "showAll": false,
+                        "search": true,
+                        "headers": {
+                            "Authorization": ""
+                        }
+                    },
+                    {
+                        "name": "小雅",
+                        "server": "http://124.71.206.236:5678/",
+                        "startPage": "/",
+                        "showAll": false,
+                        "search": true
+                    },
+					 {
+                        "name": "合集",
+                        "server": "http://cyyn.top:5255/"
+                    },
+					{
+                        "name": "sodaz",
+                        "server": "https://a.sodaz.xyz/"
+                    },
+					 {
+                        "name": "动漫盘",
+                        "server": "http://pan.smjc.cc"
+                    },
+					 {
+                        "name": "皓星繁天",
+                        "server": "https://pan.hxft.xyz/"
+                    },
+					  {
+                        "name": "星梦",
+                        "server": "https://pan.bashroot.top"
+                    },
+					 {
+                        "name": "云影厅",
+                        "server": "https://libilibi.eu.org"
+                    },
+					{
+                        "name": "ECVE",
+                        "server": "https://pan.ecve.cn"
+                    } ]} },
 	
     {
       "key": "zhibo",

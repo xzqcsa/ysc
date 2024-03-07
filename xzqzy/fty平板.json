@@ -266,7 +266,7 @@
 
 	{
             "key": "AList16",
-            "name": "AList｜网盘",
+            "name": "🔥AList｜网盘🔥",
             "type": 3,
             "api": "csp_AList",
 			"jar": "./lib/pg.jar",
@@ -292,6 +292,34 @@
                         "showAll": false,
                         "search": true
                     },
+					 {
+                        "name": "合集",
+                        "server": "http://cyyn.top:5255/"
+                    },
+					{
+                        "name": "sodaz",
+                        "server": "https://a.sodaz.xyz/"
+                    },
+					 {
+                        "name": "动漫盘",
+                        "server": "http://pan.smjc.cc"
+                    },
+					 {
+                        "name": "皓星繁天",
+                        "server": "https://pan.hxft.xyz/"
+                    },
+					  {
+                        "name": "星梦",
+                        "server": "https://pan.bashroot.top"
+                    },
+					 {
+                        "name": "云影厅",
+                        "server": "https://libilibi.eu.org"
+                    },
+					{
+                        "name": "ECVE",
+                        "server": "https://pan.ecve.cn"
+                    },
                     {
                         "name": "小鸭",
                         "server": "http://shicheng.wang:555/",
@@ -311,18 +339,12 @@
                         "name": "Applehub心动",
                         "server": "https://app.applehub.cn/"
                     },
-                    {
-                        "name": "云影厅",
-                        "server": "https://libilibi.eu.org"
-                    },
+                   
                     {
                         "name": "路灯",
                         "server": "https://pan.eqishare.com/"
                     },
-                    {
-                        "name": "arley",
-                        "server": "https://pan.arley.cn/zh-CN/"
-                    },
+                   
                     {
                         "name": "久违",
                         "server": "https://pan.jweiy.cn/"
@@ -343,10 +365,7 @@
                         "name": "一楼没太阳",
                         "server": "https://pan.ylmty.cc/"
                     },
-                    {
-                        "name": "电喵大战皮卡丘",
-                        "server": "https://pan.110014.xyz/"
-                    },
+                   
                     {
                         "name": "登拜科技",
                         "server": "https://wp.ioshh.com/"
@@ -363,10 +382,7 @@
                         "name": "太阳云盘",
                         "server": "http://www.teyonds.com/"
                     },
-                    {
-                        "name": "合集",
-                        "server": "http://cyyn.top:5255/"
-                    },
+                   
                     {
                         "name": "函树",
                         "server": "https://alist.echs.top/"
@@ -387,10 +403,7 @@
                         "name": "讯维云盘",
                         "server": "https://pan.xwbeta.com"
                     },
-                    {
-                        "name": "sodaz",
-                        "server": "https://a.sodaz.xyz/"
-                    },
+                   
                     {
                         "name": "小新盘",
                         "server": "https://pan.cdnxin.top/"
@@ -403,14 +416,8 @@
                         "name": "目瞪口呆",
                         "server": "https://pan.mdgd.cc/"
                     },
-                    {
-                        "name": "动漫盘",
-                        "server": "http://pan.smjc.cc"
-                    },
-                    {
-                        "name": "皓星繁天",
-                        "server": "https://pan.hxft.xyz/"
-                    },
+                    
+                   
                     {
                         "name": "微资·随意盘",
                         "server": "https://apps.weixinqqq.com/"
@@ -419,22 +426,9 @@
                         "name": "ASMR",
                         "server": "https://www.asmrgay.com/"
                     },
-                    {
-                        "name": "ECVE",
-                        "server": "https://pan.ecve.cn"
-                    },
-                    {
-                        "name": "星梦",
-                        "server": "https://pan.bashroot.top"
-                    },
-                    {
-                        "name": "小岛的幻想乡",
-                        "server": "https://pan.t-satoru.top/"
-                    },
-                    {
-                        "name": "姬路白雪",
-                        "server": "https://pan.jlbx.xyz"
-                    },
+                    
+                  
+                  
                     {
                         "name": "罗汉果AV",
                         "server": "http://我艹.退学.com:55153"
