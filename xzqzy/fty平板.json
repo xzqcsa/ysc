@@ -45,7 +45,7 @@
 	{
       "key": "Iktv",
      "name": "🛰KTV┃音乐┃MV",
-	  "jar": "./lib/放牛.jar",
+	  "jar": "./lib/放牛1.jar",
       "type": 3,
       "api": "csp_Iktv",
       "searchable": 1,
@@ -147,7 +147,7 @@
 	{
       "key": "Yinyuetai",
      "name": "🛰音悦台┃音乐┃MV",
-	   "jar": "./lib/放牛娃1.jar",
+	   "jar": "./lib/放牛1.jar",
       "type": 3,
       "api": "csp_Yinyuetai",
       "searchable": 1,
@@ -251,7 +251,7 @@
 			"quickSearch":1,
             "searchable": 1,
             "changeable": 0,
-             "jar": "./lib/放牛娃1.jar"
+             "jar": "./lib/放牛1.jar"
         },
     {
       "key": "qiusai",
