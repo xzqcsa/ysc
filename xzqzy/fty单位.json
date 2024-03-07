@@ -80,6 +80,198 @@
             "ext": {
                 "分类url": "https://www.hdmoli.pro/mlist/index{cateId}.html",
 				"分类": "电影$1#剧集$2#动画$41"}},
+				{
+            "key": "AList16",
+            "name": "AList｜网盘",
+            "type": 3,
+            "api": "csp_AList",
+			"jar": "./lib/pg.jar",
+            "searchable": 1,
+            "recordable": 0,
+            "ext": {
+                "vodPic": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180504/82b2eff6f5bf489e9b4a90fbe9fc7e84.jpeg",
+                "drives": [
+                    {
+                        "name": "小雅",
+                        "server": "http://xiaoya.xlog.cc/",
+                        "startPage": "/",
+                        "showAll": false,
+                        "search": true,
+                        "headers": {
+                            "Authorization": ""
+                        }
+                    },
+                    {
+                        "name": "小雅",
+                        "server": "http://124.71.206.236:5678/",
+                        "startPage": "/",
+                        "showAll": false,
+                        "search": true
+                    },
+                    {
+                        "name": "小鸭",
+                        "server": "http://shicheng.wang:555/",
+                        "startPage": "/",
+                        "showAll": false,
+                        "search": true
+                    },
+                    {
+                        "name": "HTA AList",
+                        "server": "http://test.hta.ink/"
+                    },
+                    {
+                        "name": "七米藍",
+                        "server": "https://al.chirmyram.com"
+                    },
+                    {
+                        "name": "Applehub心动",
+                        "server": "https://app.applehub.cn/"
+                    },
+                    {
+                        "name": "云影厅",
+                        "server": "https://libilibi.eu.org"
+                    },
+                    {
+                        "name": "路灯",
+                        "server": "https://pan.eqishare.com/"
+                    },
+                    {
+                        "name": "arley",
+                        "server": "https://pan.arley.cn/zh-CN/"
+                    },
+                    {
+                        "name": "久违",
+                        "server": "https://pan.jweiy.cn/"
+                    },
+                    {
+                        "name": "希望",
+                        "server": "https://pan.xiwangly.top/"
+                    },
+                    {
+                        "name": "薄荷",
+                        "server": "https://alist.6bohe.com/"
+                    },
+                    {
+                        "name": "嘻哈",
+                        "server": "https://share.acreson.cn/"
+                    },
+                    {
+                        "name": "一楼没太阳",
+                        "server": "https://pan.ylmty.cc/"
+                    },
+                    {
+                        "name": "电喵大战皮卡丘",
+                        "server": "https://pan.110014.xyz/"
+                    },
+                    {
+                        "name": "登拜科技",
+                        "server": "https://wp.ioshh.com/"
+                    },
+                    {
+                        "name": "枭木",
+                        "server": "https://pan.tmxios.top/"
+                    },
+                    {
+                        "name": "Totoro Cloud",
+                        "server": "https://s3.776161.xyz/"
+                    },
+                    {
+                        "name": "太阳云盘",
+                        "server": "http://www.teyonds.com/"
+                    },
+                    {
+                        "name": "合集",
+                        "server": "http://cyyn.top:5255/"
+                    },
+                    {
+                        "name": "函树",
+                        "server": "https://alist.echs.top/"
+                    },
+                    {
+                        "name": "梓澪の妙妙屋",
+                        "server": "https://zi0.cc/"
+                    },
+                    {
+                        "name": "追番",
+                        "server": "https://zhuifan.link"
+                    },
+                    {
+                        "name": "神族九帝",
+                        "server": "https://alist.shenzjd.com"
+                    },
+                    {
+                        "name": "讯维云盘",
+                        "server": "https://pan.xwbeta.com"
+                    },
+                    {
+                        "name": "sodaz",
+                        "server": "https://a.sodaz.xyz/"
+                    },
+                    {
+                        "name": "小新盘",
+                        "server": "https://pan.cdnxin.top/"
+                    },
+                    {
+                        "name": "鹏程",
+                        "server": "https://pan.pengcheng.team/"
+                    },
+                    {
+                        "name": "目瞪口呆",
+                        "server": "https://pan.mdgd.cc/"
+                    },
+                    {
+                        "name": "动漫盘",
+                        "server": "http://pan.smjc.cc"
+                    },
+                    {
+                        "name": "皓星繁天",
+                        "server": "https://pan.hxft.xyz/"
+                    },
+                    {
+                        "name": "微资·随意盘",
+                        "server": "https://apps.weixinqqq.com/"
+                    },
+                    {
+                        "name": "ASMR",
+                        "server": "https://www.asmrgay.com/"
+                    },
+                    {
+                        "name": "ECVE",
+                        "server": "https://pan.ecve.cn"
+                    },
+                    {
+                        "name": "星梦",
+                        "server": "https://pan.bashroot.top"
+                    },
+                    {
+                        "name": "小岛的幻想乡",
+                        "server": "https://pan.t-satoru.top/"
+                    },
+                    {
+                        "name": "姬路白雪",
+                        "server": "https://pan.jlbx.xyz"
+                    },
+                    {
+                        "name": "罗汉果AV",
+                        "server": "http://我艹.退学.com:55153"
+                    },
+                    {
+                        "name": "9T",
+                        "server": "https://drive.upan.ee",
+                        "params": [
+                            {
+                                "path": "/OneDrive",
+                                "pass": "upan"
+                            },
+                            {
+                                "path": "/115Cloud",
+                                "pass": "upan"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },	
 		{
       "key": "Iktv",
       "jar": "./lib/放牛1.jar",
@@ -248,23 +440,7 @@
 		"filterable":1, 
 		"timeout":30, 
 		"ext":"$$$./lib/yt.json$$$1"},
-	{
-      "key": "宇宙",
-      "name": "🔥宇宙4K自营🔥",
-      "type": 3,
-      "api": "csp_LvDou",
-	  "jar": "./lib/pg.jar",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "playerType": 1,
-      "ext": {
-        "server": "http://goulanzi.yuzhoukeji.top/api.php/app/",
-        "mackey": "toudongxidegou88|qunimagebisha857",
-        "danmu": true
-      }
-    },
+	
 	
 	{"key":"Yingtantv11",
 	"name":"🔥影探PG🔥",

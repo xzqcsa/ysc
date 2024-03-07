@@ -181,23 +181,7 @@
 		"filterable":1, 
 		"timeout":60,
 		"ext":"./lib/tokenm.json$$$https://www.meijumi.xyz/$$$null$$$1"},
-	    {
-      "key": "宇宙",
-      "name": "🔥宇宙4K自营🔥",
-      "type": 3,
-      "api": "csp_LvDou",
-	  "jar": "./lib/pg.jar",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "playerType": 1,
-      "ext": {
-        "server": "http://goulanzi.yuzhoukeji.top/api.php/app/",
-        "mackey": "toudongxidegou88|qunimagebisha857",
-        "danmu": true
-      }
-    },
+	    
 	
     {
       "key": "zhibo",
