@@ -72,7 +72,20 @@
       "ext": "./lib1/lf_live1.txt"
     },
    
-   
+   {
+            "key": "Taohuazu",
+            "name": "桃花族",
+            "type": 3,
+			"jar": "./lib1/pg桃花.jar",
+            "api": "csp_Taohuazu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "http://thze.cc"
+        },
+
     {
       "key": "Cable",
       "name": "CableAV",
