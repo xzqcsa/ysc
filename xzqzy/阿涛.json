@@ -24,6 +24,13 @@
       "changeable": 0,
       "ext": true
     },
+	{"key":"农民影视",
+     "name":"🔥农民影视🔥",
+     "type":3,"api":"csp_XBPQ",
+	  "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://v.nmvod.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class--year-{year}-letter--area-{area}-lang-.html",
+      "分类": "短剧$26#电影$1#连续剧$2#动漫$4"}},
 	{
             "key": "AList16",
             "name": "🔥AList｜网盘🔥",
