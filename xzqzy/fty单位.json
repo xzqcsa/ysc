@@ -51,6 +51,18 @@
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://v.nmvod.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class--year-{year}-letter--area-{area}-lang-.html","搜索url":"https://v.emsdn.cn/index.php?m=vod-search",
       "分类": "短剧$26#电影$1#连续剧$2#动漫$4"}},
+	  {
+			"key": "短剧",
+			"name": "🔥短剧侠🔥",
+			"type": 3,
+			"jar":"./lib/Yoursmile1.jar",
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "./lib/短剧侠.json"
+		},
+
 		{
       "key": "T4-yinyuetai",
       "name": "🔥音悦台🔥",
