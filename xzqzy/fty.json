@@ -24,6 +24,17 @@
       "ext": true
     },
 	{
+      "key": "T4-yinyuetai",
+      "name": "🔥音悦台🔥",
+      "type": 4,
+      "api": "https://catbox.n13.club/yyt.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": true
+    },
+	{
             "key": "AList16",
             "name": "🔥AList｜网盘🔥",
             "type": 3,

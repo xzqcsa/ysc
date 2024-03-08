@@ -49,6 +49,17 @@
             "ext": {
                 "分类url": "https://www.hdmoli.pro/mlist/index{cateId}.html",
 				"分类": "电影$1#剧集$2#动画$41"}},
+				{
+      "key": "T4-yinyuetai",
+      "name": "🔥音悦台🔥",
+      "type": 4,
+      "api": "https://catbox.n13.club/yyt.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": true
+    },
 	{
       "key": "Iktv",
       "jar": "./lib/放牛1.jar",
