@@ -4,13 +4,15 @@
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
  {
-      "key": "豆豆",
-      "name": "🔥VIP影视🔥",
-      "type": 3,
-      "api": "csp_DouDou",
+      "key":"豆豆",
+      "name":"🔥VIP影院2024.3.8更新🔥",
+     "type": 3,
+     "api": "./lib/Api.js",
       "searchable": 0,
+	  "indexs": 1,
       "quickSearch": 0,
-      "filterable": 0
+      "filterable": 0,
+      "ext": "./lib/Doubanrebo.js"
     },
 	 {
       "key": "zhibo",
