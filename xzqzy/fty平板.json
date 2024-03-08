@@ -1749,6 +1749,16 @@
       },
       "timeout": 15
     },
+	{"key":"Xpanpan",
+	"name":"🔍小盘盘|网盘🔍",
+	"type":3,
+	"api":"csp_Xpanpan",
+	"jar": "./lib/pg.jar",
+	"quickSearch":1, 
+	"changeable":1, 
+	"filterable":1,
+	"timeout":60, 
+	"ext":"./lib/tokenm1.json$$$https://xpanpan.site$$$null$$$1"},
 	 {
             "key": "Funletu",
             "name": "🔍趣盘搜|夸克🔍",

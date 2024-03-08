@@ -1329,6 +1329,16 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
     },
+	{"key":"Xpanpan",
+	"name":"🔍小盘盘|网盘🔍",
+	"type":3,
+	"api":"csp_Xpanpan",
+	"jar": "./lib/pg.jar",
+	"quickSearch":1, 
+	"changeable":1, 
+	"filterable":1,
+	"timeout":60, 
+	"ext":"./lib/阿涛tokenm.json$$$https://xpanpan.site$$$null$$$1"},
 {
       "key":"爱看剧",
       "name":"🔍爱看剧搜索🔍",
