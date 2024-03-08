@@ -88,6 +88,17 @@
                         "name": "ECVE",
                         "server": "https://pan.ecve.cn"
                     } ]} },
+					  {
+			"key": "短剧",
+			"name": "🔥短剧侠🔥",
+			"type": 3,
+			"jar":"./lib/Yoursmile1.jar",
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "./lib/短剧侠.json"
+		},
 	 { "key": "T4-360",
       "name": "🔥360影视大全🔥",
       "type": 4,

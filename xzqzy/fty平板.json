@@ -77,6 +77,17 @@
       "changeable": 0,
       "ext": true
     },
+	  {
+			"key": "短剧",
+			"name": "🔥短剧侠🔥",
+			"type": 3,
+			"jar":"./lib/Yoursmile1.jar",
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "./lib/短剧侠.json"
+		},
 {"key":"底肥",
      "name":"🔥滴黑影院🔥",
      "type":3,"api":"csp_XBPQ",
