@@ -76,7 +76,7 @@
             "key": "Taohuazu",
             "name": "桃花族",
             "type": 3,
-			"jar": "./lib1/pg桃花.jar",
+			
             "api": "csp_Taohuazu",
             "searchable": 1,
             "quickSearch": 1,
@@ -85,7 +85,14 @@
             "timeout": 60,
             "ext": "http://thze.cc"
         },
-
+{
+      "key": "av188",
+      "name": "🔞Netflav",
+      "type": 3,
+      "api": "csp_Netflav",
+      "searchable": 1,
+      "changeable": 0 
+    },
     {
       "key": "Cable",
       "name": "CableAV",
