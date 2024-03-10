@@ -3636,6 +3636,20 @@
         }
       }
     },
+	{   "name": "影探A",
+	"type": 1, 
+	"url": "https://api.qljson.xyz/api/?key=e2df45a25abbdfe95bb28de1e751285f&url=",
+	"ext": {        "flag": [          "qq",          "腾讯",          "qiyi",          "爱奇艺",          "奇艺",          "youku",          "优酷",          "sohu",          "搜狐",          "letv",          "乐视",          "mgtv",          "芒果",          "rx",          "ltnb",          "bilibili",          "1905",          "xigua"        ]      }    },  
+  
+ {      "name": "影探B",      "type": 1,      "url": "https://api.qljson.xyz/api/?key=e2df45a25abbdfe95bb28de1e751285f&url=",      "ext": {        "flag": [          "qq",          "腾讯",          "qiyi",          "爱奇艺",          "奇艺",          "youku",          "优酷",          "sohu",          "搜狐",          "letv",          "乐视",          "mgtv",          "芒果",          "rx",          "ltnb",          "bilibili",          "1905",          "xigua"        ]      }    },   
+  
+
+  {      "name": "影探C",      "type": 1,      "url": "https://json..url88k.cn/api/?format=zl&key=ce252c4a116ff2613202e17e2269c2fb&url=",      "ext": {        "flag": [          "qq",          "腾讯",          "qiyi",          "爱奇艺",          "奇艺",          "youku",          "优酷",          "sohu",          "搜狐",          "letv",          "乐视",          "mgtv",          "芒果",          "rx",          "ltnb",          "bilibili",          "1905",          "xigua"        ]      }    },  
+
+
+
+ 
+ { "name": "影探E",      "type": 1,      "url": "https://mg.zrjx.xyz/?url=",      "ext": {        "flag": [          "qq",          "腾讯",          "qiyi",          "爱奇艺",          "奇艺",          "youku",          "优酷",          "sohu",          "搜狐",          "letv",          "乐视",          "mgtv",          "芒果",          "rx",          "ltnb",          "bilibili",          "1905",          "xigua"        ]      }    },
 	{
             "name": "后来1",
             "type": 1,
