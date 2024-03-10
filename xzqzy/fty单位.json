@@ -74,16 +74,7 @@
       "changeable": 0,
       "ext": true
     },
-	{
-            "key": "csp_CandyMuj_hjtv",
-            "name": "💚韩剧TV",
-            "type": 3,
-            "api": "csp_CandyMuj_hjtv",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./lib/candymuj.jar;md5;bb7b588c9df16c7b9d743cc4763012b2"
-        },
+	
 
 		{"key":"呀奈非",
      "name":"🔥鸭奈飞影院🔥",
