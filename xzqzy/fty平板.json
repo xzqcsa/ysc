@@ -41,8 +41,8 @@
                 "ratio": 1.43
             }
         },
-		{"key":"PushShare",
-		"name":"🔥我的资源分享🔥",
+		{"key":"PushShare4",
+		"name":"🔥电视剧分享🔥",
 		"jar": "./lib/pg.jar",
 		"type":3, 
 		"api":"csp_PushShare",
@@ -51,12 +51,77 @@
 		"changeable":1, 
 		"filterable":0,
 		"timeout":60,
-		"ext":"./lib/tokenm1.json$$$./XYQTVBox/pushshare.txt$$$db$$$1",
+		"ext":"./lib/tokenm1.json$$$./XYQTVBox/pushshare电视剧.txt$$$db$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
+		{"key":"PushShare6",
+		"name":"🔥电影分享🔥",
+		"jar": "./lib/pg.jar",
+		"type":3, 
+		"api":"csp_PushShare",
+		"searchable":1,
+		"quickSearch":1,
+		"changeable":1, 
+		"filterable":0,
+		"timeout":60,
+		"ext":"./lib/tokenm1.json$$$./XYQTVBox/pushshare电影.txt$$$db$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+		{"key":"PushShare1",
+		"name":"🔥磁力分享🔥",
+		"jar": "./lib/pg.jar",
+		"type":3, 
+		"api":"csp_PushShare",
+		"searchable":1,
+		"quickSearch":1,
+		"changeable":1, 
+		"filterable":0,
+		"timeout":60,
+		"ext":"./lib/tokenm1.json$$$./XYQTVBox/pushshare磁力.txt$$$db$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+		{"key":"PushShare2",
+		"name":"🔥短剧分享🔥",
+		"jar": "./lib/pg.jar",
+		"type":3, 
+		"api":"csp_PushShare",
+		"searchable":1,
+		"quickSearch":1,
+		"changeable":1, 
+		"filterable":0,
+		"timeout":60,
+		"ext":"./lib/tokenm1.json$$$./XYQTVBox/pushshare短剧.txt$$$db$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+		{"key":"PushShare3",
+		"name":"🔥动画分享🔥",
+		"jar": "./lib/pg.jar",
+		"type":3, 
+		"api":"csp_PushShare",
+		"searchable":1,
+		"quickSearch":1,
+		"changeable":1, 
+		"filterable":0,
+		"timeout":60,
+		"ext":"./lib/tokenm1.json$$$./XYQTVBox/pushshare动画.txt$$$db$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
+		
 		{
       "key": "T4-yinyuetai",
       "name": "🔥音悦台🔥",
