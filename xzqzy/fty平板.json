@@ -2319,8 +2319,8 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
       "ext": "./lib/小学课堂.json"
     },
@@ -2333,8 +2333,8 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
       "ext": "./lib/初中课堂.json"
     },
@@ -2347,8 +2347,8 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
       "ext": "./lib/高中课堂.json"
     },
