@@ -24,6 +24,12 @@
       "changeable": 0,
       "ext": true
     },
+	{
+            "key": "熊掌",
+            "name": "🔥熊掌┃秒播🔥",
+            "type": 1,
+            "api": "https://xzcjz.com/api.php/provide/vod"
+        },
 	{"key":"农民影视",
      "name":"🔥农民影视🔥",
      "type":3,"api":"csp_XBPQ",

@@ -23,6 +23,12 @@
 	"filterable":1,
 	"changeable":0,
 	"ext":true},
+	{
+            "key": "熊掌",
+            "name": "🔥熊掌┃秒播🔥",
+            "type": 1,
+            "api": "https://xzcjz.com/api.php/provide/vod"
+        },
 	 {
       "key": "zhibo",
       "name": "🔥斗鱼直播🔥",

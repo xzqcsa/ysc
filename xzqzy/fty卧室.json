@@ -103,7 +103,12 @@
 				"ratio": 1.1
 			}
 		},
-
+{
+            "key": "熊掌",
+            "name": "🔥熊掌┃秒播🔥",
+            "type": 1,
+            "api": "https://xzcjz.com/api.php/provide/vod"
+        },
 	{"key":"呀奈非",
      "name":"🔥鸭奈飞影院🔥",
      "type":3,"api":"csp_XBPQ",

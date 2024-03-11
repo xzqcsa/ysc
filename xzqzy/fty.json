@@ -122,6 +122,12 @@
       "ext": true
     },
 	{
+            "key": "熊掌",
+            "name": "🔥熊掌┃秒播🔥",
+            "type": 1,
+            "api": "https://xzcjz.com/api.php/provide/vod"
+        },
+	{
             "key": "AList16",
             "name": "🔥AList｜网盘🔥",
             "type": 3,

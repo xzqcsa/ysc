@@ -121,7 +121,12 @@
 				"ratio": 1.1
 			}
 		},
-		
+		{
+            "key": "熊掌",
+            "name": "🔥熊掌┃秒播🔥",
+            "type": 1,
+            "api": "https://xzcjz.com/api.php/provide/vod"
+        },
 		{
       "key": "T4-yinyuetai",
       "name": "🔥音悦台🔥",

@@ -40,6 +40,12 @@
       "changeable": 0,
       "ext": true
     },
+	{
+            "key": "熊掌",
+            "name": "🔥熊掌┃秒播🔥",
+            "type": 1,
+            "api": "https://xzcjz.com/api.php/provide/vod"
+        },
 	  {
 			"key": "短剧",
 			"name": "🔥短剧侠🔥",
