@@ -126,7 +126,9 @@
 		{
             "key": "熊掌",
             "name": "🔥熊掌┃秒播🔥",
-            "type": 1,
+            "type": 1,"quickSearch":1,
+            "searchable": 1,
+            "changeable": 0,
             "api": "https://xzcjz.com/api.php/provide/vod"
         },
 		{"key":"农民影视",
