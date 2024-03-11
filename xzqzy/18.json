@@ -84,7 +84,7 @@
 	"ext":{
   "vodPic": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180504/82b2eff6f5bf489e9b4a90fbe9fc7e84.jpeg",
   "drives": [
-{"name":"磁力","server":"./lib/tokenm1.json$$$./lib1/1_pushshare.a.txt$$$db$$$1"}
+{"name":"磁力6666","server":"./lib/tokenm1.json$$$./lib1/1_pushshare.a.txt$$$db$$$1"}
 ]}},
 {"key":"PushShare2",
 	"name":"🔥磁力点播资源推送2🔥",
@@ -99,11 +99,11 @@
 	"ext":{
   "vodPic": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180504/82b2eff6f5bf489e9b4a90fbe9fc7e84.jpeg",
   "drives": [
-{"name":"磁力","server":"./lib/tokenm1.json$$$./lib1/pushshare.1.txt$$$db$$$1"}
+{"name":"磁力22","server":"./lib/tokenm1.json$$$./lib1/pushshare.1.txt$$$db$$$1"}
 ]}},
    {"key":"PushShare",
 		"name":"🔥我的资源分享1🔥",
-		"jar": "./lib/pg.jar",
+		"jar": "./lib1/pg.jar",
 		"type":3, 
 		"api":"csp_PushShare",
 		"searchable":1,
@@ -128,7 +128,7 @@
         },
 		 {"key":"PushShare2",
 		"name":"🔥我的资源分享2🔥",
-		"jar": "./lib/pg.jar",
+		"jar": "./lib1/pg.jar",
 		"type":3, 
 		"api":"csp_PushShare",
 		"searchable":1,
