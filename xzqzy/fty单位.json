@@ -164,7 +164,7 @@
 	"ext":true},
 	{"key":"t4_duanju5222",
 	"name":"🔥短剧屋1🔥",
-	"type":4,
+	"type":3,
 	"api":"./lib/duanju5.php",
 	"searchable":1,
 	"quickSearch":1,
