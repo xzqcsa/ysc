@@ -135,6 +135,15 @@
                 "分类url": "http://www.baipiaoys.cc/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/lang/{lang}/letter/{letter}/year/{year}.html"
             }
         },
+		{"key":"t4_duanju5",
+	"name":"🔥短剧屋🔥",
+	"type":4,
+	"api":"https://catbox.n13.club/duanju5.php",
+	"searchable":1,
+	"quickSearch":1,
+	"filterable":1,
+	"changeable":0,
+	"ext":true},
 	{
             "key": "好的MO",
             "name": "🔥HDMOI影院🔥",
