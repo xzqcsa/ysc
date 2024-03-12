@@ -23,6 +23,15 @@
 	"filterable":1,
 	"changeable":0,
 	"ext":true},
+	
+	{"key":"农91",
+     "name":"🔥91短剧🔥",
+     "type":3,"api":"csp_XBPQ",
+	  "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.duse1.com:51111/channel/{cateId}.html","搜索url":"https://www.duse1.com:51111/search?os=pc&k={wd}",
+      "分类": "短剧$6"}},
+	  
 	{"key":"农民影视",
      "name":"🔥农民影视🔥",
      "type":3,"api":"csp_XBPQ",
@@ -40,14 +49,7 @@
       "changeable": 0,
       "ext": true
     },
-	{
-            "key": "熊掌",
-            "name": "🔥熊掌┃秒播🔥",
-            "type": 1,"quickSearch":1,
-            "searchable": 1,
-            "changeable": 0,
-            "api": "https://xzcjz.com/api.php/provide/vod"
-        },
+	
 	  {
 			"key": "短剧",
 			"name": "🔥短剧侠🔥",
