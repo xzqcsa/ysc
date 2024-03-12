@@ -57,6 +57,14 @@
       "ext": "18+",
       "timeout": 60
     },
+	{
+      "key": "91md.me",
+      "name": "🔥18+🔥",
+      "type": 1,
+      "api": "http://91md.me/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
     {
       "key": "lf_js_lf_live",
       "name": "直播",
