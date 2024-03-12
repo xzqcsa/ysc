@@ -150,7 +150,7 @@
      "type":3,"api":"csp_XBPQ",
 	  "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.duse1.com:51111/channel/{cateId}.html","搜索url":"https://www.duse1.com:51111/search?os=pc&k={wd}",
+      "ext":{"分类url": "https://www.duse1.com:51111/channel/{cateId}.html","搜索url":"https://www.duse1.com:51111/search?os=pc&k=",
       "分类": "短剧$6"}},
         
 		{"key":"农民影视",
