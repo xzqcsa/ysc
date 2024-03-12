@@ -126,15 +126,15 @@
 		{
             "key": "熊掌",
             "name": "🔥熊掌┃秒播🔥",
-            "type": 1,"quickSearch":1,
+            "type": 1,             "quickSearch":1,
             "searchable": 1,
             "changeable": 0,
             "api": "https://xzcjz.com/api.php/provide/vod",
 			 "categories": [
-        "动画",
+         "动画",
 		 "电影",
 		 "国产剧",
-		"韩国剧",
+		 "韩国剧",
        
         "连续剧",
         "国产动漫",
