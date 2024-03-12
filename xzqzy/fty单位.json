@@ -129,7 +129,31 @@
             "type": 1,"quickSearch":1,
             "searchable": 1,
             "changeable": 0,
-            "api": "https://xzcjz.com/api.php/provide/vod"
+            "api": "https://xzcjz.com/api.php/provide/vod",
+			 "categories": [
+        "动画",
+		"韩国剧",
+        "电影",
+        "连续剧",
+        "国产动漫",
+        "日本动漫",
+        "国产剧"
+        
+     
+        
+      ]
+    },
+        {
+      "key": "csp_dushe",
+            "name": "🔥91毒舌🔥",
+            "type": 3,
+            "api": "csp_dushe",
+            "playUrl": "https://www.duse1.com:51111/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://www.duse1.com:51111/",
+            "jar":"./lib/摸鱼.jar"
         },
 		{"key":"农民影视",
      "name":"🔥农民影视🔥",
