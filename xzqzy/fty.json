@@ -248,7 +248,15 @@
                 "分类url": "http://www.baipiaoys.cc/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/lang/{lang}/letter/{letter}/year/{year}.html"
             }
         },
-	
+	{"key":"Bt0",
+	"name":"🔍不太灵|磁力🔍",
+	"type":3,"api":"csp_Bt0",
+	"quickSearch":1,
+"jar": "./lib/pg.jar",	
+	"changeable":1,
+	"filterable":1, 
+	"timeout":60, 
+	"ext":"null$$$null$$$1"},
 		{
             "key": "飘雪影院",
             "name": "🔥飘雪影院🔥",

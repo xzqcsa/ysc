@@ -2416,6 +2416,15 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
+	{"key":"Bt0",
+	"name":"🔍不太灵|磁力🔍",
+	"type":3,"api":"csp_Bt0",
+	"quickSearch":1,
+"jar": "./lib/pg.jar",	
+	"changeable":1,
+	"filterable":1, 
+	"timeout":60, 
+	"ext":"null$$$null$$$1"},
    {
       "key": "阿里云集合",
       "name": "🔍阿里云集合🔍",
