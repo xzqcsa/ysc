@@ -18,7 +18,7 @@
      "type":3,"api":"csp_XBPQ",
 	  "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.duse1.com:51111/show/{cateId}------.html",
+      "ext":{"分类url": "https://www.duse1.com:51111/channel/{cateId}.html",
       "分类": "短剧$6#电影$1#连续剧$2#动漫$3"}},
 	  {
       "key": "csp_dushe",
