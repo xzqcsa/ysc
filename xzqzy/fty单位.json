@@ -145,6 +145,13 @@
         
       ]
     },
+	{"key":"旺强影视",
+     "name":"🔥旺强影视🔥",
+     "type":3,"api":"csp_XBPQ",
+	  "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "http://fq1mr6.aini0.top/index.php/vod/show/id/{cateId}/page/{catePg}/year/{year}.html",
+      "分类": "动画片$3#电影$1#连续剧$2#短剧$4#综艺$5#体育$20#"}},
 	{"key":"农91",
      "name":"🔥91短剧🔥",
      "type":3,"api":"csp_XBPQ",
