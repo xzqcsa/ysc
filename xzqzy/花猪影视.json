@@ -2554,7 +2554,7 @@
 		
          {
       "key": "csp_XYQHiker_极影网",
-      "name": "♻️极影网🧲",
+      "name": "♻️极影网🎯",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -2567,7 +2567,7 @@
 
 {
       "key": "csp_BLSGod",
-      "name": "♻️80S影视🧲",
+      "name": "♻️80S影视🎯",
       "type": 3,
       "api": "csp_BLSGod",
       "playerType": 1,
@@ -2677,7 +2677,7 @@
     },
          {
       "key": "csp_xpath_yinfans",
-      "name": "♻️范范4k🧲",
+      "name": "♻️范范4k🎯",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
@@ -2716,8 +2716,8 @@
 
 {"key":"csp_XYQHiker4klg","name":"💅🏻原盘4k","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/中国蓝光网.json","jar" :"./lib/spider.txt;md5;B880BBAD2845D16CFB86CCA0331B2621"},
 {"key":"狐狸","name":"🦊狐狸蓝光","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.kuin.one/api.php/app/" },
-{"key":"csp_Xunlei8","name":"🧲迅雷吧","type":3,"api":"csp_Xunlei8","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"jar":"./lib/83.jar"},
-{"key":"csp_XYQHiker_BT天堂","name":"🧲BT天堂","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/BT天堂.json","jar": "./lib/83.jar"},
+{"key":"csp_Xunlei8","name":"🎯迅雷吧","type":3,"api":"csp_Xunlei8","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"jar":"./lib/83.jar"},
+{"key":"csp_XYQHiker_BT天堂","name":"🎯BT天堂","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/BT天堂.json","jar": "./lib/83.jar"},
 
  {
       "key": "大米星球（APP）",

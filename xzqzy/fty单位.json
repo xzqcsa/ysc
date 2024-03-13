@@ -1,4 +1,4 @@
-﻿ { 
+ { 
   "spider":"./yydf.jar;md5;f362e434223a9b67903f9fe0c1f98c40",
   "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
   "sites": [
@@ -2417,7 +2417,7 @@
       "jar":"./lib/Yoursmile1.jar"
     },
 	{"key":"Bt0",
-	"name":"🧲不太灵|磁力🧲",
+	"name":"🎯不太灵|磁力🎯",
 	"type":3,"api":"csp_Bt0",
 	"quickSearch":1,
 "jar": "./lib/pg.jar",	
@@ -3457,8 +3457,8 @@
 
 {"key":"csp_XYQHiker4klg","name":"💅🏻原盘4k","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/中国蓝光网.json","jar" :"./lib/spider.txt;md5;B880BBAD2845D16CFB86CCA0331B2621"},
 {"key":"狐狸","name":"🦊狐狸蓝光","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.kuin.one/api.php/app/" },
-{"key":"csp_Xunlei8","name":"🧲迅雷吧","type":3,"api":"csp_Xunlei8","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"jar":"./lib/83.jar"},
-{"key":"csp_XYQHiker_BT天堂","name":"🧲BT天堂","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/BT天堂.json","jar": "./lib/83.jar"},
+{"key":"csp_Xunlei8","name":"🎯迅雷吧","type":3,"api":"csp_Xunlei8","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"jar":"./lib/83.jar"},
+{"key":"csp_XYQHiker_BT天堂","name":"🎯BT天堂","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/BT天堂.json","jar": "./lib/83.jar"},
 {"key":"csp_XBPQ_6V","name":"🌙宝盒4K磁力","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/6V磁.json"},
  {
       "key": "大米星球（APP）",
