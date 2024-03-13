@@ -14,8 +14,7 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
-	{"key":"旺强影视",
-     "name":"🔥旺强影视🔥",
+	{"key":"旺强影视","name":"🔥自建影院🔥",
      "type":3,"api":"csp_XBPQ",
 	  "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
