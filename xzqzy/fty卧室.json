@@ -400,6 +400,18 @@
         "体育"
       ]
     },
+	{
+			"key": "Bdys_spider",
+			"name": "🎯哔滴┃磁力🎯",
+			"api": "csp_Bdys01",
+			"jar": "./lib/pg.jar",
+			"type": 3,
+			"filterable": 1,
+			"searchable":0,
+			"quickSearch": 1,
+			"searchable": 1,
+			"ext": "https://www.bdys10.com/$$$null$$$1"
+		},
 	{"key":"Bt0",
 	"name":"🎯不太灵|磁力🎯",
 	"type":3,"api":"csp_Bt0",

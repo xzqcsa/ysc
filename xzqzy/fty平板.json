@@ -316,6 +316,18 @@
             "ext": "./lib/Movie5.txt"
         },
 		{
+			"key": "Bdys_spider",
+			"name": "🎯哔滴┃磁力🎯",
+			"api": "csp_Bdys01",
+			"jar": "./lib/pg.jar",
+			"type": 3,
+			"filterable": 1,
+			"searchable":0,
+			"quickSearch": 1,
+			"searchable": 1,
+			"ext": "https://www.bdys10.com/$$$null$$$1"
+		},
+		{
 			"key": "追剧",
 			"name": "🔥追剧┃App🔥",
 			"jar": "./lib/pg.jar",

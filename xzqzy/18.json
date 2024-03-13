@@ -125,6 +125,11 @@
 				"ratio": 1.1
 			}
 		},
+		{"key":"ss直播",
+		"name":"🔞ss直播",
+		"type":3,
+		"api":"./lib1/drpy2.min.js",
+		"searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib1/ss直播.js"},
 		{
             "key": "Pandalivetv",
             "name": "💯韩女直播",
