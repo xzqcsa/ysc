@@ -1749,6 +1749,18 @@
 	"filterable":1, "timeout":30,
 	"ext":"./lib/tokenm2.json$$$http://yydsvip.cn$$$null$$$1"
 	},
+		 {
+            "key": "找資源11",
+            "name": "🔍找資源🔍",
+            "type": 3,
+			"jar": "./lib/pg.jar",
+            "api": "csp_Zhaozy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm2.json$$$494909361@qq.com$$$305306csa"
+        },
 	{"key":"秒搜",
 	"name":"🔍秒搜|网盘🔍",
 	"type":3,

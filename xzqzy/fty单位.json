@@ -2587,6 +2587,18 @@
         "阿里token": "1f34013bd2d0471d94e200b730489623"
       }
     },
+		 {
+            "key": "找資源11",
+            "name": "🔍找資源🔍",
+            "type": 3,
+			"jar": "./lib/pg.jar",
+            "api": "csp_Zhaozy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm3.json$$$494909361@qq.com$$$305306csa"
+        },
     {
       "key": "csp_search_Panda_盘搜",
       "name": "🔍盘搜┃网盘2🔍",
