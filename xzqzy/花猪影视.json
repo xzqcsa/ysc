@@ -682,7 +682,7 @@
       "type": 3,
       "api": "csp_XYQHikerAL",
       "searchable": 1,
-"jar": "./XYQHiker/xyq11.jar",
+"jar": "./lib/ttkx.jar",
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./XYQHiker/ys.json"

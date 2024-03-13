@@ -1093,7 +1093,7 @@
 		"name":"🔥玩我|哥哥🔥",
 		"type":3,
 		"api":"csp_XYQHikerAL",
-		"jar": "./XYQHiker/xyq11.jar",
+		"jar": "./lib/ttkx.jar",
 		"searchable":1,"quickSearch":1,"filterable":1,
 		"ext":"./lib/玩我哥哥.json"
 		},
@@ -1180,7 +1180,7 @@
       "type": 3,
       "api": "csp_XYQHikerAL",
       "searchable": 1,
-"jar": "./XYQHiker/xyq11.jar",
+"jar": "./lib/ttkx.jar",
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./XYQHiker/ys.json"
