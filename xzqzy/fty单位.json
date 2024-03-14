@@ -147,6 +147,7 @@
     },
 	{"key":"旺强影视","name":"🔥自建影院🔥",
      "type":3,"api":"csp_XBPQ",
+	 "playUrl":"https://api.json.icu/api/?key=0552aa8f6891d762a00b070a740f30aa&url=",
 	  "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "http://fq1mr6.aini0.top/index.php/vod/show/id/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
