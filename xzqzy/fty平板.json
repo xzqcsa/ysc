@@ -227,22 +227,7 @@
             "ext": {
                 "分类url": "https://www.hdmoli.pro/mlist/index{cateId}.html",
 				"分类": "电影$1#剧集$2#动画$41"}},
-	{
-            "key": "SambaShare",
-            "name": "🔥局域网共享🔥",
-            "type": 3,
-			"jar": "./lib/pg.jar",
-            "style": {
-                "type": "list"
-            },
-            "api": "csp_SambaShare",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "./XYQTVBox/tokenm1.json$$$./XYQTVBox/sambashare.txt"
-        },
+	
 	{
       "key": "csp_yydflive-2",
       "name": "💞电视电台",
@@ -307,12 +292,7 @@
                 ]
             }
         },
-		{"key":"阿涛影视","name":"🔥阿涛影院🔥",
-     "type":3,"api":"csp_XBPQ",
-	  "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "http://nzjurd.aini0.top/index.php/vod/show/id/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
-      "分类": "动画片$3#电影$1#连续剧$2#短剧$4"}},
+		
 		{
             "key": "云2",
             "name": "🔥梦影🔥",
@@ -342,12 +322,7 @@
 			"playerType": 1,
 			"ext": "http://app.kzjtv.com$$$null$$$1"
 		},
-		{"key":"旺强影视","name":"🔥自建影院🔥",
-     "type":3,"api":"csp_XBPQ",
-	  "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "http://fq1mr6.aini0.top/index.php/vod/show/id/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
-      "分类": "动画片$3#电影$1#连续剧$2#短剧$4#综艺$5#体育$20#"}},
+		
 		 {
 			"key": "天天",
 			"name": "🔥天天🔥",
@@ -378,16 +353,7 @@
       "searchable": 1,
       "changeable": 1
     },
-	{
-            "key": "Fangniu4k",
-           "name": "🇨🇳放牛·4k",
-            "type": 3,
-            "api": "csp_Fangniu4k",
-			"quickSearch":1,
-            "searchable": 1,
-            "changeable": 0,
-             "jar": "./lib/放牛1.jar"
-        },
+	
     {
       "key": "qiusai",
       "name": "🔥球赛直播🔥",
