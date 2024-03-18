@@ -123,12 +123,12 @@
             },
             "ext": "./XYQTVBox/tokenm3.json"
         },
-		{"key":"阿涛影视","name":"🔥阿涛影院🔥",
+		{"key":"语录","name":"🔥语录影院🔥",
      "type":3,"api":"csp_XBPQ",
 	  "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "http://nzjurd.aini0.top/index.php/vod/show/id/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
-      "分类": "动画片$3#电影$1#连续剧$2#短剧$4"}},
+      "ext":{"分类url": "https://ylu.cc/mov/list/{cateId}/",
+      "分类": "动画片$dongman#电影$dianying#电视剧$dianshi"}},
 		{
             "key": "熊掌",
             "name": "🔥熊掌┃秒播🔥",
