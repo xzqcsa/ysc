@@ -128,7 +128,7 @@
 	
 	  "jar":"./lib/Yoursmile1.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.bttwo.net/{cateId}","搜索url":"https://www.bttwo.net/xsssearch?q=",
+      "ext":{"分类url": "https://www.bttwo.net/{cateId}","搜索url":"https://www.bttwo.net/xsssearch?q={wd}",
       "分类": "最新电影$new-movie#国产剧$zgjun#日韩剧$jpsrtv#美剧$meiju"}},
 		{
             "key": "熊掌",
