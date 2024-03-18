@@ -599,19 +599,13 @@
       },
       "timeout": 25
     },
-	 {
-      "key": "py_ali",
-      "name": "🔥阿里合集·Py🔥",
-      "type": 3,
-      "api": "./lib/py_ali.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
-        "thread": "32"
-      }
-    },
+	 {"key":"TVB","name":"🔥TVB影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	
+	  "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "http://www.tvyb10.com/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+      "分类": "电影$1#电视剧$2#动漫$4#综艺$3"}},
 	{
             "key": "push_agent",
             "name": "🔥推送🔥",
@@ -1152,15 +1146,7 @@
       "体育赛事","综艺","动画片",
       "中国动漫","日本动漫","欧美动漫"]},
      
-        {
-            "key": "tvbsk",
-            "name": "🔥️TVB云播┃App🔥️",
-            "type": 3,
-			"jar": "./lib/pg.jar",
-            "api": "csp_Skapp",
-            "playerType": 2,
-            "ext": "CWL+IfA5s3TICYJ8lk+lYcjPA/WXNYE4LRTfUSa9I+X9ibZY05syLe/O7u2miaiYRiSaKE51xQOxm38YeL27jRUyF6+GJKVQArnP7QbC+qw2okju8YACfPzD3rpQo8uckl2rQh925A6lp4VD0ELHJrUvDGTlojwKtynX78d5E88HbdSsCV5pIueNPH5+z42FBt21KGN5lnE7/qqEGpSyFzbARD4aWuhSHsun7GQU9yaXZn0F4l4o2YYaEvRtsz4z9Mo8+7aj2nZsCkFWLNpgv6kzFNohSTWVDkajg5aj6s7d8CPNIvvC+gr0zm79fuuvNQF6NfaiBOrvTwamMJa3F3w==$$$null$$$1"
-        },
+       
         
  {
       "key": "csp_XYQHikerAL_玩偶哥哥",
