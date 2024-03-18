@@ -123,12 +123,7 @@
             },
             "ext": "./XYQTVBox/tokenm3.json"
         },
-		{"key":"语录","name":"🔥语录影院🔥",
-     "type":3,"api":"csp_XBPQ",
-	  "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://ylu.cc/mov/",
-      "分类": "动画片$dongman#电影$dianying#电视剧$dianshi"}},
+		
 		{
             "key": "熊掌",
             "name": "🔥熊掌┃秒播🔥",
