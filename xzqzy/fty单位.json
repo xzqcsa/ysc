@@ -123,7 +123,13 @@
             },
             "ext": "./XYQTVBox/tokenm3.json"
         },
-		
+		{"key":"2bt","name":"🔥BT影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	
+	  "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.bttwo.net/{cateId}",
+      "分类": "最新电影$new-movie#国产剧$zgjun#日韩剧$jpsrtv#美剧$meiju"}},
 		{
             "key": "熊掌",
             "name": "🔥熊掌┃秒播🔥",
