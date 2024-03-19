@@ -123,6 +123,13 @@
             },
             "ext": "./XYQTVBox/tokenm3.json"
         },
+		{"key":"网费","name":"🔥网飞猫影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	
+	  "jar":"./lib/Yoursmile1.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.ncat2.com:51111/show/{cateId}--{area}--{year}-3-{catePg}.html",
+      "分类": "电影$1#连续剧$2#动漫$3#综艺纪录$4#短剧$6"}},
 		{"key":"TVB","name":"🔥TVB影院🔥",
      "type":3,"api":"csp_XBPQ",
 	
