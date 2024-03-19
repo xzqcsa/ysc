@@ -13,13 +13,7 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
-	{"key":"网费","name":"🔥网飞猫影院🔥",
-     "type":3,"api":"csp_XBPQ",
 	
-	  "jar":"./lib/Yoursmile1.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.ncat2.com:51111/show/{cateId}------.html",
-      "分类": "电影$1#连续剧$2#动漫$3#综艺纪录$4#短剧$6"}},
 	{"key":"农91",
      "name":"🔥91短剧🔥",
      "type":3,"api":"csp_XBPQ",
