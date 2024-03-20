@@ -98,35 +98,7 @@
                         "startPage": "/",
                         "showAll": false,
                         "search": true
-                    },
-					 {
-                        "name": "合集",
-                        "server": "http://cyyn.top:5255/"
-                    },
-					{
-                        "name": "sodaz",
-                        "server": "https://a.sodaz.xyz/"
-                    },
-					 {
-                        "name": "动漫盘",
-                        "server": "http://pan.smjc.cc"
-                    },
-					 {
-                        "name": "皓星繁天",
-                        "server": "https://pan.hxft.xyz/"
-                    },
-					  {
-                        "name": "星梦",
-                        "server": "https://pan.bashroot.top"
-                    },
-					 {
-                        "name": "云影厅",
-                        "server": "https://libilibi.eu.org"
-                    },
-					{
-                        "name": "ECVE",
-                        "server": "https://pan.ecve.cn"
-                    } ]} },
+                    }]} },
 					  {
 			"key": "短剧",
 			"name": "🔥短剧侠🔥",
