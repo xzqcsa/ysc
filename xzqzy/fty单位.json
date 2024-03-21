@@ -123,6 +123,21 @@
             },
             "ext": "./XYQTVBox/tokenm3.json"
         },
+		{
+      "ext": "eyJhcGkiOiJodHRwOi8vMTA3LjE3Mi4yMDEuMTgyOjQ1NjciLCJ0b2tlbiI6IiJ9",
+      "filterable": 1,
+      "quickSearch": 1,
+      "name": "🔥丫仙女🔥",
+      "changeable": 0,
+      "jar": "./lib/小雅.jar",
+      "style": {
+        "type": "rect"
+      },
+      "api": "csp_XiaoYa",
+      "type": 3,
+      "key": "csp_XiaoYa",
+      "searchable": 1
+    },
 		
 		{"key":"TVB","name":"🔥TVB影院🔥",
      "type":3,"api":"csp_XBPQ",

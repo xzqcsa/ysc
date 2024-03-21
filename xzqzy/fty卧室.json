@@ -247,6 +247,21 @@
             "type": 4,
             "api": "https://catbox.n13.club/wy.php"
         },
+		{
+      "ext": "eyJhcGkiOiJodHRwOi8vMTA3LjE3Mi4yMDEuMTgyOjQ1NjciLCJ0b2tlbiI6IiJ9",
+      "filterable": 1,
+      "quickSearch": 1,
+      "name": "🔥丫仙女🔥",
+      "changeable": 0,
+      "jar": "./lib/小雅.jar",
+      "style": {
+        "type": "rect"
+      },
+      "api": "csp_XiaoYa",
+      "type": 3,
+      "key": "csp_XiaoYa",
+      "searchable": 1
+    },
 		  {
 			"key": "短剧",
 			"name": "🔥短剧侠🔥",
@@ -316,24 +331,15 @@
                         "showAll": false,
                         "search": true
                     },
-                    {
-                        "name": "小雅",
-                        "server": "http://xiaoya.xlog.cc/",
-                        "startPage": "/",
-                        "showAll": false,
-                        "search": true,
-                        "headers": {
-                            "Authorization": ""
-                        }
-                    },
-					{
-                        "name": "自建小雅",
+                   
+					 {
+                        "name": "自建小雅2",
                         "server": "http://45.79.90.219:5344/",
                         "startPage": "/",
                         "showAll": false,
                         "search": true
                     }
-                     ]} },
+                   ]} },
 	
     {
       "key": "zhibo",

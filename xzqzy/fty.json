@@ -142,7 +142,21 @@
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.duse1.com:51111/channel/{cateId}.html","搜索url":"https://www.duse1.com:51111/search?os=pc&k={wd}",
       "分类": "短剧$6"}},
-	
+	{
+      "ext": "eyJhcGkiOiJodHRwOi8vMTA3LjE3Mi4yMDEuMTgyOjQ1NjciLCJ0b2tlbiI6IiJ9",
+      "filterable": 1,
+      "quickSearch": 1,
+      "name": "🔥丫仙女🔥",
+      "changeable": 0,
+      "jar": "./lib/小雅.jar",
+      "style": {
+        "type": "rect"
+      },
+      "api": "csp_XiaoYa",
+      "type": 3,
+      "key": "csp_XiaoYa",
+      "searchable": 1
+    },
 	{
             "key": "AList16",
             "name": "🔥AList｜网盘🔥",
@@ -162,30 +176,15 @@
                         "showAll": false,
                         "search": true
                     },
-                    {
-                        "name": "小雅",
-                        "server": "http://xiaoya.xlog.cc/",
-                        "startPage": "/",
-                        "showAll": false,
-                        "search": true,
-                        "headers": {
-                            "Authorization": ""
-                        }
-                    },
-					{
-                        "name": "自建小雅",
+                   
+					 {
+                        "name": "自建小雅2",
                         "server": "http://45.79.90.219:5344/",
                         "startPage": "/",
                         "showAll": false,
                         "search": true
-                    },
-                    {
-                        "name": "小雅",
-                        "server": "http://124.71.206.236:5678/",
-                        "startPage": "/",
-                        "showAll": false,
-                        "search": true
-                     }]} },
+                    }
+                   ]} },
 {
 			"key": "Bdys_spider",
 			"name": "🎯哔滴┃磁力🎯",

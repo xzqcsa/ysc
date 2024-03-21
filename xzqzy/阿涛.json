@@ -17,7 +17,7 @@
       "ext": "eyJhcGkiOiJodHRwOi8vMTA3LjE3Mi4yMDEuMTgyOjQ1NjciLCJ0b2tlbiI6IiJ9",
       "filterable": 1,
       "quickSearch": 1,
-      "name": "🔥丫仙女1🔥",
+      "name": "🔥丫仙女🔥",
       "changeable": 0,
       "jar": "./lib/小雅.jar",
       "style": {
@@ -28,21 +28,7 @@
       "key": "csp_XiaoYa",
       "searchable": 1
     },
-	  {
-      "ext": "eyJhcGkiOiJodHRwczovLzQ1Ljc5LjkwLjIxOTo0NTY3IiwidG9rZW4iOiIifQ==",
-      "filterable": 1,
-      "quickSearch": 1,
-      "name": "🔥丫仙女2🔥",
-      "changeable": 0,
-      "jar": "./lib/小雅.jar",
-      "style": {
-        "type": "rect"
-      },
-      "api": "csp_XiaoYa",
-      "type": 3,
-      "key": "csp_XiaoYa1",
-      "searchable": 1
-    },
+	  
 	
 	{"key":"农91",
      "name":"🔥91短剧🔥",
@@ -112,30 +98,15 @@
                         "showAll": false,
                         "search": true
                     },
-                    {
-                        "name": "小雅",
-                        "server": "http://xiaoya.xlog.cc/",
-                        "startPage": "/",
-                        "showAll": false,
-                        "search": true,
-                        "headers": {
-                            "Authorization": ""
-                        }
-                    },
+                   
 					 {
-                        "name": "自建小雅",
+                        "name": "自建小雅2",
                         "server": "http://45.79.90.219:5344/",
                         "startPage": "/",
                         "showAll": false,
                         "search": true
-                    },
-                    {
-                        "name": "小雅",
-                        "server": "http://124.71.206.236:5678/",
-                        "startPage": "/",
-                        "showAll": false,
-                        "search": true
-                    }]} },
+                    }
+                   ]} },
 					  {
 			"key": "短剧",
 			"name": "🔥短剧侠🔥",
