@@ -395,6 +395,13 @@
       "searchable": 1,
       "changeable": 1
     },
+	{"key":"csp_lwdy",
+		"name":"🔥老王电影🔥",
+		"type":3,
+		"jar":"./lib/Yoursmile1.jar",
+		"api":"csp_XBPQ",
+		"ext":{"分类url":"https://www.laowang.co/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+		"分类":"电影$movie#电视剧$tv#综艺$tvshow#动漫$animation#短剧$duanju"}},
 	{
       "ext": "eyJhcGkiOiJodHRwOi8vMTA3LjE3Mi4yMDEuMTgyOjQ1NjciLCJ0b2tlbiI6IiJ9",
       "filterable": 1,
