@@ -13,6 +13,36 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
+	  {
+      "ext": "eyJhcGkiOiJodHRwOi8vMTA3LjE3Mi4yMDEuMTgyOjQ1NjciLCJ0b2tlbiI6IiJ9",
+      "filterable": 1,
+      "quickSearch": 1,
+      "name": "🔥丫仙女1🔥",
+      "changeable": 0,
+      "jar": "./lib/小雅.jar",
+      "style": {
+        "type": "rect"
+      },
+      "api": "csp_XiaoYa",
+      "type": 3,
+      "key": "csp_XiaoYa",
+      "searchable": 1
+    },
+	  {
+      "ext": "eyJhcGkiOiJodHRwczovLzQ1Ljc5LjkwLjIxOTo0NTY3IiwidG9rZW4iOiIifQ==",
+      "filterable": 1,
+      "quickSearch": 1,
+      "name": "🔥丫仙女2🔥",
+      "changeable": 0,
+      "jar": "./lib/小雅.jar",
+      "style": {
+        "type": "rect"
+      },
+      "api": "csp_XiaoYa",
+      "type": 3,
+      "key": "csp_XiaoYa",
+      "searchable": 1
+    },
 	
 	{"key":"农91",
      "name":"🔥91短剧🔥",
