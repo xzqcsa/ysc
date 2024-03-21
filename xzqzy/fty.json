@@ -135,6 +135,21 @@
       "changeable": 0,
       "ext": true
     },
+	{
+    "ext" : "eyJhcGkiOiJodHRwOi8vNDUuNzkuOTAuMjE5OjQ1NjciLCJ0b2tlbiI6IiJ9",
+    "filterable" : 1,
+    "quickSearch" : 1,
+    "name" : "🔥丫仙女2🔥",
+    "changeable" : 0,
+    "jar": "./lib/小雅.jar",
+    "style" : {
+      "type" : "rect"
+    },
+    "api" : "csp_XiaoYa",
+    "type" : 3,
+    "key" : "csp_XiaoYa2",
+    "searchable" : 1
+  }, 
 	{"key":"农91",
      "name":"🔥91短剧🔥",
      "type":3,"api":"csp_XBPQ",
