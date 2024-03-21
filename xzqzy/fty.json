@@ -103,13 +103,7 @@
 				"ratio": 1.1
 			}
 		},
-		{"key":"csp_lwdy",
-		"name":"🔥老王电影🔥",
-		"type":3,
-		"jar":"./lib/Yoursmile1.jar",
-		"api":"csp_XBPQ",
-		"ext":{"分类url":"https://www.laowang.co/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
-		"分类":"电影$movie#电视剧$tv#综艺$tvshow#动漫$animation#短剧$duanju"}},
+		
 		{"key":"TVB","name":"🔥TVB影院🔥",
      "type":3,"api":"csp_XBPQ",
 	
