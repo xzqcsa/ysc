@@ -56,6 +56,15 @@
 }, 
       "jar":"./lib/Yoursmile1.jar"     
     },
+	{
+            "key": "555yingshi",
+			"name":"555影视",
+			"type":3,
+			"api":"csp_XBPQ",
+			"jar":"./lib/Yoursmile1.jar" ,
+            "ext": {"分类":"电影$1#电视剧$2#短剧$45#动漫$3",
+			"分类url":"https://5moov.vip/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html"}                 
+        },
 	{"key":"PushShare4",
 		"name":"🔥电视剧分享🔥",
 		"jar": "./lib/pg.jar",
