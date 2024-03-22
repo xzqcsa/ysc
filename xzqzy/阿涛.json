@@ -13,6 +13,24 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
+	{
+            "key": "555yingshi",
+			"name":"🔥三五影视🔥",
+			"type":3,
+			"api":"csp_XBPQ",
+			"jar":"./lib/Yoursmile1.jar" ,
+            "ext": {"分类":"电影$1#连续剧$2#综艺纪录$3#动漫$4",
+			"分类url":"https://5moov.vip/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html"}                 
+        },
+		{
+            "key": "555yingshi1111",
+			"name":"🔥五五五影视🔥",
+			"type":3,
+			"api":"csp_XBPQ",
+			"jar":"./lib/Yoursmile1.jar" ,
+            "ext": {"分类":"短剧$45#电影$1#剧集$2#综艺$4#动漫$3",
+			"分类url":"https://www.555zxdy.com/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html"}                 
+        },
 	{ 
       "key": "csp_xBPQ_秒", 
       "name": "🔥喵播🔥", 
