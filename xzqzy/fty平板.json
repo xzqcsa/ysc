@@ -402,7 +402,15 @@
 			"playerType": 1,
 			"ext": "http://op.ysdqjs.cn$$$null$$$1"
 		},	
-	       
+	       {
+			"key": "JustLive",
+			"name": "🔥JustLive🔥",
+			"type": 3,
+			"jar": "./lib/pg.jar",
+			"api": "csp_JustLive",
+			"searchable": 1,
+			"changeable": 0
+		},
          {"key":"美剧迷",
 		"name":"🔥美剧迷🔥",
 		"type":3,"api":"csp_Meijumi",

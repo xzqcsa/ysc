@@ -57,6 +57,19 @@
       "ext": "18+",
       "timeout": 60
     },
+	{"key":"SeHuaTang","name":"色花堂|网盘",
+	"jar":"./lib/pg.jar","type":3,"api":"csp_SeHuaTang","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$proxy",
+                        "style": {
+                                "type": "rect",
+                                "ratio": 1.5
+                        }
+    },
+	{"key":"Xojav","name":"XOJav","type":3,"api":"csp_Xojav","jar":"./lib/pg.jar","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$proxy",
+                        "style": {
+                                "type": "rect",
+                                "ratio": 1.5
+                        }
+    },
 	{
       "key": "91md.me",
       "name": "🔥18+🔥",
