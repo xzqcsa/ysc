@@ -481,14 +481,14 @@
                 "drives": [
 				{
                         "name": "京东小雅",
-                        "server": "http://117.72.45.20:4567/vod/305306csa",
+                        "server": "http://117.72.45.20:5344/",
                         "startPage": "/",
                         "showAll": false,
                         "search": true
                     },
 				{
                         "name": "自建小雅1",
-                        "server": "http://107.172.201.182:4567/vod/305306csa",
+                        "server": "http://107.172.201.182:5344/",
                         "startPage": "/",
                         "showAll": false,
                         "search": true
