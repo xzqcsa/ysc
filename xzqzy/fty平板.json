@@ -1893,7 +1893,13 @@
 		"timeout":30, 
 		"ext":"./lib/tokenm1.json" },
 	  
-       
+       {"key":"YingSo",
+	   "name":"🔍影搜|网盘🔍",
+	   "type":3,
+	   "jar": "./lib/pg.jar",
+	   "api":"csp_YingSo",
+	   "timeout":60,
+	   "ext":"./lib/tokenm1.json"},
 	  {
             "key": "Qianfan",
             "name": "🔍千帆|网盘🔍",
@@ -4333,25 +4339,29 @@
       ]
     },
     {
-      "name": "量子广告",
-      "hosts": [
-        "vip.lz",
-        "hd.lz"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
-    {
-      "name": "非凡广告",
-      "hosts": [
-        "vip.ffzy",
-        "hd.ffzy"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
+            "name": "量子",
+            "hosts": [
+                "vip.lz",
+                "hd.lz",
+                ".cdnlz",
+                "v.cdnlz",
+                "vip1.lz"
+            ],
+            "regex": [
+                "17.2"
+            ]
+        },
+        {
+            "name": "非凡",
+            "hosts": [
+                "vip.ffzy",
+                "super.ffzy",
+                "svip.ffzy"
+            ],
+            "regex": [
+                "18"
+            ]
+        },
     {
       "name": "暴风廣告",
       "hosts": [
