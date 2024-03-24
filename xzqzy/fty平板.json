@@ -1726,16 +1726,19 @@
       "ext":{"分类url": "https://www.subaibaiys.com/{cateId}/year/{year}/{cateId}_tags/action/page/{catePg}",
 	  "搜索url": "https://www.subaibaiys.com/?swd={wd}",
       "分类": "电影$new-movie#电视剧$tv-drama#动漫剧$anime-drama"}},
-	    {
-            "key": "lf_js_ikanbot",
-            "name": "🧲 点播|路飞🧲 ",
+	   {
+            "key": "lf_js_p2p",
+            "name": "🧲 磁力|路飞🧲 ",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "api": "./lib/lf_ikanbot5_2_min.js"
+            "timeout": 30,
+            "api": "./lib/lf_p2p2_min.js",
+            "ext": "18+"
         },
+	   
 	 
 	  {"key":"Clg",
 	"name":"🧲 磁力狗|磁力🧲 ",
