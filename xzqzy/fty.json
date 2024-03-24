@@ -2113,6 +2113,18 @@
 				"ratio": 1.5
 			}
 		},
+		 {
+            "key": "lf_js_p2p",
+            "name": "🧲 磁力|路飞🧲 ",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "api": "./lib/lf_p2p2_min.js",
+            "ext": "18+"
+        },
 	{"key":"口袋",
      "name":"🔍口袋影视🔍",
      "type":3,"api":"csp_XBPQ",
