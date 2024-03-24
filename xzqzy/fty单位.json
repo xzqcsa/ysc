@@ -230,6 +230,21 @@
         
       ]
     },
+	{"key":"Clg",
+	"name":"🧲 磁力狗|磁力🧲 ",
+	"type":3,"api":"csp_Clg",
+	"searchable":1,
+	"jar": "./lib/pg.jar",
+	"quickSearch":1,
+	"changeable":1, 
+	"filterable":0,
+	"timeout":60, 
+	"ext":"./lib/tokenm1.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1",
+			"style": {
+				"type": "rect",
+				"ratio": 1.5
+			}
+		},
 	{"key":"旺强影视","name":"🔥自建影院🔥",
      "type":3,"api":"csp_XBPQ",
 	 "playUrl":"https://api.json.icu/api/?key=0552aa8f6891d762a00b070a740f30aa&url=",
@@ -286,7 +301,7 @@
 	"ext":true},
 	{
 			"key": "Bdys_spider",
-			"name": "🎯哔滴┃磁力🎯",
+			"name": "🧲 哔滴┃磁力🧲 ",
 			"api": "csp_Bdys01",
 			"jar": "./lib/pg.jar",
 			"type": 3,
@@ -2533,7 +2548,7 @@
       "jar":"./lib/Yoursmile1.jar"
     },
 	{"key":"Bt0",
-	"name":"🎯不太灵|磁力🎯",
+	"name":"🧲 不太灵|磁力🧲 ",
 	"type":3,"api":"csp_Bt0",
 	"quickSearch":1,
 "jar": "./lib/pg.jar",	
@@ -3585,8 +3600,8 @@
 
 {"key":"csp_XYQHiker4klg","name":"💅🏻原盘4k","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/中国蓝光网.json","jar" :"./lib/spider.txt;md5;B880BBAD2845D16CFB86CCA0331B2621"},
 {"key":"狐狸","name":"🦊狐狸蓝光","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.kuin.one/api.php/app/" },
-{"key":"csp_Xunlei8","name":"🎯迅雷吧","type":3,"api":"csp_Xunlei8","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"jar":"./lib/83.jar"},
-{"key":"csp_XYQHiker_BT天堂","name":"🎯BT天堂","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/BT天堂.json","jar": "./lib/83.jar"},
+{"key":"csp_Xunlei8","name":"🧲 迅雷吧","type":3,"api":"csp_Xunlei8","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"jar":"./lib/83.jar"},
+{"key":"csp_XYQHiker_BT天堂","name":"🧲 BT天堂","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/BT天堂.json","jar": "./lib/83.jar"},
 {"key":"csp_XBPQ_6V","name":"🌙宝盒4K磁力","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/6V磁.json"},
  {
       "key": "大米星球（APP）",
@@ -4634,12 +4649,12 @@
 		{"name":"8090（除优酷）","url":"https://www.8090.la/8090/?url=","type":0},
 		{"name":"云解析（除优酷）","type":0,"url":"https://jx.yparse.com/index.php?url="},
 		{
-      "name": "🎯小盒解析",
+      "name": "🧲 小盒解析",
       "type": 1,
       "url": "http://119.91.123.253:2345/Api/yun.php?url="
     },
     {
-      "name": "🎯酷玩解析",
+      "name": "🧲 酷玩解析",
       "type": 1,
       "url": "https://jx.xmflv.com/?url="
     },

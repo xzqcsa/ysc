@@ -70,6 +70,26 @@
                                 "ratio": 1.5
                         }
     },
+	{"key": "csp_黄瓜TV",
+"name": "🔥黄瓜TV🔥",
+"type": 3,
+"api": "csp_XBPQ",
+"searchable": 1,
+"quickSearch": 1,
+"filterable": 1,
+"ext": {
+"请求头":"手机",
+"直接播放":"1",
+"分类url":"https://nbqlyfdhoe.xyz/vod/list.html?type_id={cateId}&page={catePg}",
+"分类":"日韩无码$1068#欧美无码$1069#中文字幕$1070#日韩有码$1071#国产自拍$1072#国产偷拍$1073#卡通动漫$1074#三级剧情$1075",
+"数组":"class=\"listpic\"&&</a >",
+"标题":"class=\"vodname\"&&</div>",
+"链接":"href=\"&&\"",
+"图片":"data-original=\"&&\"",
+"链接前缀":"https://nbqlyfdhoe.xyz",
+"链接后缀":"",
+"跳转播放链接":"<source src=\"&&\""},
+"jar":"./lib/Yoursmile1.jar"},
 	{"key":"Clg",
 	"name":"🔥磁力狗|磁力🔥",
 	"type":3,"api":"csp_Clg",
@@ -93,6 +113,22 @@
       "searchable": 1,
       "filterable": 1
     },
+	{"key":"PushShare333435656",
+		"name":"🔥桃花分享🔥",
+		"jar": "./lib/pg.jar",
+		"type":3, 
+		"api":"csp_PushShare",
+		"searchable":1,
+		"quickSearch":1,
+		"changeable":1, 
+		"filterable":0,
+		"timeout":60,
+		"ext":"./lib/tokenm1.json$$$./lib1/桃花磁力.txt$$$db$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
     {
       "key": "lf_js_lf_live",
       "name": "直播",
