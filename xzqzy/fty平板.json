@@ -488,7 +488,7 @@
                     },
 				{
                         "name": "自建小雅1",
-                        "server": "http://107.172.201.182:5344/",
+                        "server": "http://107.172.201.182:4567/vod1/305306csa",
                         "startPage": "/",
                         "showAll": false,
                         "search": true
@@ -497,6 +497,20 @@
 					 {
                         "name": "自建小雅2",
                         "server": "http://173.255.212.150:5344/",
+                        "startPage": "/",
+                        "showAll": false,
+                        "search": true
+                    },
+						{
+                        "name": "小雅3",
+                        "server": "http://1.94.57.179:5344/",
+                        "startPage": "/",
+                        "showAll": false,
+                        "search": true
+                    },
+						{
+                        "name": "小雅4",
+                        "server": "http://60.24.120.118:5344/",
                         "startPage": "/",
                         "showAll": false,
                         "search": true
