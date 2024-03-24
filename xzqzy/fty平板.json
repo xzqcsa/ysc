@@ -481,7 +481,7 @@
                 "drives": [
 				{
                         "name": "京东小雅",
-                        "server": "http://117.72.45.20:5344/",
+                        "server": "http://117.72.45.20:4567/vod/305306csa",
                         "startPage": "/",
                         "showAll": false,
                         "search": true
