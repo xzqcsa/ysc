@@ -1738,7 +1738,18 @@
             "api": "./lib/lf_p2p2_min.js",
             "ext": "18+"
         },
-	   
+	   {
+            "key": "BtSow",
+            "name": "🧲 磁力搜索2🧲 ",
+            "type": 3,
+            "api": "csp_BtSow",
+			"jar": "./lib/pg.jar",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "null$$$null$$$1"
+        },
 	 {"key":"Bt0333",
 	 "name":"🧲 磁力搜索🧲 ",
 	 "type":3,
