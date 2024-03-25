@@ -229,7 +229,7 @@
       "key": "量子",
       "name": "🔥量子采集🔥",
       "type": 1,
-      "api": "https://cj.lzcaiji.com/api.php/provide/vod/?ac=list",
+      "api": "https://cj.lzcaiji.com/api.php/provide/vod/",
 	  "quickSearch": 1,
       "searchable": 1,
       "changeable": 1,
