@@ -406,7 +406,76 @@ CCTV17,http://180.158.145.181:9901/tsfile/live/0019_1.m3u8?key=txiptv
 CCTV17,http://111.225.95.124:9901/tsfile/live/0017_1.m3u8?key=txiptv
 CCTV17,http://61.178.227.57:9901/tsfile/live/0142_1.m3u8?key=txiptv
 CCTV17,http://42.176.154.142:9901/tsfile/live/1164_1.m3u8?key=txiptv
+CCTV 1,http://tv.tvoo.cc/php/ysp.php?id=cctv1.tv
+CCTV 2,http://tv.tvoo.cc/php/ysp.php?id=cctv2.tv
+CCTV 3,http://tv.tvoo.cc/php/ysp.php?id=cctv3.tv
+CCTV 4,http://tv.tvoo.cc/php/ysp.php?id=cctv4.tv
+CCTV 5,http://tv.tvoo.cc/php/ysp.php?id=cctv5.tv
+CCTV 5+,http://tv.tvoo.cc/php/ysp.php?id=cctv5p.tv
+CCTV 6,http://tv.tvoo.cc/php/ysp.php?id=cctv6.tv
+CCTV 7,http://tv.tvoo.cc/php/ysp.php?id=cctv7.tv
+CCTV 8,http://tv.tvoo.cc/php/ysp.php?id=cctv8.tv
+CCTV 9,http://tv.tvoo.cc/php/ysp.php?id=cctv9.tv
+CCTV 10,http://tv.tvoo.cc/php/ysp.php?id=cctv10.tv
+CCTV 11,http://tv.tvoo.cc/php/ysp.php?id=cctv11.tv
+CCTV 12,http://tv.tvoo.cc/php/ysp.php?id=cctv12.tv
+CCTV 13,http://tv.tvoo.cc/php/ysp.php?id=cctv13.tv
+CCTV 14,http://tv.tvoo.cc/php/ysp.php?id=cctv14.tv
+CCTV 15,http://tv.tvoo.cc/php/ysp.php?id=cctv15.tv
+CCTV 16,http://tv.tvoo.cc/php/ysp.php?id=cctv16.tv
+CCTV 16-4k,http://tv.tvoo.cc/php/ysp.php?id=cctv16-4k.tv
+CCTV 17,http://tv.tvoo.cc/php/ysp.php?id=cctv17.tv
+CCTV兵器科技,http://tv.tvoo.cc/php/ysp.php?id=bqkj.tv
+CCTV第一剧场,http://tv.tvoo.cc/php/ysp.php?id=dyjc.tv
+CCTV怀旧剧场,http://tv.tvoo.cc/php/ysp.php?id=hjjc.tv
+CCTV风云剧场,http://tv.tvoo.cc/php/ysp.php?id=fyjc.tv
+CCTV风云音乐,http://tv.tvoo.cc/php/ysp.php?id=fyyy.tv
+CCTV风云足球,http://tv.tvoo.cc/php/ysp.php?id=fyzq.tv
+CCTV电视指南,http://tv.tvoo.cc/php/ysp.php?id=dszn.tv
+CCTV女性时尚,http://tv.tvoo.cc/php/ysp.php?id=nxss.tv
+CCTV央视文化精品,http://tv.tvoo.cc/php/ysp.php?id=whjp.tv
+CCTV世界地理,http://tv.tvoo.cc/php/ysp.php?id=sjdl.tv
+CCTV高尔夫网球,http://tv.tvoo.cc/php/ysp.php?id=gefwq.tv
+CCTV央视台球,http://tv.tvoo.cc/php/ysp.php?id=ystq.tv
+CCTV卫生健康,http://tv.tvoo.cc/php/ysp.php?id=wsjk.tv
+CGTN,http://tv.tvoo.cc/php/ysp.php?id=cgtn.tv
+CGTN纪录,http://tv.tvoo.cc/php/ysp.php?id=cgtnjl.tv
+CGTN西语,http://tv.tvoo.cc/php/ysp.php?id=cgtne.tv
+CGTN法语,http://tv.tvoo.cc/php/ysp.php?id=cgtnf.tv
+CGTN阿语,http://tv.tvoo.cc/php/ysp.php?id=cgtna.tv
+CGTN俄语,http://tv.tvoo.cc/php/ysp.php?id=cgtnr.tv
+CCTV-4k,http://tv.tvoo.cc/php/ysp.php?id=cctv4k.tv
+CCTV-8k,http://tv.tvoo.cc/php/ysp.php?id=cctv8k.tv
 
+
+
+CCTV1,http://tv.tvoo.cc/php/migu.php?id=cctv1.tv
+CCTV2,http://tv.tvoo.cc/php/migu.php?id=cctv2.tv
+CCTV3,http://tv.tvoo.cc/php/migu.php?id=cctv3.tv
+CCTV4,http://tv.tvoo.cc/php/migu.php?id=cctv4.tv
+CCTV5,http://tv.tvoo.cc/php/migu.php?id=cctv5.tv
+CCTV5+,http://tv.tvoo.cc/php/migu.php?id=cctv5p.tv
+CCTV6,http://tv.tvoo.cc/php/migu.php?id=cctv6.tv
+CCTV7,http://tv.tvoo.cc/php/migu.php?id=cctv7.tv
+CCTV8,http://tv.tvoo.cc/php/migu.php?id=cctv8.tv
+CCTV9,http://tv.tvoo.cc/php/migu.php?id=cctv9.tv
+CCTV10,http://tv.tvoo.cc/php/migu.php?id=cctv10.tv
+CCTV11,http://tv.tvoo.cc/php/migu.php?id=cctv11.tv
+CCTV12,http://tv.tvoo.cc/php/migu.php?id=cctv12.tv
+CCTV13,http://tv.tvoo.cc/php/migu.php?id=cctv13.tv
+CCTV14,http://tv.tvoo.cc/php/migu.php?id=cctv14.tv
+CCTV15,http://tv.tvoo.cc/php/migu.php?id=cctv15.tv
+CCTV16,http://tv.tvoo.cc/php/migu.php?id=cctv16.tv
+CCTV17,http://tv.tvoo.cc/php/migu.php?id=cctv17.tv
+CCTV发现之旅,http://tv.tvoo.cc/php/migu.php?id=fxzl.tv
+CCTV老故事,http://tv.tvoo.cc/php/migu.php?id=lgs.tv
+CCTV中学生,http://tv.tvoo.cc/php/migu.php?id=zxs.tv
+CGTN,http://tv.tvoo.cc/php/migu.php?id=cgtn.tv
+CGTN纪录,http://tv.tvoo.cc/php/migu.php?id=cgtnjl.tv
+CCTV西班牙语,http://tv.tvoo.cc/php/migu.php?id=cgtne.tv
+CCTV法语,http://tv.tvoo.cc/php/migu.php?id=cgtnf.tv
+CCTV阿拉伯语,http://tv.tvoo.cc/php/migu.php?id=cgtna.tv
+CCTV俄语,http://tv.tvoo.cc/php/migu.php?id=cgtnr.tv
 
 CCTV1,http://58.252.12.164:8000/udp/239.77.1.17:5146
 CCTV1,http://58.252.12.164:8000/udp/239.77.1.144:5146
@@ -707,7 +776,60 @@ CETV2,http://121.229.199.2:9000/rtp/239.49.0.71:8560
 辽宁卫视,http://180.97.247.27/tlivecloud-ipv6.ysp.cctv.cn/ysp/2000281303.m3u8
 
 河北卫视,http://180.97.247.27/tlivecloud-ipv6.ysp.cctv.cn/ysp/2000293403.m3u8
+北京卫视,http://tv.tvoo.cc/php/ysp.php?id=bjws.tv
+东方卫视,http://tv.tvoo.cc/php/ysp.php?id=dfws.tv
+天津卫视,http://tv.tvoo.cc/php/ysp.php?id=tjws.tv
+重庆卫视,http://tv.tvoo.cc/php/ysp.php?id=cqws.tv
+黑龙江卫视,http://tv.tvoo.cc/php/ysp.php?id=hljws.tv
+辽宁卫视,http://tv.tvoo.cc/php/ysp.php?id=lnws.tv
+河北卫视,http://tv.tvoo.cc/php/ysp.php?id=hbws.tv
+山东卫视,http://tv.tvoo.cc/php/ysp.php?id=sdws.tv
+安徽卫视,http://tv.tvoo.cc/php/ysp.php?id=ahws.tv
+河南卫视,http://tv.tvoo.cc/php/ysp.php?id=hnws.tv
+湖北卫视,http://tv.tvoo.cc/php/ysp.php?id=hubws.tv
+湖南卫视,http://tv.tvoo.cc/php/ysp.php?id=hunws.tv
+江西卫视,http://tv.tvoo.cc/php/ysp.php?id=jxws.tv
+江苏卫视,http://tv.tvoo.cc/php/ysp.php?id=jsws.tv
+浙江卫视,http://tv.tvoo.cc/php/ysp.php?id=zjws.tv
+东南卫视,http://tv.tvoo.cc/php/ysp.php?id=dnws.tv
+广东卫视,http://tv.tvoo.cc/php/ysp.php?id=gdws.tv
+深圳卫视,http://tv.tvoo.cc/php/ysp.php?id=szws.tv
+广西卫视,http://tv.tvoo.cc/php/ysp.php?id=gxws.tv
+贵州卫视,http://tv.tvoo.cc/php/ysp.php?id=gzws.tv
+四川卫视,http://tv.tvoo.cc/php/ysp.php?id=scws.tv
+新疆卫视,http://tv.tvoo.cc/php/ysp.php?id=xjws.tv
+海南卫视,http://tv.tvoo.cc/php/ysp.php?id=hinws.tv
+兵团卫视,http://tv.tvoo.cc/php/ysp.php?id=btws.tv
 
+
+
+
+东方卫视,http://tv.tvoo.cc/php/dongfang.php?id=dfws.tv
+重庆卫视,http://tv.tvoo.cc/php/migu.php?id=cqws.tv
+吉林卫视,http://tv.tvoo.cc/php/migu.php?id=jlws.tv
+辽宁卫视,http://tv.tvoo.cc/php/migu.php?id=lnws.tv
+内蒙古卫视,http://tv.tvoo.cc/php/migu.php?id=nmws.tv
+宁夏卫视,http://tv.tvoo.cc/php/migu.php?id=nxws.tv
+甘肃卫视,http://tv.tvoo.cc/php/migu.php?id=gsws.tv
+青海卫视,http://tv.tvoo.cc/php/migu.php?id=qhws.tv
+陕西卫视,http://tv.tvoo.cc/php/migu.php?id=sxws.tv
+山东卫视,http://tv.tvoo.cc/php/migu.php?id=sdws.tv
+
+河南卫视,http://tv.tvoo.cc/php/migu.php?id=hnws.tv
+湖北卫视,http://tv.tvoo.cc/php/migu.php?id=hubws.tv
+湖南卫视,http://tv.tvoo.cc/php/migu.php?id=hunws.tv
+江西卫视,http://tv.tvoo.cc/php/migu.php?id=jxws.tv
+江苏卫视,http://tv.tvoo.cc/php/migu.php?id=jsws.tv
+东南卫视,http://tv.tvoo.cc/php/migu.php?id=dnws.tv
+海峡卫视,http://tv.tvoo.cc/php/migu.php?id=hxws.tv
+广东卫视,http://tv.tvoo.cc/php/migu.php?id=gdws.tv
+大湾区卫视,http://tv.tvoo.cc/php/migu.php?id=dwqws.tv
+广西卫视,http://tv.tvoo.cc/php/migu.php?id=gxws.tv
+云南卫视,http://tv.tvoo.cc/php/migu.php?id=ynws.tv
+贵州卫视,http://tv.tvoo.cc/php/migu.php?id=gzws.tv
+新疆卫视,http://tv.tvoo.cc/php/migu.php?id=xjws.tv
+西藏卫视,http://tv.tvoo.cc/php/migu.php?id=xzws.tv
+海南卫视,http://tv.tvoo.cc/php/migu.php?id=hinws.tv
 山东卫视,http://180.97.247.27/tlivecloud-ipv6.ysp.cctv.cn/ysp/2000294803.m3u8
 
 安徽卫视,http://180.97.247.27/tlivecloud-ipv6.ysp.cctv.cn/ysp/2000298003.m3u8
