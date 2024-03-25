@@ -138,7 +138,31 @@
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod","quickSearch": 1,
       "searchable": 1,
-      "changeable": 1
+      "changeable": 1,
+	   "categories": [
+        "短剧",
+		"国产动漫",
+        "日韩动漫",
+        "国产剧",
+        "韩国剧",
+        
+     
+        
+        
+      
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        
+        "欧美剧"
+        
+        
+      ]
+    },
 	 
     },
 		{
