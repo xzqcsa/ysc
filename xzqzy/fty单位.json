@@ -424,8 +424,8 @@
                         "showAll": false,
                         "search": true,
 						  "login": {
-                      "user": "xzqcsa",
-                      "pass": "305306csa"
+                      "username": "xzqcsa",
+                      "password": "305306csa"
                       }
                     },
 					{

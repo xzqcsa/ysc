@@ -547,7 +547,11 @@
                         "server": "http://117.72.45.20:5344/",
                         "startPage": "/",
                         "showAll": false,
-                        "search": true
+                        "search": true,
+                   "login": {
+                      "username": "xzqcsa",
+                      "password": "305306csa"
+                      }
                     },
 					{
                         "name": "后来小雅",
