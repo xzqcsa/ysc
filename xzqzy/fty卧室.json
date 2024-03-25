@@ -381,6 +381,13 @@
                 "vodPic": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180504/82b2eff6f5bf489e9b4a90fbe9fc7e84.jpeg",
                 "drives": [
 				{
+                        "name": "自建小雅1",
+                        "server": "http://107.172.201.182:5344/",
+                        "startPage": "/",
+                        "showAll": false,
+                        "search": true
+                    },
+				{
                         "name": "京东小雅",
                         "server": "http://117.72.45.20:5344/",
                         "startPage": "/",
@@ -390,20 +397,6 @@
                       "username": "xzqcsa",
                       "password": "305306csa"
                       }
-                    },
-					{
-                        "name": "后来小雅",
-                        "server": "http://116.196.92.48:5344/",
-                        "startPage": "/",
-                        "showAll": false,
-                        "search": true
-                    },
-				{
-                        "name": "自建小雅1",
-                        "server": "http://107.172.201.182:5344/",
-                        "startPage": "/",
-                        "showAll": false,
-                        "search": true
                     },
                    
 					 {
