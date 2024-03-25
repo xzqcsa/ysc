@@ -423,8 +423,10 @@
                         "startPage": "/",
                         "showAll": false,
                         "search": true,
-						 "user": "xzqcsa",
-                         "pass": "305306csa"
+						  "login": {
+                      "username": "xzqcsa",
+                      "password": "305306csa"
+                      }
                     },
 					{
                         "name": "后来小雅",
