@@ -422,7 +422,9 @@
                         "server": "http://117.72.45.20:5344/",
                         "startPage": "/",
                         "showAll": false,
-                        "search": true
+                        "search": true,
+						 "user": "xzqcsa",
+                         "pass": "305306csa"
                     },
 					{
                         "name": "后来小雅",
