@@ -373,7 +373,7 @@
             "name": "🔥AList｜网盘🔥",
             "type": 3,
             "api": "csp_AList",
-			"jar": "./lib/pg.jar",
+			"jar": "./lib/pg小雅.jar",
             "searchable": 1,
 			 "quickSearch": 1,
             "recordable": 0,
