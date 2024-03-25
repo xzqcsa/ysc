@@ -1193,7 +1193,7 @@
       "key": "暴風",
       "name": "🔥暴風采集🔥",
       "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "api": "https://bfzyapi.com/api.php/provide/vod","quickSearch": 1,
       "searchable": 1,
       "changeable": 1,
 	  "categories": [
