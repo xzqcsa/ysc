@@ -1772,6 +1772,16 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
+	{"key":"YunPanOne",
+	"name":"🔍云盘One|网盘🔍",
+	"type":3,
+	"jar": "./lib/pg.jar",
+	"api":"csp_YunPanOne",
+	"quickSearch":1,
+	"changeable":1, 
+	"filterable":1,
+	"timeout":60, 
+	"ext":"./lib/tokenm.json$$$null$$$proxy$$$1"},
 	 {
             "key": "DaPanSo11",
             "name": "🔍我的小站|网盘🔍",
