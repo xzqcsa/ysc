@@ -23,6 +23,26 @@
       "changeable": 0,
       "ext": true
     },
+	{
+      "key": "音范丝",
+      "name": "🔥音范丝🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "./lib/fys.json"
+    },
+	{
+      "key": "Fangniu4k",
+      "name": "🔥放牛┃TV🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_WexFangniu4k",
+      "searchable": 1,
+      "changeable": 1
+    },
 	{"key":"PushShare4",
 		"name":"🔥电视剧分享🔥",
 		"jar": "./lib/pg.jar",
@@ -1983,7 +2003,15 @@
 			 "jar": "./lib/pg.jar",
             "ext": "./lib/tokenm2.json"
         },
-		
+		 {
+      "key": "Wexduanjuso",
+      "name": "🔍短剧搜索🔍",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_Wexduanjuso",
+      "searchable": 1,
+      "changeable": 0
+    },
 		{
             "key": "Panta",
             "name": "🔍盘Ta|网盘🔍",

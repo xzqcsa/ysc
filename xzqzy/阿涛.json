@@ -13,7 +13,26 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
-	
+	{
+      "key": "音范丝",
+      "name": "🔥音范丝🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "./lib/fys.json"
+    },
+	{
+      "key": "Fangniu4k",
+      "name": "🔥放牛┃TV🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_WexFangniu4k",
+      "searchable": 1,
+      "changeable": 1
+    },
 		{
             "key": "555yingshi1111",
 			"name":"🔥五五五影视🔥",
@@ -1527,6 +1546,15 @@
         "筛选":"1"
       },
       "jar":"./lib/Yoursmile1.jar"
+    },
+	 {
+      "key": "Wexduanjuso",
+      "name": "🔍短剧搜索🔍",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_Wexduanjuso",
+      "searchable": 1,
+      "changeable": 0
     },
   {
       "key":"6080",
