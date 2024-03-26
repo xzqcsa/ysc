@@ -62,7 +62,7 @@
 			"type":3,
 			"api":"csp_XBPQ",
 			"jar":"./lib/Yoursmile1.jar" ,
-            "ext": {"分类":"短剧$21#电影$1#电视剧$2#综艺$3#动漫$4",
+            "ext": {"分类":"短剧$21#电影$1#电视剧$2#综艺$3#动漫$4","搜索url":"https://www.nkvod.com/nk/-------------.html?wd={wd}",
 			"分类url":"https://www.nkvod.com/show/{cateId}--------{catePg}---{year}.html"}                 
         },
 		{
