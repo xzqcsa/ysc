@@ -1950,14 +1950,7 @@
             "timeout": 30,
             "ext": "./lib/tokenm2.json$$$https://pan.qianfan.app$$$null$$$QianFanID=6fvy5y5p1872wxmvtzetm8asnxouurur; _ga_6Z94VT54DV=GS1.1.1711335860.7.1.1711335880.0.0.0$$$1"
         },
-		{"key":"YunPanOne",
-		"name":"🔍云盘资源|网盘🔍",
-		"type":3,"api":"csp_YunPanOne",
-		"quickSearch":1, "changeable":1,
-		"jar": "./lib/pg.jar",
-		"filterable":1, "timeout":30, 
-		"ext":"./lib/tokenm2.json"
-		},
+		
 		{"key":"Dovx",
 		"name": "🔍阿里|Dovx🔍",
 		"type": 3, 

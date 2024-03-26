@@ -2552,14 +2552,7 @@
 	"filterable":1,
 	"timeout":60, 
 	"ext":"./lib/tokenm3.json$$$null$$$proxy$$$1"},
-		{"key":"YunPanOne",
-		"name":"🔍云盘资源|网盘🔍",
-		"type":3,"api":"csp_YunPanOne",
-		"quickSearch":1, "changeable":1,
-		"jar": "./lib/pg.jar",
-		"filterable":1, "timeout":30, 
-		"ext":"./lib/tokenm3.json"
-		},
+		
 	 
       {"key":"混合盘",
 	  "name":"🔍混合盘|网盘🔍",

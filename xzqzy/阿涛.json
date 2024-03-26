@@ -1417,14 +1417,7 @@
 	 
        
 	 
-		{"key":"YunPanOne",
-		"name":"🔍云盘资源|网盘🔍",
-		"type":3,"api":"csp_YunPanOne",
-		"quickSearch":1, "changeable":1,
-		"jar": "./lib/pg.jar",
-		"filterable":1, "timeout":30, 
-		"ext":"./lib/阿涛tokenm.json"
-		},
+		
 	 
        {"key":"易搜",
 		"name":"🔍易搜|网盘🔍",
