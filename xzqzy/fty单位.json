@@ -881,15 +881,14 @@
       "searchable": 1,
       "changeable": 1
     },{
-            "key": "Fangniu4k",
-           "name": "🇨🇳放牛·4k",
-            "type": 3,
-            "api": "csp_Fangniu4k",
-			"quickSearch":1,
-            "searchable": 1,
-            "changeable": 0,
-             "jar": "./lib/放牛1.jar"
-        },
+      "key": "Fangniu4k",
+      "name": "🔥放牛┃TV🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_WexFangniu4k",
+      "searchable": 1,
+      "changeable": 1
+    },
     {
       "key": "qiusai",
       "name": "🔥球赛直播🔥",
@@ -2542,7 +2541,16 @@
 	"filterable":1,
 	"timeout":60, 
 	"ext":"./lib/tokenm3.json$$$null$$$proxy$$$1"},
-		
+	 {
+      "key": "Wexduanjuso",
+      "name": "🔍短剧搜索🔍",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_Wexduanjuso",
+      "searchable": 1,
+      "changeable": 0
+    },
+	
 	 
       {"key":"混合盘",
 	  "name":"🔍混合盘|网盘🔍",
