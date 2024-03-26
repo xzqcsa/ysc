@@ -2558,7 +2558,16 @@
 	  "jar": "./lib/pg.jar",
 	  "timeout":30,
 	  "ext":"./lib/tokenm3.json"},
-        
+       {"key":"YunPan2324",
+	"name":"🔍云盘资源|网盘🔍",
+	"type":3,
+	"quickSearch":1,
+	"changeable":1, 
+	"filterable":1,
+	"jar": "./lib/pg.jar",
+	"api":"csp_YunPan",
+	"timeout":60,
+	"ext":"./lib/tokenm3.json$$$null$$$proxy$$$1"}, 
       
         {
             "key": "QuarkPanso",
