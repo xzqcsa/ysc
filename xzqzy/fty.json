@@ -23,26 +23,7 @@
       "changeable": 0,
       "ext": true
     },
-	{
-      "key": "音范丝",
-      "name": "🔥音范丝🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_XPath",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "./lib/fys.json"
-    },
-	{
-      "key": "Fangniu4k",
-      "name": "🔥放牛┃TV🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_WexFangniu4k",
-      "searchable": 1,
-      "changeable": 1
-    },
+	
 		{
             "key": "555yingshi1111",
 			"name":"🔥五五五影视🔥",
@@ -208,7 +189,30 @@
       "changeable": 0,
       "ext": true
     },
-	
+	{
+      "key": "Wobg56676",
+      "name": "🔥玩我网盘🔥",
+      "type": 3,
+      "api": "csp_Wobg",
+	  "jar": "./lib/pg.jar",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./XYQTVBox/tokenm.json$$$http://www.ttkx.live:3328$$$null$$$1$$$./pg/lib/wogg.json"
+    },
+		{
+      "key": "Wobg555",
+      "name": "🔥玩你网盘🔥",
+      "type": 3,
+      "api": "csp_Wobg",
+	  "jar": "./lib/pg.jar",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./XYQTVBox/tokenm.json$$$https://tv.yydsys.top/$$$null$$$1$$$./pg/lib/wogg.json"
+    },
 	 
 	{"key":"农91",
      "name":"🔥91短剧🔥",
