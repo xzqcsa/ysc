@@ -1416,7 +1416,16 @@
         },
 	 
        
-	 
+	 {"key":"YunPanOne",
+	"name":"🔍ONE|网盘🔍",
+	"type":3,
+	"jar": "./lib/pg.jar",
+	"api":"csp_YunPanOne",
+	"quickSearch":1,
+	"changeable":1, 
+	"filterable":1,
+	"timeout":60, 
+	"ext":"./lib/阿涛tokenm.json$$$null$$$proxy$$$1"},
 		
 	 
        {"key":"易搜",

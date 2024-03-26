@@ -1879,7 +1879,7 @@
       "jar":"./lib/Yoursmile1.jar"
     },
 	{"key":"YunPanOne",
-	"name":"🔍云盘One|网盘🔍",
+	"name":"🔍ONE|网盘🔍",
 	"type":3,
 	"jar": "./lib/pg.jar",
 	"api":"csp_YunPanOne",
