@@ -13,6 +13,19 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
+	{
+      "key": "Wexconfig",
+      "name": "🐮鸟巢配置🐮",
+      "type": 3,
+	   "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_Wexconfig",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.43
+      }
+    },
 	{ 
       "key": "csp_xBPQ_秒", 
       "name": "🔥喵播🔥", 
@@ -56,6 +69,18 @@
 }, 
       "jar":"./lib/Yoursmile1.jar"     
     },
+	{
+      "key": "Wobg3434",
+      "name": "🔥玩偶网盘🔥",
+      "type": 3,
+      "api": "csp_Wobg",
+	  "jar": "./lib/pg.jar",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./XYQTVBox/tokenm3.json$$$https://wog.nxog.eu.org$$$null$$$1$$$./pg/lib/wogg.json"
+    },
 	 {
       "key": "mingriyingshi",
       "name": "🔥️明日┃影视🔥",
@@ -74,6 +99,15 @@
       "searchable": 1,
       "changeable": 1
     },
+	{
+      "key": "Wexyingchao",
+      "name": "🔥鸟巢🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_Wexyingchao",
+      "searchable": 1,
+      "changeable": 1
+    },
     {
       "key": "Wexdiguatv",
       "name": "🔥桃子🔥",
@@ -83,15 +117,7 @@
       "searchable": 1,
       "changeable": 1
     },
-	 {
-      "key": "Wexyingchao",
-      "name": "🔥鸟巢🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_Wexyingchao",
-      "searchable": 1,
-      "changeable": 1
-    },
+	 
 		{
             "key": "555yingshi1111",
 			"name":"🔥五五五影视🔥",
