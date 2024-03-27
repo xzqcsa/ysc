@@ -2612,6 +2612,15 @@
 	"filterable":1,
 	"timeout":60, 
 	"ext":"./lib/tokenm3.json$$$null$$$proxy$$$1"},
+	{
+      "key": "Wexyingso",
+      "name": "🔍影子搜🔍",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_Wexyingso",
+      "searchable": 1,
+      "changeable": 0
+    },
 	 {
       "key": "Wexduanjuso",
       "name": "🔍短剧搜索🔍",
