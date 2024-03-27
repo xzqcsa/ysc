@@ -29,18 +29,54 @@
             "ext": "./XYQTVBox/tokenm1.json"
         },
 		{
-            "key": "配置中心11",
-            "name": "👨‍🍳‍配置中心",
-            "type": 3,
-			 "jar": "./lib/okpng.txt;md5;e4c8798b38e4f49fb859df1f66db0f74",
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.43
-            }
-        },
+      "key": "Wexconfig",
+      "name": "🐮鸟巢配置🐮",
+      "type": 3,
+	   "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_Wexconfig",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.43
+      }
+    },
+	{
+      "key": "mingriyingshi",
+      "name": "🔥️明日┃影视🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_WexMingriys",
+      "searchable": 1,
+      "changeable": 1
+    },
+	{
+      "key": "Wexxpgtv",
+      "name": "🔥红富士🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_Wexxpgtv",
+      "searchable": 1,
+      "changeable": 1
+    },
+	{
+      "key": "Wexyingchao",
+      "name": "🔥鸟巢🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_Wexyingchao",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexdiguatv",
+      "name": "🔥桃子🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_Wexdiguatv",
+      "searchable": 1,
+      "changeable": 1
+    },
 		{"key":"PushShare4",
 		"name":"🔥电视剧分享🔥",
 		"jar": "./lib/pg.jar",
