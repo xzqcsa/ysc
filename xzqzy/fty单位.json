@@ -560,14 +560,7 @@
                       "password": "305306csa"
                       }
                     },
-					{
-                        "name": "后来小雅",
-                        "server": "http://116.196.92.48:5344/",
-                        "startPage": "/",
-                        "showAll": false,
-                        "search": true
-                    },
-				
+					
                     {
                         "name": "小雅",
                         "server": "http://xiaoya.xlog.cc/",
