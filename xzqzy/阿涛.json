@@ -225,6 +225,17 @@
                         "showAll": false,
                         "search": true
                     },
+						{
+                        "name": "天翼云小雅",
+                        "server": "http://113.125.52.245:5344/",
+                        "startPage": "/",
+                        "showAll": false,
+                        "search": true,
+						  "login": {
+                      "username": "xzqcsa",
+                      "password": "305306csa"
+                      }
+                    },
 				{
                         "name": "京东小雅",
                         "server": "http://117.72.45.20:5344/",

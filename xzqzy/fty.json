@@ -316,7 +316,17 @@
                       "password": "305306csa"
                       }
                     },
-                   
+                   	{
+                        "name": "天翼云小雅",
+                        "server": "http://113.125.52.245:5344/",
+                        "startPage": "/",
+                        "showAll": false,
+                        "search": true,
+						  "login": {
+                      "username": "xzqcsa",
+                      "password": "305306csa"
+                      }
+                    },
 					 {
                         "name": "自建小雅2",
                         "server": "http://173.255.212.150:5344/",
