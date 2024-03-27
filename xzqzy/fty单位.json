@@ -56,7 +56,42 @@
 }, 
       "jar":"./lib/Yoursmile1.jar"     
     },
-	
+	 {
+      "key": "mingriyingshi",
+      "name": "🔥️明日┃影视🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_WexMingriys",
+      "searchable": 1,
+      "changeable": 1
+    },
+	{
+      "key": "Wexxpgtv",
+      "name": "🔥红富士🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_Wexxpgtv",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexdiguatv",
+      "name": "🔥桃子🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_Wexdiguatv",
+      "searchable": 1,
+      "changeable": 1
+    },
+	 {
+      "key": "Wexyingchao",
+      "name": "🔥鸟巢🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+      "api": "csp_Wexyingchao",
+      "searchable": 1,
+      "changeable": 1
+    },
 		{
             "key": "555yingshi1111",
 			"name":"🔥五五五影视🔥",
