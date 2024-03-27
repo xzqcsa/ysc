@@ -26,18 +26,7 @@
         "ratio": 1.43
       }
     },
-	{
-      "key": "Wobg3434444",
-      "name": "🔥玩偶网盘🔥",
-      "type": 3,
-      "api": "csp_Wogg",
-	  "jar": "./lib/pg.jar",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./XYQTVBox/阿涛tokenm.json$$$https://wog.nxog.eu.org$$$null$$$1$$$./pg/lib/wogg.json"
-    },
+	
 	{
       "key": "mingriyingshi",
       "name": "🔥️明日┃影视🔥",
