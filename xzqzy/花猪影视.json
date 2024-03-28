@@ -34,15 +34,7 @@
       "changeable": 1
     },
 
-    {
-      "key": "Wexdiguatv",
-      "name": "🔥桃子🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_Wexdiguatv",
-      "searchable": 1,
-      "changeable": 1
-    },
+   
 		{
             "key": "555yingshi1111",
 			"name":"🔥五五五影视🔥",
@@ -3112,6 +3104,11 @@
         }
       }
     },
+	{
+            "name": "梅屋(YTM)",
+            "type": 1,
+            "url": "http://jx.meowtv.cn/?url="
+        },
 	 {
       "name": "爱酷1",
       "type": 1,

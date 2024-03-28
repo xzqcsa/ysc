@@ -2890,6 +2890,11 @@
             }
         },
 		{
+            "name": "梅屋(YTM)",
+            "type": 1,
+            "url": "http://jx.meowtv.cn/?url="
+        },
+		{
             "name": "影探B",
             "type": 1,
             "url": "http://119.91.123.253:2345/Api/yun.php?url=",
