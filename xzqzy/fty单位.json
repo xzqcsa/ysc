@@ -78,7 +78,15 @@
 	"quickSearch":1,
 	"changeable":1,
 	"filterable":1, 
-	"timeout":45, 
+	"timeout":45,
+"categories": [
+        "少儿",
+		"电影",
+        "电视剧",
+        "短剧",
+        "动漫",
+        "纪录"
+        ],
 	"ext":"./lib/tokenm3.json$$$https://www.80yy3.com/$$$proxy$$$1$$$./lib/wogg.json"},
 	
 	 {
