@@ -2074,7 +2074,7 @@
     },
 		{
             "key": "Panta",
-            "name": "🔍盘Ta|网盘🔍",
+            "name": "🔍移动|网盘🔍",
             "type": 3,
             "api": "csp_Panta",
             "quickSearch": 1,
