@@ -215,7 +215,7 @@
             "key": "csp_91黑料",
             "name": "91黑料",
             "type": 3,
-			"jar":"./lib/Yoursmile1.jar",
+			"jar":"./lib1/spider.jar",
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
