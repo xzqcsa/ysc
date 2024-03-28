@@ -78,7 +78,7 @@
 	"quickSearch":1,
 	"changeable":1,
 	"filterable":1, 
-	"timeout":60, 
+	"timeout":45, 
 	"ext":"./lib/tokenm3.json$$$https://www.80yy3.com/$$$proxy$$$1$$$./lib/wogg.json"},
 	
 	 {
