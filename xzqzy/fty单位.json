@@ -69,6 +69,16 @@
 }, 
       "jar":"./lib/Yoursmile1.jar"     
     },
+	{"key":"Xinshijue111",
+	"name":"🔥新视觉|网盘🔥",
+	"type":3,
+	"jar": "./lib/pg.jar",
+	"api":"csp_Xinshijue",
+	"quickSearch":1,
+	"changeable":1,
+	"filterable":1, 
+	"timeout":60, 
+	"ext":"./lib/tokenm3.json$$$https://www.80yy3.com/$$$proxy$$$1$$$./lib/wogg.json"},
 	
 	 {
       "key": "mingriyingshi",
