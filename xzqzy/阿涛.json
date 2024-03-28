@@ -13,6 +13,16 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
+	{"key":"Xinshijue456",
+	"name":"🔥农民影院🔥",
+	"type":3,
+	"jar": "./lib/pg.jar",
+	"api":"csp_Xinshijue",
+	"quickSearch":1,
+	"changeable":1,
+	"filterable":1, 
+	"timeout":60, 
+	"ext":"./lib/阿涛tokenm.json$$$https://v.nmvod.cn/$$$./lib/wogg.json"},
 	{
       "key": "Wexconfig",
       "name": "🐮鸟巢配置🐮",
