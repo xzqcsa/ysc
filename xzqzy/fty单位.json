@@ -5334,7 +5334,7 @@
     {
       "name": "夜猫超解析2",
       "type": 1,
-      "url": "https://api.8l2.cn/api/?key=5c9905a3dc0bef77647d1bb4a1d319ad&url=",
+      "url": "http://119.91.123.253:2345/Api/yun.php?url=",
       "ext": {
         "flag": [
           "qq",
