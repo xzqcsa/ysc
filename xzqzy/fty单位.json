@@ -797,7 +797,7 @@
 		{"key":"Moli",
 		"name":"🔥HDmoli|网盘🔥",
 		"type":3,
-		"jar": "./lib/pgHDmoli.jar",
+		"jar": "./lib/pg.jar",
 		"api":"csp_Moli",
 		"quickSearch":1,
 	 "searchable": 1,	
