@@ -23,6 +23,15 @@
       "changeable": 0,
       "ext": true
     },
+	{ "key": "YQKan",
+	"name": "🔥一起看🔥",
+	"jar": "./lib/pg.jar",
+	"type": 3, 
+	"api": "csp_YQKan",
+	"searchable": 1,
+	"quickSearch": 1, 
+	"filterable": 1, 
+	"changeable": 1 },
 	{"key":"Xinshijue111",
 	"name":"🔥新视觉|网盘🔥",
 	"type":3,
@@ -966,16 +975,7 @@
 
 
 		 
-		{
-      "key": "一起看11 ",
-      "name": "🔥一起┃App🔥",
-      "type": 3,
-      "api": "csp_YQKan",
-	  "jar": "./lib/fty饭太硬.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
+		
 		{
             "key":"771111",
             "name":"🔥七七App🔥",
