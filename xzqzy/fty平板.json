@@ -555,21 +555,9 @@
                         "startPage": "/",
                         "showAll": false,
                         "search": true
-                    },
-						{
-                        "name": "小雅3",
-                        "server": "http://1.94.57.179:5344/",
-                        "startPage": "/",
-                        "showAll": false,
-                        "search": true
-                    },
-						{
-                        "name": "小雅4",
-                        "server": "http://60.24.120.118:5344/",
-                        "startPage": "/",
-                        "showAll": false,
-                        "search": true
                     }
+						
+						
                    ]} },
 	
    
