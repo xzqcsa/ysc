@@ -276,6 +276,7 @@
       "key": "业余采集A",
       "name": "🔥业余自营🔥 ",
       "type": 1,
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "http://154.3.2.163/api.php/provide/vod/",
       "playerType": 1,
       "searchable": 1,
@@ -548,6 +549,7 @@
       "key": "IKUN资源",
       "name": "🔥爱看2k🔥",
       "type": 1,
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/",
       "categories": [
         "动作片",
@@ -777,6 +779,7 @@
       "key": "aidfd",
       "name": "🔥爱困采集🔥 ",
       "type": 1,
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": " https://ikunzyapi.com/api.php/provide/vod/",
       "playerType": "2",
       "searchable": 1,
@@ -807,88 +810,18 @@
        
       ]
     },
-    {
-      "key": "108k",
-      "name": "🔥开心自营🔥 ",
-      "type": 1,
-      "api": "http://www.ttkx.site/api.php/provide/vod/",
-      "playerType": "2",
-      "searchable": 1,
-	
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-      "动画片",
-      "国产剧",
-       "动作片",
-        "剧情片",
-        "喜剧片",
-        "恐怖片",
-        "战争片",
-        "悬疑片",
-        "奇幻片",
-       "科幻片",
-        "灾难片",
-       
-        "欧美剧",
-        "日韩剧",
-         "动漫",
-         "国产动漫",
-          "欧美动漫",
-          "日韩动漫",
-		 "国产综艺",
-		 "短剧"
-         
-       
-        
-       
-       
-      ]
-    },
+  
 	
 
 
- {
-      "key": "108k2",
-      "name": "🔥开心自营2🔥 ",
-      "type": 1,
-      "api": "http://www.ttkx.site:33/api.php/provide/vod/",
-      "playerType": "2",
-      "searchable": 1,
-	
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-      "动画片",
-      "国产剧",
-       "动作片",
-        "剧情片",
-        "喜剧片",
-        "恐怖片",
-        "战争片",
-        "悬疑片",
-        "奇幻片",
-       "科幻片",
-        "灾难片",
-       "港台剧",
-        "欧美剧",
-        "日韩剧",
-         "动漫",
-        
-		 "综艺",
-		 "短剧"
-         
-       
-        
-       
-       
-      ]
+
     },
      
       {
       "key": "业",
       "name": "🔥飞速采集🔥 ",
       "type": 1,
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "https://www.feisuzyapi.com/api.php/provide/vod/",
       "playerType": "2",
       "searchable": 1,
@@ -940,6 +873,7 @@
       "key": "业余集A",
       "name": "🔥 豪华采集🔥 ",
       "type": 1,
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": " https://hhzyapi.com/api.php/provide/vod/",
       "playerType": "2",
       "searchable": 1,
@@ -988,6 +922,7 @@
       "key": "xml_轻简",
       "name": "轻简☆采集",
       "type": 1,
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "http://1.ahailove.cn:23456/cj/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
@@ -1003,6 +938,7 @@
       "key": "xml_猫放",
       "name": "猫放☆采集",
       "type": 1,
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "https://www.mervod.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
@@ -1039,7 +975,7 @@
       "name": "金鹰资源",
       "type": 1,
       "api": "https://jyzyapi.com/provide/vod/",
-      "playUrl": "",
+     "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -1048,7 +984,7 @@
       "name": "飘零影院",
       "type": 1,
       "api": "https://p2100.net/api.php/provide/vod/",
-      "playUrl": "",
+      "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -1383,6 +1319,7 @@
      {"key": "火狐",
      "name": "🦊茶杯狐",
      "type": 1,
+	 "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
      "api": "https://hhzyapi.com/api.php/provide/vod/",
      "searchable": 1,"quickSearch": 0,"filterable": 1,
      "categories":
@@ -4623,6 +4560,26 @@
     }
   ],
   "rules": [
+  {
+				"name": "proxy",
+				"hosts": [
+					"raw.githubusercontent.com",
+					"googlevideo.com",
+					"cdn.v82u1l.com",
+					"cdn.iz8qkg.com",
+					"cdn.kin6c1.com",
+					"c.biggggg.com",
+					"c.olddddd.com",
+					"haiwaikan.com",
+					"www.histar.tv",
+					"youtube.com",
+					"uhibo.com",
+					".*boku.*",
+					".*nivod.*",
+					"*.t4tv.hz.cz",
+					".*ulivetv.*"
+				]
+			},
     {
       "host": "www.iesdouyin.com",
       "rule": [

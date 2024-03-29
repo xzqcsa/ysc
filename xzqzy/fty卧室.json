@@ -442,7 +442,7 @@
             "name": "🔥AList｜网盘🔥",
             "type": 3,
             "api": "csp_AList",
-			"jar": "./lib/pg小雅.jar",
+			"jar": "./lib/pg.jar",
             "searchable": 1,
 			 "quickSearch": 1,
             "recordable": 0,
@@ -529,6 +529,7 @@
       "key": "业余采集A",
       "name": "🔥业余自营🔥 ",
       "type": 1,
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "http://154.3.2.163/api.php/provide/vod/",
       "playerType": 1,
       "searchable": 1,
@@ -997,6 +998,7 @@
       "key": "IKUN资源",
       "name": "🔥爱看2k🔥",
       "type": 1,
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/",
       "categories": [
         "动作片",
@@ -1406,6 +1408,7 @@
       "key": "aidfd",
       "name": "🔥爱困采集🔥 ",
       "type": 1,
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": " https://ikunzyapi.com/api.php/provide/vod/",
       "playerType": "2",
 	 
@@ -1444,6 +1447,7 @@
       "key": "业",
       "name": "🔥飞速采集🔥 ",
       "type": 1,
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "https://www.feisuzyapi.com/api.php/provide/vod/",
       "playerType": "2",
       "searchable": 1,
@@ -1480,6 +1484,7 @@
             "key": "快看采集",
             "name": "🌸 快看1080自建 ",
             "type": 1,
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
             "api": "http://kuaikan-api.com/api.php/provide/vod/",
             "playerType": 2,
             "searchable": 1,
@@ -1511,6 +1516,7 @@
             "key": "高清资源库",
             "name": "🎬 高清资源库 ",
             "type": 1,
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
             "api": "https://api.1080zyku.com/inc/apijson.php?ac=list",
             "playerType": 2,
             "searchable": 1,
@@ -1582,6 +1588,7 @@
       "key": "业余集A",
       "name": "🔥 豪华采集🔥 ",
       "type": 1,
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": " https://hhzyapi.com/api.php/provide/vod/",
 	  
       "playerType": "2",
@@ -4319,6 +4326,26 @@
     }
   ],
   "rules": [
+  {
+				"name": "proxy",
+				"hosts": [
+					"raw.githubusercontent.com",
+					"googlevideo.com",
+					"cdn.v82u1l.com",
+					"cdn.iz8qkg.com",
+					"cdn.kin6c1.com",
+					"c.biggggg.com",
+					"c.olddddd.com",
+					"haiwaikan.com",
+					"www.histar.tv",
+					"youtube.com",
+					"uhibo.com",
+					".*boku.*",
+					".*nivod.*",
+					"*.t4tv.hz.cz",
+					".*ulivetv.*"
+				]
+			},
     {
       "host": "www.iesdouyin.com",
       "rule": [
