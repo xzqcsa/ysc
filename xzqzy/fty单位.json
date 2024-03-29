@@ -842,6 +842,7 @@
       "key": "业余采集A",
       "name": "🔥业余自营🔥 ",
       "type": 1,
+	   "jar": "./lib/pg.jar",
 	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "http://154.3.2.163/api.php/provide/vod/",
       "playerType": 1,
@@ -1433,6 +1434,7 @@
       "key": "IKUN资源",
       "name": "🔥爱看2k🔥",
       "type": 1,
+	   "jar": "./lib/pg.jar",
 	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/",
       "categories": [
@@ -1966,6 +1968,7 @@
       "key": "aidfd",
       "name": "🔥爱困采集🔥 ",
       "type": 1,
+	   "jar": "./lib/pg.jar",
 	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": " https://ikunzyapi.com/api.php/provide/vod/",
       "playerType": "2",
@@ -2005,6 +2008,7 @@
       "key": "业",
       "name": "🔥飞速采集🔥 ",
       "type": 1,
+	   "jar": "./lib/pg.jar",
 	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "https://www.feisuzyapi.com/api.php/provide/vod/",
       "playerType": "2",
@@ -2048,6 +2052,7 @@
             "key": "快看采集",
             "name": "🌸 快看1080自建 ",
             "type": 1,
+			 "jar": "./lib/pg.jar",
 			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
             "api": "http://kuaikan-api.com/api.php/provide/vod/",
             "playerType": 2,
@@ -2080,6 +2085,7 @@
             "key": "高清资源库",
             "name": "🎬 高清资源库 ",
             "type": 1,
+			 "jar": "./lib/pg.jar",
 			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
             "api": "https://api.1080zyku.com/inc/apijson.php?ac=list",
             "playerType": 2,
@@ -2137,6 +2143,7 @@
             "key": "业A",
             "name": "🔥新浪采集🔥 ",
             "type": 1,
+			 "jar": "./lib/pg.jar",
 			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
             "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
 			
@@ -2168,6 +2175,7 @@
       "key": "业余集A",
       "name": "🔥 豪华采集🔥 ",
       "type": 1,
+	   "jar": "./lib/pg.jar",
 	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": " https://hhzyapi.com/api.php/provide/vod/",
 	  
@@ -2208,6 +2216,7 @@
       "key": "卧龙资源",
       "name": "🐉 卧龙.云播 ",
       "type": 1,
+	   "jar": "./lib/pg.jar",
 	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
 	 
@@ -2225,6 +2234,7 @@
       "key": "光速资源",
       "name": "☄ 光速.云播 ",
       "type": 1,
+	   "jar": "./lib/pg.jar",
 	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "https://api.guangsuapi.com/api.php/provide/vod/",
 	  
@@ -2244,6 +2254,7 @@
       "key": "闪电资源",
       "name": "⚡ 闪电.云播 ",
       "type": 1,
+	   "jar": "./lib/pg.jar",
 	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "http://sdzyapi.com/api.php/provide/vod/",
 	
