@@ -1106,6 +1106,8 @@
 
 {"key":"xmL_ 火狐",
 "name":"🔥火狐影视",
+ "jar": "./lib/pg.jar",
+ "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
 "type":1,"api":"https://hhzyapi.com/api.php/provide/vod/",
 "searchable":1,"quickSearch":1},
 {"key":"sohu",

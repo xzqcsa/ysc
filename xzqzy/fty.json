@@ -574,6 +574,7 @@
       "key": "业余采集A",
       "name": "🔥业余自营🔥 ",
       "type": 1,
+	   "jar": "./lib/pg.jar",
       "api": "http://154.3.2.163/api.php/provide/vod/",
       "playerType": 1,
       "searchable": 1,
@@ -1092,6 +1093,8 @@
 
 {"key":"xmL_ 火狐",
 "name":"🔥火狐影视",
+"jar": "./lib/pg.jar",
+"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
 "type":1,"api":"https://hhzyapi.com/api.php/provide/vod/",
 "searchable":1,"quickSearch":1},
 {"key":"sohu",
