@@ -1096,7 +1096,7 @@
 "name":"🔥火狐影视",
  "jar": "./lib/pg.jar",
  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
-"type":1,"api":"https://hhzyapi.com/api.php/provide/vod/from/hhm3u8",
+"type":1,"api":"https://hhzyapi.com/api.php/provide/vod/",
 "searchable":1,"quickSearch":1},
 {"key":"sohu",
 "name":"🔥搜狐🔥",
@@ -1134,7 +1134,7 @@
 {"key": "火狐",
      "name": "🦊茶杯狐",
      "type": 1,
-     "api": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8",
+     "api": "https://hhzyapi.com/api.php/provide/vod/",
 	 "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
      "searchable": 1,"quickSearch": 0,"filterable": 1,
      "categories":
@@ -1507,7 +1507,7 @@
       "type": 1,
 	   "jar": "./lib/pg.jar",
 	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
-      "api": " https://hhzyapi.com/api.php/provide/vod/from/hhm3u8",
+      "api": " https://hhzyapi.com/api.php/provide/vod/",
 	  
       "playerType": "2",
       "searchable": 1,
