@@ -273,6 +273,18 @@
             "timeout": 60,
             "ext": "null$$$null$$$1"
         },
+		{
+   "key": "Hanime",
+   "name": "🔞里番🔞",
+   "type": 3,
+   "jar": "./lib/pg.jar",
+   "api": "csp_Hanime",
+   "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "null$$$null$$$1"
+  },
         {
             "key": "AvTim",
             "name": "🔞AvTime",
