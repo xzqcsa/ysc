@@ -868,6 +868,8 @@
       
     {"key": "自建",
      "name": "🦊Uku采集",
+	 "jar": "./lib/pg.jar",
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
      "type": 1,
      "api": " https://api.ukuapi.com/api.php/provide/vod/",
      
@@ -936,6 +938,7 @@
       "key": "xml_轻简",
       "name": "轻简☆采集",
       "type": 1,
+	  "jar": "./lib/pg.jar",
 	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "http://1.ahailove.cn:23456/cj/api.php/provide/vod/",
       "searchable": 1,
@@ -1709,23 +1712,13 @@
     "searchable":1,"quickSearch":1,"filterable":1,
     "ext":"./lib/freeok.json"
     },
-{"key":"Live",
-"name":"🔥直播转点播",
-"type":3,"api":"./lib/live.js",
-"searchable":2,"quickSearch":0,"filterable":0,
-"ext":"./lib/live.json"
-},
+
 
     
    
    
    
-    {"key":"yqikan",
-    "name":"🔥一起看吧",
-    "type":3,"api":"csp_YQKAPP",
-    "ext":"https://api-aws.ctdy.cc",
-    "jar":"./lib/6.txt"
-    },
+    
    
 
      {
