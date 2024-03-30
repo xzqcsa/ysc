@@ -624,6 +624,7 @@
       "key": "业余采集A",
       "name": "🔥业余自营🔥 ",
       "type": 1,
+	  "jar": "./lib/pg.jar",
 	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "http://154.3.2.163/api.php/provide/vod/",
       "playerType": 1,
