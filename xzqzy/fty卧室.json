@@ -529,6 +529,7 @@
       "key": "业余采集A",
       "name": "🔥业余自营🔥 ",
       "type": 1,
+	  "jar": "./lib/pg.jar",
 	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "http://154.3.2.163/api.php/provide/vod/",
       "playerType": 1,
@@ -686,7 +687,17 @@
    "quickSearch":0,
    "changeable":0,
    "ext":{"type":"演唱会#电影#电视剧#8K#短剧#国创#动画#广场舞#纪录片#综艺#音乐#舞蹈#影视#知识#美食#风光#田园#户外","cookie":"buvid3=3E18CCD3-B5CA-8F82-820D-CF6B75F9D02C22187infoc; b_nut=1705143322; bsource=search_bing; _uuid=D8439A44-A7CB-3D26-81039-F2425538994C21715infoc; buvid_fp=cd12ea2c307f983a6df10ab3707208c2; buvid4=4AED588F-A040-32B6-1358-22A772DC171724455-024011310-Nh0iJnGOR+Zd46p1bNZisQ%3D%3D; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDU0MDI1MjQsImlhdCI6MTcwNTE0MzI2NCwicGx0IjotMX0.CQM-6912i27rqCDNxs5-eoLLLs_vSEcu6_0qGzxhOtw; bili_ticket_expires=1705402464; innersign=0; b_lsid=1F97B927_18D03BAF87C; enable_web_push=DISABLE; header_theme_version=CLOSE; home_feed_column=5; browser_resolution=1528-708; SESSDATA=4155acdb%2C1720716626%2C0a80c%2A11CjAajA61Ia_DlVMZekG_MaWeZbnoponkvcqt2Hj3qoon0Y023DgoJzPI-928s6AnbNQSVkdZRGx3S2hJQUR3OHBmMXFOWFNDc2dHZXJfdHFxOUx1ellqOFJ6dDJEVFh3aFpCYmhnQnd1a1FlNHMyOFBTNFI4OXdncmZPc3I5aWFyZDZURm1WbHlnIIEC; bili_jct=f68ff862f60b65d7adab2e25ae03c338; DedeUserID=3546609111533924; DedeUserID__ckMd5=7b3ecc045fe0ce26; sid=ooincc3b"}},
-	
+	 {
+            "key": "嘀嘀",
+            "name": "🔥嘀嘀·无广🔥",
+            "type": 3,
+            "api": "csp_Bdys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "./lib/Movie2.txt;md5;85eb7c33792c9bd8cd181596a168deba"
+        },
+    
 	{
       "key": "十一",
       "name": "🔥发财🔥",

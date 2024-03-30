@@ -491,11 +491,22 @@
             "type": 4,
             "api": "https://catbox.n13.club/wy.php"
         },
-	
+	 {
+            "key": "嘀嘀",
+            "name": "🔥嘀嘀·无广🔥",
+            "type": 3,
+            "api": "csp_Bdys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "./lib/Movie2.txt;md5;85eb7c33792c9bd8cd181596a168deba"
+        },
+    
 	{
       "key": "业余采集A",
       "name": "🔥业余自营🔥 ",
       "type": 1,
+	  "jar": "./lib/pg.jar",
 	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "api": "http://154.3.2.163/api.php/provide/vod/",
       "playerType": 1,
