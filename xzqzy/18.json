@@ -262,6 +262,17 @@
             }
         },
 		{
+            "key": "91电影",
+            "name": "91电影网",
+            "type": 3,
+			 "jar":"./lib1/91黑料.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib1/91电影网.json"
+        },
+		{
             "key": "Gxqvl",
             "name": "🔞Gxqvlj",
             "type": 3,
