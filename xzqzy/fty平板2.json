@@ -43,7 +43,8 @@
     },
 	  {"key":"天影",
 		"name":"🔥天影网盘🔥",
-		"type":3,"api":"csp_Meijumi",
+		"type":3,
+		"api":"csp_Ppxzy",
 		"quickSearch":1,
 		
 		"searchable": 1,
