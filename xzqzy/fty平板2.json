@@ -97,9 +97,9 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-             "ext":"./lib/可可影视.txt"},
-           
-       
+             "ext":"./lib/可可影视.txt"
+			 },
+        
     {
             "key": "baipiaoys",
             "name": "🔥白嫖影视🔥",
