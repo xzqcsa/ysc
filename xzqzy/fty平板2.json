@@ -96,9 +96,8 @@
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-           "ext":{"分类url": "https://www.keke6.app/show/{cateId}--{area}--{year}-3-{catePg}.html","图片": "data-original=\"&&\"[替换:/vod1>>https://vres.a357899.cn/vod1]",
-      "分类": "电影$1#电视剧$2#动漫$3#综艺$4#短剧$6"}},
+            "filterable": 1
+           "ext":"./lib/可可影视.txt"},
            
        
     {
