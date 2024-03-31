@@ -90,15 +90,15 @@
     },
 	{
             "key": "dushe影视",
-            "name": "🔥毒蛇影视🔥",
+            "name": "🔥首播影视🔥",
             "type": 3,
 			"jar":"./lib1/pg-XBPQ.jar",
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-           "ext":{"分类url": "https://www.dushe7.app/show/{cateId}--{area}--{year}-3-{catePg}.html",
-      "分类": "电视剧$2#电影$1#动漫$3#综艺$4#短剧$6"}},
+           "ext":{"分类url": "https://shoubozhan.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+      "分类": "电视剧$2#电影$1#动漫$4#综艺$3#短剧$32"}},
 	{
             "key": "可可影视",
             "name": "🔥可可影视🔥",
