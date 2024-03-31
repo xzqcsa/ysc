@@ -104,7 +104,7 @@
         "搜索数组": "<div class=\"module-item-pic\">&&</div>",
         "图片": "src=\"&&\"",
         "搜索标题": "title=\"&&\"",
-        "搜索副标题": ">&&</a >",
+        "搜索副标题": ">&&</a>",
         "线路数组": "data-dropdown-value=&&</div>",
         "线路标题": "<span>&&</small>[替换:<span></small>共]+集",
         "播放数组": "<div class=\"scroll-content\">&&</div>",
