@@ -88,7 +88,20 @@
       "searchable": 1,
       "changeable": 1
     },
-		
+	{
+            "key": "聚米影视",
+            "name": "🔥剧迷影视🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+             "ext": {
+        "分类url": "https://www.jagcys.com/vodshow/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
+        "分类": "电影$dianying#电视剧$dsj#动漫$dongman#综艺$zongyi"
+    }
+},	
 	{
             "key": "COKEMV影视",
             "name": "🔥COKEMV影视🔥",
