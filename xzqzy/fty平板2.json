@@ -41,17 +41,7 @@
         "ratio": 1.43
       }
     },
-	  {"key":"天影",
-		"name":"🔥天影网盘🔥",
-		"type":3,
-		"api":"csp_Moli",
-		"quickSearch":1,
-		
-		"searchable": 1,
-		"changeable":1,
-		"filterable":1, 
-		"timeout":60,
-		"ext":"./lib/tokenm1.json$$$https://www.ty4k.vip/$$$null$$$1$$$./lib/moli.json"},     
+	  
 	{"key":"Xinshijue111",
 	"name":"🔥新视觉|网盘🔥",
 	"type":3,
@@ -123,86 +113,7 @@
                 "分类url": "https://www.baipiaoys.com:9092/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/lang/{lang}/letter/{letter}/year/{year}.html"
             }
         },
-		{"key":"PushShare4",
-		"name":"🔥电视剧分享🔥",
 		
-		"type":3, 
-		"api":"csp_PushShare",
-		"searchable":1,
-		"quickSearch":1,
-		"changeable":1, 
-		"filterable":0,
-		"timeout":60,
-		"ext":"./lib/tokenm1.json$$$./XYQTVBox/pushshare电视剧.txt$$$db$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
-		{"key":"PushShare6",
-		"name":"🔥电影分享🔥",
-		
-		"type":3, 
-		"api":"csp_PushShare",
-		"searchable":1,
-		"quickSearch":1,
-		"changeable":1, 
-		"filterable":0,
-		"timeout":60,
-		"ext":"./lib/tokenm1.json$$$./XYQTVBox/pushshare电影.txt$$$db$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
-		{"key":"PushShare1",
-		"name":"🔥磁力分享🔥",
-		
-		"type":3, 
-		"api":"csp_PushShare",
-		"searchable":1,
-		"quickSearch":1,
-		"changeable":1, 
-		"filterable":0,
-		"timeout":60,
-		"ext":"./lib/tokenm1.json$$$./XYQTVBox/pushshare磁力.txt$$$db$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
-		{"key":"PushShare2",
-		"name":"🔥短剧分享🔥",
-		
-		"type":3, 
-		"api":"csp_PushShare",
-		"searchable":1,
-		"quickSearch":1,
-		"changeable":1, 
-		"filterable":0,
-		"timeout":60,
-		"ext":"./lib/tokenm1.json$$$./XYQTVBox/pushshare短剧.txt$$$db$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
-		{"key":"PushShare3",
-		"name":"🔥动画分享🔥",
-		
-		"type":3, 
-		"api":"csp_PushShare",
-		"searchable":1,
-		"quickSearch":1,
-		"changeable":1, 
-		"filterable":0,
-		"timeout":60,
-		"ext":"./lib/tokenm1.json$$$./XYQTVBox/pushshare动画.txt$$$db$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
 		{ 
       "key": "csp_xBPQ_秒", 
       "name": "🔥喵播🔥", 
@@ -342,17 +253,7 @@
                 "分类url": "https://www.hdmoli.pro/mlist/index{cateId}.html",
 				"分类": "电影$1#剧集$2#动画$41"}},
 	
-	{
-      "key": "csp_yydflive-2",
-      "name": "💞电视电台",
-      "type": 3,
-      "playerType": 1,
-      "jar": "./lib/zb.jar;md5;bf1b124a45435a1be4f54d148280a749",
-      "api": "csp_zb",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "./lib/live.json"
-    },
+	
 	
 		{
             "key": "555yingshi1111",
@@ -365,15 +266,7 @@
         },
 	
 		
-	{
-      "key": "Yinyuetai",
-     "name": "🛰音悦台┃音乐┃MV",
-	   "jar": "./lib/放牛1.jar",
-      "type": 3,
-      "api": "csp_Yinyuetai",
-      "searchable": 1,
-      "changeable": 0
-    },
+	
 	{"key":"Moli",
 		"name":"🔥HDmoli|网盘🔥",
 		"type":3,
@@ -385,12 +278,7 @@
 		"filterable":1,
 		"timeout":60, 
 		"ext":"./lib/tokenm1.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json"},
-	{
-            "key": "xyyy",
-            "name": "🎙旺强音乐",
-            "type": 4,
-            "api": "https://catbox.n13.club/wy.php"
-        },
+	
 	{
             "key": "飘雪影院",
             "name": "🔥飘雪影院🔥",
@@ -610,18 +498,7 @@
             "timeout": 30,
             "ext": "./XYQTVBox/tokenm1.json"
         },
-		{"key":"阿里云集合外置",
-		"name":"🔥阿里云集合🔥",
-		"type":3,
-		"api":"csp_阿里云集合",
-		"searchable":1,
-		"filterable":0,
-		"switchable":0,
-		"changeable":0,
-		"timeout":60,
-		"ext":"./lib/阿里集合.json;./XYQTVBox/tokenm1.json",
-		"jar":"./lib/真心真语0204+列表+搜索.jar"}, 
-	
+		
 		 {
       "key": "业余采集A",
       "name": "🔥业余自营🔥 ",
@@ -661,45 +538,7 @@
 	
    
 		
-		{"key":"AliShare",
-		"name":"🔥阿里云盘分享🔥",
-		"type":3,
-		"api":"csp_AliShare",
 		
-		"style":{"type":"list"},
-		"searchable":1,
-		"quickSearch":1,
-		"changeable":1, 
-		"filterable":0, 
-		"timeout":60,
-		"ext":"./XYQTVBox/tokenm1.json$$$./XYQTVBox/alishare.txt$$$db$$$1"
-		},
-	  {"key":"ThunderShare",
-	  "name":"🔥迅雷云盘分享🔥",
-	  "type":3,
-	  "api":"csp_ThunderShare",
-	  "searchable":1,
-	  
-	  "style":{"type":"list"},
-	  "quickSearch":1, 
-	  "changeable":1,
-	  "filterable":0, 
-	  "timeout":60,
-	  "ext":"./XYQTVBox/tokenm1.json$$$./XYQTVBox/thundershare.txt"
-	  },
-		{"key":"QuarkShare",
-		"name":"🔥夸克云盘分享🔥",
-		"type":3,
-		"api":"csp_QuarkShare",
-		"searchable":1,
-		"style":{"type":"list"},
-		
-		"quickSearch":1, 
-		"changeable":1, 
-		"filterable":0, 
-		"timeout":60, 
-		"ext":"./XYQTVBox/tokenm1.json$$$./XYQTVBox/quarkshare.txt"
-		},
 		{
       "key": "Wobg56676",
       "name": "🔥玩我网盘🔥",
