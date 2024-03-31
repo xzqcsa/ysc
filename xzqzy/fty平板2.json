@@ -41,7 +41,16 @@
         "ratio": 1.43
       }
     },
-	       
+	  {"key":"天影",
+		"name":"🔥天影网盘🔥",
+		"type":3,"api":"csp_Meijumi",
+		"quickSearch":1,
+		
+		"searchable": 1,
+		"changeable":1,
+		"filterable":1, 
+		"timeout":60,
+		"ext":"./lib/tokenm1.json$$$https://www.ty4k.vip/$$$null$$$1"},     
 	{"key":"Xinshijue111",
 	"name":"🔥新视觉|网盘🔥",
 	"type":3,
@@ -92,6 +101,7 @@
             "key": "baipiaoys",
             "name": "🔥白嫖影视🔥",
             "type": 3,
+			 "jar":"./lib1/pg-XBPQ.jar",
             "changeable": 1,
             "searchable": 1,
 			"playUrl": "https://www.baipiao-ys.cc:6062/player/?url=",
@@ -352,16 +362,7 @@
             "ext": {"分类":"短剧$45#电影$1#剧集$2#综艺$4#动漫$3",
 			"分类url":"https://www.555zxdy.com/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html"}                 
         },
-	{
-            "key": "Fangniu4k",
-           "name": "🇨🇳放牛·4k",
-            "type": 3,
-            "api": "csp_Fangniu4k",
-			"quickSearch":1,
-            "searchable": 1,
-            "changeable": 0,
-             "jar": "./lib/放牛1.jar"
-        },
+	
 		
 	{
       "key": "Yinyuetai",
