@@ -89,6 +89,17 @@
       "changeable": 1
     },
 	{
+            "key": "电影影视",
+            "name": "🔥电影先生🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+           "ext":{"分类url": "https://dyxs30.com/pianku-{cateId}-{area}-------{catePg}---{year}/",
+      "分类": "电视剧$dianshiju#电影$dianying#动漫$dongman#综艺$zongyi"}},
+	{
             "key": "凯奇影视",
             "name": "🔥凯奇影视🔥",
             "type": 3,
