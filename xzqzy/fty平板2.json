@@ -97,8 +97,8 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-             "ext":"./lib/毒蛇影视.txt"
-			 },
+           "ext":{"分类url": "https://www.dushe7.app/show/{cateId}--{area}--{year}-3-{catePg}.html",
+      "分类": "电视剧$2#电影$1#动漫$3#综艺$4#短剧$6"}},
 	{
             "key": "可可影视",
             "name": "🔥可可影视🔥",
