@@ -890,18 +890,7 @@
         },
     
 
-        {
-            "key": "Ppxzy",
-            "name": "🔥皮皮虾|网盘🔥",
-            "type": 3,
-            "api": "csp_Ppxzy",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-			"jar": "./lib/pg24.10.26.jar",
-            "timeout": 30,
-            "ext":"./lib/tokenm1.json$$$https://ppxzy.net/$$$null$$$1"
-        },
+       
         {
             "key": "校长影视",
             "name": "🔥校长影视|网盘🔥",
@@ -1247,50 +1236,15 @@
     "jar": "./fty.jar;md5;d275081b5b9f999614a1930aa7599cb9",
    "changeable":0,
    "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
-    {
-      "key": "wogg",
-      "name": "🅱️玩偶阿里|T追剧",
-      "type": 3,
-      "api": "csp_XYQHikerAL",
-      "searchable": 1,
-	  "jar": "./HeChengChaXiu.jar",
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./lib/玩偶哥哥.json"
-    },
+   
   
     
       
     
    
-    {
-      "key": "csp_XYQHikerAL_阿里云盘网",
-      "name": "❤☁️阿里云盘",
-      "type": 3,
-      "style": {
-        "type": "rect",
-        "ratio": 0.8
-      },
-      "api": "csp_XYQHikerAL",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/cvU.json"
-    },
     
      
-     {
-      "key": "🍮Gitcafe6",
-      "name": "🔥纸条阿里🔥",
-      "type": 3,
-      "api": "csp_Paper",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://127.0.0.1:9978/file/千软汇/阿里/token.txt",
-      "jar": "./lib/HeChengChaXiupm.jar"
-    },
+     
     
    
   
