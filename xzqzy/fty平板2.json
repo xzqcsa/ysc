@@ -98,7 +98,7 @@
             "quickSearch": 1,
             "filterable": 1,
              "ext": {
-        "分类url": "https://dyxs30.com/pianku-{cateId}-{area}-------{catePg}---{year}.html",
+        "分类url": "https://dyxs30.com/pianku-{cateId}-{area}-------{catePg}---{year}/",
         "简介": "class=\"video-info-item video-info-content vod_content\">&&</span>",
         "搜索url": "https://dyxs30.com/search--------------.html?wd={wd}",
         "搜索数组": "<div class=\"module-item-pic\">&&</div>",
