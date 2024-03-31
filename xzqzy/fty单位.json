@@ -1875,7 +1875,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
-			"jar":"./lib/pg.jar",
+			"jar": "./lib/pg24.10.26.jar",
             "timeout": 30,
             "ext":"./lib/tokenm3.json$$$https://ppxzy.net/$$$null$$$1"
         },
