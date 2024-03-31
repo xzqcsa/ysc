@@ -89,6 +89,17 @@
       "changeable": 1
     },
 	{
+            "key": "凯奇影视",
+            "name": "🔥凯奇影视🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+           "ext":{"分类url": "http://kqyy.tv/vodshow/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+      "分类": "电视剧$lianxuju#电影$dianying#动漫$dongman#综艺$zongyi"}},
+	{
             "key": "dushe影视",
             "name": "🔥首播影视🔥",
             "type": 3,
