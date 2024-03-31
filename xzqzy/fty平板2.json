@@ -88,6 +88,18 @@
       "searchable": 1,
       "changeable": 1
     },
+	{
+            "key": "可可影视",
+            "name": "🔥可可影视🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/可可影视.txt"
+           
+        },
     {
             "key": "baipiaoys",
             "name": "🔥白嫖影视🔥",
