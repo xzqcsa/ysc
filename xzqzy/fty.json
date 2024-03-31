@@ -2008,7 +2008,7 @@
             "api": "csp_Panta",
             "quickSearch": 1,
             "changeable": 1,
- "jar": "./lib/pg.jar",
+"jar": "./lib/pg24.10.26.jar",
             "filterable": 1,
             "timeout": 30,
             "ext": "./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1"
