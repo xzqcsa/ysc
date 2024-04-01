@@ -190,6 +190,20 @@
             "ext": {"分类":"短剧$45#电影$1#剧集$2#综艺$4#动漫$3",
 			"分类url":"https://www.555zxdy.com/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html"}                 
         },
+		{
+            "key": "热播影视",
+            "name": "🔥热播影视🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+             "ext": {
+        "分类url": "https://rebozj.pro/type/{cateId}.html",
+        "分类": "电影$1#电视剧$2#动漫$4#综艺$5"
+    }
+},	
 	{ 
       "key": "csp_xBPQ_秒", 
       "name": "🔥喵播🔥", 

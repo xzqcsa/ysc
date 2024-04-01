@@ -62,6 +62,20 @@
       "changeable": 1
     },
 	{
+            "key": "热播影视",
+            "name": "🔥热播影视🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+             "ext": {
+        "分类url": "https://rebozj.pro/type/{cateId}.html",
+        "分类": "电影$1#电视剧$2#动漫$4#综艺$5"
+    }
+},	
+	{
       "key": "Wexxpgtv",
       "name": "🔥红富士🔥",
       "type": 3,
