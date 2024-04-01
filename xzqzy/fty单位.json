@@ -98,7 +98,7 @@
             "quickSearch": 1,
             "filterable": 1,
              "ext": {
-        "分类url": "https://www.kelitv.com/type/{cateId}?pageSize=24&pageNum={catePg}&pid={cateId}&cid=&countryId={cateId}&yearId={cateId}",
+        "分类url": "https://www.kelitv.com/type/{cateId}",
         "分类": "电影$1756716744706998273#电视剧$1756727298498609153#动漫$1756723338790420481"
     }
 },	
