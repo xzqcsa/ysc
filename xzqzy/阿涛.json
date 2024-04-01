@@ -412,14 +412,7 @@
 	"filterable":1, 
 	"timeout":60, 
 	"ext":"null$$$null$$$1"},
-		{
-            "key": "云2",
-            "name": "🔥梦影🔥",
-            "type": 3,
-            "api": "csp_Movie2",
-            "jar": "./lib/jar.php",
-            "ext": "./lib/Movie5.txt"
-        },
+		
 	
 		{
             "key": "飘雪影院",
@@ -432,18 +425,7 @@
             "filterable": 1,
             "ext": {
                 "分类url": "http://www.cityzc.net/vodshow/{cateId}--{by}---B---{catePg}---.html[]"}},
-	{
-            "key": "飞云",
-            "name": "🔥飞云🔥",
-            "type": 3,
-            "api": "./lib/appysv2.js",
-            "ext": {
-                "host": "http://122.228.84.103:5821/api.php/app/",
-                "*": [
-                    "http://122.228.84.103:7777/api/?key=lEoJRrX01Drg8Of5aA&url="
-                ]
-            }
-        },
+	
 		{"key":"Moli",
 		"name":"🔥HDmoli|网盘🔥",
 		"type":3,

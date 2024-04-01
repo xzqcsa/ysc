@@ -362,27 +362,9 @@
                 "分类url": "http://www.cityzc.net/vodshow/{cateId}--{by}---B---{catePg}---.html[]"}},
 	
 		
-		{
-            "key": "飞云",
-            "name": "🔥飞云🔥",
-            "type": 3,
-            "api": "./lib/appysv2.js",
-            "ext": {
-                "host": "http://122.228.84.103:5821/api.php/app/",
-                "*": [
-                    "http://122.228.84.103:7777/api/?key=lEoJRrX01Drg8Of5aA&url="
-                ]
-            }
-        },
 		
-		{
-            "key": "云2",
-            "name": "🔥梦影🔥",
-            "type": 3,
-            "api": "csp_Movie2",
-            "jar": "./lib/jar.php",
-            "ext": "./lib/Movie5.txt"
-        },
+		
+		
 		{
 			"key": "Bdys_spider",
 			"name": "🧲 哔滴┃磁力🧲 ",
@@ -592,7 +574,13 @@
         "体育"
       ]
     },
-	 
+	{"key":"1212",
+     "name":"🔥APP影院🔥",
+     "type":3,"api":"csp_XBPQ",
+	 "jar":"./lib1/pg-XBPQ.jar",
+     "searchable":1,"quickSearch":1,"filterable":1,
+      "ext":{"分类url": "https://www.appmovie.vip/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+      "分类": "电影$1#连续剧$2#综艺$3#动漫$4"}}, 
 	
 	 {"key":"bili",
    "name":"🔥哔哩 | 大会员🔥",
