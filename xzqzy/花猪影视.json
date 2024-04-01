@@ -23,7 +23,67 @@
 	"quickSearch": 1, 
 	"filterable": 1, 
 	"changeable": 1 },
-	
+	{
+            "key": "聚米影视",
+            "name": "🔥剧迷影视🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+             "ext": {
+        "分类url": "https://www.jagcys.com/vodshow/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
+        "分类": "电影$dianying#电视剧$dsj#动漫$dongman#综艺$zongyi"
+    }
+},	
+	{
+            "key": "COKEMV影视",
+            "name": "🔥COKEMV影视🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+             "ext": {
+        "分类url": "https://www.cokemv.fun/show/{cateId}-{area}-------{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#动漫$3#综艺$4"
+    }
+},
+	{
+            "key": "凯奇影视",
+            "name": "🔥凯奇影视🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+           "ext":{"分类url": "http://kqyy.tv/vodshow/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+      "分类": "电视剧$lianxuju#电影$dianying#动漫$dongman#综艺$zongyi"}},
+	{
+            "key": "dushe影视",
+            "name": "🔥首播影视🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+           "ext":{"分类url": "https://shoubozhan.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+      "分类": "电视剧$2#电影$1#动漫$4#综艺$3#短剧$32"}},
+	{
+            "key": "可可影视",
+            "name": "🔥可可影视🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+             "ext":"./lib/可可影视.txt"
+			 },
 	{
       "key": "Wexxpgtv",
       "name": "🔥红富士🔥",
