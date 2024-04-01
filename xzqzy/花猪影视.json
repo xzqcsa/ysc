@@ -447,7 +447,34 @@
       "ext":{"分类url": "https://www.ddkk.tv/show/{cateId}-{area}----------{year}.html",
       "分类": "电影$1#电视剧$2#综艺$4#动漫$3"}},
 	
-	
+	{
+            "key": "爱坤影视",
+            "name": "🔥爱坤影视🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+             "ext": {
+        "分类url": "https://ikun.tv/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类": "动画片$54#电影$1#电视剧$3#动漫$2#综艺$4#短剧$5"
+    }
+},	
+{
+            "key": "奇异影视",
+            "name": "🔥奇异影视🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+             "ext": {
+        "分类url": "https://www.777111.xyz/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
+    }
+},	
 	
 	{"key":"晴天",
      "name":"🔥晴天影院🔥",

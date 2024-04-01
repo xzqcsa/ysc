@@ -88,20 +88,7 @@
       "searchable": 1,
       "changeable": 1
     },
-	{
-            "key": "科利影视",
-            "name": "🔥科利影视🔥",
-            "type": 3,
-			"jar":"./lib1/pg-XBPQ.jar",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-             "ext": {
-        "分类url": "https://www.kelitv.com/type/{cateId}",
-        "分类": "电影$1756716744706998273#电视剧$1756727298498609153#动漫$1756723338790420481"
-    }
-},	
+	
 	{
             "key": "爱坤影视",
             "name": "🔥爱坤影视🔥",
