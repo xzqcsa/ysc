@@ -125,7 +125,15 @@
         "ratio": 1.43
       }
     },
-	
+	 {"key":"Ppxzy",
+		"name":"🔥皮皮虾|网盘🔥",
+		"type":3,
+		"api":"csp_Ppxzy",
+		"quickSearch":1, 
+		"changeable":1,
+		"filterable":1, 
+		"timeout":60, 
+		"ext":"./lib/tokenm.json$$$https://ppxzy.net$$$null$$$1"},
 	{
       "key": "Wexxpgtv",
       "name": "🔥红富士🔥",
