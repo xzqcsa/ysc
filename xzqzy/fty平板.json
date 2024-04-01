@@ -89,6 +89,34 @@
       "changeable": 1
     },
 	{
+            "key": "热播影视",
+            "name": "🔥热播影视🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+             "ext": {
+        "分类url": "https://rebozj.pro/type/{cateId}.html",
+        "分类": "电影$1#电视剧$2#动漫$4#综艺$5"
+    }
+},	
+{
+            "key": "4非公影视",
+            "name": "🔥4S影视🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+             "ext": {
+        "分类url": "https://www.4kvm.org/{cateId}",
+        "分类": "电影$movies#电视剧$tvshows"
+    }
+},	
+	{
             "key": "聚米影视",
             "name": "🔥剧迷影视🔥",
             "type": 3,
