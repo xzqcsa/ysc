@@ -1,5 +1,5 @@
 {
-  "spider": "./lib1/pg.jar;md5;58fc87042d81c94a11056d7b481d4c74",
+  "spider": "./lib/pg.jar",
   "lives": [
     {
       "name": "初秋语",
@@ -115,7 +115,7 @@
     },
 	{"key":"PushShare333435656",
 		"name":"🔥桃花分享🔥",
-		"jar": "./lib/pg.jar",
+		
 		"type":3, 
 		"api":"csp_PushShare",
 		"searchable":1,
@@ -134,7 +134,7 @@
             "name": "🧲 磁力搜索2🧲 ",
             "type": 3,
             "api": "csp_BtSow",
-			"jar": "./lib/pg.jar",
+			
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -159,7 +159,7 @@
                 "免嗅探": "开",
                 "直接播放": "1",
                 "数组": "<div class=\"stui-vodlist__box\">&&</div>",
-                "分类url": "http://hsck779.cc/vodtype/{cateId}-{catePg}.html",
+                "分类url": "http://hsck371.cc/vodtype/{cateId}-{catePg}.html",
                 "分类": "日韩AV$1#国产系列$2#欧美$3#成人动漫$4#无码中文$8#有码中文$9#国产视频$15"
             }
         },
@@ -167,7 +167,7 @@
 		 {"key":"Bt0333",
 	 "name":"🧲 磁力搜索🧲 ",
 	 "type":3,
-	 "jar": "./lib/pg.jar",
+
 	 "api":"csp_BtSearch",
 	 "quickSearch":1,
 	 "changeable":1, 
@@ -188,39 +188,10 @@
       "filterable": 1,
       "ext": "./lib1/lf_live1.txt"
     },
-	{"key":"PushShare11333",
-	"name":"🔥磁力点播资源推送1🔥",
-	"type":3, 
-	"jar":"./lib1/磁力+netflav.jar",
-	"style":{"type":"rect","ratio":2.5},
-	"api":"csp_PushShare",
-	"searchable":1,
-	"quickSearch":1,
-	"changeable":1,
-	"filterable":0, "timeout":60, 
-	"ext":{
-  "vodPic": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180504/82b2eff6f5bf489e9b4a90fbe9fc7e84.jpeg",
-  "drives": [
-{"name":"磁力6666","server":"./lib/tokenm1.json$$$./lib1/1_pushshare.a.txt$$$db$$$1"}
-]}},
-{"key":"PushShare23333",
-	"name":"🔥磁力点播资源推送2🔥",
-	"type":3, 
-	"jar":"./lib1/磁力+netflav.jar",
-	"style":{"type":"rect","ratio":2.5},
-	"api":"csp_PushShare",
-	"searchable":1,
-	"quickSearch":1,
-	"changeable":1,
-	"filterable":0, "timeout":60, 
-	"ext":{
-  "vodPic": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180504/82b2eff6f5bf489e9b4a90fbe9fc7e84.jpeg",
-  "drives": [
-{"name":"磁力22","server":"./lib/tokenm1.json$$$./lib1/pushshare.1.txt$$$db$$$1"}
-]}},
+	
    {"key":"PushShare3332223",
 		"name":"🔥我的资源分享1🔥",
-		"jar": "./lib1/pg.jar",
+		
 		"type":3, 
 		"api":"csp_PushShare",
 		"searchable":1,
@@ -299,7 +270,7 @@
             "key": "Gxqvl",
             "name": "🔞Gxqvlj",
             "type": 3,
-			"jar": "./lib/pg.jar",
+			
             "api": "csp_Gxqvlj",
             "quickSearch": 1,
             "changeable": 1,
@@ -311,7 +282,7 @@
    "key": "Hanime",
    "name": "🔞里番🔞",
    "type": 3,
-   "jar": "./lib/pg.jar",
+  
    "api": "csp_Hanime",
    "quickSearch": 1,
             "changeable": 1,
@@ -323,7 +294,7 @@
             "key": "AvTim",
             "name": "🔞AvTime",
             "type": 3,
-			"jar": "./lib/pg.jar",
+			
             "api": "csp_AvTime",
             "quickSearch": 1,
             "changeable": 1,
@@ -335,7 +306,7 @@
             "key": "Zuise",
             "name": "🔞Zuise",
             "type": 3,
-			"jar": "./lib/pg.jar",
+			
             "api": "csp_Zuise",
             "quickSearch": 1,
             "changeable": 1,
@@ -370,7 +341,7 @@
         },
 		 {"key":"PushShare22223232",
 		"name":"🔥我的资源分享2🔥",
-		"jar": "./lib1/pg.jar",
+		
 		"type":3, 
 		"api":"csp_PushShare",
 		"searchable":1,
@@ -388,7 +359,7 @@
             "key": "Taohuazu",
             "name": "桃花族",
             "type": 3,
-			"jar": "./lib/pg.jar",
+			
             "api": "csp_Taohuazu",
             "searchable": 1,
             "quickSearch": 1,
@@ -430,7 +401,7 @@
     "key":"csp_JavBus",
     "name":"🚒JavBus",
     "type":3,
-	"jar": "./lib/pg.jar",
+	
     "api":"csp_JavBus",
     "searchable":1,
     "quickSearch":1,
@@ -444,7 +415,7 @@
             "key": "Hsck",
             "name": "💃悟道.Hsck[飞]",
             "type": 3,
-          "jar": "./lib/pg.jar",
+          
             "api": "csp_Hsck",
             "searchable": 1,
             "quickSearch": 1,
@@ -460,7 +431,7 @@
     "key":"csp_JavDb",
     "name":"🚒JavDb",
     "type":3,
-	"jar": "./lib/pg.jar",
+	
     "api":"csp_JavDb",
     "searchable":1,
     "quickSearch":1,
