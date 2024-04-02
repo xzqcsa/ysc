@@ -402,23 +402,7 @@
             "quickSearch": 1,
             "filterable":1
         },
-    {
-      "key": "AList",
-      "name": "AList",
-      "type": 3,
-      "api": "csp_AList",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "vodPic": "https://x.imgs.ovh/x/2023/09/05/64f680bb030b4.png",
-        "drives": [
-          {
-            "name": "网盘1",
-            "server": "https://alist-caimoui.cloud.okteto.net/私房菜/"
-          }
-        ]
-      }
-    },
+   
     {
       "key": "csp_JavBus",
       "name": "JavBus",
@@ -435,19 +419,16 @@
       "timeout": 60
     },
     {
-      "key": "csp_JavDb",
-      "name": "JavDb",
-      "type": 3,
-      "api": "csp_JavDb",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.77
-      },
-      "timeout": 60
+    "key":"csp_JavDb",
+    "name":"🚒JavDb",
+    "type":3,
+    "api":"csp_JavDb",
+    "searchable":1,
+    "quickSearch":1,
+    "filterable":1,
+    "changeable":0,
+    "timeout":1801,
+    "ext":"http://javdb365.com"
     },
     {
       "key": "nivod18",
