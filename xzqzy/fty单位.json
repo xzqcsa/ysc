@@ -62,6 +62,20 @@
       "changeable": 1
     },
 	{
+    "key": "wangfei",
+    "name": "🔥网飞🔥",
+    "type": 3,
+    "api": "csp_XBPQ",    
+    "jar":"./lib1/pg-XBPQ.jar",
+    "ext": {
+        "线路数组":"<div class=\"module-tab-item&&</div>[排序:][排序:HN线路>SO线路>KK线路]",
+     "线路标题":"<span>&&</small>[替换:</span><small>>>✮更新]",
+        "分类url": "https://www.wangfei.live/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类": "电影$dianying#剧集$juji#国产$guochanju#港剧$xianggangju#动漫$dongman#综艺$zongyi"
+    }
+},
+
+	{
             "key": "电影狗影视",
             "name": "🔥电影狗🔥",
             "type": 3,
