@@ -66,7 +66,7 @@
             "name": "🔥AMD🔥",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar":"./lib1/pg-XBPQ.jar",
             "ext": {
                 "搜索url": "https://cms.fdue.de/index.php/vod/search.html?wd={wd}",
                 "分类url": "https://cms.fdue.de/index.php/vod/type/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
