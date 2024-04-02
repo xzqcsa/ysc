@@ -146,7 +146,7 @@
             "name": "仓库",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xbpq.jar",
+          "jar":"./lib1/pg-XBPQ.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
