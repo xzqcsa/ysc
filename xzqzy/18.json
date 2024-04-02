@@ -141,6 +141,29 @@
             "timeout": 60,
             "ext": "null$$$null$$$1"
         },
+		{
+            "key": "黄色仓库",
+            "name": "仓库",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/XBPQ.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.99
+            },
+            "ext": {
+                "请求头": "手机",
+                "免嗅探": "开",
+                "直接播放": "1",
+                "数组": "<div class=\"stui-vodlist__box\">&&</div>",
+                "分类url": "http://hsck779.cc/vodtype/{cateId}-{catePg}.html",
+                "分类": "日韩AV$1#国产系列$2#欧美$3#成人动漫$4#无码中文$8#有码中文$9#国产视频$15"
+            }
+        },
+
 		 {"key":"Bt0333",
 	 "name":"🧲 磁力搜索🧲 ",
 	 "type":3,
