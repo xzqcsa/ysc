@@ -404,25 +404,24 @@
         },
    
     {
-      "key": "csp_JavBus",
-      "name": "JavBus",
-      "type": 3,
-      "api": "csp_JavBus",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.77
-      },
-      "timeout": 60
+    "key":"csp_JavBus",
+    "name":"🚒JavBus",
+    "type":3,
+	"jar": "./lib/pg.jar",
+    "api":"csp_JavBus",
+    "searchable":1,
+    "quickSearch":1,
+    "filterable":1,
+    "changeable":0,
+    "style":{"type":"rect","ratio":1.77},
+    "timeout":60,
+    "ext":"https://www.buscdn.art"
     },
 	{
             "key": "Hsck",
             "name": "💃悟道.Hsck[飞]",
             "type": 3,
-          "jar": "./lib1/pg.jar",
+          "jar": "./lib/pg.jar",
             "api": "csp_Hsck",
             "searchable": 1,
             "quickSearch": 1,
@@ -438,7 +437,7 @@
     "key":"csp_JavDb",
     "name":"🚒JavDb",
     "type":3,
-	"jar": "./lib1/pg.jar",
+	"jar": "./lib/pg.jar",
     "api":"csp_JavDb",
     "searchable":1,
     "quickSearch":1,
