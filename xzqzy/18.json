@@ -365,14 +365,14 @@
             "key": "Taohuazu",
             "name": "桃花族",
             "type": 3,
-			
+			"jar": "./lib/pg.jar",
             "api": "csp_Taohuazu",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 0,
             "timeout": 60,
-            "ext": "http://thze.cc"
+            "ext": "http://thzq.cc"
         },
 {
       "key": "av188",
