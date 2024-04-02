@@ -89,7 +89,7 @@
 "链接前缀":"https://nbqlyfdhoe.xyz",
 "链接后缀":"",
 "跳转播放链接":"<source src=\"&&\""},
-"jar":"./lib/Yoursmile1.jar"},
+"jar":"./lib/XBPQ.jar"},
 	{"key":"Clg",
 	"name":"🔥磁力狗|磁力🔥",
 	"type":3,"api":"csp_Clg",
@@ -418,10 +418,27 @@
       },
       "timeout": 60
     },
+	{
+            "key": "Hsck",
+            "name": "💃悟道.Hsck[飞]",
+            "type": 3,
+          "jar": "./lib1/pg.jar",
+            "api": "csp_Hsck",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "style": {
+                "type": "rect",
+                "ratio": 1.309
+            }
+        },
     {
     "key":"csp_JavDb",
     "name":"🚒JavDb",
     "type":3,
+	"jar": "./lib1/pg.jar",
     "api":"csp_JavDb",
     "searchable":1,
     "quickSearch":1,
