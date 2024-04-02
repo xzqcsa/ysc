@@ -14,6 +14,34 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
+	{
+            "key": "电影狗影视",
+            "name": "🔥电影狗🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+             "ext": {
+        "分类url": "http://www.qiganshop.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
+    }
+},	
+{
+            "key": "看片影视",
+            "name": "🔥看片狂人🔥",
+            "type": 3,
+			"jar":"./lib1/pg-XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+             "ext": {
+        "分类url": "https://www.kpkuang.one/vodshow/{cateId}-{area}-------{catePg}---{year}--.html",
+        "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
+    }
+},	
 	{ "key": "YQKan",
 	"name": "🔥一起看🔥",
 	
