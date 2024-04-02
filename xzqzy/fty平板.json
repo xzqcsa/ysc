@@ -41,18 +41,7 @@
         "ratio": 1.43
       }
     },
-		{
-            "key": "哎呦影视",
-            "name": "🔥哎呦影视🔥",
-            "type": 3,
-            "api": "csp_XBPQ",
-           "jar":"./lib1/pg-XBPQ.jar",
-            "ext": {
-                "分类url": "https://www.iuys.cc/vodshow/{cateId}-{area}----------{year}.html",
-                "分类": "电影$2#电视剧$1#动漫$3#综艺$4"
-               
-            }
-        },
+		
 	{
             "key": "XBPQ_AMD",
             "name": "🔥AMD🔥",
