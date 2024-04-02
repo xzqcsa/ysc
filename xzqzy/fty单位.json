@@ -70,8 +70,8 @@
             "ext": {
                 "搜索url": "https://cms.fdue.de/index.php/vod/search.html?wd={wd}",
                 "分类url": "https://cms.fdue.de/index.php/vod/type/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-                "分类": "电影&连续剧&综艺&动漫",
-                "分类值": "1&2&3&4"
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
+               
             }
         },
 
