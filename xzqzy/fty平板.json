@@ -305,7 +305,7 @@
   "播放请求头":"User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36#Origin$www.whbax.cn#Referer$www.whbax.cn#Cookie$PHPSESSID=7da46a353cf8bac46b4f8226f06042ad", 
   "免嗅": "0" 
 }, 
-      "jar":"./lib/Yoursmile1.jar"     
+      "jar":"./lib/xbpq.jar"    
     },
 		{"key":"农91",
      "name":"🔥91短剧🔥",
