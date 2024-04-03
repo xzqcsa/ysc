@@ -1442,6 +1442,19 @@
       "jar":"./lib/Yoursmile1.jar"
     },
    
+    
+      
+    {"key":"csp_PanSou111",
+	"name":"🔍PanSou🔍",
+	"type":3,
+	"api":"csp_PanSou",
+	 "quickSearch": 1,
+            "changeable": 1,
+			 
+            "filterable": 1,
+            "timeout": 60,
+	"ext":"./lib/阿涛tokenm.json$$$null$$$1"
+	},
     {
       "key": "PanSearch",
       "name": "🔍盘Se┃搜索🔍",

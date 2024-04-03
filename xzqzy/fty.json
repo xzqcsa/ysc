@@ -1445,7 +1445,30 @@
     
   
     
-  
+   {"key":"csp_YouKu",
+  "name":"🔍优酷🔍",
+  "type":3,
+  "api":"csp_YouKu",
+  "quickSearch": 1,
+  "changeable": 1,
+			 
+ "filterable": 1,
+ "timeout": 60,
+	"ext":"./lib/tokenm.json$$$null$$$1"
+  },
+    
+      
+    {"key":"csp_PanSou111",
+	"name":"🔍PanSou🔍",
+	"type":3,
+	"api":"csp_PanSou",
+	 "quickSearch": 1,
+            "changeable": 1,
+			 
+            "filterable": 1,
+            "timeout": 60,
+	"ext":"./lib/tokenm.json$$$null$$$1"
+	},
    
    
    
