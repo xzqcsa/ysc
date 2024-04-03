@@ -75,6 +75,40 @@
             }
         },
 
+{"key":"csp_MeijuTT",
+"name":"🔥美剧TT🔥",
+"type":3,
+"api":"csp_MeijuTT",
+"quickSearch":1,
+		
+		"searchable": 1,
+		"changeable":1,
+		"filterable":1, 
+		"timeout":60,
+		"ext":"./lib/tokenm3.json$$$null$$$1"},
+{"key":"c蚂蚁影视",
+"name":"🔥蚂蚁影视🔥",
+"type":3,
+"api":"csp_Mayiys",
+"quickSearch":1,
+		
+		"searchable": 1,
+		"changeable":1,
+		"filterable":1, 
+		"timeout":60,
+		"ext":"./lib/tokenm3.json$$$null$$$1"},
+{"key":"csp_Kanqiu",
+"name":"🔥看球🔥",
+"type":3,
+"api":"csp_Kanqiu",
+"quickSearch":1,
+		
+		"searchable": 1,
+		"changeable":1,
+		"filterable":1, 
+		"timeout":60,
+		"ext":"./lib/tokenm3.json$$$null$$$1"},
+
 	{
     "key": "wangfei",
     "name": "🔥网飞🔥",
@@ -1394,10 +1428,30 @@
    "changeable":0,
    "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
    
-  
+  {"key":"csp_YouKu",
+  "name":"搜索csp_YouKu",
+  "type":3,
+  "api":"csp_YouKu",
+  "quickSearch": 1,
+  "changeable": 1,
+			 
+ "filterable": 1,
+ "timeout": 60,
+	"ext":"./lib/tokenm3.json$$$null$$$1"
+  },
     
       
-    
+    {"key":"csp_PanSou111",
+	"name":"🔍PanSou🔍",
+	"type":3,
+	"api":"csp_PanSou",
+	 "quickSearch": 1,
+            "changeable": 1,
+			 
+            "filterable": 1,
+            "timeout": 60,
+	"ext":"./lib/tokenm3.json$$$null$$$1"
+	},
    
     
      
