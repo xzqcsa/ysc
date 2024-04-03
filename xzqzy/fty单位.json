@@ -84,8 +84,8 @@
 		"searchable": 1,
 		"changeable":1,
 		"filterable":1, 
-		"timeout":60,
-		"ext":"./lib/tokenm3.json$$$null$$$1"},
+		"timeout":60
+		},
 {"key":"c蚂蚁影视",
 "name":"🔥蚂蚁影视🔥",
 "type":3,
@@ -95,8 +95,8 @@
 		"searchable": 1,
 		"changeable":1,
 		"filterable":1, 
-		"timeout":60,
-		"ext":"./lib/tokenm3.json$$$null$$$1"},
+		"timeout":60
+		},
 {"key":"csp_Kanqiu",
 "name":"🔥看球🔥",
 "type":3,
@@ -106,8 +106,8 @@
 		"searchable": 1,
 		"changeable":1,
 		"filterable":1, 
-		"timeout":60,
-		"ext":"./lib/tokenm3.json$$$null$$$1"},
+		"timeout":60
+		},
 
 	{
     "key": "wangfei",
