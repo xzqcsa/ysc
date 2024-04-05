@@ -37,20 +37,7 @@
         "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
     }
 },	
-{
-      "key": "4kdyw",
-      "name": "🔥简影🔥",
-      "type": 3,
-	  "jar":"./lib/XBPQ.jar",
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-	  "ext":  {
-        "分类url": "https://4kdyw.qsclub.cn/vodtype/{cateId}.html",
-        "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
-      }     
-    },
+
 {
             "key": "看片影视",
             "name": "🔥看片狂人🔥",
@@ -254,7 +241,7 @@
 			"name":"🔥五五五影视🔥",
 			"type":3,
 			"api":"csp_XBPQ",
-			"jar":"./lib/xbpq.jar",
+			"jar":"./lib/XBPQ.jar",
             "ext": {"分类":"短剧$45#电影$1#剧集$2#综艺$4#动漫$3",
 			"分类url":"https://www.555zxdy.com/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html"}                 
         },
@@ -277,7 +264,7 @@
             "name": "🔥毒舌影视🔥",
             "type": 3,
             "api": "csp_XBPQ",
-			"jar":"./lib/xbpq.jar",
+			"jar":"./lib/XBPQ.jar",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -341,7 +328,7 @@
   "播放请求头":"User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36#Origin$www.whbax.cn#Referer$www.whbax.cn#Cookie$PHPSESSID=7da46a353cf8bac46b4f8226f06042ad", 
   "免嗅": "0" 
 }, 
-      "jar":"./lib/xbpq.jar"    
+      "jar":"./lib/XBPQ.jar"    
     },
 	
 		

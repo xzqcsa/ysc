@@ -46,7 +46,7 @@
             "name": "🔥毒舌影视🔥",
             "type": 3,
             "api": "csp_XBPQ",
-			"jar":"./lib/xbpq.jar",
+			"jar":"./lib/XBPQ.jar",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -74,7 +74,7 @@
             "key": "皮皮影视",
             "name": "🔥皮皮影视🔥",
             "type": 3,
-			"jar":"./lib/xbpq.jar",
+			"jar":"./lib/XBPQ.jar",
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
@@ -334,7 +334,7 @@
   "播放请求头":"User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36#Origin$www.whbax.cn#Referer$www.whbax.cn#Cookie$PHPSESSID=7da46a353cf8bac46b4f8226f06042ad", 
   "免嗅": "0" 
 }, 
-      "jar":"./lib/xbpq.jar"    
+      "jar":"./lib/XBPQ.jar"    
     },
 		{"key":"农91",
      "name":"🔥91短剧🔥",
