@@ -1955,18 +1955,7 @@
             "timeout": 30,
             "ext": "./lib/tokenm2.json$$$https://dapanso.com$$$null$$$1"
         },
- {
-      "key": "YiSo",
-      "name": "🔍一搜(阿里搜索)🔍",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "quickSearch": 1,
-	  "jar": "./fty新.jar",
-      "filterable": 0,
-      "changeable": 0,
-      "ext": "1f34013bd2d0471d94e200b730489623"
-    },
+
     {
       "key": "Gitcafe",
       "name": "🔍网盘|小纸条🔍",
@@ -2170,17 +2159,7 @@
     },
 
    
-   {
-      "key": "Gitcafe11",
-      "name": "📀小纸条(搜索)🔍",
-      "type": 3,
-      "api": "csp_Gitcafe",
-	  "jar":"./XYQHiker/custom_spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./XYQTVBox/alitoken.txt"
-    },
+  
     {
       "key": "csp_AliPS11",
       "name": "📀喵狸盘搜(搜索)🔍",

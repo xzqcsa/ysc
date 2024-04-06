@@ -70,20 +70,7 @@
             }
         },
 
-	{
-            "key": "皮皮影视",
-            "name": "🔥皮皮影视🔥",
-            "type": 3,
-			"jar":"./lib/XBPQ.jar",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-             "ext": {
-        "分类url": "http://pptv06.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$5"
-    }
-},	
+	
 		{
       "key": "T4-mingri",
       "name": "🔥明日🔥",
@@ -391,20 +378,7 @@
 			"ext": "./lib/短剧侠.json"
 		},
 		
-	 {
-            "key": "爱坤影视",
-            "name": "🔥爱坤影视🔥",
-            "type": 3,
-			"jar":"./lib1/pg-XBPQ.jar",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-             "ext": {
-        "分类url": "https://ikun.tv/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类": "动画片$54#电影$1#电视剧$3#动漫$2#综艺$4#短剧$5"
-    }
-},	
+	 
 {
             "key": "奇异影视",
             "name": "🔥奇异影视🔥",
@@ -1007,22 +981,7 @@
 
  
 
-{"key": "火狐",
-     "name": "🦊茶杯狐",
-     "type": 1,
-     "api": "https://hhzyapi.com/api.php/provide/vod/",
-	 "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
-     "searchable": 1,"quickSearch": 0,"filterable": 1,
-     "categories":
-      ["内地剧","动作片","科幻片",
-      "战争片","喜剧片","爱情片",
-      "恐怖片","犯罪片","剧情片",
-      "冒险片","记录片",
-      "韩剧","香港剧","台湾剧",
-      "欧美剧","日剧","马泰剧",
-      "体育赛事","综艺","动画片",
-      "中国动漫","日本动漫","欧美动漫"]},
-     
+
        
         
  
@@ -1691,18 +1650,7 @@
             "timeout": 30,
             "ext": "./lib/tokenm1.json$$$https://dapanso.com$$$null$$$1"
         },
- {
-      "key": "YiSo",
-      "name": "🔍一搜(阿里搜索)🔍",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "quickSearch": 1,
-	  "jar": "./fty新.jar",
-      "filterable": 0,
-      "changeable": 0,
-      "ext": "1f34013bd2d0471d94e200b730489623"
-    },
+
     {
       "key": "Gitcafe",
       "name": "🔍网盘|小纸条🔍",
@@ -1719,19 +1667,7 @@
 
   
  
-  {
-      "key":"6080",
-      "name":"🍭6080搜索🍭",
-      "type": 3,
-      "filterable": 1,
-      "api":"csp_XBPQ",
-      "ext": {
-        "分类url": "https://www.80yy3.com/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类":"电影$1#电视剧$2#综艺$3#动漫$4",
-        "筛选":"1"
-      },
-      "jar":"./lib1/pg-XBPQ.jar"
-    },
+ 
    {
       "key": "阿里云集合",
       "name": "🔍阿里云集合🔍",
@@ -1859,17 +1795,7 @@
     },
 
    
-   {
-      "key": "Gitcafe11",
-      "name": "📀小纸条(搜索)🔍",
-      "type": 3,
-      "api": "csp_Gitcafe",
-	  "jar":"./XYQHiker/custom_spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./XYQTVBox/alitoken.txt"
-    },
+  
     {
       "key": "csp_AliPS11",
       "name": "📀喵狸盘搜(搜索)🔍",
