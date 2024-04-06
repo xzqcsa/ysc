@@ -36,5 +36,8 @@
 "yd_auth":"",
 "yd_thread_limit":4,
 "yd_flags":"4kz|auto",
-"yd_danmu":true
+"yd_danmu":true,"wgcf_key":"",
+"wgcf_ipport":"",
+"wgcf_xray_url":"./xray.gz",
+"wgcf_json_url":"./wgcf.json"
 }

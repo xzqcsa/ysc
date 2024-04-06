@@ -1010,7 +1010,7 @@
 		"changeable":1,
 		"filterable":1, 
 		"timeout":30, 
-		"ext":"./lib/tokenm1.json$$$https://wogg.link$$$null$$$1$$$./pg/lib/wogg.json"},
+		"ext":"./lib/tokenm1.json$$$https://wogg.link/$$$socks5://127.0.0.1:10071$$$1$$$./lib/wogg.json"},
       
     
 
