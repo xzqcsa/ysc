@@ -49,8 +49,8 @@
 			"settings": {
 				"vnext": [
 					{
-						"address": "www.csgo.com",
-						"port": 80,
+						"address": "cdn-all.xn--b6gac.eu.org",
+						"port": 443,
 						"users": [
 							{
 								"id": "VLESSID",
