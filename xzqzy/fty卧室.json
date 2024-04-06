@@ -560,7 +560,7 @@
                    
 					 {
                         "name": "自建小雅2",
-                        "server": "http://173.255.212.150:5344/",
+                        "server": "223.214.234.203:13579/",
                         "startPage": "/",
                         "showAll": false,
                         "search": true
