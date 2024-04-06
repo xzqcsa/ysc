@@ -10,6 +10,14 @@
 			{
 				"address": "tcp://1.1.1.1",
 				"concurrency": true
+			},
+			{
+				"address": "https+local://223.5.5.5/dns-query",
+				"concurrency": true,
+				"domains": [
+					"full:cdn-all.xn--b6gac.eu.org"
+				],
+				"skipFallback": true
 			}
 		]
 	},
@@ -35,6 +43,39 @@
 				"network": "tcp"
 			},
 			"tag":"directwarp"
+		},
+		{
+			"protocol": "vless",
+			"settings": {
+				"vnext": [
+					{
+						"address": "www.csgo.com",
+						"port": 80,
+						"users": [
+							{
+								"id": "VLESSID",
+								"encryption": "none",
+								"level":0
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "ws",
+				"security": "tls",
+				"tlsSettings": {
+					"serverName": "VLESSCFWORKERNAME",
+					"allowInsecure": true
+				},
+				"wsSettings": {
+					"headers": {
+						"Host": "VLESSCFWORKERNAME"
+					},
+					"path": "/?ed=2048"
+				}
+			},
+			"tag":"vlesscf"
 		}
 	]
 	,
@@ -47,6 +88,24 @@
 				"auth": "noauth"
 			},
 			"tag":"socks5",
+			"sniffing": {
+				"destOverride": [
+					"http",
+					"tls",
+					"quic"
+				],
+				"enabled": true,
+				"routeOnly": true
+			}
+		},
+		{
+			"port": 10072,
+			"protocol": "socks",
+			"settings": {
+				"udp": true,
+				"auth": "noauth"
+			},
+			"tag":"socks5overvless",
 			"sniffing": {
 				"destOverride": [
 					"http",
@@ -77,7 +136,7 @@
 		}
 	],
 	"routing": {
-		"domainStrategy": "AsIs",
+		"domainStrategy": "IPIfNonMatch",
 		"rules": [
 			{
 				"type": "field",
@@ -85,6 +144,20 @@
 					"socks5"
 				],
 				"outboundTag": "directwarp"
+			},
+			{
+				"type": "field",
+				"inboundTag": [
+					"socks5overvless"
+				],
+				"outboundTag": "vlesscf"
+			},
+			{
+				"type": "field",
+				"inboundTag": [
+					"http"
+				],
+				"outboundTag": "vlesscf"
 			}
 		]
 	}
