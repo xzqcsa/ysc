@@ -556,14 +556,6 @@
                       "username": "xzqcsa",
                       "password": "305306csa"
                       }
-                    },
-                   
-					 {
-                        "name": "自建小雅2",
-                        "server": "223.214.234.203:13579/",
-                        "startPage": "/",
-                        "showAll": false,
-                        "search": true
                     }
                    ]} },
 	
@@ -1166,7 +1158,7 @@
       "filterable": 1,
     
              
-            "ext": "./lib/tokenm2.json$$$https://wogg.link/$$$socks5://127.0.0.1:10071$$$1$$$./lib/wogg.json"
+            "ext": "./lib/tokenm2.json$$$https://wogg.link/$$$null$$$1$$$./pg/lib/wogg.json"
         },
      
 {"key":"xmL_ 火狐",
