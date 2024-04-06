@@ -618,7 +618,7 @@
             "name": "🔥AList｜网盘🔥",
             "type": 3,
             "api": "csp_AList",
-			
+			 "jar": "./lib/pg24.4.1.jar",
             "searchable": 1,
 			 "quickSearch": 1,
             "recordable": 0,
@@ -742,7 +742,7 @@
       "key": "Wobg56676",
       "name": "🔥玩我网盘🔥",
       "type": 3,
-      "api": "csp_Wobg",
+      "api": "csp_Wogg",
 	  
       "quickSearch": 1,
       "changeable": 1,
@@ -993,7 +993,7 @@
 		"name":"🔥玩我|哥哥🔥",
 		"type":3,
 		"api":"csp_XYQHikerAL",
-		"jar": "./lib/ttkx.jar",
+		"jar": "./XYQTVBox/XYQ.jar",
 		"searchable":1,"quickSearch":1,"filterable":1,
 		"ext":"./lib/玩我哥哥.json"
 		},
@@ -1700,6 +1700,17 @@
 	"api":"csp_Panyq",
 	"timeout":60,
 	"ext":"./lib/tokenm3.json$$$null$$$1"},
+	{
+    "key": "csp_AliPS",
+    "name": "🔍Hk喵狸⁴ᴷ🔍",
+    "type": 3,
+    "api": "csp_AliPS",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 0,
+    "jar": "./XYQTVBox/XYQ.jar",
+    "ext": "./XYQTVBox/alitoken.txt"
+},
 		{
             "key": "Panta",
             "name": "🔍移动|网盘🔍",

@@ -1196,7 +1196,17 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
     },
-   
+   {
+    "key": "csp_AliPS",
+    "name": "🔍Hk喵狸⁴ᴷ🔍",
+    "type": 3,
+    "api": "csp_AliPS",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 0,
+    "jar": "./XYQTVBox/XYQ.jar",
+    "ext": "./XYQTVBox/alitoken.txt"
+},
     {
       "key": "PanSearch",
       "name": "🔍盘Se┃搜索🔍",
