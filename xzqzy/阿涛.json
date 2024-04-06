@@ -264,15 +264,7 @@
       "searchable": 1,
       "changeable": 1
     },
-	{
-      "key": "Wexyingchao",
-      "name": "🔥鸟巢🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_Wexyingchao",
-      "searchable": 1,
-      "changeable": 1
-    },
+	
   
 		{
             "key": "555yingshi1111",
@@ -406,7 +398,7 @@
      "type":3,"api":"csp_XBPQ",
 	  "jar":"./lib1/pg-XBPQ.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://v.nmvod.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class--year-{year}-letter--area-{area}-lang-.html","搜索url":"https://v.emsdn.cn/index.php?m=vod-search",
+      "ext":{"分类url": "https://m.nmddd.com/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class--year-{year}-letter--area-{area}-lang-.html","搜索url":"https://m.nmddd.com/index.php?m=vod-search",
       "分类": "短剧$26#电影$1#连续剧$2#动漫$4"}},
 	  {"key":"t4_duanju5",
 	"name":"🔥短剧屋🔥",
@@ -1041,14 +1033,6 @@
    
 		
 		
-		{"key": "玩我哥哥11",
-		"name":"🔥玩我|哥哥🔥",
-		"type":3,
-		"api":"csp_XYQHikerAL",
-		"jar": "./XYQTVBox/XYQ.jar",
-		"searchable":1,"quickSearch":1,"filterable":1,
-		"ext":"./lib/玩我哥哥.json"
-		},
       
      
 
@@ -1417,17 +1401,7 @@
 	"filterable":1,
 	"timeout":60, 
 	"ext":"./lib/阿涛tokenm.json$$$https://xpanpan.site$$$null$$$1"},
-	{
-    "key": "csp_AliPS",
-    "name": "🔍Hk喵狸⁴ᴷ🔍",
-    "type": 3,
-    "api": "csp_AliPS",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "jar": "./XYQTVBox/XYQ.jar",
-    "ext": "./XYQTVBox/alitoken.txt"
-},
+	
 {
       "key":"爱看剧",
       "name":"🔍爱看剧搜索🔍",

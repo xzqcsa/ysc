@@ -244,15 +244,7 @@
       "searchable": 1,
       "changeable": 1
     },
-	{
-      "key": "Wexyingchao",
-      "name": "🔥鸟巢🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_Wexyingchao",
-      "searchable": 1,
-      "changeable": 1
-    },
+	
        {
             "key" : "py_白嫖",
             "name" : "🔥白嫖影视🔥",
@@ -391,7 +383,7 @@
      "type":3,"api":"csp_XBPQ",
 	  "jar":"./lib1/pg-XBPQ.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://v.nmvod.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class--year-{year}-letter--area-{area}-lang-.html","搜索url":"https://v.emsdn.cn/index.php?m=vod-search;post",
+      "ext":{"分类url": "https://m.nmddd.com/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class--year-{year}-letter--area-{area}-lang-.html","搜索url":"https://m.nmddd.com/index.php?m=vod-search;post",
       "分类": "短剧$26#电影$1#连续剧$2#动漫$4"}},
 	{
       "key": "Iktv",
@@ -898,14 +890,7 @@
       "ext":{"分类url": "https://www.kanxig.com/tags/{cateId}-{area}-------{catePg}---{year}.html",
       "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}},
 	
-	 {"key":"freeOK",
-     "name":"🔥freeOK影院🔥",
-     "type":3,"api":"csp_XBPQ",
-	 "jar":"./lib1/pg-XBPQ.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html",
-	  "搜索url": "https://www.freeok.vip/so1so/-------------.html?wd={wd}",
-      "分类": "少儿$5#电影$1#剧集$2#综艺$3#动漫$4#短剧$12"}},
+	
 	
 	{"key":"臭蛋蛋",
      "name":"🔥臭蛋蛋影院🔥",
@@ -1140,14 +1125,6 @@
 	
 		
 		
-		{"key": "玩我哥哥11",
-		"name":"🔥玩我|哥哥🔥",
-		"type":3,
-		"api":"csp_XYQHikerAL",
-		"jar": "./XYQTVBox/XYQ.jar",
-		"searchable":1,"quickSearch":1,"filterable":1,
-		"ext":"./lib/玩我哥哥.json"
-		},
       {
             "key":"Wogg111",
             "name":"🔥玩偶哥哥|阿里🔥",
@@ -1749,20 +1726,7 @@
             "timeout": 60,
 	"ext":"./lib/tokenm2.json$$$null$$$1"
 	},
-	{
-      "key":"电影鱼",
-      "name":"🔍凌云影视🔍",
-      "type": 3,
-      "filterable": 1,
-      "api":"csp_XBPQ",
-      "ext": {
-        "分类url": "https://www.lyys8.com/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-        
-        "分类":"电影$1#剧集$2#动漫$3",
-        "筛选":"1"
-      },
-      "jar":"./lib/Yoursmile1.jar"
-    },
+
 	{"key":"aikanjiqiren ",
      "name":"🔍素白白影视🔍",
      "type":3,"api":"csp_XBPQ",
@@ -1771,20 +1735,7 @@
       "ext":{"分类url": "https://www.subaibaiys.com/{cateId}/year/{year}/{cateId}_tags/action/page/{catePg}",
 	  "搜索url": "https://www.subaibaiys.com/?swd={wd}",
       "分类": "电影$new-movie#电视剧$tv-drama#动漫剧$anime-drama"}},
-{
-      "key":"多聚2222",
-      "name":"🔍多聚搜索🔍",
-      "type": 3,
-      "filterable": 1,
-      "api":"csp_XBPQ",
-      "ext": {
-        "分类url": "https://duoju.vip/show/id/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-        
-        "分类":"电影$1#剧集$2#综艺$3#动漫$4",
-        "筛选":"1"
-      },
-      "jar":"./lib/Yoursmile1.jar"
-    },
+
 	{"key":"Xpanpan",
 	"name":"🔍小盘盘|网盘🔍",
 	"type":3,
@@ -1936,17 +1887,7 @@
 			 
             "ext": "./lib/tokenm2.json"
         },
-		{
-    "key": "csp_AliPS",
-    "name": "🔍Hk喵狸⁴ᴷ🔍",
-    "type": 3,
-    "api": "csp_AliPS",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "jar": "./XYQTVBox/XYQ.jar",
-    "ext": "./XYQTVBox/alitoken.txt"
-},
+		
 		{
       "key": "Wexyingso",
       "name": "🔍影子搜🔍",
