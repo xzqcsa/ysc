@@ -13,19 +13,7 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
-		{"key":"AliShare",
-		"name":"🔥阿里云盘分享🔥",
-		"type":3,
-		"api":"csp_AliShare",
-		"style":{"type":"list"},
 		
-		"searchable":1,
-		"quickSearch":1,
-		"changeable":1, 
-		"filterable":0, 
-		"timeout":60,
-		"ext":"./XYQTVBox/tokenm1.json$$$./XYQTVBox/alishare.txt$$$db$$$1"
-		},
 	
 {
             "key": "网盘配置",
