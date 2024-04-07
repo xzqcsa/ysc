@@ -1998,6 +1998,11 @@
       }
     },
 	{
+            "name": "猫影视",
+            "type": 1,
+            "url": "http://uutb.centos.chat/jsonwjm.php/?url="
+        },
+	{
             "name": "影探A",
             "type": 1,
             "url": "http://json.84jia.com/home/api?type=ys&uid=11154896&key=cefgiksvwyCGINV047&url=",
