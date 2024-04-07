@@ -22,7 +22,7 @@
 	"changeable":1,
 	"filterable":0,
 	"timeout":60, 
-	"ext":"./lib/tokenm1.json$$$./lib/pikpakclass.a1.json$$$./lib/pikpakclass.a1.txt.gz",
+	"ext":"./lib/tokenm1.json$$$socks5://127.0.0.1:10074$$$./lib/pikpakclass.a1.json$$$./lib/pikpakclass.a1.txt.gz",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -43,7 +43,21 @@
             },
             "ext": "./XYQTVBox/tokenm1.json"
         },
-		
+		{
+            "key": "皮皮影视",
+            "name": "🔥皮皮影视🔥",
+            "type": 3,
+			"jar":"./lib/XBPQ.jar",
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10074&url=",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+             "ext": {
+        "分类url": "http://pptv06.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$5"
+    }
+},	
 		{
 			"key": "星星",
 			"name": "🔥星星 | 海外🔥",
@@ -51,7 +65,7 @@
 			"api": "csp_Star",
 			"searchable": 1,
 			"changeable": 0,
-			"ext":"socks5://127.0.0.1:10072"
+			"ext":"socks5://127.0.0.1:10074"
 		},
 		{
       "key": "Wexconfig",
@@ -84,7 +98,7 @@
 			"searchable": 1, 
 			"filterable": 1, 
 			"changeable": 0, 
-			"ext":"0$$$socks5://127.0.0.1:10072" 
+			"ext":"0$$$socks5://127.0.0.1:10074" 
 		},
 	{
             "key": "毒舌影视",
@@ -576,7 +590,7 @@
 		"changeable":1,
 		"filterable":1, 
 		"timeout":60,
-		"ext":"./lib/tokenm1.json$$$https://www.meijumi.xyz/$$$null$$$1"},
+		"ext":"./lib/tokenm1.json$$$https://www.meijumi.xyz/$$$socks5://127.0.0.1:10074$$$1"},
     {
       "key": "zhibo",
       "name": "🔥斗鱼直播🔥",

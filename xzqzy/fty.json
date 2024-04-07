@@ -30,7 +30,7 @@
 			"api": "csp_Star",
 			"searchable": 1,
 			"changeable": 0,
-			"ext":"socks5://127.0.0.1:10072"
+			"ext":"socks5://127.0.0.1:10074"
 		},
 	  {
             "key":"Wogg111",
@@ -52,7 +52,7 @@
 			"searchable": 1, 
 			"filterable": 1, 
 			"changeable": 0, 
-			"ext":"0$$$socks5://127.0.0.1:10072" 
+			"ext":"0$$$socks5://127.0.0.1:10074" 
 		},
 	{
             "key": "电影狗影视",
@@ -574,7 +574,7 @@
 		"changeable":1,
 		"filterable":1, 
 		"timeout":60,
-		"ext":"./lib/tokenm.json$$$https://www.meijumi.xyz/$$$null$$$1"},
+		"ext":"./lib/tokenm.json$$$https://www.meijumi.xyz/$$$socks5://127.0.0.1:10074$$$1"},
 	    
 	
     {
