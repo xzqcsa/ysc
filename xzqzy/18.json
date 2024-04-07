@@ -64,7 +64,7 @@
                                 "ratio": 1.5
                         }
     },
-	{"key":"Xojav","name":"XOJav","type":3,"api":"csp_Xojav","jar":"./lib/pg.jar","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$proxy",
+	{"key":"Xojav","name":"XOJav","type":3,"api":"csp_Xojav","jar":"./lib/pg.jar","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$socks5://127.0.0.1:10072",
                         "style": {
                                 "type": "rect",
                                 "ratio": 1.5
