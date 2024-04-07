@@ -23,6 +23,27 @@
       "changeable": 0,
       "ext": true
     },
+	{
+			"key": "星星",
+			"name": "🔥星星 | 海外🔥",
+			"type": 3,
+			"api": "csp_Star",
+			"searchable": 1,
+			"changeable": 0,
+			"ext":"socks5://127.0.0.1:10072"
+		},
+	  {
+            "key":"Wogg111",
+            "name":"🔥玩偶哥哥|阿里🔥",
+            "type": 3,
+            "api": "csp_Wogg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+    
+             
+            "ext": "./lib/tokenm.json$$$https://wogg.link/$$$socks5://127.0.0.1:10072$$$1$$$./pg/lib/wogg.json"
+        },
 	{ 
 			"key": "泥巴", 
 			"name": "🔥泥巴 | 海外🔥", 
@@ -987,18 +1008,7 @@
 	
 		
 		
-      {
-            "key":"Wogg111",
-            "name":"🔥玩偶哥哥|阿里🔥",
-            "type": 3,
-            "api": "csp_Wogg",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
     
-             
-            "ext": "./lib/tokenm.json$$$https://wogg.link/$$$socks5://127.0.0.1:10072$$$1$$$./pg/lib/wogg.json"
-        },
      
 
 
