@@ -37,12 +37,13 @@
 "yd_thread_limit":4,
 "yd_flags":"4kz|auto",
 "yd_danmu":true,
-"wgcf_key":"",
-"wgcf_ipport":"",
+"wgcf_key":"OZ1h569V-73q8bl6r-Y0N9Pt18",
+"wgcf_ipport":"162.159.192.42:3854",
 "wgcf_xray_url":"./xray.gz",
 "wgcf_json_url":"./wgcf.json",
 "wgcf_vless_id":"d4736153-2626-4028-838b-7a68dae1525f",
 "wgcf_vless_optname":"www.csgo.com:80",
 "wgcf_vless_worker":"worker-billowing-cake-9edd.vejipwv079.workers.dev",
-"wgcf_vless_path":"/?ed=2048"
+"wgcf_vless_path":"/?ed=2048",
+"wgcf_vless_protocol":"vless"
 }
