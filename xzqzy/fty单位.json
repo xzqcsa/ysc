@@ -41,7 +41,16 @@
         "ratio": 1.43
       }
     },
-	  
+	  { 
+			"key": "泥巴", 
+			"name": "🔥泥巴 | 海外🔥", 
+			"type": 3, 
+			"api": "csp_NiNi", 
+			"searchable": 1, 
+			"filterable": 1, 
+			"changeable": 0, 
+			"ext":"0$$$socks5://127.0.0.1:10072" 
+		},
 	{"key":"Xinshijue111",
 	"name":"🔥新视觉|网盘🔥",
 	"type":3,
