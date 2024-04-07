@@ -311,7 +311,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "null$$$null$$$1"
+            "ext": "null$$$socks5://127.0.0.1:10071$$$1"
         },
         {
             "key": "Zuise",
