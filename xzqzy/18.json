@@ -58,7 +58,7 @@
       "timeout": 60
     },
 	{"key":"SeHuaTang","name":"色花堂|网盘",
-	"jar":"./lib/pg.jar","type":3,"api":"csp_SeHuaTang","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$proxy",
+	"jar":"./lib/pg.jar","type":3,"api":"csp_SeHuaTang","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$socks5://127.0.0.1:10071",
                         "style": {
                                 "type": "rect",
                                 "ratio": 1.5
@@ -299,7 +299,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "null$$$socks5://127.0.0.1:10072$$$1"
+            "ext": "null$$$socks5://127.0.0.1:10071$$$1"
   },
         {
             "key": "AvTim",
@@ -385,7 +385,8 @@
       "type": 3,
       "api": "csp_Netflav",
       "searchable": 1,
-      "changeable": 0 
+      "changeable": 0,
+	 "ext":"null$$$socks5://127.0.0.1:10071"
     },
     {
       "key": "Cable",
@@ -396,7 +397,8 @@
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 0,
-      "timeout": 60
+      "timeout": 60,
+	  "ext":"null$$$socks5://127.0.0.1:10071"
     },
 	{
             "key": "熊猫",

@@ -51,7 +51,7 @@
 			"api": "csp_Star",
 			"searchable": 1,
 			"changeable": 0,
-			"ext":"socks5://127.0.0.1:10071"
+			"ext":"socks5://127.0.0.1:10072"
 		},
 		{
       "key": "Wexconfig",
