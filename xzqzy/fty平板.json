@@ -48,7 +48,7 @@
             "name": "🔥皮皮影视🔥",
             "type": 3,
 			"jar":"./lib/XBPQ.jar",
-			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10074&url=",
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10072&url=",
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
