@@ -49,8 +49,8 @@
 			"settings": {
 				"vnext": [
 					{
-						"address": "172.67.130.223",
-						"port": 80,
+						"address": "cdn-all.xn--b6gac.eu.org",
+						"port": 443,
 						"users": [
 							{
 								"id": "VLESSID",
