@@ -111,7 +111,8 @@
       "type": 1,
       "api": "http://91md.me/api.php/provide/vod/",
       "searchable": 1,
-      "filterable": 1
+      "filterable": 1,
+	  "ext": "null$$$socks5://127.0.0.1:10074$$$1"
     },
 	{"key":"PushShare333435656",
 		"name":"🔥桃花分享🔥",
@@ -298,7 +299,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "null$$$socks5://127.0.0.1:10072$$$1"
+            "ext": "null$$$socks5://127.0.0.1:10074$$$1"
   },
         {
             "key": "AvTim",

@@ -43,21 +43,7 @@
             },
             "ext": "./XYQTVBox/tokenm1.json"
         },
-		{
-            "key": "皮皮影视",
-            "name": "🔥皮皮影视🔥",
-            "type": 3,
-			"jar":"./lib/XBPQ.jar",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-			"ext":"socks5://127.0.0.1:10074",
-             "ext": {
-        "分类url": "http://pptv06.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$5"
-    }
-},	
+		
 		{
 			"key": "星星",
 			"name": "🔥星星 | 海外🔥",
