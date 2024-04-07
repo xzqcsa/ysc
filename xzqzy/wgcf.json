@@ -49,11 +49,11 @@
 			"settings": {
 				"vnext": [
 					{
-						"address": "www.csgo.com",
+						"address": "172.67.130.223",
 						"port": 80,
 						"users": [
 							{
-								"id": "32c097ef-4303-4acc-9bc0-a368828f5e88",
+								"id": "VLESSID",
 								"encryption": "none",
 								"level":0
 							}

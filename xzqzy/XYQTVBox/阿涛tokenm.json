@@ -37,8 +37,12 @@
 "yd_thread_limit":4,
 "yd_flags":"4kz|auto",
 "yd_danmu":true,
-"wgcf_vless_id":"32c097ef-4303-4acc-9bc0-a368828f5e88",
-"wgcf_vless_optname":"cdn.shanggan.pp.ua--www.csgo.com--www.visa.com.sg--www.shopify.com--www.visa.com.hkcdn.shanggan.pp.ua--cdn.shanggan.pp.ua--www.csgo.com--www.visa.com.sg--www.shopify.com--www.visa.com.hk",
-"wgcf_vless_worker":"vless://32c097ef-4303-4acc-9bc0-a368828f5e88@www.visa.com.tw:80?encryption=none&security=none&sni=jkj.kevqwkt451.workers.dev&fp=randomized&type=ws&host=jkj.kevqwkt451.workers.dev&path=%2F%3Fed%3D2048#%E4%B8%B4%E6%97%B6",
+"wgcf_key":"",
+"wgcf_ipport":"",
+"wgcf_xray_url":"./xray.gz",
+"wgcf_json_url":"./wgcf.json",
+"wgcf_vless_id":"d4736153-2626-4028-838b-7a68dae1525f",
+"wgcf_vless_optname":"172.67.130.223:80",
+"wgcf_vless_worker":"worker-billowing-cake-9edd.vejipwv079.workers.dev",
 "wgcf_vless_path":"/?ed=2048"
 }
