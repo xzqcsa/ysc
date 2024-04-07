@@ -276,7 +276,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "null$$$null$$$1"
+            "ext": "null$$$socks5://127.0.0.1:10072$$$1"
         },
 		{"key":"csp_Eighteen",
 		"name":"🔞Eighteen🔞",
@@ -298,7 +298,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "null$$$null$$$1"
+            "ext": "null$$$socks5://127.0.0.1:10072$$$1"
   },
         {
             "key": "AvTim",
@@ -322,7 +322,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "null$$$null$$$1"
+            "ext": "null$$$socks5://127.0.0.1:10072$$$1"
         },
 		{
             "key": "csp_91黑料",
