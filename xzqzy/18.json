@@ -112,7 +112,7 @@
       "api": "http://91md.me/api.php/provide/vod/",
       "searchable": 1,
       "filterable": 1,
-	  "ext": "socks5://127.0.0.1:10072"
+	  "ext": "socks5://127.0.0.1:10071"
     },
 	{"key":"PushShare333435656",
 		"name":"🔥桃花分享🔥",
