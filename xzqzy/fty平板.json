@@ -51,7 +51,7 @@
 			"api": "csp_Star",
 			"searchable": 1,
 			"changeable": 0,
-			"ext":"socks5://127.0.0.1:10074"
+			"ext":"socks5://127.0.0.1:10071"
 		},
 		{
       "key": "Wexconfig",
@@ -75,7 +75,7 @@
 		"changeable":1,
 		"filterable":1, 
 		"timeout":30, 
-		"ext":"./lib/tokenm1.json$$$https://wogg.link/$$$socks5://127.0.0.1:10074$$$1$$$./pg/lib/wogg.json"},
+		"ext":"./lib/tokenm1.json$$$https://wogg.link/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"},
 	{ 
 			"key": "泥巴", 
 			"name": "🔥泥巴 | 海外🔥", 
@@ -84,7 +84,7 @@
 			"searchable": 1, 
 			"filterable": 1, 
 			"changeable": 0, 
-			"ext":"0$$$socks5://127.0.0.1:10074" 
+			"ext":"0$$$socks5://127.0.0.1:10072" 
 		},
 	{
             "key": "毒舌影视",
