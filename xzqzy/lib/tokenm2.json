@@ -45,7 +45,7 @@
 "pikpak_proxy":"",
 "pikpak_proxy_onlyapi":false,
 "pikpak_danmu":true,
-"wgcf_key":"OZ1h569V-73q8bl6r-Y0N9Pt18",
+"wgcf_key":"MDWlpWPJz/+tuZXIpv1SAngnLNKDaSVnkeqj9cRblnE=",
 "wgcf_ipport":"162.159.192.42:3854",
 "wgcf_xray_url":"./xray.gz",
 "wgcf_json_url":"./wgcf.json",
@@ -54,5 +54,6 @@
 "wgcf_vless_worker":"worker-billowing-cake-9edd.vejipwv079.workers.dev",
 "wgcf_vless_path":"/?ed=2048",
 "wgcf_vless_protocol":"vless",
+"wgcf_vless_network":"ws",
 "wgcf_vless_tls":false
 }

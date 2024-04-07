@@ -50,7 +50,7 @@
 			"api": "csp_Star",
 			"searchable": 1,
 			"changeable": 0,
-			"ext":"socks5://127.0.0.1:10072"
+			"ext":"socks5://127.0.0.1:10074"
 		},
 		{
       "key": "Wexconfig",
@@ -74,7 +74,7 @@
 		"changeable":1,
 		"filterable":1, 
 		"timeout":30, 
-		"ext":"./lib/tokenm1.json$$$https://wogg.link/$$$socks5://127.0.0.1:10072$$$1$$$./pg/lib/wogg.json"},
+		"ext":"./lib/tokenm1.json$$$https://wogg.link/$$$socks5://127.0.0.1:10074$$$1$$$./pg/lib/wogg.json"},
 	{ 
 			"key": "泥巴", 
 			"name": "🔥泥巴 | 海外🔥", 
