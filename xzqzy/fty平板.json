@@ -67,15 +67,7 @@
 		"filterable":1, 
 		"timeout":30, 
 		"ext":"./lib/tokenm1.json$$$https://api.wogg.xyz/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"},
-		{
-			"key": "星星",
-			"name": "🔥星星 | 海外🔥",
-			"type": 3,
-			"api": "csp_Star",
-			"searchable": 1,
-			"changeable": 0,
-			"ext":"socks5://127.0.0.1:10074"
-		},
+		
 		
 	{"key":"Wogg234567",
 		"name":"🔥玩偶|阿里🔥",
@@ -87,16 +79,7 @@
 		"filterable":1, 
 		"timeout":30, 
 		"ext":"./lib/tokenm1.json$$$https://wogg.link/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"},
-	{ 
-			"key": "泥巴", 
-			"name": "🔥泥巴 | 海外🔥", 
-			"type": 3, 
-			"api": "csp_NiNi", 
-			"searchable": 1, 
-			"filterable": 1, 
-			"changeable": 0, 
-			"ext":"0$$$socks5://127.0.0.1:10074" 
-		},
+	
 		{
             "key": "libhd",
             "name": "🔥️libhd┃外剧🔥️",
