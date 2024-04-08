@@ -56,7 +56,8 @@
         "ratio": 1.43
       }
     },
-	{"key":"Wogg234567222",
+	
+		{"key":"Wogg234567222222",
 		"name":"🔥玩偶哥哥4K🔥",
 		"type":3,
 		"api":"csp_Wogg",
@@ -65,17 +66,7 @@
 		"changeable":1,
 		"filterable":1, 
 		"timeout":30, 
-		"ext":"./lib/tokenm1.json$$$https://api.wogg.xyz/$$$null$$$1$$$./pg/lib/wogg.json"},
-		{"key":"Wogg234567222222",
-		"name":"🔥玩偶哥哥4K2🔥",
-		"type":3,
-		"api":"csp_Wogg",
-		
-		"quickSearch":1,
-		"changeable":1,
-		"filterable":1, 
-		"timeout":30, 
-		"ext":"./lib/tokenm1.json$$$https://api.wogg.xyz/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"},
+		"ext":"./lib/tokenm1.json$$$https://api.wogg.xyz/$$$socks5://127.0.0.1:10074$$$1$$$./pg/lib/wogg.json"},
 		{
 			"key": "星星",
 			"name": "🔥星星 | 海外🔥",
@@ -95,7 +86,7 @@
 		"changeable":1,
 		"filterable":1, 
 		"timeout":30, 
-		"ext":"./lib/tokenm1.json$$$https://wogg.link/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"},
+		"ext":"./lib/tokenm1.json$$$https://wogg.link/$$$socks5://127.0.0.1:10074$$$1$$$./pg/lib/wogg.json"},
 	{ 
 			"key": "泥巴", 
 			"name": "🔥泥巴 | 海外🔥", 
