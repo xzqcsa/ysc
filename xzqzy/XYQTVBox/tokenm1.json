@@ -39,7 +39,7 @@
 "yd_danmu":true,
 "pikpak_username":"494909361@qq.com",
 "pikpak_password":"305306csa",
-"pikpak_flags":"4k",
+"pikpak_flags":"4k|4kz|auto",
 "pikpak_thread_limit":2,
 "pikpak_vip_thread_limit":2,
 "pikpak_proxy":"socks5://127.0.0.1:10071",
