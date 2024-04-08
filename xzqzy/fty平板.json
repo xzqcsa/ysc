@@ -43,16 +43,6 @@
             },
             "ext": "./XYQTVBox/tokenm1.json"
         },
-		
-		{
-			"key": "星星",
-			"name": "🔥星星 | 海外🔥",
-			"type": 3,
-			"api": "csp_Star",
-			"searchable": 1,
-			"changeable": 0,
-			"ext":"socks5://127.0.0.1:10074"
-		},
 		{
       "key": "Wexconfig",
       "name": "🐮鸟巢配置🐮",
@@ -66,6 +56,17 @@
         "ratio": 1.43
       }
     },
+		
+		{
+			"key": "星星",
+			"name": "🔥星星 | 海外🔥",
+			"type": 3,
+			"api": "csp_Star",
+			"searchable": 1,
+			"changeable": 0,
+			"ext":"socks5://127.0.0.1:10074"
+		},
+		
 	{"key":"Wogg234567",
 		"name":"🔥玩偶|阿里🔥",
 		"type":3,
@@ -86,6 +87,24 @@
 			"changeable": 0, 
 			"ext":"0$$$socks5://127.0.0.1:10074" 
 		},
+		{
+            "key": "libhd",
+            "name": "🔥️libhd┃外剧🔥️",
+            "type": 3,
+            "jar":"./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://www.libhd.com/",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+                "搜索url": "https://www.libhd.com/vodsearch/-------------.html?wd={wd}",
+                "分类url": "https://www.libhd.com/vodshow/{cateId}-{area}--{class}-{lang}----{catePg}---{year}.html;;akx",
+                "图片": "data-src=\"&&\"",
+                "简介": "text cor3&&</div>",
+                "线路数组": "swiper-slide&&</a>[[不包含:夸克网盘]",
+                "线路标题": "</i>&&",
+                "播放数组": "anthology-list-box none&&</ul>"
+            }
+        },
 	{
             "key": "毒舌影视",
             "name": "🔥毒舌影视🔥",
