@@ -1513,7 +1513,20 @@
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvbox/1e993e08-67ae-4b8c-90d8-ae1e1c96de8b/token.txt"
     },
-     
+     {"key":"PikaSo",
+	"name":"🔍皮卡搜🔍",
+	"type":3,
+	"api":"csp_PikaSo",
+	"quickSearch":1, 
+	"changeable":1,
+	"filterable":1,
+	"timeout":60, 
+	"ext":"./lib/阿涛tokenm.json$$$https://www.pikaso.top/$$$socks5://127.0.0.1:10074",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		}, 
      {
       "key": "PanSearch11",
       "name": "🔍阿里🌸网盘搜🔍",

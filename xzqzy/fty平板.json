@@ -56,6 +56,16 @@
         "ratio": 1.43
       }
     },
+	{"key":"Wogg234567222",
+		"name":"🔥玩偶哥哥4K🔥",
+		"type":3,
+		"api":"csp_Wogg",
+		
+		"quickSearch":1,
+		"changeable":1,
+		"filterable":1, 
+		"timeout":30, 
+		"ext":"./lib/tokenm1.json$$$https://api.wogg.xyz/$$$null$$$1$$$./pg/lib/wogg.json"},
 		
 		{
 			"key": "星星",
@@ -1791,7 +1801,20 @@
  "timeout": 60,
 	"ext":"./lib/tokenm1.json$$$null$$$1"
   },
-    
+    {"key":"PikaSo",
+	"name":"🔍皮卡搜🔍",
+	"type":3,
+	"api":"csp_PikaSo",
+	"quickSearch":1, 
+	"changeable":1,
+	"filterable":1,
+	"timeout":60, 
+	"ext":"./lib/tokenm1.json$$$https://www.pikaso.top/$$$socks5://127.0.0.1:10074",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
       
     {"key":"csp_PanSou111",
 	"name":"🔍PanSou🔍",
