@@ -662,7 +662,7 @@
       "name": "玩偶姐姐",
       "type": 3,
       "api": "./lib1/drpy2.min.js",
-      "ext": "./lib1/玩偶姐姐.js"
+      "ext": "./lib1/玩偶姐姐.js$$$socks5://127.0.0.1:10074"
     },
     {
       "key": "drpy_js_吸瓜",
