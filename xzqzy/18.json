@@ -299,7 +299,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "null$$$socks5://127.0.0.1:10072$$$1"
+            "ext": "null$$$socks5://127.0.0.1:10071$$$1"
   },
         {
             "key": "AvTim",
@@ -311,7 +311,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "null$$$socks5://127.0.0.1:10071$$$1"
+            "ext": "null$$$socks5://127.0.0.1:10072$$$1"
         },
         {
             "key": "Zuise",
@@ -386,7 +386,7 @@
       "api": "csp_Netflav",
       "searchable": 1,
       "changeable": 0,
-	 "ext":"null$$$socks5://127.0.0.1:10071"
+	 "ext":"socks5://127.0.0.1:10072"
     },
     {
       "key": "Cable",
@@ -398,7 +398,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-	  "ext":"null$$$socks5://127.0.0.1:10071"
+	  "ext":"socks5://127.0.0.1:10072"
     },
 	{
             "key": "熊猫",
