@@ -64,7 +64,7 @@
                                 "ratio": 1.5
                         }
     },
-	{"key":"Xojav","name":"XOJav","type":3,"api":"csp_Xojav","jar":"./lib/pg.jar","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$socks5://127.0.0.1:10072",
+	{"key":"Xojav","name":"XOJav","type":3,"api":"csp_Xojav","jar":"./lib/pg.jar","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$socks5://127.0.0.1:10074",
                         "style": {
                                 "type": "rect",
                                 "ratio": 1.5
@@ -109,10 +109,10 @@
       "key": "91md.me",
       "name": "🔥18+🔥",
       "type": 1,
-      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/http://91md.me/api.php/provide/vod/",
+      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10074/http://91md.me/api.php/provide/vod/",
       "searchable": 1,
       "filterable": 1,
-	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10072&url="
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10074&url="
     },
 	{"key":"PushShare333435656",
 		"name":"🔥桃花分享🔥",
@@ -277,7 +277,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "null$$$socks5://127.0.0.1:10072$$$1"
+            "ext": "null$$$socks5://127.0.0.1:10074$$$1"
         },
 		{"key":"csp_Eighteen",
 		"name":"🔞Eighteen🔞",
@@ -299,7 +299,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "null$$$socks5://127.0.0.1:10072$$$1"
+            "ext": "null$$$socks5://127.0.0.1:10074$$$1"
   },
         {
             "key": "AvTim",
@@ -323,7 +323,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "null$$$socks5://127.0.0.1:10072$$$1"
+            "ext": "null$$$socks5://127.0.0.1:10074$$$1"
         },
 		{
             "key": "csp_91黑料",
@@ -436,7 +436,7 @@
     "filterable":1,
     "changeable":0,
     "timeout":1801,
-    "ext":"socks5://127.0.0.1:10072"
+    "ext":"socks5://127.0.0.1:10074"
     },
     {
       "key": "nivod18",
@@ -450,7 +450,7 @@
       "name": "蜜桃貓",
       "type": 3,
       "api": "./lib1/mtsp_open.js",
-	  "ext": "socks5://127.0.0.1:10072",
+	  "ext": "socks5://127.0.0.1:10074",
       "style": {
         "type": "rect",
         "ratio": 1.485
@@ -461,7 +461,7 @@
       "name": "18av貓",
       "type": 3,
       "api": "./lib1/18av_open.js",
-	   "ext": "socks5://127.0.0.1:10072",
+	   "ext": "socks5://127.0.0.1:10074",
       "style": {
         "type": "rect",
         "ratio": 1.485
@@ -479,10 +479,10 @@
       "key": "量子",
       "name": "量子",
       "type": 1,
-      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10074/https://cj.lziapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "changeable": 1,
-	    "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10072&url=",
+	    "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10074&url=",
       "categories": [
         "伦理片"
       ]
@@ -491,10 +491,10 @@
       "key": "非凡",
       "name": "非凡",
       "type": 1,
-      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10074/http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "changeable": 1,
-	    "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10072&url=",
+	    "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10074&url=",
       "categories": [
         "伦理片"
       ]
@@ -506,7 +506,7 @@
       "api": "csp_Doll",
       "searchable": 1,
       "recordable": 0,
-	   "ext": "socks5://127.0.0.1:10072",
+	   "ext": "socks5://127.0.0.1:10074",
       "style": {
         "type": "rect",
         "ratio": 1.309
@@ -531,7 +531,7 @@
       "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/18a_open.js",
       "searchable": 1,
       "recordable": 0,
-	   "ext": "socks5://127.0.0.1:10072",
+	   "ext": "socks5://127.0.0.1:10074",
       "style": {
         "type": "rect",
         "ratio": 1.485
@@ -544,7 +544,7 @@
       "api": "csp_Jable",
       "searchable": 1,
       "recordable": 0,
-	   "ext": "socks5://127.0.0.1:10072",
+	   "ext": "socks5://127.0.0.1:10074",
       "style": {
         "type": "rect",
         "ratio": 1.77
@@ -557,7 +557,7 @@
       "api": "csp_Miss",
       "searchable": 1,
       "recordable": 0,
-	   "ext": "socks5://127.0.0.1:10072",
+	   "ext": "socks5://127.0.0.1:10074",
       "style": {
         "type": "rect",
         "ratio": 1.78
@@ -569,7 +569,7 @@
       "type": 3,
       "api": "csp_Hanime",
       "searchable": 1,
-	   "ext": "socks5://127.0.0.1:10072",
+	   "ext": "socks5://127.0.0.1:10074",
       "recordable": 0,
       "style": {
         "type": "rect",
@@ -613,9 +613,9 @@
       "key": "玉兔资源",
       "name": "玉兔资源",
       "type": 1,
-      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://apiyutu.com/api.php/provide/vod/at/xml/",
+      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10074/https://apiyutu.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
-	   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10072&url=",
+	   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10074&url=",
       "style": {
         "type": "rect",
         "ratio": 1.333
@@ -690,9 +690,9 @@
       "key": "kulunli",
       "name": "酷伦理",
       "type": 1,
-      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://api.kudian70.com/api.php/provide/vod/",
+      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10074/https://api.kudian70.com/api.php/provide/vod/",
       "searchable": 1,
-	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10072&url=",
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10074&url=",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -700,10 +700,10 @@
       "key": "timizy",
       "name": "甜蜜资源 ",
       "type": 1,
-      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://timizy10.cc/api.php/provide/vod/?ac=list",
+      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10074/https://timizy10.cc/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "changeable": 1,
-	   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10072&url=",
+	   "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10074&url=",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -711,18 +711,18 @@
       "key": "奥斯卡资源网",
       "name": "奥斯卡资源网",
       "type": 1,
-	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10072&url=",
-      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://aosikazy.com/api.php/provide/vod/"
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10074&url=",
+      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10074/https://aosikazy.com/api.php/provide/vod/"
     },
     {
       "key": "zmcj88.com",
       "name": "成人01",
       "type": 0,
-      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/http://zmcj88.com/sapi?ac=videolist",
-	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10072&url=",
+      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10074/http://zmcj88.com/sapi?ac=videolist",
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10074&url=",
       "searchable": 1,
       "recordable": 0,
-	   "ext": "socks5://127.0.0.1:10072",
+	   "ext": "socks5://127.0.0.1:10074",
       "style": {
         "type": "rect",
         "ratio": 1.33
@@ -736,8 +736,8 @@
       "key": "jcspcj8.com",
       "name": "成人02",
       "type": 0,
-      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/http://jcspcj8.com/api?ac=videolist",
-	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10072&url=",
+      "api": "http://127.0.0.1:10079/p/0/127.0.0.1:10074/http://jcspcj8.com/api?ac=videolist",
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10074&url=",
       "searchable": 1,
 	   
       "recordable": 0,
