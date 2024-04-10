@@ -13,6 +13,21 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
+	{"key":"PikPakShare11",
+	"name":"🔥PikPak影视🔥",
+	"type":3,
+	"api":"csp_PikPakShare",
+	"searchable":1,
+	"quickSearch":1, 
+	"changeable":1,
+	"filterable":0,
+	"timeout":60, 
+	"ext":"./lib/tokenm1.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
 	{"key":"PikPakShare",
 	"name":"🔥PikPak分享🔥",
 	"type":3,
