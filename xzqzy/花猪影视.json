@@ -1596,7 +1596,32 @@
       "changeable": 0,
       "ext": "./lib/biliych.json"
        }],
-
+"lives":[
+			{
+				"name": "jingyin",
+				"type": 0,
+				"playerType": 1,
+				"url": "./jybd.txt"
+			},
+			{
+				"name": "YTLive",
+				"type": 0,
+				"playerType": 1,
+				"url": "./lib/yo21.txt"
+			},
+			
+			{
+				"group":"redirect",
+				"channels":[
+					{
+						"name":"redirect",
+						"urls":[
+							"proxy://do=live&type=live&proxy=&url="
+						]
+					}
+				]
+			}
+		],
 
   "parses": [
     {
