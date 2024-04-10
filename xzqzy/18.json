@@ -70,6 +70,22 @@
                                 "ratio": 1.5
                         }
     },
+	{ "key": "666",
+            "name": "🔥撸网666🔥",
+            "type": 3,
+			"jar":"./lib/XBPQ.jar",
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "ext": {"直接播放":"1",
+            "搜索链接后缀":"-1-1.html",
+            "搜索url":"https://luw666.ink/index.php/vodsearch/----------{pg}---.html?wd={wd}&submit=",
+            "分类": "国产传媒$160#日本$2#国产$1#韩国$4#欧美$5#动画$6",
+            "分类url": "https://luw666.ink/index.php/vodtype/{cateId}-{catePg}.html"
+            }
+        },
 	{"key": "csp_黄瓜TV",
 "name": "🔥黄瓜TV🔥",
 "type": 3,
