@@ -58,7 +58,7 @@
       "timeout": 60
     },
 	{"key":"SeHuaTang","name":"色花堂|网盘",
-	"jar":"./lib/pg.jar","type":3,"api":"csp_SeHuaTang","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$127.0.0.1:10072|127.0.0.1:10071|127.0.0.1:10074",
+	"jar":"./lib/pg.jar","type":3,"api":"csp_SeHuaTang","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$127.0.0.1:10072",
                         "style": {
                                 "type": "rect",
                                 "ratio": 1.5
@@ -315,7 +315,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "null$$$127.0.0.1:10072|127.0.0.1:10071|127.0.0.1:10074$$$1"
+            "ext": "null$$$127.0.0.1:10072$$$1"
   },
         {
             "key": "AvTim",
@@ -452,7 +452,7 @@
     "filterable":1,
     "changeable":0,
     "timeout":1801,
-    "ext":"null$$$127.0.0.1:10072|127.0.0.1:10071|127.0.0.1:10074"
+    "ext":"null$$$127.0.0.1:10072"
     },
     {
       "key": "nivod18",
@@ -477,7 +477,7 @@
       "name": "18av貓",
       "type": 3,
       "api": "./lib1/18av_open.js",
-	   "ext": "null$$$127.0.0.1:10072|127.0.0.1:10071|127.0.0.1:10074",
+	   "ext": "null$$$127.0.0.1:10072",
       "style": {
         "type": "rect",
         "ratio": 1.485
@@ -547,7 +547,7 @@
       "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/18a_open.js",
       "searchable": 1,
       "recordable": 0,
-	   "ext": "127.0.0.1:10072|127.0.0.1:10071|127.0.0.1:10074",
+	   "ext": "127.0.0.1:10072",
       "style": {
         "type": "rect",
         "ratio": 1.485
@@ -573,7 +573,7 @@
       "api": "csp_Miss",
       "searchable": 1,
       "recordable": 0,
-	   "ext": "127.0.0.1:10072|127.0.0.1:10071|127.0.0.1:10074",
+	   "ext": "127.0.0.1:10072",
       "style": {
         "type": "rect",
         "ratio": 1.78
@@ -585,7 +585,7 @@
       "type": 3,
       "api": "csp_Hanime",
       "searchable": 1,
-	   "ext": "127.0.0.1:10072|127.0.0.1:10071|127.0.0.1:10074",
+	   "ext": "127.0.0.1:10072",
       "recordable": 0,
       "style": {
         "type": "rect",
