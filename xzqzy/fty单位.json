@@ -13,7 +13,21 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
-	
+	{"key":"PikPakShare",
+	"name":"🔥PikPak分享🔥",
+	"type":3,
+	"api":"csp_PikPakShare",
+	"searchable":1,
+	"quickSearch":1, 
+	"changeable":1,
+	"filterable":0,
+	"timeout":60, 
+	"ext":"./lib/tokenm3.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
 {
             "key": "网盘配置",
             "name": "🔥网盘及彈幕配置🔥",
@@ -41,6 +55,16 @@
         "ratio": 1.43
       }
     },
+	{ 
+      "key": " 黑木耳", 
+      "name": "🔥黑木耳🔥", 
+      "type": 3, 
+	   "jar":"./lib/XBPQ.jar",
+      "api": "csp_XBPQ", 
+      "searchable": 1, 
+      "quickSearch": 1, 
+      "filterable": 1, 
+      "ext": "./lib/黑木耳资源.json"},
 	  { 
 			"key": "泥巴", 
 			"name": "🔥泥巴 | 海外🔥", 
