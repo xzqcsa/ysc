@@ -1,4 +1,5 @@
-﻿鳳凰資訊,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:10071|127.0.0.1:10072|127.0.0.1:10074&url=http://www.youtube.com/watch?v=sUISafvOieY
+﻿鳳凰資訊,http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226546/index.m3u8
+鳳凰中文,https://epg.pw/stream/544b45a6ee430683fdf2aef7329b7b277e7827a3a57a57f3700b7fd1b15c5df4.m3u8鳳凰資訊,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:10071|127.0.0.1:10072|127.0.0.1:10074&url=http://www.youtube.com/watch?v=sUISafvOieY
 凤凰卫视,http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:10071|127.0.0.1:10072|127.0.0.1:10074&url=http://www.youtube.com/watch?v=dmDg7NfUoSw
 寰宇新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:10072|127.0.0.1:10074&url=https://www.youtube.com/watch?v=B7Zp3d6xXWw
 鏡新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:10072|127.0.0.1:10074&url=https://www.youtube.com/watch?v=5n0y6b0Q25o
