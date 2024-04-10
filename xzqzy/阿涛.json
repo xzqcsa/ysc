@@ -14,6 +14,16 @@
       "ext": "./lib/Doubanrebo.js"
     },
 	{ 
+      "key": " 黑木耳", 
+      "name": "🔥黑木耳🔥", 
+      "type": 3, 
+	   "jar":"./lib/XBPQ.jar",
+      "api": "csp_XBPQ", 
+      "searchable": 1, 
+      "quickSearch": 1, 
+      "filterable": 1, 
+      "ext": "./lib/黑木耳资源.json"},
+	{ 
 			"key": "泥巴", 
 			"name": "🔥泥巴 | 海外🔥", 
 			"type": 3, 

@@ -14,6 +14,16 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
+	{ 
+      "key": " 黑木耳", 
+      "name": "🔥黑木耳🔥", 
+      "type": 3, 
+	   "jar":"./lib/XBPQ.jar",
+      "api": "csp_XBPQ", 
+      "searchable": 1, 
+      "quickSearch": 1, 
+      "filterable": 1, 
+      "ext": "./lib/黑木耳资源.json"},
 	{
             "key": "毒舌影视",
             "name": "🔥毒舌影视🔥",
