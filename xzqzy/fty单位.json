@@ -2181,7 +2181,12 @@
       "ext": "./lib/biliych.json"
        }],
 "lives":[
-			
+			{
+				"name": "jingyin",
+				"type": 0,
+				"playerType": 1,
+				"url": "./jybd.txt"
+			},
 			{
 				"name": "YTLive",
 				"type": 0,
