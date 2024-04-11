@@ -466,7 +466,11 @@
                         "server": "http://107.172.201.182:5344/",
                         "startPage": "/",
                         "showAll": false,
-                        "search": true
+                        "search": true,
+						  "login": {
+                      "username": "xzqcsa",
+                      "password": "305306csa"
+                      }
                     },
 				{
                         "name": "京东小雅",
