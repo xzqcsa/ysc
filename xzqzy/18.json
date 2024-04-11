@@ -86,6 +86,61 @@
             "分类url": "https://luw666.ink/index.php/vodtype/{cateId}-{catePg}.html"
             }
         },
+		 {
+            "key": "Hsck",
+            "name": "💃悟道.Hsck[飞]",
+            "type": 3,
+            "jar": "./lib/南风.jar",
+            "api": "csp_Hsck",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "style": {
+                "type": "rect",
+                "ratio": 1.309
+            }
+        },
+		{ "key": "langqun",
+            "name": "狼群影院",
+            "type": 3,
+			 "jar":"./lib/XBPQ.jar",
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "ext": {
+            "直接播放":"1",
+            "搜索url":"http://2028p.com/vodsearch/----------{pg}---.html?wd={wd}&submit=",
+            "分类": "无码$1#中文av$6#国产$2#制服巨乳$7#欧美$3#人妻乱伦$8#有码$4#日韩$9#自拍$10",
+            "分类url": "http://2028p.com/vodtype/{cateId}-{catePg}.html"
+            }
+        },
+		   {
+            "key": "mtkan1",
+            "name": "每天看",
+            "jar":"./lib/XBPQ.jar",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "请求头": "手机",
+                "站名": "顶级国产av",
+                "主页url": "https://qoqavideo2t.click/aovaov",
+                "分类数组": "<a&&</a >",
+                "分类标题": ">&&</a >",
+                "分类ID": "/t/&&/",
+                "分类url": "https://qoqavideo2t.click/vodtype/{cateId}-{catePg}.html",
+                "直接播放": "0",
+                "分类": "中文字幕&国产情色&网爆吃瓜&探花约炮&传媒剧情",
+                "分类值": "154&151&158&168&146",
+                "嗅探词": ".m3u8#.mp4#.flv#.mp3#.m4a"
+            }
+        },
 	{"key": "csp_黄瓜TV",
 "name": "🔥黄瓜TV🔥",
 "type": 3,
@@ -452,7 +507,7 @@
     "filterable":1,
     "changeable":0,
     "timeout":1801,
-    "ext":"null$$$127.0.0.1:10072"
+    "ext":"http://javdb365.com$$$127.0.0.1:10072"
     },
     {
       "key": "nivod18",
