@@ -30,7 +30,7 @@
 					{
 						"publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
 						"endpoint" : "engage.cloudflareclient.com:2408",
-						"keepAlive": 30
+						"keepAlive": 60
 					}
 				],
 				"address": [
@@ -54,7 +54,7 @@
 					{
 						"publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
 						"endpoint" : "engage.cloudflareclient.com:2408",
-						"keepAlive": 30
+						"keepAlive": 60
 					}
 				],
 				"address": [
