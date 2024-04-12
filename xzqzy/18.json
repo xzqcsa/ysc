@@ -110,6 +110,20 @@
 }, 
   "jar":"./lib/XBPQ.jar"   
     },
+	{ "key": "youshou",
+            "name": "右手影院",
+            "type": 3,
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar":"./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext":{
+            "分类":"日韩爽片$1#国产精选$2#传媒合集$5#欧美激情$3#网爆吃瓜$26",
+             "分类url": "https://ysys438.xyz/vodshow/{cateId}--{year}------{catePg}---{by}.html"
+            }
+        },
 	{
             "key": "光棍H",
             "name": "光棍影院(H)",
