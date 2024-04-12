@@ -65,6 +65,30 @@
       "quickSearch": 1, 
       "filterable": 1, 
       "ext": "./lib/黑木耳资源.json"},
+	  {
+            "key": "csp_剧圈圈",
+            "name": "🔥剧圈┃圈圈🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+			 "jar":"./lib/XBPQ.jar",
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/剧圈圈.json",
+            "jar": "./lib/XBPQ.jar"
+        },
+        {
+            "key": "csp_蓝光",
+            "name": "🔥蓝光┃秒播🔥",
+            "type": 3,
+			 "jar":"./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/蓝光.json",
+            "jar": "./lib/XBPQ.jar"
+        },
 	  { 
 			"key": "泥巴", 
 			"name": "🔥泥巴 | 海外🔥", 
