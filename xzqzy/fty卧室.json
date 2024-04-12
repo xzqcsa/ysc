@@ -23,6 +23,15 @@
       "changeable": 0,
       "ext": true
     },
+	{"key":"ddys",
+		"name":"🔥低端影视|网盘🔥",
+		"type":3,
+		"api":"csp_Ddys",
+		"quickSearch":1,
+		"changeable":1, 
+		"filterable":1,
+		"timeout":60, 
+		"ext":"./lib/tokenm2.json$$$https://ddys.pro/$$$proxy$$$1$$$"},
 	 {
             "key": "csp_剧圈圈",
             "name": "🔥剧圈┃圈圈🔥",

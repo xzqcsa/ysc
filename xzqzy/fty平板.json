@@ -127,6 +127,15 @@
             "ext": "./lib/蓝光.json",
             "jar": "./lib/XBPQ.jar"
         },
+		{"key":"ddys",
+		"name":"🔥低端影视|网盘🔥",
+		"type":3,
+		"api":"csp_Ddys",
+		"quickSearch":1,
+		"changeable":1, 
+		"filterable":1,
+		"timeout":60, 
+		"ext":"./lib/tokenm1.json$$$https://ddys.pro/$$$proxy$$$1$$$"},
 		{
             "key": "libhd",
             "name": "🔥️libhd┃外剧🔥️",
