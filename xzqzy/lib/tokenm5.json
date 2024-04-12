@@ -42,7 +42,7 @@
 "pikpak_flags":"auto|4k|4kz",
 "pikpak_thread_limit":2,
 "pikpak_vip_thread_limit":2,
-"pikpak_proxy":"socks5://127.0.0.1:10073",
+"pikpak_proxy":"socks5://127.0.0.1:10074",
 "pikpak_proxy_onlyapi":false,
 "pikpak_danmu":true,
 "wgcf_key":"2LxZUcrBOW9jfMkGUpK3PLjxD+ZrHWeKvjaY44wubXk=",
@@ -52,10 +52,10 @@
 "wgcf_geoip_url":"./geoip.dat.gz",
 "wgcf_json_url":"./wgcf.json",
 "wgcf_vless_id":"d4736153-2626-4028-838b-7a68dae1525f",
-"wgcf_vless_optname":"cdn.shanggan.pp.ua:80",
+"wgcf_vless_optname":"www.visa.com.sg:443",
 "wgcf_vless_worker":"worker-billowing-cake-9edd.vejipwv079.workers.dev",
 "wgcf_vless_path":"/?ed=2048",
 "wgcf_vless_protocol":"vless",
 "wgcf_vless_network":"ws",
-"wgcf_vless_tls":false
+"wgcf_vless_tls":true
 }
