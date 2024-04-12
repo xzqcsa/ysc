@@ -56,6 +56,16 @@
       }
     },
 	{ 
+      "key": " mianfei", 
+      "name": "🔥免费视频🔥", 
+      "type": 3, 
+	   "jar":"./lib/XBPQ.jar",
+      "api": "csp_XBPQ", 
+      "searchable": 1, 
+      "quickSearch": 1, 
+      "filterable": 1, 
+      "ext": "./lib/免费视频.json"},
+	{ 
       "key": " 黑木耳", 
       "name": "🔥黑木耳🔥", 
       "type": 3, 
