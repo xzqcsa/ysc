@@ -71,6 +71,29 @@
         "ratio": 1.43
       }
     },
+	{"key":"初恋云影",
+	"name":"🔥初恋┃云影🔥",
+	"type":3,
+	"api":"csp_XBPQ",
+	 "jar":"./lib/XBPQ.jar",
+	"searchable":1,
+	"quickSearch":1,
+	"filterable":1,
+	"ext":{"数组":"<li class=\"mo-paxs-5px mo-pamd-10px&&</li>",
+	"图片":"data-original=\"&&\"",
+	"标题":"html\">&&</a>",
+	"副标题":"mo-coxs-center\">&&</span>",
+	"简介":"mo-ptxs-0px\">&&</div>",
+	"链接":"href=\"&&\"",
+	"线路数组":"<a class=\"mo-movs-btns mo-mrxs-5px mo-mrmd-10px&&/a>",
+	"线路标题":"</i>&&<",
+	"播放数组":"<ul class=\"mo-movs-item mo-sort-boxs&&</ul>",
+	"播放列表":"<li&&</li>","播放标题":">&&</a>",
+	"播放链接":"href=\"&&\"",
+	"搜索url":"https://video.adminqt.cn/index.php/vod/search.html?wd={wd}",
+	"分类url":"https://video.adminqt.cn/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+	"分类":"动画片&电影&连续剧&动漫&综艺&短剧&哔哩哔哩&纪录片",
+	"分类值":"25&20&22&21&23&33&24&26"}},
 	{ 
       "key": " 黑木耳", 
       "name": "🔥黑木耳🔥", 
@@ -666,16 +689,7 @@
       "searchable": 1,
       "changeable": 1
     },
-	 {
-            "key": "嘀嘀",
-            "name": "🔥嘀嘀·无广🔥",
-            "type": 3,
-            "api": "csp_Bdys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "./lib/Movie2.txt;md5;85eb7c33792c9bd8cd181596a168deba"
-        },
+	 
     
     
 	{

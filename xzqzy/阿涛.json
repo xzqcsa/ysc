@@ -701,16 +701,7 @@
 	
         
 	
-	 {
-            "key": "嘀嘀",
-            "name": "🔥嘀嘀·无广🔥",
-            "type": 3,
-            "api": "csp_Bdys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "./lib/Movie2.txt;md5;85eb7c33792c9bd8cd181596a168deba"
-        },
+	 
     
 	{
       "key": "业余采集A",
