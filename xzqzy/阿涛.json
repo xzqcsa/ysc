@@ -13,6 +13,15 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
+	{ "key": "Ikanbot",
+	"name": "🔥爱看机器人🔥",
+	"type": 3, 
+	"api": "csp_Ikanbot", 
+	"searchable": 1, 
+	"quickSearch": 1, 
+	"filterable": 1,
+	"changeable": 1 ,
+	"ext":"https://v.ikanbot.com$$$proxy"},
 	{ 
       "key": " 黑木耳", 
       "name": "🔥黑木耳🔥", 
@@ -1577,15 +1586,11 @@
       "ext": "edc1c0c740a2435ba1ada5f418ad1b74"
     },
    {"key":"盘友圈",
-	"name":"🔍盘友圈🔍",
-	"type":3,
-	
-	"quickSearch":1,
-	"changeable":1, 
-	"filterable":1, 
-	"api":"csp_Panyq",
-	"timeout":60,
-	"ext":"./lib/阿涛tokenm.json$$$null$$$1"},
+   "name":"🔍盘友圈🔍",
+   "type":3,
+   "api":"csp_Panyq",
+   "timeout":60, 
+   "ext":"./lib/阿涛tokenm.json$$$site$$$proxy"},
     {
       "key": "UpYun",
       "name": "🔍阿里🌸优盘搜🔍",

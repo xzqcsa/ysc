@@ -23,6 +23,16 @@
       "changeable": 0,
       "ext": true
     },
+	{ "key": "Ikanbot",
+	"name": "🔥爱看机器人🔥",
+	"type": 3, 
+	"api": "csp_Ikanbot", 
+	"searchable": 1, 
+	"quickSearch": 1, 
+	"filterable": 1,
+	"changeable": 1 ,
+	"ext":"https://v.ikanbot.com$$$proxy"},
+	
 	{"key":"ddys",
 		"name":"🔥低端影视|网盘🔥",
 		"type":3,
@@ -1718,16 +1728,12 @@
       "changeable": 0,
       "ext": "./lib/少儿教育.json"
     },
-    {"key":"盘友圈",
-	"name":"🔍盘友圈🔍",
-	"type":3,
-	
-	"quickSearch":1,
-	"changeable":1, 
-	"filterable":1, 
-	"api":"csp_Panyq",
-	"timeout":60,
-	"ext":"./lib/tokenm2.json$$$null$$$1"},
+   {"key":"盘友圈",
+   "name":"🔍盘友圈🔍",
+   "type":3,
+   "api":"csp_Panyq",
+   "timeout":60, 
+   "ext":"./lib/tokenm2.json$$$site$$$proxy"},
     
     {
       "key": "七夜弹幕版",
