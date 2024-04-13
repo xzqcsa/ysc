@@ -695,7 +695,7 @@
             "name": "🔥网盘及彈幕配置🔥",
             "type": 3,
             "api": "csp_Config",
-			 "jar": "./lib/pg迅雷登录.jar",
+			
             "searchable": 0,
             "changeable": 0,
             "style": {
