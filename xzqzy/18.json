@@ -236,7 +236,7 @@
 	"changeable":1, 
 	"filterable":0,
 	"timeout":60, 
-	"ext":"./lib/阿涛tokenm.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1",
+	"ext":"./lib/tokenm1.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1",
 			"style": {
 				"type": "rect",
 				"ratio": 1.5
@@ -261,7 +261,7 @@
 		"changeable":1, 
 		"filterable":0,
 		"timeout":60,
-		"ext":"./lib/tokenm2.json$$$./lib1/桃花磁力.txt$$$db$$$1",
+		"ext":"./lib/tokenm1.json$$$./lib1/桃花磁力.txt$$$db$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -337,7 +337,7 @@
 		"changeable":1, 
 		"filterable":0,
 		"timeout":60,
-		"ext":"./lib/tokenm2.json$$$./lib1/1_pushshare.a.txt$$$db$$$1",
+		"ext":"./lib/tokenm1.json$$$./lib1/1_pushshare.a.txt$$$db$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -497,7 +497,7 @@
 		"changeable":1, 
 		"filterable":0,
 		"timeout":60,
-		"ext":"./lib/tokenm2.json$$$./lib1/pushshare.1.txt$$$db$$$1",
+		"ext":"./lib/tokenm1.json$$$./lib1/pushshare.1.txt$$$db$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
