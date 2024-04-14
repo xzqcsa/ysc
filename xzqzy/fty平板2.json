@@ -22,27 +22,12 @@
 	"changeable":1,
 	"filterable":0,
 	"timeout":60, 
-	"ext":"./lib/tokenm4.json$$$./lib/pikpakclass.a1.json$$$./lib/pikpakclass.a1.txt.gz",
+	"ext":"./lib/tokenm8.json$$$./lib/pikpakclass.a1.json$$$./lib/pikpakclass.a1.txt.gz",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
-		},	
-	{"key":"PikPakShare2",
-	"name":"🔥PikPak分享2🔥",
-	"type":3,
-	"api":"csp_PikPakShare",
-	"searchable":1,
-	"quickSearch":1,
-	"changeable":1,
-	"filterable":0,
-	"timeout":60, 
-	"ext":"./lib/tokenm5.json$$$./lib/pikpakclass.a1.json$$$./lib/pikpakclass.a1.txt.gz",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},	
+		},		
 {
             "key": "网盘配置",
             "name": "🔥网盘及彈幕配置🔥",
@@ -55,7 +40,7 @@
                 "type": "rect",
                 "ratio": 1
             },
-            "ext": "./XYQTVBox/tokenm1.json"
+            "ext": "./XYQTVBox/tokenm8.json"
         },
 		{
       "key": "Wexconfig",
@@ -80,7 +65,7 @@
 		"changeable":1,
 		"filterable":1, 
 		"timeout":30, 
-		"ext":"./lib/tokenm4.json$$$https://api.wogg.xyz/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"},
+		"ext":"./lib/tokenm8.json$$$https://api.wogg.xyz/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"},
 		
 	
 	 {"key":"csp_YouKu",
@@ -92,7 +77,7 @@
 			 
  "filterable": 1,
  "timeout": 60,
-	"ext":"./lib/tokenm4.json$$$null$$$1"
+	"ext":"./lib/tokenm8.json$$$null$$$1"
   },
   
    
