@@ -179,15 +179,7 @@
         "分类": "电影$dianying#剧集$juji#国产$guochanju#港剧$xianggangju#动漫$dongman#综艺$zongyi"
     }
 },
-	{ "key": "YQKan",
-	"name": "🔥一起看🔥",
 	
-	"type": 3, 
-	"api": "csp_YQKan",
-	"searchable": 1,
-	"quickSearch": 1, 
-	"filterable": 1, 
-	"changeable": 1 },
 	{"key":"Xinshijue111",
 	"name":"🔥新视觉|网盘🔥",
 	"type":3,

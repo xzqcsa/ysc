@@ -286,15 +286,7 @@
       "searchable": 1,
       "changeable": 1
     },
-	{ "key": "YQKan",
-	"name": "🔥一起看🔥",
 	
-	"type": 3, 
-	"api": "csp_YQKan",
-	"searchable": 1,
-	"quickSearch": 1, 
-	"filterable": 1, 
-	"changeable": 1 },
 	
 	
 	{

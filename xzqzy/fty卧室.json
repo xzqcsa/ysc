@@ -233,15 +233,7 @@
             "filterable": 1,
              "ext":"./lib/可可影视.txt"
 			 },
-	{ "key": "YQKan",
-	"name": "🔥一起看🔥",
 	
-	"type": 3, 
-	"api": "csp_YQKan",
-	"searchable": 1,
-	"quickSearch": 1, 
-	"filterable": 1, 
-	"changeable": 1 },
 	{"key":"Xinshijue111",
 	"name":"🔥新视觉|网盘🔥",
 	"type":3,
