@@ -49,7 +49,7 @@
 "wgcf_ipport": "162.159.192.68:5279",
 "wgcf_xray_url": "./xray.gz",
 "wgcf_geoip_url": "./geoip.dat.gz",
-"wgcf_json_url": "./2_wgcf.json",
+"wgcf_json_url": "./3_wgcf.json",
 "wgcf_vless_id": "89d4fac6-0ef2-4855-92ce-f454b7154202",
 "wgcf_vless_optname": "8.217.147.230:80",
 "wgcf_vless_worker": "mix.tgdns68.vps666.onflashdrive.app",
