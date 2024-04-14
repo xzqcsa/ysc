@@ -161,7 +161,7 @@
                 ]
             },
             "streamSettings": {
-                "network": "udp",
+                "network": "tcp",
                 "security": ""
             },
             "tag": "ss-out"
