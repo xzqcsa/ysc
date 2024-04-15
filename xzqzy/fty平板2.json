@@ -42,7 +42,22 @@
 				"type": "list",
 				"ratio": 1.1
 			}
-		},		
+		},	
+	{"key":"PikPakShare12222",
+	"name":"🔥PikPak分享2🔥",
+	"type":3,
+	"api":"csp_PikPakShare",
+	"searchable":1,
+	"quickSearch":1,
+	"changeable":1,
+	"filterable":0,
+	"timeout":60, 
+	"ext":"./lib/tokenm8.json$$$./lib/pikpakshare.txt$$$db$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},			
 {
             "key": "网盘配置",
             "name": "🔥网盘及彈幕配置🔥",
@@ -57,19 +72,7 @@
             },
             "ext": "./XYQTVBox/tokenm8.json"
         },
-		{
-      "key": "Wexconfig",
-      "name": "🐮鸟巢配置🐮",
-      "type": 3,
-	   "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_Wexconfig",
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.43
-      }
-    },
+		
 	
 		{"key":"Wogg234567222222",
 		"name":"🔥玩偶哥哥4K🔥",
@@ -83,18 +86,6 @@
 		"ext":"./lib/tokenm8.json$$$https://api.wogg.xyz/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"},
 		
 	
-	 {"key":"csp_YouKu",
-  "name":"🔍优酷🔍",
-  "type":3,
-  "api":"csp_YouKu",
-  "quickSearch": 1,
-  "changeable": 1,
-			 
- "filterable": 1,
- "timeout": 60,
-	"ext":"./lib/tokenm8.json$$$null$$$1"
-  },
-  
    
    
     {
