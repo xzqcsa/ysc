@@ -95,6 +95,23 @@
 	"filterable": 1,
 	"changeable": 1 ,
 	"ext":"https://v.ikanbot.com$$$proxy"},
+	  {
+            "key": "92kyy",
+            "name": "🔥92kyy🔥",
+            "jar":"./lib/XBPQ.jar",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "站名": "92kyy",
+                "主页url": "https://www.92kyy.com/",
+                "分类数组": "<a&&</a>",
+                "分类标题": ">&&</a>",
+                "分类ID": "/t/&&/",
+                "分类url": "https://www.92kyy.com/vodtype/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+                "直接播放": "0",
+                "分类名称替换词": "1&2&3&4",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+            }},
 	
 	{ 
       "key": " 黑木耳", 
