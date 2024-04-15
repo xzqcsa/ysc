@@ -164,7 +164,7 @@
                 "network": "tcp",
                 "security": ""
             },
-            "tag": "ss-out"
+            "tag": "ss-in"
         }
     ],
     "inbounds": [

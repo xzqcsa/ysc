@@ -153,10 +153,10 @@
             "settings": {
                 "servers": [
                     {
-                        "address": "120.232.63.132",
-                        "method": "2022-blake3-aes-256-gcm",
-                        "password": "ZGFhNTBjOTYzMzgxMzUxMzM0NDI2ZjQ5ZjcxNzJhY2E=:M2ViZjc3YzYtZmU4My00MTdkLWJiMGItNmRhY2M2ZGY=",
-                        "port": 34466
+                        "address": "shanghai.pipixia.one",
+                        "method": "aes-128-gcm",
+                        "password": "b641e192-dd54-46d9-a834-e15de88eed9c",
+                        "port": 36742
                     }
                 ]
             },
