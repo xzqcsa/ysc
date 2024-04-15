@@ -55,6 +55,18 @@
         "ratio": 1.43
       }
     },
+	{      
+"key": "kanke",      
+"name": "🔥看客影视┃BPQ🔥",      
+"type": 3,      
+"api": "csp_XBPQ",   
+"jar": "./lib/XBPQ.jar",
+"ext": 
+{
+    "分类url":"https://kanke.cc/Type/{cateId}/page/{catePg}/year/{year}",        
+"分类":"剧库$1#番剧$4#纪录$3#影库$2"}
+},
+
 	{ 
       "key": " mianfei", 
       "name": "🔥免费视频🔥", 
@@ -487,7 +499,7 @@
      "type":3,"api":"csp_XBPQ",
 	  "jar":"./lib/XBPQ.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://m.nmddd.com/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class--year-{year}-letter--area-{area}-lang-.html","搜索url":"https://m.nmddd.com/index.php?m=vod-search",
+      "ext":{"分类url": "https://nkvod.com/index.php/ajax/data?mid=1&tid={cateId}&page={catePg}&limit=20","搜索url":"https://nkvod.com/index.php?m=vod-search",
       "分类": "短剧$26#电影$1#连续剧$2#动漫$4"}},
 	{
       "key": "Iktv",
