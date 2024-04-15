@@ -56,61 +56,11 @@
                 "ratio": 1
             },
             "ext": "./XYQTVBox/tokenm1.json"
-        },
-		{
-      "key": "Wexconfig",
-      "name": "🐮鸟巢配置🐮",
-      "type": 3,
-	   "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_Wexconfig",
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.43
-      }
-    },
-	
-		{"key":"Wogg234567222222",
-		"name":"🔥玩偶哥哥4K🔥",
-		"type":3,
-		"api":"csp_Wogg",
+        }
 		
-		"quickSearch":1,
-		"changeable":1,
-		"filterable":1, 
-		"timeout":30, 
-		"ext":"./lib/tokenm4.json$$$https://api.wogg.xyz/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"},
-		
-	
-	 {"key":"csp_YouKu",
-  "name":"🔍优酷🔍",
-  "type":3,
-  "api":"csp_YouKu",
-  "quickSearch": 1,
-  "changeable": 1,
-			 
- "filterable": 1,
- "timeout": 60,
-	"ext":"./lib/tokenm4.json$$$null$$$1"
-  },
-  
    
    
-    {
-      "key": "Biliych",
-      "name": "🅱哔哔┃歌曲",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "./lib/biliych.json"
-       }],
+       ],
 
 
   "parses": [
