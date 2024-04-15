@@ -43,7 +43,16 @@
 				"ratio": 1.1
 			}
 		},			
-	
+		{"key":"Wogg234567222222",
+		"name":"🔥玩偶哥哥4K🔥",
+		"type":3,
+		"api":"csp_Wogg",
+		
+		"quickSearch":1,
+		"changeable":1,
+		"filterable":1, 
+		"timeout":30, 
+		"ext":"./lib/tokenm6.json$$$https://api.wogg.xyz/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"},
 {
             "key": "网盘配置",
             "name": "🔥网盘及彈幕配置🔥",
