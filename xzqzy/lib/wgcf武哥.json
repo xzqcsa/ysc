@@ -53,7 +53,7 @@
 				"peers": [
 					{
 						"publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-						"endpoint" : "162.159.195.63:946",
+						"endpoint" : "engage.cloudflareclient.com:2408",
 						"keepAlive": 30
 					}
 				],
