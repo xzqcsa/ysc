@@ -53,13 +53,13 @@
 				"peers": [
 					{
 						"publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-						"endpoint" : "engage.cloudflareclient.com:2408",
+						"endpoint" : "162.159.195.63:946",
 						"keepAlive": 30
 					}
 				],
 				"address": [
 					"172.16.0.2/32",
-					"2606:4700:110:893c:845c:536b:5565:8106/128"
+					"2606:4700:110:8192:43b7:c93c:3b7d:a481/128"
 				],
 				"kernelMode": false,
 				"worker":30
