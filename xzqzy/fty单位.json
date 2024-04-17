@@ -66,7 +66,30 @@
     "分类url":"https://kanke.cc/Type/{cateId}/page/{catePg}/year/{year}",        
 "分类":"剧库$1#番剧$4#纪录$3#影库$2"}
 },
-
+{
+            "key": "猫世界",
+            "name": "🔥猫世界影视🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar":"./lib/XBPQ.jar",
+            "ext": {
+                "分类url": "http://www.msjtv.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+                "分类": "少儿$23#电影$1#电视剧$2#日韩剧$15#欧美剧$16#短剧$36#动漫$4#综艺$3"
+               
+            }
+        },
+		{
+            "key": "52top",
+            "name": "🔥52top影视🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar":"./lib/XBPQ.jar",
+            "ext": {
+                "分类url": "https://52gen.top/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+                "分类": "电影$dianying#电视剧$lianxuju#短剧$duanju#动漫$dongman#综艺$zongyi"
+               
+            }
+        },
 	{ 
       "key": " mianfei", 
       "name": "🔥免费视频🔥", 
