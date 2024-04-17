@@ -259,49 +259,7 @@
             "ext": {"分类":"短剧$45#电影$1#剧集$2#综艺$4#动漫$3",
 			"分类url":"https://www.555zxdy.com/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html"}                 
         },
-	{ 
-      "key": "csp_xBPQ_秒", 
-      "name": "🔥喵播🔥", 
-      "type": 3, 
-      "api": "csp_XBPQ", 
-      "searchable": 1, 
-      "quickSearch": 1, 
-      "filterable": 0, 
-      "ext": {"分类": "动画&电影&国产动漫&日韩动漫&国产剧&喜剧片&爱情片&恐怖片&战争片&科幻片&动作片&综艺&欧美剧&港台剧&日韩剧", 
-  "分类值": "33&1&75&76&14&22&26&36&25&30&23&69&15&16&62", 
-  "分类url": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&t={cateId}&pg={catePg}", 
-  "数组二次截取": "list\":[&&]", 
-  "数组": "{&&}[不包含:]", 
-  "图片": "vod_pic\":\"&&\"", 
-  "标题": "vod_name\":\"&&\"", 
-  "副标题": "+vod_remarks\":\"&&\"", 
-  "链接": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,", 
-  "搜索url": "https://api.zeqaht.com/api.php/provide/vod?ac=detail&wd={wd}", 
-  "搜索模式": "1", 
-  "搜索二次截取": "list\":[&&]", 
-  "搜索数组": "{&&}[不包含:]", 
-  "搜索图片": "vod_pic\"*\"&&\"", 
-  "搜索标题": "vod_name\"*\"&&\"", 
-  "搜索副标题": "type_name\":\"&&\"", 
-  "搜索链接": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,", 
-  "影片类型": "vod_class\"*\"&&\"", 
-  "导演": "vod_director\"*\"&&\"", 
-  "主演": "vod_actor\"*\"&&\"", 
-  "简介": "vod_content\"*\"&&\"", 
-  "线路二次截取": "\"list\":[&&]", 
-  "线路数组": "\"vod_play_from\":&&,", 
-  "线路标题": "\"&&\"", 
-  "播放数组": "vod_play_url\":&&,[替换:\">>链表题#$>>题链#\\#>>链表表题]", 
-  "播放二次截取": "", 
-  "播放列表": "表&&表", 
-  "播放标题": "题&&题", 
-  "播放链接": "链&&链", 
-  "嗅探词": ".m3u8", 
-  "播放请求头":"User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36#Origin$www.whbax.cn#Referer$www.whbax.cn#Cookie$PHPSESSID=7da46a353cf8bac46b4f8226f06042ad", 
-  "免嗅": "0" 
-}, 
-      "jar":"./lib/XBPQ.jar"    
-    },
+	
 	{"key":"TVB","name":"🔥TVB影院🔥",
      "type":3,"api":"csp_XBPQ",
 	
@@ -364,13 +322,6 @@
 			"ext": "./lib/短剧侠.json"
 		},
 
-	{"key":"呀奈非",
-     "name":"🔥鸭奈飞影院🔥",
-     "type":3,"api":"csp_XBPQ",
-	  "jar":"./lib/XBPQ.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.netflixgc.com/vodtype/{cateId}.html",
-      "分类": "电影$1#电视剧$2#动漫$3"}},
 	{
             "key": "好的MO",
             "name": "🔥HDMOI影院🔥",
@@ -383,13 +334,7 @@
             "ext": {
                 "分类url": "https://www.hdmoli.pro/mlist/index{cateId}.html",
 				"分类": "电影$1#剧集$2#动画$41"}},
-	{
-      "key": "Iktv",
-      "jar": "./lib/放牛1.jar","name": "🛰KTV┃音乐┃MV",
-      "type": 3,
-      "api": "csp_Iktv",
-      "searchable": 1,
-      "changeable": 0  },
+
 		  {
             "key" : "py_白嫖",
             "name" : "🔥白嫖影视🔥",
@@ -646,13 +591,7 @@
      "searchable":1,"quickSearch":1,"filterable":1,
       "ext":{"分类url": "https://www.libhd.com/vodshow/{cateId}-{area}----------{year}.html",
       "分类": "电影$1#剧集$2#动漫$4#综艺$3"}},
-	{"key":"奈非",
-     "name":"🔥奈非影院🔥",
-     "type":3,"api":"csp_XBPQ",
-	  "jar":"./lib/XBPQ.jar",
-     "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://www.naifei.art/vodshow/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-      "分类": "电影$dy#剧集$juji#动漫$dongman#综艺$zongyi"}},
+	
 	  
 	 {"key":"1212",
      "name":"🔥APP影院🔥",
@@ -1160,14 +1099,7 @@
      
     
      
-    {"key":"玩偶哥哥",
-   "name":"🔥玩偶哥哥┃4K弹幕",
-   "type":3,"api":"csp_WoGG",
-   "searchable":1,
-   "quickSearch":1,
-    "jar": "./guafty.jar",
-   "changeable":0,
-   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://wogg.link/$$$弹"},
+   
   
      {  "key": "Wobg",
       "name": "♻️阿里|玩偶表哥",
@@ -1278,20 +1210,7 @@
       "分类": "电影$dianying#剧集$juji#综艺$zongyi#动漫$dongman"}},
         
   
-    {
-            "key": "天空影视",
-            "name": "🔥天空影视",
-            "type": 3,
-			"jar":"./lib/XBPQ.jar",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "分类url": "http://www.czfmyjc.com/show_/id/{cateId}/page/{catePg}/year/{year}.html",
-                "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
-            }
-     },
+   
       {"key": "1080kan",
       "name": "💟1080看☆视界",
 	  "jar":"./lib/XBPQ.jar",
