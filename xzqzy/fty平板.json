@@ -797,6 +797,20 @@
                       "password": "305306csa"
                       }
                     },
+					{
+                        "name": "小雅2",
+                        "server": "http://223.166.73.99:5678/",
+                        "startPage": "/",
+                        "showAll": false,
+                        "search": true 
+						},
+						{
+                        "name": "小雅pikpak",
+                        "server": "http://175.6.181.8:5678/",
+                        "startPage": "/",
+                        "showAll": false,
+                        "search": true 
+						},
 						{
                         "name": "天翼云小雅",
                         "server": "http://113.125.52.245:5344/",
