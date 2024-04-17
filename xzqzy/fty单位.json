@@ -55,6 +55,32 @@
         "ratio": 1.43
       }
     },
+	{
+            "key": "4KK4",
+            "name": "🔥4KK磁力影视🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar":"./lib/XBPQ.jar",
+            "ext": {"线路标题":"class=\"module-row-title\">&&</h4",
+                    "线路数组":"class=\"module-row-one&&</div",
+                   "播放数组":"class=\"panel down-list thunder1&&</ul",
+                "分类url": "https://www.wo4k.net/pianku/{cateId}-{area}-------{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2"
+               
+            }
+        },
+	{
+            "key": "孜然",
+            "name": "🔥孜然影视🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar":"./lib/XBPQ.jar",
+            "ext": {"嗅探词": ".mp4#m3u8",
+                "分类url": "https://www.zrys1.top/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
+               
+            }
+        },
 	{      
 "key": "kanke",      
 "name": "🔥看客影视┃BPQ🔥",      
