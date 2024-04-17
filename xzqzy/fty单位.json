@@ -85,7 +85,7 @@
             "api": "csp_XBPQ",
             "jar":"./lib/XBPQ.jar",
             "ext": {
-                "分类url": "https://52gen.top/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+                "分类url": "https://52gen.top/vodshow/{cateId}-{area}--{lang}-----{catePg}---{year}.html",
                 "分类": "电影$dianying#电视剧$lianxuju#短剧$duanju#动漫$dongman#综艺$zongyi"
                
             }
