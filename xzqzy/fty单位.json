@@ -74,6 +74,9 @@
             "jar":"./lib/XBPQ.jar",
             "ext": {
                 "分类url": "https://www.wo4k.net/pianku/{cateId}-{area}-------{catePg}---{year}.html",
+				"播放数组":"class=\"panel down-list thunder1&&</ul",
+        "线路数组":"class=\"stui-pannel__head active&&</div",
+        "线路标题":"class=\"title titlego\">&&</h3",
                 "分类": "电影$1#电视剧$2"
                
             }
