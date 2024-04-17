@@ -62,7 +62,7 @@
 "api": "csp_XBPQ",   
 "jar": "./lib/XBPQ.jar",
 "ext": 
-{
+{"嗅探词": ".mp4#m3u8",
     "分类url":"https://kanke.cc/Type/{cateId}/page/{catePg}/year/{year}",        
 "分类":"剧库$1#番剧$4#纪录$3#影库$2"}
 },
