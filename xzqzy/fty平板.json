@@ -189,6 +189,7 @@
             "ext": {"线路标题":"class=\"module-row-title\">&&</h4",
                     "线路数组":"class=\"module-row-shortcuts\">&&</div",
                    "播放数组":"class=\"scroll-box-y\">&&</div",
+				   "链接": "href=\"&&\"",
                 "分类url": "https://www.wo4k.net/pianku/{cateId}-{area}-------{catePg}---{year}.html",
                 "分类": "电影$1#电视剧$2"
                
