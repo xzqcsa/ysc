@@ -175,7 +175,7 @@
 			"下载地址":"class=\"card-title\">&&</h3",
 			"磁力链接":"class=\"text-muted\">&&</td",
 			"链接": "href=\"&&\"",
-                "分类url": "https://www.yjys.me/s/{cateId}",
+                "分类url": "https://www.yjys.me/s/{cateId}.html",
                 "分类": "动作$dongzuo#科幻$kehuan#战争$zhanzheng"
                
             }
