@@ -107,7 +107,7 @@
             "api": "csp_XBPQ",
             "jar":"./lib/XBPQ.jar",
             "ext": {
-                "分类url": "http://127.0.0.1:10079/p/0/127.0.0.1:10071/https://www.zrys1.top/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+                "分类url": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://www.zrys1.top/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
                 "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
                
             }
@@ -119,9 +119,9 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
-        "分类url": "http://127.0.0.1:10079/p/0/127.0.0.1:10071/https://dianyi.ng/pianku-{cateId}-{area}-------{catePg}---{year}.html",
+        "分类url": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://dianyi.ng/pianku-{cateId}-{area}-------{catePg}---{year}.html",
         "简介": "class=\"video-info-item video-info-content vod_content\">&&</span>",
-        "搜索url": "http://127.0.0.1:10079/p/0/127.0.0.1:10071/https://dianyi.ng/search--------------.html?wd={wd}",
+        "搜索url": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://dianyi.ng/search--------------.html?wd={wd}",
         "搜索数组": "<div class=\"module-item-pic\">&&</div>",
         "图片": "src=\"&&\"",
         "搜索标题": "title=\"&&\"",
@@ -143,7 +143,7 @@
       "filterable": 1,
       "jar": "./lib/XBPQ.jar",
       "ext": {
-        "分类url": "http://127.0.0.1:10079/p/0/127.0.0.1:10071/https://www.huanyuxing.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
+        "分类url": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://www.huanyuxing.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
         "分类": "电影$id-a#电视剧$id-b#动漫$id-c#综艺$id-d"
       }
     },
