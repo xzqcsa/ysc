@@ -150,6 +150,20 @@
                 "免嗅": "0"
             }
         },
+{
+            "key": "4KK4",
+            "name": "🧲 4KK磁力后来🧲  ",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar":"./XBPQ.jar",
+            "ext": {"线路标题":"<h4>&&</h4>",
+                    "线路数组":"class=\"module-row-title\">&&</div",
+                   "播放数组":"scroll-box-y\">&&</div",
+                "分类url": "https://www.wo4k.net/pianku/{cateId}-{area}-------{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2"
+               
+            }
+        },
 
 	{
             "key": "4KK4",
