@@ -164,7 +164,22 @@
                
             }
         },
-
+{
+            "key": "圆觉",
+            "name": "🧲 圆觉影视🧲 ",
+            "type": 3,
+            "api": "csp_XBPQ",
+			 "playerType": "2",
+            "jar":"./lib/XBPQ.jar",
+            "ext": {"数组":"class=\"card mt-3\">&&</p",
+			"下载地址":"class=\"card-title\">&&</h3",
+			"磁力链接":"class=\"text-muted\">&&</td",
+			"链接": "href=\"&&\"",
+                "分类url": "https://www.yjys.me/s/{cateId}/2?type=0&area={area}&year={year}",
+                "分类": "动作$dongzuo#科幻$kehuan#战争$zhanzheng"
+               
+            }
+        },
 	{
             "key": "4KK4",
             "name": "🧲 4KK磁力影视🧲 ",
