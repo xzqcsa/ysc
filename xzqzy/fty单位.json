@@ -60,10 +60,10 @@
             "name": "🔥4KK磁力影视🔥",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar":"./lib/XBPQ.jar",
+           "jar":"./yydf.jar",
             "ext": {"线路标题":"class=\"module-row-title\">&&</h4",
-                    "线路数组":"class=\"module-row-one&&</div",
-                   "播放数组":"class=\"module-row-text copy&&</a",
+                    "线路数组":"class=\"module-row-shortcuts\"&&</div",
+                   "播放数组":"class=\"module-row-text copy\"&&</a",
                 "分类url": "https://www.wo4k.net/pianku/{cateId}-{area}-------{catePg}---{year}.html",
                 "分类": "电影$1#电视剧$2"
                
