@@ -187,60 +187,14 @@
 			 "playerType": "2",
             "jar":"./lib/XBPQ.jar",
             "ext": {"线路标题":"class=\"module-row-title\">&&</h4",
-                    "线路数组":"class=\"module-row-shortcuts\"&&</div",
-                   "播放数组":"class=\"scroll-box-y\"&&</a",
+                    "线路数组":"class=\"module-row-shortcuts\">&&</div",
+                   "播放数组":"class=\"scroll-box-y\">&&</div",
                 "分类url": "https://www.wo4k.net/pianku/{cateId}-{area}-------{catePg}---{year}.html",
                 "分类": "电影$1#电视剧$2"
                
             }
         },
-	{
-            "key": "孜然",
-            "name": "🔥孜然影视🔥",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar":"./lib/XBPQ.jar",
-            "ext": {
-                "分类url": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://www.zrys1.top/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-                "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
-               
-            }
-        },
-	  {
-      "key": "XBPQ_电影先生",
-      "name": "🔥电影先生🔥",
-      "jar": "./lib/XBPQ.jar",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://dianyi.ng/pianku-{cateId}-{area}-------{catePg}---{year}.html",
-        "简介": "class=\"video-info-item video-info-content vod_content\">&&</span>",
-        "搜索url": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://dianyi.ng/search--------------.html?wd={wd}",
-        "搜索数组": "<div class=\"module-item-pic\">&&</div>",
-        "图片": "src=\"&&\"",
-        "搜索标题": "title=\"&&\"",
-        "搜索副标题": ">&&</a>",
-        "线路数组": "data-dropdown-value=&&</div>",
-        "线路标题": "<span>&&</small>[替换:<span></small>共]+集",
-        "播放数组": "<div class=\"scroll-content\">&&</div>",
-        "播放标题": "<span>&&</span>",
-        "分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi"
-      }
-    },
-    {
-      "key": "XBPQ_麻衣影院",
-      "name": "🔥麻衣影院🔥",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "./lib/XBPQ.jar",
-      "ext": {
-        "分类url": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://www.huanyuxing.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
-        "分类": "电影$id-a#电视剧$id-b#动漫$id-c#综艺$id-d"
-      }
-    },
+	
 	{ "key": "Ikanbot",
 	"name": "🔥爱看机器人🔥",
 	"type": 3, 
