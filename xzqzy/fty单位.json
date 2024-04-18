@@ -60,7 +60,7 @@
             "name": "🔥4KK磁力影视🔥",
             "type": 3,
             "api": "csp_XBPQ",
-           "jar":"./yydf.jar",
+            "jar":"./lib/XBPQ.jar",
             "ext": {"线路标题":"class=\"module-row-title\">&&</h4",
                     "线路数组":"class=\"module-row-shortcuts\"&&</div",
                    "播放数组":"class=\"module-row-text copy\"&&</a",
