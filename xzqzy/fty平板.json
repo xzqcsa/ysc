@@ -171,11 +171,8 @@
             "api": "csp_XBPQ",
 			 "playerType": "2",
             "jar":"./lib/XBPQ.jar",
-            "ext": {"数组":"class=\"card mt-3\">&&</p",
-			"下载地址":"class=\"card-title\">&&</h3",
-			"磁力链接":"class=\"text-muted\">&&</td",
-			"链接": "href=\"&&\"",
-                "主页url": "https://www.yjys.me/",
+            "ext": {
+                "分页url": "https://www.yjys.me/{cateId}.htm",
                 "分类": "动作$dongzuo#科幻$kehuan#战争$zhanzheng"
                
             }
