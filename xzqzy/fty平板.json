@@ -164,6 +164,19 @@
                
             }
         },
+		{
+            "key": "圆觉11",
+            "name": "🧲 圆觉影视11🧲 ",
+            "type": 3,
+            "api": "csp_XBPQ",
+			 "playerType": "2",
+            "jar":"./lib/XBPQ.jar",
+            "ext": {
+                "分页url": "https://www.yjys.me/s/?{cateId}",
+                "分类": "动作$dongzuo#科幻$kehuan#战争$zhanzheng"
+               
+            }
+        },
 {
             "key": "圆觉",
             "name": "🧲 圆觉影视🧲 ",
