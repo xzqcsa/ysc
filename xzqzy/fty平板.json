@@ -172,7 +172,7 @@
 			 "playerType": "2",
             "jar":"./lib/XBPQ.jar",
             "ext": {
-                "分页url": "https://www.yjys.me?{cateId}",
+                "分页url": "https://www.yjys.me/{cateId}/{catePg}/;;a",
                 "分类": "动作$dongzuo#科幻$kehuan#战争$zhanzheng"
                
             }
