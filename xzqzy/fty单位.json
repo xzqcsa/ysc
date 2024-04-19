@@ -79,7 +79,7 @@
             "ext": {"线路标题":"class=\"card-title\">&&</h3",
                     "线路数组":"class=\"card-body scroll-x&&</td[包含:magnet]",
                    "播放数组":"class=\"card mt-3&&</p",
-                "分页url": "https://www.yjys.me?{cateId}",
+                "分页url": "https://www.yjys.me/s/{cateId}",
                 "分类": "动作$dongzuo#科幻$kehuan#战争$zhanzheng"
                
             }
