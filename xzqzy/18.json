@@ -494,6 +494,30 @@
             "ext": "null$$$socks5://127.0.0.1:10072$$$1"
         },
 		{
+            "key": "ppp",
+            "name": "🔞ppp🔞",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+			"jar":"./lib/XBPQ.jar",
+            "playerType": 1,
+            "api": "csp_XBPQ",
+            "ext": {
+                "直接播放": "1",
+                "嗅探词": ".m3u8",
+                "数组": "<figure class=\"aspect-ratio\">&&</a",
+                "图片": "data-src=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "链接": "href=\"&&\"",
+                "播放链接前缀": "https://ppp.porn/v",
+                "搜索url": "https://ppp.porn/search/{wd}/",
+                "搜索图片": "data-src=\"&&\"",
+                "搜索数组": "<figure class=\"aspect-ratio\">&&</a",
+                "分类": "中國AV$china-av#日本片商$japan-producer#素人自拍$amateur#中國$china#台湾$taiwan#日本$japan#東南亞$se-asia#韓國$korea#香港$hongkong#Cosplay$Cosplay#主播$streamer#主觀視角$first-person-pov#凌辱$bdsm#劇情$drama#多P$threesome#探花$91-tanhua#流出$released#无码$uncensored#百合$lesbian#野外露出$exhibitionists#OL$office-lady#動漫$acg#古裝$costume#女僕$maid#學生$student#旗袍$cheongsam#獸耳$kemonomimi#瑜伽褲$yoga-pants#真理褲$dolfin-shorts#空姐$flight-attendant#絲襪$pantyhose#護士$nurse#過膝襪$knee-socks",
+                "分类url": "https://ppp.porn/categories/{cateId}/{catePg}/;;a"
+            }
+        },
+		{
             "key": "csp_91黑料",
             "name": "🔞91黑料🔞",
             "type": 3,
