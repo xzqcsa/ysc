@@ -172,7 +172,7 @@
 			 "playerType": "2",
             "jar":"./lib/XBPQ.jar",
             "ext": {"线路标题":"<span>&&</span>",
-                    "线路数组":"href=\"&&\[包含:magnet]",
+                    "线路数组":"href=\"&&\"",
                    "播放数组":"detail-union fn-right&&</a",
                 "分页url": "https://www.xbw20.com/vod/{cateId}.html",
                 "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon"
