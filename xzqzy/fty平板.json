@@ -173,7 +173,7 @@
             "jar":"./lib/XBPQ.jar",
             "ext": {"线路标题":"title\"&&\"",
                     "线路数组":"class=\"detail-union fn-right&&</div",
-                   "播放数组":"class=\"maxBox&&</ul",
+                   "播放数组":"class=\"detail-union fn-right</ul",
                 "分页url": "https://www.xbw20.com/vod/{cateId}.html",
                 "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon"
                
