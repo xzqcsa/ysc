@@ -165,15 +165,15 @@
             }
         },
 		{
-            "key": "圆觉11",
-            "name": "🧲 圆觉影视11🧲 ",
+            "key": "小白",
+            "name": "🧲 小白磁力🧲 ",
             "type": 3,
             "api": "csp_XBPQ",
 			 "playerType": "2",
             "jar":"./lib/XBPQ.jar",
             "ext": {
-                "分页url": "https://www.yjys.me/s/{cateId}/{catePg}/;;a",
-                "分类": "动作$dongzuo#科幻$kehuan#战争$zhanzheng"
+                "分页url": "https://www.xbw20.com/vod/{cateId}.html",
+                "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon"
                
             }
         },
