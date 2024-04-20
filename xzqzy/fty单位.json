@@ -71,17 +71,20 @@
         },
 		{
             "key": "圆觉",
-            "name": "🧲 圆觉影视🧲 ",
+            "name": "🧲小白磁力🧲 ",
             "type": 3,
             "api": "csp_XBPQ",
 			 "playerType": "2",
             "jar":"./lib/XBPQ.jar",
-            "ext": {"线路标题":"class=\"card-title\">&&</h3",
-                    "线路数组":"class=\"card-body scroll-x&&</td",
-                   "播放数组":"class=\"card mt-3&&</p",
-				    "播放链接":"card-title>&&</h3>",
-                "分页url": "https://www.yjys.me/s/{cateId}",
-                "分类": "动作$dongzuo#科幻$kehuan#战争$zhanzheng"
+            "ext": {
+        "线路数组":"detail-union fn-right&&\"text/javascript",
+        "线路标题":"磁力",
+        "播放数组":"detail-union fn-right&&\"text/javascript",
+        "播放列表":"</a>&&</li>[包含:magnet]",
+        "播放链接":"*\">&&</a>",
+				 
+                "分页url": "https://www.xbw20.com/vod/{cateId}.html",
+                "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon"
                
             }
         },
