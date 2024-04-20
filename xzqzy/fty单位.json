@@ -61,7 +61,7 @@
             "type": 3,
             "api": "csp_XBPQ",
             "jar":"./lib/XBPQ.jar",
-            "ext": {
+            "ext": {"嗅探词": ".mp4#m3u8",
 "分类url":"https://www.dandanju.cc/show/{cateId}--------{catePg}---{year}.html",
 "分类":"电影$1#电视剧$2#综艺$3#动漫$4"}},
 
