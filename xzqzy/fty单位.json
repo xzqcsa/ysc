@@ -79,7 +79,7 @@
             "ext": {
         "线路数组":"detail-union fn-right&&\"text/javascript",
         "线路标题":"磁力",
-        "播放数组":"detail-union fn-right&&\"text/javascript",
+        "播放数组":"boxs&&\"/ul",
         "播放列表":"</a>&&</li>[包含:magnet]",
         "播放链接":"*\">&&</a>",
 				 
