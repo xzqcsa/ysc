@@ -638,7 +638,7 @@
             "key": "熊猫",
             "name": "⛅️熊猫·Py",
             "type": 3,
-            "api": "./lib/熊猫秒播.py",
+            "api": "./lib/2_熊猫秒播.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable":1
