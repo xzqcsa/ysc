@@ -1838,6 +1838,17 @@
             "timeout": 30,
             "ext": "./lib/tokenm1.json$$$https://www.91panta.cn/$$$null$$$1"
         },
+		 {"key":"QQ",
+	 "name":"🔍QQ🔍",
+	 "type":3,
+	 "api":"csp_QQ", 
+	 "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout":60,
+			 
+            "ext": "./lib/tokenm1.json$$$null$$$proxy$$$1"
+        },
 		{"key":"PanSearch111",
 		"name":"🔍PanSearch|网盘🔍",
 		"type":3,"api":"csp_PanSearch",
