@@ -432,7 +432,7 @@
      "type":3,"api":"csp_XBPQ",
 	  "jar":"./lib/XBPQ.jar",
      "searchable":1,"quickSearch":1,"filterable":1,
-      "ext":{"分类url": "https://m.nmddd.com/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class--year-{year}-letter--area-{area}-lang-.html","搜索url":"https://m.nmddd.com/index.php?m=vod-search",
+      "ext":{"分类url": "https://nkvod.com/index.php/ajax/data?mid=1&tid={cateId}&page={catePg}&limit=20","搜索url":"https://m.nmddd.com/index.php?m=vod-search",
       "分类": "短剧$26#电影$1#连续剧$2#动漫$4"}},
 	{
       "key": "T4-yinyuetai",
