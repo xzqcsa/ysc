@@ -613,6 +613,26 @@
             "timeout": 60,
             "ext": "http://thzq.cc"
         },
+		{
+            "key": "haokongbu",
+            "name": "🔞好恐怖🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType":1,
+            "ext": {
+                "主页url": "https://m.haokongbu.top/",
+                "分类url": "https://m.haokongbu.top/{cateId}/index_{catePg}.html[https://m.haokongbu.top/{cateId}/index.html]",
+                "分类": "国产剧$guochanju#港剧$gangju#动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#战争片$zhanzhengpian#剧情片$juqingpian#微电影$weidianying#记录片$m_jlp#高清$gaoqing#动漫$donghuapian#台湾$taiwanju#日本$riju#韩国$hanju#欧美$oumeiju#泰国$taiguoju#海外$haiwaiju",                
+                //"数组": "<li>&&</li>",
+                "副标题": "class=\"typeset\"&&</i>",
+                "起始页": 2,
+                "倒序": 1,
+                "播放数组": "下载地址</h2>&&</ul>",
+                "播放列表": "<li><&&</a>"
+             },
+             "jar":"./lib/XBPQ.jar"
+        },
+
 {
       "key": "av188",
       "name": "🔞Netflav",
