@@ -88,35 +88,15 @@
                
             }
         },
-	{
-            "key": "4KK4",
-            "name": "🔥4KK磁力影视🔥",
-            "type": 3,
-            "api": "csp_XBPQ",
-			 "playerType": "2",
-            "jar":"./lib/XBPQ.jar",
-            "ext": {"线路标题":"class=\"module-row-title\">&&</h4",
-                    "线路数组":"class=\"module-row-shortcuts&&</div",
-                   "播放数组":"class=\"module-row-text copy&&</a",
-                "分类url": "https://www.wo4k.net/pianku/{cateId}-{area}-------{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2"
-               
-            }
-        },
-		{
-            "key": "4KK422",
-            "name": "🔥4KK磁力影视2🔥",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar":"./yydf.jar",
-            "ext": {"下载地址":"class=\"icon-video-file\"&&</div",
-                    "链接": "href=\"javascript:;\"&&</i",
-                  "数组":"class=\"scroll-box-y\"&&</a",
-                "分类url": "https://www.wo4k.net/pianku/{cateId}-{area}-------{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2"
-               
-            }
-        },
+	{"key":"Wo4k",
+	"name":"🧲 4K|磁力🧲 ",
+	"type":3,
+	"api":"csp_Wo4k",
+	"quickSearch":1,
+	"changeable":1, 
+	"filterable":1, 
+	"timeout":60, 
+	"ext":"./lib/tokenm3.json$$$https://www.wo4k.com/$$$proxy$$$1$$$./lib/wogg.json"},
 	{
             "key": "孜然",
             "name": "🔥孜然影视🔥",

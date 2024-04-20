@@ -150,64 +150,15 @@
                 "免嗅": "0"
             }
         },
-{
-            "key": "4KK42222",
-            "name": "🧲 4KK磁力后来🧲  ",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar":"./XBPQ.jar",
-            "ext": {"线路标题":"<h4>&&</h4>",
-                    "线路数组":"class=\"module-row-title\">&&</div",
-                   "播放数组":"scroll-box-y\">&&</div",
-                "分类url": "https://www.wo4k.net/pianku/{cateId}-{area}-------{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2"
-               
-            }
-        },
-		{
-            "key": "小白",
-            "name": "🧲 小白磁力🧲 ",
-            "type": 3,
-            "api": "csp_XBPQ",
-			 "playerType": "2",
-            "jar":"./lib/XBPQ.jar",
-            "ext": {
-                "分页url": "https://www.xbw20.com/vod/{cateId}/page/{catePg}[https://www.xbw20.com/vod/{cateId}.html]",
-                "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon"
-               
-            }
-        },
-
-	{
-            "key": "4KK4",
-            "name": "🧲 4KK磁力影视🧲 ",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar":"./lib/XBPQ.jar",
-            "ext": {"线路标题":"class=\"module-row-title\">&&</h4",
-                    "线路数组":"class=\"module-row-one&&</div",
-                   "播放数组":"class=\"module-row-text copy&&</a",
-                "分类url": "https://www.wo4k.net/pianku/{cateId}-{area}-------{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2"
-               
-            }
-        },
-		{
-            "key": "4KK422",
-            "name": "🧲 4KK磁力影视2🧲 ",
-            "type": 3,
-            "api": "csp_XBPQ",
-			 "playerType": "2",
-            "jar":"./lib/XBPQ.jar",
-            "ext": {"线路标题":"class=\"module-row-title\">&&</h4",
-                    "线路数组":"class=\"module-row-shortcuts\">&&</div",
-                   "播放数组":"class=\"scroll-box-y\">&&</div",
-				   "链接": "href=\"&&\"",
-                "分类url": "https://www.wo4k.net/pianku/{cateId}-{area}-------{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2"
-               
-            }
-        },
+{"key":"Wo4k",
+	"name":"🧲 4K|磁力🧲 ",
+	"type":3,
+	"api":"csp_Wo4k",
+	"quickSearch":1,
+	"changeable":1, 
+	"filterable":1, 
+	"timeout":60, 
+	"ext":"./lib/tokenm1.json$$$https://www.wo4k.com/$$$proxy$$$1$$$./lib/wogg.json"},
 	
 	{ "key": "Ikanbot",
 	"name": "🔥爱看机器人🔥",
