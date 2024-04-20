@@ -81,7 +81,7 @@
         "线路标题":"磁力",
         "播放数组":"boxs&&\"/ul",
         "播放列表":"</a>&&</li>[包含:magnet]",
-        "播放链接":"a href\">&&_self",
+        "播放链接":"</a>&&</li>",
 				 
                 "分页url": "https://www.xbw20.com/vod/{cateId}.html",
                 "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon"
