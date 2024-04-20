@@ -1965,9 +1965,9 @@
 	 "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
-            "timeout": 30,
+            "timeout":60,
 			 
-            "ext": "./lib/tokenm3.json"
+            "ext": "./lib/tokenm3.json$$$null$$$proxy$$$1"
         },
     {
       "key": "csp_search_Panda_盘搜",
