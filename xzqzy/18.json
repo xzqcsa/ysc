@@ -57,19 +57,21 @@
       "ext": "18+",
       "timeout": 60
     },
-	{"key":"SeHuaTang","name":"色花堂|网盘",
-	"jar":"./lib/pg.jar","type":3,"api":"csp_SeHuaTang","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$127.0.0.1:10072",
-                        "style": {
-                                "type": "rect",
-                                "ratio": 1.5
-                        }
-    },
+	 {"key":"SeHuaTang","name":"SeHuaTang|fq","type":3,"api":"csp_SeHuaTang"},
 	{"key":"Xojav","name":"XOJav","type":3,"api":"csp_Xojav","jar":"./lib/pg.jar","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$socks5://127.0.0.1:10072",
                         "style": {
                                 "type": "rect",
                                 "ratio": 1.5
                         }
     },
+	  {"key":"Cable1","name":"Cable|fq","type":3,"api":"csp_Cable"},
+    {"key":"Doll1","name":"Doll|fq","type":3,"api":"csp_Doll"},
+	  {"key":"Miss1","name":"Miss|fq","type":3,"api":"csp_Miss"},
+	 {"key":"top888",
+	 "name":"top888|fq",
+	 "type":3,
+	 "api":"csp_Top888",
+	 "style":{"type":"rect","ratio":1.6}},
 	{ 
             "key": "jable",
             "name": " | jable♥️",

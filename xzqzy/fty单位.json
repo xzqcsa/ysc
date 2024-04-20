@@ -55,39 +55,8 @@
         "ratio": 1.43
       }
     },
-	{
-            "key": "4KK4333",
-            "name": "🧲 4KK磁力影视🧲3 ",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar":"./lib/XBPQ.jar",
-            "ext": {"线路标题":"class=\"module-row-title\">&&</h4",
-                    "线路数组":"class=\"module-row-one&&</div",
-                   "播放数组":"class=\"module-row-text copy&&</a",
-                "分类url": "https://www.wo4k.net/pianku/{cateId}-{area}-------{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2"
-               
-            }
-        },
-		{
-            "key": "圆觉",
-            "name": "🧲小白磁力🧲 ",
-            "type": 3,
-            "api": "csp_XBPQ",
-			 "playerType": "2",
-            "jar":"./lib/XBPQ.jar",
-            "ext": {
-        "线路数组":"detail-union fn-right&&\"text/javascript",
-        "线路标题":"磁力",
-        "播放数组":"boxs&&\"/ul",
-        "播放列表":"</a>&&</li>[包含:magnet]",
-        "播放链接":"</a>&&</li>",
-				 
-                "分页url": "https://www.xbw20.com/vod/{cateId}.html",
-                "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon"
-               
-            }
-        },
+	
+		
 	{"key":"Wo4k",
 	"name":"🧲 4K|磁力🧲 ",
 	"type":3,
@@ -1989,6 +1958,17 @@
         "阿里token": "1f34013bd2d0471d94e200b730489623"
       }
     },
+	 {"key":"QQ",
+	 "name":"🔍QQ🔍",
+	 "type":3,
+	 "api":"csp_QQ", 
+	 "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+			 
+            "ext": "./lib/tokenm3.json"
+        },
     {
       "key": "csp_search_Panda_盘搜",
       "name": "🔍盘搜┃网盘2🔍",
