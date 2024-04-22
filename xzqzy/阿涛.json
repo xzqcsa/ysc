@@ -15,11 +15,14 @@
     },
 	{
             "key": "小白",
-            "name": "🧲 4小白磁力🧲 4",
+            "name": "🧲 小白磁力🧲 ",
             "type": 3,
             "api": "csp_XBPQ",
             "playerType":1,
-            "ext": {
+            "ext": {"请求头":"手机","编码":"gb2312",
+            "二次截取":"pic-list pic-list-focus fn-right&&</ol>",
+            "数组":"<li>&&</li>",
+            "标题":"alt=\"&&\"",
                 "主页url": "https://www.xbw20.com/",
                 "分类url": "https://www.xbw20.com/vod/{cateId}.html",
                 "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon",                
