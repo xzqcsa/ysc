@@ -121,6 +121,7 @@
             "key": "jable",
             "name": " | jable♥️",
             "type": 3,
+			
             "jar":"./lib/XBPQ.jar",
             "changeable": 1,
             "searchable": 1,
@@ -269,6 +270,7 @@
             "type": 3,
 			 "jar":"./lib/XBPQ.jar",
             "changeable": 1,
+			"playerType": 0,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
