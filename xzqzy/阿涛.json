@@ -13,6 +13,25 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
+	{
+            "key": "小白",
+            "name": "🧲 4小白磁力🧲 4",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType":1,
+            "ext": {
+                "主页url": "https://www.xbw20.com/",
+                "分类url": "https://www.xbw20.com/vod/{cateId}.html",
+                "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon",                
+              
+                    "副标题":"class=\"detail-union fn-right\">&&</div",
+                "起始页": 2,
+                "倒序": 1,
+                "播放数组": "迅雷下载</div>&&</div>",
+                "播放列表": "<li><&&</a>"
+             },
+             "jar":"./lib/XBPQ.jar"
+        },
 	{ "key": "Ikanbot",
 	"name": "🔥爱看机器人🔥",
 	"type": 3, 
