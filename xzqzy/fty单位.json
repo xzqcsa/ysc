@@ -77,7 +77,7 @@
                 "分类url": "https://www.xbw20.com/vod/{cateId}.html",
                 "分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon",                
               "线路标题":"<h2>&&</h2>",
-                    "线路数组":"class=\"detail-title fn-right\">&&</div",
+                    "线路数组":"class=\"detail-union fn-right\">&&</div",
                 "起始页": 2,
                 "倒序": 1,
                 "播放数组": "迅雷下载</div>&&</div>",
