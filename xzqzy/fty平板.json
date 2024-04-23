@@ -194,7 +194,15 @@
             "playerType":1,
             "ext": "./lib/小白磁力.json"
              },
-		
+		{
+            "key": "meiyida影视",
+            "name": "🔥美意达影视🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar":"./lib/XBPQ.jar",
+            "ext": {
+                  "分类url":"https://www.myd02.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+                  "分类":"电影$1#电视剧$2#综艺$3#短剧$5#动漫$4"}},
 {"key":"Wo4k",
 	"name":"🧲 4K|磁力🧲 ",
 	"type":3,

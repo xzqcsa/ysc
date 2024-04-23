@@ -86,6 +86,15 @@
                         "分类url": "http://5uduanju.com/vodshow/{cateId}--------{catePg}---.html"
                 }
         },
+		{
+            "key": "meiyida影视",
+            "name": "🔥美意达影视🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar":"./lib/XBPQ.jar",
+            "ext": {
+                  "分类url":"https://www.myd02.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+                  "分类":"电影$1#电视剧$2#综艺$3#短剧$5#动漫$4"}},
 	{ 
       "key": " 黑木耳", 
       "name": "🔥黑木耳🔥", 
