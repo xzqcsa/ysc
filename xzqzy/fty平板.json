@@ -2418,6 +2418,12 @@
 				"url": "./jybd.txt"
 			},
 			{
+        "name": "IPV4直播自动更新",
+		"type": 0,
+				"playerType": 1,
+        "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt"
+    },
+			{
 				"name": "YTLive",
 				"type": 0,
 				"playerType": 1,
