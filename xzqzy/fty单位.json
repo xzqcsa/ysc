@@ -73,8 +73,8 @@
             "api": "csp_XBPQ",
             "jar":"./lib/XBPQ.jar",
             "ext": {
-                  "分类url":"https://www.jinshier66.com/{cateId}/",
-                  "分类":"电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman"}},
+                  "分类url":"http://wap.zyszjyq.cn/list/{cateId}.html/",
+                  "分类":"电影$1#电视剧$2#综艺$3#动画片$37"}},
 		{
             "key": "meiyida影视",
             "name": "🔥美意达影视🔥",
