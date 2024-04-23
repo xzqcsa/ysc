@@ -80,7 +80,7 @@
                 
                 "起始页": 2,
                 "倒序": 1,
-                "播放数组": "</font>&&</strong>",
+                "播放数组": "【下载地址】magnet推荐使用utorrent、BitComet等bt客户端下载 </font>&&</strong>",
                 "播放列表": "<li><&&</a>"
              },
              "jar":"./lib/XBPQ.jar"
