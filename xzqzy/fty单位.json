@@ -74,13 +74,13 @@
             "playerType":1,
             "ext": {
                 "主页url": "https://dy2018.com/",
-                "分类url": "https://dy2018.com/{cateId}.html",
+                "分类url": "https://dy2018.com/{cateId}/",
                 "分类": "动画片$5#连续剧$hytv#日韩剧$hytv#动作片$2#喜剧片$1#爱情片$3#科幻片$4#恐怖片$8#战争片$14#剧情片$0",                
                 //"数组": "<li>&&</li>",
                 
                 "起始页": 2,
                 "倒序": 1,
-                "播放数组": "【下载地址】magnet推荐使用utorrent、BitComet等bt客户端下载 </font>&&</strong>",
+                "播放数组": "</font>&&</strong>",
                 "播放列表": "<li><&&</a>"
              },
              "jar":"./lib/XBPQ.jar"
