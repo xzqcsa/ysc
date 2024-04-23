@@ -67,6 +67,15 @@
                 }
         },
 		{
+            "key": "大全影视",
+            "name": "🔥影视大全🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar":"./lib/XBPQ.jar",
+            "ext": {
+                  "分类url":"https://www.jinshier66.com/{cateId}/index_{catePg}.html[https://www.jinshier66.com/{cateId}/index.html]",
+                  "分类":"电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman"}},
+		{
             "key": "meiyida影视",
             "name": "🔥美意达影视🔥",
             "type": 3,
