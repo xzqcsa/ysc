@@ -429,6 +429,7 @@
   "分类url": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&t={cateId}&pg={catePg}", 
   "数组二次截取": "list\":[&&]", 
   "数组": "{&&}[不包含:]", 
+   "图片代理":"2",
   "图片": "vod_pic\":\"&&\"", 
   "标题": "vod_name\":\"&&\"", 
   "副标题": "+vod_remarks\":\"&&\"", 
