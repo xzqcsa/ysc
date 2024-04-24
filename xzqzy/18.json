@@ -138,7 +138,7 @@
             "filterable": 1,
             "timeout": 60,
             "ext":"null$$$socks5://127.0.0.1:10072",
-	 "style":{"type":"rect","ratio":1.6}},
+	 "style":{"type":"rect","ratio":1.309}},
 	  {"key":"Miss1","name":"Miss|fq","type":3,"api":"csp_Miss",
 		 "quickSearch": 1,
             "changeable": 1,
