@@ -222,7 +222,7 @@
             "type": 3,
             "api": "csp_XBPQ",
             "jar":"./lib/XBPQ.jar",
-            "ext": {"页面代理":"127.0.0.1:10072",
+            "ext": {"页面代理":"127.0.0.1:10071",
                   "分类url":"https://www.myd02.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
                   "分类":"电影$1#电视剧$2#综艺$3#短剧$5#动漫$4"}},
 {"key":"Wo4k",
