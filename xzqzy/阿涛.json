@@ -20,7 +20,7 @@
             "jar": "./lib/XBPQ.jar",
             "api": "csp_XBPQ",
             "ext": {
-                "分类url": "https://miai9.cc/vodtype/{cateId}-{class}-{by}-{area}-{catePg}------{year}.html",
+                "分类url": "https://miai9.cc/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
                 "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$32"
             }
         },
