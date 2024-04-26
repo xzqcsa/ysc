@@ -58,6 +58,17 @@
       "jar":"./lib/XBPQ.jar"    
     },
 	{
+            "key": "河马",
+            "name": "🔥河马影视🔥",
+            "type": 3,
+            "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "http://www.hemayes.com/tags/{cateId}-{area}-------{catePg}---{year}.html",
+                "分类": "电影$1#连续剧$2#动漫$3#综艺$4"
+            }
+        },
+	{
             "key": "miai",
             "name": "🔥米爱｜影视🔥",
             "type": 3,
