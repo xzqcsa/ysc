@@ -72,8 +72,8 @@
             "type": 3,
             "jar": "./lib/XBPQ.jar",
             "api": "csp_XBPQ",
-            "ext": { "搜索url": "http://www.hemayes.com/sou/-------------.html?wd={wd}+&submit=",
-                "分类url": "http://www.hemayes.com/tags/{cateId}-{area}-------{catePg}---{year}.html",
+            "ext": { 
+                "分类url": "http://www.hemayes.com/sort/{cateId}.html",
                 "分类": "电影$1#连续剧$2#动漫$3#综艺$4"
             }
         },
