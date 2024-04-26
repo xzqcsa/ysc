@@ -216,15 +216,40 @@
             "playerType":1,
             "ext": "./lib/小白磁力.json"
              },
-		{
-            "key": "meiyida影视",
-            "name": "🔥美意达影视🔥",
+	{
+            "key": "miai",
+            "name": "🔥米爱｜影视🔥",
             "type": 3,
+            "jar": "./lib/XBPQ.jar",
             "api": "csp_XBPQ",
-            "jar":"./lib/XBPQ.jar",
-            "ext": {"页面代理":"127.0.0.1:10071",
-                  "分类url":"https://www.myd02.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
-                  "分类":"电影$1#电视剧$2#综艺$3#短剧$5#动漫$4"}},
+            "ext": {
+                "分类url": "https://miai9.cc/vodtype/{cateId}-{class}-{by}-{area}-{catePg}------{year}.html",
+                "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$32"
+            }
+        },
+		{
+            "key": "csp_XBPQ_大师兄影院",
+            "name": "🔥大师兄🔥",
+            "type": 3,
+            "playerType": 2,
+			 "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "副标题": "class=\"module-item-note\">&&</div>",
+                "图片": "data-original=\"&&\"",
+                "简介": "description\" content=\"&&免费在线观看",
+                "线路数组": "class=\"module-tab-item tab-item&&</small>",
+                "线路标题": "<span>&&</span>",
+                "播放数组": "module-play-list-content&&</div>",
+                "跳转播放链接": "Base64(var player_*\"url\":\"&&\")",
+                "搜索url": "https://dsxys.pro/sb/kemksmaksdl7nhZe3c1{wd}-/page/{pg}.html",
+                "分类": "电影$1#电视剧$2#国产剧$13#港剧$14#综艺$3#动漫$4",
+                "分类url": "https://dsxys.pro/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
+            }
+        },
 {"key":"Wo4k",
 	"name":"🧲 4K|磁力🧲 ",
 	"type":3,
