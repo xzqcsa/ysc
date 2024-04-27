@@ -508,7 +508,7 @@
                 "嗅探词": "https://s1.playhls.com/m3u8.php?",
                 "数组": "class=\"video-cover&&class=\"tags",
                 "图片": "style=\"background-image: url('&&');\"",
-                "标题": "href=\"*\">&&</a >",
+                "标题": "href=\"*\">&&</a>",
                 "副标题": "duration\">&&</div>",
                 "简介": "简介：</div>&&</div>",
                 "链接": "https://shise.me/player.html?id=+href=\"video.html?id=&&\"",
