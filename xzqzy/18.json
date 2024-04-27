@@ -492,6 +492,34 @@
             "ext": "./lib1/wdzb.json",
             "jar": "./lib1/fan.txt"
         },
+		{
+            "key": "视色",
+            "name": "视色(T)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar":"./lib/XBPQ.jar",
+            "ext": {
+                "请求头": "手机",
+                "免嗅": "1",
+                "嗅探词": "https://s1.playhls.com/m3u8.php?",
+                "数组": "class=\"video-cover&&class=\"tags",
+                "图片": "style=\"background-image: url('&&');\"",
+                "标题": "href=\"*\">&&</a >",
+                "副标题": "duration\">&&</div>",
+                "简介": "简介：</div>&&</div>",
+                "链接": "https://shise.me/player.html?id=+href=\"video.html?id=&&\"",
+              "播放链接": "href=\"&&\"",
+              "页面代理": "127.0.0.1:10072",
+                // "播放链接前缀": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://shise.me",
+              //  "跳转播放链接": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/s1.playhls.com",
+                "分类url": "https://shise.me/series.html?id={cateId}&page={catePg};;z",
+                "分类": "情色电影$61c4d9b653b6d#中文AV$63824a975d8ae#日本AV$6206216719462#模特私拍$6030196781d85#业余拍摄$617d3e7acdcc8#糖心Vlog$61014080dbfde#其他影片$60192e83c9e05"
+            }
+        },
 		        {
             "key": "csp_XBPQ_無碼情色站",
             "name": "無碼情色站",
