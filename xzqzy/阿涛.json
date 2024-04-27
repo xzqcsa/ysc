@@ -72,7 +72,7 @@
 	"播放数组":"{\u0022clips\u0022:[&&],\u0022cover\u0022",
 	"播放列表":"[&&]",
 	"播放标题":"\u0022&&\u0022,\u0022https:",
-	"播放链接":"http+\u0022,\u0022http&&\u0022",
+	"播放链接":"http+\u0022,\u0022http&&\u0022","页面代理":"127.0.0.1:10072",
 	"分类二次截取":"<div class=\"tab-content mb-3&&action=\"/search\" method=\"GET\"",
 	"分类数组":"<a&&</a >",
 	"分类标题":">&&</span>",
@@ -86,7 +86,7 @@
 	"quickSearch":1,
 	"filterable":0,
 	"ext":{"嗅探词":".m3u8#m3u8?#.mp4#mp4?#ixigua#.czspp#.flv#.mp3#.m4a#?item/video#is_play_url=1#play/?#qianpailive",
-	"分类":"电影$dianying#剧集$lianxuju#动漫$dongman#综艺$zongyi#",
+	"分类":"电影$dianying#剧集$lianxuju#动漫$dongman#综艺$zongyi#","页面代理":"127.0.0.1:10072",
 	"分类url":"http://www.wuguiyy.cc/show/{cateId}-{area}-{by}------{catePg}---{year}/",
 	"数组":"stui-vodlist__box&&</div>","简介":"剧情：</span>&&</span>"}},
 	 {
