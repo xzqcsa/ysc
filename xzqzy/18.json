@@ -77,6 +77,18 @@
       "ext": "18+",
       "timeout": 60
     },
+	{"key":"天美","name":"天美|doll","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar","style":{"ratio":1.7},
+            "ext": {
+        "搜索链接":"http://www.xbyc.cc/index.php/vod/search/page/{pg}/wd/{wd}.html",
+        "数组":"\"box-item\"&&</em>",
+                "副标题":"<strong>&&</strong>",
+                "分类数组":"<li>&&</li>",
+                "分类标题":"\">&&</a",
+                "分类ID":"id/&&.",
+        "分类链接":"http://www.xbyc.cc/index.php/vod/type/id/{cateId}/page/{catePg}.html;;mz"
+            }
+        },
+
 	 {
          "key":"色花堂",
             "name":"色花堂 | XBPQ",
