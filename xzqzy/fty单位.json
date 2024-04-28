@@ -78,6 +78,17 @@
             }
         },
 		{
+            "key": "4看看",
+            "name": "🔥4KK🔥",
+            "type": 3,
+            "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://www.4kvm.net/{cateId}/page/{catePg}",
+                "分类": "电影$movies#连续剧$tvshows"
+            }
+        },
+		{
             "key": "miai",
             "name": "🔥米爱｜影视🔥",
             "type": 3,
