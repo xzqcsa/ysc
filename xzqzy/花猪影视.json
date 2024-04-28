@@ -400,15 +400,12 @@
                 "分类url": "https://www.hdmoli.pro/mlist/index{cateId}.html",
 				"分类": "电影$1#剧集$2#动画$41"}},
 
-		  {
-            "key" : "py_白嫖",
-            "name" : "🔥白嫖影视🔥",
-            "type" : 3,
-            "api" : "./lib/py_白嫖.py",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1
-        },
+		  {"key":"白嫖影视",
+  "name":"🔥白嫖影视🔥",
+  "type":3,
+  "api":"csp_BaiPiao",
+  "jar":"./lib/3366.jar"},
+
 	{
             "key": "飘雪影院",
             "name": "🔥飘雪影院🔥",

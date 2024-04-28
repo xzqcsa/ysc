@@ -438,15 +438,12 @@
       "changeable": 1
     },
 	
-       {
-            "key" : "py_白嫖",
-            "name" : "🔥白嫖影视🔥",
-            "type" : 3,
-            "api" : "./lib/py_白嫖.py",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1
-        },
+       {"key":"白嫖影视",
+  "name":"🔥白嫖影视🔥",
+  "type":3,
+  "api":"csp_BaiPiao",
+  "jar":"./lib/3366.jar"},
+
 	
 		{ 
       "key": "csp_xBPQ_秒", 

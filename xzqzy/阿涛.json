@@ -552,15 +552,12 @@
 	"filterable":1, 
 	"timeout":45, 
 	"ext":"./lib/阿涛tokenm.json$$$https://www.80yy3.com/$$$proxy$$$1$$$./lib/wogg.json"},
-	   {
-            "key" : "py_白嫖",
-            "name" : "🔥白嫖影视🔥",
-            "type" : 3,
-            "api" : "./lib/py_白嫖.py",
-            "searchable" : 1,
-            "quickSearch" : 1,
-            "filterable" : 1
-        },
+	   {"key":"白嫖影视",
+  "name":"🔥白嫖影视🔥",
+  "type":3,
+  "api":"csp_BaiPiao",
+  "jar":"./lib/3366.jar"},
+
 	
 	{
       "key": "Wexxpgtv",
