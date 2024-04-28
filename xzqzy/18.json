@@ -88,6 +88,17 @@
         "分类链接":"http://www.xbyc.cc/index.php/vod/type/id/{cateId}/page/{catePg}.html;;mz"
             }
         },
+{"key":"黄色仓库11","name":"黄色仓库11","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar","style":{"ratio":1.7},
+            "ext": {
+        "搜索链接":"http://oy.oyxx-1.eu.org/hs1.php?u=/vodsearch/{wd}----------{pg}---.html",
+        "主页url":"http://oy.oyxx-1.eu.org/hs1.php",
+        "链接":"http+://oy.oyxx-1.eu.org/hs1.php?u=+href=\"&&\"[替换:?>>&]",
+        "简介":"时间：&&<",
+        "副标题":"+fa fa-heart\"></i>&&<++\"fa fa-eye\"></i>&&<","页面代理":"127.0.0.1:10072", 
+                "分类": "日韩AV$1#国产系列$2#欧美$3#成人动漫$4#无码中文$8#有码中文$9#日本无码$10#日本有码$7#国产视频$15#欧美高清$21#动漫剧情$22",
+        "分类url": "http://oy.oyxx-1.eu.org/hs1.php?u=vodtype/{cateId}-{catePg}.html;;zm"
+            }
+        },
 
 	 {
          "key":"色花堂",
