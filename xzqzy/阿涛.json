@@ -13,17 +13,7 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
-	{
-            "key": "miai11",
-            "name": "🔥MTTY｜影视🔥",
-            "type": 3,
-            "jar": "./lib/XBPQ.jar",
-            "api": "csp_XBPQ",
-            "ext": {
-                "分类url": "https://www.mtyy6.com/vodtype/{cateId}-{catePg}.html",
-                "分类": "电影$2#连续剧$1#动漫$4#综艺$3"
-            }
-        },
+	
 	{
             "key": "miai",
             "name": "🔥米爱｜影视🔥",
