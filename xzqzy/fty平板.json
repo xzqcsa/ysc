@@ -377,6 +377,17 @@
 				"分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi"
 			}
 		},
+		{
+			"key": "BT天堂",
+			"name":"🧲 BT天堂🧲 ",
+			"type":3,
+			"api":"csp_XBPQ",
+			"searchable":1,
+			"quickSearch":1,
+			"filterable":1,
+			"ext": "./lib/BT天堂 5.json",
+			"jar": "./lib/XBPQ.jar"
+		},
 		{"key":"Gaoqing",
 	"name":"🧲 中国高清网🧲 ",
 	"type":3,

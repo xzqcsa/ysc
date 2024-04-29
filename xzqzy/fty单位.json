@@ -78,6 +78,17 @@
             }
         },
 		{
+			"key": "BT天堂",
+			"name":"🧲 BT天堂🧲 ",
+			"type":3,
+			"api":"csp_XBPQ",
+			"searchable":1,
+			"quickSearch":1,
+			"filterable":1,
+			"ext": "./lib/BT天堂 5.json",
+			"jar": "./lib/XBPQ.jar"
+		},
+		{
             "key": "miai11",
             "name": "🔥MTTY｜影视🔥",
             "type": 3,
