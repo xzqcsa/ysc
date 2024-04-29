@@ -84,6 +84,7 @@
                 "副标题":"<strong>&&</strong>",
                 "分类数组":"<li>&&</li>",
                 "分类标题":"\">&&</a",
+				"页面代理":"127.0.0.1:10072",
                 "分类ID":"id/&&.",
         "分类链接":"http://www.xbyc.cc/index.php/vod/type/id/{cateId}/page/{catePg}.html;;mz"
             }
@@ -154,7 +155,7 @@
             "changeable": 1,
             "filterable": 0,
             "timeout": 60,
-            "ext": "http://thzj.cc/forum.php"
+            "ext": "http://thzj.cc/forum.php$$$socks5://127.0.0.1:10072"
       },
 
 	 {
@@ -785,7 +786,7 @@
             "changeable": 1,
             "filterable": 0,
             "timeout": 60,
-            "ext": "http://thzq.cc"
+            "ext": "http://thzq.cc$$$socks5://127.0.0.1:10072"
         },
 		
 {
