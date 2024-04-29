@@ -100,6 +100,18 @@
             }
         },
 
+{
+            "key": "Taohuazu",
+            "name": " | 桃花族",
+            "type": 3,
+            "api": "csp_Taohuazu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "http://thzj.cc/forum.php"
+      },
 
 	 {
          "key":"色花堂",
