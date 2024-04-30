@@ -55,6 +55,88 @@
         "ratio": 1.43
       }
     },
+	{"key":"耐看",
+	"name":"🔥耐看🔥",
+	"type":3,
+	"playerType":2,
+	 "jar": "./lib/XBPQ.jar",
+	"api":"csp_XBPQ",
+	"searchable":1,
+	"quickSearch":1,
+	"filterable":1,
+	"ext":{"简介":"line-height: 20px;\">&&</p>",
+	"线路数组":"data-dropdown-value=&&</div>",
+	"线路标题":"<span>&&</span>",
+	"跳转播放链接":"Base64(var player_*\"url\":\"&&\")",
+	"搜索url":"https://www.nkvod.com/nk/-------------.html?wd={wd}",
+	"分类":"电影$1#电视剧$2#综艺$3#动漫$4#短剧$21#动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#国产剧$13#港台剧$14#日韩剧$15#欧美剧$16#其他剧$20",
+	"分类url":"https://www.nkvod.com/show/{cateId}--{by}------{catePg}---{year}.html"}},
+{
+            "key": "淘剧ys",
+            "name": "🔥淘剧｜秒播🔥",
+            "type": 3,
+			 "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "http://www.taoju.tv/list/{cateId}.html",
+                "分类": "电影$1#连续剧$2#动漫$3#综艺$4"
+            }
+        },
+		{
+            "key": "csp_无聊",
+            "name": "🔥YYDS🔥",
+            "type": 3,
+		"jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "站名": "YYDS影视",
+                "主页url": "https://www.yyds.one/",
+                "简介": "+video-info-item video-info-content vod_content\">&&</span>",
+                "影片状态": "集数：&&</div>",
+                "影片类型": "video-tag-icon\">&&立即播放",
+                "数组": "module-item-pic\">&&module-item\">",
+                "副标题": "module-item-text\">&&</div>",
+                "搜索url": "/c/-------------.html?wd={wd}",
+                "线路数组": "data-dropdown-value=&&</div>",
+                "线路标题": "+<span>&&</small>+集",
+                "分类url": "https://www.yyds.one/s/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html;;ak",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+            }
+        },
+{
+            "key": "稀饭ys",
+            "name": "🔥稀饭｜秒播🔥",
+            "type": 3,
+			"jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://www.xifanys.com/yingpiantype/{cateId}.html",
+                "分类": "电影$dianying#连续剧$lianxuju#动漫$dongman#综艺$zongyi#短剧$duanju"
+            }
+        },
+
+        {
+            "key": "胖虎",
+            "name": "🔥胖虎┃影视🔥",
+            "type": "3",
+            "api": "csp_XBPQ",
+			 "jar": "./lib/XBPQ.jar",
+            "searchable": "1",
+            "quickSearch": "1",
+            "filterable": "1",
+            "ext": {
+                "数组": "<a&&</div></div></a>",
+                "线路数组": "class=\"module-tab-item tab-item\"&&</div>",
+                "播放数组": "class=\"module-play-list\"&&</div>",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+                "分类url": "https://www.physkan.com/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/page/{catePg}/year/{year}.html",
+                "筛选": "1"
+            }
+        },
+
 	{
                 "key": "XBPQ_无忧短剧",
                 "name": "🔥无忧短剧🔥",
@@ -221,7 +303,7 @@
 	"changeable":1, 
 	"filterable":1, 
 	"timeout":60, 
-	"ext":"./lib/tokenm3.json$$$https://www.wo4k.com/$$$proxy$$$1$$$./lib/wogg.json"},
+	"ext":"./lib/tokenm3.json$$$https://www.wo4k.net/$$$proxy$$$1$$$./lib/wogg.json"},
 	{
             "key": "文字",
             "name": "🔥蚊子影视🔥",
@@ -812,7 +894,7 @@
 			"searchable":0,
 			"quickSearch": 1,
 			"searchable": 1,
-			"ext": "https://www.bdys10.com/$$$null$$$1"
+			"ext": "https://www.yjys.me/$$$null$$$1"
 		},
 		{
 			"key": "追剧",
