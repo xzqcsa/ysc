@@ -66,7 +66,7 @@
 	"filterable":1,
 	"ext":{"简介":"line-height: 20px;\">&&</p>",
 	"线路数组":"data-dropdown-value=&&</div>",
-	"线路标题":"<span>&&</span>",
+	"线路标题":"<span>&&</span>","页面代理":"127.0.0.1:10072",
 	"跳转播放链接":"Base64(var player_*\"url\":\"&&\")",
 	"搜索url":"https://www.nkvod.com/nk/-------------.html?wd={wd}",
 	"分类":"电影$1#电视剧$2#综艺$3#动漫$4#短剧$21#动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#国产剧$13#港台剧$14#日韩剧$15#欧美剧$16#其他剧$20",
@@ -113,7 +113,7 @@
 			"jar": "./lib/XBPQ.jar",
             "api": "csp_XBPQ",
             "ext": {
-                "分类url": "https://www.xifanys.com/yingpiantype/{cateId}.html",
+                "分类url": "https://www.xifanys.com/yingpiantype/{cateId}.html","页面代理":"127.0.0.1:10072",
                 "分类": "电影$dianying#连续剧$lianxuju#动漫$dongman#综艺$zongyi#短剧$duanju"
             }
         },
