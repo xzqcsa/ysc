@@ -86,6 +86,41 @@
         "ratio": 1.43
       }
     },
+	{
+            "key": "真不卡",
+            "name": "🔥真不卡🔥",
+            "type": 1,
+            "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8?wd=",
+"categories":["动画片",
+"电影",
+"灾难片",
+"悬疑片",
+"犯罪片",
+"奇幻片",
+"动作片",
+"喜剧片",
+"科幻片",
+"恐怖片",
+"剧情片",
+"战争片",
+"纪录片",
+"动漫",
+"内地剧",
+"电视剧",
+"爱情片",
+"欧美剧",
+"香港剧",
+"韩剧",
+"日剧",
+"马泰剧",
+"中国动漫",
+"日本动漫",
+"欧美动漫",
+"综艺",
+"台湾剧",
+"体育赛事",
+"短剧" ]},
+
 	{"key":"耐看",
 	"name":"🔥耐看🔥",
 	"type":3,
@@ -108,7 +143,7 @@
             "type": 3,
 			 "jar": "./lib/XBPQ.jar",
             "api": "csp_XBPQ",
-            "ext": {
+            "ext": {"页面代理":"127.0.0.1:10072",
                 "分类url": "http://www.taoju.tv/list/{cateId}.html",
                 "分类": "电影$1#连续剧$2#动漫$3#综艺$4"
             }
@@ -2820,6 +2855,14 @@
 				"playerType": 1,
         "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt"
     },
+	{"name":"🔴全球直播",
+	"url":"http://oy.oyxx-1.eu.org/p3p.php",
+	"epg":"http://epg.112114.eu.org/?ch={name}&date={date}",
+	"logo":"http://epg.112114.eu.org/logo/{name}.png"},
+	{"name":"🔞全球直播",
+	"url":"http://oy.oyxx-1.eu.org/p3p18.php",
+	"epg":"http://epg.112114.eu.org/?ch={name}&date={date}",
+	"logo":"http://epg.112114.eu.org/logo/{name}.png"}
 			{
 				"name": "YTLive",
 				"type": 0,
