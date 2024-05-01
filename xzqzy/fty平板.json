@@ -90,7 +90,7 @@
             "key": "真不卡",
             "name": "🔥真不卡🔥",
             "type": 1,
-			"playUrl": "json:http://uutb.centos.chat/jsonwjm.php/?url=",
+			
             "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8?wd=",
 "categories":["动画片",
 "电影",
