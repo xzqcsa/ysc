@@ -1577,12 +1577,16 @@
 				"playerType": 1,
 				"url": "./jybd.txt"
 			},
-			{
+	{
         "name": "IPV4直播自动更新",
 		"type": 0,
 				"playerType": 1,
         "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt"
     },
+	{"name":"🔴全球直播",
+	"url":"http://oy.oyxx-1.eu.org/p3p.php",
+	"epg":"http://epg.112114.eu.org/?ch={name}&date={date}",
+	"logo":"http://epg.112114.eu.org/logo/{name}.png"},
 			{
 				"name": "YTLive",
 				"type": 0,
