@@ -121,6 +121,17 @@
 "台湾剧",
 "体育赛事",
 "短剧" ]},
+ {
+            "key": "xcys",
+            "name": "🔥星辰｜影视🔥",
+            "type": 3,
+			"jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "http://m.disc800.com/species/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/page/{catePage}/year/{year}.html",
+                "分类": "电影$1#连续剧$2#动漫$3#综艺$4#纪录片$5"
+            }
+        },
 
 	{"key":"耐看",
 	"name":"🔥耐看🔥",
