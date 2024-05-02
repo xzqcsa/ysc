@@ -78,7 +78,7 @@
         },
 		{
       "key": "drpy_js草榴社区",
-      "name": "养端",
+      "name": "草榴社区",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/草榴社区.js"
