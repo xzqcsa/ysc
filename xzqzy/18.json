@@ -64,7 +64,25 @@
                     "分类值": "/&3d&amateur&japanese&selfie&western"
             }
     },
-
+{"key":"u9a9","name":"🔞u9a9|磁力","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar","style":{"type":"list"},
+            "ext": {
+        "搜索url":"https://u9a9b.cc/?type=1&search={wd}&p={pg}",
+        "数组":"<tr&&</tr>",
+        "简介":"Date:</div>&&</","页面代理":"127.0.0.1:10072",
+        "图片":" ",
+        "播放二次截取":"panel-footer clearfix&&</div>",
+        "播放数组":"<a&&</a >[不包含:Torrent#filecove]",
+                "分类": "DHT网络$1",
+        "分类url": "https://u9a9b.cc/?type={cateId}&p={catePg};;m"
+            }
+        },
+		{
+      "key": "drpy_js草榴社区",
+      "name": "养端",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/草榴社区.js"
+    },
     {
       "key": "lf_js_p2p",
       "name": "磁力",
