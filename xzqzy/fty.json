@@ -218,6 +218,28 @@
     "分类": "电影$1#电视剧$2#动漫$3#综艺$4"
             }
         },
+		 {
+            "key": " 一起看影院",
+            "name": "🔥一起看影院🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+			"jar": "./lib/XBPQ.jar",
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "线路数组": "#playlist*\">&&</a>",
+                "线路标题": "✨PYLB专享接口✨+>&&<[替换:*集>>线路]",
+                "播放数组": "class=\"playlistlink&&</ul>",
+                "播放列表": "<li&&</li>",
+                "播放标题": "title=\"&&\"",
+                "播放链接": "href=\"&&\"",
+                "跳转播放链接": "varurlDecode(var player*url\":\"&&\")",
+                "分类url": "http://www.lxsgsy.com/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId}&area={area}&year={year}&letter=&yuyan=&state=&money=&ver=&jq=[]",
+                "分类": "电影&电视剧&综艺&动漫&短剧",
+                "分类值": "1&2&3&4&30"
+            }
+        },
 
 	{ "key": "Ikanbot",
 	"name": "🔥爱看机器人🔥",
