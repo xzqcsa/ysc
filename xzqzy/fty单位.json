@@ -61,7 +61,7 @@
             "type": 3,
 			 "jar": "./lib/XBPQ.jar",
             "api": "csp_XBPQ",
-            "ext": {"请求头":"手机","编码":"gb2312",
+            "ext": {"请求头":"手机","编码":"gb2312","页面代理":"127.0.0.1:10072",
                 "分类url": "https://b.aqdyim.com/{cateId}/index{catePg}.html",
                 "分类": "电影$dianying#连续剧$tvb#动漫$dongman#短剧$weidy"
             }
