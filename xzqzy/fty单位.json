@@ -2558,6 +2558,18 @@
 				"playerType": 1,
 				"url": "./jybd.txt"
 			},
+			{
+				"name": "唐三",
+				"type": 0,
+				"playerType": 1,
+				"url": "https://tang.serv00.net/zb/99?token=40af8e24"
+			},
+			{
+				"name": "唐三2",
+				"type": 0,
+				"playerType": 1,
+				"url": "https://tang.serv00.net/zb/tv?type=169&token=40af8e24"
+			},
 	{
         "name": "IPV4直播自动更新",
 		"type": 0,
