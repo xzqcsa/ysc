@@ -2575,6 +2575,10 @@
 				"playerType": 1,
 				"url": "http://127.0.0.1:10079/p/0/127.0.0.1:10072/https://tang.serv00.net/zb/99?token=40af8e24"
 			},
+			{"name":"🔞全球直播",
+	"url":"http://oy.oyxx-1.eu.org/p3p18.php",
+	"epg":"http://epg.112114.eu.org/?ch={name}&date={date}",
+	"logo":"http://epg.112114.eu.org/logo/{name}.png"},
 			{
 				"name": "唐三2",
 				"type": 0,
