@@ -64,6 +64,17 @@
                     "分类值": "/&3d&amateur&japanese&selfie&western"
             }
     },
+	{
+            "key": "爱情s",
+            "name": "🔥爱情网🔥",
+            "type": 3,
+			 "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://b.aqdyim.com/{cateId}/index{catePg}.html",
+                "分类": "伦理$shechu"
+            }
+        },
 {"key":"u9a9","name":"🔞u9a9|磁力","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar","style":{"type":"list"},
             "ext": {
         "搜索url":"https://u9a9b.cc/?type=1&search={wd}&p={pg}",

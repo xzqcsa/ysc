@@ -55,6 +55,17 @@
         "ratio": 1.43
       }
     },
+	{
+            "key": "爱情s",
+            "name": "🔥爱情网🔥",
+            "type": 3,
+			 "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://b.aqdyim.com/{cateId}/index{catePg}.html",
+                "分类": "电影$dianying#连续剧$tvb#动漫$dongman#短剧$weidy"
+            }
+        },
 	{"key":"耐看",
 	"name":"🔥耐看🔥",
 	"type":3,
