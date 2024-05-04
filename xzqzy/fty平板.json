@@ -77,13 +77,83 @@
       "key": "Wexconfig",
       "name": "🐮鸟巢配置🐮",
       "type": 3,
-	   "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
+	   "jar": "./lib/wex.txt;md5;371ba7abb2774a1c49934446f3d374ce",
       "api": "csp_Wexconfig",
       "searchable": 0,
       "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1.43
+      }
+    },
+	 {
+      "key": "Wexbaobaobashi",
+      "name": "🔥宝宝┃儿歌🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;371ba7abb2774a1c49934446f3d374ce",
+      "api": "csp_Wexbaobaobashi",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      }
+    },
+    {
+      "key": "Wexbeiwa",
+      "name": "🔥贝贝┃儿歌🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;371ba7abb2774a1c49934446f3d374ce",
+      "api": "csp_Wexbeiwa",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      }
+    },
+    {
+      "key": "Wextuxiaobei",
+      "name": "🔥兔兔┃儿歌🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;371ba7abb2774a1c49934446f3d374ce",
+      "api": "csp_Wextuxiaobei",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      }
+    },
+	  {
+      "key": "Wexhanxiaoquan",
+      "name": "🔥🇰🇷韩圈🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;371ba7abb2774a1c49934446f3d374ce",
+      "api": "csp_Wexhanxiaoquan",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexhanjutv",
+      "name": "🔥🇰🇷韩剧🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt;md5;371ba7abb2774a1c49934446f3d374ce",
+      "api": "csp_Wexhanjutv",
+      "searchable": 1,
+      "changeable": 1
+    },
+	 {
+      "key": "Wexliyuan",
+      "name": "🔥戏曲🔥",
+      "type": 3,
+      "api": "csp_Wexliyuan",
+      "searchable": 1,
+	  "jar": "./lib/wex.txt;md5;371ba7abb2774a1c49934446f3d374ce",
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
       }
     },
 	        {
@@ -657,6 +727,42 @@
 			"searchable": 1,
 			"ext": "https://www.yjys.me/$$$null$$$1"
 		},
+		{
+    "key": "狸云",
+    "name": "🧲 狸云🧲 ",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "./jar/XBPQ.jar",
+    "ext": {
+        "搜索url": "https://www.lysvc.cc/?cat=&s={wd}",
+        "数组":"class=\"post-item&&class=\"entry-title&&</article> ",
+        "图片":"data-bg=\"&&\">","页面代理":"127.0.0.1:10072",
+        "播放链接": "<td><a href= "&&\">[包含:magnet]",
+        "播放标题": ">&&</a>",
+        "线路标题": "weight: bold;\">&&</td>",
+        "分类": "蓝光-4k-电影$蓝光-4k-电影#精选剧集$精选剧集",
+        "分类url": "https://www.lysvc.cc/archives/category/%e5%bd%b1%e8%a7%86%e8%b5%84%e6%ba%90/{cateId}/page/{catePg}"
+    }
+},
+{
+            "key": "haokongbu",
+            "name": "🧲 4好恐怖🧲 4",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType":1,
+            "ext": {
+                "主页url": "https://m.haokongbu.top/",
+                "分类url": "https://m.haokongbu.top/{cateId}/index_{catePg}.html[https://m.haokongbu.top/{cateId}/index.html]",
+                "分类": "国产剧$guochanju#港剧$gangju#动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#战争片$zhanzhengpian#剧情片$juqingpian#微电影$weidianying#记录片$m_jlp#高清$gaoqing#动漫$donghuapian#台湾$taiwanju#日本$riju#韩国$hanju#欧美$oumeiju#泰国$taiguoju#海外$haiwaiju",                
+                //"数组": "<li>&&</li>",
+                "副标题": "class=\"typeset\"&&</i>",
+                "起始页": 2,
+                "倒序": 1,
+                "播放数组": "下载地址</h2>&&</ul>",
+                "播放列表": "<li><&&</a>"
+             },
+             "jar":"./lib/XBPQ.jar"
+        },
 	{
             "key": "小白",
             "name": "🧲 小白磁力🧲 ",
@@ -1093,25 +1199,7 @@
   "api":"csp_BaiPiao",
   "jar":"./lib/3366.jar"},
 
-		{
-            "key": "haokongbu",
-            "name": "🧲 4好恐怖🧲 4",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType":1,
-            "ext": {
-                "主页url": "https://m.haokongbu.top/",
-                "分类url": "https://m.haokongbu.top/{cateId}/index_{catePg}.html[https://m.haokongbu.top/{cateId}/index.html]",
-                "分类": "国产剧$guochanju#港剧$gangju#动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#战争片$zhanzhengpian#剧情片$juqingpian#微电影$weidianying#记录片$m_jlp#高清$gaoqing#动漫$donghuapian#台湾$taiwanju#日本$riju#韩国$hanju#欧美$oumeiju#泰国$taiguoju#海外$haiwaiju",                
-                //"数组": "<li>&&</li>",
-                "副标题": "class=\"typeset\"&&</i>",
-                "起始页": 2,
-                "倒序": 1,
-                "播放数组": "下载地址</h2>&&</ul>",
-                "播放列表": "<li><&&</a>"
-             },
-             "jar":"./lib/XBPQ.jar"
-        },
+		
 		{
             "key": "蛋蛋影视",
             "name": "🔥蛋蛋影视🔥",
