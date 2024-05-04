@@ -601,6 +601,15 @@
             "ext": {"分类":"短剧$45#电影$1#剧集$2#综艺$4#动漫$3",
 			"分类url":"https://www.555zxdy.com/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html"}                 
         },
+		{
+            "key": "七味11",
+            "name": "🧲 七味磁力🧲 ",
+            "type": 3,
+			 "jar":"./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "playerType":1,
+            "ext": "./lib/七味影视1.json"
+             },
 	{ 
       "key": "csp_xBPQ_秒", 
       "name": "🔥喵播🔥", 

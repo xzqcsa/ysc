@@ -600,6 +600,15 @@
 			}
 		},
 		{
+            "key": "七味11",
+            "name": "🧲 七味磁力🧲 ",
+            "type": 3,
+			 "jar":"./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "playerType":1,
+            "ext": "./lib/七味影视1.json"
+             },
+		{
 			"key": "BT天堂",
 			"name":"🧲 BT天堂🧲 ",
 			"type":3,
