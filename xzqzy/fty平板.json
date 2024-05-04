@@ -735,7 +735,7 @@
     "jar": "./lib/XBPQ.jar",
     "ext": {
         "搜索url": "https://www.lysvc.cc/?cat=&s={wd}",
-        "数组":"class=\"post-item&&class=\"entry-title&&</article> ",
+        "数组":"class=\"post-item&&class=\"entry-title&&</article>",
         "图片":"data-bg=\"&&\">",
 		"页面代理":"127.0.0.1:10072",
         "播放链接": "<td><a href= "&&\">[包含:magnet]",
