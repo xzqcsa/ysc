@@ -645,6 +645,18 @@
         "分类url":"https://m.mp4us.com/list/{cateId}-{catePg}.html;;dm"
              }
         },
+		{
+			"key": "Bdys_spider",
+			"name": "🧲 哔滴┃磁力🧲 ",
+			"api": "csp_Bdys01",
+			
+			"type": 3,
+			"filterable": 1,
+			"searchable":0,
+			"quickSearch": 1,
+			"searchable": 1,
+			"ext": "https://www.yjys.me/$$$null$$$1"
+		},
 	{
             "key": "小白",
             "name": "🧲 小白磁力🧲 ",
@@ -654,6 +666,84 @@
             "playerType":1,
             "ext": "./lib/小白磁力.json"
              },
+			 {"key":"Wo4k",
+	"name":"🧲 4K|磁力🧲 ",
+	"type":3,
+	"api":"csp_Wo4k",
+	"quickSearch":1,
+	"changeable":1, 
+	"filterable":1, 
+	"timeout":60, 
+	"ext":"./lib/tokenm1.json$$$https://www.wo4k.net/$$$proxy$$$1$$$./lib/wogg.json"},
+			  {
+            "key": "lf_js_p2p",
+            "name": "🧲 磁力|路飞🧲 ",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "api": "./lib/lf_p2p2_min.js",
+            "ext": "18+"
+        },
+		{"key":"Bt0",
+	"name":"🧲 不太灵|磁力🧲 ",
+	"type":3,"api":"csp_Bt0",
+	"quickSearch":1,
+	
+	"changeable":1,
+	"filterable":1, 
+	"timeout":60, 
+	"ext":"./lib/tokenm1.json$$$null$$$proxy$$$1"},
+	{"key":"drpy_js_磁力熊",
+	"name":"🧲 磁力熊🧲 ",
+	"type":3,
+	"api":"./lib/drpy2.min.js",
+	"ext":"./lib/cilixiongp.js",
+	"playerType":"1", 
+	"searchable":0, 
+	"quickSearch":0,
+	"changeable":1,
+			"indexs":1
+		},
+	   {
+            "key": "BtSow",
+            "name": "🧲 磁力搜索2🧲 ",
+            "type": 3,
+            "api": "csp_BtSow",
+			
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "null$$$null$$$1"
+        },
+	 {"key":"Bt0333",
+	 "name":"🧲 磁力搜索🧲 ",
+	 "type":3,
+	 
+	 "api":"csp_BtSearch",
+	 "quickSearch":1,
+	 "changeable":1, 
+	 "filterable":1, 
+	 "timeout":60, 
+	 "ext":"null$$$null$$$1"},
+	  {"key":"Clg",
+	"name":"🧲 磁力狗|磁力🧲 ",
+	"type":3,"api":"csp_Clg",
+	"searchable":1,
+	
+	"quickSearch":1,
+	"changeable":1, 
+	"filterable":0,
+	"timeout":60, 
+	"ext":"./lib/tokenm1.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1",
+			"style": {
+				"type": "rect",
+				"ratio": 1.5
+			}
+		},
 	{
             "key": "miai",
             "name": "🔥米爱｜影视🔥",
@@ -688,15 +778,7 @@
                 "分类url": "https://dsxys.pro/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
             }
         },
-{"key":"Wo4k",
-	"name":"🧲 4K|磁力🧲 ",
-	"type":3,
-	"api":"csp_Wo4k",
-	"quickSearch":1,
-	"changeable":1, 
-	"filterable":1, 
-	"timeout":60, 
-	"ext":"./lib/tokenm1.json$$$https://www.wo4k.net/$$$proxy$$$1$$$./lib/wogg.json"},
+
 	
 	{ "key": "Ikanbot",
 	"name": "🔥爱看机器人🔥",
@@ -1252,18 +1334,7 @@
 		
 		
 		
-		{
-			"key": "Bdys_spider",
-			"name": "🧲 哔滴┃磁力🧲 ",
-			"api": "csp_Bdys01",
-			
-			"type": 3,
-			"filterable": 1,
-			"searchable":0,
-			"quickSearch": 1,
-			"searchable": 1,
-			"ext": "https://www.yjys.me/$$$null$$$1"
-		},
+		
 		{"key":"1212",
      "name":"🔥APP影院🔥",
      "type":3,"api":"csp_XBPQ",
@@ -1348,15 +1419,7 @@
       "key": "csp_XiaoYa",
       "searchable": 1
     },
-{"key":"Bt0",
-	"name":"🧲 不太灵|磁力🧲 ",
-	"type":3,"api":"csp_Bt0",
-	"quickSearch":1,
-	
-	"changeable":1,
-	"filterable":1, 
-	"timeout":60, 
-	"ext":"null$$$null$$$1"},
+
 	{
             "key": "AList16",
             "name": "🔥AList｜网盘🔥",
@@ -2178,55 +2241,7 @@
     
 	
 	
-	   {
-            "key": "lf_js_p2p",
-            "name": "🧲 磁力|路飞🧲 ",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "timeout": 30,
-            "api": "./lib/lf_p2p2_min.js",
-            "ext": "18+"
-        },
-	   {
-            "key": "BtSow",
-            "name": "🧲 磁力搜索2🧲 ",
-            "type": 3,
-            "api": "csp_BtSow",
-			
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "ext": "null$$$null$$$1"
-        },
-	 {"key":"Bt0333",
-	 "name":"🧲 磁力搜索🧲 ",
-	 "type":3,
-	 
-	 "api":"csp_BtSearch",
-	 "quickSearch":1,
-	 "changeable":1, 
-	 "filterable":1, 
-	 "timeout":60, 
-	 "ext":"null$$$null$$$1"},
-	  {"key":"Clg",
-	"name":"🧲 磁力狗|磁力🧲 ",
-	"type":3,"api":"csp_Clg",
-	"searchable":1,
-	
-	"quickSearch":1,
-	"changeable":1, 
-	"filterable":0,
-	"timeout":60, 
-	"ext":"./lib/tokenm1.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1",
-			"style": {
-				"type": "rect",
-				"ratio": 1.5
-			}
-		},
+	  
 
 	{"key":"YunPanOne",
 	"name":"🔍ONE|网盘🔍",
