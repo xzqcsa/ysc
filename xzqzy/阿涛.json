@@ -602,7 +602,7 @@
 			"分类url":"https://www.555zxdy.com/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html"}                 
         },
 		{
-            "key": "七味11",
+            "key": "七味111",
             "name": "🧲 七味磁力🧲 ",
             "type": 3,
 			 "jar":"./lib/XBPQ.jar",
