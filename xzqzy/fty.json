@@ -66,24 +66,7 @@
         "ratio": 2
       }
     },
-	  {
-      "key": "Wexhanxiaoquan",
-      "name": "🔥🇰🇷韩圈🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;371ba7abb2774a1c49934446f3d374ce",
-      "api": "csp_Wexhanxiaoquan",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Wexhanjutv",
-      "name": "🔥🇰🇷韩剧🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;371ba7abb2774a1c49934446f3d374ce",
-      "api": "csp_Wexhanjutv",
-      "searchable": 1,
-      "changeable": 1
-    },
+	 
 	 {
       "key": "Wexliyuan",
       "name": "🔥戏曲🔥",
