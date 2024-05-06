@@ -967,7 +967,7 @@
 		"searchable": 1,
 		"changeable":1,
 		"filterable":1, 
-		"timeout":60,
+		"timeout":120,
 		"ext":"./lib/tokenm3.json$$$https://www.meijumi.xyz/$$$null$$$1"},
     {
       "key": "zhibo",

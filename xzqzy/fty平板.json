@@ -1451,8 +1451,8 @@
 		"searchable": 1,
 		"changeable":1,
 		"filterable":1, 
-		"timeout":60,
-		"ext":"./lib/tokenm1.json$$$https://www.meijumi.xyz/$$$socks5://127.0.0.1:10074$$$1"},
+		"timeout":120,
+		"ext":"./lib/tokenm1.json$$$https://www.meijumi.xyz/$$$socks5://127.0.0.1:10072$$$1"},
     {
       "key": "zhibo",
       "name": "🔥斗鱼直播🔥",
