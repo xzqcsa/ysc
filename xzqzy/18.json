@@ -45,6 +45,20 @@
       "api": "./lib1/lf_search3_min.js",
       "ext": "18+"
     },
+	{
+            "key": "网盘配置",
+            "name": "🔥网盘及彈幕配置🔥",
+            "type": 3,
+            "api": "csp_Config",
+			
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "ext": "./XYQTVBox/tokenm1.json"
+        },
 	{"key": "mv",
             "name": "最新课程",
             "type": 3,

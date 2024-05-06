@@ -13,6 +13,20 @@
 	"quickSearch":0,
 	"filterable":1,
 	"api":"./lib/uukw.js"},
+	{
+            "key": "网盘配置",
+            "name": "🔥网盘及彈幕配置🔥",
+            "type": 3,
+            "api": "csp_Config",
+			
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "ext": "./XYQTVBox/tokenm2.json"
+        },
 	 { "key": "T4-360",
       "name": "🔥360影视大全🔥",
       "type": 4,
@@ -909,20 +923,7 @@
 	"filterable":1, 
 	"timeout":60, 
 	"ext":"null$$$null$$$1"},
-	{
-            "key": "网盘配置",
-            "name": "🔥网盘及彈幕配置🔥",
-            "type": 3,
-            "api": "csp_Config",
-			
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "ext": "./XYQTVBox/tokenm2.json"
-        },
+	
 	
 	{
             "key": "push_agent",
