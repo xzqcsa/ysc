@@ -114,6 +114,14 @@
       "ext": "18+",
       "timeout": 60
     },
+	{"key":"WO❤AV",
+	"name":"WO❤AV",
+	"jar":"./lib/XBPQ.jar",
+	"type":3,
+	"api":"csp_XBPQ",
+	"ext":{"副标题":"播放+次数:&&</p>",
+	"分类url":"https://vip.woaav.online:13097/vodtype/{cateId}-{catePg}.html",
+	"分类数组":"<a&&/a>","分类标题":">&&<","分类ID":"vodtype/&&.html"}},
 	{"key":"溏心次元","name":"🔞溏心次元1","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar","style":{"ratio":1.7},
             "ext": {
         "数组":"<li&&</li>",
