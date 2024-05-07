@@ -256,6 +256,22 @@
 	"filterable": 1,
 	"changeable": 1 ,
 	"ext":"https://v.ikanbot.com$$$proxy"},
+	{"key":"xunlei8",
+			 "name":"🧲 xunlei8🧲 ",
+			 "type":3,
+			 "api":"csp_XBPQ",
+			 "jar":"./lib/XBPQ.jar",
+            "ext": {
+                "搜索url":"https://xunlei8.cc/s/{wd}.html",
+                "搜索数组":"bec4f196629d\">&&\"b9a905c",
+                "搜索标题":"<h2*>&&</i>",
+                "播放数组":"czs-category-l bdba79a1be86a&&b11e9b1883",
+                "播放列表":"<li>&&</li>[不包含:ed2k#</span></a#pan.baidu]",
+                "简介":"b1f40f7888\">&&</p>",
+                "分类":"电影$list#电视剧$tv",
+        "分类url":"https://xunlei8.cc/{cateId}-0-0-0-date-{catePg}-30.html;;md"
+             }
+        },
 	{"key":"Gaoqing",
 	"name":"🧲 中国高清网🧲 ",
 	"type":3,
