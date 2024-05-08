@@ -55,15 +55,24 @@
         "ratio": 1.43
       }
     },
-	{"key":"影视BT","name":"🧲 影视BT🧲 ","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
-            "ext": {
-       
-                
-                
-                "分类":"电影$movies#连续剧$tv",
-        "分类url":"https://www.btbtl.com/type/{cateId}/{catePg}/?a={area}&y={year}"
-             }
-        },
+	{
+    "key": "狸云",
+    "name": "🧲 狸云🧲 ",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "./lib/XBPQ.jar",
+    "ext": {
+        "搜索url": "https://www.lysvc.cc/?cat=&s={wd}",
+        "数组":"class=\"post-item&&class=\"entry-title&&</article>",
+        "图片":"data-bg=\"&&\">",
+		"页面代理":"127.0.0.1:10072",
+       "播放链接": "<td><a href=\"&&\">[包含:magnet]",
+        "播放标题": ">&&</a>",
+        "线路标题": "weight: bold;\">&&</td>",
+        "分类": "蓝光-4k-电影$蓝光-4k-电影#精选剧集$精选剧集",
+        "分类url": "https://www.lysvc.cc/archives/category/%e5%bd%b1%e8%a7%86%e8%b5%84%e6%ba%90/{cateId}/page/{catePg}"
+    }
+},
 	{
             "key": "爱情s",
             "name": "🔥爱情网🔥",
