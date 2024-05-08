@@ -27,6 +27,20 @@
             },
             "ext": "./XYQTVBox/阿涛tokenm.json"
         },
+		{"key":"ThunderShare",
+		"name":"🔥迅雷云盘分享🔥",
+		"type":3,
+		"api":"csp_ThunderShare",
+		"searchable":0,
+		"quickSearch":0,
+		"changeable":0, 
+		"filterable":0, 
+		"timeout":60, "ext":"./lib/阿涛tokenm.json$$$./lib/thundershare.txt",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
 	 {
       "key": "Wexbaobaobashi",
       "name": "🔥宝宝┃儿歌🔥",
