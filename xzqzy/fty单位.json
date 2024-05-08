@@ -58,12 +58,7 @@
 	{"key":"影视BT","name":"🧲 影视BT🧲 ","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
             "ext": {
        
-                "数组":"<li>&&</li>",
-               
-                "线路标题":"<h2>&&</h2>",
-                "播放数组":"icon-download&&</a>",
-                "播放列表":"<a&&</a>",
-                "线路数组":"icon-download&&</a>",
+                
                 
                 "分类":"电影$movies#连续剧$tv",
         "分类url":"https://www.btbtl.com/type/{cateId}/{catePg}/?a={area}&y={year}"
