@@ -668,8 +668,25 @@
 			}
 		},
 		{
+    "key": "BT影视1",
+    "name": "🧲BT影视🧲",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "./lib/XBPQ.jar",
+    "ext": {
+        "跳转数组": "<a&&</a[包含:tdown]",
+        "跳转链接": "href=\"&&\"",
+        "跳转链接前缀": "https://www.btbtl.com",
+        "跳转链接后缀": "",
+        "播放数组": "class=\"video-info-footer&&</div[不包含:文件]",
+        "播放链接": "href=\"&&\"[包含:magnet]",
+        "分类": "电影$movies#电视剧$tv",
+        "分类url": "https://www.btbtl.com/type/{cateId}/{catePg}/"
+    }
+},
+		{
             "key": "七味1111",
-            "name": "🧲 七味磁力🧲 ",
+            "name": "🧲七味磁力🧲",
             "type": 3,
 			 "jar":"./lib/XBPQ.jar",
             "api": "csp_XBPQ",
@@ -677,7 +694,7 @@
             "ext": "./lib/七味影视1.json"
              },
 			 {"key":"xunlei8",
-			 "name":"🧲 xunlei8🧲 ",
+			 "name":"🧲xunlei8🧲",
 			 "type":3,
 			 "api":"csp_XBPQ",
 			 "jar":"./lib/XBPQ.jar",
@@ -695,7 +712,7 @@
 
 		{
 			"key": "BT天堂",
-			"name":"🧲 BT天堂🧲 ",
+			"name":"🧲BT天堂🧲",
 			"type":3,
 			"api":"csp_XBPQ",
 			"searchable":1,
@@ -705,7 +722,7 @@
 			"jar": "./lib/XBPQ.jar"
 		},
 		{"key":"Gaoqing",
-	"name":"🧲 中国高清网🧲 ",
+	"name":"🧲中国高清网🧲",
 	"type":3,
 	"api":"csp_Gaoqing",
 	"quickSearch":1,
@@ -713,7 +730,7 @@
 	"filterable":1, 
 	"timeout":60, 
 	"ext":"./lib/tokenm1.json$$$https://gaoqing.la/$$$proxy$$$1"},
-	{"key":"MP4us","name":"🧲 MP4us🧲 ","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
+	{"key":"MP4us","name":"🧲MP4us🧲","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
             "ext": {
         "标题":"<font*>&&</font>",
         "图片":"data-original=\"&&\"",
@@ -732,7 +749,7 @@
         },
 		{
 			"key": "Bdys_spider",
-			"name": "🧲 哔滴┃磁力🧲 ",
+			"name": "🧲哔滴┃磁力🧲",
 			"api": "csp_Bdys01",
 			
 			"type": 3,
@@ -744,7 +761,7 @@
 		},
 		{
     "key": "狸云",
-    "name": "🧲 狸云🧲 ",
+    "name": "🧲狸云🧲",
     "type": 3,
     "api": "csp_XBPQ",
     "jar": "./lib/XBPQ.jar",
@@ -762,7 +779,7 @@
 },
 {
             "key": "haokongbu",
-            "name": "🧲 4好恐怖🧲 4",
+            "name": "🧲4好恐怖🧲4",
             "type": 3,
             "api": "csp_XBPQ",
             "playerType":1,
@@ -781,7 +798,7 @@
         },
 	{
             "key": "小白",
-            "name": "🧲 小白磁力🧲 ",
+            "name": "🧲小白磁力🧲",
             "type": 3,
 			 "jar":"./lib/XBPQ.jar",
             "api": "csp_XBPQ",
@@ -789,7 +806,7 @@
             "ext": "./lib/小白磁力.json"
              },
 			 {"key":"Wo4k",
-	"name":"🧲 4K|磁力🧲 ",
+	"name":"🧲4K|磁力🧲",
 	"type":3,
 	"api":"csp_Wo4k",
 	"quickSearch":1,
@@ -799,7 +816,7 @@
 	"ext":"./lib/tokenm1.json$$$https://www.wo4k.net/$$$proxy$$$1$$$./lib/wogg.json"},
 			  {
             "key": "lf_js_p2p",
-            "name": "🧲 磁力|路飞🧲 ",
+            "name": "🧲磁力|路飞🧲",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
@@ -810,7 +827,7 @@
             "ext": "18+"
         },
 		{"key":"Bt0",
-	"name":"🧲 不太灵|磁力🧲 ",
+	"name":"🧲不太灵|磁力🧲",
 	"type":3,"api":"csp_Bt0",
 	"quickSearch":1,
 	
@@ -819,7 +836,7 @@
 	"timeout":60, 
 	"ext":"./lib/tokenm1.json$$$null$$$proxy$$$1"},
 	{"key":"drpy_js_磁力熊",
-	"name":"🧲 磁力熊索引🧲 ",
+	"name":"🧲磁力熊索引🧲",
 	"type":3,
 	"api":"./lib/drpy2.min.js",
 	"ext":"./lib/cilixiongp.js",
@@ -831,7 +848,7 @@
 		},
 	   {
             "key": "BtSow",
-            "name": "🧲 磁力搜索2🧲 ",
+            "name": "🧲磁力搜索2🧲",
             "type": 3,
             "api": "csp_BtSow",
 			
@@ -842,7 +859,7 @@
             "ext": "null$$$null$$$1"
         },
 	 {"key":"Bt0333",
-	 "name":"🧲 磁力搜索🧲 ",
+	 "name":"🧲磁力搜索🧲",
 	 "type":3,
 	 
 	 "api":"csp_BtSearch",
@@ -852,7 +869,7 @@
 	 "timeout":60, 
 	 "ext":"null$$$null$$$1"},
 	  {"key":"Clg",
-	"name":"🧲 磁力狗|磁力🧲 ",
+	"name":"🧲磁力狗|磁力🧲",
 	"type":3,"api":"csp_Clg",
 	"searchable":1,
 	
@@ -4153,12 +4170,12 @@
 		{"name":"8090（除优酷）","url":"https://www.8090.la/8090/?url=","type":0},
 		{"name":"云解析（除优酷）","type":0,"url":"https://jx.yparse.com/index.php?url="},
 		{
-      "name": "🧲 小盒解析",
+      "name": "🧲小盒解析",
       "type": 1,
       "url": "http://119.91.123.253:2345/Api/yun.php?url="
     },
     {
-      "name": "🧲 酷玩解析",
+      "name": "🧲酷玩解析",
       "type": 1,
       "url": "https://jx.xmflv.com/?url="
     },

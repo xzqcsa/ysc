@@ -90,6 +90,23 @@
         "ratio": 2
       }
     },
+	{
+    "key": "BT影视1",
+    "name": "🧲BT影视🧲",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "./lib/XBPQ.jar",
+    "ext": {
+        "跳转数组": "<a&&</a[包含:tdown]",
+        "跳转链接": "href=\"&&\"",
+        "跳转链接前缀": "https://www.btbtl.com",
+        "跳转链接后缀": "",
+        "播放数组": "class=\"video-info-footer&&</div[不包含:文件]",
+        "播放链接": "href=\"&&\"[包含:magnet]",
+        "分类": "电影$movies#电视剧$tv",
+        "分类url": "https://www.btbtl.com/type/{cateId}/{catePg}/"
+    }
+},
 	{ "key": "Ikanbot",
 	"name": "🔥爱看机器人🔥",
 	"type": 3, 
@@ -876,7 +893,7 @@
       ]
     },
 	{"key":"Clg",
-	"name":"🧲 磁力狗|磁力🧲 ",
+	"name":"🧲磁力狗|磁力🧲",
 	"type":3,"api":"csp_Clg",
 	"searchable":1,
 	
@@ -892,7 +909,7 @@
 		},
 		 {
             "key": "lf_js_p2p",
-            "name": "🧲 磁力|路飞🧲 ",
+            "name": "🧲磁力|路飞🧲",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
@@ -904,7 +921,7 @@
         },
 	{
 			"key": "Bdys_spider",
-			"name": "🧲 哔滴┃磁力🧲 ",
+			"name": "🧲哔滴┃磁力🧲",
 			"api": "csp_Bdys01",
 			
 			"type": 3,
@@ -915,7 +932,7 @@
 			"ext": "https://www.yjys.me/$$$null$$$1"
 		},
 	{"key":"Bt0",
-	"name":"🧲 不太灵|磁力🧲 ",
+	"name":"🧲不太灵|磁力🧲",
 	"type":3,"api":"csp_Bt0",
 	"quickSearch":1,
 	
@@ -3846,12 +3863,12 @@
 		{"name":"8090（除优酷）","url":"https://www.8090.la/8090/?url=","type":0},
 		{"name":"云解析（除优酷）","type":0,"url":"https://jx.yparse.com/index.php?url="},
 		{
-      "name": "🧲 小盒解析",
+      "name": "🧲小盒解析",
       "type": 1,
       "url": "http://119.91.123.253:2345/Api/yun.php?url="
     },
     {
-      "name": "🧲 酷玩解析",
+      "name": "🧲酷玩解析",
       "type": 1,
       "url": "https://jx.xmflv.com/?url="
     },

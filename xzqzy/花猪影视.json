@@ -1,6 +1,6 @@
 ﻿{
   
- "spider":"./lib/pg.jar",
+ "spider":"./lib/pg去广告.jar",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
  {
@@ -2772,12 +2772,12 @@
 		{"name":"8090（除优酷）","url":"https://www.8090.la/8090/?url=","type":0},
 		{"name":"云解析（除优酷）","type":0,"url":"https://jx.yparse.com/index.php?url="},
 		{
-      "name": "🧲 小盒解析",
+      "name": "🧲小盒解析",
       "type": 1,
       "url": "http://119.91.123.253:2345/Api/yun.php?url="
     },
     {
-      "name": "🧲 酷玩解析",
+      "name": "🧲酷玩解析",
       "type": 1,
       "url": "https://jx.xmflv.com/?url="
     },

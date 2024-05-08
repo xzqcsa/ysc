@@ -27,20 +27,24 @@
             },
             "ext": "./XYQTVBox/阿涛tokenm.json"
         },
-		{"key":"ThunderShare",
-		"name":"🔥迅雷云盘分享🔥",
-		"type":3,
-		"api":"csp_ThunderShare",
-		"searchable":0,
-		"quickSearch":0,
-		"changeable":0, 
-		"filterable":0, 
-		"timeout":60, "ext":"./lib/阿涛tokenm.json$$$./lib/thundershare.txt",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
+		{
+    "key": "BT影视1",
+    "name": "🧲BT影视🧲",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "./lib/XBPQ.jar",
+    "ext": {
+        "跳转数组": "<a&&</a[包含:tdown]",
+        "跳转链接": "href=\"&&\"",
+        "跳转链接前缀": "https://www.btbtl.com",
+        "跳转链接后缀": "",
+        "播放数组": "class=\"video-info-footer&&</div[不包含:文件]",
+        "播放链接": "href=\"&&\"[包含:magnet]",
+        "分类": "电影$movies#电视剧$tv",
+        "分类url": "https://www.btbtl.com/type/{cateId}/{catePg}/"
+    }
+},
+		
 	 {
       "key": "Wexbaobaobashi",
       "name": "🔥宝宝┃儿歌🔥",
@@ -254,7 +258,7 @@
 
 	{
             "key": "小白",
-            "name": "🧲 小白磁力🧲 ",
+            "name": "🧲小白磁力🧲",
             "type": 3,
 			 "jar":"./lib/XBPQ.jar",
             "api": "csp_XBPQ",
@@ -271,7 +275,7 @@
 	"changeable": 1 ,
 	"ext":"https://v.ikanbot.com$$$proxy"},
 	{"key":"xunlei8",
-			 "name":"🧲 xunlei8🧲 ",
+			 "name":"🧲xunlei8🧲",
 			 "type":3,
 			 "api":"csp_XBPQ",
 			 "jar":"./lib/XBPQ.jar",
@@ -287,7 +291,7 @@
              }
         },
 	{"key":"Gaoqing",
-	"name":"🧲 中国高清网🧲 ",
+	"name":"🧲中国高清网🧲",
 	"type":3,
 	"api":"csp_Gaoqing",
 	"quickSearch":1,
@@ -297,7 +301,7 @@
 	"ext":"./lib/阿涛tokenm.json$$$https://gaoqing.la/$$$proxy$$$1"},
 	{
             "key": "haokongbu",
-            "name": "🧲 4好恐怖🧲 4",
+            "name": "🧲4好恐怖🧲4",
             "type": 3,
             "api": "csp_XBPQ",
             "playerType":1,
@@ -357,7 +361,7 @@
 "分类url":"https://www.dandanju.cc/show/{cateId}--------{catePg}---{year}.html",
 "分类":"电影$1#电视剧$2#综艺$3#动漫$4"}},
 	{"key":"Wo4k",
-	"name":"🧲 4K|磁力🧲 ",
+	"name":"🧲4K|磁力🧲",
 	"type":3,
 	"api":"csp_Wo4k",
 	"quickSearch":1,
@@ -699,7 +703,7 @@
         },
 		{
             "key": "七味111",
-            "name": "🧲 七味磁力🧲 ",
+            "name": "🧲七味磁力🧲",
             "type": 3,
 			 "jar":"./lib/XBPQ.jar",
             "api": "csp_XBPQ",
@@ -929,7 +933,7 @@
 				"分类": "电影$1#剧集$2#动画$41"}},
 				{
 			"key": "Bdys_spider",
-			"name": "🧲 哔滴┃磁力🧲 ",
+			"name": "🧲哔滴┃磁力🧲",
 			"api": "csp_Bdys01",
 			
 			"type": 3,
@@ -950,7 +954,7 @@
 		
 		 {
             "key": "lf_js_p2p",
-            "name": "🧲 磁力|路飞🧲 ",
+            "name": "🧲磁力|路飞🧲",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
@@ -961,7 +965,7 @@
             "ext": "18+"
         },
 		{"key":"Bt0",
-	"name":"🧲 不太灵|磁力🧲 ",
+	"name":"🧲不太灵|磁力🧲",
 	"type":3,"api":"csp_Bt0",
 	"quickSearch":1,
 	
@@ -3424,12 +3428,12 @@
 		{"name":"8090（除优酷）","url":"https://www.8090.la/8090/?url=","type":0},
 		{"name":"云解析（除优酷）","type":0,"url":"https://jx.yparse.com/index.php?url="},
 		{
-      "name": "🧲 小盒解析",
+      "name": "🧲小盒解析",
       "type": 1,
       "url": "http://119.91.123.253:2345/Api/yun.php?url="
     },
     {
-      "name": "🧲 酷玩解析",
+      "name": "🧲酷玩解析",
       "type": 1,
       "url": "https://jx.xmflv.com/?url="
     },
