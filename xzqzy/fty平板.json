@@ -3063,7 +3063,7 @@
 	"epg":"http://epg.112114.eu.org/?ch={name}&date={date}",
 	"logo":"http://epg.112114.eu.org/logo/{name}.png"},
 	{"name":"🔞全球直播",
-	"url":"http://oy.oyxx-1.eu.org/p3p18.php",
+	"url":"http://oy.oyxx-1.eu.org/p3p.php?r18=1",
 	"epg":"http://epg.112114.eu.org/?ch={name}&date={date}",
 	"logo":"http://epg.112114.eu.org/logo/{name}.png"},
 			{
