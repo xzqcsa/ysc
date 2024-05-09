@@ -2783,6 +2783,11 @@
         }
       }
     },
+	{
+          "name": "解析5",
+          "type": 1,
+          "url": "http://119.91.123.253:2345/Api/yun.php?url="
+        },
 	 {
       "name": "白嫖解析",
       "url": "https://www.baipiao-ys.cc/player/?url=",
