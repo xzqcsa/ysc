@@ -657,11 +657,7 @@
             "filterable": 1,
              "ext":"./lib/可可影视.txt"
 			 },
-	    {"key":"白嫖影视",
-  "name":"🔥白嫖影视🔥",
-  "type":3,
-  "api":"csp_BaiPiao",
-  "jar":"./lib/3366.jar"},
+	   
 
 	{
       "key": "Wexconfig",
