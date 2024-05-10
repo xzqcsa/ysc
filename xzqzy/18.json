@@ -259,7 +259,7 @@
             "changeable": 1,
             "filterable": 0,
             "timeout": 60,
-            "ext": "http://thzj.cc/forum.php$$$socks5://127.0.0.1:10072"
+            "ext": "http://thzf.cc/forum.php$$$socks5://127.0.0.1:10072"
       },
 
 	 {
@@ -890,7 +890,7 @@
             "changeable": 1,
             "filterable": 0,
             "timeout": 60,
-            "ext": "http://thzq.cc$$$socks5://127.0.0.1:10072"
+            "ext": "http://thzf.cc$$$socks5://127.0.0.1:10072"
         },
 		
 {
