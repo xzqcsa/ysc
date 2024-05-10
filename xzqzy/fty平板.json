@@ -176,6 +176,19 @@
                 "分类值": "1&2&3&4&30"
             }
         },
+		{
+      "key": "圣城",
+      "name": "🔥圣城🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "timeout": 60,
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/圣城1080.json"
+    },
+
 	{
             "key": "真不卡",
             "name": "🔥真不卡🔥",
