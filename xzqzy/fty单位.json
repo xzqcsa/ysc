@@ -2773,7 +2773,7 @@
         }
       }
     },
-	{"name":"whoami","type":0,"url":"https://v.ljxnet.cn/?url="},
+	{"name":"whoami","type":1,"url":"https://v.ljxnet.cn/?url="},
 
 	{
           "name": "解析5",
