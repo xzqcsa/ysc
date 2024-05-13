@@ -68,7 +68,17 @@
       "jar": "./lib/XBPQ.jar",
       "ext": "./lib/圣城1080.json"
     },
-
+{
+			"key": "新6V111",
+			"name": "🧲新6V|磁力🧲",
+			"type": 3,
+			"api": "csp_Xb6v",
+			
+			"searchable": 1,
+			"changeable": 1,
+			"timeout": 60,
+			"ext": "./lib/tokenm3.json$$$https://www.66ss.org$$$null$$$1"
+		},
 	{
     "key": "BT影视1",
     "name": "🧲BT影视🧲",
