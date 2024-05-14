@@ -27,6 +27,15 @@
             },
             "ext": "./XYQTVBox/阿涛tokenm.json"
         },
+		{"key":"Yinfans",
+	"name":"🧲音范丝|磁力🧲",
+	"type":3,
+	"api":"csp_Gaoqing",
+	"quickSearch":1, 
+	"changeable":1,
+	"filterable":1, 
+	"timeout":60, 
+	"ext":"./lib/阿涛tokenm.json$$$https://www.yinfans.me/$$$proxy$$$1"},
 		{
     "key": "BT影视1",
     "name": "🧲BT影视🧲",

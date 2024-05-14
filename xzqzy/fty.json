@@ -159,6 +159,15 @@
 				"分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
 			}
 		},
+		{"key":"Yinfans",
+	"name":"🧲音范丝|磁力🧲",
+	"type":3,
+	"api":"csp_Gaoqing",
+	"quickSearch":1, 
+	"changeable":1,
+	"filterable":1, 
+	"timeout":60, 
+	"ext":"./lib/tokenm.json$$$https://www.yinfans.me/$$$proxy$$$1"},
 		  {"key":"兔子影视",
 		   "name":"🔥兔子影视🔥",
 		   "type":3,
