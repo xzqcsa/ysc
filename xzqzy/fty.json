@@ -27,6 +27,21 @@
             },
             "ext": "./XYQTVBox/tokenm.json"
         },
+		{"key":"PikPakShare11",
+	"name":"🔥PikPak影视🔥",
+	"type":3,
+	"api":"csp_PikPakShare",
+	"searchable":1,
+	"quickSearch":1, 
+	"changeable":1,
+	"filterable":0,
+	"timeout":60, 
+	"ext":"./lib/tokenm.json$$$./lib/pikpakclass1.json$$$./lib/pikpakclass1.json.txt.gz",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
 		{
     "key": "BT影视1",
     "name": "🧲BT影视🧲",
