@@ -79,6 +79,13 @@
             }
     },
 	{
+         "key":"bika",
+            "name":"🔥比卡🔥",
+            "type":3,
+            "api":"csp_XBPQ",
+            "jar": "./lib/XBPQ.jar",
+            "ext":"./lib/比卡比卡.json" },
+	{
             "key": "爱情s",
             "name": "🔥爱情网🔥",
             "type": 3,
