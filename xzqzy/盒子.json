@@ -720,7 +720,7 @@
 	"changeable":1,
 	"filterable":1, 
 	"timeout":60, 
-	"ext":"./lib/tokenm盒子.json$$$https://www.yinfans.me/$$$proxy$$$1"},
+	"ext":"./lib/tokenm盒子.json$$$https://www.yinfans.me/$$$127.0.0.1:10072$$$1"},
 		{
     "key": "BT影视1",
     "name": "🧲BT影视🧲",
