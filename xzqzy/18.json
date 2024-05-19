@@ -121,9 +121,43 @@
       "ext": "18+",
       "timeout": 60
     },
+	{ "key": "x",
+            "name": "🔞x合集🔞",
+            "type": 3,
+            "changeable": 1,
+			 "jar":"./lib/XBPQ.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "style": {"ratio": 1.7},
+            "ext":{
+            "搜索url":"https://xpdhj.fun/xpdhj/vod/search/page/{pg}/wd/{wd}.html",
+            "分类":"仓库资源$1#AVXXC$2#AV奥斯卡$3#115资源$4",
+             "分类url": "https://xpdhj.fun/xpdhj/vod/type/id/{cateId}/page/{catePg}.html"
+            }
+        },
+	{
+  "key": "mv121",
+  "name": "🔞222🔞",
+  "type": 3,
+  "jar":"./lib/XBPQ.jar",
+  "api": "csp_XBPQ",
+  "style": {"ratio": 1.7},
+  "ext": {
+        "站名": "222av.me",
+        "主页url": "http://222av.me",
+        "首页": "最新课程",
+        "数组": "col-sm-6 col-md-4 col-lg-4&&<div class=\"video-added\">",
+        "链接": "href=\"&&\"","页面代理":"127.0.0.1:10072",
+        "嗅探词": "http://m3u8.361lu.com/us.php?",
+        "分类url": "/videos/{cateId}?page={catePg};;z",
+        "分类": "全部&3D&素人&日本女优&自拍&金发洋物",
+    "分类值": "/&3d&amateur&japanese&selfie&western"
+        }},
 	{
             "key": "csp_顶级网曝",
-            "name": "顶级网曝",
+            "name": "🔞顶级网曝🔞",
             "type": 3,
             "api": "csp_XBPQ",
             "playerType": 2,
@@ -133,7 +167,7 @@
             "filterable": 0,
             "ext": {
                 "请求头": "手机",
-                "站名": "顶级网曝",
+                "站名": "顶级网曝","页面代理":"127.0.0.1:10072",
                 "主页url": "https://www.djwb3.top/",
                 "数组": "<li class=\"content-item\">&&</a>",
                 "标题": "title=\"&&\"",
@@ -266,7 +300,7 @@
             "changeable": 1,
             "filterable": 0,
             "timeout": 60,
-            "ext": "./lib/tokenm1.json$$$http://thzf.cc/forum.php$$$socks5://127.0.0.1:10072"
+            "ext": "./lib/tokenm1.json$$$http://thzu.cc/forum.php$$$socks5://127.0.0.1:10072"
       },
 
 	 {
@@ -897,7 +931,7 @@
             "changeable": 1,
             "filterable": 0,
             "timeout": 60,
-            "ext": "./lib/tokenm1.json$$$http://thzf.cc$$$socks5://127.0.0.1:10072"
+            "ext": "./lib/tokenm1.json$$$http://thzu.cc$$$socks5://127.0.0.1:10072"
         },
 		
 {

@@ -216,6 +216,187 @@
 	"filterable":1, 
 	"timeout":60, 
 	"ext":"./lib/tokenm.json$$$https://www.yinfans.me/$$$127.0.0.1:10072$$$1"},
+		{
+    "key": "BT影视1",
+    "name": "🧲BT影视🧲",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "./lib/XBPQ.jar",
+    "ext": {
+        "跳转数组": "<a&&</a[包含:tdown]",
+        "跳转链接": "href=\"&&\"",
+		"搜索url":"https://www.btbtl.com/search/{wd}",
+        "跳转链接前缀": "https://www.btbtl.com",
+        "跳转链接后缀": "",
+        "播放数组": "class=\"video-info-footer&&</div[不包含:文件]",
+        "播放链接": "href=\"&&\"[包含:magnet]",
+        "分类": "电影$movies#电视剧$tv",
+        "分类url": "https://www.btbtl.com/type/{cateId}/{catePg}/"
+    }
+},
+{
+			"key": "新6V111",
+			"name": "🧲新6V|磁力🧲",
+			"type": 3,
+			"api": "csp_Xb6v",
+			"quickSearch":1,
+			"filterable":1,
+			"searchable": 1,
+			"changeable": 1,
+			"timeout": 60,
+			"ext": "./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
+		},
+		{
+            "key": "七味1111",
+            "name": "🧲七味磁力🧲",
+            "type": 3,
+			 "jar":"./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "playerType":1,
+            "ext": "./lib/七味影视1.json"
+             },
+			 {"key":"xunlei8",
+			 "name":"🧲xunlei8🧲",
+			 "type":3,
+			 "api":"csp_XBPQ",
+			 "jar":"./lib/XBPQ.jar",
+            "ext": {
+                "搜索url":"https://xunlei8.cc/s/{wd}.html",
+                "搜索数组":"bec4f196629d\">&&\"b9a905c",
+                "搜索标题":"<h2*>&&</i>",
+                "播放数组":"czs-category-l bdba79a1be86a&&b11e9b1883",
+                "播放列表":"<li>&&</li>[不包含:ed2k#</span></a#pan.baidu]",
+                "简介":"b1f40f7888\">&&</p>",
+                "分类":"电影$list#电视剧$tv",
+        "分类url":"https://xunlei8.cc/{cateId}-0-0-0-date-{catePg}-30.html;;md"
+             }
+        },
+
+		{
+			"key": "BT天堂",
+			"name":"🧲BT天堂🧲",
+			"type":3,
+			"api":"csp_XBPQ",
+			"searchable":1,
+			"quickSearch":1,
+			"filterable":1,
+			"ext": "./lib/BT天堂 5.json",
+			"jar": "./lib/XBPQ.jar"
+		},
+		{"key":"Gaoqing",
+	"name":"🧲中国高清网🧲",
+	"type":3,
+	"api":"csp_Gaoqing",
+	"quickSearch":1,
+	"changeable":1,
+	"filterable":1, 
+	"timeout":60, 
+	"ext":"./lib/tokenm.json$$$https://gaoqing.la/$$$proxy$$$1"},
+	{"key":"MP4us","name":"🧲MP4us🧲","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
+            "ext": {
+        "标题":"<font*>&&</font>",
+        "图片":"data-original=\"&&\"",
+                "数组":"<li>&&</li>",
+                "副标题":"rate badge\">&&</span>+|+update_time\">&&</span>",
+                "线路标题":"<h2>&&</h2>[替换:下载地址>>磁力]",
+                "播放数组":"download_url&&</ul>",
+                "播放列表":"<a&&</a>[不包含:ed2k]",
+                "线路数组":"download_url&&</ul>",
+                "分类二次截取":"<ul&&</ul>",
+                "分类数组":"<li&&</li>",
+                "分类标题":">&&</a",
+                "分类ID":"/list/&&-1.html",
+        "分类url":"https://m.mp4us.com/list/{cateId}-{catePg}.html;;dm"
+             }
+        },
+		{
+			"key": "Bdys_spider",
+			"name": "🧲哔滴┃磁力🧲",
+			"api": "csp_Bdys01",
+			
+			"type": 3,
+			"filterable": 1,
+			"searchable":0,
+			"quickSearch": 1,
+			"searchable": 1,
+			"ext": "https://www.yjys.me/$$$null$$$1"
+		},
+		{
+    "key": "狸云",
+    "name": "🧲狸云🧲",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "./lib/XBPQ.jar",
+    "ext": {
+        "搜索url": "https://www.lysvc.cc/?cat=&s={wd}",
+        "数组":"class=\"post-item&&class=\"entry-title&&</article>",
+        "图片":"data-bg=\"&&\">",
+		"页面代理":"127.0.0.1:10072",
+       "播放链接": "<td><a href=\"&&\">[包含:magnet]",
+        "播放标题": ">&&</a>",
+        "线路标题": "weight: bold;\">&&</td>",
+        "分类": "蓝光-4k-电影$蓝光-4k-电影#精选剧集$精选剧集",
+        "分类url": "https://www.lysvc.cc/archives/category/%e5%bd%b1%e8%a7%86%e8%b5%84%e6%ba%90/{cateId}/page/{catePg}"
+    }
+},
+{
+            "key": "haokongbu",
+            "name": "🧲4好恐怖🧲4",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playerType":1,
+            "ext": {
+               "主页url": "https://m.haokongbu.top/","搜索url": "https://s.haokongbu.top/e/search/result/?searchid={wd}",
+                "分类url": "https://m.haokongbu.top/{cateId}/index_{catePg}.html[https://m.haokongbu.top/{cateId}/index.html]",
+                "分类": "国产剧$guochanju#港剧$gangju#动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#战争片$zhanzhengpian#剧情片$juqingpian#微电影$weidianying#记录片$m_jlp#高清$gaoqing#动漫$donghuapian#台湾$taiwanju#日本$riju#韩国$hanju#欧美$oumeiju#泰国$taiguoju#海外$haiwaiju",                
+                //"数组": "<li>&&</li>",
+                "副标题": "class=\"typeset\"&&</i>",
+                "起始页": 2,
+                "倒序": 1,
+                "播放数组": "下载地址</h2>&&</ul>",
+                "播放列表": "<li><&&</a>"
+             },
+             "jar":"./lib/XBPQ.jar"
+        },
+	{
+            "key": "小白",
+            "name": "🧲小白磁力🧲",
+            "type": 3,
+			 "jar":"./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "playerType":1,
+            "ext": "./lib/小白磁力.json"
+             },
+			 {"key":"Wo4k",
+	"name":"🧲4K|磁力🧲",
+	"type":3,
+	"api":"csp_Wo4k",
+	"quickSearch":1,
+	"changeable":1, 
+	"filterable":1, 
+	"timeout":60, 
+	"ext":"./lib/tokenm.json$$$https://www.wo4k.net/$$$proxy$$$1$$$./lib/wogg.json"},
+			  {
+            "key": "lf_js_p2p",
+            "name": "🧲磁力|路飞🧲",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "api": "./lib/lf_p2p2_min.js",
+            "ext": "18+"
+        },
+		{"key":"Bt0",
+	"name":"🧲不太灵|磁力🧲",
+	"type":3,"api":"csp_Bt0",
+	"quickSearch":1,
+	
+	"changeable":1,
+	"filterable":1, 
+	"timeout":60, 
+	"ext":"./lib/tokenm.json$$$null$$$proxy$$$1"},
 		  {"key":"兔子影视",
 		   "name":"🔥兔子影视🔥",
 		   "type":3,
@@ -445,43 +626,7 @@
             "ext": {
                   "分类url":"https://www.myd02.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
                   "分类":"电影$1#电视剧$2#综艺$3#短剧$5#动漫$4"}},
-		{
-            "key": "小白",
-            "name": "🧲小白磁力🧲",
-            "type": 3,
-			 "jar":"./lib/XBPQ.jar",
-            "api": "csp_XBPQ",
-            "playerType":1,
-            "ext": "./lib/小白磁力.json"
-             },
-		{
-            "key": "haokongbu",
-            "name": "🧲4好恐怖🧲4",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType":1,
-            "ext": {
-               "主页url": "https://m.haokongbu.top/","搜索url": "https://s.haokongbu.top/e/search/result/?searchid={wd}",
-                "分类url": "https://m.haokongbu.top/{cateId}/index_{catePg}.html[https://m.haokongbu.top/{cateId}/index.html]",
-                "分类": "国产剧$guochanju#港剧$gangju#动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#战争片$zhanzhengpian#剧情片$juqingpian#微电影$weidianying#记录片$m_jlp#高清$gaoqing#动漫$donghuapian#台湾$taiwanju#日本$riju#韩国$hanju#欧美$oumeiju#泰国$taiguoju#海外$haiwaiju",                
-                //"数组": "<li>&&</li>",
-                "副标题": "class=\"typeset\"&&</i>",
-                "起始页": 2,
-                "倒序": 1,
-                "播放数组": "下载地址</h2>&&</ul>",
-                "播放列表": "<li><&&</a>"
-             },
-             "jar":"./lib/XBPQ.jar"
-        },
-		{"key":"Wo4k",
-	"name":"🧲4K|磁力🧲",
-	"type":3,
-	"api":"csp_Wo4k",
-	"quickSearch":1,
-	"changeable":1, 
-	"filterable":1, 
-	"timeout":60, 
-	"ext":"./lib/tokenm.json$$$https://www.wo4k.net/$$$proxy$$$1$$$./lib/wogg.json"},
+		
 	{
                 "key": "XBPQ_无忧短剧",
                 "name": "🔥无忧短剧🔥",
@@ -999,18 +1144,7 @@
                       }
                     }
                    ]} },
-{
-			"key": "Bdys_spider",
-			"name": "🧲哔滴┃磁力🧲",
-			"api": "csp_Bdys01",
-			
-			"type": 3,
-			"filterable": 1,
-			"searchable":0,
-			"quickSearch": 1,
-			"searchable": 1,
-			"ext": "https://www.yjys.me/$$$null$$$1"
-		},
+
 	
 	{"key":"呀奈非",
      "name":"🔥鸭奈飞影院🔥",
@@ -1032,23 +1166,9 @@
             "ext": {
                 "分类url": "https://www.hdmoli.pro/mlist/index{cateId}.html",
 				"分类": "电影$1#剧集$2#动画$41"}},
-	{
-      "key": "Iktv",
-      "jar": "./lib/放牛1.jar","name": "🛰KTV┃音乐┃MV",
-      "type": 3,
-      "api": "csp_Iktv",
-      "searchable": 1,
-      "changeable": 0  },
-		
-	{"key":"Bt0",
-	"name":"🧲不太灵|磁力🧲",
-	"type":3,"api":"csp_Bt0",
-	"quickSearch":1,
 	
-	"changeable":1,
-	"filterable":1, 
-	"timeout":60, 
-	"ext":"null$$$null$$$1"},
+		
+	
 		{
             "key": "飘雪影院",
             "name": "🔥飘雪影院🔥",
@@ -1577,17 +1697,7 @@
             "timeout": 30,
             "ext": "./lib/tokenm.json$$$null$$$1"
         },
-		{
-			"key": "新6V111",
-			"name": "🔥新6V|磁力🔥",
-			"type": 3,
-			"api": "csp_Xb6v",
-			
-			"searchable": 1,
-			"changeable": 1,
-			"timeout": 60,
-			"ext": "./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
-		},
+		
 		{
       "key": "Libvio",
       "name": "🔥LIBVIO|影视专用🔥",
@@ -2326,18 +2436,7 @@
 				"ratio": 1.5
 			}
 		},
-		 {
-            "key": "lf_js_p2p",
-            "name": "🧲磁力|路飞🧲",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "timeout": 30,
-            "api": "./lib/lf_p2p2_min.js",
-            "ext": "18+"
-        },
+		 
 	{"key":"口袋",
      "name":"🔍口袋影视🔍",
      "type":3,"api":"csp_XBPQ",
