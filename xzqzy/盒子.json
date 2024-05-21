@@ -307,8 +307,7 @@
 		{
             "key": "csp_无聊",
             "name": "🔥YYDS🔥",
-            "type": 3,
-		"jar": "./lib/XBPQ.jar",
+            "type": 3,"jar": "./lib/XBPQ.jar",
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
