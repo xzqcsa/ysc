@@ -308,7 +308,7 @@
             "name": "🔥稀饭｜秒播🔥",
             "type": 3,
 			"jar": "./lib/XBPQ.jar",
-            "api": "csp_XBPQ",
+			"api": "csp_XBPQ",
             "ext": {"数组": "module-item-pic&&module-item-cover",
     "副标题": "module-item-text\">&&</div>",
     "简介": "vod_content\"><span>&&</span>",
