@@ -3127,6 +3127,10 @@
 	"url":"url":"https://dpaste.org/sd3Mr/raw",
 	"epg":"http://epg.112114.eu.org/?ch={name}&date={date}",
 	"logo":"http://epg.112114.eu.org/logo/{name}.png"},
+	{"name":"🔞全球直播2",
+	"url":"url":"http://oy.oyxx-1.eu.org/hhbb.php",
+	"epg":"http://epg.112114.eu.org/?ch={name}&date={date}",
+	"logo":"http://epg.112114.eu.org/logo/{name}.png"},
 			{
 				"name": "YTLive",
 				"type": 0,
