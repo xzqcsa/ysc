@@ -1,5 +1,5 @@
 ﻿ { 
-  "spider":"./lib/pg高速.jar","logo":"./lib/虎.JPG",
+  "spider":"./lib/pg.jar","logo":"./lib/虎.JPG",
   "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
   "sites": [
  {

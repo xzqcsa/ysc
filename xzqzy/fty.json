@@ -42,39 +42,7 @@
 				"ratio": 1.1
 			}
 		},
-		{
-    "key": "BT影视1",
-    "name": "🧲BT影视🧲",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "./lib/XBPQ.jar",
-    "ext": {
-        "跳转数组": "<a&&</a[包含:tdown]",
-        "跳转链接": "href=\"&&\"",
-        "搜索url":"https://www.btbtl.com/search/{wd}","跳转链接前缀": "https://www.btbtl.com",
-        "跳转链接后缀": "",
-        "播放数组": "class=\"video-info-footer&&</div[不包含:文件]",
-        "播放链接": "href=\"&&\"[包含:magnet]",
-        "分类": "电影$movies#电视剧$tv",
-        "分类url": "https://www.btbtl.com/type/{cateId}/{catePg}/"
-    }
-},
-		{"key":"xunlei8",
-			 "name":"🧲xunlei8🧲",
-			 "type":3,
-			 "api":"csp_XBPQ",
-			 "jar":"./lib/XBPQ.jar",
-            "ext": {
-                "搜索url":"https://xunlei8.cc/s/{wd}.html",
-                "搜索数组":"bec4f196629d\">&&\"b9a905c",
-                "搜索标题":"<h2*>&&</i>",
-                "播放数组":"czs-category-l bdba79a1be86a&&b11e9b1883",
-                "播放列表":"<li>&&</li>[不包含:ed2k#</span></a#pan.baidu]",
-                "简介":"b1f40f7888\">&&</p>",
-                "分类":"电影$list#电视剧$tv",
-        "分类url":"https://xunlei8.cc/{cateId}-0-0-0-date-{catePg}-30.html;;md"
-             }
-        },
+		
 		 {
       "key": "Wexbaobaobashi",
       "name": "🔥宝宝┃儿歌🔥",
@@ -207,6 +175,39 @@
 				"分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
 			}
 		},
+		{
+    "key": "BT影视1",
+    "name": "🧲BT影视🧲",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "./lib/XBPQ.jar",
+    "ext": {
+        "跳转数组": "<a&&</a[包含:tdown]",
+        "跳转链接": "href=\"&&\"",
+        "搜索url":"https://www.btbtl.com/search/{wd}","跳转链接前缀": "https://www.btbtl.com",
+        "跳转链接后缀": "",
+        "播放数组": "class=\"video-info-footer&&</div[不包含:文件]",
+        "播放链接": "href=\"&&\"[包含:magnet]",
+        "分类": "电影$movies#电视剧$tv",
+        "分类url": "https://www.btbtl.com/type/{cateId}/{catePg}/"
+    }
+},
+		{"key":"xunlei8",
+			 "name":"🧲xunlei8🧲",
+			 "type":3,
+			 "api":"csp_XBPQ",
+			 "jar":"./lib/XBPQ.jar",
+            "ext": {
+                "搜索url":"https://xunlei8.cc/s/{wd}.html",
+                "搜索数组":"bec4f196629d\">&&\"b9a905c",
+                "搜索标题":"<h2*>&&</i>",
+                "播放数组":"czs-category-l bdba79a1be86a&&b11e9b1883",
+                "播放列表":"<li>&&</li>[不包含:ed2k#</span></a#pan.baidu]",
+                "简介":"b1f40f7888\">&&</p>",
+                "分类":"电影$list#电视剧$tv",
+        "分类url":"https://xunlei8.cc/{cateId}-0-0-0-date-{catePg}-30.html;;md"
+             }
+        },
 		{"key":"Yinfans",
 	"name":"🧲音范丝|磁力🧲",
 	"type":3,
