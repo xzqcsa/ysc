@@ -875,7 +875,7 @@
 	"changeable":1,
 	"filterable":1, 
 	"timeout":60, 
-	"ext":"./lib/tokenm1.json$$$null$$$proxy$$$1"},
+	"ext":"./lib/tokenm1.json$$$null$$$127.0.0.1:10072$$$1"},
 	{"key":"drpy_js_磁力熊",
 	"name":"🧲磁力熊索引🧲",
 	"type":3,
@@ -968,7 +968,7 @@
 	"quickSearch": 1, 
 	"filterable": 1,
 	"changeable": 1 ,
-	"ext":"https://v.ikanbot.com$$$proxy"},
+	"ext":"https://v.ikanbot.com$$$127.0.0.1:10072"},
 	  {
             "key": "92kyy",
             "name": "🔥92kyy🔥",
