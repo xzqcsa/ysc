@@ -59,6 +59,24 @@
             },
             "ext": "./XYQTVBox/tokenm1.json"
         },
+		{
+            "key": "千百撸",
+            "name": "千百撸|学日语",
+            "type": 3,
+            "api": "csp_XBPQ",
+			"jar": "./lib/XBPQ.jar",
+            "ext": {
+                "站名": "222av.me",
+                "主页url": "http://041920.222av.me",
+                "首页": "最新课程", "页面代理":"127.0.0.1:10072",
+                "数组": "col-sm-6 col-md-4 col-lg-4&&<div class=\"video-added\">[不包含:88A8#东亚娱乐城]",
+                "链接": "href=\"&&\"",
+                "嗅探词": "http://m3u8.361lu.com/us.php?",
+                "分类url": "/videos/{cateId}?page={catePg};;z",
+                "分类": "全部&3D&素人&日本女优&自拍&金发洋物",
+                "分类值": "/&3d&amateur&japanese&selfie&western"
+            }
+        },
 	{"key": "mv",
             "name": "最新课程",
             "type": 3,
