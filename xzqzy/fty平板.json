@@ -832,10 +832,11 @@
 			
 			"type": 3,
 			"filterable": 1,
-			"searchable":0,
+			"searchable":1,
 			"quickSearch": 1,
 			"searchable": 1,
-			"ext": "https://www.yjys.me/$$$null$$$1"
+			"timeout":60,
+			"ext": "./lib/tokenm1.json$$$https://www.yjys.me/$$$127.0.0.1:10072$$$1"
 		},
 		{
     "key": "狸云",
