@@ -372,7 +372,7 @@
 			"quickSearch": 1,
 			"searchable": 1,
 			"timeout":60,
-			"ext": "./lib/tokenm.json$$$https://www.yjys.me/$$$127.0.0.1:10071$$$1"
+			"ext": "./lib/tokenm.json$$$https://www.yjys.me/$$$127.0.0.1:10072$$$1"
 		},
 		{
     "key": "狸云",
@@ -449,7 +449,7 @@
 	"changeable":1,
 	"filterable":1, 
 	"timeout":60, 
-	"ext":"./lib/tokenm.json$$$null$$$127.0.0.1:10071$$$1"},
+	"ext":"./lib/tokenm.json$$$null$$$127.0.0.1:10072$$$1"},
 		  {"key":"兔子影视",
 		   "name":"🔥兔子影视🔥",
 		   "type":3,
