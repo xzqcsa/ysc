@@ -77,6 +77,33 @@
                 "分类值": "/&3d&amateur&japanese&selfie&western"
             }
         },
+		        {
+            "key": "NOWAV系列一",
+            "name": "热门女优",
+            "type": 3,
+            "api": "csp_XBPQ",
+			"jar": "./lib/XBPQ.jar",
+            "playerType": 0,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "主页url": "https://nowav.tv",
+                "数组": "<div class=td-module-thumb&&</a></h3></div>",
+                "图片": "style data-bg=url(&&)","页面代理":"127.0.0.1:10072",
+                "标题": "title=\"&&\"",
+                "简介": "property=\"og:title\" content=\"&&\"><meta ",
+                "链接": "href=&&.html+.html",
+                "直接播放": "1",
+                "跳转播放链接": "",
+                "嗅探词": ".mp4#.m3u8#.flv#https://gr2ohi.azstream.xyz",
+                "嗅探过滤词": ".html#=http#suffixbigendtime=#.js#",
+                "分类url": "https://nowav.tv/tag/{cateId}/page/{catePg}",
+                "分类": "波多野結衣&深田えいみ&田中ねね&美谷朱里&松本いちか&篠田ゆう&明里つむぎ&逢見リカ&木下ひまり&浜崎真緒&姫咲はな&さつき芽衣&宮崎あやね&宮崎あや&森沢かな&浅野奈都紀&椎名空&JULIA&あや&立花メアリー&橘瑪麗&橘友美&市川悠子&夏目ゆみ&りあ&メアリさん&メアリー&椎名そら&橘メアリー&素人",
+                "分类值": "波多野結衣&深田えいみ&田中ねね&美谷朱里&松本いちか&篠田ゆう&明里つむぎ&逢見リカ&木下ひまり&浜崎真緒&姫咲はな&さつき芽衣&宮崎あやね&宮崎あや&森沢かな&浅野奈都紀&椎名空&JULIA&あや&立花メアリー&橘瑪麗&橘友美&市川悠子&夏目ゆみ&りあ&メアリさん&メアリー&椎名そら&橘メアリー&素人"
+            }
+        },
+
 	{"key": "mv",
             "name": "最新课程",
             "type": 3,
