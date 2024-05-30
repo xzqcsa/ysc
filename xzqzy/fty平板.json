@@ -1061,16 +1061,7 @@
       "quickSearch": 1, 
       "filterable": 1, 
       "ext": "./lib/黑木耳资源.json"},
-		{"key":"Wogg234567222222",
-		"name":"🔥玩偶哥哥4K🔥",
-		"type":3,
-		"api":"csp_Wogg",
 		
-		"quickSearch":1,
-		"changeable":1,
-		"filterable":1, 
-		"timeout":30, 
-		"ext":"./lib/tokenm1.json$$$https://api.wogg.xyz/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"},
 		
 		
 	{"key":"Wogg234567",
@@ -2427,14 +2418,7 @@
       "jar": "./lib/Tong.jar",
       "filterable": 1
     },
-    {"key":"玩偶哥哥",
-   "name":"🔥玩偶哥哥┃4K弹幕",
-   "type":3,"api":"csp_WoGG",
-   "searchable":1,
-   "quickSearch":1,
-    "jar": "./fty.jar;md5;d275081b5b9f999614a1930aa7599cb9",
-   "changeable":0,
-   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
+   
    
   
     

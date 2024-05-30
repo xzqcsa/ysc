@@ -1087,16 +1087,7 @@
       "quickSearch": 1, 
       "filterable": 1, 
       "ext": "./lib/黑木耳资源.json"},
-		{"key":"Wogg234567222222",
-		"name":"🔥玩偶哥哥4K🔥",
-		"type":3,
-		"api":"csp_Wogg",
 		
-		"quickSearch":1,
-		"changeable":1,
-		"filterable":1, 
-		"timeout":30, 
-		"ext":"./lib/tokenm盒子.json$$$https://api.wogg.xyz/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"},
 		
 		
 	{"key":"Wogg234567",
