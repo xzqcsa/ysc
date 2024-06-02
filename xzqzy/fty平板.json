@@ -88,58 +88,10 @@
 		},	
 	
 
-		{
-      "key": "Wexconfig",
-      "name": "🐮鸟巢配置🐮",
-      "type": 3,
-	   "jar": "./lib/wex.txt;md5;371ba7abb2774a1c49934446f3d374ce",
-      "api": "csp_Wexconfig",
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.43
-      }
-    },
-	 {
-      "key": "Wexbaobaobashi",
-      "name": "🔥宝宝┃儿歌🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;371ba7abb2774a1c49934446f3d374ce",
-      "api": "csp_Wexbaobaobashi",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 2
-      }
-    },
-    {
-      "key": "Wexbeiwa",
-      "name": "🔥贝贝┃儿歌🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;371ba7abb2774a1c49934446f3d374ce",
-      "api": "csp_Wexbeiwa",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 2
-      }
-    },
-    {
-      "key": "Wextuxiaobei",
-      "name": "🔥兔兔┃儿歌🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;371ba7abb2774a1c49934446f3d374ce",
-      "api": "csp_Wextuxiaobei",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 2
-      }
-    },
+		
+	
+    
+    
 	{
             "key": "胖虎影视",
             "name": "🔥胖虎影视🔥",
@@ -197,19 +149,7 @@
                 "分类ID": "href=\"/d9show/&&-----------.html\""
             }
         },
-	 {
-      "key": "Wexliyuan",
-      "name": "🔥戏曲🔥",
-      "type": 3,
-      "api": "csp_Wexliyuan",
-      "searchable": 1,
-	  "jar": "./lib/wex.txt;md5;371ba7abb2774a1c49934446f3d374ce",
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 2
-      }
-    },
+	 
 	        {
             "key": " 一起看影院",
             "name": "🔥一起看影院🔥",
