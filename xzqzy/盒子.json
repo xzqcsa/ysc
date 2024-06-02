@@ -163,7 +163,7 @@
       "quickSearch": 1,
      
       "filterable": 1,      
-      "jar": "./lib1/XBPQ.jar",
+      "jar": "./lib/XBPQ.jar",
       "ext": "./lib/尘落影视.json"
     },
 	
