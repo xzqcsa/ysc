@@ -96,8 +96,25 @@
      
       "filterable": 1,      
       "jar": "./lib/XBPQ.jar",
-      "ext": "./lib/新风纯净.json"
+      "ext":  {"请求头": "手机","页面代理":"127.0.0.1:10072",
+    "主页url": "https://xfys01.com/",
+    "数组": "ewaveui-vodlist__box\">&&</div",
+    "标题": "title=\"&&\"",
+    "副标题": "text-right\">&&</span>",
+    "图片": "data-original=\"&&\"",
+    "链接": "<a href=\"&&\"",
+    "简介": "<span class=\"sketch content\">&&</span>",
+    "线路二次截取": "<ul class=\"nav nav-tabs&&</ul>",
+    "线路标题": "tab\">&&</a",
+    "搜索url": "https://xfys01.com/index.php/vod/search.html?wd={wd}",
+    "分类url": "https://xfys01.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html;;rc",
+    "分类数组": "col-lg-5 col-md-5&&</li",
+    "分类标题": ">&&</a>[不包含:伦理#三级]",
+    "分类ID": "href=\"/index.php/vod/type/id/&&.html\"",
+    "筛选": "1"
+	}
     },
+    
 {
       "key": "乐鱼",
       "name": "🔥乐鱼影视🔥",
