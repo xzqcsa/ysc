@@ -97,6 +97,18 @@
       }
     },
 	{
+      "key": "chenluo",
+      "name": "🔥尘落影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/尘落影视.json"
+    },
+	{
             "key": "皮皮影视吧",
             "name": "🔥皮皮影视吧🔥",
             "type": 3,
