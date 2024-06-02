@@ -86,7 +86,18 @@
 				"ratio": 1.1
 			}
 		},	
-	
+	{
+      "key": "新风",
+      "name": "🔥新风影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/新风纯净.json"
+    },
 {
       "key": "乐鱼",
       "name": "🔥乐鱼影视🔥",
@@ -2102,7 +2113,7 @@
             "filterable": 1,
 			
             "timeout": 30,
-            "ext":"./lib/tokenm1.json$$$null$$$1"
+            "ext":"./lib/tokenm1.json$$$proxy$$$1"
         },
 		
 	
