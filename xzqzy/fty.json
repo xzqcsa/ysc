@@ -57,7 +57,18 @@
 			}
 		},
 		
-		
+	{
+      "key": "乐鱼",
+      "name": "🔥乐鱼影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/乐鱼.json"
+    },	
     
     
 	{
