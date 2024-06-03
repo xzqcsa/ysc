@@ -86,6 +86,17 @@
 				"ratio": 1.1
 			}
 		},	
+		{
+            "key": "蜡笔网盘",
+            "name": "🔥蜡笔┃网盘🔥",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./lib/tokenm1.json$$$https://duopan.fun/$$$proxy$$$1$$$./lib/wogg.json"
+        },
 	{
       "key": "新风",
       "name": "🔥新风影视🔥",
