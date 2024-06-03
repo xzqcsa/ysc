@@ -1,0 +1,21 @@
+{
+    "请求头": "手机",
+    "数组": "stui-vodlist__box\">&&</div>",
+    "图片": "data-original=\"&&\"",
+    "标题": "title=\"&&\"",
+    "副标题": "pic-text text-right\">&&</span>",
+    "简介": "text-muted hidden-xs\">&&</p",
+    "链接": "href=\"&&\"",
+    "线路数组": "<h3&&</h3>",
+    "线路标题": ">&&</h3>",
+    "播放数组": "stui-content__playlist&&</ul>",
+    "播放列表": "<li&&</li>",
+    "播放标题": ">&&</a>",
+	"页面代理":"127.0.0.1:10072",
+    "播放链接": "href=\"&&\"",
+    "搜索url": "https://www.567dyy.com/search/{wd}----------{pg}---.htmll",
+    "分类url": "https://www.567dyy.com/list/{cateId}-{catePg}.html;;R",
+    "分类数组": "<li&&</a",
+    "分类标题": ">&&</a",
+    "分类ID": "href=\"/list/&&.html\""
+}

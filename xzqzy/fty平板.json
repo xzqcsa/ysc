@@ -114,7 +114,18 @@
     "筛选": "1"
 	}
     },
-    
+     {
+      "key": "567",
+      "name": "🔥567影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/567.json"
+    },
 {
       "key": "乐鱼",
       "name": "🔥乐鱼影视🔥",
