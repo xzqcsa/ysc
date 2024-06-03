@@ -86,7 +86,31 @@
 				"ratio": 1.1
 			}
 		},	
-	
+	{"key":"爱看影视2",
+	"name":"🔥爱看影视2🔥",
+	"type":3,
+	"api":"csp_XBPQ",
+	"jar": "./lib/XBPQ.jar",
+	"searchable":1,
+	"quickSearch":1,
+	"filterable":1,
+	"ext":{"发布地址":"https://www.aikanys.vip/",
+	"数组":"<a&&</div></div></a>",
+	"副标题":"module-item-note\">&&</div",
+	"简介":"line-height:20px;\">&&</p",
+	"线路数组":"module-tab-item tab-item&&</div",
+	"线路标题":"<span>&&</span",
+	"播放数组":"<div class=\"module-play-list-content&&</div",
+	"跳转解析":"爱看专用（优先推荐）$https://cms.akanhd.com/player/ec.php?code=akanhd&if=1&from=lekanzyw&url=#爱看新线S+$https://cms.akanhd.com/player/ec.php?code=akanhd&if=1&from=ikm3u8&url=#蓝光F+$https://cms.akanhd.com/player/ec.php?code=akanhd&if=1&from=snm3u8&url=#蓝光R+$https://cms.akanhd.com/player/ec.php?code=akanhd&if=1&from=lekanzyw&url=#蓝光E+$https://cms.akanhd.com/player/ec.php?code=akanhd&if=1&from=leshi&url=#蓝光L+$https://cms.akanhd.com/player/ec.php?code=akanhd&if=1&from=ikm3u8&url=",
+	"跳转播放链接":"解析+var player_*\"url\":\"&&\"",
+	"搜索数组":"<div class=\"module-card-item module-item&&</a></div></div>",
+	"搜索图片":"data-original=\"&&\"",
+	"搜索标题":"alt=\"&&\"",
+	"搜索链接":"title\"><a href=\"&&\"",
+	"搜索url":"https://www.aikanhd.vip/vodsearch/{wd}----------{pg}---/",
+	"分类数组":"<li class=\"swiper-slide navbar-item&&</li[不包含:福利区]",
+	"分类标题":"title=\"&&\"","分类ID":"href=\"/vodtype/&&/\"","分类url":"https://www.aikanhd.vip/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}/"}},
+
 {
       "key": "乐鱼",
       "name": "🔥乐鱼影视🔥",
