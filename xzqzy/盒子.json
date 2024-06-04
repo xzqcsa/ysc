@@ -166,6 +166,16 @@
             },
             "jar": "./lib/YSC.jar"
         },
+{
+      "key": "橘子柚",
+      "name": "🔥橘子柚🔥",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/橘子.json"
+    },
 
 		
 {
