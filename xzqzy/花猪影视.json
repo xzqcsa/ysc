@@ -58,7 +58,20 @@
       "jar":"./lib/XBPQ.jar"    
     },
 	
-    
+ {
+            "key": "csp_YingSC",
+            "name": "🔥车车🔥",
+            "type": 3,
+            "api": "csp_AppYS",
+            "changeable": 0,
+            "ext": {
+                "server": "https://cms.ysctv.cn/api.php/app/",
+                "mackey": "5tlVvvRYiYlxVpwF|cr31YFb1pGPrKpUX",
+                "ali": "./lib/tok.txt",
+                "quark": "./lib/quark.txt"
+            },
+            "jar": "./lib/YSC.jar"
+        },   
     
 	 
 	 

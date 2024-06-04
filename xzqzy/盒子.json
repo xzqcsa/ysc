@@ -151,17 +151,7 @@
             "timeout": 30,
             "ext": "./lib/tokenm盒子.json$$$https://duopan.fun/$$$proxy$$$1$$$./lib/wogg.json"
         },
-{
-            "key": "橘子网盘",
-            "name": "🔥橘子┃网盘🔥",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 30,
-            "ext": "./lib/tokenm盒子.json$$$https://juziyou.vip$$$127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"
-        },
+
 		{
             "key": "csp_YingSC",
             "name": "🔥车车🔥",
