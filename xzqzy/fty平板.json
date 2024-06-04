@@ -2201,7 +2201,7 @@
             "changeable": 1,
             "filterable": 1,
 			
-            "timeout": 30,
+            "timeout": 60,
             "ext":"./lib/tokenm1.json$$$proxy$$$1"
         },
 		
