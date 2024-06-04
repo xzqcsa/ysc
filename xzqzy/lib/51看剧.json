@@ -1,0 +1,12 @@
+{
+    "数组": "hl-item-thumb hl-lazy&&</a",
+    "图片": "data-original=\"&&\"",
+    "链接": "href=\"&&\"",
+    "标题": "title=\"&&\"",
+    "副标题": "hl-lc-1 remarks\">&&</span",
+    "播放数组": "hl-plays-list hl-sort-list hl-list-hide-xs&&</ul",
+    "播放列表": "<li&&</a",
+    "播放标题": ">&&</a",
+    "分类url": "https://www.51kanju.com/show{cateId}----{catePg}.html;;d0",
+    "分类": "电影$1#连续剧$2#综艺$3#动漫$4#短剧$55"
+}

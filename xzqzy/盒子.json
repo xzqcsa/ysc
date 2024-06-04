@@ -127,7 +127,18 @@
       "ext": "./lib/567.json"
     },
 	 
-	 
+	{
+      "key": "345",
+      "name": "🔥51影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/51看剧.json"
+    }, 
 	{
       "key": "chenluo",
       "name": "🔥尘落影视🔥",

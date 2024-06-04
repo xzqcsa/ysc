@@ -82,6 +82,31 @@
             "ext": "./lib/tokenm.json$$$https://duopan.fun/$$$proxy$$$1$$$./lib/wogg.json"
         },
 		{
+            "key": "海外剧汇",
+            "name": "🔥海外剧汇🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+			"jar": "./lib/XBPQ.jar",
+            "ext": {
+                "主页url": "https://www.hwjh.cc",
+                "数组": "hl-list-item hl-col-xs-4&&</li",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "副标题": "hl-lc-1 remarks\"&&</span>",
+                "线路二次截取": "<div class=\"hl-plays-from hl-tabs swiper-wrapper&&</div>",
+                "线路数组": "hl-tabs-btn hl-slide-swiper&&</a>",
+                "线路标题": "alt=\"&&\"[不包含:夸克网盘]",
+                "播放数组": "hl-plays-list hl-sort-list&&</ul",
+                "播放列表": "<li&&</li",
+                "播放标题": ">&&</a>",
+                "播放链接": "href=\"&&\"",
+                "分类url": "https://www.hwjh.cc/vodshow/{cateId}--{by}-{class}-----{catePg}---{year}.html;;rc",
+                "分类": "电影&电视剧&动漫&综艺",
+                "分类值": "1&2&4&3"
+            }
+        },
+		{
       "key": "新风",
       "name": "🔥新风影视🔥",
       "type": 3,
