@@ -86,7 +86,31 @@
 				"ratio": 1.1
 			}
 		},	
-	
+	{"key":"如意影院",
+	"name":"🔥如意影院🔥",
+	"type":3,
+	"api":"csp_XBPQ",
+	 "jar": "./lib/XBPQ.jar",
+	"searchable":1,
+	"quickSearch":1,
+	"filterable":1,
+	"ext":{"数组":"<a class=\"cover-img&&</li",
+	"副标题":"text\">&&</p",
+	"链接":"",
+	"简介":"name=\"description\" content=\"&&\"",
+	"线路二次截取":"手机扫一扫观看影片&&同主演推荐",
+	"线路数组":"<h3&&/h3>",
+	"线路标题":">&&<",
+	"播放数组":"<ul class=\"shoutu-playlist&&</ul",
+	"跳转播放链接":"urlDecode(var player_*\"url\":\"&&\")",
+	"搜索数组":"<a class=\"cover-img&&</li",
+	"搜索图片":"data-original=\"&&\"",
+	"搜索标题":"title=\"&&\"",
+	"搜索链接":"href=\"&&\"",
+	"搜索url":"https://www.jspxxh.com/search/{wd}-------------.html",
+	"分类url":"https://www.jspxxh.com/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+	"分类":"电影$1#电视剧$2#综艺$3#动漫$4"}},
+
 
 {
       "key": "乐鱼",
