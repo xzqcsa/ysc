@@ -86,6 +86,23 @@
 				"ratio": 1.1
 			}
 		},	
+			{
+            "key": "Youtube",
+            "name": "🔥Youtube🔥",
+            "type": 3,
+            "api": "csp_Youtube",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "type": "电影#电视剧#新闻#movie#music#直播#剧集#音乐#体育#课程",
+                "proxy": "127.0.0.1:10072"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
 		{"key":"如意影院",
 	"name":"🔥如意影院🔥",
 	"type":3,
