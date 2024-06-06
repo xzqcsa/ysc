@@ -52,7 +52,7 @@
 "wgcf_geoip_url":"./geoip.dat.gz",
 "wgcf_json_url":"./wgcf武哥.json",
 "wgcf_vless_id":"32c097ef-4303-4acc-9bc0-a368828f5e88",
-"wgcf_vless_optname":"www.visa.com.tw:80",
+"wgcf_vless_optname":"www.gov.se:80",
 "wgcf_vless_worker":"jkj.kevqwkt451.workers.dev",
 "wgcf_vless_path":"/?ed=2048",
 "wgcf_vless_protocol":"vless",
