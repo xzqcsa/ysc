@@ -1226,7 +1226,7 @@
 		"changeable":1,
 		"filterable":1, 
 		"timeout":30, 
-		"ext":"./lib/tokenm盒子.json$$$https://www.wogg.bf/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"},
+		"ext":"./lib/tokenm盒子.json$$$https://www.wogg.bf/$$$proxy$$$1$$$./pg/lib/wogg.json"},
 	 {
             "key": "csp_剧圈圈",
             "name": "🔥剧圈┃圈圈🔥",
