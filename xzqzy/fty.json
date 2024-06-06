@@ -847,7 +847,7 @@
       "filterable": 1,
     
              
-            "ext": "./lib/tokenm.json$$$https://wogg.link/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"
+            "ext": "./lib/tokenm.json$$$https://wogg.bf/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"
         },
 		{
             "key": "meiyida影视",
@@ -2272,7 +2272,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.bf/$$$弹"
     },
     
   

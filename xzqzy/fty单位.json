@@ -1524,7 +1524,7 @@
 		"changeable":1,
 		"filterable":1, 
 		"timeout":30, 
-		"ext":"./lib/tokenm3.json$$$https://wogg.link/$$$null$$$1$$$./pg/lib/wogg.json"},
+		"ext":"./lib/tokenm3.json$$$https://wogg.bf/$$$null$$$1$$$./pg/lib/wogg.json"},
       
     
 
@@ -1952,7 +1952,7 @@
    "quickSearch":1,
     "jar": "./fty.jar;md5;d275081b5b9f999614a1930aa7599cb9",
    "changeable":0,
-   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.link/$$$弹"},
+   "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.bf/$$$弹"},
    
   {"key":"csp_YouKu",
   "name":"🔍优酷🔍",
