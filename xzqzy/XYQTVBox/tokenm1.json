@@ -49,7 +49,7 @@
 "wgcf_ipport":"162.159.195.13:955",
 "wgcf_xray_url":"./xray.gz",
 "wgcf_geoip_url":"./geoip.dat.gz",
-"wgcf_json_url":"./wgcf武哥.json",
+"wgcf_json_url":"./wgcf.json",
 "wgcf_vless_id":"32c097ef-4303-4acc-9bc0-a368828f5e88",
 "wgcf_vless_optname":"89.116.250.34:80",
 "wgcf_vless_worker":"jkj.kevqwkt451.workers.dev",
