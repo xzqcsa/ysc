@@ -95,7 +95,24 @@
 			"quickSearch": 0,
 			"changeable": 0,
             "ext": {
-                "type": "电影#动画片#动漫#腾讯视频#爱奇艺#优酷#搜狗视频#芒果视频#网易云音乐#电视剧#国产剧#风光#纪录片#新闻#Shorts#documentary#movie#music#综艺#直播#剧集#音乐#体育#课程",
+                "type": "电影#动画片#动漫#4K TVB#CM喂饭#腾讯视频#爱奇艺#优酷#搜狗视频#芒果视频#网易云音乐#电视剧#国产剧#风光#纪录片#新闻#Shorts#documentary#movie#music#综艺#直播#剧集#音乐#体育#课程",
+                "proxy": "127.0.0.1:10072"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
+		{
+            "key": "Youtube11222",
+            "name": "🔥Youtube┃4K🔥",
+            "type":3,
+			"api": "csp_Youtube",
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+            "ext": {
+                "type": "4K TVB#Vertebrate 4k#Invertebrate 4k#Carnivorous Animals 4k#Herbivorous Animals 4k#Omnivorous Animals 4k#Passerine Birds 4k#Columbiform Birds 4k#Birds of Prey 4k#Reptiles 4k#Fish#Amphibians 4k",
                 "proxy": "127.0.0.1:10072"
             },
             "style": {
