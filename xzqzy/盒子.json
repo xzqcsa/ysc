@@ -95,7 +95,7 @@
 			"quickSearch": 0,
 			"changeable": 0,
             "ext": {
-                "type": "电影#动画片#动漫#4K TVB#CM喂饭#腾讯视频#爱奇艺#优酷#搜狗视频#芒果视频#网易云音乐#电视剧#国产剧#风光#纪录片#新闻#Shorts#documentary#movie#music#综艺#直播#剧集#音乐#体育#课程",
+                "type": "电影#动画片#动漫#4K TVB#CM喂饭#腾讯视频#爱奇艺#优酷#搜狗视频#芒果视频#网易云音乐#电视剧#国产剧#风光#纪录片#新闻#bbc documentary#national geographic documentary#Shorts#documentary#movie#music#综艺#直播#剧集#音乐#体育#课程",
                 "proxy": "127.0.0.1:10072"
             },
             "style": {
@@ -146,7 +146,7 @@
             "quickSearch": 0,
             "changeable": 1,
             "ext": {
-            "type": "儿童早教#儿童歌曲#儿童音乐#儿童绘画#儿童动画#儿童启蒙故事#儿童英语启蒙#儿童安全教育#睡前故事#贝瓦儿歌#宝宝巴士#儿歌多多#学而思",
+            "type": "儿童早教#儿童歌曲#儿童音乐#儿童绘画#儿童动画#儿童启蒙故事#儿童英语启蒙#儿童安全教育#睡前故事#贝瓦儿歌#宝宝巴士#儿歌多多",
             "proxy": "127.0.0.1:10072"
             },
             "style": {
