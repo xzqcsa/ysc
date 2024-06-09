@@ -48,7 +48,10 @@
 			"type_id":"4k 放松",
 			"type_name":"4k 放松"
 		},
-		
+		{
+			"type_id":"课程",
+			"type_name":"课程"
+		},
 		{
 			"type_id":"4K",
 			"type_name":"4K"
