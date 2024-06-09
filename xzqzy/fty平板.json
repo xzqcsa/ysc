@@ -111,7 +111,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": {"json":"./lib/youtube.json",
+            "ext": {
                 "type": "电影#动画片#动漫#电视剧#国产剧#腾讯视频#爱奇艺#优酷#搜狗视频#芒果视频#网易云音乐#风光#纪录片#新闻#4K TVB#@ygkkk#CM喂饭#bbc documentary#national geographic documentary#Shorts#movie#documentary#Live nrws in English#News live#music#综艺#直播#剧集#音乐#体育#课程",
                 "proxy": "127.0.0.1:10072"
             },
@@ -128,7 +128,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": {"json":"./lib/youtube.json",
+            "ext": {
                 "type": "芸能人が本气で考えた!ドッキリGP#日本av#18+#探花#约炮#少妇#Pornhub#三级片#滴蜡#两性知识#日本整人综艺#綜藝玩很大",
                 "proxy": "127.0.0.1:10072"
             },
@@ -145,7 +145,7 @@
 			"searchable": 1,
 			"quickSearch": 0,
 			"changeable": 0,
-            "ext": {"json":"./lib/youtube.json",
+            "ext": {
                 "type": "4K TVB#Vertebrate 4k#Invertebrate 4k#Carnivorous Animals 4k#Herbivorous Animals 4k#Omnivorous Animals 4k#Passerine Birds 4k#Columbiform Birds 4k#Birds of Prey 4k#Reptiles 4k#Fish#Amphibians 4k",
                 "proxy": "127.0.0.1:10072"
             },
@@ -162,7 +162,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 1,
-            "ext": {"json":"./lib/youtube.json",
+            "ext": {
             "type": "苏教版课程#人教版课程#沪教版课程#北师大版课程",
             "proxy": "127.0.0.1:10072"
             },
@@ -179,7 +179,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 1,
-            "ext": {"json":"./lib/youtube.json",
+            "ext": {
             "type": "儿童早教#儿童歌曲#儿童音乐#儿童绘画#儿童动画#儿童启蒙故事#儿童英语启蒙#儿童安全教育#睡前故事#贝瓦儿歌#宝宝巴士#儿歌多多",
             "proxy": "127.0.0.1:10072"
             },
@@ -196,7 +196,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 1,
-            "ext": {"json":"./lib/youtube.json",
+            "ext": {
                 "type": "锡剧#秦腔#京剧#越剧#黄梅戏#评剧#豫剧#昆曲#高腔#梆子腔#河北梆子#晋剧#蒲剧#雁剧#上党梆子#武安平调#二人台#吉剧#龙江剧#越调#河南曲剧#山东梆子#淮剧#滑稽戏#婺剧#绍剧#徽剧#闽剧#莆仙戏#梨园戏#高甲戏#赣剧#采茶戏#汉剧#湘剧#祁剧#湖南花鼓戏#粤剧#潮剧#桂剧#彩调#壮剧#川剧#黔剧#滇剧#傣剧#藏剧#皮影戏",
                 "proxy": "127.0.0.1:10072"
             },
@@ -213,7 +213,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 1,
-            "ext": {"json":"./lib/youtube.json",
+            "ext": {
                 "type": "MV#抖音音乐MV#快手音乐MV#酷狗音乐MV#酷我音乐MV#QQ音乐MV#助眠曲MV#钢琴曲MV#时光音乐会MV#中国好声音MV#粤语MV#KTV热门MV#滚石MV#古风MV#闽南语MV#印度歌舞MV#网红翻唱MV#韩国女团MV",
                 "proxy": "127.0.0.1:10072"
             },

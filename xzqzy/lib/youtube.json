@@ -76,9 +76,13 @@
 				"key":"tid",
 				"name":"English",
 				"value":[
-				    {"n":"4k 小猪佩奇","v":"@PeppaPigChineseOfficial"},
-					{"n":"4k 熊出没","v":"@booniebearsofficialchinese"},
-				    {"n":"4k 宝宝巴士","v":"@BabyBusTC"}
+				    {"n":"小猪佩奇","v":"@PeppaPigChineseOfficial"},
+					{"n":"汪汪队立大功","v":"@PAWPatrolMandarin"},
+					{"n":"奥特曼","v":"@ultraman_chinese_official"},
+					{"n":"动画乐园","v":"@papaya818"},
+					{"n":"海底小纵队","v":"@OctonautsMandarin"},
+					{"n":"熊出没","v":"@booniebearsofficialchinese"},
+				    {"n":"宝宝巴士","v":"@BabyBusTC"}
 				]
 			}
 		],
