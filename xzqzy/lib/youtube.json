@@ -1,8 +1,8 @@
 {
 	"class":[
 	    {
-			"type_id":"4k 动画片",
-			"type_name":"4k 动画片"
+			"type_id":"动画片",
+			"type_name":"动画片"
 		},
 		{
 			"type_id":"4k 直播",
@@ -142,7 +142,7 @@
 				"key":"tid",
 				"name":"中文",
 				"value":[
-					{"n":"4k 默认中文国漫","v":"@4k 國漫 劇集 3D"},
+					{"n":"默认中文国漫","v":"@4k 國漫 劇集 3D"},
 					{"n":"儿童早教","v":"儿童早教"},
 					{"n":"儿童歌曲","v":"儿童歌曲"},
 					{"n":"儿童音乐","v":"儿童音乐"},
@@ -158,8 +158,8 @@
 				"key":"tid",
 				"name":"English",
 				"value":[
-				{"n":"4k 默认英文国漫","v":"@3D 4k Chinese cartoon"},
-				    {"n":"4k 小猪佩奇","v":"@PeppaPigChineseOfficial 小猪佩奇 中文官方 - Peppa Pig"},
+				{"n":"默认英文国漫","v":"@3D 4k Chinese cartoon"},
+				    {"n":"小猪佩奇","v":"@PeppaPigChineseOfficial 小猪佩奇 中文官方 - Peppa Pig"},
 				    {"n":"合集","v":"4k Anime ENG SUB 合集"},
 				    {"n":"国漫社","v":"@Animation  次元 苍穹动漫 PP看动漫 公馆"},
 				    {"n":"国漫工厂","v":"@3DGuoman  SUB"},
@@ -801,7 +801,7 @@
 				"name":"中文",
 				"value":[
 					{"n":"4k 默认","v":"@4k music"},
-					{"n":"4k 歌手2024","v":"@MangoTV-Official"},
+					{"n":"歌手2024","v":"@MangoTV-Official"},
 					{"n":"4k 超級女聲","v":"@4k 超級女聲"},
 					{"n":"4k Music","v":"4k music"},
 					{"n":"4k 大陆","v":"4k 大陆 音乐"},
