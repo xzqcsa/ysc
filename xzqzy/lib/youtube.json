@@ -29,6 +29,10 @@
 			"type_name":"4k 纪录片"
 		},
 		{
+			"type_id":"风景",
+			"type_name":"风景"
+		},
+		{
 			"type_id":"4k 音乐",
 			"type_name":"4k 音乐"
 		},
@@ -37,12 +41,16 @@
 			"type_name":"4k 体育"
 		},
 		{
-			"type_id":"4k 野性",
-			"type_name":"4k 野生"
+			"type_id":"HDR",
+			"type_name":"HDR"
 		},
 		{
-			"type_id":"4k 风景",
-			"type_name":"4k 风光"
+			"type_id":"4k 野性",
+			"type_name":"4k 風光"
+		},
+		{
+			"type_id":"科技",
+			"type_name":"科技"
 		},
 		{
 			"type_id":"4k 放松",
@@ -52,10 +60,7 @@
 			"type_id":"课程",
 			"type_name":"课程"
 		},
-		{
-			"type_id":"4K",
-			"type_name":"4K"
-		}
+		
 	],
 	"filters":{
 	    "4k 动画片":[
@@ -63,7 +68,7 @@
 				"key":"tid",
 				"name":"中文",
 				"value":[
-					{"n":"4k 默认","v":"4k "},
+					{"n":"4k 默认中文国漫","v":"@4k 國漫 劇集 3D"},
 					{"n":"儿童早教","v":"儿童早教"},
 					{"n":"儿童歌曲","v":"儿童歌曲"},
 					{"n":"儿童音乐","v":"儿童音乐"},
@@ -79,7 +84,17 @@
 				"key":"tid",
 				"name":"English",
 				"value":[
-				    {"n":"小猪佩奇","v":"@PeppaPigChineseOfficial"},
+				{"n":"4k 默认英文国漫","v":"@3D 4k Chinese cartoon"},
+				    {"n":"4k 小猪佩奇","v":"@PeppaPigChineseOfficial 小猪佩奇 中文官方 - Peppa Pig"},
+				    {"n":"合集","v":"4k Anime ENG SUB 合集"},
+				    {"n":"国漫社","v":"@Animation  次元 苍穹动漫 PP看动漫 公馆"},
+				    {"n":"国漫工厂","v":"@3DGuoman  SUB"},
+				    {"n":"阅文动漫","v":"@yuewenanimation  SUB"},
+				    {"n":"哔哩","v":"@madebybilibili  哔哩动漫"},
+                    {"n":"腾讯","v":"@TencentVideoAnimation SUB"},
+                    {"n":"优酷","v":"@youkuanimation 优酷动漫"},
+                    {"n":"爱奇艺","v":"@iQIYIAnime 爱奇艺动漫"}
+				 
 					{"n":"汪汪队立大功","v":"@PAWPatrolMandarin"},
 					{"n":"奥特曼","v":"@ultraman_chinese_official"},
 					{"n":"动画乐园","v":"@papaya818"},
@@ -186,7 +201,7 @@
 				"key":"tid",
 				"name":"中文",
 				"value":[
-					{"n":"4k 默认","v":"4k "},
+					{"n":"4k 默认","v":"@4k hdr movie"},
 					{"n":"4k 大陆","v":"4k 大陆 电影"},
 					{"n":"4k 腾讯视频","v":"@TencentVideo"},
 					{"n":"4k 爱奇艺视频","v":"@iQIYIofficial"},
@@ -222,8 +237,22 @@
 					{"n":"4k Japan","v":"4k japan movie"},
 					{"n":"4k UK","v":"4k uk movie"}
 				]
+			},
+			{
+				"key":"tid",
+				"name":"港剧",
+				"value":[
+					{"n":"4k 默認推薦","v":"Láimheán na tíorthaime leatbhaile"},
+					
+					{"n":"4k 邵氏经典","v":"4k hdr 邵氏经典武侠电影"},
+					{"n":"4k 8號電影","v":"@8-hkmovie 8號電影院 - HK Movie"},
+					{"n":"4k Chinese Dramas","v":"@chinesedramas3560 Chinese Dramas"},
+					{"n":"4k 追劇雜貨舖","v":"@DramaGrocery 追剧杂货铺"},
+					{"n":"4k 中国热门高清电视","v":"@chinahdtv8788 中国热门高清电视 China HDTV"}
+				]
 			}
 		],
+		
 		"4k 综艺":[
 			{
 				"key":"tid",
@@ -256,14 +285,43 @@
 					{"n":"4k Japan","v":"4k japan variety"},
 					{"n":"4k UK","v":"4k uk variety"}
 				]
+			},
+			{
+				"key":"tid",
+				"name":"小品",
+				"value":[
+				    {"n":"4k 春晚小品","v":"@4k 春晚小品"},
+				    {"n":"4k 开心麻花","v":"@4k 开心麻花"},
+				    {"n":"4k 屌丝男士","v":"@4k 屌丝男士"},
+				    {"n":"4k 喜剧综艺","v":"@4k 喜剧综艺"},
+				    {"n":"4k 单口","v":"@4k 单口 相声"},
+				    {"n":"4k 群口","v":"@4k 群口 相声"},
+				    {"n":"4k 德云社","v":"@4k 德云社"},
+				    {"n":"4k 青曲社","v":"@4k 青曲社"},
+				    {"n":"4k 郭德纲","v":"@4k 郭德纲"},
+				    {"n":"4k 岳云鹏","v":"@4k 岳云鹏"},
+				    {"n":"4k 曹云金","v":"@4k 曹云金"},
+				    {"n":"4k 评书","v":"@4k 评书"},
+				    {"n":"4k 小曲","v":"@4k 小曲"},
+				    {"n":"4k 赵本山","v":"@4k 赵本山"},
+				    {"n":"4k 陈佩斯","v":"@4k 陈佩斯"},
+				    {"n":"4k 冯巩","v":"@4k 冯巩"},
+				    {"n":"4k 宋小宝","v":"@4k 宋小宝"},
+				    {"n":"4k 赵丽蓉","v":"@4k 赵丽蓉"},
+				    {"n":"4k 潘长江","v":"@4k 潘长江"},
+				    {"n":"4k 郭冬临","v":"@4k 郭冬临"},
+				    {"n":"4k 严顺开","v":"@4k 严顺开"},
+				    {"n":"4k 文松","v":"@4k 文松"}
+				]
 			}
 		],
+		
 		"4k 纪录片":[
 			{
 				"key":"tid",
 				"name":"中文",
 				"value":[
-					{"n":"4k 默认","v":"4k "},
+					{"n":"4k 默认","v":"@4k documentary"},
 					{"n":"4k BBC纪录片","v":"4k BBC 纪录片"},
 					{"n":"4k 国家地理","v":"4k 国家地理 纪录片"},
 					{"n":"4k Netflix纪录片","v":"4k netflix 纪录片"},
@@ -298,10 +356,10 @@
 				"key":"tid",
 				"name":"中文",
 				"value":[
-					{"n":"4k 默认","v":"4k "},
+					{"n":"4k 默认","v":"@4k music"},
+					{"n":"4k 超級女聲","v":"@4k 超級女聲"},
 					{"n":"4k Music","v":"4k music"},
 					{"n":"4k 大陆","v":"4k 大陆 音乐"},
-					{"n":"4k 芒果音乐","v":"@MangoTV-Music"},
 					{"n":"4k 抖音","v":"4k 抖音"},
 					{"n":"4k TikTok","v":"4k TikTok"},
 					{"n":"4k 香港","v":"4k 香港 音乐"},
@@ -319,6 +377,21 @@
 					{"n":"4k Koera","v":"4k korea music"},
 					{"n":"4k Japan","v":"4k japan music"},
 					{"n":"4k US","v":"4k US music"}
+				]
+			}
+		],
+		"4k 野性":[
+		    {
+				"key":"tid",
+				"name":"4k 風光",
+				"value":[
+				    {"n":"4k 風景","v":"@4k hdr 大自然"},
+				    {"n":"Links TV頻道主","v":"@linksphotograph Links TV 4k hdr"},
+				    {"n":"4k 放鬆","v":"@4k hdr 放鬆"},
+				    {"n":"4k 動物世界","v":"@4k hdr Carnivorous Animals 動物世界"},
+				    {"n":"4k 深海世界","v":"@4k hdr Invertebrate Fish 深海世界"},
+				    {"n":"4k 飛禽走獸","v":"@4k hdr Birds of Prey Columbiform Birds Passerine Birds"},
+				    {"n":"4k 生物世界","v":"@4k hdr Amphibians Reptiles 生物世界"}
 				]
 			}
 		],
