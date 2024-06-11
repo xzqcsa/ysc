@@ -45,8 +45,8 @@
 			"type_name":"体育"
 		},
 		{
-			"type_id":"HDR",
-			"type_name":"HDR"
+			"type_id":"频道主",
+			"type_name":"频道主"
 		},
 		{
 			"type_id":"野性",
@@ -480,6 +480,58 @@
 				]
 			}
 		],
+		"频道主":[
+			{
+				"key":"tid",
+				"name":"頻道主",
+				"value":[{"n":"宇哥侃故事","v":"@yuge"},
+				 {"n":"涌哥侃侃","v":"@ygkkk"},
+				    {"n":"零度解说","v":"@lingdujieshuo"},
+				    {"n":"滇西小哥","v":"@dianxixiaoge"},
+				    {"n":"老高與小茉","v":"@laogao"},
+				    {"n":"李永樂老師","v":"@TchLiyongle"}
+				]
+			},
+			{
+				"key":"tid",
+				"name":"美食頻道主",
+				"value":[
+				    {"n":"美食作家王刚","v":"@chefwang"},
+				    {"n":"小高姐的 Magic Ingredients","v":"@MagicIngredients"},
+				    {"n":"小穎美食","v":"@XiaoYingFood"}
+				]
+			},
+			{
+				"key":"tid",
+				"name":"野外頻道主",
+				"value":[
+				    {"n":"野外求生","v":"@primitivetechnology9550"}
+				]
+			},
+			{
+				"key":"tid",
+				"name":"科普頻道主",
+				"value":[
+				    {"n":"科普","v":"@MrBeast"},
+				    {"n":"航天大學","v":"@Airforceproud95"},
+				    {"n":"世界大戰","v":"@TheGreatWar"},
+				    {"n":"MarkRober","v":"@MarkRober"}
+				]
+			},
+			{
+				"key":"tid",
+				"name":"教材",
+				"value":[
+				    {"n":"不良林","v":"不良林"},
+				   
+				    {"n":"悟空的日常","v":"悟空的日常"},
+				    {"n":"迈克老师","v":"@maikelaoshi 英语教学"},
+				    {"n":"Tangerine Academy","v":"Learn English with Tangerine Academy 英语教学"},
+				    {"n":"Vanessa","v":"Speak English With Vanessa 英语教学"},
+				    {"n":"EnglishClass101","v":"Learn English with EnglishClass101.com 英语教学"}     
+    ]
+   }
+  ],
 		"短剧":[
 	        {
 				"key":"time",
