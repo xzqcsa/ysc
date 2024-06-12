@@ -56,15 +56,7 @@
 				"ratio": 1.1
 			}
 		},
-		{
-            "key": "jinpai",
-            "name": "🔥金牌影院🔥",
-            "type": 3,
-            "api": "./lib/金牌影院.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable":1
-        },
+		
 		{
             "key": "Youtube全",
             "name": "🔥Youtube全🔥",
