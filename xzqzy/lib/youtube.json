@@ -164,6 +164,24 @@
 				"value":[
 				{"n":"默认英文国漫","v":"@3D Chinese cartoon"},
 				    {"n":"小猪佩奇","v":"@PeppaPigChineseOfficial 小猪佩奇 中文官方 - Peppa Pig"},
+					 {"n":"巴啦啦小魔仙","v":"@balalathefairies718"},
+					 {"n":"超级飞侠","v":"@superwingschinesetv"},
+					 {"n":"猪猪侠","v":"@ggbond"},
+					 {"n":"迷你特工队","v":"@miniforceTV_ch"},
+					 {"n":"叶罗丽","v":"@yeloliofficialchannel"},
+					 {"n":"小公主戴安娜","v":"#dianaandroma #LoveDiana"},
+					 {"n":"超级宝贝JOJO","v":"@user-wn6ft5ds7p @adammcspadden8583"},
+					 {"n":"奇妙萌可","v":"@littleyoungheart"},
+					  {"n":"熊熊乐园","v":"@BoonieCubs"},
+					 {"n":"睡衣小英雄","v":"@PJMasksOfficial"},
+					 {"n":"小马宝莉","v":"@yi_song"},
+					 {"n":"猫和老鼠","v":"@wbkids"},
+					 {"n":"汪汪队立大功","v":"@PAWPatrolMandarin"},
+					{"n":"奥特曼","v":"@ultraman_chinese_official"},
+					{"n":"动画乐园","v":"Video For Kids"},
+					{"n":"海底小纵队","v":"@OctonautsMandarin"},
+					{"n":"熊出没","v":"@booniebearsofficialchinese"},
+					 {"n":"喜洋洋与灰太狼","v":"@XYY-Cartoon"},
 				    {"n":"合集","v":"Anime ENG SUB 合集"},
 				    {"n":"国漫社","v":"@Animation  次元 苍穹动漫 PP看动漫 公馆"},
 				    {"n":"国漫工厂","v":"@3DGuoman  SUB"},
@@ -173,11 +191,7 @@
                     {"n":"优酷","v":"@youkuanimation 优酷动漫"},
                     {"n":"爱奇艺","v":"@iQIYIAnime 爱奇艺动漫"},
 				 
-					{"n":"汪汪队立大功","v":"@PAWPatrolMandarin"},
-					{"n":"奥特曼","v":"@ultraman_chinese_official"},
-					{"n":"动画乐园","v":"@papaya818"},
-					{"n":"海底小纵队","v":"@OctonautsMandarin"},
-					{"n":"熊出没","v":"@booniebearsofficialchinese"},
+					
 				    {"n":"宝宝巴士","v":"@BabyBusTC"}
 				]
 			}
@@ -211,6 +225,11 @@
 				"name":"中文",
 				"value":[
 					{"n":"默认","v":""},
+					{"n":"台视新闻","v":"@TTV_NEWS"},
+					{"n":"香港卫视","v":"@hks-tv"},
+					{"n":"中视新闻","v":"@chinatvnews"},
+					{"n":"凤凰卫视","v":"@phoenixtvhk"},
+					{"n":"凤凰军情观察室","v":"@militarynews2003"},
 					{"n":"News","v":"news"},
 					{"n":"时政","v":"时政 新闻"},
 					{"n":"体育","v":"体育 新闻"},
@@ -222,7 +241,7 @@
 			{
 				"key":"tid",
 				"name":"English",
-				"value":[
+				"value":[{"n":"三立新闻","v":"@setnews"},
 				    {"n":"News","v":"News"},
 					{"n":"CNN","v":"CNN news"},
 					{"n":"BBC","v":"BBC news"}
@@ -957,7 +976,8 @@
 			{
 				"key":"tid",
 				"name":"中文",
-				"value":[
+				"value":[{"n":"环球视听","v":"环球视听1980 @RippleOfficialEvent"},
+				    {"n":"海外抖音","v":"TikTok 翻唱 抖音 音樂"},
 					 {"n":"YouTube 點閱率最高","v":"YouTube 點閱率最高觀看次數最多華語歌曲"},
 				    {"n":"海外抖音","v":"TikTok 翻唱 抖音 音樂"},
 				    {"n":"粵語","v":"粵語 音樂"},
