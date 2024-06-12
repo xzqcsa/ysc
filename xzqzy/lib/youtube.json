@@ -5,7 +5,7 @@
 			"type_name":"动画片"
 		},
 		{
-			"type_id":"直播",
+		 "type_id":"YouTube Live",
 			"type_name":"直播"
 		},
 		{
@@ -33,6 +33,10 @@
 			"type_name":"纪录片"
 		},
 		{
+			"type_id":"16k HDR",
+			"type_name":"16k HDR"
+		},
+		{
 			"type_id":"风景",
 			"type_name":"风景"
 		},
@@ -45,7 +49,7 @@
 			"type_name":"体育"
 		},
 		{
-			"type_id":"频道主",
+			"type_id":"Full YouTube",
 			"type_name":"频道主"
 		},
 		{
@@ -196,7 +200,7 @@
 				]
 			}
 		],
-		"直播":[
+		"YouTube Live":[
 			{
 				"key":"tid",
 				"name":"中文",
@@ -354,16 +358,16 @@
 				"key":"tid",
 				"name":"English",
 				"value":[
-					{"n":"Drama","v":"drama"},
-					{"n":"US","v":"drama US"},
-					{"n":"Netflix","v":"netflix drama"},
-					{"n":"Disney","v":"disney drama"},
-					{"n":"Apple","v":"apple drama"},
-					{"n":"Amazon","v":"amazon drama"},
-					{"n":"HBO","v":"hbo drama"},
-					{"n":"Korea","v":"korea drama"},
-					{"n":"Japan","v":"japan drama"},
-					{"n":"UK","v":"uk drama"}
+					{"n":"Drama","v":"Full Episode drama"},
+					{"n":"US","v":"drama Full Episode US"},
+					{"n":"Netflix","v":"netflix Full Episode drama"},
+					{"n":"Disney","v":"disney Full Episode drama"},
+					{"n":"Apple","v":"apple Full Episode drama"},
+					{"n":"Amazon","v":"amazon Full Episode drama"},
+					{"n":"HBO","v":"hbo Full Episode drama"},
+					{"n":"Korea","v":"korea Full Episode drama"},
+					{"n":"Japan","v":"japan Full Episode drama"},
+					{"n":"UK","v":"uk Full Episode drama"}
 				]
 			}
 		],
@@ -459,30 +463,30 @@
 					{"n":"优酷","v":"优酷 电影"},
 					{"n":"港台","v":"港台 电影"},
 					{"n":"美国","v":"美国 电影"},
-					{"n":"Netflix","v":"netflix 电影"},
-					{"n":"Disney","v":"disney 电影"},
-					{"n":"Apple","v":"apple 电影"},
-					{"n":"Amazon","v":"amazon 电影"},
-					{"n":"HBO","v":"hbo 电影"},
-					{"n":"韩国","v":"韩国 电影"},
-					{"n":"日本","v":"日本 电影"},
-					{"n":"英国","v":"英国 电影"}
+					{"n":"Netflix","v":"netflix Full movie 电影"},
+					{"n":"Disney","v":"disney Full movie 电影"},
+					{"n":"Apple","v":"apple Full movie 电影"},
+					{"n":"Amazon","v":"amazon Full movie 电影"},
+					{"n":"HBO","v":"hbo Full movie 电影"},
+					{"n":"韩国","v":"韩国 Full movie 电影"},
+					{"n":"日本","v":"日本 Full movie 电影"},
+					{"n":"英国","v":"英国 Full movie 电影"}
 				]
 			},
 			{
 				"key":"tid",
 				"name":"English",
 				"value":[
-					{"n":"movie","v":"movie"},
-					{"n":"US","v":"us movie"},
-					{"n":"Netflix movie","v":"netflix movie"},
-					{"n":"Disney","v":"disney movie"},
-					{"n":"Apple","v":"apple movie"},
-					{"n":"Amazon","v":"amazon movie"},
-					{"n":"HBO","v":"hbo movie"},
-					{"n":"Koera","v":"korea movie"},
-					{"n":"Japan","v":"japan movie"},
-					{"n":"UK","v":"uk movie"}
+					{"n":"movie","v":"youtube movies Full movie"},
+					{"n":"US","v":"us Full movie movie"},
+					{"n":"Netflix movie","v":"netflix Full movie movie"},
+					{"n":"Disney","v":"disney Full movie movie"},
+					{"n":"Apple","v":"apple Full movie movie"},
+					{"n":"Amazon","v":"amazon Full movie movie"},
+					{"n":"HBO","v":"hbo Full movie movie"},
+					{"n":"Koera","v":"korea Full movie movie"},
+					{"n":"Japan","v":"japan Full movie movie"},
+					{"n":"UK","v":"uk Full movie movie"}
 				]
 			},
 			{
@@ -499,7 +503,7 @@
 				]
 			}
 		],
-		"频道主":[
+		"Full YouTube":[
 			{
 				"key":"tid",
 				"name":"頻道主",
@@ -630,8 +634,8 @@
 				"key":"tid",
 				"name":"短劇",
 				"value":[
-					 {"n":"默认","v":""},
-     {"n":"都市","v":"都市"},
+					{"n":"都市","v":"@Urbanshort-TV 都市 短劇"},
+    
      {"n":"爱情","v":"爱情"},
      {"n":"复仇","v":"复仇"},
      {"n":"穿越","v":"穿越"},
@@ -789,7 +793,22 @@
 				]
 			}
 		],
-		
+		"16k HDR":[
+		    {
+				"key":"tid",
+				"name":"風景",
+				"value":[
+				    {"n":"運動","v":"GoPro 女翼裝飛行 極限自行車運動"},
+				    {"n":"風景","v":"hdr 大自然"},
+				    {"n":"Links TV頻道主","v":"@linksphotograph Links TV hdr"},
+				    {"n":"放鬆","v":"hdr 放鬆"},
+				    {"n":"動物世界","v":"hdr Carnivorous Animals 動物世界"},
+				    {"n":"深海世界","v":"hdr Invertebrate Fish 深海世界"},
+				    {"n":"飛禽走獸","v":"hdr Birds of Prey Columbiform Birds Passerine Birds"},
+				    {"n":"生物世界","v":"hdr Amphibians Reptiles 生物世界"}
+				]
+			}
+		],
 		"纪录片":[
 		{
 				"key":"time",
@@ -873,9 +892,9 @@
 					{"n":"BBC纪录片","v":"BBC 纪录片"},
 					{"n":"国家地理","v":"国家地理 纪录片"},
 					{"n":"Netflix纪录片","v":"netflix 纪录片"},
-					{"n":"BBC","v":"BBC documentary"},
-					{"n":"National Geographic","v":"National Geographic documentary"},
-					{"n":"Netflix","v":"netflix documentary"},
+					{"n":"BBC","v":"Full BBC documentary"},
+					{"n":"National Geographic","v":"Full National Geographic documentary"},
+					{"n":"Netflix","v":"Full netflix documentary"},
 					{"n":"历史","v":"历史 纪录片"},
 					{"n":"野性","v":"野性 纪录片"},
 					{"n":"地球","v":"地球 纪录片"},
@@ -889,13 +908,13 @@
 				"key":"tid",
 				"name":"English",
 				"value":[
-					{"n":"History","v":"history documentary"},
-					{"n":"WILD","v":"wild documentary"},
-					{"n":"Earch","v":"earth documentary"},
-					{"n":"Universe","v":"universe documentary"},
-					{"n":"Oceans","v":"oceans documentary"},
-					{"n":"Humanism","v":"humanism documentary"},
-					{"n":"Wars","v":"war documentary"}
+					{"n":"History","v":"Full history documentary"},
+					{"n":"WILD","v":"Full wild documentary"},
+					{"n":"Earch","v":"Full earth documentary"},
+					{"n":"Universe","v":"Full universe documentary"},
+					{"n":"Oceans","v":"Full oceans documentary"},
+					{"n":"Humanism","v":"Full humanism documentary"},
+					{"n":"Wars","v":"Full war documentary"}
 				]
 			}
 		],
