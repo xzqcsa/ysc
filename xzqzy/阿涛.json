@@ -27,6 +27,24 @@
             },
             "ext": "./XYQTVBox/阿涛tokenm.json"
         },
+		 {
+      "key": "Wexjiazitv",
+      "name": "🔥甲子🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt",
+      "api": "csp_Wexjiazitv",
+      "searchable": 1,
+      "changeable": 1
+    },
+	{
+      "key": "Wexshandian",
+      "name": "🔥️闪电🔥",
+      "type": 3,
+	  "jar": "./lib/wex.txt",
+      "api": "csp_Wexshandian",
+      "searchable": 1,
+      "changeable": 1
+    },
 		{
             "key": "csp_YingSC",
             "name": "🔥车车🔥",
