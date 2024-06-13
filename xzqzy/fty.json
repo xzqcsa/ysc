@@ -57,6 +57,18 @@
 			}
 		},
 		{
+      "key": "文才",
+      "name": "🔥文才影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/文才.json"
+    },
+		{
       "key": "西沃",
       "name": "🔥西屋影视🔥",
       "type": 3,
@@ -1347,15 +1359,7 @@
                 "分类": "电影$1#连续剧$2#动漫$3#综艺$4#短剧$6"
             }
         },
-	{
-      "key": "Wexwencai",
-      "name": "🔥文才🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt",
-      "api": "csp_Wexwencai",
-      "searchable": 1,
-      "changeable": 1
-    },
+	
 	
 		
 		{"key":"TVB","name":"🔥TVB影院🔥",
