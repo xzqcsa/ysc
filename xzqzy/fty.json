@@ -56,6 +56,18 @@
 				"ratio": 1.1
 			}
 		},
+		{
+      "key": "西沃",
+      "name": "🔥西屋影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/西屋影视.json"
+    },
 		 {
       "key": "Wexjiazitv",
       "name": "🔥甲子🔥",
