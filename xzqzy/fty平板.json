@@ -107,18 +107,7 @@
       "jar": "./lib/XBPQ.jar",
       "ext": "./lib/西屋影视.json"
     },
-	{
-      "key": "文才",
-      "name": "🔥文才影视🔥",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-     
-      "filterable": 1,      
-      "jar": "./lib/XBPQ.jar",
-      "ext": "./lib/文才.json"
-    },
+	
 		 {
       "key": "Wexjiazitv",
       "name": "🔥甲子🔥",
@@ -155,23 +144,7 @@
                 "ratio": 1.5
             }
         },
-			{
-            "key": "Youtube",
-            "name": "🔥Youtube🔥",
-            "type": 3,
-            "api": "csp_Youtube",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
-                "type": "电影#动画片#动漫#电视剧#国产剧#腾讯视频#爱奇艺#优酷#搜狗视频#芒果视频#网易云音乐#风光#纪录片#新闻#4K TVB#@ygkkk#CM喂饭#bbc documentary#national geographic documentary#Shorts#movie#documentary#Live nrws in English#News live#music#综艺#直播#剧集#音乐#体育#课程",
-                "proxy": "127.0.0.1:10072"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.5
-            }
-        },
+			
 		{
             "key": "Youtube1",
             "name": "🔥油管🔥",
@@ -189,23 +162,7 @@
                 "ratio": 1.5
             }
         },
-		{
-            "key": "Youtube11222",
-            "name": "🔥Youtube┃4K🔥",
-            "type":3,
-			"api": "csp_Youtube",
-			"searchable": 1,
-			"quickSearch": 0,
-			"changeable": 0,
-            "ext": {"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
-                "type": "4K TVB#Vertebrate 4k#Invertebrate 4k#Carnivorous Animals 4k#Herbivorous Animals 4k#Omnivorous Animals 4k#Passerine Birds 4k#Columbiform Birds 4k#Birds of Prey 4k#Reptiles 4k#Fish#Amphibians 4k",
-                "proxy": "127.0.0.1:10072"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.5
-            }
-        },
+		
 		{
             "key": "Youtube_jiaoyu",
             "name": "🔥Youtube┃教育🔥",
@@ -223,57 +180,9 @@
                 "ratio": 1.5
             }
         },
-        {
-            "key": "Youtube_ertong",
-            "name": "🔥Youtube┃儿童🔥",
-            "type": 3,
-            "api": "csp_Youtube",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 1,
-            "ext": {"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
-            "type": "儿童早教#儿童歌曲#儿童音乐#儿童绘画#儿童动画#儿童启蒙故事#儿童英语启蒙#儿童安全教育#睡前故事#贝瓦儿歌#宝宝巴士#儿歌多多",
-            "proxy": "127.0.0.1:10072"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.5
-            }
-        },
-                {
-            "key": "Youtube_xiqu",
-            "name": "🔥Youtube┃戏曲🔥",
-            "type": 3,
-            "api": "csp_Youtube",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 1,
-            "ext": {"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
-                "type": "锡剧#秦腔#京剧#越剧#黄梅戏#评剧#豫剧#昆曲#高腔#梆子腔#河北梆子#晋剧#蒲剧#雁剧#上党梆子#武安平调#二人台#吉剧#龙江剧#越调#河南曲剧#山东梆子#淮剧#滑稽戏#婺剧#绍剧#徽剧#闽剧#莆仙戏#梨园戏#高甲戏#赣剧#采茶戏#汉剧#湘剧#祁剧#湖南花鼓戏#粤剧#潮剧#桂剧#彩调#壮剧#川剧#黔剧#滇剧#傣剧#藏剧#皮影戏",
-                "proxy": "127.0.0.1:10072"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.5
-            }
-        },
-                {
-            "key": "Youtube_mv",
-            "name": "🔥Youtube┃MV🔥",
-            "type": 3,
-            "api": "csp_Youtube",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 1,
-            "ext": {"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
-                "type": "MV#抖音音乐MV#快手音乐MV#酷狗音乐MV#酷我音乐MV#QQ音乐MV#助眠曲MV#钢琴曲MV#时光音乐会MV#中国好声音MV#粤语MV#KTV热门MV#滚石MV#古风MV#闽南语MV#印度歌舞MV#网红翻唱MV#韩国女团MV",
-                "proxy": "127.0.0.1:10072"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.5
-            }
-        },
+        
+                
+               
 		{"key":"如意影院",
 	"name":"🔥如意影院🔥",
 	"type":3,
@@ -1099,15 +1008,7 @@
 			"timeout": 60,
 			"ext": "./lib/tokenm1.json$$$https://www.66ss.org$$$null$$$1"
 		},
-		{
-            "key": "七味1111",
-            "name": "🧲七味磁力🧲",
-            "type": 3,
-			 "jar":"./lib/XBPQ.jar",
-            "api": "csp_XBPQ",
-            "playerType":1,
-            "ext": "./lib/七味影视1.json"
-             },
+		
 			 {"key":"xunlei8",
 			 "name":"🧲xunlei8🧲",
 			 "type":3,
