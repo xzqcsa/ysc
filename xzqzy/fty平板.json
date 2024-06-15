@@ -1837,12 +1837,10 @@
                         "name": "9T1",
                         "server": "https://drive.mc.ci",
                         "startPage": "/",
+						"params":[{"path":"/OneDrive","pass":"mcci"},{"path":"/115Cloud","pass":"mcci"}],
                         "showAll": false,
-                        "search": true,
-						  "login": {
-                      "username": "",
-                      "password": "mcci"
-                      }
+                        "search": true
+						  
                     },
 					{
                         "name": "小雅2",
