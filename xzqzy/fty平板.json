@@ -1834,6 +1834,17 @@
                       }
                     },
 					{
+                        "name": "9T1",
+                        "server": "https://drive.mc.ci",
+                        "startPage": "/",
+                        "showAll": false,
+                        "search": true,
+						  "login": {
+                      "username": "",
+                      "password": "mcci"
+                      }
+                    },
+					{
                         "name": "小雅2",
                         "server": "http://223.166.73.99:5678/",
                         "startPage": "/",
