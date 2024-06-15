@@ -41,6 +41,15 @@
 				"ratio": 1.1
 			}
 		},
+		{"key":"AList1234",
+		"name(9T)":"9TAList",
+		"type":3,
+		"api":"csp_AList",
+		"searchable":1,
+		"recordable":0,
+		"ext":{"drives":[{"name":"9T","server":"https://drive.mc.ci",
+		"params":[{"path":"/OneDrive","pass":"mcci"},
+		{"path":"/115Cloud","pass":"mcci"}]}]}},
 	{"key":"PikPakShare11",
 	"name":"🔥PikPak影视🔥",
 	"type":3,
