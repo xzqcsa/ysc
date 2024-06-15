@@ -62,7 +62,7 @@
 		"api":"csp_AList",
 		"searchable":1,
 		"recordable":0,
-		"ext":{"drives":[{"name":"9T","server":"https://drive.mc.ci$$$127.0.0.1:10072",
+		"ext":{"drives":[{"name":"9T","server":"https://drive.mc.ci","proxy": "127.0.0.1:10072",
 		"params":[{"path":"/OneDrive","pass":"mcci"},
 		{"path":"/115Cloud","pass":"mcci"}]}]}},
 	{"key":"PikPakShare11",
