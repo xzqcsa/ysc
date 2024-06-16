@@ -56,7 +56,25 @@
 				"ratio": 1.1
 			}
 		},
-		
+		{
+            "key": "追剧兔",
+            "name": "🔥追剧兔🔥",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://www.zjtu.one/api.php/app/"
+        },
+		{
+      "key": "爱你短剧",
+      "name": "🔥爱你短剧🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/爱你短剧.json"
+    },
 		{
       "key": "西沃",
       "name": "🔥西屋影视🔥",
@@ -890,7 +908,7 @@
 			"api": "csp_Star",
 			"searchable": 1,
 			"changeable": 0,
-			"ext":"socks5://127.0.0.1:10074"
+			"ext":"socks5://127.0.0.1:10072"
 		},
 	  {
             "key":"Wogg111",
@@ -966,7 +984,7 @@
 			"searchable": 1, 
 			"filterable": 1, 
 			"changeable": 0, 
-			"ext":"0$$$socks5://127.0.0.1:10074" 
+			"ext":"0$$$socks5://127.0.0.1:10072" 
 		},
 		{
             "key": "libhd",

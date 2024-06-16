@@ -14,7 +14,25 @@
       "filterable": 0,
       "ext": "./lib/Doubanrebo.js"
     },
-	
+	{
+            "key": "追剧兔",
+            "name": "🔥追剧兔🔥",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://www.zjtu.one/api.php/app/"
+        },
+		{
+      "key": "爱你短剧",
+      "name": "🔥爱你短剧🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/爱你短剧.json"
+    },
 	{
       "key": "西沃",
       "name": "🔥西屋影视🔥",
@@ -85,6 +103,15 @@
                 "分类url": "https://miai9.cc/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
                 "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$32"
             }
+        },
+		{
+            "key": "jinpai",
+            "name": "🔥金牌影院🔥",
+            "type": 3,
+            "api": "./lib/金牌影院.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable":1
         },
 		{
             "key": "csp_XBPQ_大师兄影院",
