@@ -2458,6 +2458,16 @@
         }
       }
     },
+	{
+            "name": "腾讯4K",
+            "type": 1,
+            "url": "http://110.40.61.123:7777/api/?key=IxRXSU7o6P9PzlIxrW&url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+                }
+            }
+        },
 	{"name":"-星星解析-","type":1,"url":"http://xxjx.qqwx.ren/?url="},
 
 	 {
