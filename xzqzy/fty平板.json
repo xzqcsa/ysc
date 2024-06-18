@@ -229,7 +229,19 @@
       "filterable": 1,      
       "jar": "./lib/XBPQ.jar",
       "ext": "./lib/天龙高清.json"
-    },                  
+    },               
+ {
+      "key": "火狼",
+      "name": "🔥火狼影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/火狼Pro-----.json"
+    },       	
                 
                
 		{"key":"如意影院",

@@ -1,0 +1,21 @@
+		{
+        
+				"请求头": "User-Agent$MOBILE_UA",
+                "主页url": "https://www.huolang.pro",
+				"数组": "<a class=\"list-pics part-2by3&&</a",
+                "图片": "data-src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "副标题": "list-remarks\">&&</span",
+				"线路数组": "<a class=\"btns-info rims-info&&</a>[替换:播放线路1>>随缘①#播放线路2>>随缘②#播放线路3>>随缘③#播放线路4>>随缘④#播放线路5>>随缘⑤#播放线路6>>随缘⑥]",
+                "线路标题": ">&&</a",
+				"播放数组": "play-item pnmd-5px&&</ul>",
+                "播放列表":"<li&&</li>",
+				"播放标题":">&&</a>",
+				"播放链接":"href=\"&&\"",
+				"跳转播放链接": "<script type=\"text/javascript*url\":\"&&\"",
+				"简介": "<p class=\"text-muted pnxs-10px lhxs-30px\">&&</p",
+				"分类url": "https://www.huolang.pro/zhao/{cateId}-{area}--{class}-----{catePg}---{year}.html[https://www.huolang.pro/lang{cateId}.html];;rc",
+				"分类":"电影$1#电视剧$2#综艺$4#动漫$3#短剧$35"
+            
+        }

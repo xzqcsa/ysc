@@ -168,6 +168,18 @@
                 "ratio": 1.5
             }
         },
+		 {
+      "key": "火狼",
+      "name": "🔥火狼影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/火狼Pro-----.json"
+    },       
         {
       "key": "蛋蛋",
       "name": "🔥蛋蛋影视🔥",
