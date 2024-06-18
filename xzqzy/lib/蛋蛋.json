@@ -1,0 +1,21 @@
+{
+                "发布地址": "https://www.dandanju.vip/",
+                "数组": "ewave-vodlist__thumb lazyload&&</a",
+                "副标题": "pic-text text-right\">&&</span+pic-tag pic-tag-h\">&&</span",
+                "简介": "description\" content=\"&&\"",
+                "线路数组": "\\#playlist&&</li",
+                "线路标题": ">&&（",
+                "播放数组": "<ul class=\"ewave-content__playlist&&</ul",
+                "跳转解析": "默认$https://www.dandanju.cc/webplayer/?vid=#蘑菇云播$https://www.mgplayer.cc/player/index.php?vid=",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "搜索模式": "1",
+                "搜索数组": "<li class=\"active top-line-dot&&</li",
+                "搜索图片": "data-original=\"&&\"",
+                "搜索标题": "title=\"&&\"",
+                "搜索链接": "title\"><a href=\"&&\"",
+                "搜索副标题": "pic-text text-right\">正片</span>",
+                "搜索url": "https://www.dandanju.cc/search/{wd}----------{pg}---.html",
+                "分类url": "https://www.dandanju.cc/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+            }
+     

@@ -22,6 +22,30 @@
             "ext": "https://www.zjtu.one/api.php/app/"
         },
 		{
+      "key": "蛋蛋",
+      "name": "🔥蛋蛋影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/蛋蛋.json"
+    },       
+        {
+      "key": "天龙",
+      "name": "🔥天龙影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/天龙高清.json"
+    },               
+		{
       "key": "爱你短剧",
       "name": "🔥爱你短剧🔥",
       "type": 3,
