@@ -1,0 +1,15 @@
+{
+				"请求头": "User-Agent$MOBILE_UA",
+                "主页url": "https://lkvod.us",
+                "副标题": "<div class=\"module-item-note\">&&</div",
+				"线路数组": "<div class=\"module-tab-item tab-item&&</div",
+                "线路标题": ">&&</span",
+				"播放数组": "module-play-list-content&&</div>",
+                "播放列表":"<a&&</a>",
+				"播放标题":">&&</span>",
+				"播放链接":"href=\"&&\"",
+				"简介": "20px;\"><p>&&</p",
+				//https://lkvod.us/show/13--hits------3---2024.html
+				"分类url": "https://lkvod.us/show/{cateId}--{by}------{catePg}---{year}.html;;rc",
+				"分类":"电影$1#电视剧$2#综艺$3#动漫$4"
+            }

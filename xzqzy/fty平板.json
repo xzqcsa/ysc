@@ -65,6 +65,18 @@
 		"ext":{"drives":[{"name":"9T","server":"https://drive.mc.ci","proxy": "127.0.0.1:10072",
 		"params":[{"path":"/OneDrive","pass":"mcci"},
 		{"path":"/115Cloud","pass":"mcci"}]}]}},
+		{
+      "key": "来看",
+      "name": "🔥来看影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/来看点播.json"
+    },
 	{
       "key": "咖啡",
       "name": "🔥咖啡影视🔥",
