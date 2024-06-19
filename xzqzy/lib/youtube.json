@@ -1,8 +1,8 @@
-{
+{ "recommend":"LIST:最新|推薦,官方頻道,GETTRENDS",
 	"class":[
 	{
 			"type_id":"GETTRENDS",
-			"type_name":"Youutbe趨勢"
+			"type_name":"时下流行"
 		},
 	    {
 			"type_id":"动画片",
@@ -743,7 +743,14 @@
      {"n":"复仇","v":"复仇"},
      {"n":"穿越","v":"穿越"},
      {"n":"喜剧","v":"喜剧"},
-     {"n":"奇幻","v":"奇幻"}
+     {"n":"奇幻","v":"奇幻"},
+	 {"n":"快抖短劇","v":"full 快手劇集 抖音劇集"},
+					{"n":"大陆","v":"full 大陆 短剧"},
+					{"n":"腾讯","v":"full 腾讯 短剧"},
+					{"n":"爱奇艺","v":"full 爱奇艺 短剧"},
+					{"n":"优酷","v":"full 优酷 短剧"},
+					{"n":"芒果","v":"full 芒果TV 短剧"},
+					{"n":"搜狐","v":"full 搜狐 短剧"},
     ]
    },
    {
@@ -755,7 +762,8 @@
         {"n":"咖啡追剧","v":"@@coffeedrama605"},
         {"n":"斗罗短剧","v":"@DouluoDrama123"},
         {"n":"嘟嘟剧场","v":"@DUDUJUCHANG"},
-        {"n":"牛牛短剧","v":"@niuniuduanju"}
+        {"n":"牛牛短剧","v":"@niuniuduanju"},
+		{"n":"港澳台","v":"完整 香港短劇 澳門短劇 台灣短剧"}
         
     ]
    }
@@ -1101,7 +1109,7 @@
 				"name":"CCTV直播",
 				"value":[
 				    {"n":"CCTV中文国际","v":"Full CCTV中文国际"},
-				    {"n":"CCTV1综合","v":"Full CCTV1 直播"},
+				    {"n":"CCTV1综合","v":"Full CCTV1综合 直播"},
 				    {"n":"CCTV2财经","v":"Full CCTV2"},
 				    {"n":"CCTV3综艺","v":"Full CCTV3"},
 				    {"n":"CCTV4亚洲","v":"Full CCTV–4中文国际亚洲"},
