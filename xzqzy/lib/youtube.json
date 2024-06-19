@@ -1,5 +1,9 @@
 {
 	"class":[
+	{
+			"type_id":"GETTRENDS",
+			"type_name":"Youutbe趨勢"
+		},
 	    {
 			"type_id":"动画片",
 			"type_name":"动画片"

@@ -56,7 +56,30 @@
 				"ratio": 1.1
 			}
 		},
-		
+		{
+      "key": "咖啡",
+      "name": "🔥咖啡影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/咖啡追剧.json"
+    },
+	{
+      "key": "肚里",
+      "name": "🔥肚里影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/肚子里影视.json"
+    },
 		{
       "key": "西沃",
       "name": "🔥西屋影视🔥",

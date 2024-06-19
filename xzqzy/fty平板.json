@@ -65,51 +65,30 @@
 		"ext":{"drives":[{"name":"9T","server":"https://drive.mc.ci","proxy": "127.0.0.1:10072",
 		"params":[{"path":"/OneDrive","pass":"mcci"},
 		{"path":"/115Cloud","pass":"mcci"}]}]}},
-	{"key":"PikPakShare11",
-	"name":"🔥PikPak影视🔥",
-	"type":3,
-	"api":"csp_PikPakShare",
-	"searchable":1,
-	"quickSearch":1, 
-	"changeable":1,
-	"filterable":0,
-	"timeout":60, 
-	"ext":"./lib/tokenm1.json$$$./lib/pikpakclass1.json$$$./lib/pikpakclass1.json.txt.gz",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
-		{"key":"PikPakShare12222",
-	"name":"🔥PikPak分享1🔥",
-	"type":3,
-	"api":"csp_PikPakShare",
-	"searchable":1,
-	"quickSearch":1,
-	"changeable":1,
-	"filterable":0,
-	"timeout":60, 
-	"ext":"./lib/tokenm1.json$$$./lib/pikpakshare.txt$$$db$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},			
-	{"key":"PikPakShare",
-	"name":"🔥PikPak分享2🔥",
-	"type":3,
-	"api":"csp_PikPakShare",
-	"searchable":1,
-	"quickSearch":1,
-	"changeable":1,
-	"filterable":0,
-	"timeout":60, 
-	"ext":"./lib/tokenm1.json$$$./lib/pikpakclass.a1.json$$$./lib/pikpakclass.a1.txt.gz",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},	
+	{
+      "key": "咖啡",
+      "name": "🔥咖啡影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/咖啡追剧.json"
+    },
+	{
+      "key": "肚里",
+      "name": "🔥肚里影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/肚子里影视.json"
+    },
 		{
             "key": "追剧兔",
             "name": "🔥追剧兔🔥",
