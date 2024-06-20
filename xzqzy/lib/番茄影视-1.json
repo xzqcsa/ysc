@@ -1,0 +1,23 @@
+		{
+           
+				"请求头": "User-Agent$MOBILE_UA",
+                "主页url": "https://www.yirenmeng.com",
+				"嗅探词": ".mp4#.m3u8#.flv",
+				"二次截取": "module-main module-page \">&&</div",
+				"数组": "<a&&</div></div></a>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "副标题": "<div class=\"module-item-note\">&&</div",
+				"线路数组": "<div class=\"module-tab-item tab-item&&</div",
+                "线路标题": ">&&</span",
+				"播放数组": "module-play-list-content&&</div>",
+                "播放列表":"<a&&</a>",
+				"播放标题":">&&</span>",
+				"播放链接":"href=\"&&\"",
+				"跳转解析": "默认$https://jx.shipinbofang.net:55666/player/jiexi.php?code=5566jiexi&if=1&url=",
+				"简介": "module-info-introduction\">&&</p>",
+				"分类url": "https://www.yirenmeng.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}/[https://www.yirenmeng.com/vodtype/{cateId}/];;rc",
+				"分类":"电影$dianying#电视剧$dsj#综艺$zongyi#动漫$dongman#4K$4kdianying"
+            
+        }
