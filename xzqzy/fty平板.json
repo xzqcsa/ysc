@@ -66,6 +66,18 @@
 		"params":[{"path":"/OneDrive","pass":"mcci"},
 		{"path":"/115Cloud","pass":"mcci"}]}]}},
 		{
+      "key": "爱影视",
+      "name": "🔥爱影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/爱影视.json"
+    },
+		{
       "key": "齐心影视",
       "name": "🔥七新影视🔥",
       "type": 3,

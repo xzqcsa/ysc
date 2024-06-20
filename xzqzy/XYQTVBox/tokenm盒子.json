@@ -103,5 +103,6 @@
 "wgcf_ss_recursion": false,
 "wgcf_ss_tier": 3,
 "wgcf_ss_enabled": true,
+"libxl_url":"./libxl_thunder_sdk.so",
 "youtube_proxy":"127.0.0.1:10072"
 }
