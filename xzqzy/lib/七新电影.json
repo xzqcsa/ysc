@@ -1,0 +1,18 @@
+{
+    "站名": "七新电影网",
+    "主页url": "http://www.7xdy.com/",
+    "请求头": "手机",
+    "编码": "UTF-8",
+    "数组": "class=\"stui-vodlist__thumb lazyload\"&&</a",
+    "简介": "<span class=\"detail-content\" style=*>&&</span>",
+    "主演": "主演：&&</p",
+    "影片状态": "状态：&&</p",
+    "线路数组": "class=\"title\">&&</h3[排序:奇艺视频>]",
+    "线路标题": "✨集多专享✨+.png\"/>&&<",
+    "播放数组": "class=\"stui-content__playlist playlink clearfix column8\">&&</ul",
+    "搜索模式": "1",
+    "搜索url": "/search.php;post;searchword={wd}",
+    "分类url": "http://www.7xdy.com/{cateId}/index{catePg}.html[http://www.7xdy.com/{cateId}/index.html];;kRC",
+    "分类": "电影&电视剧&综艺&动漫",
+    "分类值": "dianyingpian&dianshiju&zongyi&dongman"
+}
