@@ -56,7 +56,61 @@
 				"ratio": 1.1
 			}
 		},
+		{
+            "key": "Youtube全",
+            "name": "🔥Youtube全🔥",
+            "type": 3,
+            "api": "csp_Youtube",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {"json":"./lib/youtube.json",
+			"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
+                "type": "4k 动画片#4k 直播#4k 新闻#4k 剧集#4k 电影#4k 综艺#4k 纪录片#4k 音乐#4k 体育#4k 风景#4k 放松#课程#@ygkkk#CM喂饭#bbc documentary#national geographic documentary#Shorts#movie#documentary#Live nrws in English#News live",
+                "proxy": "127.0.0.1:10072"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
 		
+	{
+            "key": "Youtube戏曲",
+            "name": "🔥Youtube戏曲🔥",
+            "type": 3,
+            "api": "csp_Youtube",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+			"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
+                "type": "锡剧#京剧#越剧#黄梅戏#评剧#豫剧#昆曲#淮剧#绍剧#徽剧#梨园戏",
+                "proxy": "127.0.0.1:10072"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },	
+		{"key":"花姐影院",
+		"name":"🔥花姐┃影院🔥",
+		"type":3,
+		"api":"csp_XBPQ",
+		"searchable":1,
+		"quickSearch":1,
+		"filterable":1,
+		"ext":{"数组":"fed-lazy&&</a>",
+		"副标题":"fed-text-center\">&&</span",
+		"简介":"fed-matp-v\">&&</div",
+		"线路数组":"href=\"\\#playlist&&</li>",
+		"线路标题":"</i>&&</a>",
+		"播放数组":"<ul class=\"myui-content__list&&</ul",
+		"跳转播放链接":"var now=\"&&\"",
+		"搜索url":"https://www.huajie2.com/search.php?page={pg}&searchword={wd}&searchtype=",
+		"分类url":"https://www.huajie2.com/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId}&area={area}&year={year}&letter=&yuyan={lang}&state=&money=&ver=&jq=",
+		"分类":"电视剧&电影&综艺&动漫","分类值":"2&1&3&4"}},
+
 		{
       "key": "齐心影视",
       "name": "🔥七新影视🔥",
@@ -147,43 +201,7 @@
       "searchable": 1,
       "changeable": 1
     },
-		{
-            "key": "Youtube全",
-            "name": "🔥Youtube全🔥",
-            "type": 3,
-            "api": "csp_Youtube",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {"json":"./lib/youtube.json",
-			"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
-                "type": "4k 动画片#4k 直播#4k 新闻#4k 剧集#4k 电影#4k 综艺#4k 纪录片#4k 音乐#4k 体育#4k 风景#4k 放松#课程#@ygkkk#CM喂饭#bbc documentary#national geographic documentary#Shorts#movie#documentary#Live nrws in English#News live",
-                "proxy": "127.0.0.1:10072"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.5
-            }
-        },
 		
-	{
-            "key": "Youtube戏曲",
-            "name": "🔥Youtube戏曲🔥",
-            "type": 3,
-            "api": "csp_Youtube",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-			"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
-                "type": "锡剧#京剧#越剧#黄梅戏#评剧#豫剧#昆曲#淮剧#绍剧#徽剧#梨园戏",
-                "proxy": "127.0.0.1:10072"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.5
-            }
-        },	
         {
       "key": "火狼",
       "name": "🔥火狼影视🔥",
