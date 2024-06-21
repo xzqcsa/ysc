@@ -60,6 +60,30 @@
             "ext": "./XYQTVBox/tokenm1.json"
         },
 		{
+      "key": "1影视",
+      "name": "🔥1影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/+1.json"
+    },
+	{
+      "key": "12影视",
+      "name": "🔥2影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/+2.json"
+    },
+		{
             "key": "千百撸",
             "name": "千百撸|学日语",
             "type": 3,

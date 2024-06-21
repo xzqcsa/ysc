@@ -1,0 +1,21 @@
+		{
+         
+				"请求头": "User-Agent$MOBILE_UA",
+                "主页url": "https://avtime.tv",
+				"嗅探词": ".mp4#.m3u8#.flv",
+				"数组": "<div class=\"vod-item\"&&<div class=\"col-xs-4 col-lg-3 col-xl-2\">",
+                "图片": "data-original=\"&&\"",
+                "标题": "<h3*\">&&</a></h3",
+                "链接": "href=\"&&\"",
+                "副标题": "<span class=\"text-row-1\">&&</span",
+				"线路数组": "<li class=\"swiper-slide tab-item&&</li",
+                "线路标题": ">&&</a",
+				"播放数组": "wntheme-tab-content wntheme-playlist-content wntheme-playlist-sort-content&&</ul>",
+                "播放列表":"<li&&</li>",
+				"播放标题":">&&</a>",
+				"播放链接":"href=\"&&\"",
+				"跳转播放链接": "<script type=\"text/javascript*url\":\"&&\"",
+				"分类url": "https://avtime.tv/vodshow/{cateId}--{by}------{catePg}---{year}/;;rc",
+				"分类":"中文字幕$28#国产$20#日本有码$21#日本无码$22#欧美$23#动漫$24"
+            
+        }

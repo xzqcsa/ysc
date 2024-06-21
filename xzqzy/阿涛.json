@@ -80,7 +80,7 @@
       "key": "Wexjiazitv",
       "name": "🔥甲子🔥",
       "type": 3,
-	  "jar": "./lib/wex.txt",
+	  "jar": "./lib/wex.txt;md5;abd7de963094093f674c391183001b3a",
       "api": "csp_Wexjiazitv",
       "searchable": 1,
       "changeable": 1
@@ -108,7 +108,7 @@
       "key": "Wexshandian",
       "name": "🔥️闪电🔥",
       "type": 3,
-	  "jar": "./lib/wex.txt",
+	  "jar": "./lib/wex.txt;md5;abd7de963094093f674c391183001b3a",
       "api": "csp_Wexshandian",
       "searchable": 1,
       "changeable": 1
@@ -573,19 +573,7 @@
 		"filterable":1, 
 		"timeout":30, 
 		"ext":"./lib/阿涛tokenm.json$$$https://wogg.link/$$$socks5://127.0.0.1:10071$$$1$$$./pg/lib/wogg.json"},
-	{
-      "key": "Wexconfig",
-      "name": "🐮鸟巢配置🐮",
-      "type": 3,
-	   "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_Wexconfig",
-      "searchable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.43
-      }
-    },
+	
 	{
             "key": "libhd",
             "name": "🔥️libhd┃外剧🔥️",
@@ -817,15 +805,7 @@
 	  
 
 	
-	{
-      "key": "Wexxpgtv",
-      "name": "🔥红富士🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_Wexxpgtv",
-      "searchable": 1,
-      "changeable": 1
-    },
+	
 	
   
 		{
@@ -1941,24 +1921,7 @@
       },
       "jar":"./lib/Yoursmile1.jar"
     },
-	{
-      "key": "Wexyingso",
-      "name": "🔍影子搜🔍",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_Wexyingso",
-      "searchable": 1,
-      "changeable": 0
-    },
-	 {
-      "key": "Wexduanjuso",
-      "name": "🔍短剧搜索🔍",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_Wexduanjuso",
-      "searchable": 1,
-      "changeable": 0
-    },
+	
   {
       "key":"6080",
       "name":"🍭6080搜索🍭",

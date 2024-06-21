@@ -1018,7 +1018,7 @@
             "type": 3,
             "api": "csp_XBPQ",
             "jar":"./lib/XBPQ.jar",
-            "ext": {"页面代理":"127.0.0.1:10071",
+            "ext": {"页面代理":"127.0.0.1:10072",
                 "分类url": "http://www.msjtv.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
                 "分类": "少儿$23#电影$1#电视剧$2#日韩剧$15#欧美剧$16#短剧$36#动漫$4#综艺$3"
                
@@ -1486,15 +1486,7 @@
 	"filterable":1, 
 	"timeout":45, 
 	"ext":"./lib/tokenm1.json$$$https://www.80yy3.com/$$$proxy$$$1$$$./lib/wogg.json"},
-	{
-      "key": "mingriyingshi",
-      "name": "🔥️明日┃影视🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_WexMingriys",
-      "searchable": 1,
-      "changeable": 1
-    },
+	
 	{
             "key": "电影狗影视",
             "name": "🔥电影狗🔥",
@@ -1523,15 +1515,6 @@
         "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
     }
 },	
-	{
-      "key": "Wexxpgtv",
-      "name": "🔥红富士🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_Wexxpgtv",
-      "searchable": 1,
-      "changeable": 1
-    },
 	
 	
 	{
@@ -2977,24 +2960,6 @@
       "ext": "1f34013bd2d0471d94e200b730489623"
     },
 	
-	{
-      "key": "Wexyingso",
-      "name": "🔍影子搜🔍",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_Wexyingso",
-      "searchable": 1,
-      "changeable": 0
-    },
-	 {
-      "key": "Wexduanjuso",
-      "name": "🔍短剧搜索🔍",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e",
-      "api": "csp_Wexduanjuso",
-      "searchable": 1,
-      "changeable": 0
-    },
 	
 	 {"key":"csp_YouKu",
   "name":"🔍优酷🔍",
