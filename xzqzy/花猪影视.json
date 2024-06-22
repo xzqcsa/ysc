@@ -153,13 +153,14 @@
             }
         },
 		{
-            "key": "jinpai",
+            "key": "金牌影视",
             "name": "🔥金牌影院🔥",
             "type": 3,
-            "api": "./lib/金牌影院.py",
+            "api": "csp_WebIV",
+            "jar": "./lib/yo.jar",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable":1
+            "filterable": 0
         },
 		{
             "key": "csp_XBPQ_大师兄影院",

@@ -59,6 +59,29 @@
             },
             "ext": "./XYQTVBox/tokenm1.json"
         },
+		  {
+			"key": "hipy_js_采集之王[合]1",
+			"name": "🔞采集｜之王",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 1,
+			"ext": "./lib/采集之王[合].js?type=url&params=./lib/采集[密]静态.json"
+		},
+		{
+      "key": "3影视",
+      "name": "🔥3影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib/XBPQ.jar",
+      "ext": "./lib/+3.json"
+    },
 		{
       "key": "1影视",
       "name": "🔥1影视🔥",
