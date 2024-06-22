@@ -1,0 +1,20 @@
+{
+
+				"请求头": "User-Agent$MOBILE_UA",
+                "主页url": "https://avbro.xyz",
+				"数组": "<a class=\"vodlist_thumb lazyload\"&&</a>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "副标题": "pic_text text_right\">&&</span",
+				"线路数组": "<a href=\"javascript:void(0);\"&&<div class=\"play_list_box",
+                "线路标题": "alt=\"&&\"",
+				"播放数组": "content_playlist clearfix&&</ul>",
+                "播放列表":"<li&&</li>",
+				"播放标题":">&&</a>",
+				"播放链接":"href=\"&&\"", "页面代理":"127.0.0.1:10072",
+				"跳转播放链接": "<script type=\"text/javascript*url\":\"&&\"",
+				"分类url": "https://avbro.xyz/vodshow/{cateId}--{by}------{catePg}---/;;rc",
+				"分类":"中文字幕$10#无码专区$12#国产AV$30#日本AV$1#欧美AV$5#韩国AV$62#三级电影$67"
+            
+        }

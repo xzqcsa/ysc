@@ -13,7 +13,7 @@
 				"播放数组": "wntheme-tab-content wntheme-playlist-content wntheme-playlist-sort-content&&</ul>",
                 "播放列表":"<li&&</li>",
 				"播放标题":">&&</a>",
-				"播放链接":"href=\"&&\"",
+				"播放链接":"href=\"&&\"","页面代理":"127.0.0.1:10072",
 				"跳转播放链接": "<script type=\"text/javascript*url\":\"&&\"",
 				"分类url": "https://avtime.tv/vodshow/{cateId}--{by}------{catePg}---{year}/;;rc",
 				"分类":"中文字幕$28#国产$20#日本有码$21#日本无码$22#欧美$23#动漫$24"

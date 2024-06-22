@@ -10,7 +10,7 @@
 				"线路数组": "<li class=\"tab-play&&</li",
                 "线路标题": "title=\"&&\"",
 				"播放数组": "content_playlist clearfix\">&&</ul>",
-                "播放列表":"<li&&</li>",
+                "播放列表":"<li&&</li>","页面代理":"127.0.0.1:10072",
 				"播放标题":">&&</a>",
 				"播放链接":"href=\"&&\"",
 				"分类url": "https://13av.com/vodtype/{cateId}-{catePg}/[https://13av.com/vodtype/{cateId}/];;rc",

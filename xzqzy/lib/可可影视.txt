@@ -4,6 +4,6 @@
                 "图片": "https+://61.147.93.252:15002+data-original=\"&&\"",
                 "线路数组": "javascript:void(0)\" class=\"source-item\">&&</a>",
                 "播放数组": "episode-list\"&&</div>",
-                "分类url": "https://www.keke4.app/show/{cateId}-{class}-{area}--{year}-3-{catePg}.html",
+                "分类url": "https://www.keke7.app/show/{cateId}-{class}-{area}--{year}-3-{catePg}.html","页面代理":"127.0.0.1:10072",
                 "分类": "电影$1#电视剧$2#综艺$4#动漫$3#短剧$6"
 }
