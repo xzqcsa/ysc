@@ -1,5 +1,5 @@
 ﻿ { 
-  "spider":"./lib1/pg订阅.jar","logo":"./lib1/虎.JPG",
+  "spider":"./lib1/pg订阅.jar","logo":"./lib/虎.JPG",
   "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
   "sites": [
 
@@ -15,7 +15,7 @@
                 "type": "rect",
                 "ratio": 1
             },
-            "ext": "./lib11/tokenm盒子.json"
+            "ext": "./lib1/tokenm盒子.json"
         },
 		
 		{
