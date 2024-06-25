@@ -54,7 +54,277 @@
                 "ratio": 1.5
             }
         },	
+	{
+            "key": "Youtube_jiaoyu",
+            "name": "🔥Youtube┃教育🔥",
+            "type": 3,
+            "api": "csp_Youtube",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 1,
+            "ext": {"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
+            "type": "苏教版课程#人教版课程#沪教版课程#北师大版课程",
+            "proxy": "1proxy"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
+			{"key":"Wogg234567",
+		"name":"🔥玩偶|阿里🔥",
+		"type":3,
+		"api":"csp_Wogg",
+		
+		"quickSearch":1,
+		"changeable":1,
+		"filterable":1, 
+		"timeout":30, 
+		"ext":"./lib1/tokenm盒子.json$$$https://www.wogg.bf/$$$代理$$1$$$./pg/lib/wogg.json"},
+		{"key":"花姐影院",
+		"name":"🔥花姐┃影院🔥",
+		"type":3,
+		 "jar": "./lib1/XBPQ.jar",
+		"api":"csp_XBPQ",
+		"searchable":1,
+		"quickSearch":1,
+		"filterable":1,
+		"ext":{"数组":"fed-lazy&&</a>",
+		"副标题":"fed-text-center\">&&</span",
+		"简介":"fed-matp-v\">&&</div",
+		"线路数组":"href=\"\\#playlist&&</li>",
+		"线路标题":"</i>&&</a>",
+		"播放数组":"<ul class=\"myui-content__list&&</ul",
+		"跳转播放链接":"var now=\"&&\"",
+		"搜索url":"https://www.huajie2.com/search.php?page={pg}&searchword={wd}&searchtype=",
+		"分类url":"https://www.huajie2.com/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId}&area={area}&year={year}&letter=&yuyan={lang}&state=&money=&ver=&jq=",
+		"分类":"电视剧&电影&综艺&动漫","分类值":"2&1&3&4"}},
+
+		{
+      "key": "齐心影视",
+      "name": "🔥七新影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib1/XBPQ.jar",
+      "ext": "./lib/七新电影.json"
+    },
+	{
+            "key": "孜然",
+            "name": "🔥孜然影视🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar":"./lib1/XBPQ.jar",
+            "ext": {"嗅探词": ".mp4#m3u8",
+			"页面代理":"proxy",
+                "分类url": "https://www.zrys1.top/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
+               
+            }
+        },
+{
+            "key": "猫世界",
+            "name": "🔥猫世界影视🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar":"./lib1/XBPQ.jar",
+            "ext": {"页面代理":"proxy",
+                "分类url": "http://www.msjtv.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+                "分类": "少儿$23#电影$1#电视剧$2#日韩剧$15#欧美剧$16#短剧$36#动漫$4#综艺$3"
+               
+            }
+        },
+		{
+			"key":"XBPQ_电影先生",
+			"name": "🔥电影先生🔥",
+			"jar": "./lib1/XBPQ.jar",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"ext": {
+				"分类url": "https://dianyi.ng/pianku-{cateId}-{area}-------{catePg}---{year}.html",
+				"简介": "class=\"video-info-item video-info-content vod_content\">&&</span>",
+				"搜索url": "https://dianyi.ng/search--------------.html?wd={wd}",
+				"搜索数组": "<div class=\"module-item-pic\">&&</div>",
+				"图片": "src=\"&&\"",
+				"搜索标题": "title=\"&&\"",
+				"搜索副标题": ">&&</a>",
+				"线路数组": "data-dropdown-value=&&</div>",
+				"线路标题": "<span>&&</small>[替换:<span></small>共]+集",
+				"播放数组": "<div class=\"scroll-content\">&&</div>",
+				"播放标题": "<span>&&</span>",
+				"页面代理":"proxy",
+				"分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi"
+			}
+		},
+		 {
+            "key": "Hdhive",
+            "name": "🔥影巢|影视专用🔥",
+            "type": 3,
+            "api": "csp_Hdhive",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+			
+            "timeout": 30,
+            "ext": "./lib1/tokenm盒子.json$$$null$$$1"
+        },
+		
+		{
+      "key": "Libvio",
+      "name": "🔥LIBVIO|影视专用🔥",
+      "type": 3,
+      "api": "csp_Libvio",
+      "quickSearch": 1,
+	  
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./lib1/tokenm盒子.json$$$https://www.libvio.fun$$$null"
+    },
+
+	 
+{
+            "key": "Wobg999",
+            "name": "🔥玩偶表哥🔥",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+ 
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./XYQTVBox/tokenm盒子.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./pg/lib/wogg.json"
+        },
+    
+
+       
+        {
+            "key": "校长影视",
+            "name": "🔥校长影视|网盘🔥",
+            "type": 3,
+            "api": "csp_XiaoZhang",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+			
+            "ext":"./lib1/tokenm盒子.json$$$null$$$1"
+        },
+        {
+            "key":"团长资源",
+            "name":"🔥团长资源|网盘🔥",
+            "type": 3,
+            "api": "csp_TZFile",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+			
+            "timeout": 60,
+            "ext":"./lib1/tokenm盒子.json$$$proxy$$$1"
+        },
+		
 	
+		{
+            "key":"4KHDR",
+            "name":"🔥4KHDR|网盘🔥",
+            "type": 3,
+            "api":"csp_FourKHDR",
+			"searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+			
+            "filterable": 1,
+            "timeout": 60,
+            "ext":"./lib1/tokenm盒子.json$$$./lib/4khdr.txt$$$1"
+        },
+		 
+	
+   
+   {"key":"Moli",
+		"name":"🔥HDmoli|网盘🔥",
+		"type":3,
+		
+		"api":"csp_Moli",
+		"quickSearch":1,
+	"searchable": 1,	
+		"changeable":1, 
+		"filterable":1,
+		"timeout":60, 
+		"ext":"./lib1/tokenm盒子.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json"},
+	 {"key":"Ppxzy",
+		"name":"🔥皮皮虾|网盘🔥",
+		"type":3,
+		"api":"csp_Ppxzy",
+		"quickSearch":1, 
+		"changeable":1,
+		"filterable":1, 
+		"timeout":60, 
+		"ext":"./lib1/tokenm盒子.json$$$https://ppxzy.ink$$$null$$$1"},
+		{
+            "key": "蜡笔网盘",
+            "name": "🔥蜡笔┃网盘🔥",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": "./lib1/tokenm盒子.json$$$https://duopan.fun/$$$proxy$$$1$$$./lib/wogg.json"
+        },
+
+		{
+            "key": "csp_YingSC",
+            "name": "🔥车车🔥",
+            "type": 3,
+            "api": "csp_AppYS",
+            "changeable": 0,
+            "ext": {
+                "server": "https://cms.ysctv.cn/api.php/app/",
+                "mackey": "5tlVvvRYiYlxVpwF|cr31YFb1pGPrKpUX",
+                "ali": "./lib/tok.txt",
+                "quark": "./lib/quark.txt"
+            },
+            "jar": "./lib/YSC.jar"
+        },
+	 {
+      "key": "Wobg56676",
+      "name": "🔥玩我网盘🔥",
+      "type": 3,
+      "api": "csp_Wogg",
+	  
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./XYQTVBox/tokenm盒子.json$$$http://ttkx.live:7728$$$null$$$1$$$./pg/lib/wogg.json"
+    },
+		{
+      "key": "Wobg555",
+      "name": "🔥玩你网盘🔥",
+      "type": 3,
+      "api": "csp_Wobg",
+	  
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./XYQTVBox/tokenm盒子.json$$$https://tv.yydsys.top/$$$null$$$1$$$./pg/lib/wogg.json"
+    },
+	{
+      "key": "Wobg111",
+      "name": "🔥土豆网盘🔥",
+      "type": 3,
+      "api": "csp_Wobg",
+	  
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 30,
+      "ext": "./XYQTVBox/tokenm盒子.json$$$https://tudou.lvdoui.top$$$null$$$1$$$./pg/lib/wogg.json"
+    },
 		{"key":"Yinfans",
 	"name":"🧲音范丝|磁力🧲",
 	"type":3,
@@ -294,16 +564,7 @@
 		
 		
 		
-	{"key":"Wogg234567",
-		"name":"🔥玩偶|阿里🔥",
-		"type":3,
-		"api":"csp_Wogg",
-		
-		"quickSearch":1,
-		"changeable":1,
-		"filterable":1, 
-		"timeout":30, 
-		"ext":"./lib1/tokenm盒子.json$$$https://www.wogg.bf/$$$代理$$1$$$./pg/lib/wogg.json"},
+
 	 {
             "key": "csp_剧圈圈",
             "name": "🔥剧圈┃圈圈🔥",
@@ -385,37 +646,7 @@
         },
 
 	
-	{"key":"花姐影院",
-		"name":"🔥花姐┃影院🔥",
-		"type":3,
-		 "jar": "./lib1/XBPQ.jar",
-		"api":"csp_XBPQ",
-		"searchable":1,
-		"quickSearch":1,
-		"filterable":1,
-		"ext":{"数组":"fed-lazy&&</a>",
-		"副标题":"fed-text-center\">&&</span",
-		"简介":"fed-matp-v\">&&</div",
-		"线路数组":"href=\"\\#playlist&&</li>",
-		"线路标题":"</i>&&</a>",
-		"播放数组":"<ul class=\"myui-content__list&&</ul",
-		"跳转播放链接":"var now=\"&&\"",
-		"搜索url":"https://www.huajie2.com/search.php?page={pg}&searchword={wd}&searchtype=",
-		"分类url":"https://www.huajie2.com/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId}&area={area}&year={year}&letter=&yuyan={lang}&state=&money=&ver=&jq=",
-		"分类":"电视剧&电影&综艺&动漫","分类值":"2&1&3&4"}},
-
-		{
-      "key": "齐心影视",
-      "name": "🔥七新影视🔥",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-     
-      "filterable": 1,      
-      "jar": "./lib1/XBPQ.jar",
-      "ext": "./lib/七新电影.json"
-    },
+	
 		{
       "key": "fanqie",
       "name": "🔥番茄影视🔥",
@@ -648,32 +879,7 @@
       "jar": "./lib1/XBPQ.jar",
       "ext": "./lib/尘落影视.json"
     },
-	{
-            "key": "蜡笔网盘",
-            "name": "🔥蜡笔┃网盘🔥",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 30,
-            "ext": "./lib1/tokenm盒子.json$$$https://duopan.fun/$$$proxy$$$1$$$./lib/wogg.json"
-        },
-
-		{
-            "key": "csp_YingSC",
-            "name": "🔥车车🔥",
-            "type": 3,
-            "api": "csp_AppYS",
-            "changeable": 0,
-            "ext": {
-                "server": "https://cms.ysctv.cn/api.php/app/",
-                "mackey": "5tlVvvRYiYlxVpwF|cr31YFb1pGPrKpUX",
-                "ali": "./lib/tok.txt",
-                "quark": "./lib/quark.txt"
-            },
-            "jar": "./lib/YSC.jar"
-        },
+	
 {
             "key": "海外剧汇",
             "name": "🔥海外剧汇🔥",
@@ -1311,74 +1517,7 @@
             }
         },
 		
-{
-            "key": "孜然",
-            "name": "🔥孜然影视🔥",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar":"./lib1/XBPQ.jar",
-            "ext": {"嗅探词": ".mp4#m3u8",
-			"页面代理":"proxy",
-                "分类url": "https://www.zrys1.top/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-                "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
-               
-            }
-        },
-{
-            "key": "猫世界",
-            "name": "🔥猫世界影视🔥",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar":"./lib1/XBPQ.jar",
-            "ext": {"页面代理":"proxy",
-                "分类url": "http://www.msjtv.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
-                "分类": "少儿$23#电影$1#电视剧$2#日韩剧$15#欧美剧$16#短剧$36#动漫$4#综艺$3"
-               
-            }
-        },
-		{
-			"key":"XBPQ_电影先生",
-			"name": "🔥电影先生🔥",
-			"jar": "./lib1/XBPQ.jar",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"ext": {
-				"分类url": "https://dianyi.ng/pianku-{cateId}-{area}-------{catePg}---{year}.html",
-				"简介": "class=\"video-info-item video-info-content vod_content\">&&</span>",
-				"搜索url": "https://dianyi.ng/search--------------.html?wd={wd}",
-				"搜索数组": "<div class=\"module-item-pic\">&&</div>",
-				"图片": "src=\"&&\"",
-				"搜索标题": "title=\"&&\"",
-				"搜索副标题": ">&&</a>",
-				"线路数组": "data-dropdown-value=&&</div>",
-				"线路标题": "<span>&&</small>[替换:<span></small>共]+集",
-				"播放数组": "<div class=\"scroll-content\">&&</div>",
-				"播放标题": "<span>&&</span>",
-				"页面代理":"proxy",
-				"分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi"
-			}
-		},
-   
-   {"key":"Moli",
-		"name":"🔥HDmoli|网盘🔥",
-		"type":3,
-		
-		"api":"csp_Moli",
-		"quickSearch":1,
-	"searchable": 1,	
-		"changeable":1, 
-		"filterable":1,
-		"timeout":60, 
-		"ext":"./lib1/tokenm盒子.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json"},
-	 {"key":"Ppxzy",
-		"name":"🔥皮皮虾|网盘🔥",
-		"type":3,
-		"api":"csp_Ppxzy",
-		"quickSearch":1, 
-		"changeable":1,
-		"filterable":1, 
-		"timeout":60, 
-		"ext":"./lib1/tokenm盒子.json$$$https://ppxzy.ink$$$null$$$1"},
+
 	{
             "key": "飘雪影院",
             "name": "🔥飘雪影院🔥",
@@ -1568,42 +1707,7 @@
             "ext": "./XYQTVBox/tokenm盒子.json"
         },
 		
-		 {
-      "key": "Wobg56676",
-      "name": "🔥玩我网盘🔥",
-      "type": 3,
-      "api": "csp_Wogg",
-	  
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./XYQTVBox/tokenm盒子.json$$$http://ttkx.live:7728$$$null$$$1$$$./pg/lib/wogg.json"
-    },
-		{
-      "key": "Wobg555",
-      "name": "🔥玩你网盘🔥",
-      "type": 3,
-      "api": "csp_Wobg",
-	  
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./XYQTVBox/tokenm盒子.json$$$https://tv.yydsys.top/$$$null$$$1$$$./pg/lib/wogg.json"
-    },
-	{
-      "key": "Wobg111",
-      "name": "🔥土豆网盘🔥",
-      "type": 3,
-      "api": "csp_Wobg",
-	  
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./XYQTVBox/tokenm盒子.json$$$https://tudou.lvdoui.top$$$null$$$1$$$./pg/lib/wogg.json"
-    },
+		
 		
 	{"key":"4K",
      "name":"🔥4K4K影视🔥",
@@ -1837,89 +1941,7 @@
        
         
  
-		 {
-            "key": "Hdhive",
-            "name": "🔥影巢|影视专用🔥",
-            "type": 3,
-            "api": "csp_Hdhive",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-			
-            "timeout": 30,
-            "ext": "./lib1/tokenm盒子.json$$$null$$$1"
-        },
 		
-		{
-      "key": "Libvio",
-      "name": "🔥LIBVIO|影视专用🔥",
-      "type": 3,
-      "api": "csp_Libvio",
-      "quickSearch": 1,
-	  
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib1/tokenm盒子.json$$$https://www.libvio.fun$$$null"
-    },
-
-	 
-{
-            "key": "Wobg999",
-            "name": "🔥玩偶表哥🔥",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
- 
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 30,
-            "ext": "./XYQTVBox/tokenm盒子.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./pg/lib/wogg.json"
-        },
-    
-
-       
-        {
-            "key": "校长影视",
-            "name": "🔥校长影视|网盘🔥",
-            "type": 3,
-            "api": "csp_XiaoZhang",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 30,
-			
-            "ext":"./lib1/tokenm盒子.json$$$null$$$1"
-        },
-        {
-            "key":"团长资源",
-            "name":"🔥团长资源|网盘🔥",
-            "type": 3,
-            "api": "csp_TZFile",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-			
-            "timeout": 60,
-            "ext":"./lib1/tokenm盒子.json$$$proxy$$$1"
-        },
-		
-	
-		{
-            "key":"4KHDR",
-            "name":"🔥4KHDR|网盘🔥",
-            "type": 3,
-            "api":"csp_FourKHDR",
-			"searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-			
-            "filterable": 1,
-            "timeout": 60,
-            "ext":"./lib1/tokenm盒子.json$$$./lib/4khdr.txt$$$1"
-        },
-		 
-	
 	
 		
 	{
