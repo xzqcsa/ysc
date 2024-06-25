@@ -64,7 +64,7 @@
             "changeable": 1,
             "ext": {"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
             "type": "苏教版课程#人教版课程#沪教版课程#北师大版课程",
-            "proxy": "1proxy"
+            "proxy": "proxy"
             },
             "style": {
                 "type": "rect",
