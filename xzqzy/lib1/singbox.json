@@ -207,7 +207,7 @@
       "store_rdrc": true
     },
     "clash_api": {
-      "external_controller": "127.0.0.1:19090",
+      "external_controller": "0.0.0.0:19090",
       "external_ui": "metacubexd",
       "external_ui_download_url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
       "external_ui_download_detour": "select",
