@@ -498,7 +498,7 @@
             "changeable": 1,
             "filterable": 0,
             "timeout": 60,
-            "ext": "./lib/tokenm1.json$$$http://777634.xyz/$$$socks5://127.0.0.1:10072"
+            "ext": "./lib/tokenm1.json$$$http://777634.xyz/$$$127.0.0.1:10072"
       },
 
 	 {
@@ -543,7 +543,7 @@
             }
     },
 
-	{"key":"Xojav","name":"XOJav","type":3,"api":"csp_Xojav","jar":"./lib/pg.jar","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm1.json$$$null$$$socks5://127.0.0.1:10072",
+	{"key":"Xojav","name":"XOJav","type":3,"api":"csp_Xojav","jar":"./lib/pg.jar","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm1.json$$$null$$$127.0.0.1:10072",
                         "style": {
                                 "type": "rect",
                                 "ratio": 1.5
@@ -554,27 +554,27 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-             "ext":"./lib/tokenm1.json$$$null$$$socks5://127.0.0.1:10072",
+             "ext":"./lib/tokenm1.json$$$null$$$127.0.0.1:10072",
 	 "style":{"type":"rect","ratio":1.6}},
     {"key":"Doll1","name":"Doll|fq","type":3,"api":"csp_Doll",
 		 "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext":"./lib/tokenm1.json$$$null$$$socks5://127.0.0.1:10072",
+            "ext":"./lib/tokenm1.json$$$null$$$127.0.0.1:10072",
 	 "style":{"type":"rect","ratio":1.309}},
 	  {"key":"Miss1","name":"Miss|fq","type":3,"api":"csp_Miss",
 		 "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-             "ext":"./lib/tokenm1.json$$$null$$$socks5://127.0.0.1:10072",
+             "ext":"./lib/tokenm1.json$$$null$$$127.0.0.1:10072",
 	 "style":{"type":"rect","ratio":1.6}},
 	 {"key":"top888",
 	 "name":"top888|fq",
 	 "type":3,
 	 "api":"csp_Top888",
-	  "ext":"./lib/tokenm1.json$$$null$$$socks5://127.0.0.1:10072",
+	  "ext":"./lib/tokenm1.json$$$null$$$127.0.0.1:10072",
 	 "style":{"type":"rect","ratio":1.6}},
 	{ 
             "key": "jable",
@@ -1004,7 +1004,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "null$$$socks5://127.0.0.1:10072$$$1"
+            "ext": "null$$$127.0.0.1:10072$$$1"
         },
 		{"key":"csp_Eighteen",
 		"name":"🔞Eighteen🔞",
@@ -1038,7 +1038,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "null$$$socks5://127.0.0.1:10072$$$1"
+            "ext": "null$$$127.0.0.1:10072$$$1"
         },
         {
             "key": "Zuise",
@@ -1050,7 +1050,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60,
-            "ext": "null$$$socks5://127.0.0.1:10072$$$1"
+            "ext": "null$$$127.0.0.1:10072$$$1"
         },
 		{
             "key": "ppp",
@@ -1129,7 +1129,7 @@
             "changeable": 1,
             "filterable": 0,
             "timeout": 60,
-            "ext": "./lib/tokenm1.json$$$http://777634.xyz/$$$socks5://127.0.0.1:10072"
+            "ext": "./lib/tokenm1.json$$$http://777634.xyz/$$$127.0.0.1:10072"
         },
 		
 {
@@ -1151,7 +1151,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-	  "ext":"socks5://127.0.0.1:10072"
+	  "ext":"127.0.0.1:10072"
     },
 	{
             "key": "熊猫",
@@ -1259,7 +1259,7 @@
       "api": "csp_Doll",
       "searchable": 1,
       "recordable": 0,
-	   "ext": "socks5://127.0.0.1:10072",
+	   "ext": "127.0.0.1:10072",
       "style": {
         "type": "rect",
         "ratio": 1.309
@@ -1297,7 +1297,7 @@
       "api": "csp_Jable",
       "searchable": 1,
       "recordable": 0,
-	   "ext": "socks5://127.0.0.1:10072",
+	   "ext": "127.0.0.1:10072",
       "style": {
         "type": "rect",
         "ratio": 1.77
@@ -1477,7 +1477,7 @@
 	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=127.0.0.1:10072&url=",
       "searchable": 1,
       "recordable": 0,
-	   "ext": "socks5://127.0.0.1:10072",
+	   "ext": "127.0.0.1:10072",
       "style": {
         "type": "rect",
         "ratio": 1.33
