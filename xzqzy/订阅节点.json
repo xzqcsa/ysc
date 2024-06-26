@@ -334,6 +334,18 @@
       "timeout": 30,
       "ext": "./XYQTVBox/tokenm盒子.json$$$https://tudou.lvdoui.top$$$null$$$1$$$./pg/lib/wogg.json"
     },
+	{
+			"key": "新6V111",
+			"name": "🧲新6V|磁力🧲",
+			"type": 3,
+			"api": "csp_Xb6v",
+			"quickSearch":1,
+			"filterable":1,
+			"searchable": 1,
+			"changeable": 1,
+			"timeout": 60,
+			"ext": "./lib1/tokenm盒子.json$$$https://www.66ss.org$$$null$$$1"
+		},
 		{"key":"Yinfans",
 	"name":"🧲音范丝|磁力🧲",
 	"type":3,
@@ -348,7 +360,7 @@
     "name": "🧲BT影视🧲",
     "type": 3,
     "api": "csp_XBPQ",
-    "jar": "./lib1/XBPQ.jar",
+    "jar": "./lib/XBPQ.jar",
     "ext": {
         "跳转数组": "<a&&</a[包含:tdown]",
         "跳转链接": "href=\"&&\"",
@@ -361,12 +373,69 @@
         "分类url": "https://www.btbtl.com/type/{cateId}/{catePg}/"
     }
 },
+{"key":"Gaoqing",
+	"name":"🧲中国高清网🧲",
+	"type":3,
+	"api":"csp_Gaoqing",
+	"quickSearch":1,
+	"changeable":1,
+	"filterable":1, 
+	"timeout":60, 
+	"ext":"./lib1/tokenm盒子.json$$$https://gaoqing.la/$$$proxy$$$1"},
+	{"key":"MP4us","name":"🧲MP4us🧲","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
+            "ext": {
+        "标题":"<font*>&&</font>",
+        "图片":"data-original=\"&&\"",
+                "数组":"<li>&&</li>",
+                "副标题":"rate badge\">&&</span>+|+update_time\">&&</span>",
+                "线路标题":"<h2>&&</h2>[替换:下载地址>>磁力]",
+                "播放数组":"download_url&&</ul>",
+                "播放列表":"<a&&</a>[不包含:ed2k]",
+                "线路数组":"download_url&&</ul>",
+                "分类二次截取":"<ul&&</ul>",
+                "分类数组":"<li&&</li>",
+                "分类标题":">&&</a",
+                "分类ID":"/list/&&-1.html",
+        "分类url":"https://m.mp4us.com/list/{cateId}-{catePg}.html;;dm"
+             }
+        },
+		{
+			"key": "Bdys_spider",
+			"name": "🧲哔滴┃磁力🧲",
+			"api": "csp_Bdys01",
+			
+			"type": 3,
+			"filterable": 1,
+			"searchable":1,
+			"quickSearch": 1,
+			"searchable": 1,
+			"timeout":60,
+			"ext": "./lib1/tokenm盒子.json$$$https://www.yjys01.com/$$$proxy$$$1"
+		},
+		{
+    "key": "狸云",
+    "name": "🧲狸云🧲",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "jar": "./lib/XBPQ.jar",
+    "ext": {
+        "搜索url": "https://www.lysvc.cc/?cat=&s={wd}",
+        "数组":"class=\"post-item&&class=\"entry-title&&</article>",
+        "图片":"data-bg=\"&&\">",
+		"页面代理":"proxy",
+       "播放链接": "<td><a href=\"&&\">[包含:magnet]",
+        "播放标题": ">&&</a>",
+        "线路标题": "weight: bold;\">&&</td>",
+        "分类": "蓝光-4k-电影$蓝光-4k-电影#精选剧集$精选剧集",
+        "分类url": "https://www.lysvc.cc/archives/category/%e5%bd%b1%e8%a7%86%e8%b5%84%e6%ba%90/{cateId}/page/{catePg}"
+    }
+},
 
 			 {"key":"xunlei8",
 			 "name":"🧲xunlei8🧲",
 			 "type":3,
 			 "api":"csp_XBPQ",
-			 "jar":"./lib1/XBPQ.jar",
+			 "jar":"./lib/XBPQ.jar",
             "ext": {
                 "搜索url":"https://xunlei8.cc/s/{wd}.html",
                 "搜索数组":"bec4f196629d\">&&\"b9a905c",
@@ -388,7 +457,7 @@
 			"quickSearch":1,
 			"filterable":1,
 			"ext": "./lib/BT天堂 5.json",
-			"jar": "./lib1/XBPQ.jar"
+			"jar": "./lib/XBPQ.jar"
 		},
 		
 {
@@ -408,13 +477,13 @@
                 "播放数组": "下载地址</h2>&&</ul>",
                 "播放列表": "<li><&&</a>"
              },
-             "jar":"./lib1/XBPQ.jar"
+             "jar":"./lib/XBPQ.jar"
         },
 		{
             "key": "小白",
             "name": "🧲小白磁力🧲",
             "type": 3,
-			 "jar":"./lib1/XBPQ.jar",
+			 "jar":"./lib/XBPQ.jar",
             "api": "csp_XBPQ",
             "playerType":1,
             "ext": "./lib/小白磁力.json"
