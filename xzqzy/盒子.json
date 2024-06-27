@@ -4005,54 +4005,7 @@
         }
       }
     },
-      {
-      "name": "青春",
-      "type": 1,
-      "url": "http://zy.uiovo.com/api/?key=3c2d8ba20cf254ef7cb6df9478d033a6&ud=74&url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "企鹅",
-          "IQiYi",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "YouKu",
-          "优酷",
-          "sohu",
-          "SoHu",
-          "搜狐",
-          "letv",
-          "LeShi",
-          "乐视",
-          "imgo",
-          "mgtv",
-          "MangGuo",
-          "芒果",
-          "SLYS4k",
-          "BYGA",
-          "luanzi",
-          "AliS",
-          "dxzy",
-          "bilibili",
-          "QEYSS",
-          "xigua",
-          "西瓜视频",
-          "腾讯视频",
-          "奇艺视频",
-          "优酷视频",
-          "芒果视频",
-          "乐视视频"
-        ],
-    
-   
-     "header": {
-          "User-Agent": "okhttp/4.1.0"
-        }
-      }
-    },
+     
 	{
             "name": "后来1",
             "type": 1,
