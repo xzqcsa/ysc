@@ -276,14 +276,7 @@
             "timeout": 60,
             "ext":"./lib1/tokenm盒子.json$$$./lib/4khdr.txt$$$1"
         },
-		 {
-      "key": "影视大全",
-      "name": "🔥影视大全🔥",
-      "type": 3,
-      
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib1/影视大全 [密].js"
-    },
+		
   
 	
    
