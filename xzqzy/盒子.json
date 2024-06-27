@@ -22,8 +22,8 @@
             "searchable": 0,
             "changeable": 0,
             "style": {
-                "type": "rect",
-                "ratio": 1
+               "type": "rect",
+				"ratio": 1.5
             },
             "ext": "./XYQTVBox/tokenm盒子.json"
         },
@@ -70,8 +70,8 @@
                 "proxy": "127.0.0.1:10072"
             },
             "style": {
-                "type": "rect",
-                "ratio": 1.5
+               "type": "rect",
+				"ratio": 1.77
             }
         },
 		
@@ -89,8 +89,8 @@
                 "proxy": "127.0.0.1:10072"
             },
             "style": {
-                "type": "rect",
-                "ratio": 1.5
+               "type": "rect",
+				"ratio": 1.77
             }
         },	
 		{"key":"花姐影院",

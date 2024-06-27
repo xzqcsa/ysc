@@ -1,5 +1,5 @@
 {
-  "spider": "./lib/pg.jar",
+  "spider": "./lib1/pg.jar",
   "lives": [
     {
       "name": "初秋语",
@@ -54,8 +54,8 @@
             "searchable": 0,
             "changeable": 0,
             "style": {
-                "type": "rect",
-                "ratio": 1
+               "type": "rect",
+				"ratio": 1.5
             },
             "ext": "./XYQTVBox/tokenm1.json"
         },
@@ -641,8 +641,8 @@
             "ext": "https://api.xv-api.com/api",
             "jar": "./lib/Xv.jar",
             "style": {
-                "type": "rect",
-                "ratio": 1.485
+               "type": "rect",
+				"ratio": 1.485
             }
         },
 	{ 
@@ -871,8 +871,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "style": {
-                "type": "rect",
-                "ratio": 1.99
+               "type": "rect",
+				"ratio": 1.99
             },
             "ext": {
                 "请求头": "手机",

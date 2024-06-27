@@ -22,8 +22,8 @@
             "searchable": 0,
             "changeable": 0,
             "style": {
-                "type": "rect",
-                "ratio": 1
+               "type": "rect",
+				"ratio": 1.5
             },
             "ext": "./XYQTVBox/阿涛tokenm.json"
         },

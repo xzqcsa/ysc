@@ -21,8 +21,8 @@
             "searchable": 0,
             "changeable": 0,
             "style": {
-                "type": "rect",
-                "ratio": 1
+               "type": "rect",
+				"ratio": 1.5
             },
             "ext": "./lib1/tokenm盒子.json"
         },
@@ -41,8 +41,8 @@
                 "proxy": "proxy"
             },
             "style": {
-                "type": "rect",
-                "ratio": 1.5
+               "type": "rect",
+				"ratio": 1.77
             }
         },
 		{
@@ -59,8 +59,8 @@
                 "proxy": "proxy"
             },
             "style": {
-                "type": "rect",
-                "ratio": 1.5
+               "type": "rect",
+				"ratio": 1.77
             }
         },	
 	{
@@ -76,8 +76,8 @@
             "proxy": "proxy"
             },
             "style": {
-                "type": "rect",
-                "ratio": 1.5
+               "type": "rect",
+				"ratio": 1.77
             }
         },
 			{"key":"Wogg234567",
