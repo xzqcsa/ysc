@@ -102,6 +102,20 @@
         "分类url":"https://www.34gaobk.com/gaotype/{cateId}_{catePg}.html[https://www.34gaobk.com/gaotype/{cateId}.html]"
       }
 },
+{
+            "key":"csp_JavBus",
+            "name":"🧲JavBus🧲",
+            "type":3,
+            "api":"csp_JavBus",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1,
+            "changeable":1,
+            "timeout":60,
+            "style":{ "type":"rect", "ratio":1.33 },
+            "ext":"./lib/tokenm1.json$$$null$$$proxy"
+    },
+
 
 		{
       "key": "1影视",
@@ -1184,20 +1198,7 @@
             "filterable":1
         },
    
-    {
-    "key":"csp_JavBus",
-    "name":"🚒JavBus",
-    "type":3,
-	
-    "api":"csp_JavBus",
-    "searchable":1,
-    "quickSearch":1,
-    "filterable":1,
-    "changeable":0,
-    "style":{"type":"rect","ratio":1.77},
-    "timeout":60,
-    "ext":"https://www.buscdn.art"
-    },
+   
 	
     {
     "key":"csp_JavDb",
