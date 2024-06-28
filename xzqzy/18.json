@@ -57,19 +57,9 @@
                "type": "rect",
 				"ratio": 1.5
             },
-            "ext": "./XYQTVBox/tokenm1.json"
+            "ext": "./lib1/tokenm盒子1.json"
         },
-		  {
-			"key": "hipy_js_采集之王[合]1",
-			"name": "🔞采集｜之王",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 1,
-			"ext": "./lib/采集之王[合].js?type=url&params=./lib/采集[密]静态.json"
-		},
+		 
 		{
       "key": "3影视",
       "name": "🔥3影视🔥",
@@ -96,6 +86,7 @@
         "主页url":"https://www.34gaobk.com/index.html",
         "数组":"class=\"col-lg-3&&</div",
         "直接播放":"1",
+		"图片代理":"1",
         "页面代理":"127.0.0.1:10072",
         "分类": "国产视频$25#日本无码$20#日本有码$9#中文字幕$2#三级电影$1#巨乳系列$3#人妻激情$8#欧美极品$18#制服诱惑$16#自拍偷拍$17#强奸乱伦$14#绝美少女$13#首次亮相$12#HEY诱惑$5#独家DMM$4#网红主播$6#日韩精品$10#激情口交$11#动漫电影$15#极骚萝莉$19#HEYZO$21#高潮喷吹$22#自慰颜射$23#波多野结衣$24#天使萌$26#深田咏美$27#吉泽明步$47#天海翼$46#三上悠亚$45#桥本有菜$48#苍井空$49#人妖视频$7",
         "搜索url":"https://www.34gaobk.com/gaosearch/{wd}-/page/{catePg}/",
@@ -113,9 +104,126 @@
             "changeable":1,
             "timeout":60,
             "style":{ "type":"rect", "ratio":1.33 },
-            "ext":"./lib/tokenm1.json$$$null$$$proxy"
+            "ext":"./lib1/tokenm盒子1.json$$$null$$$proxy"
     },
-
+{
+      "key":"csp_JavDb",
+      "name":"🧲JavDb",
+      "type":3,
+      "api":"csp_JavDb",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+            "changeable":1, 
+      "timeout":60,
+      "style":{ "type":"rect", "ratio":1.33 },
+      "ext":"./lib1/tokenm盒子1.json$$$null$$$proxy"
+    },
+    {"key":"SeHuaTang","name":"色花堂|磁力","type":3,"api":"csp_SeHuaTang","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib1/tokenm盒子1.json$$$null$$$proxy",
+      "style": {
+        "type": "list",
+        "ratio": 1.1
+      }
+    },
+    {"key":"Taohuazu","name":"桃花族","type":3,"api":"csp_Taohuazu","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib1/tokenm盒子1.json$$$http://hsck484.cc/$$$proxy",
+      "style": {
+        "type": "list",
+        "ratio": 1.1
+      }
+    },
+    {"key":"Xojav","name":"XOJav","type":3,"api":"csp_Xojav","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"null$$$proxy",
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+    {"key":"Top888","name":"Top888","type":3,"api":"csp_Top888","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"$$$proxy",
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+    {"key":"Netflav","name":"Netflav","type":3,"api":"csp_Netflav","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"https://netflav5.com$$$proxy",
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+    {
+      "key": "玩偶",
+      "name": "玩偶",
+      "type": 3,
+      "api": "csp_Doll",
+      "searchable": 1,
+      "timeout":60,
+      "style": {
+        "type": "rect",
+        "ratio": 1.309
+      },
+      "ext": "proxy"
+    },
+    {
+      "key": "18AV",
+      "name": "18AV",
+      "type": 3,
+      "api": "csp_Eighteen",
+      "searchable": 1,
+      
+      "timeout":60,
+      "style": {
+        "type": "rect",
+        "ratio": 1.485
+      },
+      "ext": "proxy"
+    },
+    {
+      "key": "Jable",
+      "name": "Jable",
+      "type": 3,
+      "api": "csp_Jable",
+      "searchable": 1,
+      
+      "timeout":60,
+      "style": {
+        "type": "rect",
+        "ratio": 1.77
+      },
+      "ext": "proxy"
+    },
+    {
+      "key": "MissAV",
+      "name": "MissAV",
+      "type": 3,
+      "api": "csp_Miss",
+      "searchable": 1,
+      
+      "timeout":60,
+      "style": {
+        "type": "rect",
+        "ratio": 1.777
+      },
+      "ext": "proxy"
+    },
+    {
+      "key": "Hanime",
+      "name": "Hanime",
+      "type": 3,
+      "api": "csp_Hanime",
+      "searchable": 1,
+      
+      "timeout":60,
+      "style": {
+        "type": "rect",
+        "ratio": 0.68
+      },
+      "ext": "proxy"
+    },
+    {"key":"Cable","name":"CableAV","type":3,"api":"csp_Cable","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"proxy",
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
 
 		{
       "key": "1影视",
@@ -487,7 +595,7 @@
      "changeable":1, 
      "filterable":0, 
      "timeout":60, 
-     "ext":"./lib/tokenm1.json$$$./lib/pushshare.zw.txt$$$db$$$1",
+     "ext":"./lib1/tokenm盒子1.json$$$./lib/pushshare.zw.txt$$$db$$$1",
      "style": {
      "type": "list",
      "ratio": 1.1
@@ -502,7 +610,7 @@
      "changeable":1, 
      "filterable":0, 
      "timeout":60, 
-     "ext":"./lib/tokenm1.json$$$./lib/pushshare.zw 2.txt$$$db$$$1",
+     "ext":"./lib1/tokenm盒子1.json$$$./lib/pushshare.zw 2.txt$$$db$$$1",
      "style": {
      "type": "list",
      "ratio": 1.1
@@ -517,24 +625,13 @@
      "changeable":1, 
      "filterable":0, 
      "timeout":60, 
-     "ext":"./lib/tokenm1.json$$$./lib/自建.txt$$$db$$$1",
+     "ext":"./lib1/tokenm盒子1.json$$$./lib/自建.txt$$$db$$$1",
      "style": {
      "type": "list",
      "ratio": 1.1
       }
     },
-{
-            "key": "Taohuazu111",
-            "name": " | 桃花族1",
-            "type": 3,
-            "api": "csp_Taohuazu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "./lib/tokenm1.json$$$http://777634.xyz/$$$127.0.0.1:10072"
-      },
+
 
 	 {
          "key":"色花堂",
@@ -578,39 +675,7 @@
             }
     },
 
-	{"key":"Xojav","name":"XOJav","type":3,"api":"csp_Xojav","jar":"./lib/pg.jar","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm1.json$$$null$$$127.0.0.1:10072",
-                        "style": {
-                                "type": "rect",
-                                "ratio": 1.5
-                        }
-    },
-	  {"key":"Cable1","name":"Cable|fq","type":3,"api":"csp_Cable",
-		 "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60,
-             "ext":"./lib/tokenm1.json$$$null$$$127.0.0.1:10072",
-	 "style":{"type":"rect","ratio":1.6}},
-    {"key":"Doll1","name":"Doll|fq","type":3,"api":"csp_Doll",
-		 "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "ext":"./lib/tokenm1.json$$$null$$$127.0.0.1:10072",
-	 "style":{"type":"rect","ratio":1.309}},
-	  {"key":"Miss1","name":"Miss|fq","type":3,"api":"csp_Miss",
-		 "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60,
-             "ext":"./lib/tokenm1.json$$$null$$$127.0.0.1:10072",
-	 "style":{"type":"rect","ratio":1.6}},
-	 {"key":"top888",
-	 "name":"top888|fq",
-	 "type":3,
-	 "api":"csp_Top888",
-	  "ext":"./lib/tokenm1.json$$$null$$$127.0.0.1:10072",
-	 "style":{"type":"rect","ratio":1.6}},
+	
 	{ 
             "key": "jable",
             "name": " | jable♥️",
@@ -832,7 +897,7 @@
 	"changeable":1, 
 	"filterable":0,
 	"timeout":60, 
-	"ext":"./lib/tokenm1.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1",
+	"ext":"./lib1/tokenm盒子1.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1",
 			"style": {
 				"type": "rect",
 				"ratio": 1.5
@@ -857,7 +922,7 @@
 		"changeable":1, 
 		"filterable":0,
 		"timeout":60,
-		"ext":"./lib/tokenm1.json$$$./lib1/桃花磁力.txt$$$db$$$1",
+		"ext":"./lib1/tokenm盒子1.json$$$./lib1/桃花磁力.txt$$$db$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -934,7 +999,7 @@
 		"changeable":1, 
 		"filterable":0,
 		"timeout":60,
-		"ext":"./lib/tokenm1.json$$$./lib1/1_pushshare.a.txt$$$db$$$1",
+		"ext":"./lib1/tokenm盒子1.json$$$./lib1/1_pushshare.a.txt$$$db$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
@@ -1147,72 +1212,18 @@
 		"changeable":1, 
 		"filterable":0,
 		"timeout":60,
-		"ext":"./lib/tokenm1.json$$$./lib1/pushshare.1.txt$$$db$$$1",
+		"ext":"./lib1/tokenm盒子11.json$$$./lib1/pushshare.1.txt$$$db$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
 			}
 		},
-   {
-            "key": "Taohuazu",
-            "name": "桃花族",
-            "type": 3,
-			
-            "api": "csp_Taohuazu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "./lib/tokenm1.json$$$http://777634.xyz/$$$127.0.0.1:10072"
-        },
-		
-{
-      "key": "av188",
-      "name": "🔞Netflav",
-      "type": 3,
-      "api": "csp_Netflav",
-      "searchable": 1,
-      "changeable": 0,
-	 "ext":"null$$$127.0.0.1:10072"
-    },
-    {
-      "key": "Cable",
-      "name": "CableAV",
-      "type": 3,
-      "api": "csp_Cable",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 0,
-      "timeout": 60,
-	  "ext":"127.0.0.1:10072"
-    },
-	{
-            "key": "熊猫",
-            "name": "⛅️熊猫·Py",
-            "type": 3,
-            "api": "./lib/2_熊猫秒播.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable":1
-        },
-   
+  
+
+	
    
 	
-    {
-    "key":"csp_JavDb",
-    "name":"🚒JavDb",
-    "type":3,
-	
-    "api":"csp_JavDb",
-    "searchable":1,
-    "quickSearch":1,
-    "filterable":1,
-    "changeable":0,
-    "timeout":1801,
-    "ext":"http://javdb365.com$$$127.0.0.1:10072"
-    },
+   
     {
       "key": "nivod18",
       "name": "泥巴貓",
