@@ -309,7 +309,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 30,
-            "ext": "./lib1/tokenm盒子.json$$$https://duopan.fun/$$$proxy$$$1$$$./lib/wogg.json"
+            "ext": "./lib1/tokenm盒子.json$$$https://duopan.fun/$$$代理位置$$$1$$$./lib/wogg.json"
         },
 
 		{
@@ -409,7 +409,7 @@
 	"changeable":1,
 	"filterable":1, 
 	"timeout":60, 
-	"ext":"./lib1/tokenm盒子.json$$$https://gaoqing.la/$$$proxy$$$1"},
+	"ext":"./lib1/tokenm盒子.json$$$https://gaoqing.la/$$$代理位置$$$1"},
 	{"key":"MP4us","name":"🧲MP4us🧲","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
             "ext": {
         "标题":"<font*>&&</font>",
@@ -588,7 +588,7 @@
 	"changeable":1, 
 	"filterable":0,
 	"timeout":60, 
-	"ext":"./lib1/tokenm盒子.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1",
+	"ext":"./lib1/tokenm盒子.json$$$https://clg.clgvip1.xyz/$$$代理位置$$$1",
 			"style": {
 				"type": "rect",
 				"ratio": 1.5
@@ -2371,7 +2371,7 @@
 	"changeable":1, 
 	"filterable":1,
 	"timeout":60, 
-	"ext":"./lib1/tokenm盒子.json$$$null$$$proxy$$$1"},
+	"ext":"./lib1/tokenm盒子.json$$$null$$$代理$$$1"},
 	{"key":"YydsVip",
 	"name":"🔍YYDSVIP|网盘🔍",
 	"type":3,"jar": "./lib/pg24.10.26.jar",
@@ -2519,13 +2519,13 @@
 	
 	"api":"csp_YunPan",
 	"timeout":60,
-	"ext":"./lib1/tokenm盒子.json$$$null$$$proxy$$$1"},
+	"ext":"./lib1/tokenm盒子.json$$$null$$$代理$$$1"},
 	 {"key":"盘友圈",
    "name":"🔍盘友圈🔍",
    "type":3,
    "api":"csp_Panyq",
    "timeout":60, 
-   "ext":"./lib1/tokenm盒子.json$$$site$$$proxy"},
+   "ext":"./lib1/tokenm盒子.json$$$site$$$代理"},
 		{
             "key": "Panta",
             "name": "🔍移动|网盘🔍",
@@ -2538,17 +2538,7 @@
             "timeout": 30,
             "ext": "./lib1/tokenm盒子.json$$$https://www.91panta.cn/$$$null$$$1"
         },
-		 {"key":"QQ",
-	 "name":"🔍QQ🔍",
-	 "type":3,
-	 "api":"csp_QQ", 
-	 "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout":60,
-			 
-            "ext": "./lib1/tokenm盒子.json$$$null$$$proxy$$$1"
-        },
+		
 		{"key":"PanSearch111",
 		"name":"🔍PanSearch|网盘🔍",
 		"type":3,"api":"csp_PanSearch",
