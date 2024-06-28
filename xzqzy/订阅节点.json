@@ -36,6 +36,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {"json":"./lib/youtube.json",
+			"token":"./lib1/tokenm盒子.json",
 			"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
                 "type": "4k 动画片#4k 直播#4k 新闻#4k 剧集#4k 电影#4k 综艺#4k 纪录片#4k 音乐#4k 体育#4k 风景#4k 放松#课程#@ygkkk#CM喂饭#bbc documentary#national geographic documentary#Shorts#movie#documentary#Live nrws in English#News live",
                 "proxy": "proxy"
@@ -53,7 +54,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
-            "ext": {
+            "ext": {"token":"./lib1/tokenm盒子.json",
 			"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
                 "type": "锡剧#京剧#越剧#黄梅戏#评剧#豫剧#昆曲#淮剧#绍剧#徽剧#梨园戏",
                 "proxy": "proxy"
@@ -71,7 +72,8 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 1,
-            "ext": {"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
+            "ext": {"token":"./lib1/tokenm盒子.json",
+			"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
             "type": "苏教版课程#人教版课程#沪教版课程#北师大版课程",
             "proxy": "proxy"
             },
