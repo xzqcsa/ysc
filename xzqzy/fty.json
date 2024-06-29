@@ -205,24 +205,7 @@
       "jar": "./lib/XBPQ.jar",
       "ext": "./lib/西屋影视.json"
     },
-		 {
-      "key": "Wexjiazitv",
-      "name": "🔥甲子🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;abd7de963094093f674c391183001b3a",
-      "api": "csp_Wexjiazitv",
-      "searchable": 1,
-      "changeable": 1
-    },
-	{
-      "key": "Wexshandian",
-      "name": "🔥️闪电🔥",
-      "type": 3,
-	  "jar": "./lib/wex.txt;md5;abd7de963094093f674c391183001b3a",
-      "api": "csp_Wexshandian",
-      "searchable": 1,
-      "changeable": 1
-    },
+		 
 		{
             "key": "金牌影视",
             "name": "🔥金牌影院🔥",
