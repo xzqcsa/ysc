@@ -904,22 +904,7 @@
 				]
 			}
 		],
-		"16k HDR":[
-		    {
-				"key":"tid",
-				"name":"風景",
-				"value":[
-				    {"n":"運動","v":"GoPro 女翼裝飛行 極限自行車運動"},
-				    {"n":"風景","v":"hdr 大自然"},
-				    {"n":"Links TV頻道主","v":"@linksphotograph Links TV hdr"},
-				    {"n":"放鬆","v":"hdr 放鬆"},
-				    {"n":"動物世界","v":"hdr Carnivorous Animals 動物世界"},
-				    {"n":"深海世界","v":"hdr Invertebrate Fish 深海世界"},
-				    {"n":"飛禽走獸","v":"hdr Birds of Prey Columbiform Birds Passerine Birds"},
-				    {"n":"生物世界","v":"hdr Amphibians Reptiles 生物世界"}
-				]
-			}
-		],
+		
 		"纪录片":[
 		{
 				"key":"time",
@@ -1241,7 +1226,7 @@
 			{
 				"key":"tid",
 				"name":"中文",
-				"value":[{"n":"戲曲","v":"锡剧,秦腔,京剧,越剧,黄梅戏,评剧 豫剧,昆曲,高腔,梆子腔,河北梆子,晋剧,蒲剧,雁剧,上党梆子,武安平调,二人台,吉剧,龙江剧,越调,河南曲剧,山东梆子,淮剧,滑稽戏,婺剧 绍剧,徽剧,闽剧,莆仙戏,梨园戏,高甲戏,赣剧,采茶戏,汉剧,湘剧,祁剧,湖南花鼓戏,粤剧,潮剧,桂剧,彩调,壮剧,川剧,黔剧,滇剧,傣剧,藏剧,皮影戏"},
+				"value":[{"n":"戏曲","v":"锡剧,秦腔,京剧,越剧,黄梅戏,评剧 豫剧,昆曲,高腔,梆子腔,河北梆子,晋剧,蒲剧,雁剧,上党梆子,武安平调,二人台,吉剧,龙江剧,越调,河南曲剧,山东梆子,淮剧,滑稽戏,婺剧 绍剧,徽剧,闽剧,莆仙戏,梨园戏,高甲戏,赣剧,采茶戏,汉剧,湘剧,祁剧,湖南花鼓戏,粤剧,潮剧,桂剧,彩调,壮剧,川剧,黔剧,滇剧,傣剧,藏剧,皮影戏"},
 				{"n":"环球视听","v":"环球视听1980 @RippleOfficialEvent"},
 				    {"n":"海外抖音","v":"TikTok 翻唱 抖音 音樂"},
 					 {"n":"YouTube 點閱率最高","v":"YouTube 點閱率最高觀看次數最多華語歌曲"},
@@ -1303,17 +1288,23 @@
 			}
 		],
 			
-		"野性":[
+		"风景":[
 		    {
 				"key":"tid",
-				"name":"風光",
+				"name":"风光",
 				"value":[
 				    {"n":"風景","v":"@hdr 大自然"},
 				    {"n":"Links TV頻道主","v":"@linksphotograph Links TV hdr"},
 				    {"n":"放鬆","v":"@hdr 放鬆"},
-				    {"n":"動物世界","v":"@hdr Carnivorous Animals 動物世界"},
-				    {"n":"深海世界","v":"@hdr Invertebrate Fish 深海世界"},
-				    {"n":"飛禽走獸","v":"@hdr Birds of Prey Columbiform Birds Passerine Birds"},
+					{"n":"運動","v":"GoPro 女翼裝飛行 極限自行車運動"},
+				    {"n":"風景","v":"hdr 大自然"},
+				    {"n":"Links TV頻道主","v":"@linksphotograph Links TV hdr"},
+				    {"n":"放鬆","v":"hdr 放鬆"},
+				    {"n":"動物世界","v":"hdr Carnivorous Animals 動物世界"},
+				    {"n":"深海世界","v":"hdr Invertebrate Fish 深海世界"},
+				    {"n":"飛禽走獸","v":"hdr Birds of Prey Columbiform Birds Passerine Birds"},
+				  
+				    
 				    {"n":"生物世界","v":"@hdr Amphibians Reptiles 生物世界"}
 				]
 			}
