@@ -82,6 +82,15 @@
 				"ratio": 1.77
             }
         },
+			{"key":"欧乐影院",
+		"name":"🔥欧乐影院🔥",
+		"type":3,
+		"api":"csp_Olevod",
+		"quickSearch":1,
+		"changeable":1,
+		"filterable":1,
+		"timeout":60,
+		"ext":"./lib1/tokenm盒子.json$$$null$$$proxy$$$1"},
 			{"key":"Wogg234567",
 		"name":"🔥玩偶|阿里🔥",
 		"type":3,
