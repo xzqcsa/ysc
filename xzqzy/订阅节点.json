@@ -276,7 +276,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 30,
-            "ext": "./XYQTVBox/tokenm盒子.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./pg/lib/wogg.json"
+            "ext": "./lib1/tokenm盒子.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./pg/lib/wogg.json"
         },
     
 
@@ -380,8 +380,17 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "./XYQTVBox/tokenm盒子.json$$$http://ttkx.live:7728$$$null$$$1$$$./pg/lib/wogg.json"
+      "ext": "./lib1/tokenm盒子.json$$$http://ttkx.live:7728$$$null$$$1$$$./pg/lib/wogg.json"
     },
+	{"key":"Xinshijue",
+	"name":"🔥新视觉|网盘🔥",
+	"type":3,
+	"api":"csp_Xinshijue",
+	"quickSearch":1, 
+	"changeable":1,
+	"filterable":1,
+	"timeout":60,
+	"ext":"./lib1/tokenm盒子.json$$$https://6080z.com/$$$noproxy$$$1$$$./lib/wogg.json"},
 		{
       "key": "Wobg555",
       "name": "🔥玩你网盘🔥",
@@ -392,7 +401,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "./XYQTVBox/tokenm盒子.json$$$https://tv.yydsys.top/$$$null$$$1$$$./pg/lib/wogg.json"
+      "ext": "./lib1/tokenm盒子.json$$$https://tv.yydsys.top/$$$null$$$1$$$./pg/lib/wogg.json"
     },
 	{
       "key": "Wobg111",
@@ -404,7 +413,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "./XYQTVBox/tokenm盒子.json$$$https://tudou.lvdoui.top$$$null$$$1$$$./pg/lib/wogg.json"
+      "ext": "./lib1/tokenm盒子.json$$$https://tudou.lvdoui.top$$$null$$$1$$$./pg/lib/wogg.json"
     },
 	{
 			"key": "新6V111",
@@ -1837,7 +1846,7 @@
 			
             "changeable": 0,
             "timeout": 30,
-            "ext": "./XYQTVBox/tokenm盒子.json"
+            "ext": "./lib1/tokenm盒子.json"
         },
 		
 		
@@ -2432,7 +2441,7 @@
       "filterable": 1,
       "changeable": 0,
       "ext": {
-        "cookie": "./XYQTVBox/quark_cookie.txt",
+        "cookie": "./lib1/quark_cookie.txt",
         "danmu": true
       },
       "timeout": 15
@@ -2523,7 +2532,7 @@
 		
 		"api":"csp_YiSo",
 		"timeout":60,
-		"ext":"./lib1/tokenm盒子.json$$$./XYQTVBox/yiso.txt"},
+		"ext":"./lib1/tokenm盒子.json$$$./lib1/yiso.txt"},
       
         {
             "key": "QuarkPanso",
