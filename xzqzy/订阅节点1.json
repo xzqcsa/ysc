@@ -107,6 +107,7 @@
 		"搜索标题":"title=\"&&\"",
 		"搜索副标题":"ft2\">&&</span>",
 		"搜索链接":"href=\"&&\"",
+		"页面代理":"127.0.0.1:10072",
 		"搜索url":"https://www.7xi.tv/vodsearch/page/{pg}/wd/{wd}/",
 		"分类url":"https://www.7xi.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}/",
 		"分类":"电影$1#电视剧$2#短剧$56#综艺$3#动漫$4"}},
