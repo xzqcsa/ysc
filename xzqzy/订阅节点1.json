@@ -92,7 +92,7 @@
 		"quickSearch":1,
 		"filterable":1,
 		"ext":{"主页url":"https://www.7xi.tv/vodshow/64-----------/",
-		"数组":"lazy lazy1&&</a ></div></div>",
+		"数组":"lazy lazy1&&</a></div></div>",
 		"图片":"data-src=\"&&\"",
 		"标题":"title=\"&&\"",
 		"副标题":"ft2\">&&</span>",
@@ -117,7 +117,28 @@
             "api": "https://hw8.live/api.php/provide/vod/",
             "style": {
                 "ratio": 1.7
-            }
+            },
+			 "categories": [
+               "国产剧",
+                 "动作片",
+				  "动画电影",
+				  "网络电影",
+				  "灾难片",
+        "剧情片",
+        "喜剧片",
+        "恐怖片",
+        "科幻片",
+        "悬疑片",
+        "奇幻片",
+                "电视剧",
+                 
+                "国产动漫",
+               
+                "韩剧",
+                "综艺"
+               
+            ]
+        
         },
 
 
