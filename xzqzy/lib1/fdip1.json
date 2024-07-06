@@ -17,8 +17,6 @@ proxies:
   - {name: 移动4g专用02|770, server: 183.236.51.23, port: 48009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
   - {name: 移动4g专用01|806, server: 183.238.90.3, port: 40890, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
   - {name: 移动4g专用01|807, server: 183.238.202.171, port: 32133, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
- - {name: JP_183 @wangcai_8, server: 139.162.84.183, port: 3306, type: trojan, password: 182228812d1e0f23, sni: n2.gladns.com, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: n2.gladns.com}}, udp: true}
-  - {name: JP_133 @wangcai_8, server: 172.105.230.133, port: 3306, type: trojan, password: 432b861897e9e1dc, sni: n2.gladns.com, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: n2.gladns.com}}, udp: true}
   - {name: JP_7 @wangcai_8, server: 172.105.220.7, port: 3306, type: trojan, password: 26a663656e575c0b, sni: n2.gladns.com, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: n2.gladns.com}}, udp: true}
   - {name: JP_7 @wangcai_8 2, server: 172.105.220.7, port: 3306, type: trojan, password: 0cc6b4268dea0ba8, sni: n2.gladns.com, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: n2.gladns.com}}, udp: true}
   - {name: JP_133 @wangcai_8 2, server: 172.105.230.133, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: n2.gladns.com, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: n2.gladns.com}}, udp: true}
