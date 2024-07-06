@@ -5,6 +5,18 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+ - {name: 移动4g专用01|695, server: 120.232.153.8, port: 54629, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 移动4g专用01|840, server: 183.238.202.171, port: 42866, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 移动4g专用01|720, server: 183.238.90.3, port: 35576, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 移动4g专用01|694, server: 120.232.153.8, port: 40944, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 移动4g专用01|839, server: 183.238.90.3, port: 43920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 移动4g专用03|102, server: 120.210.205.236, port: 47459, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 移动4g专用02|800, server: 183.236.51.23, port: 51002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 移动4g专用02|894, server: 183.240.235.157, port: 47883, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 移动4g专用02|799, server: 183.236.51.23, port: 56601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 移动4g专用02|770, server: 183.236.51.23, port: 48009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 移动4g专用01|806, server: 183.238.90.3, port: 40890, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 移动4g专用01|807, server: 183.238.202.171, port: 32133, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
   - {name: 电信🌐发布🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】, server: aliyun.2096.us.kg, port: 2096, type: vless, uuid: 1457e2aa-7437-47a3-8252-99bb3cb0a50f, tls: true, tfo: false, servername: vless.19860524.xyz, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vless.19860524.xyz}}, udp: true}
   - {name: 🇸🇬 移动🌐更新🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】, server: aliyun.2096.us.kg, port: 2096, type: vless, uuid: 1457e2aa-7437-47a3-8252-99bb3cb0a50f, tls: true, tfo: false, servername: vless.19860524.xyz, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vless.19860524.xyz}}, udp: true}
   - {name: 联通🌐通知🌐频道™️™️™️：t.me/cncomorg🐲™️【请勿测速】, server: aliyun.2096.us.kg, port: 2096, type: vless, uuid: 1457e2aa-7437-47a3-8252-99bb3cb0a50f, tls: true, tfo: false, servername: vless.19860524.xyz, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vless.19860524.xyz}}, udp: true}
