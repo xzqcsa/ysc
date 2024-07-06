@@ -83,6 +83,34 @@
 				"ratio": 1.77
             }
         },
+		{
+			"key":"yimafh",
+			"name": "🔥影视100🔥",
+			"jar": "./lib1/XBPQ.jar",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"ext": {
+				 "发布地址": "https://www.dianying100.online/",
+    "数组": "myui-vodlist__thumb&&</a",
+    "简介": "<span class=\"data\" style=\"display: none;\">&&</span",
+    "线路数组": "<a href=\"\\#playlist&&</li",
+    "线路标题": ">&&</a",
+    "播放数组": "<ul id=\"playlist\"&&</ul>",
+    "播放列表": "<li class=\"col-lg-7 col-md-6&&</li",
+    "播放标题": ">&&</a",
+    "播放链接": "https://dianying100.xyz/+data-link=\"/&&\"",
+    "跳转播放链接": "data-url=\"&&\"",
+    "搜索url": "https://dianying100.xyz/index.php/new_search/search/wd/{wd}/page/{pg}.html?wd={wd}",
+    "搜索数组": "lazyload\"&&</li",
+    "搜索标题": "title=\"&&\"",
+    "搜索图片": "data-original=\"&&\"",
+    "搜索链接": "btn-warm\" href=\"&&\"",
+    "分类数组": "<li class=\"col-lg-5 col-md-5 col-sm-5 col-xs-3&&</li",
+    "分类标题": ">&&</a","页面代理":"127.0.0.1:10072",
+    "分类ID": "href=\"/index.php/vod/type/id/&&.html\"",
+    "分类url": "https://dianying100.xyz/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}.html;;ak"
+			}
+		},
 		{"key":"七喜影院(梯)",
 		"name":"🔥七喜影院🔥",
 		"type":3,
@@ -373,7 +401,7 @@
             "api": "csp_AppYS",
             "changeable": 0,
             "ext": {
-                "server": "https://4k.ysctv.cn/api.php/app/",
+                "server": "https://g.ysctv.cn/api.php/app/",
                 "mackey": "5tlVvvRYiYlxVpwF|cr31YFb1pGPrKpUX",
                 "ali": "./lib/tok.txt",
                 "quark": "./lib/quark.txt"

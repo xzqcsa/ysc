@@ -417,7 +417,7 @@
             "api": "csp_AppYS",
             "changeable": 0,
             "ext": {
-                "server": "https://4k.ysctv.cn/api.php/app/",
+                "server": "https://g.ysctv.cn/api.php/app/",
                 "mackey": "5tlVvvRYiYlxVpwF|cr31YFb1pGPrKpUX",
                 "ali": "./lib/tok.txt",
                 "quark": "./lib/quark.txt"
