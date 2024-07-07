@@ -140,6 +140,15 @@
             ]
         
         },
+		{
+            "key": "php_hmezy",
+            "name": "🔥黑木耳1🔥",
+            "type": 4,
+            "api": "https://demobe.serv00.net/heimuer.php",
+            "searchable": 1,
+            "quickSearch":0,
+            "filterable":0
+        },
 			
 			{"key":"欧乐影院",
 		"name":"🔥欧乐影院🔥",

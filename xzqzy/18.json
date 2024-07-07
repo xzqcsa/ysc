@@ -60,6 +60,19 @@
             "ext": "./lib1/tokenm盒子1.json"
         },
 		{
+            "key": "php_madou",
+            "name": "麻豆",
+            "type": 4,
+            "api": "https://demobe.serv00.net/madou.php",
+            "searchable": 1,
+            "quickSearch":0,
+            "filterable":0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+              }
+        },
+		{
       "key": "rs",
       "name": "肉視頻|XBPQ",
       "type": 3,
