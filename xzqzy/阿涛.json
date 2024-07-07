@@ -41,6 +41,15 @@
       "ext": "./lib/西屋影视.json"
     },
 	{
+            "key": "php_hmezy",
+            "name": "🔥黑木耳1🔥",
+            "type": 4,
+            "api": "https://demobe.serv00.net/heimuer.php",
+            "searchable": 1,
+            "quickSearch":0,
+            "filterable":0
+        },
+	{
       "key": "蛋蛋",
       "name": "🔥蛋蛋影视🔥",
       "type": 3,

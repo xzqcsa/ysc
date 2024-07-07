@@ -33,6 +33,15 @@
       "jar": "./lib/XBPQ.jar",
       "ext": "./lib/番茄影视-1.json"
     },
+	{
+            "key": "php_hmezy",
+            "name": "🔥黑木耳1🔥",
+            "type": 4,
+            "api": "https://demobe.serv00.net/heimuer.php",
+            "searchable": 1,
+            "quickSearch":0,
+            "filterable":0
+        },
 		 {
       "key": "火狼",
       "name": "🔥火狼影视🔥",
