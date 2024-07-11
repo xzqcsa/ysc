@@ -315,7 +315,7 @@
             "filterable": 1,
 			
             "timeout": 60,
-            "ext":"./lib1/tokenm盒子.json$$$proxy$$$1"
+            "ext":"./lib1/tokenm盒子.json$$$noproxy$$$1"
         },
 		
 	
