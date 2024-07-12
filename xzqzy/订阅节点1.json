@@ -94,7 +94,7 @@
 		"线路数组":"dropdown&&</div>",
 		"线路标题":">&&</span>+【共+<small>&&<+集】",
 		"跳转播放链接":"<iframe border*src=\"&&\"",
-		"分类url":"https://www.taozi007.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+		"分类url":"https://www.taozi007.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html","页面代理":"127.0.0.1:10072",
 		"分类":"电影$1#剧集$2#综艺$3#动漫$4#短剧$5"}},
 
 		
