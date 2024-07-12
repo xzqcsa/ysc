@@ -99,6 +99,17 @@
 "搜索url":"https://askdy.net/vodsearch/{wd}----------{pg}---.html",
 "分类url":"https://askdy.net/vodtype/{cateId}-{catePg}.html;;z",
 "分类":"新品日韩$20#中文字幕$21#短片本土$22#大胸美女$23#剧情暴力$24#制服扮演$25#人妻御姐$26#无码精选$27#动漫卡通$28#换脸系列$29#欧美大片$30"}},
+{
+            "key": "暑假快练",
+            "name": "暑假快练",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/XBPQ.jar",
+            "ext": {
+            "主页url":"http://aakhsck.cc","页面代理": "127.0.0.1:100172","分类":"日韩AV$http://aakhsck.cc/vodtype/1.html#国产系列$http://aakhsck.cc/vodtype/2.html欧美$http://aakhsck.cc/vodtype/3.html#成人动漫$http://aakhsck.cc/vodtype/4.html#",
+                "分类url": "http://aakhsck.cc/type/1/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
+            }
+        },
 
 		 {
             "key": "csp_XBPQ_JAV目錄大全",
