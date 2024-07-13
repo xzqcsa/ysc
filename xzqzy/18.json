@@ -110,7 +110,20 @@
                 "分类url": "http://aakhsck.cc/type/1/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
             }
         },
-
+{"key":"SeHuaTang222",
+"name":"色花堂|磁力2",
+"type":3,
+"api":"csp_SeHuaTang",
+"searchable":1,
+"quickSearch":1,
+"changeable":1, 
+"filterable":0,
+"timeout":60, "ext":"./lib1/tokenm盒子1.json$$$null$$$proxy",
+                        "style": {
+                                "type": "list",
+                                "ratio": 1.1
+                        }
+    },
 		 {
             "key": "csp_XBPQ_JAV目錄大全",
             "name": "🔞JAV｜大全",
