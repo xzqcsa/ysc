@@ -84,6 +84,19 @@
         "分类": "國產AV$國產AV#探花$探花#自拍流出$自拍流出#日本$日本" 
       }
     },
+	{
+            "key": "soporn",
+            "name": "🔞soporn(T)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/XBPQ.jar",
+            "ext": {
+                "直接播放": "1",
+                "嗅探词": "index.m3u8",
+                "简介": "name=\"description\" content=\"&&\"/>",
+                "分类url": "https://www.anticasf.com/cn/tag/{cateId}?page={catePg}"
+            }
+        },
 {"key":"问天影院",
 "name":"问天影院",
 "type":3,
