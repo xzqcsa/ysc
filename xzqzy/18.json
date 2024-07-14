@@ -93,7 +93,7 @@
             "ext": {
                 "直接播放": "1",
                 "嗅探词": "index.m3u8",
-                "简介": "name=\"description\" content=\"&&\"/>",
+                "简介": "name=\"description\" content=\"&&\"/>","页面代理": "127.0.0.1:100172",
                 "分类url": "https://www.anticasf.com/cn/tag/{cateId}?page={catePg}"
             }
         },
