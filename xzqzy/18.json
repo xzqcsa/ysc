@@ -80,7 +80,7 @@
       "jar": "./lib/XBPQ.jar",
       "ext": {
         "分类url":"https://rouvx2.xyz/t/{cateId}?order=createdAt&page={catePg}",
-        "直接播放":"1",
+        "直接播放":"1","页面代理": "127.0.0.1:10072",
         "分类": "國產AV$國產AV#探花$探花#自拍流出$自拍流出#日本$日本" 
       }
     },
@@ -93,7 +93,7 @@
             "ext": {
                 "直接播放": "1",
                 "嗅探词": "index.m3u8",
-                "简介": "name=\"description\" content=\"&&\"/>","页面代理": "127.0.0.1:100172",
+                "简介": "name=\"description\" content=\"&&\"/>","页面代理": "127.0.0.1:10072",
                 "分类url": "https://www.anticasf.com/cn/tag/{cateId}?page={catePg}"
             }
         },
@@ -119,7 +119,7 @@
             "api": "csp_XBPQ",
             "jar": "./lib/XBPQ.jar",
             "ext": {
-            "主页url":"http://aakhsck.cc","页面代理": "127.0.0.1:100172","分类":"日韩AV$http://aakhsck.cc/vodtype/1.html#国产系列$http://aakhsck.cc/vodtype/2.html欧美$http://aakhsck.cc/vodtype/3.html#成人动漫$http://aakhsck.cc/vodtype/4.html#",
+            "主页url":"http://aakhsck.cc","页面代理": "127.0.0.1:10072","分类":"日韩AV$http://aakhsck.cc/vodtype/1.html#国产系列$http://aakhsck.cc/vodtype/2.html欧美$http://aakhsck.cc/vodtype/3.html#成人动漫$http://aakhsck.cc/vodtype/4.html#",
                 "分类url": "http://aakhsck.cc/type/1/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
             }
         },
@@ -173,7 +173,7 @@
                 "分类": "国产$chinese#五码$uncensored#欧美$western#fc2$fc2#女同性$115#三级字幕$442#91探花$455#偷拍自拍$278#国产传媒$390#台湾涩情$412",
                 "分类url": "https://javmenu.cc/zh/{cateId}/online?page={catePg}",
                 "筛选": "263",
-                "页面代理": "127.0.0.1:100172"
+                "页面代理": "127.0.0.1:10072"
             }
         },
 		{
