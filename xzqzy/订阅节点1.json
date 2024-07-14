@@ -209,19 +209,7 @@
       "jar": "./lib1/XBPQ.jar",
       "ext": "./lib/七新电影.json"
     },
-	{
-            "key": "孜然",
-            "name": "🔥孜然影视🔥",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar":"./lib1/XBPQ.jar",
-            "ext": {"嗅探词": ".mp4#m3u8",
-			"页面代理":"127.0.0.1:10072",
-                "分类url": "https://www.zrys1.top/index.php/vod/show/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",
-                "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
-               
-            }
-        },
+	
 {
             "key": "猫世界",
             "name": "🔥猫世界影视🔥",
@@ -308,7 +296,7 @@
             "filterable": 1,
             "timeout": 30,
 			
-            "ext":"./lib1/tokenm盒子1.json$$$null$$$1"
+            "ext":"./lib1/tokenm盒子1.json$$$proxy$$$1"
         },
         {
             "key":"团长资源",
@@ -350,7 +338,7 @@
 		"changeable":1, 
 		"filterable":1,
 		"timeout":60, 
-		"ext":"./lib1/tokenm盒子1.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./lib/moli.json"},
+		"ext":"./lib1/tokenm盒子1.json$$$https://www.hdmoli.pro/$$$proxy$$$1$$$./lib/moli.json"},
 	 {"key":"Ppxzy",
 		"name":"🔥皮皮虾|网盘🔥",
 		"type":3,
@@ -380,20 +368,7 @@
 	"filterable":1,
 	"timeout":60,
 	"ext":"./lib1/tokenm盒子1.json$$$https://6080z.com/$$$noproxy$$$1$$$./lib/wogg.json"},
-		{
-            "key": "csp_YingSC",
-            "name": "🔥车车🔥",
-            "type": 3,
-            "api": "csp_AppYS",
-            "changeable": 0,
-            "ext": {
-                "server": "https://g.ysctv.cn/api.php/app/",
-                "mackey": "5tlVvvRYiYlxVpwF|cr31YFb1pGPrKpUX",
-                "ali": "./lib/tok.txt",
-                "quark": "./lib/quark.txt"
-            },
-            "jar": "./lib/YSC.jar"
-        },
+		
 	 {
       "key": "Wobg56676",
       "name": "🔥玩我网盘🔥",
@@ -556,25 +531,7 @@
 			"jar": "./lib/XBPQ.jar"
 		},
 		
-{
-            "key": "haokongbu",
-            "name": "🧲好恐怖🧲",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType":1,
-            "ext": {
-               "主页url": "https://m.haokongbu.top/","搜索url": "https://s.haokongbu.top/e/search/result/?searchid={wd}",
-                "分类url": "https://m.haokongbu.top/{cateId}/index_{catePg}.html[https://m.haokongbu.top/{cateId}/index.html]",
-                "分类": "国产剧$guochanju#港剧$gangju#动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#战争片$zhanzhengpian#剧情片$juqingpian#微电影$weidianying#记录片$m_jlp#高清$gaoqing#动漫$donghuapian#台湾$taiwanju#日本$riju#韩国$hanju#欧美$oumeiju#泰国$taiguoju#海外$haiwaiju",                
-                //"数组": "<li>&&</li>",
-                "副标题": "class=\"typeset\"&&</i>",
-                "起始页": 2,
-                "倒序": 1,
-                "播放数组": "下载地址</h2>&&</ul>",
-                "播放列表": "<li><&&</a>"
-             },
-             "jar":"./lib/XBPQ.jar"
-        },
+
 		{
             "key": "小白",
             "name": "🧲小白磁力🧲",
@@ -584,15 +541,7 @@
             "playerType":1,
             "ext": "./lib/小白磁力.json"
              },
-			 {"key":"Wo4k",
-	"name":"🧲4K|磁力🧲",
-	"type":3,
-	"api":"csp_Wo4k",
-	"quickSearch":1,
-	"changeable":1, 
-	"filterable":1, 
-	"timeout":60, 
-	"ext":"./lib1/tokenm盒子1.json$$$https://www.wo4k.com/$$$proxy$$$1$$$./lib/wogg.json"},
+			 
 			 
 		{"key":"Bt0",
 	"name":"🧲不太灵|磁力🧲",
@@ -668,17 +617,7 @@
                 "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
             }},
 	
-	{ 
-      "key": " 黑木耳", 
-      "name": "🔥黑木耳🔥", 
-      "type": 3, 
-	   "jar":"./lib1/XBPQ.jar",
-      "api": "csp_XBPQ", 
-      "searchable": 1, 
-      "quickSearch": 1, 
-      "filterable": 1, 
-      "ext": "./lib/黑木耳资源.json"},
-		
+	
 		
 		
 
@@ -1373,40 +1312,7 @@
 				  "分类url":"https://xhaoer.com/search.php?page={catePg}&searchtype=5&tid={cateId}&area={area}&year={year}",
 				  "分类":"短剧$29#电影$1#电视剧$2#综艺$3#动漫$4"}},
    
-	{"key":"XBPQ_黑狐影院","name":"🔥黑狐影院🔥","type":3,"api":"csp_XBPQ", "jar":"./lib1/XBPQ.jar",
-			"ext": {
-				"站名": "黑狐影院",
-				"主页url": "http://fagmn.com",
-				"数组": "class=\"stui-vodlist__box\"&&</a",
-				"图片": "data-original=\"&&\"",
-				"标题": "title=\"&&\"",
-				"链接": "href=\"&&\"",
-				"嗅探词": ".m3u8?#v3.huoshanvod.com#.m3u8#v3-dy-o.zjcdn#sf16-sg.larksuitecdn.com#v.kd1.qq.com#.mp4",
-				"过滤词": "/hls/#php",
-				"副标题": "<span class=\"pic-text text-right\">&&</span>",
-				"搜索url": "http://fagmn.com/search.php;post;searchword={wd}",
-				"搜索模式": "1",
-				"搜索数组": "<a class=\"v-thumb stui-vodlist__thumb&&</a>",
-				"搜索图片": "data-original=\"&&\"",
-				"搜索标题": "title=\"&&\"",
-				"搜索链接": "href=\"&&\"",
-				"搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
-				"搜索后缀": "/view/",
-				"线路数组": "href=\"#down&&/a>[替换:奇异视频>>黑狐一线#优酷视频>>黑狐二线#搜狐视频>>黑狐三线#咪咕视频>>黑狐四线]",
-				"线路标题": ">&&<","页面代理":"127.0.0.1:10072",
-				"播放数组": "class=\"stui-content__playlist clearfix&&</ul>",
-				"状态": "地区：&&</p>",
-				"导演": "导演：&&</p>",
-				"主演": "主演：&&</p>",
-				"简介": "简介：&&</div>",
-				"播放列表": "<a&&/a>",
-				"播放标题": ">&&<",
-				"播放链接": "href=\"&&\"",
-				"免嗅": "0",
-				"分类": "电影$1#电视剧$2#动漫$3#综艺$4",
-				"分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
-			}
-		},
+	
 	{
             "key": "freeok",
             "name": "🔥freeok🔥",
@@ -1417,39 +1323,7 @@
             "ext": "./lib/freeok.json"
              },
 	
-		 {
-      "key": "业余采集A1",
-      "name": "🔥业余无广🔥",
-      "type": 1,
-      "api": "http://ys.540734621.xyz/api.php/provide/vod/",
-      "playUrl": "json:http://uutb.centos.chat/jsonwjm.php/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "categories": [
-        "短剧",
-        "电影",
-        "国内剧",
-        "欧美剧",
-        "港台剧",
-        "日韩剧",
-        "海外剧",
-        "国内电影",
-        "欧美电影",
-        "港台电影",
-        "日韩电影",
-        "国内动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "国内综艺",
-        "欧美综艺",
-        "日韩综艺",
-        "纪录片",
-        "音乐",
-        "体育"
-      ]
-    },
+		
 	{"key":"360PG资源",
 	"name":"🔥360PG资源🔥",
 	"type":1,
