@@ -83,7 +83,25 @@
 				"ratio": 1.77
             }
         },
-		
+		 {"key": "酷影",
+            "name": "🔥酷影app🔥",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.tvkuys.xyz/api.php/app/"
+        },
+		{
+            "key": "🔥QQ",
+            "name": "🔥QQ🔥",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": " http://122.228.84.103:5825/api.php/app/"
+        },
 		
 		{"key":"七喜影院(梯)",
 		"name":"🔥七喜影院🔥",
