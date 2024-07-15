@@ -83,6 +83,37 @@
 				"ratio": 1.77
             }
         },
+		{
+            "key": "小宝影院",
+            "name": "🔥小宝影院🔥",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "api": "csp_XBPQ",
+            "jar": "./lib/XBPQ.jar",
+            "ext": {
+                "主页url": "https://xiaoxintv.com",
+                "嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+                "数组": "class=\"myui-vodlist__box\">&&</div>",
+                "简介": "剧情简介</h3>&&</span>",
+                "线路数组": "data-toggle=\"tab&&</li>",
+                "线路标题": ">&&</a>",
+                "播放数组": "class=\"myui-content__list&&</ul>",
+                "播放列表": "<li&&</li>",
+                "播放标题": ">&&</a",
+                "播放链接": "href=\"&&\"",
+                "搜索数组": "lazyload\"&&</a",
+                "搜索图片": "data-original=\"&&\"",
+                "搜索标题": "title=\"&&\"","页面代理":"127.0.0.1:10072",
+                "搜索链接": "href=\"&&\"",
+                "分类url": "https://xiaoxintv.com/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html",
+                "分类": "电影$7#电视剧$6#动漫$5#综艺$3#纪录片$21#体育$20"
+            }
+        },
+
 		
             {"key": "酷影",
             "name": "🔥酷影app🔥",
