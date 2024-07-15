@@ -114,7 +114,24 @@
             }
         },
 
-		
+		{
+      "key": "55看",
+      "name": "🔥55看🔥",
+      "type": 3,
+	  "jar": "./lib/XBPQ.jar",
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+    "站名":"55看",
+    "主页url":"https://www.55kan.com/",
+    "简介":"<p class=\"col-pd\"&&</p>",
+    "线路数组":"<h3 class=\"title\">&&/h3>",
+    "线路标题":">&&<",
+    "分类url":"https://www.55kan.com/show/{cateId}-{area}-{by}------{catePg}---{year}.html;;ak",
+    "分类":"电影$1#电视剧$2#综艺$3#动漫$4"}},
+
             {"key": "酷影",
             "name": "🔥酷影app🔥",
             "type": 3,
