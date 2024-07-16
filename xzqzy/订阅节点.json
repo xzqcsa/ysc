@@ -122,26 +122,7 @@
                 "分类": "电影$7#电视剧$6#动漫$5#综艺$3#纪录片$21#体育$20"
             }
         },
-		{
-            "key": "yt",
-            "name": "🔥影探🔥",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": " http://cms-yt.lyyytv.cn/api.php/app/"
-        },
-  {
-      "key": "bulei",
-      "name": "🔥布蕾Tv🔥",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://buleitv.x3322.net/api.php/app/"
-    },
+		
 {
       "key": "55看",
       "name": "🔥55看🔥",
