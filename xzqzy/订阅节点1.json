@@ -241,33 +241,7 @@
                 "分类url": "https://rebozj.pro/show/{cateId}--{area}------{catePg}---{year}.html;;a"
             }
         },
-		{
-            "key": "久亿视频",
-            "name": "🔥久亿视频🔥",
-            "type": 3,
-            "searchable": 1,
-			"jar": "./lib/XBPQ.jar",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "api": "csp_XBPQ",
-            "ext": {
-                "主页url": "https://www.91w2i.com/",
-                "搜索url": "https://www.91w2i.com/search/index.html?keyword={wd}",
-                "数组": "<div class=\"public-list-div public-list-bj\"&&</div>",
-                "图片": "data-src=\"&&\"",
-                "标题": "title=\"&&\"",
-                "链接": "href=\"&&\"",
-                "简介": "class=\"text cor3\"&&</div>","页面代理":"127.0.0.1:10072",
-                "线路数组": "class=\"swiper-slide\">&&</a[排序:优酷>高清测试线路>高清测试线路1>高清测试线路2>乐视>哔哩哔哩>腾讯>搜狐>爱奇艺>芒果]",
-                "线路标题": ">&nbsp;&&</a>",
-                "播放数组": "class=\"anthology-list-play&&</div>",
-                "播放链接": "href=\"&&\"",
-                "分类url": "https://www.91w2i.com/vod/list.html?page={catePg}&type_id={cateId}",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$42"
-            }
-        },
+		
 
 {
             "key": "落攻阁",
