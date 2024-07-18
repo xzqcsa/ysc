@@ -241,7 +241,33 @@
                 "分类url": "https://rebozj.pro/show/{cateId}--{area}------{catePg}---{year}.html;;a"
             }
         },
-		
+		{"key":"23影视",
+		"name":"🔥二三┃影视🔥",
+		"type":3,
+		"api":"csp_XBPQ",
+		"jar": "./lib/XBPQ.jar",
+		"searchable":1,
+		"quickSearch":1,
+		"filterable":1,
+		"ext":{"主页url":"https://www.shwopu.com",
+		"数组":"video-img lazyload&&</p",
+		"副标题":"mr-xs-0\">&&</span>",
+		"简介":"entry-content clearfix\">*<br />&&23影视不参与",
+		"线路数组":"swiper-slide ewave-tab&&</li",
+		"线路标题":">&&</a",
+		"播放数组":"row ewave-tab-content ewave-playlist-content&&</ul",
+		"跳转播放链接":"urlDecode(var player_*\"url\":\"&&\")",
+		"搜索模式":"1",
+		"搜索数组":"block-fea lazyload&&</a",
+		"搜索图片":"data-original=\"&&\"",
+		"搜索标题":"title=\"&&\"",
+		"搜索副标题":"voddate_year\">&&</em>",
+		"搜索后缀":"/niy/","搜索链接":"href=\"&&\"",
+		"搜索url":"https://www.shwopu.com/search/{wd}----------{pg}---.html",
+		"分类二次截取":"top-bar-menu swiper-wrapper&&</nav>",
+		"分类数组":"<a&&/a>","分类标题":">&&<",
+		"分类ID":"/suo/&&.html","分类url":"https://www.shwopu.com/vshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"}},
+
 
 {
             "key": "落攻阁",
