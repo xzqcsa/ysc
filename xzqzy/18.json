@@ -97,6 +97,52 @@
                 "分类url": "https://www.anticasf.com/cn/tag/{cateId}?page={catePg}"
             }
         },
+		{
+            "key": "xiongmao",
+            "name": "熊猫喵播",
+            "type": 3,
+            "api": "./lib1/熊猫秒播.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+		{
+            "key": "18j.tv",
+            "name": "18j.tv",
+            "type": 3,
+			"jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://18j.tv/",
+                "直接播放": "1",
+                "嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"","页面代理": "127.0.0.1:10072",
+                "分类url": "https://18j.tv/show/{cateId}/nid/1/page/{catePg}/sid/1/",
+                "分类": "国产$1#日韩$2#欧美$3#伦理$4#动漫$16"
+            }
+        },
+{
+            "key": "爱豆传媒1",
+            "name": "爱豆传媒1",
+            "type": 3,
+			"jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://rourou.co/",
+                "直接播放": "1",
+                "嗅探词": "index.m3u8#.mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+                "数组": "class=\"myui-vodlist__box\">&&</div>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"","页面代理": "127.0.0.1:10072",
+                "分类url": "https://rourou.co/index.php/vod/type/id/{cateId}/page/{carePg}.html",
+                "分类": "麻豆视频$1#中文字幕$2#日本无码$3#日本有码$4#童颜巨乳$5#校园萝莉$6#女优明星$7#角色扮演$8#制服诱惑$9#强奸乱伦$31#AI换脸$32#黑料泄密$33#主播直播$34#国产精品$35#探花视频$36#女同性恋$37#SM调教$38#人妻熟女$40"
+            }
+        },
+
+
 {"key":"问天影院",
 "name":"问天影院",
 "type":3,
