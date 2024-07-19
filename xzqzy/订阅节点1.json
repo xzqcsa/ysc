@@ -267,6 +267,16 @@
 		"分类二次截取":"top-bar-menu swiper-wrapper&&</nav>",
 		"分类数组":"<a&&/a>","分类标题":">&&<",
 		"分类ID":"/suo/&&.html","分类url":"https://www.shwopu.com/vshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"}},
+		{
+            "key": "新视觉",
+            "name": "🔥新视觉py🔥",
+            "type": 3,
+            "api": "./lib1/新视觉.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+
 
 
 {
