@@ -107,6 +107,15 @@
             "filterable": 0
         },
 		{
+            "key": "草莓",
+            "name": "草莓",
+            "type": 3,
+            "api": "./lib1/草莓秒播.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+		{
             "key": "18j.tv",
             "name": "18j.tv",
             "type": 3,
