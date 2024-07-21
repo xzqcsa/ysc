@@ -107,6 +107,15 @@
             "filterable": 0
         },
 		{
+            "key": "AV",
+            "name": "AV集中营",
+            "type": 3,
+            "api": "./lib1/AV集中营.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+		{
             "key": "草莓",
             "name": "草莓",
             "type": 3,
