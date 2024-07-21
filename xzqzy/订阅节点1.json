@@ -285,19 +285,7 @@
 		"quickSearch":1,
 		"filterable":1,
 		"ext":"./lib1/4K影视.json"},
-{"key":"桃子影视1",
-"name":"🔥桃子影视🔥",
-"type":3,
-"jar": "./lib/XBPQ.jar",
-"api":"csp_XBPQ",
-"ext":{"数组":"<a&&</div></a>",
-"副标题":"item-note\"&&<",
-"简介":"20px;\"&&</div>",
-"线路数组":"dropdown&&</div>",
-"线路标题":">&&</span>+【共+<small>&&<+集】","页面代理": "127.0.0.1:10072",
-"跳转播放链接":"<iframe border*src=\"&&\"",
-"分类url":"https://www.taozi007.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-"分类":"电影$1#剧集$2#综艺$3#动漫$4#短剧$5"}},
+
 
 
 {
@@ -563,18 +551,7 @@
 	"timeout":60,
 	"ext":"./lib1/tokenm盒子1.json$$$https://6080z.com/$$$noproxy$$$1$$$./lib/wogg.json"},
 		
-	 {
-      "key": "Wobg56676",
-      "name": "🔥玩我网盘🔥",
-      "type": 3,
-      "api": "csp_Wogg",
-	  
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib1/tokenm盒子1.json$$$http://www.kxys.网络:7728$$$proxy$$$1$$$./pg/lib/wogg.json"
-    },
+	
 		{
       "key": "Wobg555",
       "name": "🔥玩你网盘🔥",

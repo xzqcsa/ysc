@@ -33,6 +33,15 @@
       "jar": "./lib/XBPQ.jar",
       "ext": "./lib/番茄影视-1.json"
     },
+	{"key":"4K影视11",
+		"name":"🔥4K影视🔥🔥",
+		"type":3,
+		"api":"csp_XBPQ",
+		"jar": "./lib/XBPQ.jar",
+		"searchable":1,
+		"quickSearch":1,
+		"filterable":1,
+		"ext":"./lib1/4K影视.json"},
 	{
             "key": "php_hmezy",
             "name": "🔥黑木耳1🔥",

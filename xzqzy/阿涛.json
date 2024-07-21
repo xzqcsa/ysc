@@ -49,6 +49,15 @@
             "quickSearch":0,
             "filterable":0
         },
+		{"key":"4K影视11",
+		"name":"🔥4K影视🔥🔥",
+		"type":3,
+		"api":"csp_XBPQ",
+		"jar": "./lib/XBPQ.jar",
+		"searchable":1,
+		"quickSearch":1,
+		"filterable":1,
+		"ext":"./lib1/4K影视.json"},
 	{
       "key": "蛋蛋",
       "name": "🔥蛋蛋影视🔥",
