@@ -35,6 +35,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
+			"timeout": 120,
             "ext": {"json":"./lib/youtube.json",
 			"token":"./lib1/tokenm盒子1.json",
 			"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
@@ -54,6 +55,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
+			"timeout": 120,
             "ext": {"token":"./lib1/tokenm盒子1.json",
 			"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
                 "type": "锡剧#京剧#越剧#黄梅戏#评剧#豫剧#昆曲#淮剧#绍剧#徽剧#梨园戏",
@@ -72,6 +74,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 1,
+			"timeout": 120,
             "ext": {
 			"token":"./lib1/tokenm盒子1.json",
 			"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
