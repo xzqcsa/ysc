@@ -113,6 +113,65 @@
                 "分类": "电影$7#电视剧$6#动漫$5#综艺$3#纪录片$21#体育$20"
             }
         },
+		{
+            "key": "策驰影院",
+            "name": "🔥策驰影院🔥",
+            "type": 3,
+			 "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://www.cecidy.cc/",
+                "数组": "class=\"myui-vodlist__thumb lazyload\"&&</div>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "简介": "class=\"video-des\"&&</div>",
+                "线路标题": "data-toggle=\"tab\">&&</a>",
+                "分类url": "https://www.cecidy.cc/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/",
+                "分类": "电影$1#剧集$2#国产剧$13#综艺$3#动漫$4#短剧$60"
+            }
+        },
+		{
+            "key": "唐人街",
+            "name": "🔥唐人街🔥",
+            "type": 3,
+			 "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://www.tangrenjie.one/",
+                "数组": "class=\"vodlist_thumb lazyload\"&&</div>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"","页面代理":"127.0.0.1:10072",
+                "简介": "class=\"content_desc context clearfix\"&&</span>",
+                "线路数组": "class=\"play_source_tab list_scroll clearfix\"&&</div>",
+                "线路标题": ">&nbsp;<b>&&</b>",
+                "分类url": "https://www.tangrenjie.one/index.php/vod/show/area/{area}/id/{cateId}/letter/{letter}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$3#综艺$4"
+            }
+        },
+
+		{
+            "key": "追剧网",
+            "name": "🔥追剧网🔥",
+            "type": 3,
+			 "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "http://www.inpian.com/",
+                "数组": "class=\"myui-vodlist__box\"&&</div>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "简介": "class=\"sketch hidden-sm hidden-xs\"&&</div>",
+                "线路数组": "class=\"item\"&&</div>",
+                "线路标题": ">云视频</a>",
+                "分类url": "http://www.inpian.com/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId}&area=&year={year}&letter=&yuyan=&money=&ver=&jq=&state={letter}",
+                "分类": "国产剧$1#香港剧$2#韩国剧$3#欧美剧$4"
+            }
+        },
+
+
           {"key":"神仙影视",
 		  "name":"🔥神仙影视🔥",
 		  "type":3,
