@@ -663,6 +663,20 @@
 			"timeout":60,
 			"ext": "./lib1/tokenm盒子1.json$$$https://www.yjys01.com/$$$proxy$$$1"
 		},
+		{"key":"85",
+		"name":"🧲85电影网🧲",
+		"type":3,"api":"csp_XBPQ",
+		"jar":"./lib/XBPQ.jar",
+		"ext":{"数组":"post-list clearfix mb15&&</li>",
+		"标题":"alt=*《&&》",
+		"副标题":"alt=*》&&\"",
+		"图片":"src=\"&&\"",
+		"简介":" 导读：&&</div>",
+		"播放数组":"downlist&&</div>",
+		"播放链接":"href=\"&&\"",
+		"分类url":"https://85128.net/category-{cateId}_{catePg}.html;;d",
+		"分类数组":"<a&&/a>[不包含:更多]","分类标题":">&&<","分类ID":"category-&&.html"}},
+
 		{
     "key": "狸云",
     "name": "🧲狸云🧲",
