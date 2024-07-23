@@ -89,6 +89,98 @@
                 "分类": "FC2-PPV$FC2-PPV#日本無碼$JAV_Uncensored#馬賽克破壞$Mosaic_Removed#國產$Asian_Amateur#日本有碼$JAV_Censored#MGS動画$MGS#中文字幕$JAV+CHN.SUBs#動畫$Anime#歐美成人$Western_Porn#Korean BJ Dance$Korean_BJ_Dance#寫真$Adult_IDOL"
             }
         },
+		{
+            "key": "av01",
+            "name": "┃AV01┃",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/XBPQ.jar",
+            "playerType": 2,
+            "style": {
+                "type": "rect",
+                "ratio": 1.77
+            },
+            "ext": {
+                "数组": "class=\"col-sm-6 col-md-4&&class=\"duration&&</div>",
+                "直接播放": "1",
+                "请求头": "手机",
+                "主页url": "https://www.av01.tv/tw","页面代理": "127.0.0.1:10072",
+                "搜索url":"https://www.av01.tv/tw/search/videos?search_query={wd}&page={pg}",
+                "链接": "href=\"&&\"",
+                "图片": "data-src=\"&&\"",
+                "页面代理": "",
+                "分类url": "https://www.av01.tv/tw/{cateId}?page={catePg}",
+                "分类": "BD有码$videos/bd-censored#BD无码$videos/bd-uncensored#有码$videos/censored#无码$videos/uncensored"
+            }
+        },
+{
+            "key": "csp_XBPQ_JAV目錄大全",
+            "name": "JAV｜大全",
+            "type": 3,
+            "jar": "./lib/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "热门推荐": "1",
+                "直接播放": "0",
+                "数组": "<div class=\"card mx-1\">&&</a>[替换:alt=\"watermark\">>空]",
+                "图片": "data-src=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "链接": "href=\"&&\"",
+                "搜索url": "https://javmenu.cc/zh/search?wd={wd}&page={pg}",
+                "搜索模式": "1",
+                "搜索数组": "<div class=\"card mx-1\">&&</a>[替换:alt=\"watermark\">>空]",
+                "搜索图片": "data-src=\"&&\"",
+                "搜索标题": "alt=\"&&\"",
+                "搜索链接": "href=\"&&\"",
+                "播放二次截取": "id=\"pills-tabContent\">&&<div class=\"mb-3 col-12\">",
+                "播放数组": "<div class=\"single-video\">&&var server_count",
+                "状态": "更新：&&</span>",
+                "导演": "导演：&&</p>",
+                "主演": "主演：&&</p>",
+                "简介": "简介：&&</span>",
+                "播放列表": "<video id=\"&&</script>",
+                "播放标题": "couhe",
+                "播放链接": "m3u8.push(\"&&\"",
+                "嗅探词": ".m3u8",
+                "播放请求头": "",
+                "分类": "国产$chinese#五码$uncensored#欧美$western#fc2$fc2#女同性$115#三级字幕$442#91探花$455#偷拍自拍$278#国产传媒$390#台湾涩情$412",
+                "分类url": "https://javmenu.cc/zh/{cateId}/online?page={catePg}",
+                "筛选": "263",
+                "页面代理": "127.0.0.1:10072"
+            }
+        },
+{
+
+"key": "Javmulu",
+"name": "Jav目录大全(磁力)",
+"type": 3,
+
+      "jar": "./lib/XBPQ.jar",
+"api": "csp_XBPQ",
+
+"style": {"type": "rect","ratio": 0.75},
+"timeout":60,
+"ext":
+{
+"数组":"text-decoration-none&&</div>",
+"图片":"data-src=\"&&\"",
+"标题":"alt=\"&&\"",
+"链接":"href=\"&&\"",
+"页面代理": "127.0.0.1:10072",
+"播放数组":"javmulu-style-table text-center&&</tbody>",
+"播放列表": "<a&&/a>",
+"播放标题": ">&&<",
+"播放链接": "href=\"&&\"",
+
+"分类":"已有磁力$0#高清$1#字幕$2#女优$3",
+"分类url":"https://javmulu.cc/magnet-share/index?tag_type_search={cateId}&page={catePg}"
+
+}
+},
+
 {
             "key": "JAVSB1",
             "name": "JAVSB1",
