@@ -46,7 +46,7 @@
 "wgcf_vless_protocol":"vless",
 "wgcf_vless_network":"ws",
 "wgcf_vless_tls":false,
-"115Cookie": "UID=11667228_A1_1721810225; CID=964d17bcdd59c57a0e0b7d6b355ff4c9; SEID=606acc182995b6c513eb192f224708cd047799e20a105ccc2565cabbc52db2d86db67860b15dba992d00644cb111c5e54b80e304874e318bfc04a2c9",
+"115Cookie": "USERSESSIONID=3bef07b4b9e2b634789995290c8f2066bca03fb67dd99823b6db25cd6c384dfa; 115_lang=zh; PHPSESSID=314678ln8i3vcfkmlu2rcdv7nf; UID=11667228_A1_1721810225; CID=964d17bcdd59c57a0e0b7d6b355ff4c9; SEID=606acc182995b6c513eb192f224708cd047799e20a105ccc2565cabbc52db2d86db67860b15dba992d00644cb111c5e54b80e304874e318bfc04a2c9; acw_tc=784e2c9917218125480391934e68629aa362b08966bae62ab25d2407a04e71",
 "pwdRb115": "305306",
 "goServerUrl": "http://127.0.0.1:9966",
 "libxl_url":"./libxl_thunder_sdk.so",
