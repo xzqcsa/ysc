@@ -46,7 +46,7 @@
 "wgcf_vless_protocol":"vless",
 "wgcf_vless_network":"ws",
 "wgcf_vless_tls":false,
-"115Cookie":"USERSESSIONID=3bef07b4b9e2b634789995290c8f2066bca03fb67dd99823b6db25cd6c384dfa; 115_lang=zh; PHPSESSID=314678ln8i3vcfkmlu2rcdv7nf; acw_tc=784e2ca417218101808144561e11bb40e1e03e3170672f158e353b98447e8e; UID=11667228_A1_1721810225; CID=964d17bcdd59c57a0e0b7d6b355ff4c9; SEID=606acc182995b6c513eb192f224708cd047799e20a105ccc2565cabbc52db2d86db67860b15dba992d00644cb111c5e54b80e304874e318bfc04a2c9",
+"115Cookie":"UID=11667228_A1_1721810225;CID=964d17bcdd59c57a0e0b7d6b355ff4c9;SEID=606acc182995b6c513eb192f224708cd047799e20a105ccc2565cabbc52db2d86db67860b15dba992d00644cb111c5e54b80e304874e318bfc04a2c9",
 "pwdRb115":"305306",
 "libxl_url":"./libxl_thunder_sdk.so",
 "youtube_proxy":"proxy",
