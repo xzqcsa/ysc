@@ -113,6 +113,23 @@
                 "分类": "BD有码$videos/bd-censored#BD无码$videos/bd-uncensored#有码$videos/censored#无码$videos/uncensored"
             }
         },
+		{"key":"高清SEX国产",
+		"name":"高清SEX国产",
+		"type":3,
+		"jar": "./lib/XBPQ.jar",
+		"api":"csp_XBPQ",
+		"searchable":1,
+		"quickSearch":1,
+		"filterable":1,
+		"ext":{"主页url":"https://boats-sail-smoothly.sexav1qqq111.xyz/ssss",
+		"数组":"class=\"item-box&&</a","图片":"src=\"&&\"","标题":"title=\"&&\"",
+		"副标题":"<small>&&</small","简介":"description\" content=\"&&|",
+		"链接":"href=\"&&\"[替换:voddetail>>v]",
+		"跳转播放链接":"urlDecode(var player_*url\":\"&&\")",
+		"搜索模式":"1","搜索url":"https://boats-sail-smoothly.sexav1qqq111.xyz/s/page/{pg}/wd/{wd}/",
+		"分类二次截取":"","分类数组":"<a&&/a","分类标题":">&&<", "页面代理": "127.0.0.1:10072",
+		"分类ID":"href=\"/t/&&/\"","分类url":"https://boats-sail-smoothly.sexav1qqq111.xyz/t/{cateId}-{catePg}/;;z"}},
+
 {
             "key": "csp_XBPQ_JAV目錄大全",
             "name": "JAV｜大全",
