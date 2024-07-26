@@ -86,20 +86,7 @@
 				"ratio": 1.77
             }
         },
-		{
-  "key": "网盘集合",
-  "name": "🔥网盘集合|4K🔥",
-  "type": 3,
-  "jar":"./lib1/custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
-  "api": "csp_网盘集合",
-  "searchable": 1,
-  "filterable": 0,
-  "switchable": 0,
-  "ext": {
-    "commonConfig": "./lib1/tokenm盒子1.json",
-    "share": "./lib1/网盘集合.json"
-  }
-},
+		
 		{
             "key": "小宝影院",
             "name": "🔥小宝影院🔥",
