@@ -89,7 +89,7 @@
 		{"key":"115",
      "name":"🔥115网盘推送🔥",
      "type":3, 
-     "api":"csp_PushShare",
+     "api":"csp_P115Share",
      "searchable":1,
      "quickSearch":1, 
      "changeable":1, 
