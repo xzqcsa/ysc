@@ -50,6 +50,8 @@
 "pan115_vip_thread_limit":0,
 "pan115_is_vip":false,
 "pan115_flags":"4kz",
+"pan115_auto_delete":true,
+"pan115_delete_code":"305306",
 "goServerUrl": "http://127.0.0.1:9966",
 "libxl_url":"./libxl_thunder_sdk.so",
 "youtube_proxy":"proxy",
