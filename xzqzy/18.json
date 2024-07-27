@@ -92,6 +92,7 @@
 		{"key":"网红黑料",
 		"name":"🍁网红黑料",
 		"type":3,
+		"jar": "./lib/XBPQ.jar",
 		"api":"csp_XBPQ",
 		"searchable":1,
 		"quickSearch":1,
