@@ -2611,7 +2611,20 @@
 		"filterable": 0,
 		"timeout":30, 
 		"ext":"./lib1/tokenm盒子1.json" },
-	  
+	  {"key":"Panta1",
+	  "name":"🔍盘Ta|网盘🔍",
+	  "type":3,
+	  "api":"csp_Panta",
+	  "quickSearch":1,
+	  "changeable":1, 
+	  "filterable":1, 
+	  "timeout":60, 
+	  "ext":"./lib1/tokenm盒子1.json$$$https://www.91panta.cn/$$$null$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
        {"key":"YingSo",
 	   "name":"🔍影搜|网盘🔍",
 	   "type":3,
