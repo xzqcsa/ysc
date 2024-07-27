@@ -2612,7 +2612,7 @@
 		"timeout":30, 
 		"ext":"./lib1/tokenm盒子1.json" },
 	  {"key":"Panta1",
-	  "name":"🔍盘Ta|网盘🔍",
+	  "name":"🔍移动|网盘🔍",
 	  "type":3,
 	  "api":"csp_Panta",
 	  "quickSearch":1,
@@ -2700,18 +2700,7 @@
    "api":"csp_Panyq",
    "timeout":60, 
    "ext":"./lib1/tokenm盒子1.json$$$site$$$代理位置"},
-		{
-            "key": "Panta",
-            "name": "🔍移动|网盘🔍",
-            "type": 3,
-            "api": "csp_Panta",
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "./lib/pg24.10.26.jar",
-            "filterable": 1,
-            "timeout": 30,
-            "ext": "./lib1/tokenm盒子1.json$$$https://www.91panta.cn/$$$null$$$1"
-        },
+		
 		
 		{"key":"PanSearch111",
 		"name":"🔍PanSearch|网盘🔍",
