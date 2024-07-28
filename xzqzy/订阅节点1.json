@@ -87,7 +87,7 @@
             }
         },
 		{"key":"115",
-     "name":"🔥115网盘推送🔥",
+     "name":"🔥115网盘分享🔥",
      "type":3, 
      "api":"csp_P115Share",
      "searchable":1,
@@ -101,6 +101,21 @@
      "ratio": 1.1
       }
     },
+	{"key":"UCShare",
+	"name":"🔥UC云盘分享🔥",
+	"type":3,
+	"api":"csp_UCShare",
+	"searchable":1,
+	"quickSearch":0, 
+	"changeable":0, 
+	"filterable":0,
+	"timeout":60,
+	"ext":"./lib1/tokenm盒子1.json$$$./lib1/uc.txt$$$db$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
 		{
             "key": "小宝影院",
             "name": "🔥小宝影院🔥",
