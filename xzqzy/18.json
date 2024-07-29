@@ -59,6 +59,26 @@
             },
             "ext": "./lib1/tokenm盒子1.json"
         },
+		{"key": "13AV",
+            "name": "13AV",
+            "type": 3,
+            "api": "csp_XBPQ",
+			"jar": "./lib/XBPQ.jar",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            },
+            "ext": {
+                "直接播放": "1",
+                "数组": "vodlist_thumb lazyload\"&&</div>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"","页面代理": "127.0.0.1:10072",
+                "链接": "href=\"&&\"",
+                "分类url": "https://13av.com/vodtype/{cateId}-{catePg}",
+                "分类": "中文字幕$28#国产$20#日本有码$21#日本无码$22#欧美$23#动漫$24"
+            }
+        },
+
 		{
             "key": "php_madou",
             "name": "麻豆",
