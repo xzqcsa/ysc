@@ -53,6 +53,7 @@
 "pan115_flags":"4kz",
 "pan115_auto_delete":true,
 "pan115_delete_code":"305306",
+"pan_order":"quark|uc|115|ali|yd|thunder|pikpak",
 "libxl_url":"./libxl_thunder_sdk.so",
 "youtube_proxy":"proxy",
 "singbox_url":"./sing-box.gz",
