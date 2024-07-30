@@ -662,6 +662,16 @@
 		"filterable":1, 
 		"timeout":60, 
 		"ext":"./lib1/tokenm盒子1.json$$$https://ppxzy.ink$$$null$$$1"},
+		{"key":"至臻视觉",
+		"name":"🔥至臻网盘🔥",
+		"type":3,
+		"api":"csp_Wobg",
+		"quickSearch":1,
+		"changeable":1,
+		"filterable":1, 
+		"timeout":60,
+		"ext":"./lib1/tokenm盒子1.json$$$https://mihdr.top/$$$noproxy$$$1$$$./lib/wogg.json"},
+
 		{
             "key": "蜡笔网盘",
             "name": "🔥蜡笔┃网盘🔥",
@@ -671,7 +681,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 30,
-            "ext": "./lib1/tokenm盒子1.json$$$https://duopan.fun/$$$代理位置$$$1$$$./lib/wogg.json"
+            "ext": "./lib1/tokenm盒子1.json$$$https://duopan.fun/$$$noproxy$$$1$$$./lib/wogg.json"
         },
 {"key":"Xinshijue",
 	"name":"🔥新视觉|网盘🔥",
