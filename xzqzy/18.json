@@ -153,6 +153,28 @@
                 "分类": "BD有码$videos/bd-censored#BD无码$videos/bd-uncensored#有码$videos/censored#无码$videos/uncensored"
             }
         },
+		{
+            "key": "avge",
+            "name": "avge",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/XBPQ.jar",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            },
+            "ext": {
+                "主页url": "https://avgle.to",
+                "数组": "col-6 col-sm-4 col-lg-3\">&&class=\"sub-title&&</div>",
+                "图片": "data-src=\"&&\"",
+                "标题": "class=\"title\"><a*>&&</a>",
+                "链接": "<a href=\"&&\"","页面代理": "127.0.0.1:10072",
+                "直接播放": "1",
+                "分类url": "http://avgle.to/zh/vtype/{cateId}-{catePg}.html",
+                "分类": "日本有碼$Censored#日本無碼$Uncensored#FC2-PPV$FC2-PPV#中文字幕$JAV_CHN.SUBs#有碼破壞$Mosaic_Removed#MGS動画$MGS#國產成人$Asian_Amateur#歐美成人$Western_Porn#寫真特級$Adult_IDOL#動畫$Anime"
+            }
+        },
+
 		{"key":"高清SEX国产",
 		"name":"高清SEX国产",
 		"type":3,
