@@ -463,15 +463,17 @@
         },
 
 
-		{"key":"欧乐影院",
-		"name":"🔥欧乐影院🔥",
-		"type":3,
-		"api":"csp_Olevod",
-		"quickSearch":1,
-		"changeable":1,
-		"filterable":1,
-		"timeout":60,
-		"ext":"./lib1/tokenm盒子1.json$$$null$$$proxy$$$1"},
+		{
+"key":"奥秘影视",
+"name":"🔥奥秘|网盘🔥",
+"type":3,
+"api":"csp_Wobg",
+"quickSearch":1,
+"changeable":1,
+"filterable":1,
+"timeout":60,
+"ext":"./lib1/tokenm盒子1.json$$$https://vip.omii.top/$$$noproxy$$$1$$$./lib/wogg.json"
+},
 			{"key":"Wogg234567",
 		"name":"🔥玩偶|阿里🔥",
 		"type":3,
