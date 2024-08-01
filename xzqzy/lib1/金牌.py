@@ -40,7 +40,7 @@ class Spider(Spider):
 
         middle_text = text[start_index + len(start_str):end_index]
         return middle_text.replace("\\", "")
-
+    
 
     def homeContent(self, filter):
         result = {}
@@ -227,25 +227,24 @@ class Spider(Spider):
             res.encoding = "utf-8"
             res = res.text
             videos = []
-            doc = self.extract_middle_text(res, ':[\\"$\\",\\"main\\",null,', ']\\n"])')
+            doc = self.extract_middle_text(res, 'self.__next_f.push([1,"1b:[\\"$\\",\\"main\\",null,', ']\\n"])')
             js1 = json.loads(doc)
-
-            sources = ['homeNewMoviePageData', 'homeBroadcastPageData', 'homeManagerPageData', 'newestTvPageData', 'newestVarietyPageData',
-                       'newestCartoonPageData']
+            sources = ['homeNewMovieList', 'homeBroadcastList', 'homeManagerList', 'newestTvList', 'newestVarietyList',
+                       'newestCartoonList']
             combined_list = [js1["children"][3]["data"]["data"][source] for source in sources]
+            videos = [
+                {
+                    "vod_id": vod['vodId'],
+                    "vod_name": vod['vodName'],
+                    "vod_pic": vod['vodPicThumb'],
+                    "vod_remarks": f"{vod['vodVersion']} {vod['vodRemarks']}"
+                }
+                for sublist in combined_list
+                for vod in sublist
+            ]
 
-
-            for sublist in combined_list:
-                for vod in sublist['list']:
-                    video_data = {
-                        "vod_id": vod['vodId'],
-                        "vod_name": vod['vodName'],
-                        "vod_pic": vod['vodPicThumb'],
-                        "vod_remarks": f"{vod['vodVersion']} {vod['vodRemarks']}"
-                    }
-                    videos.append(video_data)
             result = {'list': videos}
-
+            result = {'list': videos}
             return result
         except:
             pass
@@ -282,19 +281,20 @@ class Spider(Spider):
         else:
             JqType = ''
         url = xurl + "/vod/show/id/" + cid + lxType + JqType + DqType + NdType + YyType + "/page/" + str(page)
+
         try:
             detail = requests.get(url=url, headers=headerx)
             detail.encoding = "utf-8"
             res = detail.text
-            doc = self.extract_middle_text(res, '"filerList', ']\\n"])')
-            js1 = json.loads('{"filerList'+doc)
+            doc = self.extract_middle_text(res, '([1,"1b:[\\"$\\",\\"$L1f\\",null,', ']\\n"])')
+            js1 = json.loads(doc)
             st1 = js1["videoList"]["data"]["list"]
 
             for vod in st1:
                 name = vod['vodName']
-                pic = vod['vodPic']
+                pic = vod['vodPicThumb']
                 id = vod['vodId']
-                remark = vod['vodVersion'] + " " + vod['vodRemarks']
+                remark = vod['vodVersion'] + " " + vod['vodRemarks']  # 注意这里的空格统一了
                 video = {
                     "vod_id": id,
                     "vod_name": name,
@@ -358,11 +358,12 @@ class Spider(Spider):
         videos=[]
         if not page:
             page = 1
+        #https://www.cfkj86.com/vod/search/
         res = requests.get(xurl + '/vod/search/'  + key , headers=headerx)
         res.encoding = "utf-8"
         res = res.text
-        doc = self.extract_middle_text(res, '{\\"data\\"', ']\\n"])<')        
-        js1 = json.loads('{"data"' + doc)        
+        doc = self.extract_middle_text(res, '"1c:[\\"$\\",\\"$L20\\",null,', ']\\n"])')
+        js1 = json.loads(doc)
         st1 = js1["data"]["data"]["result"]["list"]
         for vod in st1:
             name = vod['vodName']
@@ -384,14 +385,8 @@ class Spider(Spider):
         result['total'] = 999999
         return result
 
-    def searchContent(self, key, quick):
-        return self.searchContentPage(key, quick, '1')
+    def searchContent(self, key, quick, page=1):
+        return self.searchContentPage(key, quick, page)
 
     def localProxy(self, params):
-        if params['type'] == "m3u8":
-            return self.proxyM3u8(params)
-        elif params['type'] == "media":
-            return self.proxyMedia(params)
-        elif params['type'] == "ts":
-            return self.proxyTs(params)
-        return None
+        pass
