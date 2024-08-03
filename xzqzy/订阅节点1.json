@@ -128,7 +128,7 @@
     "channelUsername": "yunpanshare",   
 	"commonConfig": "./lib1/tokenm盒子1.json"
   }},
-  {  "key": "TgYunPan1",
+  {  "key": "TgYunPan2",
   "name": "🔥Tg115🔥", 
   "type": 3,
    "jar": "./lib1/custom_spider.jar",
