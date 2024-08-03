@@ -2530,46 +2530,14 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/优酷.js"
     },
-  
+  {"key":"TGYunPan",
+  "name":"🔍TG搜索🔍",
+  "type":3,
+  "api":"csp_TGYunPan",
+  "timeout":60, 
+  "ext":"./lib1/tokenm盒子1.json$$$http://144.126.217.226:8000/$$$guaguale115,hao115,Aliyundrive_Share_Channel,yunpanshare$$$noproxy$$$1"},
     	
-    
-    {  "key": "TgYunPan1",
-  "name": "🔍Tg夸克🔍", 
-  "type": 3,
-   "jar": "./lib1/custom_spider.jar",
-  "api": "csp_TgYunPan", 
-  "searchable": 1,
-  "filterable": 0,  
-  "switchable": 0,
-  "ext": {    "siteUrl": "http://144.126.217.226:8000",
-    "channelUsername": "yunpanshare",   
-	"commonConfig": "./lib1/tokenm盒子1.json"
-  }},
-  {  "key": "TgYunPan2",
-  "name": "🔍Tg夸克2🔍", 
-  "type": 3,
-   "jar": "./lib1/custom_spider.jar",
-  "api": "csp_TgYunPan", 
-  "searchable": 1,
-  "filterable": 0,  
-  "switchable": 0,
-  "ext": {    "siteUrl": "http://144.126.217.226:8000",
-    "channelUsername": "alyp_4K_Movies",   
-	"commonConfig": "./lib1/tokenm盒子1.json"
-  }}, 
-     {  "key": "TgYunPan3",
-  "name": "🔍Tg夸克3🔍", 
-  "type": 3,
-   "jar": "./lib1/custom_spider.jar",
-  "api": "csp_TgYunPan", 
-  "searchable": 1,
-  "filterable": 0,  
-  "switchable": 0,
-  "ext": {    "siteUrl": "http://144.126.217.226:8000",
-    "channelUsername": "wangpanziyuan2021",   
-	"commonConfig": "./lib1/tokenm盒子1.json"
-  }}, 
-    
+  
       
     
    

@@ -54,8 +54,6 @@
 "pan115_auto_delete":true,
 "pan115_delete_code":"305306",
 "pan_order":"quark|uc|115|ali|yd|thunder|pikpak",
-"115Cookie": "CID=23f3c3e78a9af0af0e07d1ad3add9461; SEID=3df3630e49c966d5347642f3f2410076181d311dc65781aa18d28f4196b9a3001e4e147e965afcba5c0a6ac3d01175d49c4f61041ec382056496ad72; UID=364455385_A1_1722384960",
-  "pwdRb115": "305306",
 "libxl_url":"./libxl_thunder_sdk.so",
 "youtube_proxy":"proxy",
 "singbox_url":"./sing-box.gz",
