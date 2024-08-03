@@ -124,7 +124,7 @@
   "searchable": 1,
   "filterable": 0,  
   "switchable": 0,
-  "ext": {    "siteUrl": "http://103.20.220.47:8000",
+  "ext": {    "siteUrl": "http://144.126.217.226:8000",
     "channelUsername": "yunpanshare",   
 	"commonConfig": "./lib1/tokenm盒子1.json"
   }},
@@ -136,10 +136,20 @@
   "searchable": 1,
   "filterable": 0,  
   "switchable": 0,
-  "ext": {    "siteUrl": "http://103.20.220.47:8000",
+  "ext": {    "siteUrl": "http://144.126.217.226:8000",
     "channelUsername": "guaguale115",   
 	"commonConfig": "./lib1/tokenm盒子1.json"
   }},
+   {
+            "key": "csp_appys_影盒",
+            "name": "🔥影探4K🔥",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://cms-yt.lyyytv.cn/api.php/app/"
+        },
 		{
             "key": "小宝影院",
             "name": "🔥小宝影院🔥",
