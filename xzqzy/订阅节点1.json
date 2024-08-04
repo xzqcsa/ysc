@@ -117,17 +117,7 @@
 				"ratio": 1.1
 			}
 		},
-		{
-            "key": "JS11",
-            "name": "🔥甄嬛｜4K影院🔥",
-            "type": 3,
-            "api": "./lib1/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "./lib1/4KAV.js"
-        },
+		
   
 		{
             "key": "小宝影院",
