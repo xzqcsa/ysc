@@ -40,7 +40,8 @@
 			"token":"./lib1/tokenm盒子1.json",
 			"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
                 "type": "4k 动画片#4k 直播#4k 新闻#4k 剧集#4k 电影#4k 综艺#4k 纪录片#4k 音乐#4k 体育#4k 风景#4k 放松#课程#@ygkkk#CM喂饭#bbc documentary#national geographic documentary#Shorts#movie#documentary#Live nrws in English#News live",
-                "proxy": "proxy"
+                "proxy": "proxy",
+				"danmu":true
             },
             "style": {
                "type": "rect",
