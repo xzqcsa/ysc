@@ -118,7 +118,12 @@
 			}
 		},
 		
-  
+  {"key":"TGYunPan",
+  "name":"🔍TG搜索🔍",
+  "type":3,
+  "api":"csp_TGYunPan",
+  "timeout":60, 
+  "ext":"./lib1/tokenm盒子1.json$$$http://144.126.217.226:8000/$$$guaguale115,hao115,SharePanBaidu,wpzyhj$$$noproxy$$$1"},
 		{
             "key": "小宝影院",
             "name": "🔥小宝影院🔥",
@@ -505,12 +510,7 @@
 		"搜索url":"https://www.huajie2.com/search.php?page={pg}&searchword={wd}&searchtype=",
 		"分类url":"https://www.huajie2.com/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId}&area={area}&year={year}&letter=&yuyan={lang}&state=&money=&ver=&jq=",
 		"分类":"电视剧&电影&综艺&动漫","分类值":"2&1&3&4"}},
-		{"key":"TGYunPan",
-  "name":"🔍TG搜索🔍",
-  "type":3,
-  "api":"csp_TGYunPan",
-  "timeout":60, 
-  "ext":"./lib1/tokenm盒子1.json$$$http://144.126.217.226:8000/$$$guaguale115,hao115,SharePanBaidu,wpzyhj$$$noproxy$$$1"},
+		
   
 
 		{
