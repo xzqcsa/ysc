@@ -181,7 +181,7 @@
                 "搜索url": "https://www.bgdvd.cc/search/wd-{wd}.html",
                 "搜索数组": "stui-vodlist__thumb lazyload&&/a>",
                 "分类url": "https://www.bgdvd.cc/{cateId}/type-{by}-area-{area}-year-{year}-page-{catePg}/[https://www.bgdvd.cc/{cateId}/]",
-                "分类": "电影$dy#电视剧$tv#动漫$dm#综艺$zy#伦理$ll",
+                "分类": "电影$dy#电视剧$tv#动漫$dm#综艺$zy",
                 "筛选": "1",
                 "类型": "动作$dy-dz#喜剧$dy-xj#犯罪$dy-fz#爱情$dy-aq#科幻$dy-kh#恐怖$dy-kb#动画$dy-dh#剧情$dy-jq#战争$dy-zz#冒险$dy-mx#奇幻$dy-qh#悬疑$dy-xy#惊悚$dy-js#纪录片$dy-jl||国产剧$tv-gc#香港剧$tv-gt#台湾剧$taiwan#韩国剧$tv-rh#日本剧$tv-riben#欧美剧$tv-om#泰国剧$tv-taiguo#海外剧$tv-hw||国产动漫$dm-dl#港台动漫$dm-gt#日韩动漫$dm-rh#海外动漫$dm-hw#欧美动漫$dm-om||国产综艺$zy-dl#港台综艺$zy-gt#日韩综艺$zy-rh#欧美综艺$zy-om#海外综艺$zy-hw||空"
             }
