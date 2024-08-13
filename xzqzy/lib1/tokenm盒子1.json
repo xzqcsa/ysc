@@ -47,7 +47,7 @@
 "wgcf_vless_protocol":"vless",
 "wgcf_vless_network":"ws",
 "wgcf_vless_tls":false,
-"pan115_cookie":"CID=23f3c3e78a9af0af0e07d1ad3add9461; SEID=3df3630e49c966d5347642f3f2410076181d311dc65781aa18d28f4196b9a3001e4e147e965afcba5c0a6ac3d01175d49c4f61041ec382056496ad72; UID=364455385_A1_1722384960",
+"pan115_cookie":"",
 "pan115_thread_limit":0,
 "pan115_vip_thread_limit":0,
 "pan115_is_vip":false,
