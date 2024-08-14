@@ -6,6 +6,122 @@ log-level: info
 external-controller: :9090
 proxies:
   - {
+      name: 🇵🇱 PL-Atman_Sp._z_o.o.,
+      server: 91.185.186.151,
+      port: 39567,
+      type: vmess,
+      uuid: bc97f674-c578-4940-9234-0a1da46041b9,
+      alterId: 0,
+      cipher: auto,
+      tls: false,
+      skip-cert-verify: true,
+      network: ws,
+      ws-opts: { path: "/vmess?ed=2048" },
+    }
+  - {
+      name: 🇵🇱 PL-Atman_Sp._z_o.o. 2,
+      server: www.visa.com.tw,
+      port: 443,
+      type: vmess,
+      uuid: bc97f674-c578-4940-9234-0a1da46041b9,
+      alterId: 0,
+      cipher: auto,
+      tls: true,
+      skip-cert-verify: true,
+      servername: shark-social-pro-plasma.trycloudflare.com,
+      network: ws,
+      ws-opts:
+        {
+          path: "/vmess?ed=2048",
+          headers: { Host: shark-social-pro-plasma.trycloudflare.com },
+        },
+    }
+  - {
+      name: 🇵🇱 PL-Atman_Sp._z_o.o. 3,
+      server: 91.185.186.151,
+      port: 58534,
+      type: vmess,
+      uuid: bc97f674-c578-4940-9234-0a1da46041b9,
+      alterId: 0,
+      cipher: auto,
+      tls: false,
+      skip-cert-verify: true,
+      network: ws,
+      ws-opts: { path: "/vmess?ed=2048" },
+    }
+  - {
+      name: 🇵🇱 PL-Atman_Sp._z_o.o. 4,
+      server: www.visa.com.tw,
+      port: 443,
+      type: vmess,
+      uuid: bc97f674-c578-4940-9234-0a1da46041b9,
+      alterId: 0,
+      cipher: auto,
+      tls: true,
+      skip-cert-verify: true,
+      servername: susan-hormone-cursor-trans.trycloudflare.com,
+      network: ws,
+      ws-opts:
+        {
+          path: "/vmess?ed=2048",
+          headers: { Host: susan-hormone-cursor-trans.trycloudflare.com },
+        },
+    }
+  - {
+      name: 🇵🇱 PL-Atman_Sp._z_o.o.-clone,
+      server: www.visa.com.sg,
+      port: 443,
+      type: vmess,
+      uuid: bc97f674-c578-4940-9234-0a1da46041b9,
+      alterId: 0,
+      cipher: auto,
+      tls: true,
+      skip-cert-verify: true,
+      servername: susan-hormone-cursor-trans.trycloudflare.com,
+      network: ws,
+      ws-opts:
+        {
+          path: "/vmess?ed=2048",
+          headers: { Host: susan-hormone-cursor-trans.trycloudflare.com },
+        },
+    }
+  - {
+      name: 🇵🇱 PL-Atman_Sp._z_o.o.-clone 2,
+      server: www.visa.com.sg,
+      port: 443,
+      type: vmess,
+      uuid: bc97f674-c578-4940-9234-0a1da46041b9,
+      alterId: 0,
+      cipher: auto,
+      tls: true,
+      skip-cert-verify: true,
+      servername: shark-social-pro-plasma.trycloudflare.com,
+      network: ws,
+      ws-opts:
+        {
+          path: "/vmess?ed=2048",
+          headers: { Host: shark-social-pro-plasma.trycloudflare.com },
+        },
+    }
+  - {
+      name: 🇵🇱 PL-Atman_Sp._z_o.o.-clone-clone,
+      server: www.visa.com.hk,
+      port: 443,
+      type: vmess,
+      uuid: bc97f674-c578-4940-9234-0a1da46041b9,
+      alterId: 0,
+      cipher: auto,
+      tls: true,
+      skip-cert-verify: true,
+      servername: shark-social-pro-plasma.trycloudflare.com,
+      network: ws,
+      ws-opts:
+        {
+          path: "/vmess?ed=2048",
+          headers: { Host: shark-social-pro-plasma.trycloudflare.com },
+        },
+    }
+  - {
       name: 🏳️‍🌈 流量不限-日本1-付费节点,
       server: jp1-july.88888802.xyz,
       port: 443,
@@ -298,34 +414,6 @@ proxies:
     }
  
   - {
-      name: cf.090227.xyz,
-      server: 89.116.250.34,
-      port: 80,
-      type: vless,
-      uuid: 80bc4fe9-8d42-4993-8ca7-6a154b353f77,
-      tls: false,
-      tfo: false,
-      skip-cert-verify: true,
-      servername: 19860524.us.kg,
-      network: ws,
-      ws-opts: { path: "/?ed=2560", headers: { Host: 19860524.us.kg } },
-    }
-  - {
-      name: 1-clone,
-      server: 89.116.250.34,
-      port: 80,
-      type: vless,
-      uuid: 32c097ef-4303-4acc-9bc0-a368828f5e88,
-      tls: false,
-      tfo: false,
-      skip-cert-verify: true,
-      servername: jkj.kevqwkt451.workers.dev,
-      network: ws,
-      ws-opts:
-        { path: "/?ed=2048", headers: { Host: jkj.kevqwkt451.workers.dev } },
-    }
- 
-  - {
       name: 移动4g专用01|695,
       server: 120.232.153.8,
       port: 54629,
@@ -456,19 +544,5 @@ proxies:
       cipher: auto,
       tls: false,
       skip-cert-verify: true,
-    }
- 
-  - {
-      name: 🇭🇰 HK🐲™️【请勿测速】,
-      server: 43.155.22.176,
-      port: 443,
-      type: vless,
-      uuid: 99280094-e683-476b-a3cd-0d37c3892c6f,
-      tls: true,
-      tfo: false,
-      skip-cert-verify: true,
-      servername: syvless.6516789.xyz,
-      network: ws,
-      ws-opts: { path: "/?ed=2560", headers: { Host: syvless.6516789.xyz } },
     }
  
