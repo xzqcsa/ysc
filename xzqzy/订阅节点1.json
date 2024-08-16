@@ -492,6 +492,19 @@
 		"filterable":1, 
 		"timeout":30, 
 		"ext":"./lib1/tokenm盒子1.json$$$https://www.wogg.net/$$$代理$$$1$$$./pg/lib/wogg.json$$$WOGG"},
+		{
+      "key": "中国高清网|网盘",
+      "name": "🔥高清网|网盘🔥",
+      "type": 3,
+      "api": "csp_Gaoqing",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+      "commonConfig": "./lib1/tokenm盒子1.json",
+        "siteUrl": "https://gaoqing.la/"
+        
+      }
+    },
 		{"key":"花姐影院",
 		"name":"🔥花姐┃影院🔥",
 		"type":3,
