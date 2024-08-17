@@ -257,7 +257,17 @@
             "timeout": 60,
             "ext":"./lib1/tokenm盒子1.json$$$./lib/4khdr.txt$$$1"
         },
-	
+	 {
+            "key": "夸克云星",
+            "name": "🔥云星┃网盘🔥",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": "./lib1/tokenm盒子1.json$$$https://4k.4u4.cn$$$noproxy$$$1$$$./lib/wogg.json"
+        },
 
 	{"key":"六趣网盘",
 	"name":"🔥六趣网盘🔥",
@@ -411,6 +421,26 @@
         "分类url":"https://m.mp4us.com/list/{cateId}-{catePg}.html;;dm"
              }
         },
+		{
+   "key": "haokongbu",
+ "name": "🧲好恐怖┃磁力🧲",
+ "type": 3,
+ "api": "csp_XBPQ",
+ "jar":"./lib/XBPQ.jar",
+ "searchable":1,
+ "quickSearch":1,
+ "filterable":1,
+ "ext": {
+  "主页url": "https://m.haokongbu.top/",
+  "分类url": "https://m.haokongbu.top/{cateId}/index_{catePg}.html[https://m.haokongbu.top/{cateId}/index.html]",
+  "分类": "国产剧$guochanju#港剧$gangju#动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#战争片$zhanzhengpian#剧情片$juqingpian#微电影$weidianying#记录片$m_jlp#高清$gaoqing#动漫$donghuapian#台湾$taiwanju#日本$riju#韩国$hanju#欧美$oumeiju#泰国$taiguoju#海外$haiwaiju",
+  "副标题": "class=\"typeset\"&&</i>",
+  "起始页": 2,
+  "倒序": 1,
+  "播放数组": "下载地址</h2>&&</ul>[不包含:网盘]",
+  "播放列表":"<ul>&&</div>[包含:magnet]"
+ }
+  },
 		{
 			"key": "Bdys_spider",
 			"name": "🧲哔滴┃磁力🧲",
@@ -726,7 +756,16 @@
 		
 	
       
-    
+            {
+            "key": "小纸条",
+            "name": "🔍小纸条🔍",
+            "type": 3,
+            "api": "csp_XiaoZhiTiao",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "./lib1/tokenm盒子1.json$$$https://ali.gitcafe.ink/$$$null$$$1"
+        },
    
     
      
@@ -1046,7 +1085,33 @@
 		],
 
   "parses": [
-        
+      {
+            "name": "解析1",
+            "type": 1,
+            "url": "http://www.mpanso.com/simida.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "rx",
+                    "ltnb",
+                    "bilibili",
+                    "1905",
+                    "xigua"
+                ]
+            }
+        },  
     {
       "name": "爱酷",
       "type": 1,
