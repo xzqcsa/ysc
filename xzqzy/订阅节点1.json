@@ -213,7 +213,17 @@
                 "分类": "电影$1#电视剧$2#动漫$3#综艺$4"
             }
         },
-
+{
+"key":"木偶影视",
+"name":"🔥木偶|网盘🔥",
+"type":3,
+"api":"csp_Wobg",
+"quickSearch":1,
+"changeable":1,
+"filterable":1,
+"timeout":60,
+"ext":"./lib1/tokenm盒子1.json$$$http://mogg.top$$$noproxy$$$1$$$./lib/wogg.json"
+},
 		{
             "key": "追剧网",
             "name": "🔥追剧网🔥",
