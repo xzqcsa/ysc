@@ -490,7 +490,7 @@
 "changeable":1,
 "filterable":1,
 "timeout":60,
-"ext":"./lib1/tokenm盒子1.json$$$https://vip.omii.top/$$$noproxy$$$1$$$./lib/wogg.json"
+"ext":"./lib1/tokenm盒子1.json$$$https://vip.omii.top/$$$proxy$$$1$$$./lib/wogg.json"
 },
 			{"key":"Wogg234567",
 		"name":"🔥玩偶|阿里🔥",
@@ -620,7 +620,7 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 30,
-            "ext": "./lib1/tokenm盒子1.json$$$http://wobgg.run-us-west2.goorm.io/$$$proxy$$$1$$$./pg/lib/wogg.json$$$WOBG"
+            "ext": "./lib1/tokenm盒子1.json$$$http://wobgg.run-us-west2.goorm.io/$$$noproxy$$$1$$$./pg/lib/wogg.json$$$WOBG"
         },
     
 
@@ -686,7 +686,7 @@
 		"changeable":1, 
 		"filterable":1,
 		"timeout":60, 
-		"ext":"./lib1/tokenm盒子1.json$$$https://www.hdmoli.pro/$$$proxy$$$1$$$./lib/moli.json"},
+		"ext":"./lib1/tokenm盒子1.json$$$https://www.hdmoli.pro/$$$noproxy$$$1$$$./lib/moli.json"},
 	 {"key":"Ppxzy",
 		"name":"🔥皮皮虾|网盘🔥",
 		"type":3,
