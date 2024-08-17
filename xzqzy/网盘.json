@@ -127,7 +127,17 @@
                 "韩剧" 
 				]
         },
-		
+		{
+"key":"木偶影视",
+"name":"🔥木偶|网盘🔥",
+"type":3,
+"api":"csp_Wobg",
+"quickSearch":1,
+"changeable":1,
+"filterable":1,
+"timeout":60,
+"ext":"./lib1/tokenm盒子1.json$$$http://mogg.top$$$proxy$$$1$$$./lib/wogg.json"
+},
 
 		{
 "key":"奥秘影视",
