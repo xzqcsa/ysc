@@ -99,7 +99,28 @@
             "filterable":0
         },
 			
-	
+	{
+			"key": "1949",
+			"name":"🔥1949影视🔥",
+			"type":3,
+			"api":"csp_XBPQ",
+			"searchable":1,
+			"quickSearch":1,
+			"filterable":1,
+			"ext": "./lib1/1949.json",
+			"jar": "./lib/XBPQ.jar"
+		},
+		{
+			"key": "奈非",
+			"name":"🔥奈非影视🔥",
+			"type":3,
+			"api":"csp_XBPQ",
+			"searchable":1,
+			"quickSearch":1,
+			"filterable":1,
+			"ext": "./lib1/奈飞影视.json",
+			"jar": "./lib/XBPQ.jar"
+		},
 		
 		  {
             "key": "华为吧",

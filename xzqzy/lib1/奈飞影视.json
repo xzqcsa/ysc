@@ -1,0 +1,16 @@
+{
+    "请求头": "User-Agent$MOBILE_UA",
+    "编码": "UTF-8",
+    "主页url": "https://www.naifei1.org",
+    "数组": "lazy lazyloaded&&module-item\">",
+    "标题": "title=\"&&\"",
+    "图片": "data-src=\"&&\"",
+    "副标题": "item-text&&<",
+    "链接": "href=\"&&\"",
+    "线路数组": "data-dropdown&&</div>",
+    "线路标题": ">&&</",
+    "简介": "剧情介绍，&&\">",
+    "分类url": "https://www.naifei1.org/vodshow/area/{area}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html",
+    "分类": "电影&剧集&综艺&动漫&短剧",
+    "分类值": "dy&juji&zongyi&4dongman&dj"
+}
