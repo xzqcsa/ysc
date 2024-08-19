@@ -98,7 +98,7 @@
             "quickSearch":0,
             "filterable":0
         },
-	{	var rule = {
+	var rule = {
     title: '[影]韩迷TV',
     host: 'https://www.hmtv8.cc/',
     url: '/fyclass/page/fypage',
@@ -124,7 +124,7 @@
         lists: '#video_list_li:eq(#id)&&a',
     },
     搜索: '.m-movies .u-movie;h2&&Text;.thumb&&data-original;.zhuangtai&&Text;a&&href;.tags&&Text',
-},
+}
 	
 	{
             "key": "JS",
