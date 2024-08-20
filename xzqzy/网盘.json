@@ -98,17 +98,7 @@
             "quickSearch":0,
             "filterable":0
         },
-			{
-            "key": "JS",
-            "name": "🔥甄嬛4K🔥",
-            "type": 3,
-            "api": "./lib1/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "./lib1/4KAV.js"
-        },
+			
 	
 		{
 			"key": "奈非",

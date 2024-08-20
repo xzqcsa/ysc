@@ -93,22 +93,38 @@
             "key": "php_hmezy",
             "name": "🔥黑木耳🔥",
             "type": 4,
-            "api": "https://demobe.serv00.net/heimuer.php",
+            "api": "http://127.0.0.1:10079/p/0/proxy/https://demobe.serv00.net/heimuer.php",
             "searchable": 1,
             "quickSearch":0,
             "filterable":0
         },
 	
 	{
-            "key": "JS",
-            "name": "🔥甄嬛4K🔥",
-            "type": 3,
-            "api": "./lib1/drpy2.min.js",
+            "key": "黑木耳克隆",
+            "name": "🔥黑木耳克隆🔥",
+            "type": 4,
+            "api": "http://127.0.0.1:10079/p/0/proxy/http://zhangqun1818.serv00.net/225.php",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "./lib1/4KAV.js"
+            "filterable": 0
+        },
+        {
+            "key": "金鹰克隆",
+            "name": "🔥金鹰克隆🔥",
+            "type": 4,
+            "api": "http://127.0.0.1:10079/p/0/proxy/http://zhangqun1818.serv00.net/jy.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "华为吧克隆",
+            "name": "🔥华为吧克隆🔥",
+            "type": 4,
+            "api": "http://127.0.0.1:10079/p/0/proxy/http://zhangqun1818.serv00.net/hwb.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
         },
 		{
 			"key": "奈非",
