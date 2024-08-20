@@ -585,7 +585,7 @@
 		"changeable":1, 
 		"filterable":1,
 		"timeout":60, 
-		"ext":"./lib1/tokenm盒子1.json$$$https://ddys.pro/$$$proxy$$$1$$$"},
+		"ext":"./lib1/tokenm盒子1.json$$$https://ddys.pro/$$$noproxy$$$1$$$"},
 		{
       "key": "咖啡",
       "name": "🔥咖啡影视🔥",
