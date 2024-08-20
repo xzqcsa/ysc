@@ -99,44 +99,7 @@
             "filterable":0
         },
 	
-	{
-            "key": "黑木耳克隆",
-            "name": "🔥黑木耳克隆🔥",
-            "type": 4,
-            "api": "http://127.0.0.1:10079/p/0/proxy/http://zhangqun1818.serv00.net/225.php",
-            "searchable": 1,
-			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "金鹰克隆",
-            "name": "🔥金鹰克隆🔥",
-            "type": 4,
-            "api": "http://127.0.0.1:10079/p/0/proxy/http://zhangqun1818.serv00.net/jy.php",
-            "searchable": 1,
-			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-            "quickSearch": 1,
-            "filterable": 0,
-			"categories": [
-				"电视剧",
-				"电影",
-				"动漫",
-				
-				"短剧"
-			]
-		},
-        
-        {
-            "key": "华为吧克隆",
-            "name": "🔥华为吧克隆🔥",
-            "type": 4,
-            "api": "http://127.0.0.1:10079/p/0/proxy/http://zhangqun1818.serv00.net/hwb.php",
-            "searchable": 1,
-			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-            "quickSearch": 1,
-            "filterable": 0
-        },
+	
 		{
 			"key": "奈非",
 			"name":"🔥奈非影视🔥",
@@ -546,15 +509,7 @@
 		},
 		
 
-		{
-            "key": "小白",
-            "name": "🧲小白磁力🧲",
-            "type": 3,
-			 "jar":"./lib/XBPQ.jar",
-            "api": "csp_XBPQ",
-            "playerType":1,
-            "ext": "./lib/小白磁力.json"
-             },
+		
 			 
 			 
 		{"key":"Bt0",
@@ -620,7 +575,15 @@
                 "播放数组": "anthology-list-box none&&</ul>"
             }
         },
-	
+	{"key":"ddys",
+		"name":"🔥低端影视|网盘🔥",
+		"type":3,
+		"api":"csp_Ddys",
+		"quickSearch":1,
+		"changeable":1, 
+		"filterable":1,
+		"timeout":60, 
+		"ext":"./lib1/tokenm盒子1.json$$$https://ddys.pro/$$$proxy$$$1$$$"},
 		{
       "key": "咖啡",
       "name": "🔥咖啡影视🔥",

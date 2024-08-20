@@ -509,16 +509,7 @@
 		},
 		
 
-		{
-            "key": "小白",
-            "name": "🧲小白磁力🧲",
-            "type": 3,
-			 "jar":"./lib/XBPQ.jar",
-            "api": "csp_XBPQ",
-            "playerType":1,
-            "ext": "./lib/小白磁力.json"
-             },
-			 
+		
 			 
 		{"key":"Bt0",
 	"name":"🧲不太灵|磁力🧲",
@@ -583,7 +574,15 @@
                 "播放数组": "anthology-list-box none&&</ul>"
             }
         },
-	
+	{"key":"ddys",
+		"name":"🔥低端影视|网盘🔥",
+		"type":3,
+		"api":"csp_Ddys",
+		"quickSearch":1,
+		"changeable":1, 
+		"filterable":1,
+		"timeout":60, 
+		"ext":"./lib1/tokenm盒子1.json$$$https://ddys.pro/$$$proxy$$$1$$$"},
 		{
       "key": "咖啡",
       "name": "🔥咖啡影视🔥",
