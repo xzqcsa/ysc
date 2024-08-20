@@ -88,16 +88,17 @@
   "ext":"./lib1/tokenm盒子.json$$$http://144.126.217.226:8000/$$$guaguale115,WFYSFX02,SharePanBaidu,wpzyhj$$$noproxy$$$1"},
 		
 		
-		
-			{
+		{
             "key": "php_hmezy",
             "name": "🔥黑木耳🔥",
             "type": 4,
-            "api": "http://127.0.0.1:10079/p/0/proxy/https://demobe.serv00.net/heimuer.php",
+            "api": "https://demobe.serv00.net/heimuer.php",
             "searchable": 1,
             "quickSearch":0,
             "filterable":0
         },
+			
+			
 	
 	
 		{
@@ -112,19 +113,20 @@
 			"jar": "./lib/XBPQ.jar"
 		},
 		
-		  {
-            "key": "华为吧",
-            "name": "🔥华为吧🔥",
+		 {
+            "key": "华为吧采集",
+            "name": "🔥华为┃采集🔥",
             "type": 1,
-            "api": "http://127.0.0.1:10079/p/0/proxy/https://cjhwba.com/api.php/provide/vod/?ac=list",
-			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-			"categories": [
+            "api": "https://hw8.live/api.php/provide/vod/",
+            "style": {
+                "ratio": 1.7
+            },
+			 "categories": [
                "国产剧",
                  "动作片",
 				  "动画电影",
 				  "网络电影",
 				  "灾难片",
-				   "短剧",
         "剧情片",
         "喜剧片",
         "恐怖片",
@@ -135,8 +137,11 @@
                  
                 "国产动漫",
                
-                "韩剧" 
-				]
+                "韩剧"
+               
+               
+            ]
+        
         },
 		{
 "key":"木偶影视",
