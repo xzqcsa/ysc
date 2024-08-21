@@ -197,7 +197,13 @@
         
       }
     },
-
+{
+      "key": "腾讯1",
+      "name": "♻️腾讯少儿频道",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/腾讯.js"
+    },
 
 		
 		 {
@@ -1092,7 +1098,7 @@
       {
             "name": "解析1",
             "type": 1,
-            "url": "http://www.mpanso.com/simida.php?url=",
+            "url": "http://ser1.19860524.xyz/tx4k.php?url=",
             "ext": {
                 "flag": [
                     "qq",
