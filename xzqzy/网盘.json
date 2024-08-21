@@ -83,9 +83,9 @@
   {"key":"TGYunPan",
   "name":"🔍TG搜索🔍",
   "type":3,
-  "api":"csp_TGYunPan",
+  "api":"csp_TGYunPanLocal",
   "timeout":60, 
-  "ext":"./lib1/tokenm盒子1.json$$$http://144.126.217.226:8000/$$$guaguale115,WFYSFX02,SharePanBaidu,wpzyhj$$$noproxy$$$1"},
+  "ext":"./lib1/tokenm盒子1.json$$$https://t.me/$$$guaguale115,WFYSFX02,Aliyundrive_Share_Channel,SharePanBaidu,wpzyhj$$$proxy$$$1"},
 		
 		
 		
