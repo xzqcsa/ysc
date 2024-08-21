@@ -2934,10 +2934,10 @@
 		],
 
   "parses": [
-        {
-            "name": "解析1",
+       {
+            "name": "腾讯",
             "type": 1,
-            "url": "http://www.mpanso.com/simida.php?url=",
+            "url": "http://cms.6qu.cc:80/lib/偷尼玛接口.php?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -2960,7 +2960,7 @@
                     "xigua"
                 ]
             }
-        },   
+        },  
     {
       "name": "爱酷",
       "type": 1,

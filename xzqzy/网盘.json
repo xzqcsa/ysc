@@ -254,7 +254,13 @@
             "ext":"./lib1/tokenm盒子1.json$$$noproxy$$$1"
         },
 		
-	
+	{
+      "key": "腾讯1",
+      "name": "♻️腾讯少儿频道",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/腾讯.js"
+    },
 		{
             "key":"4KHDR",
             "name":"🔥4KHDR|网盘🔥",
@@ -1076,10 +1082,10 @@
 		],
 
   "parses": [
-      {
-            "name": "解析1",
+     {
+            "name": "腾讯",
             "type": 1,
-            "url": "http://www.mpanso.com/simida.php?url=",
+            "url": "http://cms.6qu.cc:80/lib/偷尼玛接口.php?url=",
             "ext": {
                 "flag": [
                     "qq",
