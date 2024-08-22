@@ -129,11 +129,15 @@ class Spider(Spider):
         return result
 
     def detailContent(self, ids):
-        l10 = "https://hwus1.heibanwa.mobi"
-        l11 = 'https://hwus2-us4.heibanwa.mobi'
-        l12 = 'https://hweu1.heibanwa.mobi'
-        l13 = 'https://hweu2.hulichuang.mobi'
-        l14 = 'https://hweu3.uxkcjei.com'
+        data2 = {"name": "John", "age": 31, "city": "New York"}
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36',
+            'Content-Type': 'application/json'
+        }
+        res1 = requests.post('https://spiderscloudcn2.51111666.com/getDataInit', headers=headers, json=data2)
+
+        js1 = json.loads(res1.text)
+
         did = ids[0]
         cid, svid = did.split("#")
         videos = []
@@ -146,17 +150,10 @@ class Spider(Spider):
         }
         res = requests.post('https://spiderscloudcn2.51111666.com/forward', headers=headerx, json=data)
         res.encoding = "utf-8"
+
         json_dict = json.loads(res.text)
-        if svid == "10":
-            purl = l10 + json_dict['data']["result"]["vod_url"]
-        elif svid == "11":
-            purl = l11 + json_dict['data']["result"]["vod_url"]
-        elif svid == "12":
-            purl = l12 + json_dict['data']["result"]["vod_url"]
-        elif svid == "13":
-            purl = l13 + json_dict['data']["result"]["vod_url"]
-        elif svid == "14":
-            purl = l14 + json_dict['data']["result"]["vod_url"]
+        if svid:
+            purl = js1['data']['macVodLinkMap'][svid]['LINK_2'] + json_dict['data']["result"]["vod_url"]
         else:
             purl = json_dict['data']["result"]["vod_url"]
 
@@ -164,7 +161,7 @@ class Spider(Spider):
             "vod_id": '',
             "vod_name": '',
             "vod_pic": "",
-            "type_name": "ぃぅおか🍬 คิดถึง",
+            "type_name": "Box资源交流",
             "vod_year": "",
             "vod_area": "",
             "vod_remarks": "",
