@@ -86,18 +86,33 @@
   "timeout":60, 
   "ext":"./lib1/tokenm盒子.json$$$https://t.me/$$$guaguale115,kuakeyun,shareAliyun,ucwpzy$$$proxy$$$1"},
 
-
-		
+{
+            "key": "华为吧克隆",
+            "name": "🔥华为吧克隆🔥",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net/hwb.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+		{
+            "key": "实验直播3",
+            "name": "🔥实验直播🔥",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net/zh/2241.php",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "1,2,3"
+        },
 		
 		{
-            "key": "php_hmezy",
-            "name": "🔥黑木耳🔥",
+            "key": "黑木耳克隆",
+            "name": "🔥黑木耳克隆🔥",
             "type": 4,
-            "api": "http://127.0.0.1:10079/p/0/proxy/https://demobe.serv00.net/heimuer.php",
-			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+            "api": "http://zhangqun1818.serv00.net/225.php",
             "searchable": 1,
-            "quickSearch":0,
-            "filterable":0
+            "quickSearch": 1,
+            "filterable": 0
         },
 			
 		{

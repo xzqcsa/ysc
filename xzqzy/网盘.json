@@ -133,16 +133,7 @@
             "quickSearch": 1,
             "filterable": 0
         },
-        {
-            "key": "实验油管",
-            "name": "🔥实验油管🔥",
-            "type": 4,
-            "api": "http://zhangqun1818.serv00.net/yt/yt001.php",
-			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": "动作片#谍战剧playlist#沙雕穿越#中国动漫#有声穿越小说#影视解说#百家讲坛playlist#动物#风光#放松#4K#HDR#movie#喜来乐#documentary#bbc documentary"
-        },
+     
         {
             "key": "采集集合",
             "name": "🔥采集集合🔥",
