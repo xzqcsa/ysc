@@ -86,8 +86,76 @@
   "api":"csp_TGYunPanLocal",
   "timeout":60, 
   "ext":"./lib1/tokenm盒子.json$$$https://t.me/$$$guaguale115,kuakeyun,shareAliyun,ucwpzy$$$proxy$$$1"},
-		
-		
+		{
+            "key": "超级影视",
+            "name": "超级影视",
+            "type": 1,
+            "api": "http://cjvip.free.hr/api.php/provide/vod/?ac=list",
+            "searchable": 0,
+            "changeable": 0
+        },
+		{
+            "key": "黑木耳克隆",
+            "name": "黑木耳克隆",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net/225.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "金鹰克隆",
+            "name": "金鹰克隆",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net/jy.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "华为吧克隆",
+            "name": "华为吧克隆",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net/hwb.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "索尼克隆",
+            "name": "索尼克隆",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net/sn.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "实验油管",
+            "name": "实验油管",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net/yt/yt001.php",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "动作片#谍战剧playlist#沙雕穿越#中国动漫#有声穿越小说#影视解说#百家讲坛playlist#动物#风光#放松#4K#HDR#movie#喜来乐#documentary#bbc documentary"
+        },
+        {
+            "key": "采集集合",
+            "name": "采集集合",
+            "type": 1,
+            "api": "http://zhangqun1818.serv00.net/cjjh.php",
+            "searchable": 1,
+            "changeable": 1
+        },
+		{
+            "key": "实验直播3",
+            "name": "实验直播3",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net/zh/2241.php",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "1,2,3"
+        },
 		
 			{
             "key": "php_hmezy",
