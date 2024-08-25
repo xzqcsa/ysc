@@ -1138,6 +1138,33 @@
 		],
 
   "parses": [
+    {
+      "name": "摸鱼追觅解析",
+      "type": 1,
+      "url": "http://追觅.摸鱼儿.top/zhuimi.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
+    },
      {
             "name": "腾讯",
             "type": 1,
