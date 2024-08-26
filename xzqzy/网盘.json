@@ -110,6 +110,18 @@
             }
         },
 		{
+            "key": "美益达影视",
+            "name": "🔥美益达🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/XBPQ.jar",
+            "ext": {
+                "线路标题": "data-dropdown-value=\"&&\"",
+                "分类url": "https://www.myd04.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
+            }
+        },
+		{
             "key": "黑木耳克隆",
             "name": "🔥黑木耳克隆🔥",
             "type": 4,
