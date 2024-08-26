@@ -24,7 +24,7 @@
 "thunder_vip_thread_limit":2,
 "thunder_flags":"4k|4kz|auto",
 "aliproxy":"",
-"aliproxy_url":"./aliproxy.32.gz;md5=e41fe2b89bb3eff37a1913f48c98ab4d",
+"aliproxy_url":"./aliproxy.32.gz;md5=d20a7091834eaed74bcca0c418caa0b7",
 "proxy":"",
 "danmu":true,
 "quark_danmu":true,
@@ -59,7 +59,7 @@
 "youtube_proxy":"proxy",
 "singbox_url":"./sing-box.gz;md5=a13f87deb17cbb5201eae4b671e1209d",
 "singbox_subscribe_url":"",
-"singbox_clash2singbox_url":"./clash2singbox.gz;md5=bac352eb0f39c62e935acbd068cc75da",
+"singbox_clash2singbox_url":"./clash2singbox.gz;md5=28fe1312e7d9e6bb962d980ae7076225",
 "singbox_template_url":"./singbox.json"
 
 }
