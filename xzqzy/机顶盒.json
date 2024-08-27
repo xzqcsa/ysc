@@ -113,30 +113,7 @@
             "changeable": 0,
             "ext": "1,2,3"
         },
-		   {
-            "key": "ytys",
-            "name": "🔥雅图🔥",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType": 2,
-			"jar": "./lib/XBPQ.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "数组": "<td&&</a>",
-                "图片": "img src=\"&&\"",
-                "标题": "title=\"&&\"",
-                "副标题": "YY专享+line-height\">&&<",
-                "搜索url": "http://www.yatu.tv:2082/m/index.asp?sort=&keyword={sort=&keyword}&x=0&y=0",
-                "线路数组": "<td&&</div>",
-                "线路标题": "YY专享+<span>&&</span>",
-                "播放数组": "class=\"tr_flv&&</div>",
-                "分类url": "http://www.yatu.tv:2082/m-{cateId}/{catePg}.html",
-                "分类": "动漫&电影&电视剧",
-                "分类值": "dm&dy&tv"
-            }
-        },
+		  
 		{
             "key": "美益达影视",
             "name": "🔥美益达🔥",
