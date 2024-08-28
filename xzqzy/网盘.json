@@ -344,11 +344,12 @@
         },
 		
 	{
-      "key": "腾讯1",
-      "name": "♻️腾讯少儿频道",
+      "key": "奇艺1",
+      "name": "♻️爱奇艺少儿频道",
       "type": 3,
+      "playerType": 1,
       "api": "./lib1/drpy2.min.js",
-      "ext": "./lib/腾讯.js"
+      "ext": "./lib/异兽.js"
     },
 	{
       "key": "腾讯1",
