@@ -238,10 +238,32 @@
       "key": "腾讯1",
       "name": "♻️腾讯少儿频道",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "./lib1/drpy2.min.js",
       "ext": "./lib/腾讯.js"
     },
-
+{
+      "key": "腾讯1",
+      "name": "♻️腾讯少儿频道",
+      "type": 3,
+      "api": "./lib1/drpy2.min.js",
+      "ext": "./lib/腾讯.js"
+    },
+    {
+      "key": "芒果1",
+      "name": "♻️芒果少儿频道",
+      "type": 3,
+      "api": "./lib1/drpy2.min.js",
+       "playerType": 1,
+      "ext": "./lib/忙果.js"
+    },
+   {
+      "key": "优酷1",
+      "name": "♻️优酷少儿频道",
+      "type": 3,
+      
+      "api": "./lib1/drpy2.min.js",
+      "ext": "./lib/优酷.js"
+    },
 		
 		 {
             "key": "Hdhive",
@@ -343,7 +365,7 @@
 	"changeable":1, 
 	"filterable":1,
 	"timeout":60, 
-	"ext":"./lib1/tokenm机顶盒.json$$$http://cms3.715d.com/$$$proxy$$$1$$$./lib/wogg.json$$$Wott"},
+	"ext":"./lib1/tokenm机顶盒.json$$$http://43.136.41.222:2333$$$proxy$$$1$$$./lib/wogg.json$$$Wott"},
 
    
    {"key":"Moli",
@@ -1132,10 +1154,10 @@
 		],
 
   "parses": [
-  {
-      "name": "摸鱼追觅解析",
+    {
+      "name": "追觅",
       "type": 1,
-      "url": "http://追觅.摸鱼儿.top/zhuimi.php?url=",
+      "url": "http://zhuimi996.xn--v4q818bf34b.top/zhuimi.php?url=",
       "ext": {
         "flag": [
           "qq",
