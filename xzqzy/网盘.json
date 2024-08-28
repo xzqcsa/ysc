@@ -83,7 +83,7 @@
  {"key":"TGYunPan1",
   "name":"🔍TG搜索🔍",
   "type":3,
-  "jar": "./lib1/pg115.jar",
+  
   "api":"csp_TGYunPanLocal",
   "timeout":60, 
   "ext":"./lib1/tokenm盒子1.json$$$https://t.me/$$$guaguale115,hao115,kuakeyun,shareAliyun,ucwpzy$$$proxy$$$1"},
