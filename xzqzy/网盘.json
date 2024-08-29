@@ -91,7 +91,7 @@
   {"key":"TGYunPan",
   "name":"🔍TG服务器搜索🔍",
   "type":3,
-    "jar": "./lib1//pg网盘.jar",
+    "jar": "./lib1/pg网盘.jar",
   "api":"csp_TGYunPan",
   "timeout":60, 
   "ext":"./lib1/tokenm盒子1.json$$$http://74.48.39.198:9999/$$$guaguale115,WFYSFX02,ucwpzy,wpzyhj$$$noproxy$$$1"},
