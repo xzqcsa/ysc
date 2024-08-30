@@ -86,6 +86,13 @@
   "api":"csp_TGYunPanLocal",
   "timeout":60, 
   "ext":"./lib1/tokenm机顶盒.json$$$https://t.me/$$$guaguale115,kuakeyun,shareAliyun,ucwpzy$$$proxy$$$1"},
+  {"key":"TGYunPan12",
+  "name":"🔍TG服务器🔍",
+  "type":3,
+  
+  "api":"csp_TGYunPan",
+  "timeout":60, 
+  "ext":"./lib1/tokenm机顶盒.json$$$http://107.172.201.182:9999/$$$guaguale115,WFYSFX02,ucwpzy,wpzyhj$$$noproxy$$$1"},
 {"key":"csp_瓜子",
 "name":"🔥瓜子🔥",
 "api":"csp_Gz360",
