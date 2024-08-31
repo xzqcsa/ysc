@@ -146,7 +146,7 @@
             "key": "金鹰克隆",
             "name": "🔥金鹰克隆🔥",
             "type": 4,
-            "api": "http://zhangqun1818.serv00.net/jy.php",
+            "api": "http://127.0.0.1:10079/p/0/proxy/http://zhangqun1818.serv00.net/jy.php",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
@@ -155,7 +155,7 @@
             "key": "华为吧克隆",
             "name": "🔥华为吧克隆🔥",
             "type": 4,
-            "api": "http://zhangqun1818.serv00.net/hwb.php",
+            "api": "http://127.0.0.1:10079/p/0/proxy/http://zhangqun1818.serv00.net/hwb.php",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
@@ -164,7 +164,7 @@
             "key": "索尼克隆",
             "name": "🔥索尼克隆🔥",
             "type": 4,
-            "api": "http://zhangqun1818.serv00.net/sn.php",
+            "api": "http://127.0.0.1:10079/p/0/proxy/http://zhangqun1818.serv00.net/sn.php",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
@@ -174,7 +174,7 @@
             "key": "采集集合",
             "name": "🔥采集集合🔥",
             "type": 1,
-            "api": "http://zhangqun1818.serv00.net/cjjh.php",
+            "api": "http://127.0.0.1:10079/p/0/proxy/http://zhangqun1818.serv00.net/cjjh.php",
             "searchable": 1,
             "changeable": 1
         },
@@ -182,7 +182,7 @@
             "key": "实验直播3",
             "name": "🔥实验直播🔥",
             "type": 4,
-            "api": "http://zhangqun1818.serv00.net/zh/2241.php",
+            "api": "http://127.0.0.1:10079/p/0/proxy/http://zhangqun1818.serv00.net/zh/2241.php",
             "searchable": 0,
             "changeable": 0,
             "ext": "1,2,3"
