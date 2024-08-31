@@ -126,24 +126,7 @@
   "api":"csp_TGYunPan",
   "timeout":60, 
   "ext":"./lib1/tokenm电视.json$$$http://107.172.201.182:9999/$$$guaguale115,SharePanBaidu,vip115hot,wenhua1428,ucwpzy,wpzyhj$$$noproxy$$$1"},
-  {
-            "key": "华为吧克隆",
-            "name": "🔥华为吧克隆🔥",
-            "type": 4,
-            "api": "http://127.0.0.1:10079/p/0/proxy/http://zhangqun1818.serv00.net/hwb.php",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-		{
-            "key": "实验直播3",
-            "name": "🔥实验直播🔥",
-            "type": 4,
-            "api": "http://127.0.0.1:10079/p/0/proxy/http://zhangqun1818.serv00.net/zh/2241.php",
-            "searchable": 0,
-            "changeable": 0,
-            "ext": "1,2,3"
-        },
+ 
 		{"key":"csp_瓜子",
 "name":"🔥瓜子🔥",
 "api":"csp_Gz360",
@@ -154,15 +137,7 @@
 "playerType":2,
 "timeout":30,
 "changeable":0},
-		{
-            "key": "黑木耳克隆",
-            "name": "🔥黑木耳克隆🔥",
-            "type": 4,
-            "api": "http://127.0.0.1:10079/p/0/proxy/http://zhangqun1818.serv00.net/225.php",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
+		
 							
 	 {
             "key": "美益达影视",
