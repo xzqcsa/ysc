@@ -137,7 +137,33 @@
 "playerType":2,
 "timeout":30,
 "changeable":0},
-		
+		{
+            "key": "黑木耳克隆",
+            "name": "🔥黑木耳克隆🔥",
+            "type": 4,
+            "api": "https://api.paoyun.eu.org/225.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+		 {
+            "key": "华为吧克隆",
+            "name": "🔥华为吧克隆🔥",
+            "type": 4,
+            "api": "https://api.paoyun.eu.org/hwb.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+		 {
+            "key": "直播转点播",
+            "name": "🔥电视直播🔥",
+            "type": 4,
+            "api": "https://api.paoyun.eu.org/zh/2241.php",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "3,1,2,4"
+        },
 							
 	 {
             "key": "美益达影视",
