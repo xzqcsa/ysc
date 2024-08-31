@@ -1,5 +1,5 @@
 ﻿ { 
-  "spider":"./lib1/pg来不及完美修改.jar","logo":"./lib/虎.JPG",
+  "spider":"./lib1/pg.jar","logo":"./lib/虎.JPG",
   "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
   "sites": [
 {"key":"lf_js_search",
@@ -84,7 +84,7 @@
   {"key":"TGYunPan12",
   "name":"🔍TG服务器🔍",
   "type":3,
-   "jar": "./lib1/pg网盘.jar",
+  
   "api":"csp_TGYunPan",
   "timeout":60, 
   "ext":"./lib1/tokenm盒子1.json$$$http://107.172.201.182:9999/$$$guaguale115,SharePanBaidu,vip115hot,wenhua1428,ucwpzy,wpzyhj$$$noproxy$$$1"},
