@@ -109,6 +109,59 @@
 "playerType":2,
 "timeout":30,
 "changeable":0},
+{
+            "key": "黑木耳克隆",
+            "name": "🔥黑木耳克隆🔥",
+            "type": 4,
+            "api": "https://api.paoyun.eu.org/225.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "金鹰克隆",
+            "name": "🔥金鹰克隆🔥",
+            "type": 4,
+            "api": "https://api.paoyun.eu.org/jy.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "华为吧克隆",
+            "name": "🔥华为吧克隆🔥",
+            "type": 4,
+            "api": "https://api.paoyun.eu.org/hwb.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "索尼克隆",
+            "name": "🔥索尼克隆🔥",
+            "type": 4,
+            "api": "https://api.paoyun.eu.org/sn.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+		 {
+            "key": "采集集合",
+            "name": "🔥采集集合🔥",
+            "type": 1,
+            "api": "https://api.paoyun.eu.org/cjjh.php",
+            "searchable": 1,
+            "changeable": 1
+        },
+		 {
+            "key": "直播转点播",
+            "name": "🔥电视直播🔥",
+            "type": 4,
+            "api": "https://api.paoyun.eu.org/zh/2241.php",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "1,2,3,4"
+        },
        {
             "key": "PPTV66",
             "name": "🔥PPTV66🔥",
