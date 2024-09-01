@@ -89,6 +89,13 @@
   "timeout":60, 
   "ext":"./lib1/tokenm盒子1.json$$$http://107.172.201.182:9999/$$$guaguale115,SharePanBaidu,vip115hot,wenhua1428,ucwpzy,wpzyhj$$$noproxy$$$1"},
  
+ {
+      "key": "hanju",
+      "name": "♻️韩剧TV",
+      "type": 3,
+      "api": "./lib1/drpy2.min.js",
+      "ext": "./lib/韩剧TV.js"
+    },
 		{
             "key": "超级影视",
             "name": "🔥超级影视🔥",
