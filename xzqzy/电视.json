@@ -125,7 +125,7 @@
  
   "api":"csp_TGYunPan",
   "timeout":60, 
-  "ext":"./lib1/tokenm电视.json$$$http://107.172.201.182:9999/$$$guaguale115,SharePanBaidu,vip115hot,wenhua1428,ucwpzy,wpzyhj$$$noproxy$$$1"},
+  "ext":"./lib1/tokenm电视.json$$$http://107.172.201.182:9999/$$$guaguale115,hao115,SharePanBaidu,vip115hot,wenhua1428,ucwpzy,wpzyhj$$$noproxy$$$1"},
  
 		{"key":"csp_瓜子",
 "name":"🔥瓜子🔥",
@@ -137,6 +137,14 @@
 "playerType":2,
 "timeout":30,
 "changeable":0},
+{
+      "key": "hanju",
+      "name": "🔥韩剧TV🔥",
+      "type": 3,
+	  
+      "api": "./lib1/drpy2.min.js",
+      "ext": "./lib1/韩剧TV.js"
+    },
 		{
             "key": "黑木耳克隆",
             "name": "🔥黑木耳克隆🔥",
