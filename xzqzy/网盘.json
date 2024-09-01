@@ -93,8 +93,9 @@
       "key": "hanju",
       "name": "♻️韩剧TV",
       "type": 3,
+	  
       "api": "./lib1/drpy2.min.js",
-      "ext": "./lib/韩剧TV.js"
+      "ext": "./lib1/韩剧TV.js"
     },
 		{
             "key": "超级影视",
