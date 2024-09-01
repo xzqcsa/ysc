@@ -79,13 +79,7 @@
 				"ratio": 1.1
 			}
 		},
-		{"key":"TGYunPan1",
-  "name":"🔍TG搜索🔍",
-  "type":3,
-  
-  "api":"csp_TGYunPanLocal",
-  "timeout":60, 
-  "ext":"./lib1/tokenm机顶盒.json$$$https://t.me/$$$guaguale115,kuakeyun,shareAliyun,ucwpzy$$$proxy$$$1"},
+		
   {"key":"TGYunPan12",
   "name":"🔍TG服务器🔍",
   "type":3,
