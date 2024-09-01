@@ -1881,33 +1881,7 @@
 		],
 
   "parses": [
-    {
-      "name": "追觅",
-      "type": 1,
-      "url": "http://zhuimi996.xn--v4q818bf34b.top/zhuimi.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "rx",
-          "ltnb",
-          "bilibili",
-          "1905",
-          "xigua"
-        ]
-      }
-    },
+    
         {
       "name": "小米无敌",
       "type": 1,
