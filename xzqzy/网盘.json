@@ -94,7 +94,50 @@
   "api":"csp_TGYunPan",
   "timeout":60, 
   "ext":"./lib1/tokenm盒子1.json$$$http://107.172.201.182:9999/$$$guaguale115,hao115,SharePanBaidu,vip115hot,wenhua1428,ucwpzy,wpzyhj$$$noproxy$$$1"},
- 
+   {
+            "key": "4kkav",
+            "name": "🔥4kav影视🔥",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/XBPQ.jar",
+            "ext": {
+				"请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+				"编码": "UTF-8",
+				"主页url": "https://4k-av.com",
+				"首页": "120",
+				"起始页": "1",
+				"分类url": "/{cateId}{class}/page-{catePg}.html[https://4k-av.com/{cateId}{class}];;rcS1",
+				"分类": "电影&剧集",
+				"分类值": "movie&tv",
+				"数组": "tags\">&&</a>",
+				"标题": "alt=\"&&海报",
+				"图片": "src=\"&&\"",
+				"副标题": "标签:&&</label>",
+				"链接": "href=\"&&\"",
+				"影片年代": "年份:&&</a>",
+				"影片地区": "片长:&&</label>",
+				"影片类型": "标签:&&</div>",
+				"状态": "videodetail\">&&</label>",
+				"简介": "cnline\">&&</p>",
+				"线路数组": "videoinfo\">&&</div>",
+				"线路标题": "超强4K",
+				"播放二次截取": "infomain\">&&reidnull[替换:href>>rtlist\"><img<span>第1集</span>src#poster.jpg>>\"</li></ul>]",
+				"播放数组": "rtlist\">&&</ul>",
+				"倒序": "0",
+				"播放列表": "<img&&</li>[替换:screenshot.jpg>>空]",
+				"播放标题": "<span*>&&</span>",
+				"播放链接": "src=\"&&\"",
+				"跳转播放链接": "<source src=\"&&\"",
+				"搜索请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+				"搜索url": "/s?q={wd}",
+				"搜索模式": "1",
+				"搜索标题": "title=\"&&/",
+				"搜索图片": "src=\"&&\"",
+				"搜索副标题": "标签:&&</label>",
+				"搜索链接": "href=\"&&\""
+			
+            }
+        },
  {
       "key": "hanju",
       "name": "🔥韩剧TV🔥",
@@ -251,7 +294,7 @@
 "changeable":1,
 "filterable":1,
 "timeout":60,
-"ext":"./lib1/tokenm盒子1.json$$$http://mogg.top$$$noproxy$$$1$$$./lib/wogg.json"
+"ext":"./lib1/tokenm盒子1.json$$$http://mogg.top$$$proxy$$$1$$$./lib/wogg.json"
 },
 
 		{
@@ -1210,7 +1253,35 @@
 		],
 
   "parses": [
-      
+       {
+      "name": "4K解析",
+      "type": 1,
+      "url": "http://193.134.211.100:1888/tv/4k.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
       {
       "name": "小米无敌",
       "type": 1,
