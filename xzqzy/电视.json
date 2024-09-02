@@ -1867,27 +1867,14 @@
 				"type": "list",
 				"ratio": 1.1
 			}
-		},
+		}
 
     
     
   
    
    
-    {
-      "key": "Biliych",
-      "name": "🅱哔哔┃歌曲",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "./lib1/biliych.json"
-       }],
+    ],
 "lives":[
 			{
 				"name": "jingyin",
@@ -1946,6 +1933,45 @@
 		],
 
   "parses": [
+   {
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "xiaomi解析",
+      "type": 1,
+      "url": "http://1.xiaomi666.work.gd/laoyu.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
      {
       "name": "4K解析",
       "type": 1,
