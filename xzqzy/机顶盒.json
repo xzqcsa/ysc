@@ -97,16 +97,7 @@
 "playerType":2,
 "timeout":30,
 "changeable":0},
-{
-            "key": "腾讯4k[优]",
-            "name": "🔥腾讯4k🔥",
-            "type": 3,
-            "api": "./lib1/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./lib1/腾讯4k[优].js"
-        },
+
 
   {
             "key": "4kkav",
