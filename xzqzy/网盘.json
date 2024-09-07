@@ -1,5 +1,5 @@
 ﻿ { 
-  "spider":"./lib1/pg网盘.jar","logo":"./lib/虎.JPG",
+  "spider":"./lib1/pg.jar","logo":"./lib/虎.JPG",
   "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
   "sites": [
 {"key":"lf_js_search",
@@ -54,7 +54,26 @@
 				"ratio": 1.77
             }
         },
-		
+		{
+            "key": "Youtube_jiaoyu",
+            "name": "🔥Youtube┃教育🔥",
+            "type": 3,
+            "api": "csp_Youtube",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 1,
+			"timeout": 120,
+            "ext": {
+			"token":"./lib1/tokenm电视.json",
+			"keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
+            "type": "苏教版课程#人教版课程#沪教版课程#北师大版课程",
+            "proxy": "proxy"
+            },
+            "style": {
+               "type": "rect",
+				"ratio": 1.77
+            }
+        },
 		{"key":"115",
      "name":"🔥115网盘分享🔥",
      "type":3, 
@@ -86,96 +105,10 @@
 			}
 		},
 		
- {
-            "key": "4kkav11",
-            "name": "🔥4KKK影视🔥",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
-            "ext": {
 
-				"请求头": "User-Agent$okhttp/3.12.11",
-				"分类": "4K电影&4K剧集&4K综艺&动漫",
-				"分类值": "1&2&3&4",
-				"分类url": "http://43.136.41.222:9999/api.php/app/video?tid={cateId}&class={class}&area={area}&lang={lang}&year={year}&limit=18&pg={catePg}",
-				"数组二次截取": "list\":[&&]",
-				"数组": "{&&}",
-				"图片": "vod_pic\"*\"&&\"",
-				"标题": "vod_name\"*\"&&\"",
-				"副标题": "vod_remarks\"*\"&&\"",
-				"链接": "http://43.136.41.222:9999/api.php/app/video_detail?id=+vod_id\":&&,",
-				"搜索url": "http://43.136.41.222:9999/api.php/app/search?text={wd}&pg=",
-				"搜索模式": "1",
-				"搜索二次截取": "list\":[&&]",
-				"搜索数组": "{&&}",
-				"搜索图片": "vod_pic\"*\"&&\"",
-				"搜索标题": "vod_name\"*\"&&\"",
-				"搜索副标题": "vod_remarks\"*\"&&\"",
-				"搜索链接": "http://43.136.41.222:9999/api.php/app/video_detail?id=+vod_id\":&&,",
-				"影片类型": "vod_class\"*\"&&\"",
-				"导演": "vod_director\"*\"&&\"",
-				"主演": "vod_actor\"*\"&&\"",
-				"简介": "vod_content\"*\"&&\"",
-				"线路数组": "vod_play_from\":&&,",
-				"线路标题": "\"&&\"",
-				"播放数组": "vod_play_url\":&&,[替换:\">>链表题#$>>题链#\\#>>链表表题]",
-				"播放列表": "表&&表",
-				"播放标题": "题&&题",
-				
-				"播放链接": "http://39.104.230.177:1122/lxjx/myyk.php?url=+链&&链",
-				"跳转播放链接": "urll\": \"&&\"",
-				"过滤词": "51.la#cnzz.com#baidu.com#bilibili.com",
-				"播放请求头": "User-Agent$Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36uacq",
-				"免嗅": "1"}
-
-
-			},
  
   
-   {
-            "key": "4kkav",
-            "name": "🔥4kav影视🔥",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
-            "ext": {
-				"请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
-				"编码": "UTF-8",
-				"主页url": "https://4k-av.com","页面代理": "127.0.0.1:10072",
-				"首页": "120",
-				"起始页": "1",
-				"分类url": "/{cateId}{class}/page-{catePg}.html[https://4k-av.com/{cateId}{class}];;rcS1",
-				"分类": "电影&剧集",
-				"分类值": "movie&tv",
-				"数组": "tags\">&&</a>",
-				"标题": "alt=\"&&海报",
-				"图片": "src=\"&&\"",
-				"副标题": "标签:&&</label>",
-				"链接": "href=\"&&\"",
-				"影片年代": "年份:&&</a>",
-				"影片地区": "片长:&&</label>",
-				"影片类型": "标签:&&</div>",
-				"状态": "videodetail\">&&</label>",
-				"简介": "cnline\">&&</p>",
-				"线路数组": "videoinfo\">&&</div>",
-				"线路标题": "超强4K",
-				"播放二次截取": "infomain\">&&reidnull[替换:href>>rtlist\"><img<span>第1集</span>src#poster.jpg>>\"</li></ul>]",
-				"播放数组": "rtlist\">&&</ul>",
-				"倒序": "0",
-				"播放列表": "<img&&</li>[替换:screenshot.jpg>>空]",
-				"播放标题": "<span*>&&</span>",
-				"播放链接": "src=\"&&\"",
-				"跳转播放链接": "<source src=\"&&\"",
-				"搜索请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
-				"搜索url": "/s?q={wd}",
-				"搜索模式": "1",
-				"搜索标题": "title=\"&&/",
-				"搜索图片": "src=\"&&\"",
-				"搜索副标题": "标签:&&</label>",
-				"搜索链接": "href=\"&&\""
-			
-            }
-        },
+ 
  {
       "key": "hanju",
       "name": "🔥韩剧TV🔥",
