@@ -1,0 +1,773 @@
+{
+  "log": {
+    "level": "warn",
+    "output": "box.log",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns-remote",
+        "address": "udp://1.1.1.1",
+        "address_resolver": "dns-direct"
+      },
+      {
+        "tag": "dns-trick-direct",
+        "address": "https://sky.rethinkdns.com/",
+        "detour": "direct-fragment"
+      },
+      {
+        "tag": "dns-direct",
+        "address": "223.5.5.5",
+        "address_resolver": "dns-local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-local",
+        "address": "local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-block",
+        "address": "rcode://success"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "www.csgo.com",
+          "comicabc.com"
+        ],
+        "server": "dns-direct"
+      },
+      {
+        "domain": "cp.cloudflare.com",
+        "server": "dns-remote",
+        "rewrite_ttl": 3000
+      },
+      {
+        "rule_set": [
+          "geoip-cn",
+          "geosite-cn"
+        ],
+        "server": "dns-direct"
+      }
+    ],
+    "final": "dns-remote",
+    "static_ips": {
+      "sky.rethinkdns.com": [
+        "104.17.147.22",
+        "104.17.148.22",
+        "172.67.214.246",
+        "104.21.83.62"
+      ]
+    },
+    "independent_cache": true
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 12334,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "set_system_proxy": true
+    },
+    {
+      "type": "direct",
+      "tag": "dns-in",
+      "listen": "127.0.0.1",
+      "listen_port": 16450
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "6-clone § 0",
+        "5-clone § 1",
+        "6 § 2",
+        "3-clone § 3",
+        "4-clone § 4",
+        "5 § 5",
+        "4 § 6",
+        "2 § 7",
+        "1 § 8",
+        "5555 § 9",
+        "555 § 10",
+        "55 § 11",
+        "vless § 12",
+        "6666 § 13",
+        "666 § 14",
+        "66 § 15",
+        "vless § 16",
+        "4444 § 17",
+        "444 § 18",
+        "44 § 19",
+        "vless § 20",
+        "3333 § 21",
+        "333 § 22",
+        "33 § 23",
+        "vless § 24",
+        "6-clone-clone-clone-clone § 25",
+        "5-clone-clone-clone-clone § 26",
+        "6-clone-clone-clone § 27",
+        "5-clone-clone § 28",
+        "6-clone-clone § 29",
+        "4-clone-clone § 30"
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "6-clone § 0",
+        "5-clone § 1",
+        "6 § 2",
+        "3-clone § 3",
+        "4-clone § 4",
+        "5 § 5",
+        "4 § 6",
+        "2 § 7",
+        "1 § 8",
+        "5555 § 9",
+        "555 § 10",
+        "55 § 11",
+        "vless § 12",
+        "6666 § 13",
+        "666 § 14",
+        "66 § 15",
+        "vless § 16",
+        "4444 § 17",
+        "444 § 18",
+        "44 § 19",
+        "vless § 20",
+        "3333 § 21",
+        "333 § 22",
+        "33 § 23",
+        "vless § 24",
+        "6-clone-clone-clone-clone § 25",
+        "5-clone-clone-clone-clone § 26",
+        "6-clone-clone-clone § 27",
+        "5-clone-clone § 28",
+        "6-clone-clone § 29",
+        "4-clone-clone § 30"
+      ],
+      "url": "http://connectivitycheck.gstatic.com/generate_204",
+      "interval": "10m0s",
+      "idle_timeout": "1h40m0s"
+    },
+    {
+      "type": "vless",
+      "tag": "6-clone § 0",
+      "server": "162.159.196.146",
+      "server_port": 2086,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "5-clone § 1",
+      "server": "104.18.81.26",
+      "server_port": 2086,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "6 § 2",
+      "server": "162.159.196.146",
+      "server_port": 2082,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "3-clone § 3",
+      "server": "172.64.138.233",
+      "server_port": 2052,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "4-clone § 4",
+      "server": "172.64.138.233",
+      "server_port": 2086,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "5 § 5",
+      "server": "104.18.81.26",
+      "server_port": 2082,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "4 § 6",
+      "server": "172.64.138.233",
+      "server_port": 2082,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "2 § 7",
+      "server": "162.159.196.146",
+      "server_port": 2052,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "1 § 8",
+      "server": "104.18.81.26",
+      "server_port": 2052,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "5555 § 9",
+      "server": "162.159.250.122",
+      "server_port": 2095,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "555 § 10",
+      "server": "104.19.1.100",
+      "server_port": 2095,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "55 § 11",
+      "server": "162.159.252.69",
+      "server_port": 2095,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "vless § 12",
+      "server": "www.csgo.com",
+      "server_port": 2095,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "6666 § 13",
+      "server": "162.159.250.122",
+      "server_port": 2086,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "666 § 14",
+      "server": "104.19.1.100",
+      "server_port": 2086,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "66 § 15",
+      "server": "162.159.252.69",
+      "server_port": 2086,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "vless § 16",
+      "server": "www.csgo.com",
+      "server_port": 2086,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "4444 § 17",
+      "server": "162.159.250.122",
+      "server_port": 2082,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "444 § 18",
+      "server": "104.19.1.100",
+      "server_port": 2082,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "44 § 19",
+      "server": "162.159.252.69",
+      "server_port": 2082,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "vless § 20",
+      "server": "www.csgo.com",
+      "server_port": 2082,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "3333 § 21",
+      "server": "162.159.250.122",
+      "server_port": 2052,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "333 § 22",
+      "server": "104.19.1.100",
+      "server_port": 2052,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "33 § 23",
+      "server": "162.159.252.69",
+      "server_port": 2052,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "vless § 24",
+      "server": "www.csgo.com",
+      "server_port": 2052,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "6-clone-clone-clone-clone § 25",
+      "server": "172.64.103.91",
+      "server_port": 2052,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "5-clone-clone-clone-clone § 26",
+      "server": "172.64.103.91",
+      "server_port": 2086,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "6-clone-clone-clone § 27",
+      "server": "comicabc.com",
+      "server_port": 2095,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "5-clone-clone § 28",
+      "server": "104.18.81.26",
+      "server_port": 2095,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "6-clone-clone § 29",
+      "server": "162.159.196.146",
+      "server_port": 2095,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "4-clone-clone § 30",
+      "server": "172.64.138.233",
+      "server_port": 2095,
+      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tianshu.kevqwkt451.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "direct",
+      "tag": "direct-fragment",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "10-30",
+        "sleep": "2-8"
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "bypass"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "rule_set": [
+          "geoip-cn",
+          "geosite-cn"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "inbound": "dns-in",
+        "outbound": "dns-out"
+      },
+      {
+        "port": 53,
+        "outbound": "dns-out"
+      },
+      {
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "Global",
+        "outbound": "select"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "geoip-cn",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geoip-cn.srs",
+        "update_interval": "120h0m0s"
+      },
+      {
+        "type": "remote",
+        "tag": "geosite-cn",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/hiddify/hiddify-geo/rule-set/country/geosite-cn.srs",
+        "update_interval": "120h0m0s"
+      }
+    ],
+    "final": "select",
+    "auto_detect_interface": true,
+    "override_android_vpn": true
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "clash.db"
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:16756",
+      "secret": "vGKaxo14VzUAfHq6"
+    }
+  }
+}
