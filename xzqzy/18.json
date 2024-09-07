@@ -1,5 +1,5 @@
 {
-  "spider": "./lib1/pg网盘.jar",
+  "spider": "./lib1/pg.jar",
   "lives": [
     {
       "name": "初秋语",
