@@ -127,16 +127,14 @@
             "changeable": 0
 			
 		},
-		{"key":"csp_瓜子",
-"name":"🔥瓜子🔥",
-"api":"csp_Gz360",
- "jar": "./lib1/ouyang1.txt;md5;f0fe66c0299c3e68a450add5945adad1",
-"type":3,
-"searchable":1,
- "quickSearch": 1,
-"playerType":2,
-"timeout":30,
-"changeable":0},
+		{
+      "key": "hanju1",
+      "name": "🔥瓜子影视🔥",
+      "type": 3,
+	  
+      "api": "./lib1/drpy2.min.js",
+      "ext": "./lib1/瓜子影视.js"
+    },
 {
             "key": "黑木耳克隆",
             "name": "🔥黑木耳克隆🔥",

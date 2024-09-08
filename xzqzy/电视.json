@@ -138,6 +138,14 @@
 "timeout":30,
 "changeable":0},
 {
+      "key": "hanju1",
+      "name": "🔥瓜子影视🔥",
+      "type": 3,
+	  
+      "api": "./lib1/drpy2.min.js",
+      "ext": "./lib1/瓜子影视.js"
+    },
+{
       "key": "hanju",
       "name": "🔥韩剧TV🔥",
       "type": 3,
