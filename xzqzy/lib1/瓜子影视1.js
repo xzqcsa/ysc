@@ -3,12 +3,14 @@
 
 var rule = {
     title: '瓜子',
-    host: 'http://127.0.0.1:10079/https://api.8utdtcq.com',
-    url: '/p/0/127.0.0.1:10072//App/IndexList/indexList',
-    //   homeUrl: '/p/0/127.0.0.1:10072/http://124.222.116.5/homedata/home.json',
-	
-	
-	
+	//host:'https://api.8utdtcq.com',
+	//homeUrl:'/',
+	//url: '/App/IndexList/indexList',
+    
+    
+	host:'http://127.0.0.1:10079',
+	homeUrl:'/p/0/127.0.0.1:10072/http://124.222.116.5/homedata/home.json',
+	url:'/p/0/127.0.0.1:10072//App/IndexList/indexList',
     searchUrl: '/p/0/127.0.0.1:10072/App/Index/findMoreVod#**',
     searchable: 2,
     quickSearch: 1,
