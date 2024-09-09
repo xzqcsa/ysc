@@ -1216,6 +1216,35 @@
       "type": 3,
       "url": "Web"
     },
+	{
+      "name": "何必",
+      "type": 1,
+      "url": "http://www.mpanso.com/小姐姐/何必呢.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
 	 {
       "name": "六趣",
       "type": 1,
@@ -1246,22 +1275,7 @@
         }
       }
     },
-       {
-            "name": "4K",
-            "url": "http://122.228.85.203:7979/api/?key=e5ef7605633990b8d99ee1bfae196786&url=",
-            "type": "1",
-            "status": "normal",
-            "type_text": "Type 1",
-            "status_text": "正常"
-        },
         {
-            "name": "4K1",
-            "url": "http://122.228.85.203:6789/api/?key=de7ed0ead4328fe74ade88bd922e3f4f&url=",
-            "type": "1",
-            "status": "normal",
-            "type_text": "Type 1",
-            "status_text": "正常"
-        },   {
       "name": "1080解析",
       "type": 1,
       "url": "https://jf.lemiaoyun.cn/api/?key=bc1e1c72813140c311929a461d167707&url=",
@@ -1320,35 +1334,7 @@
         }
       }
     },
-    {
-      "name": "何必",
-      "type": 1,
-      "url": "http://www.mpanso.com/小姐姐/何必呢.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
+    
        
     {
       "name": "小米无敌2",
