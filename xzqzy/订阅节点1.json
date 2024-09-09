@@ -3,7 +3,7 @@
   "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
   "sites": [
 {"key":"lf_js_search",
-	"name":"🔥花猪影视🔥",
+	"name":"🔥VIP影视🔥",
 	"type":3,
 	"style":{"type":"rect","ratio":1.485},
 	"searchable":0,
@@ -110,7 +110,7 @@
   
   "api":"csp_TGYunPan",
   "timeout":60, 
-  "ext":"./lib1/tokenm订阅节点.json$$$http://107.172.201.182:9999/$$$guaguale115,Mbox115,hao115,alyp_Animation,baicaoZY,SharePanBaidu,vip115hot,wenhua1428,ZYFX2022,wpzyhj$$$noproxy$$$1"},	
+  "ext":"./lib1/tokenm订阅节点.json$$$http://107.172.201.182:9999/$$$guaguale115,Mbox115,hao115,alyp_Animation,XiangxiuNB,baicaoZY,SharePanBaidu,vip115hot,wenhua1428,ZYFX2022,wpzyhj$$$noproxy$$$1"},	
 {"key":"csp_瓜子",
 "name":"🔥瓜子🔥",
 "api":"csp_Gz360",
