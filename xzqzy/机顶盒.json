@@ -128,14 +128,7 @@
 "主页url":"https://www.senkeji.com/",
 "分类url":"https://www.senkeji.com/vodtype/{cateId}/{class}/{area}/{year}.html",
 "分类":"电影$dianying#电视剧$dsj#综艺$zongyi#动漫$dongman#热门短剧$remenduanju#体育赛事$tiyusaishi#今日更新$https://www.senkeji.com/label/new.html#热榜$https://www.senkeji.com/label/hot.html","倒序":"0"}},
-{
-      "key": "XINYA222",
-      "name": "🔥瓜子影视🔥",
-      "type": 3,
-	  
-      "api": "./lib1/drpy2.min.js",
-      "ext": "./lib1/瓜子影视.js"
-    },
+
 		{
       "key": "XINYA",
       "name": "🔥星芽短剧🔥",
