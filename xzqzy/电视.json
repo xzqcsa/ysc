@@ -138,16 +138,17 @@
       "ext": "./lib1/海纳TV.json"
     },
   
-		{"key":"csp_瓜子",
-"name":"🔥瓜子🔥",
-"api":"csp_Gz360",
- "jar": "./lib1/ouyang1.txt;md5;f0fe66c0299c3e68a450add5945adad1",
-"type":3,
-"searchable":1,
- "quickSearch": 1,
-"playerType":2,
-"timeout":30,
-"changeable":0},
+		{
+			"key": "瓜子影视",
+			"name": "🔥瓜子影视🔥",
+			"type": 3,
+			"api": "./lib1/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./lib1/guazi瓜.js"
+		},
 
 {
       "key": "hanju",
