@@ -115,7 +115,26 @@
 "playerType":2,
 "timeout":30,
 "changeable":0},
-
+{
+      "key": "海南",
+      "name": "🔥海纳影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib1/XBPQ.jar",
+      "ext": "./lib1/海纳TV.json"
+    },
+{
+      "key": "XINYA121",
+      "name": "🔥瓜子影视🔥",
+      "type": 3,
+	  
+      "api": "./lib1/drpy2.min.js",
+      "ext": "./lib1/guazi瓜.js"
+    },
 {"key":"csp_汪了个汪影视",
 "name":"🔥汪影视🔥",
 "type":3,
@@ -370,18 +389,7 @@
             "timeout": 30,
 			
             "ext":"./lib1/tokenm机顶盒.json$$$https://xzyshd.com$$$proxy$$$1"},
-        {
-            "key":"团长资源",
-            "name":"🔥团长资源|网盘🔥",
-            "type": 3,
-            "api": "csp_TZFile",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-			
-            "timeout": 60,
-            "ext":"./lib1/tokenm机顶盒.json$$$noproxy$$$1"
-        },
+        
 		
 	
 		{
@@ -409,15 +417,7 @@
             "ext": "./lib1/tokenm机顶盒.json$$$https://4k.4u4.cn$$$noproxy$$$1$$$./lib/wogg.json"
         },
 
-	{"key":"六趣网盘",
-	"name":"🔥六趣网盘🔥",
-	"type":3,
-	"api":"csp_Wogg",
-	"quickSearch":1, 
-	"changeable":1, 
-	"filterable":1,
-	"timeout":60, 
-	"ext":"./lib1/tokenm机顶盒.json$$$http://43.136.41.222:2333$$$noproxy$$$1$$$./lib/wogg.json"},
+	
 
    
    {"key":"Moli",

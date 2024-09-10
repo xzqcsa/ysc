@@ -1,0 +1,17 @@
+{
+    "请求头": "User-Agent$MOBILE_UA",
+    "主页url": "https://hainatv.net/",
+    "搜索url": "https://hainatv.net/index.php/vod/search/page/{pg}/wd/{wd}.html",
+    "播放组数": "hl-from-list&&</ul>",
+    "跳转播放链接": "var player_*url\":\"&&\"",
+    "数组": "hl-item-thumb hl-lazy&&</a>",
+    "线路标题": ">&&[M3]</span>",
+    "标题": "title=\"&&\"",
+    "图片": "data-original=\"&&\"",
+    "副标题": ">&&</span>",
+    "线路数组": "</i>&nbsp;&&</span>",
+    "简介": "hl-content-text&&</span>",
+    "链接": "href=\"&&\"",
+    "分类url": "https://hainatv.net/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html",
+    "分类": "电影$1#剧集$2#综艺$3#动漫$4#短剧$59"
+}
