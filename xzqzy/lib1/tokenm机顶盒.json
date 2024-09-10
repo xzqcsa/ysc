@@ -59,7 +59,7 @@
 "youtube_proxy":"proxy",
 "singbox_url":"./sing-box.gz;md5=a13f87deb17cbb5201eae4b671e1209d",
 "singbox_subscribe_url":"",
-"singbox_clash2singbox_url":"./clash2singbox.gz;md5=28fe1312e7d9e6bb962d980ae7076225",
+"singbox_clash2singbox_url":"./clash2singbox.gz;md5=d9fef11ddea98a435486b17537da550b",
 "singbox_template_url":"./singbox.json"
 
 }
