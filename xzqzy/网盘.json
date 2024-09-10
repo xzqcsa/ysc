@@ -104,7 +104,18 @@
 				"ratio": 1.1
 			}
 		},
-		
+		{
+      "key": "海南",
+      "name": "🔥海纳影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib1/XBPQ.jar",
+      "ext": "./lib1/海纳TV.json"
+    },
 {"key":"csp_汪了个汪影视",
 "name":"🔥汪影视🔥",
 "type":3,

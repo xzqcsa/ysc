@@ -127,14 +127,7 @@
       "jar": "./lib1/XBPQ.jar",
       "ext": "./lib1/海纳TV.json"
     },
-{
-      "key": "XINYA121",
-      "name": "🔥瓜子影视🔥",
-      "type": 3,
-	  
-      "api": "./lib1/drpy2.min.js",
-      "ext": "./lib1/guazi瓜.js"
-    },
+
 {"key":"csp_汪了个汪影视",
 "name":"🔥汪影视🔥",
 "type":3,
