@@ -138,7 +138,17 @@
 			"order_num": 0,
 			"ext": "./lib1/guazi瓜.js"
 		},
-
+{
+			"key": "金牌影视",
+			"name": "🔥金牌影视🔥",
+			"type": 3,
+			"api": "./lib1/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./lib1/金牌.js"
+		},
 
 {"key":"csp_汪了个汪影视",
 "name":"🔥汪影视🔥",
