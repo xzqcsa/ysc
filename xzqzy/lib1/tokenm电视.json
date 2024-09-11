@@ -37,7 +37,7 @@
 "yd_thread_limit":4,
 "yd_flags":"4kz|auto",
 "yd_danmu":true,
-"wgcf_xray_url":"./xray.gz;md5=61391714926a9636e7d75a81c7cd0a14",
+"wgcf_xray_url":"./xray.gz",
 "wgcf_geoip_url":"./geoip.dat.gz",
 "wgcf_json_url":"./wgcf.json",
 "wgcf_vless_id":"32c097ef-4303-4acc-9bc0-a368828f5e88",
@@ -57,9 +57,9 @@
 "pan_order":"ali|uc|quark|115|yd|thunder|pikpak",
 "libxl_url":"./libxl_thunder_sdk.so",
 "youtube_proxy":"proxy",
-"singbox_url":"./sing-box.gz;md5=a13f87deb17cbb5201eae4b671e1209d",
+"singbox_url":"./sing-box.gz",
 "singbox_subscribe_url":"",
-"singbox_clash2singbox_url":"./clash2singbox.gz;md5=d9fef11ddea98a435486b17537da550b",
+"singbox_clash2singbox_url":"./clash2singbox.gz",
 "singbox_template_url":"./singbox.json"
 
 }
