@@ -116,6 +116,18 @@
 "timeout":30,
 "changeable":0},
 {
+      "key": "微云",
+      "name": "🔥微云影视🔥",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+     
+      "filterable": 1,      
+      "jar": "./lib1/XBPQ.jar",
+      "ext": "./lib1/微云.json"
+    },
+	{
       "key": "海南",
       "name": "🔥海纳影视🔥",
       "type": 3,
