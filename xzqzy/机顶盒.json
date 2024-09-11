@@ -115,18 +115,7 @@
 "playerType":2,
 "timeout":30,
 "changeable":0},
-{
-      "key": "微云",
-      "name": "🔥微云影视🔥",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-     
-      "filterable": 1,      
-      "jar": "./lib1/XBPQ.jar",
-      "ext": "./lib1/微云.json"
-    },
+
 	{
       "key": "海南",
       "name": "🔥海纳影视🔥",
@@ -150,37 +139,7 @@
 			"order_num": 0,
 			"ext": "./lib1/guazi瓜.js"
 		},
-		 {
-            "key": "hipy_js_4K-AV",
-            "name": "🔥4Kv｜影视🔥",
-            "type": 3,
-            "api": "./drpy_libs/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "./drpy_js/4K-AV.js"
-        },
- {
-            "key": "hipy_js_南瓜",
-            "name": "🔥南瓜｜影视🔥",
-            "type": 3,
-            "api": "./drpy_libs/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "./drpy_js/南瓜.js"
-        },
-        {
-            "key": "py_jinpai",
-            "name": "🔥金牌｜影视🔥",
-            "type": 3,
-            "api": "./drpy_libs/金牌.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
+		
 
 {"key":"csp_汪了个汪影视",
 "name":"🔥汪影视🔥",
