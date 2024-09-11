@@ -124,7 +124,26 @@
 				"ratio": 1.1
 			}
 		},
-		
+		{
+            "key": "hipy_js_南瓜",
+            "name": "🔥南瓜｜影视🔥",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./drpy_js/南瓜.js"
+        },
+        {
+            "key": "py_jinpai",
+            "name": "🔥金牌｜影视🔥",
+            "type": 3,
+            "api": "./drpy_libs/金牌.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
         {
       "key": "海南",
       "name": "🔥海纳影视🔥",
