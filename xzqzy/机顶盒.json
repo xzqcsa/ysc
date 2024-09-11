@@ -150,17 +150,37 @@
 			"order_num": 0,
 			"ext": "./lib1/guazi瓜.js"
 		},
-{
-			"key": "金牌影视",
-			"name": "🔥金牌影视🔥",
-			"type": 3,
-			"api": "./lib1/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./lib1/金牌(1).js"
-		},
+		 {
+            "key": "hipy_js_4K-AV",
+            "name": "🔥4Kv｜影视🔥",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./drpy_js/4K-AV.js"
+        },
+ {
+            "key": "hipy_js_南瓜",
+            "name": "🔥南瓜｜影视🔥",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./drpy_js/南瓜.js"
+        },
+        {
+            "key": "py_jinpai",
+            "name": "🔥金牌｜影视🔥",
+            "type": 3,
+            "api": "./drpy_libs/金牌.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
 
 {"key":"csp_汪了个汪影视",
 "name":"🔥汪影视🔥",
