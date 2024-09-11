@@ -104,7 +104,7 @@
 				"ratio": 1.1
 			}
 		},
-		     "key": "hipy_js_4K-AV",
+		    {  "key": "hipy_js_4K-AV",
             "name": "🔥4Kv｜影视🔥",
             "type": 3,
             "api": "./drpy_libs/drpy2.min.js",
