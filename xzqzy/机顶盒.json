@@ -116,6 +116,26 @@
 "timeout":30,
 "changeable":0},
 {
+            "key": "139jys",
+            "name": "🔥139｜影视🔥",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./drpy_js/139影视.js"
+        },
+        {
+            "key": "348ys",
+            "name": "🔥348｜影视🔥",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./drpy_js/348电影网.js"
+        },
+{
             "key": "hipy_js_南瓜",
             "name": "🔥南瓜｜影视🔥",
             "type": 3,
