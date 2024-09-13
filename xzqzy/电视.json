@@ -125,6 +125,46 @@
 			}
 		},
 		{
+            "key": "139jys",
+            "name": "🔥139｜影视🔥",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./drpy_js/139影视.js"
+        },
+        {
+            "key": "348ys",
+            "name": "🔥348｜影视🔥",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./drpy_js/348电影网.js"
+        },
+		{
+            "key": "hipy_js_4K-AV",
+            "name": "🔥4Kv｜影视🔥",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./drpy_js/4K-AV.js"
+        },	
+		 {
+            "key": "克隆合集",
+            "name": "🔥克隆合集🔥",
+            "type": 4,
+            "api": "https://api.paoyun.eu.org/klhj.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+		{
             "key": "hipy_js_南瓜",
             "name": "🔥南瓜｜影视🔥",
             "type": 3,
