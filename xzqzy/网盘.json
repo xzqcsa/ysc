@@ -237,6 +237,17 @@
             "changeable": 0
 			
 		},
+		
+        {
+            "key": "克隆合集",
+            "name": "🔥克隆合集🔥",
+            "type": 4,
+            "api": "https://api.paoyun.eu.org/klhj.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+
 			{"key":"csp_瓜子",
 "name":"🔥瓜子🔥",
 "api":"csp_Gz360",
