@@ -135,6 +135,34 @@
             "quickSearch": 1,
             "filterable": 0
         },
+		{
+    "key": "爱上电影",
+    "name": "🔥爱上电影🔥",
+    "type": 3,
+	"jar": "./lib1/XBPQ.jar",
+    "api": "csp_XBPQ",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+        "主页url": "https://23dyw.cn",
+        "二次截取": "<div class=\"public-list-div public-list-bj\">&&</div>",
+        "数组": "<a&&</a>",
+        "标题": "alt=\"&&\"",
+        "副标题": "<span class=\"public-list-prb hide ft2\">&&</span>",
+        "嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+        "链接": "/vod/player.html?+detail.html?&&\"",
+        "线路数组": "<a&&</a>",
+        "线路标题": "&nbsp;&&</",
+        "播放组数": "<li class=\"box border  ecnav-dt ecnav-dt1\"&&</li>",
+        "播放链接": "href=\"&&\"",
+        "播放标题":">&&</span",
+        "直接播放":"0",
+        "分类url":"https://23dyw.cn/vod/list.html?cate_id={area}&page={catePg}&type_id={cateId}",
+        "分类":"电视剧$2#电影$1#动漫$4#综艺$3#短剧$39"
+     }
+  },
+
 	{
       "key": "海南",
       "name": "🔥海纳影视🔥",
