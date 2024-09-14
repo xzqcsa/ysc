@@ -238,6 +238,17 @@
       "api": "./lib1/drpy2.min.js",
       "ext": "./lib1/星芽.js"
     },
+	 {
+      "key": "君君",
+      "name": "🚗君君┃1080P",
+      "type": 3,
+      "changeable": 0,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://122.228.85.203:1000/api.php/app/"
+    },
 {
       "key": "hanju",
       "name": "🔥韩剧TV🔥",
