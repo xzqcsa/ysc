@@ -115,6 +115,62 @@
 "playerType":2,
 "timeout":30,
 "changeable":0},
+ {
+      "key": "焱焱",
+      "name": "🔥焱焱/超清🔥",
+      "playerType": 1,
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      
+      "ext": "http://110.40.61.7:81/api.php/app/"
+    },
+    {
+      "key": "zonghzan",
+      "name": "🔥影酷/超清🔥",
+      "playerType": 1,
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": " http://111.173.115.204:3333/api.php/app/"
+    },
+    {
+      "key": "影酷",
+      "name": "🔥原盘/超清🔥",
+      "playerType": 1,
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": " http://111.173.115.204:2211/api.php/app/"
+    },
+    {
+      "key": "guazi",
+      "name": "🔥瓜子/蓝光🔥",
+      "playerType": 1,
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": " http://111.173.115.204:5555/api.php/app/"
+    },
+    {
+      "key": "自营666",
+      "name": "🔥蓝光/影院🔥",
+      "playerType": 1,
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": " http://122.228.85.203:1000/api.php/app/"
+    },
 {
             "key": "139jys",
             "name": "🔥139｜影视🔥",
@@ -1299,7 +1355,30 @@
       "type": 3,
       "url": "Web"
     },
-	 
+	 {
+      "name": "超清4K",
+      "url": "http://43.136.176.188:91/api/?key=c76ee315ab8ff70423b3cde5197b850a&url=",
+      "type": "1",
+      "status": "normal",
+      "type_text": "Type 1",
+      "status_text": "正常"
+    },
+    {
+      "name": "4KHDR",
+      "url": "http://122.228.85.203:6789/api/?key=31b42c9fbe45f07021f3a67d6935d718&url=",
+      "type": "1",
+      "status": "normal",
+      "type_text": "Type 1",
+      "status_text": "正常"
+    },
+    {
+      "name": "超级HDR",
+      "url": "http://122.228.85.203:7979/api/?key=8cc4ec77067499207387ece70fbeef91&url=",
+      "type": "1",
+      "status": "normal",
+      "yoyolove.ydns.eu": "Type 1",
+      "status_text": "正常"
+    },
 	 
 	{
       "name": "何必",
