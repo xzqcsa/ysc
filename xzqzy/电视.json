@@ -1997,7 +1997,30 @@
       "type": 3,
       "url": "Web"
     },
-	
+	{
+      "name": "超清4K",
+      "url": "http://43.136.176.188:91/api/?key=c76ee315ab8ff70423b3cde5197b850a&url=",
+      "type": "1",
+      "status": "normal",
+      "type_text": "Type 1",
+      "status_text": "正常"
+    },
+    {
+      "name": "4KHDR",
+      "url": "http://122.228.85.203:6789/api/?key=31b42c9fbe45f07021f3a67d6935d718&url=",
+      "type": "1",
+      "status": "normal",
+      "type_text": "Type 1",
+      "status_text": "正常"
+    },
+    {
+      "name": "超级HDR",
+      "url": "http://122.228.85.203:7979/api/?key=8cc4ec77067499207387ece70fbeef91&url=",
+      "type": "1",
+      "status": "normal",
+      "yoyolove.ydns.eu": "Type 1",
+      "status_text": "正常"
+    },
 	   {
       "name": "4K解析",
       "type": 1,
