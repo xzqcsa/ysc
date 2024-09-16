@@ -15,11 +15,24 @@
       "ext": "./lib/Doubanrebo.js"
     },
 	{
-            "key": "追剧兔",
-            "name": "🔥追剧兔🔥",
+            "key": "hipy_js_南瓜",
+            "name": "🔥南瓜｜影视🔥",
             "type": 3,
-            "api": "csp_AppYsV2",
-            "ext": "https://www.zjtu.one/api.php/app/"
+            "api": "./drpy_libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./drpy_js/南瓜.js"
+        },
+		{
+            "key": "克隆合集",
+            "name": "🔥克隆合集🔥",
+            "type": 4,
+            "api": "https://api.paoyun.eu.org/klhj.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
         },
 		{
       "key": "爱你短剧",
@@ -34,16 +47,7 @@
       "ext": "./lib/爱你短剧.json"
     },
 	
-{
-            "key": "金牌影视",
-            "name": "🔥金牌影院🔥",
-            "type": 3,
-            "api": "csp_WebIV",
-            "jar": "./lib/yo.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
+
 		{ "key": "Ikanbot",
 	"name": "🔥爱看机器人🔥",
 	"type": 3, 
@@ -73,16 +77,7 @@
             "ext": {
                   "分类url":"https://www.myd02.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
                   "分类":"电影$1#电视剧$2#综艺$3#短剧$5#动漫$4"}},
-	{ 
-      "key": " 黑木耳", 
-      "name": "🔥黑木耳🔥", 
-      "type": 3, 
-	   "jar":"./lib/XBPQ.jar",
-      "api": "csp_XBPQ", 
-      "searchable": 1, 
-      "quickSearch": 1, 
-      "filterable": 1, 
-      "ext": "./lib/黑木耳资源.json"},
+	
 	{
             "key": "毒舌影视",
             "name": "🔥毒舌影视🔥",
@@ -111,6 +106,18 @@
                 "分类": "电影$1#连续剧$2#动漫$3#综艺$4#短剧$6"
             }
         },
+		{
+			"key": "瓜子影视",
+			"name": "🔥瓜子影视🔥",
+			"type": 3,
+			"api": "./lib1/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./lib1/guazi瓜.js"
+		},
+		
 	{
             "key": "皮皮影视",
             "name": "🔥皮皮影视🔥",
