@@ -179,6 +179,15 @@ CCTV4欧洲,http://101.200.122.188/tv/migu085.php?id=cctv4o
 湖北卫视,http://117.72.68.25:9930/migu.php?id=hubws
 江西卫视,http://117.72.68.25:9930/migu.php?id=jxws
 
+湖南卫视,http://121.24.98.129:8090/hls/56/index.m3u8
+浙江卫视,http://121.24.98.129:8090/hls/79/index.m3u8
+东方卫视,http://121.24.98.129:8090/hls/77/index.m3u8
+江苏卫视,http://121.24.98.129:8090/hls/38/index.m3u8
+北京卫视,http://121.24.98.129:8090/hls/32/index.m3u8
+安徽卫视,http://121.24.98.129:8090/hls/81/index.m3u8
+深圳卫视,http://121.24.98.129:8090/hls/84/index.m3u8
+东南卫视,http://121.24.98.129:8090/hls/36/index.m3u8
+
 海南卫视,http://117.72.68.25:9930/migu.php?id=hinws
 大湾区卫视,http://117.72.68.25:9930/migu.php?id=dwqws
 东方卫视,http://101.200.122.188/tv/migu085.php?id=dfws
