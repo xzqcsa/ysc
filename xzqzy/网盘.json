@@ -1445,10 +1445,10 @@
         }
       }
     },
-    {
+     {
       "name": "反弹",
       "type": 1,
-      "url": "http://www.mpanso.com/反弹/反弹.php?url=",
+      "url": "http://43.136.176.188:91/api/?key=a36b9dd9ea79547e2ed3c14ec901d9fe&url=",
       "ext": {
         "flag": [
           "qq",
