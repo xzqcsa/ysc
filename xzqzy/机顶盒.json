@@ -82,21 +82,7 @@
      "ratio": 1.1
       }
     },
-	{"key":"UCShare",
-	"name":"🔥UC云盘分享🔥",
-	"type":3,
-	"api":"csp_UCShare",
-	"searchable":1,
-	"quickSearch":0, 
-	"changeable":0, 
-	"filterable":0,
-	"timeout":60,
-	"ext":"./lib1/tokenm机顶盒.json$$$./lib1/uc.txt$$$db$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
+	
 		
   {"key":"TGYunPan12",
   "name":"🔍TG服务器🔍",
@@ -294,24 +280,7 @@
       "api": "./lib1/drpy2.min.js",
       "ext": "./lib1/韩剧TV.js"
     },
-{
-            "key": "黑木耳克隆",
-            "name": "🔥黑木耳克隆🔥",
-            "type": 4,
-            "api": "https://api.paoyun.eu.org/225.php",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-		 {
-            "key": "华为吧克隆",
-            "name": "🔥华为吧克隆🔥",
-            "type": 4,
-            "api": "https://api.paoyun.eu.org/hwb.php",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
+
 		 {
             "key": "直播转点播",
             "name": "🔥电视直播🔥",
@@ -361,32 +330,7 @@
 			"jar": "./lib/XBPQ.jar"
 		},
 		
-		  {
-            "key": "华为吧",
-            "name": "🔥华为吧🔥",
-            "type": 1,
-            "api": "http://127.0.0.1:10079/p/0/proxy/https://cjhwba.com/api.php/provide/vod/?ac=list",
-			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-			"categories": [
-               "国产剧",
-                 "动作片",
-				  "动画电影",
-				  "网络电影",
-				  "灾难片",
-				   "短剧",
-        "剧情片",
-        "喜剧片",
-        "恐怖片",
-        "科幻片",
-        "悬疑片",
-        "奇幻片",
-                "电视剧",
-                 
-                "国产动漫",
-               
-                "韩剧" 
-				]
-        },
+		
 		{
 "key":"木偶影视",
 "name":"🔥木偶|网盘🔥",
@@ -493,19 +437,7 @@
     },
 
 	 
-{
-            "key": "Wobg999",
-            "name": "🔥玩偶表哥🔥",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
- 
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 30,
-            "ext": "./lib1/tokenm机顶盒.json$$$http://wobgg.run-us-west2.goorm.io/$$$noproxy$$$1$$$./pg/lib/wogg.json$$$WOBG"
-        },
-    
+
 
        
         {
@@ -719,24 +651,7 @@
 		"分类url":"https://85128.net/category-{cateId}_{catePg}.html;;d",
 		"分类数组":"<a&&/a>[不包含:更多]","分类标题":">&&<","分类ID":"category-&&.html"}},
 
-		{
-    "key": "狸云",
-    "name": "🧲狸云🧲",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "jar": "./lib/XBPQ.jar",
-    "ext": {
-        "搜索url": "https://www.lysvc.cc/?cat=&s={wd}",
-        "数组":"class=\"post-item&&class=\"entry-title&&</article>",
-        "图片":"data-bg=\"&&\">",
-		"页面代理":"127.0.0.1:10072",
-       "播放链接": "<td><a href=\"&&\">[包含:magnet]",
-        "播放标题": ">&&</a>",
-        "线路标题": "weight: bold;\">&&</td>",
-        "分类": "蓝光-4k-电影$蓝光-4k-电影#精选剧集$精选剧集",
-        "分类url": "https://www.lysvc.cc/archives/category/%e5%bd%b1%e8%a7%86%e8%b5%84%e6%ba%90/{cateId}/page/{catePg}"
-    }
-},
+		
 
 			 {"key":"xunlei8",
 			 "name":"🧲xunlei8🧲",
@@ -907,21 +822,7 @@
    
     
     
-	{
-      "ext": "eyJhcGkiOiJodHRwOi8vMTE3LjcyLjQ1LjIwOjQ1NjciLCJ0b2tlbiI6IjMwNTMwNmNzYUEifQ==",
-      "filterable": 1,
-      "quickSearch": 1,
-      "name": "🔥丫仙女🔥",
-      "changeable": 0,
-      "jar": "./lib/小雅.jar",
-      "style": {
-        "type": "rect"
-      },
-      "api": "csp_XiaoYa",
-      "type": 3,
-      "key": "csp_XiaoYa",
-      "searchable": 1
-    },
+	
 
 	{
             "key": "AList16",
@@ -1075,21 +976,7 @@
 	"api":"csp_EightEight",
 	"timeout":30, 
 	"ext":"./lib1/tokenm机顶盒.json$$$https://662688.xyz"},
-	 {
-      "key": "csp_AiPanSou",
-      "name": "🔍爱盘搜┃搜索🔍",
-      "type": 3,
-      "api": "csp_AiPanSou",
-	  "jar": "./lib/okpng.txt;md5;e4c8798b38e4f49fb859df1f66db0f74",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": {
-        "cookie": "./lib1/quark_cookie.txt",
-        "danmu": true
-      },
-      "timeout": 15
-    },
+	 
 	
 	{"key":"Xpanpan",
 	"name":"🔍小盘盘|网盘🔍",
@@ -1120,16 +1007,7 @@
 		"quickSearch":1, "changeable":1,
 		"filterable":1, "timeout":30,
 		"ext":"./lib1/tokenm机顶盒.json$$$https://www.yunso.net$$$null$$$1"},
-		{"key":"Dovx",
-		"name": "🔍阿里|Dovx🔍",
-		"type": 3, 
-		"api": "csp_Dovx",
-		 
-		"searchable": 1, 
-		"quickSearch": 1, 
-		"filterable": 0,
-		"timeout":30, 
-		"ext":"./lib1/tokenm机顶盒.json" },
+		
 	  {"key":"Panta1",
 	  "name":"🔍移动|网盘🔍",
 	  "type":3,
@@ -1151,18 +1029,7 @@
 	   "api":"csp_YingSo",
 	   "timeout":60,
 	   "ext":"./lib1/tokenm机顶盒.json"},
-	  {
-            "key": "Qianfan",
-            "name": "🔍千帆|网盘🔍",
-            "type": 3,
-            "api": "csp_Qianfan",
-            "quickSearch": 1,
-		   
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 30,
-            "ext": "./lib1/tokenm机顶盒.json$$$https://pan.qianfan.app$$$null$$$QianFanID=6fvy5y5p1872wxmvtzetm8asnxouurur; _ga_6Z94VT54DV=GS1.1.1711335860.7.1.1711335880.0.0.0$$$1"
-        },
+	 
 		
 	 {
             "key": "找資源11",
@@ -1183,13 +1050,7 @@
 	  
 	  "timeout":30,
 	  "ext":"./lib1/tokenm机顶盒.json"},
-        {"key":"易搜",
-		"name":"🔍易搜|网盘🔍",
-		"type":3,
-		
-		"api":"csp_YiSo",
-		"timeout":60,
-		"ext":"./lib1/tokenm机顶盒.json$$$./lib1/yiso.txt"},
+        
       
         {
             "key": "QuarkPanso",
@@ -1213,12 +1074,7 @@
 	"api":"csp_YunPan",
 	"timeout":60,
 	"ext":"./lib1/tokenm机顶盒.json$$$null$$$代理位置$$$1"},
-	 {"key":"盘友圈",
-   "name":"🔍盘友圈🔍",
-   "type":3,
-   "api":"csp_Panyq",
-   "timeout":60, 
-   "ext":"./lib1/tokenm机顶盒.json$$$site$$$代理位置"},
+	
 		
 		
 		{"key":"PanSearch111",
@@ -1253,17 +1109,7 @@
 	
 	
 	
-	 {"key":"csp_YouKu",
-  "name":"🔍优酷🔍",
-  "type":3,
-  "api":"csp_YouKu",
-  "quickSearch": 1,
-  "changeable": 1,
-			 
- "filterable": 1,
- "timeout": 60,
-	"ext":"./lib1/tokenm机顶盒.json$$$null$$$1"
-  },
+	
     {"key":"PikaSo",
 	"name":"🔍皮卡搜🔍",
 	"type":3,
@@ -1303,18 +1149,7 @@
 				"playerType": 1,
 				"url": "https://tang.serv00.net/zb/tv?type=169&token=40af8e24"
 			},
-	{"name":"🔴全球直播",
-	"url":"http://oy.oyxx-1.eu.org/p3p.php",
-	"epg":"http://epg.112114.eu.org/?ch={name}&date={date}",
-	"logo":"http://epg.112114.eu.org/logo/{name}.png"},
-	{"name":"🔞全球直播",
-	"url":"https://dpaste.org/sd3Mr/raw",
-	"epg":"http://epg.112114.eu.org/?ch={name}&date={date}",
-	"logo":"http://epg.112114.eu.org/logo/{name}.png"},
-	{"name":"🔞全球直播2",
-	"url":"http://oy.oyxx-1.eu.org/hhbb.php",
-	"epg":"http://epg.112114.eu.org/?ch={name}&date={date}",
-	"logo":"http://epg.112114.eu.org/logo/{name}.png"},
+	
 			{
 				"name": "YTLive",
 				"type": 0,
