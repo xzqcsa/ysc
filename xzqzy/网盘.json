@@ -127,6 +127,28 @@
       "filterable": 1,
       "ext": " http://111.173.115.204:3333/api.php/app/"
     },
+	{
+            "key": "烧火影视",
+            "name": "🔥骚火｜影视🔥",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./drpy_js/烧火影视[优].js"
+        },
+        {
+            "key": "尘落影视",
+            "name": "🔥尘落｜影视🔥",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./drpy_js/尘落影视.js"
+        },
     {
       "key": "影酷",
       "name": "🔥原盘/超清🔥",
