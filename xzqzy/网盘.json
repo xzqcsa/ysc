@@ -2,8 +2,18 @@
   "spider":"./lib1/pg.jar","logo":"./lib/虎.JPG",
   "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
   "sites": [
+  {
+			"key": "豆瓣11",
+			"name": "🔥旺强影视🔥",
+			"type": 3,
+			"api": "csp_Douban",
+			"searchable": 0,
+			"changeable": 1,
+			"indexs":1,
+			"ext": "./lib1/tokenm盒子1.json$$$./lib1/douban.json"
+		},
 {"key":"lf_js_search",
-	"name":"🔥旺强影视🔥",
+	"name":"🔥豆瓣🔥",
 	"type":3,
 	"style":{"type":"rect","ratio":1.485},
 	"searchable":0,
