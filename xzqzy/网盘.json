@@ -36,6 +36,13 @@
             },
             "ext": "./lib1/tokenm盒子1.json"
         },
+		 {"key":"TGYunPan223",
+  "name":"🔍TG软路由🔍",
+  "type":3,
+  
+  "api":"csp_TGYunPan",
+  "timeout":60, 
+  "ext":"./lib1/tokenm盒子1.json$$$http://192.168.3.222:9999/$$$guaguale115,Mbox115,ysxb48,sbhdbdbbdbxbddb,hao115,alyp_Animation,XiangxiuNB,baicaoZY,SharePanBaidu,wenhua1428,ZYFX2022,wpzyhj$$$noproxy$$$1"},
 		 {"key":"TGYunPan12",
   "name":"🔍TG服务器🔍",
   "type":3,
