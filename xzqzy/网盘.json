@@ -36,7 +36,7 @@
             },
             "ext": "./lib1/tokenm盒子1.json"
         },
-		{"key":"TGYunPan2323","name":"TG搜索|网盘搜索","type":3,"api":"csp_TGYunPan","timeout":60, "ext":"./lib1/tokenm盒子1.json$$$http://107.172.201.182:10199/$$$alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000$$$noproxy$$$1"},
+		{"key":"TGYunPan2323","name":"TG搜索|网盘搜索","type":3,"api":"csp_TGYunPan","timeout":60, "ext":"./lib1/tokenm盒子1.json$$$http://107.172.201.182:10199/$$$alypzyhzq|1000,pikpakziyuan,avpush,avgc5200,cctav,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000$$$noproxy$$$1"},
 		 {"key":"TGYunPan223",
   "name":"🔍TG软路由🔍",
   "type":3,
