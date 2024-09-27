@@ -92,12 +92,12 @@
      "ratio": 1.1
       }
     },
-	
+	{"key":"TGYunPan2323","name":"TG搜索|网盘搜索","type":3,"api":"csp_TGYunPan","timeout":60, "ext":"./lib1/tokenm机顶盒.json$$$http://tgsearchip:10199/$$$alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000$$$noproxy$$$1"},
 		
   {"key":"TGYunPan12",
   "name":"🔍TG服务器🔍",
   "type":3,
-  
+  "jar": "./lib1/pg搜索.jar",
   "api":"csp_TGYunPan",
   "timeout":60, 
   "ext":"./lib1/tokenm机顶盒.json$$$http://107.172.201.182:9999/$$$guaguale115,hao115,ysxb48,Mbox115,sbhdbdbbdbxbddb,alyp_Animation,baicaoZY,XiangxiuNB,SharePanBaidu,wenhua1428,ZYFX2022,wpzyhj$$$noproxy$$$1"},
