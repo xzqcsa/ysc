@@ -62,10 +62,6 @@
 "singbox_url":"./sing-box.gz",
 "singbox_subscribe_url":"",
 "singbox_clash2singbox_url":"./clash2singbox.gz",
-"singbox_template_url":"./singbox.json",
-"tgsearch_url":"./tgsearch",
-"tgsearch_api_id":"",
-"tgsearch_api_hash":"",
-"tgsearch_api_session":"",
-"tgsearch_api_proxy":"proxy"
+"singbox_template_url":"./singbox.json"
+
 }
