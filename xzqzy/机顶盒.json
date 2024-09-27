@@ -42,7 +42,7 @@
             "name": "🔥Youtube全🔥",
             "type": 3,
             "api": "csp_Youtube",
-			 "jar": "./lib1/pg搜索.jar",
+			 
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
@@ -64,7 +64,7 @@
             "name": "🔥Youtube戏曲🔥",
             "type": 3,
             "api": "csp_Youtube",
-			 "jar": "./lib1/pg搜索.jar",
+			 
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,

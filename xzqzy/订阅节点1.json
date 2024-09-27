@@ -34,7 +34,7 @@
             "api": "csp_Youtube",
             "searchable": 1,
             "quickSearch": 0,
-			 "jar": "./lib1/pg搜索.jar",
+			 
             "changeable": 0,
 			"timeout": 120,
             "ext": {"json":"./lib/youtube.json",
@@ -54,7 +54,7 @@
             "name": "🔥Youtube戏曲🔥",
             "type": 3,
             "api": "csp_Youtube",
-			 "jar": "./lib1/pg搜索.jar",
+			 
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 0,
@@ -74,7 +74,7 @@
             "name": "🔥Youtube┃教育🔥",
             "type": 3,
             "api": "csp_Youtube",
-			 "jar": "./lib1/pg搜索.jar",
+			 
             "searchable": 1,
             "quickSearch": 0,
             "changeable": 1,
