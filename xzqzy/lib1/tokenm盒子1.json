@@ -63,9 +63,9 @@
 "singbox_subscribe_url":"",
 "singbox_clash2singbox_url":"./clash2singbox.gz",
 "singbox_template_url":"./singbox.json",
-"tgsearch_url":"http://107.172.201.182:80/tgsearch",
-"tgsearch_api_id":"",
-"tgsearch_api_hash":"",
-"tgsearch_api_session":"",
+"tgsearch_url":"./tgsearch",
+"tgsearch_api_id":"23428041",
+"tgsearch_api_hash":"9918781bb89f5b7f9923f902eec34f3f",
+"tgsearch_api_session":"1BVtsOLUBu2j9JqXmclDqqHQRt7eRkZhyljvZKJwgwLUFiGBlClxib0zUBspcSnAuiBFPcsdnN5i9ZVce1dcynuLBdpzGE8c06PUkhVsdCOTrOVWM9lvQAPquk5RSbPe80FrCZaZrZAWZ3dWQn_q31ivnFJBEK1xVAc76qc0SWeUXCYLiOZItwz7hdYvMrr7aehrHNgM-sntXX7vTz_H_NrEFqxYF3QGti4y1Owottkm1jT95bzU2kN4P-5UFwODdU9pN8S9_w4VoJpm3ZauPlo4pPE-I1zqS91rPup9qxED-QwzT5xK2gwRIW38F0X2H1b_cXLkY2WxWkkB67oggdMHU3moH8hI=",
 "tgsearch_api_proxy":"proxy"
 }
