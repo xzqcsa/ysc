@@ -29,7 +29,7 @@
         },
 {"key":"TGYunPan223","name":"🔍TG软路由🔍","type":3,"api":"csp_TGYunPan","timeout":60, "ext":"./lib1/tokenm机顶盒.json$$$http://192.168.3.222:524/$$$IPX_AV,pikpakziyuan,avpush,avgc5200,cctav,javdb91,zyfx_0315,ribenseyuge1,vn666hh,avab01,CosMM18,cilitu,SeseAnime$$$noproxy$$$1"},
 
-		{"key":"TGYunPan22","name":"🔍TG搜索|网盘搜索🔍","type":3,"api":"csp_TGYunPan","timeout":60, "ext":"./lib1/tokenm机顶盒.json$$$http://107.172.201.182:524/$$$IPX_AV,pikpakziyuan,avpush,avgc5200,cctav,javdb91,zyfx_0315,ribenseyuge1,vn666hh,avab01,CosMM18,cilitu,SeseAnime$$$noproxy$$$1"},
+		{"key":"TGYunPan22","name":"🔍TG搜索|网盘搜索🔍","type":3,"api":"csp_TGYunPan","timeout":60, "ext":"./lib1/tokenm机顶盒.json$$$http://107.172.201.182:10199/$$$IPX_AV,pikpakziyuan,avpush,avgc5200,cctav,javdb91,zyfx_0315,ribenseyuge1,vn666hh,avab01,CosMM18,cilitu,SeseAnime$$$noproxy$$$1"},
 
    
 	{
