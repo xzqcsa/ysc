@@ -1,5 +1,5 @@
 ﻿ { 
-  "spider":"./lib1/pg.jar","logo":"./lib/虎.JPG",
+  "spider":"./lib1/pg搜索.jar","logo":"./lib/虎.JPG",
   "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
   "sites": [
   {
@@ -100,7 +100,7 @@
  
   "api":"csp_TGYunPan",
   "timeout":60, 
-  "ext":"./lib1/tokenm机顶盒.json$$$http://107.172.201.182:9999/$$$guaguale115,Mbox115,ysxb48,sbhdbdbbdbxbddb,hao115,alyp_Animation,XiangxiuNB,baicaoZY,SharePanBaidu,wenhua1428,ZYFX2022,wpzyhj$$$noproxy$$$1"},
+  "ext":"./lib1/tokenm机顶盒.json$$$http://107.172.201.182:10199/$$$guaguale115,Mbox115,ysxb48,sbhdbdbbdbxbddb,hao115,alyp_Animation,XiangxiuNB,baicaoZY,SharePanBaidu,wenhua1428,ZYFX2022,wpzyhj$$$noproxy$$$1"},
 		
 
 {"key":"csp_瓜子",
