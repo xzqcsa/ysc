@@ -42,14 +42,14 @@
  
   "api":"csp_TGYunPan",
   "timeout":60, 
-  "ext":"./lib1/tokenm电视.json$$$http://192.168.3.222:524/$$$guaguale115|1000,Mbox115|1000,alypzyhzq|1000,ysxb48|1000,sbhdbdbbdbxbddb|1000,hao115|1000,alyp_Animation|1000,XiangxiuNB|1000,baicaoZY|1000,SharePanBaidu|1000,wenhua1428|1000,ZYFX2022|1000,wpzyhj|1000$$$noproxy$$$1"},
+  "ext":"./lib1/tokenm电视.json$$$http://192.168.3.222:524/$$$alypzyhzq|1000,guaguale115|1000,Mbox115|1000,ysxb48|1000,sbhdbdbbdbxbddb|1000,hao115|1000,alyp_Animation|1000,XiangxiuNB|1000,baicaoZY|1000,SharePanBaidu|1000,wenhua1428|1000,ZYFX2022|1000,wpzyhj|1000$$$noproxy$$$1"},
 		 {"key":"TGYunPan12",
   "name":"🔍TG服务器🔍",
   "type":3,
  
   "api":"csp_TGYunPan",
   "timeout":60, 
-  "ext":"./lib1/tokenm电视.json$$$http://107.172.201.182:524/$$$guaguale115|1000,Mbox115|1000,alypzyhzq|1000,ysxb48|1000,sbhdbdbbdbxbddb|1000,hao115|1000,alyp_Animation|1000,XiangxiuNB|1000,baicaoZY|1000,SharePanBaidu|1000,wenhua1428|1000,ZYFX2022|1000,wpzyhj|1000$$$noproxy$$$1"},
+  "ext":"./lib1/tokenm电视.json$$$http://107.172.201.182:524/$$$alypzyhzq|1000,guaguale115|1000,Mbox115|1000,ysxb48|1000,sbhdbdbbdbxbddb|1000,hao115|1000,alyp_Animation|1000,XiangxiuNB|1000,baicaoZY|1000,SharePanBaidu|1000,wenhua1428|1000,ZYFX2022|1000,wpzyhj|1000$$$noproxy$$$1"},
  
 		{
             "key": "Youtube全",
