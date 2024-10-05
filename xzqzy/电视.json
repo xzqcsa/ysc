@@ -36,7 +36,6 @@
             },
             "ext": "./lib1/tokenm电视.json"
         },
-				{"key":"TGYunPanLocal","name":"🔍TG本地🔍","type":3,"api":"csp_TGYunPanLocal","timeout":60, "ext":"./lib/tokenm电视.json$$$http://192.168.3.222:524/$$$oneonefivewpfx,hao115,guaguale115,Channel_Shares_115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,vip115hot,yunpanshare,shareAliyun,ikiviyyp,alyp_1,quanziyuanshe$$$noproxy$$$1"},
 
 		{"key":"TGYunPan12222",
   "name":"🔍TG软路由🔍",
@@ -51,7 +50,7 @@
  
   "api":"csp_TGYunPan",
   "timeout":60, 
-  "ext":"./lib1/tokenm电视.json$$$http://107.172.201.182:524/$$$alypzyhzq|1000,Mbox115|1000,XiangxiuNB|1000,SharePanBaidu|1000,wpzyhj|1000$$$noproxy$$$1"},
+  "ext":"./lib1/tokenm电视.json$$$http://107.172.201.182:524/$$$alypzyhzq|1000,guaguale115|1000,Mbox115|1000,hao115|1000,XiangxiuNB|1000,SharePanBaidu|1000,wpzyhj|1000$$$noproxy$$$1"},
  
 		{
             "key": "Youtube全",
