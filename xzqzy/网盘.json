@@ -36,7 +36,12 @@
             },
             "ext": "./lib1/tokenm盒子1.json"
         },
-		
+		{"key":"TGYunPanLocal2222",
+"name":"🔍TG内穿🔍",
+"type":3,
+"api":"csp_TGYunPanLocal",
+"timeout":60, 
+"ext":"./lib/tokenm盒子1.json$$$http://146.235.228.60:59285/$$$guaguale115|1000,hao115|1000,vip115hot|1000,SharePanBaidu|1000,ZYFX2022|1000,quck202|1000$$$noproxy$$$1"},
 		{"key":"TGYunPan122222",
   "name":"🔍TGj1900🔍",
   "type":3,
