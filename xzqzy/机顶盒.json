@@ -94,8 +94,15 @@
      "ratio": 1.1
       }
     },
+	{"key":"TGYunPan13432",
+  "name":"🔍TG1900图🔍",
+  "type":3,
+ 
+  "api":"csp_TGYunPan",
+  "timeout":60, 
+  "ext":"./lib1/tokenm机顶盒.json$$$http://146.235.228.60:24903/$$$alypzyhzq|1000,guaguale115|1000,vip115hot|1000,quck202|1000,Mbox115|1000,hao115|1000,XiangxiuNB|1000,SharePanBaidu|1000,wpzyhj|1000$$$noproxy$$$1"},
 	{"key":"TGYunPanLocal2222",
-"name":"🔍TGj1900🔍",
+"name":"🔍TG1900🔍",
 "type":3,
 "api":"csp_TGYunPanLocal",
 "timeout":60, 
