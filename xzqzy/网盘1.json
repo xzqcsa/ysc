@@ -30,7 +30,7 @@
 		{"key":"TGYunPan222","name":"🔥TG服务器🔥","type":3,"api":"csp_TGYunPan","timeout":120, 
 			"ext":{
 				"token":"./lib1/tokenm盒子1.json",
-				"json":"./lib1/tgsearch.json",
+				"json":"./lib1/tgsearch1.json",
 				"keywords":"名称,片名,推荐",
 				"tgsearch_url":"http://107.172.201.182:524",
 				"tgsearch_media_url":"",
@@ -42,7 +42,7 @@
 		{"key":"TGYunPan222","name":"🔥TG1900🔥","type":3,"api":"csp_TGYunPan","timeout":120, 
 			"ext":{
 				"token":"./lib1/tokenm盒子1.json",
-				"json":"./lib1/tgsearch.json",
+				"json":"./lib1/tgsearch1.json",
 				"keywords":"名称,片名,推荐",
 				"tgsearch_url":"http://xzqcsa.iepose",
 				"tgsearch_media_url":"http://xzqcsa.iepose.cn",
