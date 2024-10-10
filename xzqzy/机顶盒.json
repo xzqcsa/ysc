@@ -95,18 +95,7 @@
       }
     },
 	
-	{"key":"TGYunPan222","name":"🔥TG服务器🔥","type":3,"api":"csp_TGYunPan","timeout":120, 
-			"ext":{
-				"token":"./lib1/tokenm机顶盒.json",
-				"json":"./lib1/tgsearch.json",
-				"tgsearch_url":"http://107.172.201.182:524",
-				"tgsearch_media_url":"",
-				"keywords":"名称,片名,推荐",
-				"channellist":"alypzyhzq|1000,guaguale115|1000,vip115hot|1000,quck202|1000,Mbox115|1000,hao115|1000,XiangxiuNB|1000,SharePanBaidu|1000,wpzyhj|1000",
-				"proxy":"noproxy",
-				"danmu":true
-			}
-		},
+	
 		{"key":"TGYunPan22","name":"🔥TG1900🔥","type":3,"api":"csp_TGYunPan","timeout":120, 
 			"ext":{
 				"token":"./lib1/tokenm机顶盒.json",
