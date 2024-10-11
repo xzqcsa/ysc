@@ -11,24 +11,24 @@
 			"type_name":"片名"
 		},
 		{
-			"type_id":"115.com",
-			"type_name":"115"
+			"type_id":"番号",
+			"type_name":"番号"
 		},
 		{
-			"type_id":"ali",
-			"type_name":"阿里"
+			"type_id":"uncensor",
+			"type_name":"无码"
 		},
 		{
-			"type_id":"quark",
-			"type_name":"夸克"
+			"type_id":"magnet",
+			"type_name":"magnet"
 		},
 		{
 			"type_id":"uc.cn",
 			"type_name":"UC"
 		},
 		{
-			"type_id":"pikpak",
-			"type_name":"PikPak"
+			"type_id":"JUL",
+			"type_name":"JUL"
 		},
 		{
 			"type_id":"xunlei",
