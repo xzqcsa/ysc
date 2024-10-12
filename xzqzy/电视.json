@@ -36,22 +36,7 @@
             },
             "ext": "./lib1/tokenm电视.json"
         },
-{"key":"TGYunPan222233","name":"🔥TG海王🔥","type":3,"api":"csp_TGYunPan","timeout":120, 
-			"ext":{
-				"token":"./lib1/tokenm电视.json",
-				"json":"./lib1/tgsearch.json",
-				"keywords":"名称,片名,推荐",
-				"tgsearch_url":"http://tg.ai-ge.top",
-				"tgsearch_media_url":"http://tg.ai-ge.top",
-				"channellist":"alypzyhzq|1000,guaguale115|1000,vip115hot|1000,quck202|1000,Mbox115|1000,hao115|1000,XiangxiuNB|1000,SharePanBaidu|1000,wpzyhj|1000",
-				"proxy":"noproxy",
-				"danmu":true
-			},
-			"style": {
-				"type": "rect",
-				"ratio": 1.77
-			}
-		},
+
 		
 		{"key":"TGYunPan22","name":"🔥TG1900🔥","type":3,"api":"csp_TGYunPan","timeout":120, 
 			"ext":{
@@ -59,7 +44,7 @@
 				"json":"./lib1/tgsearch.json",
 				"keywords":"名称,片名,推荐",
 				"tgsearch_url":"http://xzqcsa.iepose.cn",
-				"tgsearch_media_url":"http://tg.ai-ge.top",
+				"tgsearch_media_url":"http://xzqcsa.iepose.cn",
 				"channellist":"alypzyhzq|1000,guaguale115|1000,vip115hot|1000,quck202|1000,Mbox115|1000,hao115|1000,XiangxiuNB|1000,SharePanBaidu|1000,wpzyhj|1000",
 				"proxy":"noproxy",
 				"danmu":true
