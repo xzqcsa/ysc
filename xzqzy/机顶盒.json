@@ -104,6 +104,10 @@
 				"channellist":"alypzyhzq|1000,guaguale115|1000,vip115hot|1000,quck202|1000,Mbox115|1000,hao115|1000,XiangxiuNB|1000,SharePanBaidu|1000,wpzyhj|1000",
 				"proxy":"noproxy",
 				"danmu":true
+				},
+			"style": {
+				"type": "rect",
+				"ratio": 1.77
 			}
 		},
 	
@@ -117,6 +121,10 @@
 				"channellist":"alypzyhzq|1000,guaguale115|1000,vip115hot|1000,quck202|1000,Mbox115|1000,hao115|1000,XiangxiuNB|1000,SharePanBaidu|1000,wpzyhj|1000",
 				"proxy":"noproxy",
 				"danmu":true
+				},
+			"style": {
+				"type": "rect",
+				"ratio": 1.77
 			}
 		},
 	
