@@ -9,9 +9,13 @@
 			"type_id":"名称",
 			"type_name":"名称"
 		},
+		 {
+            "type_id": "LIST:,视频|视频,video|video,mp4|mp4",
+            "type_name": "视频1"
+        },
 		{
 			"type_id":"CHANNEL:liwu12138,kanmovie520,cctv_movies,WanMeiShiJIeDM,iDrama1,jiahedianying,dianyingku$$$LIST:,视频",
-			"type_name":"视频,video,mp4"
+			"type_name":"视频"
 		},
 		{
 			"type_id":"115.com",
