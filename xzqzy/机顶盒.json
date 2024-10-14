@@ -113,7 +113,17 @@
 			}
 		},
 	
-		
+		{
+"key":"讴歌影视",
+"name":"🔥讴歌|网盘🔥",
+"type":3,
+"api":"csp_Wobg",
+"quickSearch":1,
+"changeable":1,
+"filterable":1,
+"timeout":60,
+"ext":"./lib1/tokenm机顶盒.json$$$https://woog.nxog.top$$$noproxy$$$1$$$./lib/wogg.json"
+},
 
 {"key":"csp_瓜子",
 "name":"🔥瓜子🔥",
