@@ -91,29 +91,19 @@
             }
         },
 		
-	{"key":"UCShare",
-	"name":"🔥UC云盘分享🔥",
-	"type":3,
-	"api":"csp_UCShare",
-	"searchable":1,
-	"quickSearch":0, 
-	"changeable":0, 
-	"filterable":0,
-	"timeout":60,
-	"ext":"./lib1/tokenm订阅节点.json$$$./lib1/uc.txt$$$db$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
+	{
+"key":"讴歌影视",
+"name":"🔥讴歌|网盘🔥",
+"type":3,
+"api":"csp_Wobg",
+"quickSearch":1,
+"changeable":1,
+"filterable":1,
+"timeout":60,
+"ext":"./lib1/tokenm订阅节点.json$$$https://woog.nxog.top$$$noproxy$$$1$$$./lib/wogg.json"
+},
 	 
-  {"key":"TGYunPan12",
-  "name":"🔍TG服务器🔍",
-  "type":3,
-  
-  "api":"csp_TGYunPan",
-  "timeout":60, 
-  "ext":"./lib1/tokenm订阅节点.json$$$http://107.172.201.182:9999/$$$guaguale115,sbhdbdbbdbxbddb,Mbox115,hao115,alyp_Animation,XiangxiuNB,baicaoZY,SharePanBaidu,wenhua1428,ZYFX2022,wpzyhj$$$noproxy$$$1"},	
+ 
 {"key":"csp_瓜子",
 "name":"🔥瓜子🔥",
 "api":"csp_Gz360",

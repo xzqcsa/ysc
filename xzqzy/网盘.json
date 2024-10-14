@@ -118,21 +118,17 @@
      "ratio": 1.1
       }
     },
-	{"key":"UCShare",
-	"name":"🔥UC云盘分享🔥",
-	"type":3,
-	"api":"csp_UCShare",
-	"searchable":1,
-	"quickSearch":0, 
-	"changeable":0, 
-	"filterable":0,
-	"timeout":60,
-	"ext":"./lib1/tokenm盒子1.json$$$./lib1/uc.txt$$$db$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		},
+	{
+"key":"讴歌影视",
+"name":"🔥讴歌|网盘🔥",
+"type":3,
+"api":"csp_Wobg",
+"quickSearch":1,
+"changeable":1,
+"filterable":1,
+"timeout":60,
+"ext":"./lib1/tokenm盒子1.json$$$https://woog.nxog.top$$$noproxy$$$1$$$./lib/wogg.json"
+},
 		{
       "key": "焱焱",
       "name": "🔥焱焱/超清🔥",
