@@ -124,7 +124,21 @@
 "timeout":60,
 "ext":"./lib1/tokenm机顶盒.json$$$https://woog.nxog.top$$$noproxy$$$1$$$./lib/wogg.json"
 },
-
+{
+    "key": "kimivod",
+    "name": "🔥kimivod🔥",
+    "type": 3,
+	"jar": "./lib1/XBPQ.jar",
+    "api": "csp_XBPQ",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+        
+        "分类url":"https://kimivod.com/vod/show/id/{cateId}/year/{year}.html",
+        "分类":"电视剧$1#电影$2#动漫$3#综艺$4#短剧$39"
+     }
+  },
 {"key":"csp_瓜子",
 "name":"🔥瓜子🔥",
 "api":"csp_Gz360",
