@@ -62,6 +62,7 @@
 "singbox_url":"./sing-box.gz",
 "singbox_subscribe_url":"",
 "singbox_clash2singbox_url":"./clash2singbox.gz",
-"singbox_template_url":"./singbox.json"
+"singbox_template_url":"./singbox.json",
+"allinone_url":"./allinone.gz"
 
 }
