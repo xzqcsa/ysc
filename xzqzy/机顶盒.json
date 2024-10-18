@@ -1157,24 +1157,31 @@
 		}],
 "lives":[
 {
-				"name": "feiyang.tptv",
-				"type": 0,
-				"url": "http://127.0.0.1:35455/tptv.m3u",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-{
-				"name": "feiyang.allinone",
+				"name": "肥羊国内直播",
 				"type": 0,
 				"url": "http://127.0.0.1:35455/tv.m3u",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
-			
 			{
-				"name": "feiyang.bililive",
+				"name": "肥羊TPTV",
+				"type": 0,
+				"url": "http://127.0.0.1:35455/tptv.m3u",
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
+				"name": "肥羊广东联通",
+				"type": 0,
+				"url": "http://127.0.0.1:35455/gdcucc.m3u",
+				"ua": "okhttp/3.15",
+				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
+				"name": "肥羊B站直播",
 				"type": 0,
 				"url": "http://127.0.0.1:35455/bililive.m3u",
 				"ua": "okhttp/3.15",
@@ -1182,7 +1189,7 @@
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
 			{
-				"name": "feiyang.huyayqk",
+				"name": "肥羊虎牙直播",
 				"type": 0,
 				"url": "http://127.0.0.1:35455/huyayqk.m3u",
 				"ua": "okhttp/3.15",
@@ -1190,7 +1197,7 @@
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
 			{
-				"name": "feiyang.douyuyqk",
+				"name": "肥羊斗鱼一起看",
 				"type": 0,
 				"url": "http://127.0.0.1:35455/douyuyqk.m3u",
 				"ua": "okhttp/3.15",
@@ -1198,7 +1205,7 @@
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
 			{
-				"name": "feiyang.yylunbo",
+				"name": "肥羊YY轮播",
 				"type": 0,
 				"url": "http://127.0.0.1:35455/yylunbo.m3u",
 				"ua": "okhttp/3.15",
