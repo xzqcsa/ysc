@@ -25,7 +25,7 @@
 "thunder_vip_thread_limit":2,
 "thunder_flags":"4k|4kz|auto",
 "aliproxy":"",
-"aliproxy_url":"./aliproxy.gz",
+"aliproxy_url":"./aliproxy.tar.xz",
 "proxy":"",
 "danmu":true,
 "quark_danmu":true,
@@ -59,10 +59,10 @@
 "pan_order":"ali|uc|quark|115|yd|thunder|pikpak",
 "libxl_url":"./libxl_thunder_sdk.so",
 "youtube_proxy":"proxy",
-"singbox_url":"./sing-box.gz",
+"singbox_url":"./sing-box.tar.xz",
 "singbox_subscribe_url":"",
-"singbox_clash2singbox_url":"./clash2singbox.gz",
+"singbox_clash2singbox_url":"./clash2singbox.tar.xz",
 "singbox_template_url":"./singbox.json",
-"allinone_url":"./allinone.gz"
+"allinone_url":"./allinone.tar.xz"
 
 }
