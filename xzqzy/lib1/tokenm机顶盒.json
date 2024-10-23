@@ -48,7 +48,7 @@
 "wgcf_vless_protocol":"vless",
 "wgcf_vless_network":"ws",
 "wgcf_vless_tls":false,
-"pan115_cookie":"CID=52c04ae082277b343e59ced91017b298; SEID=ba7ab07c30878a82211d819be7a95b2b9547e390a2e601b11fecb9af56787d3ee7074c857847bd96b6298b4ebe236d436681fb2407ca9c5abc1e9a7b; UID=26199242_I1_1729125689",
+"pan115_cookie":"UID=26199242_A1_1729660381; CID=c17696c313a862906de961ba41ba9a77; SEID=d0507a7784b1232b39b154060de7adfaa7a824673f99f4b94d49448a1b83af807aecb01949c0b11d2d27a77875853b9bf3845434936c85f56f9d3dc1",
 "pan115_thread_limit":0,
 "pan115_vip_thread_limit":0,
 "pan115_is_vip":false,
