@@ -2,15 +2,22 @@
   "spider":"./lib1/pg.jar","logo":"./lib/虎.JPG",
   "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
   "sites": [
-  {
-			"key": "豆瓣11",
-			"name": "🔥旺强影视🔥",
-			"type": 3,
-			"api": "csp_Douban",
-			"searchable": 0,
-			"changeable": 1,
-			"indexs":1,
-			"ext": "./lib1/tokenm盒子1.json$$$./lib1/douban.json"
+ {"key":"TGDouban","name":"🔥旺强影视🔥","type":3,"api":"csp_TGDouban","timeout":120, 
+			"ext":{
+				"token":"./lib1/tokenm盒子1.json",
+				"json":"./lib1/tgsearch.json",
+				"keywords":"名称,片名,推荐",
+				"tgsearch_url":"http://xzqcsa.iepose.cn",
+				"tgsearch_media_url":"http://xzqcsa.iepose.cn",
+				"channellist":"wandang1|1000,yydf_hzl|1000,guaguale115|1000,SharePanBaidu|1000,wpzyhj|1000",
+				"proxy":"noproxy",
+				"douban":"./lib1/douban.json",
+				"danmu":true
+			},
+			"style": {
+				"type": "rect",
+				"ratio": 1.77
+			}
 		},
 {"key":"lf_js_search",
 	"name":"🔥豆瓣🔥",
@@ -44,7 +51,7 @@
 				"keywords":"名称,片名,推荐",
 				"tgsearch_url":"http://xzqcsa.iepose.cn",
 				"tgsearch_media_url":"http://xzqcsa.iepose.cn",
-				"channellist":"wandang1|1000,guaguale115|1000,yydf_hzl|1000,tgsearchers|1000,wpzyhj|1000",
+				"channellist":"wandang1|1000,guaguale115|1000,yydf_hzl|1000,SharePanBaidu|1000,wpzyhj|1000",
 				"proxy":"noproxy",
 				"danmu":true
 				},
