@@ -31,14 +31,14 @@
 	"filterable":1,
 	"api":"./lib/uukw.js"},
 	{
-      "key": "csp_yydflive-2",
-      "name": "🔥肥羊直播🔥",
+      "key": "lf_live10_min",
+      "name": " 🔥肥羊直播🔥",
       "type": 3,
-      "playerType": 1,
-      "jar": "./lib1/zb.jar;md5;bf1b124a45435a1be4f54d148280a749",
-      "api": "csp_zb",
       "searchable": 0,
-      "changeable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "api": "./lib1/lf_live10_min-output.js",
       "ext": "./lib1/肥羊.json"
     },
 	{
