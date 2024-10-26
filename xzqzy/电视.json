@@ -43,7 +43,17 @@
             },
             "ext": "./lib1/tokenm电视.json"
         },
-
+{
+      "key": "lf_live10_min",
+      "name": " 🔥肥羊直播🔥",
+      "type": 3,
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "api": "./lib1/lf_live10_min-output.js",
+      "ext": "./lib1/肥羊.json"
+    },
 		
 		{"key":"TGYunPan22","name":"🔥TG1900🔥","type":3,"api":"csp_TGYunPan","timeout":120, 
 			"ext":{
