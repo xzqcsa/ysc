@@ -43,7 +43,7 @@
             },
             "ext": "./lib1/tokenm电视.json"
         },
-		{"key":"AlistShare","name":"🔥Alist分享🔥","type":3,"api":"csp_AlistShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib1/tokenm电视.json$$$null$$$proxy$$$1",
+		{"key":"AlistShare","name":"🔥Alist分享🔥","type":3,"api":"csp_AlistShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib1/tokenm电视.json$$$https://slink.ltd/https://raw.githubusercontent.com/xiaoyaliu00/data/main/update.zip$$$noproxy$$$1",
 			"style": {
 				"type": "list",
 				"ratio": 1.1
