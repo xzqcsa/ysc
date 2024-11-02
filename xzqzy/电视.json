@@ -43,6 +43,12 @@
             },
             "ext": "./lib1/tokenm电视.json"
         },
+		{"key":"AlistShare","name":"🔥Alist分享🔥","type":3,"api":"csp_AlistShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib1/tokenm电视.json$$$null$$$proxy$$$1",
+			"style": {
+				"type": "list",
+				"ratio": 1.1
+			}
+		},
 {
       "key": "lf_live10_min",
       "name": " 🔥肥羊直播🔥",
