@@ -60,7 +60,23 @@
       "api": "./lib1/lf_live10_min-output.js",
       "ext": "./lib1/肥羊.json"
     },
-		
+		{
+            "key": "py_emby苹果",
+            "name": "🔥Emby┃苹果🔥",
+            "type": 3,
+            "api": "./lib1/emby_proxy.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "server": "http://hka-emby.aliz.work:8096/",
+                "username": "xzqcsaa",
+                "password": "305306csa",
+                "thread": 0,
+                "proxy": ""
+            },
+            "changeable": 1
+        },
 		{"key":"TGYunPan22","name":"🔥TG1900🔥","type":3,"api":"csp_TGYunPan","timeout":120, 
 			"ext":{
 				"token":"./lib1/tokenm电视.json",
