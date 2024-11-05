@@ -97,7 +97,23 @@
             "changeable": 1
         },
 
-		 
+		 {
+            "key": "py_emby苹果1",
+            "name": "🔥Emby┃苹果1🔥",
+            "type": 3,
+            "api": "./lib1/emby_proxy.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "server": "http://hka-emby.aliz.work:8096/",
+                "username": "xzqcsaa",
+                "password": "305306csa",
+                "thread": 0,
+                "proxy": ""
+            },
+            "changeable": 1
+        },
 		
 		{
             "key": "Youtube全",
