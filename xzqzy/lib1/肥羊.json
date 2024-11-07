@@ -6,6 +6,12 @@
 以/开头，存储卡的根目录
 #肥羊国内直播
 http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/tv.m3u
+#Gather.电视直播
+http://127.0.0.1:10079/c/3600/null/https://tv.iill.top/m3u/Gather
+#Gather.网络直播
+http://127.0.0.1:10079/c/3600/null/https://tv.iill.top/m3u/Live
+#Gather.MyTV
+http://127.0.0.1:10079/c/3600/null/https://tv.iill.top/m3u/MyTV
 #肥羊TPTV
 http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/tptv.m3u
 #肥羊B站直播
