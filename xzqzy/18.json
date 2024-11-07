@@ -63,7 +63,7 @@
             "name": "13AV",
             "type": 3,
             "api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./lib1/XBPQ.jar",
             "style": {
                 "type": "rect",
                 "ratio": 1.5
@@ -87,7 +87,7 @@
       "quickSearch": 1,
      
       "filterable": 1,      
-      "jar": "./lib/XBPQ.jar",
+      "jar": "./lib1/XBPQ.jar",
       "ext": "./lib1/Yo视频.json"
     },
 		{
@@ -95,7 +95,7 @@
             "name": "🔞微密猫",
             "type": 3,
             "api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./lib1/XBPQ.jar",
             "ext": {
                 "主页url": "https://maobao.vip/","页面代理": "127.0.0.1:10072",
                 "首页": "无圣光视频$wushebgguang/无圣光视频",
@@ -125,7 +125,7 @@
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"./lib1/XBPQ.jar",
             "filterable": 1,
             "ext": {
                 "数组": "img-box cover-md\"&&<p class=\"sub-title\">",
@@ -142,7 +142,7 @@
             "name": "Bi8TV",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
                 "style": {
                 "type": "rect",
                 "ratio": 1.485
@@ -163,7 +163,7 @@
             "name": "💗┃💋JableTV┃💠",
             "type": 3,
             "api": "csp_XBPQ",
-           "jar": "./lib/XBPQ.jar",
+           "jar": "./lib1/XBPQ.jar",
             "style": {
                 "type": "rect",
                 "ratio": 1.5
@@ -185,7 +185,7 @@
             "name": "🔞SOAV",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
             "style": {
                 "type": "rect",
                 "ratio": 1.5
@@ -223,7 +223,7 @@
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"./lib1/XBPQ.jar",
             "filterable": 1,
             "ext": {
                 "数组": "<a&&</a>","页面代理": "127.0.0.1:10072",
@@ -237,7 +237,7 @@
 {"key":"A片风云",
 "name":"A片风云",
 "type":3,
-"jar": "./lib/XBPQ.jar",
+"jar": "./lib1/XBPQ.jar",
 "api":"csp_XBPQ",
 "searchable":1,
 "quickSearch":1,
@@ -260,7 +260,7 @@
 {"key":"PWXXX视频",
 "name":"PWXXX视频",
 "type":3,
-"jar": "./lib/XBPQ.jar",
+"jar": "./lib1/XBPQ.jar",
 "api":"csp_XBPQ","searchable":1,
 "quickSearch":1,"filterable":1,
 "ext":{"发布地址":"https://pwxxx.com/",
@@ -278,7 +278,7 @@
 {"key":"天堂岛",
 "name":"天堂岛",
 "type":3,"api":"csp_XBPQ",
-"jar": "./lib/XBPQ.jar",
+"jar": "./lib1/XBPQ.jar",
 "searchable":1,"quickSearch":1,
 "filterable":1,
 "ext":{"主页url":"https://www.ttdao666.buzz",
@@ -308,7 +308,7 @@
 		{
             "key": "RJAV1",
             "name": "RJAV1",
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./lib1/XBPQ.jar",
             "type": 3,
             "api": "csp_XBPQ",
             "ext": {
@@ -325,7 +325,7 @@
 		{"key":"网红黑料",
 		"name":"🍁网红黑料",
 		"type":3,
-		"jar": "./lib/XBPQ.jar",
+		"jar": "./lib1/XBPQ.jar",
 		"api":"csp_XBPQ",
 		"searchable":1,
 		"quickSearch":1,
@@ -347,7 +347,7 @@
             "name": "┃AV01┃",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
             "playerType": 2,
             "style": {
                 "type": "rect",
@@ -371,7 +371,7 @@
             "name": "avge",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
             "style": {
                 "type": "rect",
                 "ratio": 1.5
@@ -391,7 +391,7 @@
 		{"key":"高清SEX国产",
 		"name":"高清SEX国产",
 		"type":3,
-		"jar": "./lib/XBPQ.jar",
+		"jar": "./lib1/XBPQ.jar",
 		"api":"csp_XBPQ",
 		"searchable":1,
 		"quickSearch":1,
@@ -409,7 +409,7 @@
             "key": "csp_XBPQ_JAV目錄大全",
             "name": "JAV｜大全",
             "type": 3,
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
@@ -450,7 +450,7 @@
 "name": "Jav目录大全(磁力)",
 "type": 3,
 
-      "jar": "./lib/XBPQ.jar",
+      "jar": "./lib1/XBPQ.jar",
 "api": "csp_XBPQ",
 
 "style": {"type": "rect","ratio": 0.75},
@@ -478,7 +478,7 @@
             "name": "JAVSB1",
             "type": 3,
             "api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./lib1/XBPQ.jar",
             "ext": {
                 "主页url": "https://jav.sb/",
                 "直接播放": "1",
@@ -496,7 +496,7 @@
       "name": "肉視頻|XBPQ",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./lib/XBPQ.jar",
+      "jar": "./lib1/XBPQ.jar",
       "ext": {
         "分类url":"https://rouvx2.xyz/t/{cateId}?order=createdAt&page={catePg}",
         "直接播放":"1","页面代理": "127.0.0.1:10072",
@@ -508,7 +508,7 @@
             "name": "🔞soporn(T)",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
             "ext": {
                 "直接播放": "1",
                 "嗅探词": "index.m3u8",
@@ -547,7 +547,7 @@
             "key": "18j.tv",
             "name": "18j.tv",
             "type": 3,
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./lib1/XBPQ.jar",
             "api": "csp_XBPQ",
             "ext": {
                 "主页url": "https://18j.tv/",
@@ -564,7 +564,7 @@
             "key": "爱豆传媒1",
             "name": "爱豆传媒1",
             "type": 3,
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./lib1/XBPQ.jar",
             "api": "csp_XBPQ",
             "ext": {
                 "主页url": "https://rourou.co/",
@@ -585,7 +585,7 @@
 "type":3,
 "api":"csp_XBPQ",
 "searchable":1,
- "jar": "./lib/XBPQ.jar",
+ "jar": "./lib1/XBPQ.jar",
 "quickSearch":1,
 "filterable":1,
 "ext":{"数组":"stui-vodlist__thumb lazyload&&</a",
@@ -600,7 +600,7 @@
             "name": "暑假快练",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
             "ext": {
             "主页url":"http://aakhsck.cc","页面代理": "127.0.0.1:10072","分类":"日韩AV$http://aakhsck.cc/vodtype/1.html#国产系列$http://aakhsck.cc/vodtype/2.html欧美$http://aakhsck.cc/vodtype/3.html#成人动漫$http://aakhsck.cc/vodtype/4.html#",
                 "分类url": "http://aakhsck.cc/type/1/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
@@ -624,7 +624,7 @@
             "key": "csp_XBPQ_JAV目錄大全",
             "name": "🔞JAV｜大全",
             "type": 3,
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
@@ -668,7 +668,7 @@
       "quickSearch": 1,
      
       "filterable": 1,      
-      "jar": "./lib/XBPQ.jar",
+      "jar": "./lib1/XBPQ.jar",
       "ext": "./lib/+3.json"
     },
 	{
@@ -676,7 +676,7 @@
       "name": "┃新91┃",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./lib/XBPQ.jar",
+      "jar": "./lib1/XBPQ.jar",
       "style": {
         "type": "rect",
         "ratio": 1.5
@@ -833,7 +833,7 @@
       "quickSearch": 1,
      
       "filterable": 1,      
-      "jar": "./lib/XBPQ.jar",
+      "jar": "./lib1/XBPQ.jar",
       "ext": "./lib/+1.json"
     },
 	{
@@ -845,7 +845,7 @@
       "quickSearch": 1,
      
       "filterable": 1,      
-      "jar": "./lib/XBPQ.jar",
+      "jar": "./lib1/XBPQ.jar",
       "ext": "./lib/+2.json"
     },
 		{
@@ -853,7 +853,7 @@
             "name": "千百撸|学日语",
             "type": 3,
             "api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./lib1/XBPQ.jar",
             "ext": {
                 "站名": "222av.me",
                 "主页url": "http://041920.222av.me",
@@ -869,7 +869,7 @@
 		{"key":"花影视",
 		"name":"花影视",
 		"type":3,
-		"jar": "./lib/XBPQ.jar",
+		"jar": "./lib1/XBPQ.jar",
 		"api":"csp_XBPQ",
 		"ext":{"数组": "col-6 col-sm-4 col-lg-3\">&&</div></div>",
 		"图片": "data-original=\"&&\"","页面代理":"127.0.0.1:10072",
@@ -884,7 +884,7 @@
             "name": "热门女优",
             "type": 3,
             "api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./lib1/XBPQ.jar",
             "playerType": 0,
             "searchable": 1,
             "quickSearch": 1,
@@ -909,7 +909,7 @@
 	{"key": "mv",
             "name": "最新课程",
             "type": 3,
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
             "api": "csp_XBPQ",
            
             "ext": {
@@ -931,7 +931,7 @@
             "type": 3,
             "playerType": 2,
             "api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./lib1/XBPQ.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -951,7 +951,7 @@
             "name": "四虎影院",
             "type": 3,
             "api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./lib1/XBPQ.jar",
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
@@ -989,7 +989,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
             "ext": "./lib/小幺妹.json"
         },
 	{
@@ -998,7 +998,7 @@
             "type": 3,
             "playerType": 2,
             "api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./lib1/XBPQ.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -1023,20 +1023,20 @@
             "name":"🔥比卡🔥",
             "type":3,
             "api":"csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
             "ext":"./lib/比卡比卡.json" },
 	{
             "key": "爱情s",
             "name": "🔥爱情网🔥",
             "type": 3,
-			 "jar": "./lib/XBPQ.jar",
+			 "jar": "./lib1/XBPQ.jar",
             "api": "csp_XBPQ",
             "ext": {"请求头":"手机","编码":"gb2312","页面代理":"127.0.0.1:10072",
                 "分类url": "https://b.aqdyim.com/{cateId}/index{catePg}.html",
                 "分类": "伦理$shechu"
             }
         },
-{"key":"u9a9","name":"🔞u9a9|磁力","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar","style":{"type":"list"},
+{"key":"u9a9","name":"🔞u9a9|磁力","type":3,"api":"csp_XBPQ","jar":"./lib1/XBPQ.jar","style":{"type":"list"},
             "ext": {
         "搜索url":"https://u9a9b.cc/?type=1&search={wd}&p={pg}",
         "数组":"<tr&&</tr>",
@@ -1065,7 +1065,7 @@
             "name": "🔞x合集🔞",
             "type": 3,
             "changeable": 1,
-			 "jar":"./lib/XBPQ.jar",
+			 "jar":"./lib1/XBPQ.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -1081,7 +1081,7 @@
   "key": "mv121",
   "name": "🔞222🔞",
   "type": 3,
-  "jar":"./lib/XBPQ.jar",
+  "jar":"./lib1/XBPQ.jar",
   "api": "csp_XBPQ",
   "style": {"ratio": 1.7},
   "ext": {
@@ -1102,7 +1102,7 @@
             "api": "csp_XBPQ",
             "playerType": 2,
             "searchable": 1,
-			"jar":"./lib/XBPQ.jar",
+			"jar":"./lib1/XBPQ.jar",
             "quickSearch": 1,
             "filterable": 0,
             "ext": {
@@ -1127,13 +1127,13 @@
 
 	{"key":"WO❤AV",
 	"name":"WO❤AV",
-	"jar":"./lib/XBPQ.jar",
+	"jar":"./lib1/XBPQ.jar",
 	"type":3,
 	"api":"csp_XBPQ",
 	"ext":{"副标题":"播放+次数:&&</p>",
 	"分类url":"https://vip.woaav.online:13097/vodtype/{cateId}-{catePg}.html",
 	"分类数组":"<a&&/a>","分类标题":">&&<","分类ID":"vodtype/&&.html"}},
-	{"key":"溏心次元","name":"🔞溏心次元1","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar","style":{"ratio":1.7},
+	{"key":"溏心次元","name":"🔞溏心次元1","type":3,"api":"csp_XBPQ","jar":"./lib1/XBPQ.jar","style":{"ratio":1.7},
             "ext": {
         "数组":"<li&&</li>",
         "搜索url":"https://www.txcyeat.buzz/index.php/vodsearch/{wd}----------{pg}---.html",
@@ -1151,7 +1151,7 @@
       "name": "🔞糖心次元",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./lib/XBPQ.jar",
+      "jar": "./lib1/XBPQ.jar",
       "style": {"ratio": 1.7},
       "ext": {"页面代理":"127.0.0.1:10072",
         "数组":"<section&&</section",
@@ -1161,7 +1161,7 @@
         "分类": "国产片商$32#节目企划$3#代理节目$2#麻豆原创$1#导演系列$5#MDS系列$6#MDX系列$7#MD系列$4#MDXS系列$8#兔子先生$10#大鸟十八$17#疯拍系列$18#KISS糖果屋$19#小鹏奇啪行$20#30天解密麻豆$22#突袭女优计划$23#女神羞羞研究所$24#小哥哥艾理$27#情趣K歌房$31#淫欲游戏王$40#麻豆不回家$41#叮叮映画$71#涩会$72#豚豚创媒$75#MDL系列$46#MMZ系列$50#MAD系列$53#MDWP系列$58#MSD系列$64#MDM恋爱咖啡$74#MDUS系列$78#MXJ系列$79#MKY系列$87#MAN系列$89#MCY系列$96#MDAG系列$100#MDHT系列$101#BLX系列$115#MPG系列$116#果冻传媒$11#皇家华人$12#吴梦梦无套系列$13#PsychoPorn色控$14#蜜桃影像传媒$15#天美传媒$45#乌鸦传媒$33#精东影业$34#SWAG$36#91制片厂$52#MSM性梦者$65#爱妃传媒$76#辣椒原创$80#O-STAR$81#肉肉传媒$91#渡边传媒$95#葵心娱乐$97#红斯灯影像$103#麻麻传媒$104#蝌蚪传媒$105#Pussy Hunter$106#桃花源$108#女优淫娃培训营$42#狼人插$54#女优擂台摔角狂热$55#恋爱巴士$61#男女优生死斗$66#情人劫密室逃脱$67#换妻$68#你好同学$69#禁欲小屋$77#鲍鱼的胜利$84#性爱自修室$88#春游记$92#心动的性号$93#情趣大富翁$94#寻宝吧女神$99#男优练习生$102#女神体育祭$110#麻豆高校$111#野外露初$112#星空无限传媒$47#乐播传媒$48#大象传媒$59#MINI传媒$62#糖心$73#葫芦影业$82#天马传媒$83#CCAV成人头条$90#性视界传媒$109#SA国际传媒$113#起点传媒$114#91茄子$117#草莓猛料$118" 
       }
 },
-	{"key":"天美","name":"天美|doll","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar","style":{"ratio":1.7},
+	{"key":"天美","name":"天美|doll","type":3,"api":"csp_XBPQ","jar":"./lib1/XBPQ.jar","style":{"ratio":1.7},
             "ext": {
         "搜索链接":"http://www.xbyc.cc/index.php/vod/search/page/{pg}/wd/{wd}.html",
         "数组":"\"box-item\"&&</em>",
@@ -1173,7 +1173,7 @@
         "分类链接":"http://www.xbyc.cc/index.php/vod/type/id/{cateId}/page/{catePg}.html;;mz"
             }
         },
-		{"key":"黄色仓库11","name":"🔞黄色仓库🔞","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar","style":{"ratio":1.7},
+		{"key":"黄色仓库11","name":"🔞黄色仓库🔞","type":3,"api":"csp_XBPQ","jar":"./lib1/XBPQ.jar","style":{"ratio":1.7},
             "ext": {
         "搜索url":"http://oy.oyxx-1.eu.org/hs1.php?u=/vodsearch/{wd}----------{pg}---.html",
         "主页url":"http://oy.oyxx-1.eu.org/hs1.php/",
@@ -1237,7 +1237,7 @@
             "name":"色花堂 | XBPQ",
             "type":3,
             "api":"csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
             "ext":{
           "数组":"<div class=\"img-box cover-md\">&&</h6>",
 "图片":"data-original=\"&&\"",
@@ -1262,7 +1262,7 @@
             "name": "玩偶姐姐|XBPQ",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
             "timeout":60,
             "ext": {
                     "直接播放":"1",
@@ -1280,7 +1280,7 @@
             "name": " | jable♥️",
             "type": 3,
 			
-            "jar":"./lib/XBPQ.jar",
+            "jar":"./lib1/XBPQ.jar",
             "changeable": 1,
             "searchable": 1,
             "quickSearch": 1,
@@ -1362,7 +1362,7 @@
 "页面代理":"127.0.0.1:10072", 
 "分类url":"https://6lhzry.com/vodtype/{cateId}-{catePg}.html" 
 }, 
-  "jar":"./lib/XBPQ.jar"   
+  "jar":"./lib1/XBPQ.jar"   
     },
 	{ "key": "youshou",
             "name": "右手影院",
@@ -1371,7 +1371,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"./lib1/XBPQ.jar",
             "api": "csp_XBPQ",
             "ext":{"页面代理":"127.0.0.1:10072",
             "分类":"日韩爽片$1#国产精选$2#传媒合集$5#欧美激情$3#网爆吃瓜$26",
@@ -1382,7 +1382,7 @@
             "key": "光棍H",
             "name": "光棍影院(H)",
             "type": 3,
-			"jar":"./lib/XBPQ.jar",
+			"jar":"./lib1/XBPQ.jar",
             "api": "csp_XBPQ",
             "playerType": 2,
             "searchable": 1,
@@ -1409,7 +1409,7 @@
 	{ "key": "666",
             "name": "🔥撸网666🔥",
             "type": 3,
-			"jar":"./lib/XBPQ.jar",
+			"jar":"./lib1/XBPQ.jar",
             "changeable": 1,
             "searchable": 1,
             "quickSearch": 1,
@@ -1427,7 +1427,7 @@
 		{ "key": "langqun",
             "name": "狼群影院",
             "type": 3,
-			 "jar":"./lib/XBPQ.jar",
+			 "jar":"./lib1/XBPQ.jar",
             "changeable": 1,
 			"playerType": 0,
             "searchable": 1,
@@ -1445,7 +1445,7 @@
 		   {
             "key": "mtkan1",
             "name": "每天看",
-            "jar":"./lib/XBPQ.jar",
+            "jar":"./lib1/XBPQ.jar",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
@@ -1486,7 +1486,7 @@
 "链接前缀":"https://nbqlyfdhoe.xyz",
 "链接后缀":"",
 "跳转播放链接":"<source src=\"&&\""},
-"jar":"./lib/XBPQ.jar"},
+"jar":"./lib1/XBPQ.jar"},
 	{"key":"Clg",
 	"name":"🔥磁力狗|磁力🔥",
 	"type":3,"api":"csp_Clg",
@@ -1544,7 +1544,7 @@
             "name": "仓库",
             "type": 3,
             "api": "csp_XBPQ",
-          "jar":"./lib/XBPQ.jar",
+          "jar":"./lib1/XBPQ.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -1624,7 +1624,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar":"./lib/XBPQ.jar",
+            "jar":"./lib1/XBPQ.jar",
             "ext": {
                 "请求头": "手机",
                 "免嗅": "1",
@@ -1757,7 +1757,7 @@
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
-			"jar":"./lib/XBPQ.jar",
+			"jar":"./lib1/XBPQ.jar",
             "playerType": 1,
             "api": "csp_XBPQ",
             "ext": {
@@ -1976,7 +1976,7 @@
 		"页面代理":"127.0.0.1:10071",
         "分类": "国产$20#日本无码$22#饵食牝$136#欧美$23#欧美精品$104#三级$25#韩片$129#韩国唯美三级$132#韩国明星学生$130#韩国主播$131#AI换脸$41#国产精品$26#SWAG$135#偷拍自拍$29#精彩时刻$33#91大神$137#国产主播$35#3P群交$127#麻豆传媒$134#国产调教$81#美熟少妇$125#网红模特$86#女神学生$124#野合车震$90"
       },
-      "jar":"./lib/XBPQ.jar"
+      "jar":"./lib1/XBPQ.jar"
     },
     {
       "key": "姐姐",
@@ -1994,7 +1994,7 @@
         "分类url": "https://hongkongdollvideo.com/{cateId}/{catePg}.html",
         "分类": "麻豆$麻豆传媒#天美$天美传媒#91$91制片厂#蜜桃$蜜桃传媒#香港$HongkongDoll#皇家$皇家华人#精东$精东影业#乐播$乐播传媒#成人$成人头条#乌鸦$乌鸦传媒#兔子$兔子先生#杏吧$杏吧原创#mini$mini传媒#大象$大象传媒#开心鬼$开心鬼传媒#pass$PsychoPorn#糖心$糖心Vlog"
       },
-     "jar":"./lib/XBPQ.jar"
+     "jar":"./lib1/XBPQ.jar"
     },
     {
       "key": "玉兔资源",

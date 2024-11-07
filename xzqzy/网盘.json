@@ -337,7 +337,7 @@
 "name":"🔥汪影视🔥",
 "type":3,
 "api":"csp_XBPQ",
-"jar": "./lib/XBPQ.jar",
+"jar": "./lib1/XBPQ.jar",
 "searchable": 1,
 "quickSearch": 0,
 "filterable": 1,
@@ -455,7 +455,7 @@
             "name": "🔥PPTV66🔥",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
             "ext": {
                 "线路标题": "data-dropdown-value=\"&&\"",
                 "分类url": "https://www.ppys01.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
@@ -467,7 +467,7 @@
             "name": "🔥美益达🔥",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
             "ext": {
                 "线路标题": "data-dropdown-value=\"&&\"",
                 "分类url": "https://www.myd04.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
@@ -487,7 +487,7 @@
 			"quickSearch":1,
 			"filterable":1,
 			"ext": "./lib1/奈飞影视.json",
-			"jar": "./lib/XBPQ.jar"
+			"jar": "./lib1/XBPQ.jar"
 		},
 		
 		  {
@@ -798,7 +798,7 @@
     "name": "🧲BT影视🧲",
     "type": 3,
     "api": "csp_XBPQ",
-    "jar": "./lib/XBPQ.jar",
+    "jar": "./lib1/XBPQ.jar",
     "ext": {
         "跳转数组": "<a&&</a[包含:tdown]",
         "跳转链接": "href=\"&&\"",
@@ -820,7 +820,7 @@
 	"filterable":1, 
 	"timeout":60, 
 	"ext":"./lib1/tokenm盒子1.json$$$https://gaoqing.la/$$$代理位置$$$1"},
-	{"key":"MP4us","name":"🧲MP4us🧲","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
+	{"key":"MP4us","name":"🧲MP4us🧲","type":3,"api":"csp_XBPQ","jar":"./lib1/XBPQ.jar",
             "ext": {
         "标题":"<font*>&&</font>",
         "图片":"data-original=\"&&\"",
@@ -854,7 +854,7 @@
 		{"key":"85",
 		"name":"🧲85电影网🧲",
 		"type":3,"api":"csp_XBPQ",
-		"jar":"./lib/XBPQ.jar",
+		"jar":"./lib1/XBPQ.jar",
 		"ext":{"数组":"post-list clearfix mb15&&</li>",
 		"标题":"alt=*《&&》",
 		"副标题":"alt=*》&&\"",
@@ -870,7 +870,7 @@
     "name": "🧲狸云🧲",
     "type": 3,
     "api": "csp_XBPQ",
-    "jar": "./lib/XBPQ.jar",
+    "jar": "./lib1/XBPQ.jar",
     "ext": {
         "搜索url": "https://www.lysvc.cc/?cat=&s={wd}",
         "数组":"class=\"post-item&&class=\"entry-title&&</article>",
@@ -888,7 +888,7 @@
 			 "name":"🧲xunlei8🧲",
 			 "type":3,
 			 "api":"csp_XBPQ",
-			 "jar":"./lib/XBPQ.jar",
+			 "jar":"./lib1/XBPQ.jar",
             "ext": {
                 "搜索url":"https://xunlei8.cc/s/{wd}.html",
                 "搜索数组":"bec4f196629d\">&&\"b9a905c",
@@ -910,7 +910,7 @@
 			"quickSearch":1,
 			"filterable":1,
 			"ext": "./lib/BT天堂 5.json",
-			"jar": "./lib/XBPQ.jar"
+			"jar": "./lib1/XBPQ.jar"
 		},
 		
 

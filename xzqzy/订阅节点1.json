@@ -185,7 +185,7 @@
             "name": "🔥美益达🔥",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/XBPQ.jar",
+            "jar": "./lib1/XBPQ.jar",
             "ext": {
                 "线路标题": "data-dropdown-value=\"&&\"",
                 "分类url": "https://www.myd04.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
@@ -209,7 +209,7 @@
             "key": "皮皮虾影视",
             "name": "🔥皮皮虾影视🔥",
             "type": 3,
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./lib1/XBPQ.jar",
             "api": "csp_XBPQ",
             "ext": {
                 "主页url": "http://www.ppxys.vip/",
@@ -246,7 +246,7 @@
       "key": "55看",
       "name": "🔥55看🔥",
       "type": 3,
-	  "jar": "./lib/XBPQ.jar",
+	  "jar": "./lib1/XBPQ.jar",
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
@@ -279,7 +279,7 @@
             "type": 3,
             "changeable": 1,
             "api": "csp_XBPQ",
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./lib1/XBPQ.jar",
             "playerType": "1",
             "ext": {
                 "主页url": "https://rebozj.pro",
@@ -311,7 +311,7 @@
 		"name":"🔥4K影视🔥🔥",
 		"type":3,
 		"api":"csp_XBPQ",
-		"jar": "./lib/XBPQ.jar",
+		"jar": "./lib1/XBPQ.jar",
 		"searchable":1,
 		"quickSearch":1,
 		"filterable":1,
@@ -326,7 +326,7 @@
 			"quickSearch":1,
 			"filterable":1,
 			"ext": "./lib1/奈飞影视.json",
-			"jar": "./lib/XBPQ.jar"
+			"jar": "./lib1/XBPQ.jar"
 		},
 
 
@@ -334,7 +334,7 @@
             "key": "落攻阁",
             "name": "🔥落攻阁影视🔥",
             "type": 3,
-			"jar": "./lib/XBPQ.jar",
+			"jar": "./lib1/XBPQ.jar",
             "api": "csp_XBPQ",
             "ext": {
                 "主页url": "https://www.lggys.com/",
@@ -602,7 +602,7 @@
     "name": "🧲BT影视🧲",
     "type": 3,
     "api": "csp_XBPQ",
-    "jar": "./lib/XBPQ.jar",
+    "jar": "./lib1/XBPQ.jar",
     "ext": {
         "跳转数组": "<a&&</a[包含:tdown]",
         "跳转链接": "href=\"&&\"",
@@ -624,7 +624,7 @@
 	"filterable":1, 
 	"timeout":60, 
 	"ext":"./lib1/tokenm订阅节点.json$$$https://gaoqing.la/$$$代理位置$$$1"},
-	{"key":"MP4us","name":"🧲MP4us🧲","type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
+	{"key":"MP4us","name":"🧲MP4us🧲","type":3,"api":"csp_XBPQ","jar":"./lib1/XBPQ.jar",
             "ext": {
         "标题":"<font*>&&</font>",
         "图片":"data-original=\"&&\"",
@@ -657,7 +657,7 @@
 		{"key":"85",
 		"name":"🧲85电影网🧲",
 		"type":3,"api":"csp_XBPQ",
-		"jar":"./lib/XBPQ.jar",
+		"jar":"./lib1/XBPQ.jar",
 		"ext":{"数组":"post-list clearfix mb15&&</li>",
 		"标题":"alt=*《&&》",
 		"副标题":"alt=*》&&\"",
@@ -674,7 +674,7 @@
 			 "name":"🧲xunlei8🧲",
 			 "type":3,
 			 "api":"csp_XBPQ",
-			 "jar":"./lib/XBPQ.jar",
+			 "jar":"./lib1/XBPQ.jar",
             "ext": {
                 "搜索url":"https://xunlei8.cc/s/{wd}.html",
                 "搜索数组":"bec4f196629d\">&&\"b9a905c",
@@ -696,7 +696,7 @@
 			"quickSearch":1,
 			"filterable":1,
 			"ext": "./lib/BT天堂 5.json",
-			"jar": "./lib/XBPQ.jar"
+			"jar": "./lib1/XBPQ.jar"
 		},
 		
 
