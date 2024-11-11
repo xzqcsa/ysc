@@ -131,7 +131,24 @@
             "ext": {
                   "分类url":"https://www.myd02.com/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
                   "分类":"电影$1#电视剧$2#综艺$3#短剧$5#动漫$4"}},
-	
+	{
+            "key": "黑木耳克隆",
+            "name": "🔥黑木耳克隆🔥",
+            "type": 4,
+            "api": "https://api.paoyun.eu.org/225.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+		 {
+            "key": "华为吧克隆",
+            "name": "🔥华为吧克隆🔥",
+            "type": 4,
+            "api": "https://api.paoyun.eu.org/hwb.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
 	{
             "key": "毒舌影视",
             "name": "🔥毒舌影视🔥",
