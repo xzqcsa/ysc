@@ -52,7 +52,21 @@
             },
             "changeable": 1
         },
-
+{"key":"115",
+     "name":"🔥115网盘分享🔥",
+     "type":3, 
+     "api":"csp_P115Share",
+     "searchable":1,
+     "quickSearch":1, 
+     "changeable":1, 
+     "filterable":0, 
+     "timeout":60, 
+     "ext":"./lib1/tokenm机顶盒.json$$$./lib1/115share1.txt$$$db$$$1",
+     "style": {
+     "type": "list",
+     "ratio": 1.1
+      }
+    },
    
 	{
             "key": "push_agent",
