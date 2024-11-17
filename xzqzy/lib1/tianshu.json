@@ -58,8 +58,8 @@
       "sky.rethinkdns.com": [
         "104.17.147.22",
         "104.17.148.22",
-        "104.21.83.62",
-        "172.67.214.246"
+        "172.67.214.246",
+        "104.21.83.62"
       ]
     },
     "independent_cache": true
@@ -767,7 +767,7 @@
     },
     "clash_api": {
       "external_controller": "127.0.0.1:16756",
-      "secret": "FKUN73SvDHI7F7Yl"
+      "secret": "vGKaxo14VzUAfHq6"
     }
   }
 }
