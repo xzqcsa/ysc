@@ -34,11 +34,7 @@
     ],
     "rules": [
       {
-        "domain": [
-          "www.csgo.com",
-          "www.visa.com",
-          "comicabc.com"
-        ],
+        "domain": "www.csgo.com",
         "server": "dns-direct"
       },
       {
@@ -59,8 +55,8 @@
       "sky.rethinkdns.com": [
         "104.17.147.22",
         "104.17.148.22",
-        "104.21.83.62",
-        "172.67.214.246"
+        "172.67.214.246",
+        "104.21.83.62"
       ]
     },
     "independent_cache": true
@@ -88,53 +84,38 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "天书1-clone § 0",
-        "天书7-clone § 1",
-        "天书4-clone § 2",
-        "天数2 § 3",
-        "天数5 § 4",
-        "天数1 § 5",
-        "天书5-clone § 6",
-        "天书6-clone § 7",
-        "天书7 § 8",
-        "天数4 § 9",
-        "天书5 § 10",
+        "7-clone §",
+        "4-clone § 2",
+        "5 § 4",
+        "5-clone §",
+        "6-clone § 7",
+        "4 § 9",
         "2 § 11",
-        "3 § 12",
         "4 § 13",
-        "天书4 § 14",
-        "天书6 § 15",
-        "天书2-clone § 16",
-        "天书3-clone § 17",
-        "天书8 § 18",
-        "天书 § 19",
-        "1 § 20",
-        "天书2 § 21",
-        "天书1 § 22",
-        "天书8-clone § 23",
-        "天书3 § 24",
-        "天数3 § 25",
-        "天书-clone § 26",
-        "香港3 § 27",
-        "美国 § 28",
-        "美国2 § 29",
-        "美国4 § 30",
+        "4 § 14",
+        "2-clone § 16",
+        "3-clone § 17",
+        "2 § 21",
+        "8-clone § 23",
+        "3 § 25",
+        "-clone §",
+        "3 § 27",
+        "§",
+        "2 § 29",
+        "4 § 30",
         "66 § 31",
-        "香港2 § 32",
-        "美国1 § 33",
-        "香港1 § 34",
+        "2 § 32",
+        "1 § 33",
+        "1 § 34",
         "5555 § 35",
         "44 § 36",
-        "北欧3 § 37",
-        "香港4 § 38",
-        "美国3 § 39",
-        "北欧 § 40",
-        "北欧4 § 41",
+        "3 § 3",
+        "3 § 39",
+        "§ 40",
+        "4 § 41",
         "33 § 42",
-        "香港 § 43",
-        "北欧1 § 44",
-        "北欧2 § 45",
-        "6-clone-clone-clone § 46",
+        "§ 43",
+        "1 § 44",
         "新加坡-bc7iwbjt § 47"
       ],
       "default": "auto"
@@ -143,53 +124,38 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "天书1-clone § 0",
-        "天书7-clone § 1",
-        "天书4-clone § 2",
-        "天数2 § 3",
-        "天数5 § 4",
-        "天数1 § 5",
-        "天书5-clone § 6",
-        "天书6-clone § 7",
-        "天书7 § 8",
-        "天数4 § 9",
-        "天书5 § 10",
+        "7-clone §",
+        "4-clone § 2",
+        "5 § 4",
+        "5-clone §",
+        "6-clone § 7",
+        "4 § 9",
         "2 § 11",
-        "3 § 12",
         "4 § 13",
-        "天书4 § 14",
-        "天书6 § 15",
-        "天书2-clone § 16",
-        "天书3-clone § 17",
-        "天书8 § 18",
-        "天书 § 19",
-        "1 § 20",
-        "天书2 § 21",
-        "天书1 § 22",
-        "天书8-clone § 23",
-        "天书3 § 24",
-        "天数3 § 25",
-        "天书-clone § 26",
-        "香港3 § 27",
-        "美国 § 28",
-        "美国2 § 29",
-        "美国4 § 30",
+        "4 § 14",
+        "2-clone § 16",
+        "3-clone § 17",
+        "2 § 21",
+        "8-clone § 23",
+        "3 § 25",
+        "-clone §",
+        "3 § 27",
+        "§",
+        "2 § 29",
+        "4 § 30",
         "66 § 31",
-        "香港2 § 32",
-        "美国1 § 33",
-        "香港1 § 34",
+        "2 § 32",
+        "1 § 33",
+        "1 § 34",
         "5555 § 35",
         "44 § 36",
-        "北欧3 § 37",
-        "香港4 § 38",
-        "美国3 § 39",
-        "北欧 § 40",
-        "北欧4 § 41",
+        "3 § 3",
+        "3 § 39",
+        "§ 40",
+        "4 § 41",
         "33 § 42",
-        "香港 § 43",
-        "北欧1 § 44",
-        "北欧2 § 45",
-        "6-clone-clone-clone § 46",
+        "§ 43",
+        "1 § 44",
         "新加坡-bc7iwbjt § 47"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
@@ -198,37 +164,7 @@
     },
     {
       "type": "vless",
-      "tag": "天书1-clone § 0",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "10-30",
-        "sleep": "2-8"
-      },
-      "server": "172.64.108.182",
-      "server_port": 2087,
-      "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
-      "tls": {
-        "enabled": true,
-        "server_name": "tianshu.19860524.us.kg",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tianshu.19860524.us.kg"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "天书7-clone § 1",
+      "tag": "7-clone §",
       "server": "172.64.134.37",
       "server_port": 2086,
       "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
@@ -245,7 +181,7 @@
     },
     {
       "type": "vless",
-      "tag": "天书4-clone § 2",
+      "tag": "4-clone § 2",
       "server": "172.64.104.121",
       "server_port": 2095,
       "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
@@ -262,24 +198,7 @@
     },
     {
       "type": "vless",
-      "tag": "天数2 § 3",
-      "server": "172.64.108.182",
-      "server_port": 2082,
-      "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tianshu.xzqcsa.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "天数5 § 4",
+      "tag": "5 § 4",
       "server": "172.64.104.121",
       "server_port": 2082,
       "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
@@ -296,24 +215,7 @@
     },
     {
       "type": "vless",
-      "tag": "天数1 § 5",
-      "server": "172.64.133.204",
-      "server_port": 2052,
-      "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tianshu.xzqcsa.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "天书5-clone § 6",
+      "tag": "5-clone §",
       "server": "104.19.58.138",
       "server_port": 2052,
       "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
@@ -330,7 +232,7 @@
     },
     {
       "type": "vless",
-      "tag": "天书6-clone § 7",
+      "tag": "6-clone § 7",
       "server": "172.64.103.187",
       "server_port": 2082,
       "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
@@ -347,24 +249,7 @@
     },
     {
       "type": "vless",
-      "tag": "天书7 § 8",
-      "server": "www.csgo.com",
-      "server_port": 2086,
-      "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tianshu.19860524.us.kg"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "天数4 § 9",
+      "tag": "4 § 9",
       "server": "172.64.160.31",
       "server_port": 2095,
       "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
@@ -381,43 +266,9 @@
     },
     {
       "type": "vless",
-      "tag": "天书5 § 10",
-      "server": "www.csgo.com",
-      "server_port": 2052,
-      "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tianshu.19860524.us.kg"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
       "tag": "2 § 11",
       "server": "www.csgo.com",
       "server_port": 2082,
-      "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tianshu.xzqcsa.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "3 § 12",
-      "server": "www.csgo.com",
-      "server_port": 2086,
       "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
       "transport": {
         "type": "ws",
@@ -449,7 +300,7 @@
     },
     {
       "type": "vless",
-      "tag": "天书4 § 14",
+      "tag": "4 § 14",
       "server": "www.csgo.com",
       "server_port": 2095,
       "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
@@ -466,24 +317,7 @@
     },
     {
       "type": "vless",
-      "tag": "天书6 § 15",
-      "server": "www.csgo.com",
-      "server_port": 2082,
-      "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tianshu.19860524.us.kg"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "天书2-clone § 16",
+      "tag": "2-clone § 16",
       "tls_fragment": {
         "enabled": true,
         "size": "10-30",
@@ -513,7 +347,7 @@
     },
     {
       "type": "vless",
-      "tag": "天书3-clone § 17",
+      "tag": "3-clone § 17",
       "tls_fragment": {
         "enabled": true,
         "size": "10-30",
@@ -543,84 +377,7 @@
     },
     {
       "type": "vless",
-      "tag": "天书8 § 18",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "10-30",
-        "sleep": "2-8"
-      },
-      "server": "www.visa.com",
-      "server_port": 443,
-      "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
-      "tls": {
-        "enabled": true,
-        "server_name": "tianshu.19860524.us.kg",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tianshu.19860524.us.kg"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "天书 § 19",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "10-30",
-        "sleep": "2-8"
-      },
-      "server": "www.csgo.com",
-      "server_port": 2096,
-      "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
-      "tls": {
-        "enabled": true,
-        "server_name": "tianshu.19860524.us.kg",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tianshu.19860524.us.kg"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "1 § 20",
-      "server": "www.csgo.com",
-      "server_port": 2052,
-      "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tianshu.xzqcsa.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "天书2 § 21",
+      "tag": "2 § 21",
       "tls_fragment": {
         "enabled": true,
         "size": "10-30",
@@ -650,37 +407,7 @@
     },
     {
       "type": "vless",
-      "tag": "天书1 § 22",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "10-30",
-        "sleep": "2-8"
-      },
-      "server": "www.csgo.com",
-      "server_port": 2087,
-      "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
-      "tls": {
-        "enabled": true,
-        "server_name": "tianshu.19860524.us.kg",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tianshu.19860524.us.kg"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "天书8-clone § 23",
+      "tag": "8-clone § 23",
       "tls_fragment": {
         "enabled": true,
         "size": "10-30",
@@ -710,37 +437,7 @@
     },
     {
       "type": "vless",
-      "tag": "天书3 § 24",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "10-30",
-        "sleep": "2-8"
-      },
-      "server": "www.csgo.com",
-      "server_port": 2053,
-      "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
-      "tls": {
-        "enabled": true,
-        "server_name": "tianshu.19860524.us.kg",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tianshu.19860524.us.kg"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "天数3 § 25",
+      "tag": "3 § 25",
       "server": "172.64.134.37",
       "server_port": 2086,
       "uuid": "097fa342-6a2c-4d79-8c49-9229436529dc",
@@ -757,7 +454,7 @@
     },
     {
       "type": "vless",
-      "tag": "天书-clone § 26",
+      "tag": "-clone §",
       "tls_fragment": {
         "enabled": true,
         "size": "10-30",
@@ -787,7 +484,7 @@
     },
     {
       "type": "vless",
-      "tag": "香港3 § 27",
+      "tag": "3 § 27",
       "server": "104.16.213.64",
       "server_port": 2095,
       "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
@@ -804,7 +501,7 @@
     },
     {
       "type": "vless",
-      "tag": "美国 § 28",
+      "tag": "§",
       "server": "104.17.183.0",
       "server_port": 2052,
       "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
@@ -821,7 +518,7 @@
     },
     {
       "type": "vless",
-      "tag": "美国2 § 29",
+      "tag": "2 § 29",
       "server": "104.18.58.132",
       "server_port": 2086,
       "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
@@ -838,7 +535,7 @@
     },
     {
       "type": "vless",
-      "tag": "美国4 § 30",
+      "tag": "4 § 30",
       "server": "104.19.105.122",
       "server_port": 2095,
       "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
@@ -872,7 +569,7 @@
     },
     {
       "type": "vless",
-      "tag": "香港2 § 32",
+      "tag": "2 § 32",
       "server": "104.18.17.9",
       "server_port": 2086,
       "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
@@ -889,7 +586,7 @@
     },
     {
       "type": "vless",
-      "tag": "美国1 § 33",
+      "tag": "1 § 33",
       "server": "104.18.124.56",
       "server_port": 2082,
       "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
@@ -906,7 +603,7 @@
     },
     {
       "type": "vless",
-      "tag": "香港1 § 34",
+      "tag": "1 § 34",
       "server": "104.22.18.87",
       "server_port": 2082,
       "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
@@ -957,7 +654,7 @@
     },
     {
       "type": "vless",
-      "tag": "北欧3 § 37",
+      "tag": "3 § 3",
       "server": "104.21.211.10",
       "server_port": 2095,
       "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
@@ -974,24 +671,7 @@
     },
     {
       "type": "vless",
-      "tag": "香港4 § 38",
-      "server": "104.16.223.214",
-      "server_port": 2095,
-      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tianshu.kevqwkt451.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "美国3 § 39",
+      "tag": "3 § 39",
       "server": "162.159.255.210",
       "server_port": 2095,
       "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
@@ -1008,7 +688,7 @@
     },
     {
       "type": "vless",
-      "tag": "北欧 § 40",
+      "tag": "§ 40",
       "server": "104.21.11.49",
       "server_port": 2052,
       "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
@@ -1025,7 +705,7 @@
     },
     {
       "type": "vless",
-      "tag": "北欧4 § 41",
+      "tag": "4 § 41",
       "server": "104.21.198.142",
       "server_port": 2095,
       "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
@@ -1059,7 +739,7 @@
     },
     {
       "type": "vless",
-      "tag": "香港 § 43",
+      "tag": "§ 43",
       "server": "104.17.73.180",
       "server_port": 2052,
       "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
@@ -1076,43 +756,9 @@
     },
     {
       "type": "vless",
-      "tag": "北欧1 § 44",
+      "tag": "1 § 44",
       "server": "104.21.215.171",
       "server_port": 2082,
-      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tianshu.kevqwkt451.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "北欧2 § 45",
-      "server": "104.21.221.7",
-      "server_port": 2086,
-      "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "tianshu.kevqwkt451.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "6-clone-clone-clone § 46",
-      "server": "comicabc.com",
-      "server_port": 2095,
       "uuid": "e11664a1-39e9-4dd8-a432-b712ec423262",
       "transport": {
         "type": "ws",
@@ -1225,7 +871,7 @@
     },
     "clash_api": {
       "external_controller": "127.0.0.1:16756",
-      "secret": "pwOwAYHZQOY3cE5d"
+      "secret": "-iuQ4NIYJOVyxZym"
     }
   }
 }
