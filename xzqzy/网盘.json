@@ -193,29 +193,8 @@
 "timeout":60,
 "ext":"./lib1/tokenm盒子1.json$$$https://woog.nxog.eu.org/$$$noproxy$$$1$$$./lib/wogg.json"
 },
-		{
-      "key": "焱焱",
-      "name": "🔥焱焱/超清🔥",
-      "playerType": 1,
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      
-      "ext": "http://110.40.61.7:81/api.php/app/"
-    },
-    {
-      "key": "zonghzan",
-      "name": "🔥影酷/超清🔥",
-      "playerType": 1,
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": " http://111.173.115.204:3333/api.php/app/"
-    },
+		
+   
 	{
             "key": "烧火影视",
             "name": "🔥骚火｜影视🔥",
@@ -238,17 +217,7 @@
             "order_num": 0,
             "ext": "./drpy_js/尘落影视.js"
         },
-    {
-      "key": "影酷",
-      "name": "🔥原盘/超清🔥",
-      "playerType": 1,
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": " http://111.173.115.204:2211/api.php/app/"
-    },
+   
     {
       "key": "guazi",
       "name": "🔥瓜子/蓝光🔥",
@@ -260,17 +229,7 @@
       "filterable": 1,
       "ext": " http://111.173.115.204:5555/api.php/app/"
     },
-    {
-      "key": "自营666",
-      "name": "🔥蓝光/影院🔥",
-      "playerType": 1,
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": " http://122.228.85.203:1000/api.php/app/"
-    },
+   
 		  
         {
             "key": "348ys",
@@ -310,17 +269,7 @@
      }
   },
  
- {
-            "key": "hipy_js_南瓜",
-            "name": "🔥南瓜｜影视🔥",
-            "type": 3,
-            "api": "./drpy_libs/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "./drpy_js/南瓜.js"
-        },
+ 
         {
             "key": "py_jinpai",
             "name": "🔥金牌｜影视🔥",
@@ -471,18 +420,7 @@
                 "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
             }
         },
-		{
-            "key": "美益达影视",
-            "name": "🔥美益达🔥",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./lib1/XBPQ.jar",
-            "ext": {
-                "线路标题": "data-dropdown-value=\"&&\"",
-                "分类url": "https://www.myd04.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
-            }
-        },
+		
 		
 			
 			
@@ -986,18 +924,7 @@
 		"filterable":1,
 		"timeout":60, 
 		"ext":"./lib1/tokenm盒子1.json$$$https://ddys.pro/$$$proxy$$$1$$$"},
-		{
-      "key": "咖啡",
-      "name": "🔥咖啡影视🔥",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-     
-      "filterable": 1,      
-      "jar": "./lib1/XBPQ.jar",
-      "ext": "./lib/咖啡追剧.json"
-    },
+		
 	
 	
 		

@@ -125,17 +125,7 @@
 			"order_num": 0,
 			"ext": "./lib1/guazi瓜.js"
 		},
- {
-            "key": "hipy_js_南瓜",
-            "name": "🔥南瓜｜影视🔥",
-            "type": 3,
-            "api": "./drpy_libs/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "ext": "./drpy_js/南瓜.js"
-        },
+ 
         {
             "key": "py_jinpai",
             "name": "🔥金牌｜影视🔥",
@@ -180,18 +170,7 @@
       "api": "./lib1/drpy2.min.js",
       "ext": "./lib1/韩剧TV.js"
     },				
-		{
-            "key": "美益达影视",
-            "name": "🔥美益达🔥",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./lib1/XBPQ.jar",
-            "ext": {
-                "线路标题": "data-dropdown-value=\"&&\"",
-                "分类url": "https://www.myd04.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
-            }
-        },
+		
 	     {
       "key": "海南",
       "name": "🔥海纳影视🔥",
@@ -833,18 +812,7 @@
             }
         },
 	
-		{
-      "key": "咖啡",
-      "name": "🔥咖啡影视🔥",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-     
-      "filterable": 1,      
-      "jar": "./lib1/XBPQ.jar",
-      "ext": "./lib/咖啡追剧.json"
-    },
+		
 	{
             "key": "金牌影视",
             "name": "🔥金牌影院🔥",
