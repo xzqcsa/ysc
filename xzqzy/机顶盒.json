@@ -210,17 +210,7 @@
       "filterable": 1,
       "ext": " http://111.173.115.204:2211/api.php/app/"
     },
-    {
-      "key": "guazi",
-      "name": "🔥瓜子/蓝光🔥",
-      "playerType": 1,
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": " http://111.173.115.204:5555/api.php/app/"
-    },
+    
     {
       "key": "自营666",
       "name": "🔥蓝光/影院🔥",
@@ -299,30 +289,8 @@
         "分类":"电视剧$2#电影$1#动漫$4#综艺$3#短剧$39"
      }
   },
-{
-      "key": "熊猫",
-      "name": "🔥熊猫影视🔥",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-     
-      "filterable": 1,      
-      "jar": "./lib1/XBPQ.jar",
-      "ext": "./lib1/熊猫影视.json"
-    },
-	{
-      "key": "海南",
-      "name": "🔥海纳影视🔥",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-     
-      "filterable": 1,      
-      "jar": "./lib1/XBPQ.jar",
-      "ext": "./lib1/海纳TV.json"
-    },
+
+	
 {
 			"key": "瓜子影视",
 			"name": "🔥瓜子影视🔥",
