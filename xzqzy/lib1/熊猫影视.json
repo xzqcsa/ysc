@@ -82,7 +82,7 @@
 "主演": "vod_actor\":\"&&\"",
 
 "简介":"vod_content\":\"&&\"",
-
+"页面代理": "127.0.0.1:10172",
 
 "搜索url":"/api.php/provide/vod/?ac=detail&wd={wd}&pg={pg}",
 
