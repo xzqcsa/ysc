@@ -226,13 +226,16 @@ class Spider(Spider):
             res = requests.get(url=xurl, headers=headerx)
             res.encoding = "utf-8"
             res = res.text
+
+
             videos = []
-            doc = self.extract_middle_text(res, ':[\\"$\\",\\"main\\",null,', ']\\n"])')
+            doc = self.extract_middle_text(res, 'self.__next_f.push([1,"6:', '\\n"])</script>')
+
             js1 = json.loads(doc)
 
             sources = ['homeNewMoviePageData', 'homeBroadcastPageData', 'homeManagerPageData', 'newestTvPageData', 'newestVarietyPageData',
                        'newestCartoonPageData']
-            combined_list = [js1["children"][3]["data"]["data"][source] for source in sources]
+            combined_list = [js1[3]["children"][3]["data"]["data"][source] for source in sources]
 
 
             for sublist in combined_list:
@@ -240,7 +243,7 @@ class Spider(Spider):
                     video_data = {
                         "vod_id": vod['vodId'],
                         "vod_name": vod['vodName'],
-                        "vod_pic": vod['vodPicThumb'],
+                        "vod_pic": vod['vodPic'],
                         "vod_remarks": f"{vod['vodVersion']} {vod['vodRemarks']}"
                     }
                     videos.append(video_data)
@@ -284,12 +287,15 @@ class Spider(Spider):
         url = xurl + "/vod/show/id/" + cid + lxType + JqType + DqType + NdType + YyType + "/page/" + str(page)
         try:
             detail = requests.get(url=url, headers=headerx)
+            print(url)
             detail.encoding = "utf-8"
             res = detail.text
-            doc = self.extract_middle_text(res, '"filerList', ']\\n"])')
-            js1 = json.loads('{"filerList'+doc)
-            st1 = js1["videoList"]["data"]["list"]
-
+            doc=BeautifulSoup(res, 'lxml')
+            soups=doc.find_all('script')
+            last_soup = soups[-1]
+            js1 = json.loads(str(last_soup).replace('<script>self.__next_f.push(','').replace(')</script>',''))
+            js2=json.loads(js1[1][2:])
+            st1 = js2[3]["videoList"]["data"]["list"]
             for vod in st1:
                 name = vod['vodName']
                 pic = vod['vodPic']
@@ -361,8 +367,8 @@ class Spider(Spider):
         res = requests.get(xurl + '/vod/search/'  + key , headers=headerx)
         res.encoding = "utf-8"
         res = res.text
-        doc = self.extract_middle_text(res, '{\\"data\\"', ']\\n"])<')        
-        js1 = json.loads('{"data"' + doc)        
+        doc = self.extract_middle_text(res, '{\\"data\\"', ']\\n"])<')
+        js1 = json.loads('{"data"' + doc)
         st1 = js1["data"]["data"]["result"]["list"]
         for vod in st1:
             name = vod['vodName']
@@ -395,3 +401,4 @@ class Spider(Spider):
         elif params['type'] == "ts":
             return self.proxyTs(params)
         return None
+
