@@ -173,6 +173,15 @@
      "ratio": 1.1
       }
     },
+	{"key":"Xaomi",
+	"name":"🔥UC|网盘🔥",
+	"type":3,
+	"api":"csp_Wobg",
+	"quickSearch":1, 
+	"changeable":1,
+	"filterable":1,
+	"timeout":60,
+	"ext":"./lib1/tokenm盒子1.json$$$http://www.mucpan.cc/$$$noproxy$$$1$$$./lib/wogg.json"},
 	{
 "key":"讴歌影视",
 "name":"🔥讴歌|网盘🔥",
@@ -590,18 +599,7 @@
     },
 
 	 
-{
-            "key": "Wobg999",
-            "name": "🔥玩偶表哥🔥",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
- 
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 30,
-            "ext": "./lib1/tokenm盒子1.json$$$http://wobgg.run-us-west2.goorm.io/$$$noproxy$$$1$$$./pg/lib/wogg.json$$$WOBG"
-        },
+
     
 
        
@@ -688,7 +686,7 @@
 	{"key":"六趣网盘",
 	"name":"🔥六趣网盘🔥",
 	"type":3,
-	"api":"csp_Wogg",
+	"api":"csp_Wobg",
 	"quickSearch":1, 
 	"changeable":1, 
 	"filterable":1,
