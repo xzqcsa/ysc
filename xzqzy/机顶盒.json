@@ -606,6 +606,15 @@
 	"ext":"./lib1/tokenm机顶盒.json$$$https://6080z.com/$$$noproxy$$$1$$$./lib/wogg.json"},
 		
 	
+	{"key":"六趣网盘",
+	"name":"🔥六趣网盘🔥",
+	"type":3,
+	"api":"csp_Wogg",
+	"quickSearch":1, 
+	"changeable":1, 
+	"filterable":1,
+	"timeout":60, 
+	"ext":"./lib1/tokenm机顶盒.json$$$https://wpcms.xn--9hq.icu/$$$noproxy$$$1$$$./lib/wogg.json"},
 		{
       "key": "Wobg555",
       "name": "🔥玩你网盘🔥",
