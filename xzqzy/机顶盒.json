@@ -192,15 +192,7 @@
             "filterable": 1,
             "ext": "./drpy_js/348电影网.js"
         },
-{
-            "key": "厂长",
-            "name": "🔥厂长｜影视🔥",
-            "type": 3,
-            "api": "./drpy_libs/厂长资源.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
+
         {
             "key": "py_jinpai",
             "name": "🔥金牌｜影视🔥",
