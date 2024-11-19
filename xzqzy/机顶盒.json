@@ -315,7 +315,7 @@
 "changeable":1,
 "filterable":1,
 "timeout":60,
-"ext":"./lib1/tokenm机顶盒.json$$$http://mogg.top$$$proxy$$$1$$$./lib/wogg.json"
+"ext":"./lib1/tokenm机顶盒.json$$$https://mogg.top/$$$noproxy$$$1$$$./lib/wogg.json"
 },
 
 		{
