@@ -193,7 +193,17 @@
 "timeout":60,
 "ext":"./lib1/tokenm盒子1.json$$$https://woog.nxog.eu.org/$$$noproxy$$$1$$$./lib/wogg.json"
 },
-		
+		{
+"key":"表哥影视",
+"name":"🔥龙龙|网盘🔥",
+"type":3,
+"api":"csp_Wobg",
+"quickSearch":1,
+"changeable":1,
+"filterable":1,
+"timeout":60,
+"ext":"./lib1/tokenm盒子1.json$$$http://wanou.xn--yi7aa.top:3108/$$$noproxy$$$1$$$./lib/wogg.json"
+},	
    
 	{
             "key": "烧火影视",

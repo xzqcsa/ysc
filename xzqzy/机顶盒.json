@@ -305,7 +305,17 @@
 			"jar": "./lib1/XBPQ.jar"
 		},
 		
-		
+		{
+"key":"表哥影视",
+"name":"🔥龙龙|网盘🔥",
+"type":3,
+"api":"csp_Wobg",
+"quickSearch":1,
+"changeable":1,
+"filterable":1,
+"timeout":60,
+"ext":"./lib1/tokenm机顶盒.json$$$http://wanou.xn--yi7aa.top:3108/$$$noproxy$$$1$$$./lib/wogg.json"
+},
 		{
 "key":"木偶影视",
 "name":"🔥木偶|网盘🔥",
