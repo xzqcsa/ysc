@@ -2,8 +2,7 @@
   "spider":"./lib1/pg.jar","logo":"./lib/虎.JPG",
   "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
   "sites": [
- 
-{"key":"lf_js_search",
+ {"key":"lf_js_search",
 	"name":"🔥豆瓣🔥",
 	"type":3,
 	"style":{"type":"rect","ratio":1.485},
