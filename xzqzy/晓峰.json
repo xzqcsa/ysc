@@ -12,17 +12,7 @@
 	"quickSearch":0,
 	"filterable":1,
 	"api":"./lib/uukw.js"},
-	{
-      "key": "lf_live10_min",
-      "name": " 🔥肥羊直播🔥",
-      "type": 3,
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "api": "./lib1/lf_live10_min-output.js",
-      "ext": "./lib1/肥羊.json"
-    },
+	
 	{"key":"AlistShare","name":"🔥Alist分享🔥","type":3,"api":"csp_AlistShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib1/tokenm机顶盒1.json$$$https://slink.ltd/https://raw.githubusercontent.com/xiaoyaliu00/data/main/update.zip$$$noproxy$$$1",
 			"style": {
 				"type": "list",
@@ -172,17 +162,7 @@
 "ext":"./lib1/tokenm机顶盒1.json$$$http://www.muoupan.top/$$$noproxy$$$1$$$./lib/wogg.json"
 },
 
-		{
-"key":"奥秘影视",
-"name":"🔥奥秘|网盘🔥",
-"type":3,
-"api":"csp_Wobg",
-"quickSearch":1,
-"changeable":1,
-"filterable":1,
-"timeout":60,
-"ext":"./lib1/tokenm机顶盒1.json$$$https://vip.omii.top/$$$noproxy$$$1$$$./lib/wogg.json"
-},
+		
 			{"key":"Wogg234567",
 		"name":"🔥玩偶|阿里🔥",
 		"type":3,
@@ -478,16 +458,7 @@
 		
 	
       
-            {
-            "key": "小纸条",
-            "name": "🔍小纸条🔍",
-            "type": 3,
-            "api": "csp_XiaoZhiTiao",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "ext": "./lib1/tokenm机顶盒1.json$$$https://ali.gitcafe.ink/$$$null$$$1"
-        },
+           
    
     
      
@@ -495,69 +466,12 @@
     
    
   
-     {
-            "key": "DaPanSo11",
-            "name": "🔍我的小站|网盘🔍",
-            "type": 3,
-            "api": "csp_DaPanSo",
-            "quickSearch": 1,
-            "changeable": 1,
-			 
-            "filterable": 1,
-            "timeout": 60,
-            "ext": "./lib1/tokenm机顶盒1.json$$$https://pan666.net$$$null$$$1"
-        },
-    
+     
     
 	
 	
 	  
 
-	{"key":"YunPanOne",
-	"name":"🔍ONE|网盘🔍",
-	"type":3,
-	
-	"api":"csp_YunPanOne",
-	"quickSearch":1,
-	"changeable":1, 
-	"filterable":1,
-	"timeout":60, 
-	"ext":"./lib1/tokenm机顶盒1.json$$$null$$$代理位置$$$1"},
-	{"key":"YydsVip",
-	"name":"🔍YYDSVIP|网盘🔍",
-	"type":3,"jar": "./lib/pg24.10.26.jar",
-	"api":"csp_YydsVip",
-	"quickSearch":1, "changeable":1,
-	"filterable":1, "timeout":30,
-	"ext":"./lib1/tokenm机顶盒1.json$$$http://yydsvip.cn$$$null$$$1"
-	},
-	{"key":"秒搜",
-	"name":"🔍秒搜|网盘🔍",
-	"type":3,
-	
-	"api":"csp_MiaoSou",
-	"timeout":30, 
-	"ext":"./lib1/tokenm机顶盒1.json"},
-
-	{"key":"88Pan",
-	"name":"🔍88网盘|网盘🔍",
-	"type":3,
-	 
-	"api":"csp_EightEight",
-	"timeout":30, 
-	"ext":"./lib1/tokenm机顶盒1.json$$$https://662688.xyz"},
-	 
-	
-	{"key":"Xpanpan",
-	"name":"🔍小盘盘|网盘🔍",
-	"type":3,
-	"api":"csp_Xpanpan",
-	
-	"quickSearch":1, 
-	"changeable":1, 
-	"filterable":1,
-	"timeout":60, 
-	"ext":"./lib1/tokenm机顶盒1.json$$$https://xpanpan.site$$$null$$$1"},
 	 {
             "key": "Funletu",
             "name": "🔍趣盘搜|夸克🔍",
@@ -570,36 +484,10 @@
 			 
             "ext": "./lib1/tokenm机顶盒1.json"
         },
-		{"key":"YunSo1122",
-		"name":"🔍小云搜索🔍",
-		
-		"type":3,"api":"csp_YunSo",
-		"quickSearch":1, "changeable":1,
-		"filterable":1, "timeout":30,
-		"ext":"./lib1/tokenm机顶盒1.json$$$https://www.yunso.net$$$null$$$1"},
 		
 	 
-       {"key":"YingSo",
-	   "name":"🔍影搜|网盘🔍",
-	   "type":3,
-	   
-	   "api":"csp_YingSo",
-	   "timeout":60,
-	   "ext":"./lib1/tokenm机顶盒1.json"},
-	 
 		
-	 {
-            "key": "找資源11",
-            "name": "🔍找資源🔍",
-            "type": 3,
-			
-            "api": "csp_Zhaozy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "./lib1/tokenm机顶盒1.json$$$494909361@qq.com$$$305306csa"
-        },
+	 
       {"key":"混合盘",
 	  "name":"🔍混合盘|网盘🔍",
 	  "type":3,"api":
@@ -620,41 +508,9 @@
             "timeout": 30,
 			 
             "ext": "./lib1/tokenm机顶盒1.json"
-        },
-		{"key":"YunPan2324",
-	"name":"🔍云盘资源|网盘🔍",
-	"type":3,
-	"quickSearch":1,
-	"changeable":1, 
-	"filterable":1,
-	
-	"api":"csp_YunPan",
-	"timeout":60,
-	"ext":"./lib1/tokenm机顶盒1.json$$$null$$$代理位置$$$1"},
-	
+        }
 		
-		
-		{"key":"PanSearch111",
-		"name":"🔍PanSearch|网盘🔍",
-		"type":3,"api":"csp_PanSearch",
-		"quickSearch":1, "changeable":1,
-		"filterable":1, "timeout":60,
-		
-		"ext":"./lib1/tokenm机顶盒1.json$$$null$$$proxy"
-		},
-        {
-            "key": "DaPanSo",
-            "name": "🔍大盘|网盘🔍",
-            "type": 3,
-            "api": "csp_DaPanSo",
-            "quickSearch": 1,
-            "changeable": 1,
-			 
-            "filterable": 1,
-            "timeout": 30,
-            "ext": "./lib1/tokenm机顶盒1.json$$$https://dapanso.com$$$null$$$1"
-        },
-
+        
    
 
   
@@ -667,94 +523,9 @@
 	
 	
 	
-    {"key":"PikaSo",
-	"name":"🔍皮卡搜🔍",
-	"type":3,
-	"api":"csp_PikaSo",
-	"quickSearch":1, 
-	"changeable":1,
-	"filterable":1,
-	"timeout":60, 
-	"ext":"./lib1/tokenm机顶盒1.json$$$https://www.pikaso.top/$$$proxy",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
-			}
-		}],
+    ],
 "lives":[
-{
-				"name": "肥羊国内直播",
-				"type": 0,
-				
-				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/tv.m3u",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-			{
-				"name": "肥羊TPTV",
-				"type": 0,
-				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/tptv.m3u",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-			{
-				"name": "肥羊B站直播",
-				"type": 0,
-				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/bililive.m3u",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-			{
-				"name": "肥羊虎牙一起看",
-				"type": 0,
-				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/huyayqk.m3u",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-			{
-				"name": "肥羊斗鱼一起看",
-				"type": 0,
-				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/douyuyqk.m3u",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-			{
-				"name": "肥羊YY轮播",
-				"type": 0,
-				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/yylunbo.m3u",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-			{
-				"name": "Gather.电视直播",
-				"type": 0,
-				"url": "http://127.0.0.1:10079/c/3600/null/https://tv.iill.top/m3u/Gather",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-			{
-				"name": "Gather.网络直播",
-				"type": 0,
-				"url": "http://127.0.0.1:10079/c/3600/null/https://tv.iill.top/m3u/Live",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-			{
-				"name": "Gather.MyTV",
-				"type": 0,
-				"url": "http://127.0.0.1:10079/c/3600/null/https://tv.iill.top/m3u/MyTV",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
+
 			{
 				"name": "江阴",
 				"type": 0,
