@@ -26,8 +26,32 @@
             },
             "ext": "./lib1/tokenm小周.json"
         },
-		
-		
+		{"key":"Xaomi",
+	"name":"🔥UC|网盘🔥",
+	"type":3,
+	"api":"csp_Wobg",
+	"quickSearch":1, 
+	"changeable":1,
+	"filterable":1,
+	"timeout":60,
+	"ext":"./lib1/tokenm小周.json$$$http://www.mucpan.cc/$$$noproxy$$$1$$$./lib/wogg.json"},
+		{
+            "key": "py_emby苹果",
+            "name": "🔥Emby┃苹果🔥",
+            "type": 3,
+            "api": "./lib1/emby_proxy.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "server": "http://hka-emby.aliz.work:8096/",
+                "username": "xzqcsaa",
+                "password": "305306csa",
+                "thread": 0,
+                "proxy": ""
+            },
+            "changeable": 1
+        },
         {
             "key": "py_jinpai",
             "name": "🔥金牌｜影视🔥",
@@ -304,43 +328,10 @@
       "timeout": 30,
       "ext": "./lib1/tokenm小周.json$$$https://tv.yydsys.top/$$$null$$$1$$$./pg/lib/wogg.json$$$WNLG"
     },
-	{
-      "key": "Wobg111",
-      "name": "🔥土豆网盘🔥",
-      "type": 3,
-      "api": "csp_Wobg",
-	  
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 30,
-      "ext": "./lib1/tokenm小周.json$$$https://aliyun.xtudou.top$$$null$$$1$$$./pg/lib/wogg.json$$$Woee"
-    },
 	
 	
-		{
-            "key": "csp_XBPQ_大师兄影院",
-            "name": "🔥大师兄🔥",
-            "type": 3,
-            "playerType": 2,
-			 "jar": "./lib1/XBPQ.jar",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": {
-                "副标题": "class=\"module-item-note\">&&</div>",
-                "图片": "data-original=\"&&\"",
-                "简介": "description\" content=\"&&免费在线观看",
-                "线路数组": "class=\"module-tab-item tab-item&&</small>",
-                "线路标题": "<span>&&</span>",
-                "播放数组": "module-play-list-content&&</div>",
-                "跳转播放链接": "Base64(var player_*\"url\":\"&&\")",
-                "搜索url": "https://dsxys.pro/sb/kemksmaksdl7nhZe3c1{wd}-/page/{pg}.html",
-                "分类": "电影$1#电视剧$2#国产剧$13#港剧$14#综艺$3#动漫$4",
-                "分类url": "https://dsxys.pro/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
-            }
-        },
+	
+		
 
 	
 	{ "key": "Ikanbot",
