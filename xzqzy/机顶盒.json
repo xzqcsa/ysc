@@ -325,7 +325,7 @@
 "changeable":1,
 "filterable":1,
 "timeout":60,
-"ext":"./lib1/tokenm机顶盒.json$$$http://www.muoupan.top/$$$noproxy$$$1$$$./lib/wogg.json"
+"ext":"./lib1/tokenm机顶盒.json$$$http://www.muoupan.top/$$$proxy$$$1$$$./lib/wogg.json"
 },
 
 		{
