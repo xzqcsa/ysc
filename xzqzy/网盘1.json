@@ -12,6 +12,21 @@
 			"indexs":1,
 			"ext": "./lib1/tokenm盒子1.json$$$./lib1/douban.json"
 		},
+		{
+            "key": "csp_pornhub",
+            "name": "🔥18Pornhub🔥",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "jar": "./lib1/xyq.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./lib1/pornhub.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.6
+            }
+        },
 
 	{
             "key": "网盘配置",
@@ -1073,6 +1088,7 @@
 					"cdn.iz8qkg.com",
 					"cdn.kin6c1.com",
 					"lf_p2p2_min.js",
+					  "cn.pornhub.com",
                      "javmulu.*",
                      "AVMOO.*",
                      "2bt0.com",
