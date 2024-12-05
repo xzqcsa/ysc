@@ -6,6 +6,10 @@
 以/开头，存储卡的根目录
 #肥羊国内直播
 http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u
+#肥羊咪咕电视直播
+http://127.0.0.1:10079/c/1800/null/http://127.0.0.1:35456/migu.m3u
+#肥羊咪咕赛事直播
+http://127.0.0.1:10079/c/1800/null/http://127.0.0.1:35456/miguevent.m3u
 #Stream-Link
 http://127.0.0.1:10079/p/0/proxy/https://www.stream-link.org/playlist.m3u?token=b6e04121-ed21-4de0-b220-d3aed241f4d7&hmac=7c0bb9c0f030d0fe34d98b0c6033a1f5
 #江阴
