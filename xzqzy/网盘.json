@@ -1068,7 +1068,22 @@
 	
    
 	
-	
+	{
+            "key": "csp_pornhub",
+            "name": "🔥18Pornhub🔥",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "jar": "./lib1/xyq.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./lib1/pornhub.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.6
+            }
+        },
+
 	
 
    
@@ -2399,6 +2414,7 @@
                      "AVMOO.*",
                      "2bt0.com",
                      "kuba222.com",
+					  "cn.pornhub.com",
                      "*.kubady2.com",
                      "missav789.com",
                      "javmulu.net",
