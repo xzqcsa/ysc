@@ -9,7 +9,7 @@
 				"keywords":"名称,片名,推荐",
 				"tgsearch_url":"http://xzqcsa.iepose.cn",
 				"tgsearch_media_url":"http://xzqcsa.iepose.cn",
-				"channellist":"ucpanpan|1000,yszysjhj|1000,tgsearchers|1000,wpzyhj|1000",
+				"channellist":"ucpanpan|1000,guaguale115|1000,yszysjhj|1000,tgsearchers|1000,wpzyhj|1000",
 				"proxy":"noproxy",
 				"douban":"./lib1/douban.json",
 				"danmu":true
@@ -84,7 +84,7 @@
 				"keywords":"名称,片名,推荐",
 				"tgsearch_url":"http://xzqcsa.iepose.cn",
 				"tgsearch_media_url":"http://xzqcsa.iepose.cn",
-				"channellist":"ucpanpan|1000,yszysjhj|1000,tgsearchers|1000,wpzyhj|1000",
+				"channellist":"ucpanpan|1000,guaguale115|1000,yszysjhj|1000,tgsearchers|1000,wpzyhj|1000",
 				"proxy":"noproxy",
 				"danmu":true
 			},
