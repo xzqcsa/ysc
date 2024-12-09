@@ -1,9 +1,12 @@
 {
-  "aliToken": "./token",
+  "aliToken": "",
   "quarkCookie": "",
   "ucCookie": "",
   "115Cookie": "",
   "pwdRb115": "",
   "goServerUrl": "http://127.0.0.1:9966",
-  "ydAuth": ""
+  "ydAuth": "",
+  "tyAuth": "15896020219|305306csaA@",
+  "proxy": "http://127.0.0.1:1072",
+  "tgPic": "false"
 }

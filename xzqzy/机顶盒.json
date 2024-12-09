@@ -135,7 +135,20 @@
      "ratio": 1.1
       }
     },
-	
+	{
+      "key": "TgYunPan|本地",
+      "name": "🔥天意tg🔥",
+      "type": 3,
+	  "jar": "./lib1/zx.jar",
+      "api": "csp_TgYunPanLocal",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "channelUsername": "tianyi_pd2,yszysjhj",
+        "commonConfig": "./lib1/peizhi.json"
+      }
+    },
 	
 		{"key":"TGYunPan22","name":"🔥TG1900🔥","type":3,"api":"csp_TGYunPan","timeout":120, 
 			"ext":{
