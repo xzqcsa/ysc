@@ -200,6 +200,20 @@
      "ratio": 1.1
       }
     },
+	{
+      "key": "小雷",
+      "name": "🔥小雷天翼🔥",
+      "type": 3,
+	  "jar": "./lib1/zx.jar",
+      "api": "csp_PanTa",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "siteUrl": "https://www.leijing1.com/",
+        "commonConfig": "./lib1/peizhi.json"
+      }
+    },
 	{"key":"Xaomi",
 	"name":"🔥UC|网盘🔥",
 	"type":3,
