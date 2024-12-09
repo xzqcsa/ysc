@@ -62,6 +62,17 @@
             "ext": "./lib1/tokenm机顶盒.json"
         },
 		{
+      "key": "ConfigCenter",
+      "name": "真心配置中心",
+      "type": 3,
+      "api": "csp_ConfigCenter",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./lib1/peizhi.json"
+      }
+    },
+		{
             "key": "py_emby苹果",
             "name": "🔥Emby┃苹果🔥",
             "type": 3,
