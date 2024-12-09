@@ -148,17 +148,18 @@
       }
     },
 	{
-      "key": "TgYunPan|本地",
+      "key": "Tg | 豆瓣",
       "name": "🔥天意tg🔥",
       "type": 3,
 	  "jar": "./lib1/zx.jar",
-      "api": "csp_TgYunPanLocal",
+      "api": "csp_TgYunDouBanPan",
       "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
+      "changeable": 0,
       "ext": {
+        "siteUrl": "http://107.172.201.182:9999",
         "channelUsername": "tianyi_pd2,yszysjhj",
-        "commonConfig": "./lib1/peizhi.json"
+        "commonConfig": "./lib1/peizhi.json",
+        "filter": "./drpy_libs/douban.json"
       }
     },
 	
