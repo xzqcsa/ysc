@@ -93,7 +93,33 @@
 				"ratio": 1.77
 			}
 		},
- 
+ {
+      "key": "ConfigCenter",
+      "name": "🔥真心配置中心🔥",
+	  "jar": "./lib1/zx.jar",
+      "type": 3,
+      "api": "csp_ConfigCenter",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./lib1/peizhi.json"
+      }
+    },
+	{
+      "key": "Tg | 豆瓣",
+      "name": "🔥天意tg🔥",
+      "type": 3,
+	  "jar": "./lib1/zx.jar",
+      "api": "csp_TgYunDouBanPan",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "siteUrl": "http://107.172.201.182:9999",
+        "channelUsername": "tianyi_pd2,ydypzyfx,yszysjhj",
+        "commonConfig": "./lib1/peizhi.json",
+        "filter": "./drpy_libs/douban.json"
+      }
+    },
 		{
             "key": "Youtube全",
             "name": "🔥Youtube全🔥",
