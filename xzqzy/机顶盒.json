@@ -63,7 +63,8 @@
         },
 		{
       "key": "ConfigCenter",
-      "name": "真心配置中心",
+      "name": "🔥真心配置中心🔥",
+	  "jar": "./lib1/zx.jar",
       "type": 3,
       "api": "csp_ConfigCenter",
       "searchable": 0,
