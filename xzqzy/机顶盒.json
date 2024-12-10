@@ -157,7 +157,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "siteUrl": "https://pgsou.xzqcsaa.nyc.mn",
+        "siteUrl": "http://107.172.201.182:630",
         "channelUsername": "tianyi_pd2,cloudtianyi,tianyirigeng,ydypzyfx,yszysjhj",
         "commonConfig": "./lib1/peizhi.json",
         "filter": "./drpy_libs/douban.json"
