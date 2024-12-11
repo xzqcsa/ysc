@@ -194,24 +194,7 @@
         "commonConfig": "./lib1/peizhi.json"
       }
     },
-	{
-            "key": "天翼",
-            "name": "🔥天翼🔥",
-            "type": 3,
-            "api": "csp_Wextyso",
-            "searchable": 1,
-            "changeable": 0,
-            "jar": "./lib1/ty.jar"
-        },
-        {
-            "key": "雷鲸",
-            "name": "🔥雷鲸🔥",
-            "type": 3,
-            "api": "csp_Wexleijing",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "./lib1/ty.jar"
-        },
+	
 		{
 "key":"讴歌影视",
 "name":"🔥讴歌|网盘🔥",
