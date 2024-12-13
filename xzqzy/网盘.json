@@ -214,6 +214,17 @@
         "commonConfig": "./lib1/peizhi.json"
       }
     },
+	{
+"key":"feimao",
+"name":"🔥肥猫|UC🔥",
+"type":3,
+"api":"csp_Wobg",
+"quickSearch":1,
+"changeable":1,
+"filterable":1,
+"timeout":60,
+"ext":"./lib1/tokenm机顶盒.json$$$http://feimaouc.cloud:666/$$$noproxy$$$1$$$./lib/wogg.json"
+},
 	{"key":"Xaomi",
 	"name":"🔥UC|网盘🔥",
 	"type":3,
