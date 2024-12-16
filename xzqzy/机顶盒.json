@@ -254,13 +254,19 @@
             "quickSearch": 1,
             "filterable": 0
         },
-		 {
+		  {
             "key": "克隆合集",
             "name": "🔥克隆合集🔥",
             "type": 4,
-            "api": "https://api.paoyun.eu.org/klhj.php",
+            "api": "http://jg.zhangqun66.com/klhj.php",
             "searchable": 1,
             "quickSearch": 1,
+                       "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "searchable": 1,
+            "changeable": 1,
             "filterable": 0
         },
 		{
@@ -333,7 +339,7 @@
             "key": "直播转点播",
             "name": "🔥电视直播🔥",
             "type": 4,
-            "api": "https://api.paoyun.eu.org/zh/2241.php",
+            "api": "http://jg.zhangqun66.com/zh/2241-2.php",
             "searchable": 0,
             "changeable": 0,
             "ext": "3,1,2,4"

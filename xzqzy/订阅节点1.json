@@ -139,7 +139,7 @@
             "key": "黑木耳克隆",
             "name": "🔥黑木耳克隆🔥",
             "type": 4,
-            "api": "https://api.paoyun.eu.org/225.php",
+            "api": "http://jg.zhangqun66.com/225.php",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
@@ -157,7 +157,7 @@
             "key": "直播转点播",
             "name": "🔥电视直播🔥",
             "type": 4,
-            "api": "https://api.paoyun.eu.org/zh/2241.php",
+            "api": "http://jg.zhangqun66.com/zh/2241-2.php",
             "searchable": 0,
             "changeable": 0,
             "ext": "3,1,2,4"
