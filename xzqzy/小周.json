@@ -73,7 +73,17 @@
       "jar": "./lib1/XBPQ.jar",
       "ext": "./lib1/海纳TV.json"
     },
-  
+  {
+			"key": "csp_视觉",
+			"name": "🔥视觉┃PYTHON🔥",
+			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"quickSearch": 1,
+			"api": "./lib1/shijue.py",
+			"playerType": 2,
+			"filterable": 1
+		},
 		{
 			"key": "瓜子影视",
 			"name": "🔥瓜子影视🔥",

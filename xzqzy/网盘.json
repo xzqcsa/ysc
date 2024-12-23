@@ -93,7 +93,7 @@
       "changeable": 0,
       "ext": {
         "siteUrl": "http://107.172.201.182:630",
-        "channelUsername": "tianyi_pd2,cloudtianyi,tianyirigeng,ydypzyfx,yszysjhj",
+        "channelUsername": "tianyi_pd2,cloudtianyi,tianyirigeng,leoziyuan,ydypzyfx,yszysjhj",
         "commonConfig": "./lib1/peizhi.json",
         "filter": "./drpy_libs/douban.json"
       }
@@ -105,7 +105,17 @@
 				"ratio": 1.1
 			}
 		},
-		
+		{
+			"key": "csp_视觉",
+			"name": "🔥视觉┃PYTHON🔥",
+			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"quickSearch": 1,
+			"api": "./lib1/shijue.py",
+			"playerType": 2,
+			"filterable": 1
+		},
 {
             "key": "py_emby苹果",
             "name": "🔥Emby┃苹果🔥",

@@ -115,7 +115,7 @@
       "changeable": 0,
       "ext": {
         "siteUrl": "https://pgsou.xzqcsaa.nyc.mn",
-        "channelUsername": "tianyi_pd2,cloudtianyi,tianyirigeng,ydypzyfx,yszysjhj",
+        "channelUsername": "tianyi_pd2,cloudtianyi,leoziyuan,tianyirigeng,ydypzyfx,yszysjhj",
         "commonConfig": "./lib1/peizhi.json",
         "filter": "./drpy_libs/douban.json"
       }
@@ -198,6 +198,18 @@
      "ratio": 1.1
       }
     },
+	{
+			"key": "csp_视觉",
+			"name": "🔥视觉┃PYTHON🔥",
+			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"quickSearch": 1,
+			"api": "./lib1/shijue.py",
+			"playerType": 2,
+			"filterable": 1
+		},
+
 	{
       "key": "小雷",
       "name": "🔥小雷天翼🔥",

@@ -158,11 +158,22 @@
       "changeable": 0,
       "ext": {
         "siteUrl": "http://107.172.201.182:630",
-        "channelUsername": "tianyi_pd2,cloudtianyi,tianyirigeng,ydypzyfx,yszysjhj",
+        "channelUsername": "tianyi_pd2,cloudtianyi,tianyirigeng,ydypzyfx,leoziyuan,yszysjhj",
         "commonConfig": "./lib1/peizhi.json",
         "filter": "./drpy_libs/douban.json"
       }
     },
+	{
+			"key": "csp_视觉",
+			"name": "🔥视觉┃PYTHON🔥",
+			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"quickSearch": 1,
+			"api": "./lib1/shijue.py",
+			"playerType": 2,
+			"filterable": 1
+		},
 	
 		{"key":"TGYunPan22","name":"🔥TG1900🔥","type":3,"api":"csp_TGYunPan","timeout":120, 
 			"ext":{
