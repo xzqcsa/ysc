@@ -1343,10 +1343,10 @@
     },
 	 
 	 
-	{
-      "name": "何必",
+	 {
+      "name": "道长",
       "type": 1,
-      "url": "http://139.224.73.238:16555/qq2.php?url=",
+      "url": "https://dzys.xzqcsaa.nyc.mn/parse/虾米?url=",
       "ext": {
         "flag": [
           "qq",
@@ -1368,7 +1368,7 @@
           "1905"
         ],
         "header": {
-          "User-Agent": "okhttp/4.9.1"
+          "User-Agent": "Mozilla/5.0"
         }
       }
     },

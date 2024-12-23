@@ -235,9 +235,9 @@
     },
 	 
 	   {
-      "name": "4K解析",
+      "name": "道长",
       "type": 1,
-      "url": "https://jx.xiaofengtv.com/jx.php?url=",
+      "url": "https://dzys.xzqcsaa.nyc.mn/parse/虾米?url=",
       "ext": {
         "flag": [
           "qq",
@@ -259,7 +259,7 @@
           "1905"
         ],
         "header": {
-          "User-Agent": "okhttp/4.9.1"
+          "User-Agent": "Mozilla/5.0"
         }
       }
     },
