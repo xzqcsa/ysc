@@ -10,7 +10,7 @@
 				"keywords":"名称,片名,推荐",
 				"tgsearch_url":"http://xzqcsa.iepose.cn",
 				"tgsearch_media_url":"http://xzqcsa.iepose.cn",
-				"channellist":"ucpanpan|1000,guaguale115|1000,yszysjhj|1000,tgsearchers|1000,ydypzyfx|1000,wpzyhj|1000",
+				"channellist":"ucpanpan|1000,guaguale115|1000,yszysj|1000,tgsearchers|1000,ydypzyfx|1000,wpzyhj|1000",
 				"proxy":"noproxy",
 				"douban":"./lib1/douban.json",
 				"danmu":true
@@ -158,7 +158,7 @@
       "changeable": 0,
       "ext": {
         "siteUrl": "http://107.172.201.182:630",
-        "channelUsername": "tianyi_pd2,cloudtianyi,tianyirigeng,ydypzyfx,leoziyuan,yszysjhj",
+        "channelUsername": "tianyi_pd2,cloudtianyi,tianyirigeng,ydypzyfx,leoziyuan,yszysj",
         "commonConfig": "./lib1/peizhi.json",
         "filter": "./drpy_libs/douban.json"
       }
@@ -182,7 +182,7 @@
 				"keywords":"名称,片名,推荐",
 				"tgsearch_url":"http://xzqcsa.iepose.cn",
 				"tgsearch_media_url":"http://xzqcsa.iepose.cn",
-				"channellist":"ucpanpan|1000,guaguale115|1000,yszysjhj|1000,tgsearchers|1000,ydypzyfx|1000,wpzyhj|1000",
+				"channellist":"ucpanpan|1000,guaguale115|1000,yszysj|1000,tgsearchers|1000,ydypzyfx|1000,wpzyhj|1000",
 				"proxy":"noproxy",
 				"danmu":true
 				},
