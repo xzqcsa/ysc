@@ -284,6 +284,15 @@
             "quickSearch": 1,
             "filterable": 0
         },
+		{"key":"Huban",
+	"name":"🔥虎斑|网盘🔥",
+	"type":3,
+	"api":"csp_Wobg",
+	"quickSearch":1, 
+	"changeable":1,
+	"filterable":1, 
+	"timeout":60,
+    "ext": "./lib1/tokenm电视.json$$$https://wp.huban.xyz$$$noproxy$$$1$$$./lib/wogg.json"},
 			{
 "key":"表哥影视",
 "name":"🔥龙龙|网盘🔥",
