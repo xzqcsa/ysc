@@ -224,6 +224,15 @@
         "commonConfig": "./lib1/peizhi.json"
       }
     },
+	{"key":"Guanying",
+	"name":"🔥观影|网盘🔥",
+	"type":3,
+	"api":"csp_Guanying",
+	"quickSearch":1, 
+	"changeable":1,
+	"filterable":1,
+	"timeout":60, 
+	"ext":"./lib1/tokenm盒子1.json$$$https://www.gyg.la$$$noproxy$$$1$$$./lib1/guanying.txt"},
 	{
 "key":"feimao",
 "name":"🔥肥猫|UC🔥",
@@ -233,7 +242,7 @@
 "changeable":1,
 "filterable":1,
 "timeout":60,
-"ext":"./lib1/tokenm机顶盒.json$$$http://feimaouc.cloud:666/$$$noproxy$$$1$$$./lib/wogg.json"
+"ext":"./lib1/tokenm盒子1.json$$$http://feimaouc.cloud:666/$$$noproxy$$$1$$$./lib/wogg.json"
 },
 	{"key":"Xaomi",
 	"name":"🔥UC|网盘🔥",

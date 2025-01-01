@@ -163,6 +163,15 @@
         "filter": "./drpy_libs/douban.json"
       }
     },
+	{"key":"Guanying",
+	"name":"🔥观影|网盘🔥",
+	"type":3,
+	"api":"csp_Guanying",
+	"quickSearch":1, 
+	"changeable":1,
+	"filterable":1,
+	"timeout":60, 
+	"ext":"./lib1/tokenm机顶盒.json$$$https://www.gyg.la$$$noproxy$$$1$$$./lib1/guanying.txt"},
 	{
 			"key": "csp_视觉",
 			"name": "🔥视觉┃PYTHON🔥",
