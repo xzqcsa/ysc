@@ -21,9 +21,9 @@ https://4g.wqwqwq.sbs/iptv.m3u
 #IPTV
 https://jiasu2.xzqcsaa.nyc.mn/https://raw.githubusercontent.com/xzqcsa/ysc/master/xzqzy/IPTV.txt
 #Gather.电视直播
-https://tv.iill.top/m3u/Gather
+http://127.0.0.1:10079/c/3600/noproxy/https://tv.iill.top/m3u/Gather
 #Gather.网络直播
-https://tv.iill.top/m3u/Live
+http://127.0.0.1:10079/c/3600/noproxy/https://tv.iill.top/m3u/Live
 #Gather.MyTV
 http://127.0.0.1:10079/c/60/proxy/https://tv.iill.top/m3u/MyTV
 #肥羊TPTV
