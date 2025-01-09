@@ -131,6 +131,7 @@
                 "编码": "UTF-8",
                 "主页url": "https://4k-av.com",
                 "首页": "120",
+				"页面代理": "proxy",
                 "起始页": "1",
                 "分类url": "/{cateId}{class}/page-{catePg}.html[https://4k-av.com/{cateId}{class}];;rcS1",
                 "分类": "电影&剧集",

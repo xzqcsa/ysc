@@ -73,6 +73,7 @@
             "ext": {
                 "请求头": "User-Agent : Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
                 "编码": "UTF-8",
+				"页面代理": "proxy",
                 "主页url": "https://4k-av.com",
                 "首页": "120",
                 "起始页": "1",
@@ -1184,6 +1185,7 @@
 			  "jar":"./lib1/XBPQ.jar",
             "ext": {
                 "站名": "4K影院",
+				
                 "主页url": "https://www.4kvm.org",
                 "头部集合": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
                 "热门推荐": "1",
