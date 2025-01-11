@@ -6,6 +6,8 @@
 以/开头，存储卡的根目录
 #肥羊国内直播
 http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u
+#肥羊家里直播
+http://192.168.3.220:35455/tv.m3u
 #肥羊TX赛事直播
 http://127.0.0.1:10079/c/300/null/http://127.0.0.1:35456/txevent.m3u?main_login=qq&vqq_appid=101481799&vqq_openid=7EC1F23A34DD20E6C8CBCD96A2CD6809&vqq_access_token=1729EA392E1E0F70A638DED8691FFA28
 #肥羊咪咕电视直播
