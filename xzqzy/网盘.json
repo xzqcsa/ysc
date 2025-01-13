@@ -1432,7 +1432,7 @@
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u",
 				"ua": "okhttp/3.15",
 				"epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
 					"source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
@@ -1445,7 +1445,7 @@
 				"url": "http://127.0.0.1:10079/c/3600/null/http://192.168.3.220:35455/tv.m3u",
 				"ua": "okhttp/3.15",
 				"epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
 					"source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
@@ -1457,7 +1457,7 @@
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/null/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE1SUB",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
 					"source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
@@ -1469,7 +1469,7 @@
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/ciptv.m3u",
 				"ua": "okhttp/3.15..",
 				"epg": "http://127.0.0.1:10079/p/0/null/http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
 					"source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"
@@ -1481,7 +1481,7 @@
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/ciptv.m3u",
 				"ua": "okhttp/3.15..",
 				"epg": "http://127.0.0.1:10079/p/0/null/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE1SUB",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
 					"source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"
@@ -1493,7 +1493,7 @@
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/ciptv.m3u",
 				"ua": "okhttp/3.15..",
 				"epg": "http://127.0.0.1:10079/p/0/null/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE2SUB",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
 					"source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"
@@ -1505,7 +1505,7 @@
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/ciptv.m3u",
 				"ua": "okhttp/3.15..",
 				"epg": "http://127.0.0.1:10079/p/0/null/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE3SUB",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
 					"source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"
@@ -1517,7 +1517,7 @@
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/ciptv.m3u",
 				"ua": "okhttp/3.15..",
 				"epg": "http://127.0.0.1:10079/p/0/null/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE4SUB",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
 					"source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"
@@ -1529,7 +1529,7 @@
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/ciptv.m3u",
 				"ua": "okhttp/3.15..",
 				"epg": "http://127.0.0.1:10079/p/0/null/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE5SUB",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
 					"source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"
@@ -1541,7 +1541,7 @@
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/ciptv.m3u",
 				"ua": "okhttp/3.15..",
 				"epg": "http://127.0.0.1:10079/p/0/null/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE6SUB",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
 					"source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"
@@ -1553,7 +1553,7 @@
 				"url": "http://127.0.0.1:10079/c/300/null/http://127.0.0.1:35456/txevent.m3u?main_login=qq&vqq_appid=101481799&vqq_openid=7EC1F23A34DD20E6C8CBCD96A2CD6809&vqq_access_token=1729EA392E1E0F70A638DED8691FFA28",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png"
 			},
 			{
 				"name": "肥羊咪咕电视直播",
@@ -1561,7 +1561,7 @@
 				"url": "http://127.0.0.1:10079/c/1800/null/http://127.0.0.1:35456/migu.m3u",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png"
 			},
 			{
 				"name": "肥羊咪咕赛事直播",
@@ -1569,7 +1569,7 @@
 				"url": "http://127.0.0.1:10079/c/1800/null/http://127.0.0.1:35456/miguevent.m3u",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png"
 			},
 			{
             "name": "午夜销魂",
@@ -1577,7 +1577,7 @@
             "url": "./lib1/wyzb.txt",
             "ua": "okhttp/3.15",
             "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+            "logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png"
         },
 			{
 				"name": "肥羊TPTV",
@@ -1585,7 +1585,7 @@
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tptv.m3u",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png"
 			},
 			{
 				"name": "肥羊B站直播",
@@ -1593,7 +1593,7 @@
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/bililive.m3u",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png"
 			},
 			{
 				"name": "肥羊虎牙一起看",
@@ -1601,7 +1601,7 @@
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/huyayqk.m3u",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png"
 			},
 			{
 				"name": "肥羊斗鱼一起看",
@@ -1609,7 +1609,7 @@
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/douyuyqk.m3u",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png"
 			},
 			{
 				"name": "肥羊YY轮播",
@@ -1617,7 +1617,7 @@
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/yylunbo.m3u",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png"
 			},
 			{
 				"name": "Gather.电视直播",
@@ -1625,7 +1625,7 @@
 				"url": "https://tv.iill.top/m3u/Gather",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png"
 			},
 			{
 				"name": "Gather.网络直播",
@@ -1633,7 +1633,7 @@
 				"url": "https://tv.iill.top/m3u/Live",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png"
 			},
 			{
 				"name": "Gather.MyTV",
@@ -1641,7 +1641,7 @@
 				"url": "http://127.0.0.1:10079/c/60/proxy/https://tv.iill.top/m3u/MyTV",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+				"logo": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/logo/{name}.png"
 			},
 			{
             "name": "Stream-Link",
