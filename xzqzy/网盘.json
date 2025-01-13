@@ -1468,7 +1468,7 @@
 				"type": 0,
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/ciptv.m3u",
 				"ua": "okhttp/3.15..",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+				"epg": "http://127.0.0.1:10079/p/0/null/http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
@@ -1480,7 +1480,7 @@
 				"type": 0,
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/ciptv.m3u",
 				"ua": "okhttp/3.15..",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE1SUB",
+				"epg": "http://127.0.0.1:10079/p/0/null/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE1SUB",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
@@ -1492,7 +1492,7 @@
 				"type": 0,
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/ciptv.m3u",
 				"ua": "okhttp/3.15..",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE2SUB",
+				"epg": "http://127.0.0.1:10079/p/0/null/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE2SUB",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
@@ -1504,7 +1504,7 @@
 				"type": 0,
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/ciptv.m3u",
 				"ua": "okhttp/3.15..",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE3SUB",
+				"epg": "http://127.0.0.1:10079/p/0/null/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE3SUB",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
@@ -1516,7 +1516,7 @@
 				"type": 0,
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/ciptv.m3u",
 				"ua": "okhttp/3.15..",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE4SUB",
+				"epg": "http://127.0.0.1:10079/p/0/null/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE4SUB",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
@@ -1528,7 +1528,7 @@
 				"type": 0,
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/ciptv.m3u",
 				"ua": "okhttp/3.15..",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE5SUB",
+				"epg": "http://127.0.0.1:10079/p/0/null/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE5SUB",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
@@ -1540,7 +1540,7 @@
 				"type": 0,
 				"url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/ciptv.m3u",
 				"ua": "okhttp/3.15..",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE6SUB",
+				"epg": "http://127.0.0.1:10079/p/0/null/http://cdn.1678520.xyz/epg/?ch={name}&date=DATE6SUB",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
 				"catchup": {
 					"type": "append",
