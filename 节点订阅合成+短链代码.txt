@@ -2,115 +2,553 @@
   var __defProp = Object.defineProperty;
   var __name = (target, value) => __defProp(target, "name", { value, configurable: true });
 
+  // src/utils.js
+  var PATH_LENGTH = 7;
+  function checkStartsWith(str2, prefix) {
+    if (str2 === void 0 || str2 === null || prefix === void 0 || prefix === null) {
+      return false;
+    }
+    str2 = String(str2);
+    prefix = String(prefix);
+    return str2.slice(0, prefix.length) === prefix;
+  }
+  __name(checkStartsWith, "checkStartsWith");
+  function encodeBase64(input) {
+    const encoder = new TextEncoder();
+    const utf8Array = encoder.encode(input);
+    let binaryString = "";
+    for (const byte of utf8Array) {
+      binaryString += String.fromCharCode(byte);
+    }
+    return base64FromBinary(binaryString);
+  }
+  __name(encodeBase64, "encodeBase64");
+  function decodeBase64(input) {
+    const binaryString = base64ToBinary(input);
+    const bytes = new Uint8Array(binaryString.length);
+    for (let i = 0; i < binaryString.length; i++) {
+      bytes[i] = binaryString.charCodeAt(i);
+    }
+    const decoder = new TextDecoder();
+    return decoder.decode(bytes);
+  }
+  __name(decodeBase64, "decodeBase64");
+  function base64FromBinary(binaryString) {
+    const base64Chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+    let base64String = "";
+    let padding = "";
+    const remainder = binaryString.length % 3;
+    if (remainder > 0) {
+      padding = "=".repeat(3 - remainder);
+      binaryString += "\0".repeat(3 - remainder);
+    }
+    for (let i = 0; i < binaryString.length; i += 3) {
+      const bytes = [
+        binaryString.charCodeAt(i),
+        binaryString.charCodeAt(i + 1),
+        binaryString.charCodeAt(i + 2)
+      ];
+      const base64Index1 = bytes[0] >> 2;
+      const base64Index2 = (bytes[0] & 3) << 4 | bytes[1] >> 4;
+      const base64Index3 = (bytes[1] & 15) << 2 | bytes[2] >> 6;
+      const base64Index4 = bytes[2] & 63;
+      base64String += base64Chars[base64Index1] + base64Chars[base64Index2] + base64Chars[base64Index3] + base64Chars[base64Index4];
+    }
+    return base64String.slice(0, base64String.length - padding.length) + padding;
+  }
+  __name(base64FromBinary, "base64FromBinary");
+  function base64ToBinary(base64String) {
+    const base64Chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+    let binaryString = "";
+    base64String = base64String.replace(/=+$/, "");
+    for (let i = 0; i < base64String.length; i += 4) {
+      const bytes = [
+        base64Chars.indexOf(base64String[i]),
+        base64Chars.indexOf(base64String[i + 1]),
+        base64Chars.indexOf(base64String[i + 2]),
+        base64Chars.indexOf(base64String[i + 3])
+      ];
+      const byte1 = bytes[0] << 2 | bytes[1] >> 4;
+      const byte2 = (bytes[1] & 15) << 4 | bytes[2] >> 2;
+      const byte3 = (bytes[2] & 3) << 6 | bytes[3];
+      if (bytes[1] !== -1)
+        binaryString += String.fromCharCode(byte1);
+      if (bytes[2] !== -1)
+        binaryString += String.fromCharCode(byte2);
+      if (bytes[3] !== -1)
+        binaryString += String.fromCharCode(byte3);
+    }
+    return binaryString;
+  }
+  __name(base64ToBinary, "base64ToBinary");
+  function DeepCopy(obj) {
+    if (obj === null || typeof obj !== "object") {
+      return obj;
+    }
+    if (Array.isArray(obj)) {
+      return obj.map((item) => DeepCopy(item));
+    }
+    const newObj = {};
+    for (const key in obj) {
+      if (Object.prototype.hasOwnProperty.call(obj, key)) {
+        newObj[key] = DeepCopy(obj[key]);
+      }
+    }
+    return newObj;
+  }
+  __name(DeepCopy, "DeepCopy");
+  function GenerateWebPath(length = PATH_LENGTH) {
+    const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    let result = "";
+    for (let i = 0; i < length; i++) {
+      result += characters.charAt(Math.floor(Math.random() * characters.length));
+    }
+    return result;
+  }
+  __name(GenerateWebPath, "GenerateWebPath");
+  function parseServerInfo(serverInfo) {
+    let host, port;
+    if (serverInfo.startsWith("[")) {
+      const closeBracketIndex = serverInfo.indexOf("]");
+      host = serverInfo.slice(1, closeBracketIndex);
+      port = serverInfo.slice(closeBracketIndex + 2);
+    } else {
+      const lastColonIndex = serverInfo.lastIndexOf(":");
+      host = serverInfo.slice(0, lastColonIndex);
+      port = serverInfo.slice(lastColonIndex + 1);
+    }
+    return { host, port: parseInt(port) };
+  }
+  __name(parseServerInfo, "parseServerInfo");
+  function parseUrlParams(url) {
+    const [, rest] = url.split("://");
+    const [addressPart, ...remainingParts] = rest.split("?");
+    const paramsPart = remainingParts.join("?");
+    const [paramsOnly, ...fragmentParts] = paramsPart.split("#");
+    const searchParams = new URLSearchParams(paramsOnly);
+    const params = Object.fromEntries(searchParams.entries());
+    let name = fragmentParts.length > 0 ? fragmentParts.join("#") : "";
+    try {
+      name = decodeURIComponent(name);
+    } catch (error) {
+    }
+    ;
+    return { addressPart, params, name };
+  }
+  __name(parseUrlParams, "parseUrlParams");
+  function createTlsConfig(params) {
+    let tls = { enabled: false };
+    if (params.security != "none") {
+      tls = {
+        enabled: true,
+        server_name: params.sni || params.host,
+        insecure: !!params?.allowInsecure || !!params?.insecure || !!params?.allow_insecure
+        // utls: {
+        //   enabled: true,
+        //   fingerprint: "chrome"
+        // },
+      };
+      if (params.security === "reality") {
+        tls.reality = {
+          enabled: true,
+          public_key: params.pbk,
+          short_id: params.sid
+        };
+      }
+    }
+    return tls;
+  }
+  __name(createTlsConfig, "createTlsConfig");
+  function createTransportConfig(params) {
+    return {
+      type: params.type,
+      path: params.path ?? void 0,
+      ...params.host && { "headers": { "host": params.host } },
+      service_name: params.serviceName ?? void 0
+    };
+  }
+  __name(createTransportConfig, "createTransportConfig");
+
+  // src/i18n/index.js
+  var translations = {
+    "zh-CN": {
+      missingInput: "\u7F3A\u5C11\u8F93\u5165\u53C2\u6570",
+      missingConfig: "\u7F3A\u5C11\u914D\u7F6E\u53C2\u6570",
+      missingUrl: "\u7F3A\u5C11URL\u53C2\u6570",
+      shortUrlNotFound: "\u77ED\u94FE\u63A5\u672A\u627E\u5230",
+      internalError: "\u5185\u90E8\u670D\u52A1\u5668\u9519\u8BEF",
+      notFound: "\u672A\u627E\u5230",
+      invalidFormat: "\u65E0\u6548\u683C\u5F0F\uFF1A",
+      defaultRules: ["\u5E7F\u544A\u62E6\u622A", "\u8C37\u6B4C\u670D\u52A1", "\u56FD\u5916\u5A92\u4F53", "\u7535\u62A5\u6D88\u606F"],
+      configValidationError: "\u914D\u7F6E\u9A8C\u8BC1\u9519\u8BEF\uFF1A",
+      pageDescription: "Sublink Worker - \u8BA2\u9605\u94FE\u63A5\u8F6C\u6362\u5DE5\u5177",
+      pageKeywords: "\u8BA2\u9605\u94FE\u63A5,\u8F6C\u6362,Xray,SingBox,Clash,Surge",
+      pageTitle: "Sublink Worker - \u8BA2\u9605\u94FE\u63A5\u8F6C\u6362\u5DE5\u5177",
+      ogTitle: "Sublink Worker - \u8BA2\u9605\u94FE\u63A5\u8F6C\u6362\u5DE5\u5177",
+      ogDescription: "\u4E00\u4E2A\u5F3A\u5927\u7684\u8BA2\u9605\u94FE\u63A5\u8F6C\u6362\u5DE5\u5177\uFF0C\u652F\u6301\u591A\u79CD\u5BA2\u6237\u7AEF\u683C\u5F0F",
+      shareUrls: "\u5206\u4EAB\u94FE\u63A5",
+      urlPlaceholder: "\u5728\u6B64\u8F93\u5165\u60A8\u7684\u8BA2\u9605\u94FE\u63A5...",
+      advancedOptions: "\u9AD8\u7EA7\u9009\u9879",
+      baseConfigSettings: "\u57FA\u7840\u914D\u7F6E\u8BBE\u7F6E",
+      baseConfigTooltip: "\u5728\u6B64\u5904\u81EA\u5B9A\u4E49\u60A8\u7684\u57FA\u7840\u914D\u7F6E",
+      saveConfig: "\u4FDD\u5B58\u914D\u7F6E",
+      clearConfig: "\u6E05\u9664\u914D\u7F6E",
+      convert: "\u8F6C\u6362",
+      clear: "\u6E05\u9664",
+      customPath: "\u81EA\u5B9A\u4E49\u8DEF\u5F84",
+      savedPaths: "\u5DF2\u4FDD\u5B58\u7684\u8DEF\u5F84",
+      shortenLinks: "\u751F\u6210\u77ED\u94FE\u63A5",
+      ruleSelection: "\u89C4\u5219\u9009\u62E9",
+      ruleSelectionTooltip: "\u9009\u62E9\u60A8\u9700\u8981\u7684\u89C4\u5219\u96C6",
+      custom: "\u81EA\u5B9A\u4E49",
+      minimal: "\u6700\u5C0F\u5316",
+      balanced: "\u5747\u8861",
+      comprehensive: "\u5168\u9762",
+      addCustomRule: "\u6DFB\u52A0\u81EA\u5B9A\u4E49\u89C4\u5219",
+      customRuleOutboundName: "\u51FA\u7AD9\u540D\u79F0*",
+      customRuleGeoSite: "Geo-Site\u89C4\u5219\u96C6",
+      customRuleGeoSiteTooltip: "SingBox\u4E2D\u7684Site\u89C4\u5219\u6765\u81EA https://github.com/lyc8503/sing-box-rules\uFF0C\u8FD9\u610F\u5473\u7740\u60A8\u7684\u81EA\u5B9A\u4E49\u89C4\u5219\u5FC5\u987B\u5728\u8BE5\u4ED3\u5E93\u4E2D",
+      customRuleGeoSitePlaceholder: "\u4F8B\u5982\uFF1Agoogle,anthropic",
+      customRuleGeoIP: "Geo-IP\u89C4\u5219\u96C6",
+      customRuleGeoIPTooltip: "SingBox\u4E2D\u7684IP\u89C4\u5219\u6765\u81EA https://github.com/lyc8503/sing-box-rules\uFF0C\u8FD9\u610F\u5473\u7740\u60A8\u7684\u81EA\u5B9A\u4E49\u89C4\u5219\u5FC5\u987B\u5728\u8BE5\u4ED3\u5E93\u4E2D",
+      customRuleGeoIPPlaceholder: "\u4F8B\u5982\uFF1Aprivate,cn",
+      customRuleDomainSuffix: "\u57DF\u540D\u540E\u7F00",
+      customRuleDomainSuffixPlaceholder: "\u57DF\u540D\u540E\u7F00\uFF08\u7528\u9017\u53F7\u5206\u9694\uFF09",
+      customRuleDomainKeyword: "\u57DF\u540D\u5173\u952E\u8BCD",
+      customRuleDomainKeywordPlaceholder: "\u57DF\u540D\u5173\u952E\u8BCD\uFF08\u7528\u9017\u53F7\u5206\u9694\uFF09",
+      customRuleIPCIDR: "IP CIDR",
+      customRuleIPCIDRPlaceholder: "IP CIDR\uFF08\u7528\u9017\u53F7\u5206\u9694\uFF09",
+      customRuleProtocol: "\u534F\u8BAE\u7C7B\u578B",
+      customRuleProtocolTooltip: "\u7279\u5B9A\u6D41\u91CF\u7C7B\u578B\u7684\u534F\u8BAE\u89C4\u5219\u3002\u66F4\u591A\u8BE6\u60C5\uFF1Ahttps://sing-box.sagernet.org/configuration/route/sniff/",
+      customRuleProtocolPlaceholder: "\u534F\u8BAE\uFF08\u7528\u9017\u53F7\u5206\u9694\uFF0C\u4F8B\u5982\uFF1Ahttp,ssh,dns\uFF09",
+      removeCustomRule: "\u79FB\u9664",
+      // 规则名称和出站名称的翻译
+      outboundNames: {
+        "Auto Select": "\u26A1 \u81EA\u52A8\u9009\u62E9",
+        "Node Select": "\u{1F680} \u8282\u70B9\u9009\u62E9",
+        "Fall Back": "\u{1F41F} \u6F0F\u7F51\u4E4B\u9C7C",
+        "Ad Block": "\u{1F6D1} \u5E7F\u544A\u62E6\u622A",
+        "AI Services": "\u{1F4AC} AI \u670D\u52A1",
+        "Bilibili": "\u{1F4FA} \u54D4\u54E9\u54D4\u54E9",
+        "Youtube": "\u{1F4F9} \u6CB9\u7BA1\u89C6\u9891",
+        "Google": "\u{1F50D} \u8C37\u6B4C\u670D\u52A1",
+        "Private": "\u{1F3E0} \u79C1\u6709\u7F51\u7EDC",
+        "Location:CN": "\u{1F512} \u56FD\u5185\u670D\u52A1",
+        "Telegram": "\u{1F4F2} \u7535\u62A5\u6D88\u606F",
+        "Github": "\u{1F431} Github",
+        "Microsoft": "\u24C2\uFE0F \u5FAE\u8F6F\u670D\u52A1",
+        "Apple": "\u{1F34F} \u82F9\u679C\u670D\u52A1",
+        "Social Media": "\u{1F310} \u793E\u4EA4\u5A92\u4F53",
+        "Streaming": "\u{1F3AC} \u6D41\u5A92\u4F53",
+        "Gaming": "\u{1F3AE} \u6E38\u620F\u5E73\u53F0",
+        "Education": "\u{1F4DA} \u6559\u80B2\u8D44\u6E90",
+        "Financial": "\u{1F4B0} \u91D1\u878D\u670D\u52A1",
+        "Cloud Services": "\u2601\uFE0F \u4E91\u670D\u52A1",
+        "Non-China": "\u{1F310} \u975E\u4E2D\u56FD",
+        "GLOBAL": "GLOBAL"
+      },
+      UASettings: "\u81EA\u5B9A\u4E49UserAgent",
+      UAtip: "\u9ED8\u8BA4\u503Ccurl/7.74.0"
+    },
+    "en-US": {
+      missingInput: "Missing input parameter",
+      missingConfig: "Missing config parameter",
+      missingUrl: "Missing URL parameter",
+      shortUrlNotFound: "Short URL not found",
+      internalError: "Internal Server Error",
+      notFound: "Not Found",
+      invalidFormat: "Invalid format: ",
+      defaultRules: ["Ad Blocking", "Google Services", "Foreign Media", "Telegram"],
+      configValidationError: "Config validation error: ",
+      pageDescription: "Sublink Worker - Subscription Link Converter",
+      pageKeywords: "subscription link,converter,Xray,SingBox,Clash,Surge",
+      pageTitle: "Sublink Worker - Subscription Link Converter",
+      ogTitle: "Sublink Worker - Subscription Link Converter",
+      ogDescription: "A powerful subscription link converter supporting multiple client formats",
+      shareUrls: "Share URLs",
+      urlPlaceholder: "Enter your subscription links here...",
+      advancedOptions: "Advanced Options",
+      baseConfigSettings: "Base Config Settings",
+      baseConfigTooltip: "Customize your base configuration here",
+      saveConfig: "Save Config",
+      clearConfig: "Clear Config",
+      convert: "Convert",
+      clear: "Clear",
+      customPath: "Custom Path",
+      savedPaths: "Saved Paths",
+      shortenLinks: "Generate Short Links",
+      ruleSelection: "Rule Selection",
+      ruleSelectionTooltip: "Select your desired rule sets",
+      custom: "Custom",
+      minimal: "Minimal",
+      balanced: "Balanced",
+      comprehensive: "Comprehensive",
+      addCustomRule: "Add Custom Rule",
+      customRuleOutboundName: "Outbound Name*",
+      customRuleGeoSite: "Geo-Site Rules",
+      customRuleGeoSiteTooltip: "SingBox Site rules come from https://github.com/lyc8503/sing-box-rules, which means your custom rules must be in that repository",
+      customRuleGeoSitePlaceholder: "e.g., google,anthropic",
+      customRuleGeoIP: "Geo-IP Rules",
+      customRuleGeoIPTooltip: "SingBox IP rules come from https://github.com/lyc8503/sing-box-rules, which means your custom rules must be in that repository",
+      customRuleGeoIPPlaceholder: "e.g., private,cn",
+      customRuleDomainSuffix: "Domain Suffix",
+      customRuleDomainSuffixPlaceholder: "Domain suffixes (comma separated)",
+      customRuleDomainKeyword: "Domain Keyword",
+      customRuleDomainKeywordPlaceholder: "Domain keywords (comma separated)",
+      customRuleIPCIDR: "IP CIDR",
+      customRuleIPCIDRPlaceholder: "IP CIDR (comma separated)",
+      customRuleProtocol: "Protocol Type",
+      customRuleProtocolTooltip: "Protocol rules for specific traffic types. More details: https://sing-box.sagernet.org/configuration/route/sniff/",
+      customRuleProtocolPlaceholder: "Protocols (comma separated, e.g., http,ssh,dns)",
+      removeCustomRule: "Remove",
+      outboundNames: {
+        "Auto Select": "\u26A1 Auto Select",
+        "Node Select": "\u{1F680} Node Select",
+        "Fall Back": "\u{1F41F} Fall Back",
+        "Ad Block": "\u{1F6D1} Ad Blocking",
+        "AI Services": "\u{1F4AC} AI Services",
+        "Bilibili": "\u{1F4FA} Bilibili",
+        "Youtube": "\u{1F4F9} Youtube",
+        "Google": "\u{1F50D} Google Services",
+        "Private": "\u{1F3E0} Private Network",
+        "Location:CN": "\u{1F512} China Services",
+        "Telegram": "\u{1F4F2} Telegram",
+        "Github": "\u{1F431} Github",
+        "Microsoft": "\u24C2\uFE0F Microsoft Services",
+        "Apple": "\u{1F34F} Apple Services",
+        "Social Media": "\u{1F310} Social Media",
+        "Streaming": "\u{1F3AC} Streaming",
+        "Gaming": "\u{1F3AE} Gaming Platform",
+        "Education": "\u{1F4DA} Education Resources",
+        "Financial": "\u{1F4B0} Financial Services",
+        "Cloud Services": "\u2601\uFE0F Cloud Services",
+        "Non-China": "\u{1F310} Non-China",
+        "GLOBAL": "GLOBAL"
+      },
+      UASettings: "Custom UserAgent",
+      UAtip: "By default it will use curl/7.74.0"
+    },
+    "fa": {
+      missingInput: "\u067E\u0627\u0631\u0627\u0645\u062A\u0631 \u0648\u0631\u0648\u062F\u06CC \u0648\u062C\u0648\u062F \u0646\u062F\u0627\u0631\u062F",
+      missingConfig: "\u067E\u0627\u0631\u0627\u0645\u062A\u0631 \u067E\u06CC\u06A9\u0631\u0628\u0646\u062F\u06CC \u0648\u062C\u0648\u062F \u0646\u062F\u0627\u0631\u062F",
+      missingUrl: "\u067E\u0627\u0631\u0627\u0645\u062A\u0631 URL \u0648\u062C\u0648\u062F \u0646\u062F\u0627\u0631\u062F",
+      shortUrlNotFound: "\u0644\u06CC\u0646\u06A9 \u06A9\u0648\u062A\u0627\u0647 \u067E\u06CC\u062F\u0627 \u0646\u0634\u062F",
+      internalError: "\u062E\u0637\u0627\u06CC \u062F\u0627\u062E\u0644\u06CC \u0633\u0631\u0648\u0631",
+      notFound: "\u06CC\u0627\u0641\u062A \u0646\u0634\u062F",
+      invalidFormat: "\u0641\u0631\u0645\u062A \u0646\u0627\u0645\u0639\u062A\u0628\u0631: ",
+      defaultRules: ["\u0645\u0633\u062F\u0648\u062F\u0633\u0627\u0632\u06CC \u062A\u0628\u0644\u06CC\u063A\u0627\u062A", "\u0633\u0631\u0648\u06CC\u0633\u200C\u0647\u0627\u06CC \u06AF\u0648\u06AF\u0644", "\u0631\u0633\u0627\u0646\u0647\u200C\u0647\u0627\u06CC \u062E\u0627\u0631\u062C\u06CC", "\u062A\u0644\u06AF\u0631\u0627\u0645"],
+      configValidationError: "\u062E\u0637\u0627\u06CC \u0627\u0639\u062A\u0628\u0627\u0631\u0633\u0646\u062C\u06CC \u067E\u06CC\u06A9\u0631\u0628\u0646\u062F\u06CC: ",
+      pageDescription: "Sublink Worker - \u0645\u0628\u062F\u0644 \u0644\u06CC\u0646\u06A9 \u0627\u0634\u062A\u0631\u0627\u06A9",
+      pageKeywords: "\u0644\u06CC\u0646\u06A9 \u0627\u0634\u062A\u0631\u0627\u06A9,\u0645\u0628\u062F\u0644,Xray,SingBox,Clash,Surge",
+      pageTitle: "Sublink Worker - \u0645\u0628\u062F\u0644 \u0644\u06CC\u0646\u06A9 \u0627\u0634\u062A\u0631\u0627\u06A9",
+      ogTitle: "Sublink Worker - \u0645\u0628\u062F\u0644 \u0644\u06CC\u0646\u06A9 \u0627\u0634\u062A\u0631\u0627\u06A9",
+      ogDescription: "\u06CC\u06A9 \u0645\u0628\u062F\u0644 \u0642\u062F\u0631\u062A\u0645\u0646\u062F \u0644\u06CC\u0646\u06A9 \u0627\u0634\u062A\u0631\u0627\u06A9 \u0628\u0627 \u067E\u0634\u062A\u06CC\u0628\u0627\u0646\u06CC \u0627\u0632 \u0641\u0631\u0645\u062A\u200C\u0647\u0627\u06CC \u0645\u062E\u062A\u0644\u0641",
+      shareUrls: "\u0627\u0634\u062A\u0631\u0627\u06A9\u200C\u06AF\u0630\u0627\u0631\u06CC \u0644\u06CC\u0646\u06A9\u200C\u0647\u0627",
+      urlPlaceholder: "\u0644\u06CC\u0646\u06A9\u200C\u0647\u0627\u06CC \u0627\u0634\u062A\u0631\u0627\u06A9 \u062E\u0648\u062F \u0631\u0627 \u0627\u06CC\u0646\u062C\u0627 \u0648\u0627\u0631\u062F \u06A9\u0646\u06CC\u062F...",
+      advancedOptions: "\u06AF\u0632\u06CC\u0646\u0647\u200C\u0647\u0627\u06CC \u067E\u06CC\u0634\u0631\u0641\u062A\u0647",
+      baseConfigSettings: "\u062A\u0646\u0638\u06CC\u0645\u0627\u062A \u067E\u06CC\u06A9\u0631\u0628\u0646\u062F\u06CC \u067E\u0627\u06CC\u0647",
+      baseConfigTooltip: "\u067E\u06CC\u06A9\u0631\u0628\u0646\u062F\u06CC \u067E\u0627\u06CC\u0647 \u062E\u0648\u062F \u0631\u0627 \u0627\u06CC\u0646\u062C\u0627 \u0633\u0641\u0627\u0631\u0634\u06CC \u06A9\u0646\u06CC\u062F",
+      saveConfig: "\u0630\u062E\u06CC\u0631\u0647 \u067E\u06CC\u06A9\u0631\u0628\u0646\u062F\u06CC",
+      clearConfig: "\u067E\u0627\u06A9 \u06A9\u0631\u062F\u0646 \u067E\u06CC\u06A9\u0631\u0628\u0646\u062F\u06CC",
+      convert: "\u062A\u0628\u062F\u06CC\u0644",
+      clear: "\u067E\u0627\u06A9 \u06A9\u0631\u062F\u0646",
+      customPath: "\u0645\u0633\u06CC\u0631 \u0633\u0641\u0627\u0631\u0634\u06CC",
+      savedPaths: "\u0645\u0633\u06CC\u0631\u0647\u0627\u06CC \u0630\u062E\u06CC\u0631\u0647 \u0634\u062F\u0647",
+      shortenLinks: "\u0627\u06CC\u062C\u0627\u062F \u0644\u06CC\u0646\u06A9\u200C\u0647\u0627\u06CC \u06A9\u0648\u062A\u0627\u0647",
+      ruleSelection: "\u0627\u0646\u062A\u062E\u0627\u0628 \u0642\u0648\u0627\u0646\u06CC\u0646",
+      ruleSelectionTooltip: "\u0645\u062C\u0645\u0648\u0639\u0647 \u0642\u0648\u0627\u0646\u06CC\u0646 \u0645\u0648\u0631\u062F \u0646\u0638\u0631 \u062E\u0648\u062F \u0631\u0627 \u0627\u0646\u062A\u062E\u0627\u0628 \u06A9\u0646\u06CC\u062F",
+      custom: "\u0633\u0641\u0627\u0631\u0634\u06CC",
+      minimal: "\u062D\u062F\u0627\u0642\u0644",
+      balanced: "\u0645\u062A\u0639\u0627\u062F\u0644",
+      comprehensive: "\u062C\u0627\u0645\u0639",
+      addCustomRule: "\u0627\u0641\u0632\u0648\u062F\u0646 \u0642\u0627\u0646\u0648\u0646 \u0633\u0641\u0627\u0631\u0634\u06CC",
+      customRuleOutboundName: "\u0646\u0627\u0645 \u062E\u0631\u0648\u062C\u06CC*",
+      customRuleGeoSite: "\u0642\u0648\u0627\u0646\u06CC\u0646 Geo-Site",
+      customRuleGeoSiteTooltip: "\u0642\u0648\u0627\u0646\u06CC\u0646 SingBox Site \u0627\u0632 https://github.com/lyc8503/sing-box-rules \u0645\u06CC\u200C\u0622\u06CC\u0646\u062F\u060C \u0628\u0647 \u0627\u06CC\u0646 \u0645\u0639\u0646\u06CC \u06A9\u0647 \u0642\u0648\u0627\u0646\u06CC\u0646 \u0633\u0641\u0627\u0631\u0634\u06CC \u0634\u0645\u0627 \u0628\u0627\u06CC\u062F \u062F\u0631 \u0622\u0646 \u0645\u062E\u0632\u0646 \u0628\u0627\u0634\u062F",
+      customRuleGeoSitePlaceholder: "\u0628\u0631\u0627\u06CC \u0645\u062B\u0627\u0644: google,anthropic",
+      customRuleGeoIP: "\u0642\u0648\u0627\u0646\u06CC\u0646 Geo-IP",
+      customRuleGeoIPTooltip: "\u0642\u0648\u0627\u0646\u06CC\u0646 SingBox IP \u0627\u0632 https://github.com/lyc8503/sing-box-rules \u0645\u06CC\u200C\u0622\u06CC\u0646\u062F\u060C \u0628\u0647 \u0627\u06CC\u0646 \u0645\u0639\u0646\u06CC \u06A9\u0647 \u0642\u0648\u0627\u0646\u06CC\u0646 \u0633\u0641\u0627\u0631\u0634\u06CC \u0634\u0645\u0627 \u0628\u0627\u06CC\u062F \u062F\u0631 \u0622\u0646 \u0645\u062E\u0632\u0646 \u0628\u0627\u0634\u062F",
+      customRuleGeoIPPlaceholder: "\u0628\u0631\u0627\u06CC \u0645\u062B\u0627\u0644: private,cn",
+      customRuleDomainSuffix: "\u067E\u0633\u0648\u0646\u062F \u062F\u0627\u0645\u0646\u0647",
+      customRuleDomainSuffixPlaceholder: "\u067E\u0633\u0648\u0646\u062F\u0647\u0627\u06CC \u062F\u0627\u0645\u0646\u0647 (\u0628\u0627 \u06A9\u0627\u0645\u0627 \u062C\u062F\u0627 \u0634\u062F\u0647)",
+      customRuleDomainKeyword: "\u06A9\u0644\u0645\u0647 \u06A9\u0644\u06CC\u062F\u06CC \u062F\u0627\u0645\u0646\u0647",
+      customRuleDomainKeywordPlaceholder: "\u06A9\u0644\u0645\u0627\u062A \u06A9\u0644\u06CC\u062F\u06CC \u062F\u0627\u0645\u0646\u0647 (\u0628\u0627 \u06A9\u0627\u0645\u0627 \u062C\u062F\u0627 \u0634\u062F\u0647)",
+      customRuleIPCIDR: "IP CIDR",
+      customRuleIPCIDRPlaceholder: "IP CIDR (\u0628\u0627 \u06A9\u0627\u0645\u0627 \u062C\u062F\u0627 \u0634\u062F\u0647)",
+      customRuleProtocol: "\u0646\u0648\u0639 \u067E\u0631\u0648\u062A\u06A9\u0644",
+      customRuleProtocolTooltip: "\u0642\u0648\u0627\u0646\u06CC\u0646 \u067E\u0631\u0648\u062A\u06A9\u0644 \u0628\u0631\u0627\u06CC \u0627\u0646\u0648\u0627\u0639 \u062E\u0627\u0635 \u062A\u0631\u0627\u0641\u06CC\u06A9. \u062C\u0632\u0626\u06CC\u0627\u062A \u0628\u06CC\u0634\u062A\u0631: https://sing-box.sagernet.org/configuration/route/sniff/",
+      customRuleProtocolPlaceholder: "\u067E\u0631\u0648\u062A\u06A9\u0644\u200C\u0647\u0627 (\u0628\u0627 \u06A9\u0627\u0645\u0627 \u062C\u062F\u0627 \u0634\u062F\u0647\u060C \u0645\u062B\u0644\u0627\u064B: http,ssh,dns)",
+      removeCustomRule: "\u062D\u0630\u0641",
+      outboundNames: {
+        "Auto Select": "\u26A1 \u0627\u0646\u062A\u062E\u0627\u0628 \u062E\u0648\u062F\u06A9\u0627\u0631",
+        "Node Select": "\u{1F680} \u0627\u0646\u062A\u062E\u0627\u0628 \u0646\u0648\u062F",
+        "Fall Back": "\u{1F41F} \u0641\u0627\u0644 \u0628\u06A9",
+        "Ad Block": "\u{1F6D1} \u0645\u0633\u062F\u0648\u062F\u0633\u0627\u0632\u06CC \u062A\u0628\u0644\u06CC\u063A\u0627\u062A",
+        "AI Services": "\u{1F4AC} \u0633\u0631\u0648\u06CC\u0633\u200C\u0647\u0627\u06CC \u0647\u0648\u0634 \u0645\u0635\u0646\u0648\u0639\u06CC",
+        "Bilibili": "\u{1F4FA} \u0628\u06CC\u0644\u06CC\u200C\u0628\u06CC\u0644\u06CC",
+        "Youtube": "\u{1F4F9} \u06CC\u0648\u062A\u06CC\u0648\u0628",
+        "Google": "\u{1F50D} \u0633\u0631\u0648\u06CC\u0633\u200C\u0647\u0627\u06CC \u06AF\u0648\u06AF\u0644",
+        "Private": "\u{1F3E0} \u0634\u0628\u06A9\u0647 \u062E\u0635\u0648\u0635\u06CC",
+        "Location:CN": "\u{1F512} \u0633\u0631\u0648\u06CC\u0633\u200C\u0647\u0627\u06CC \u0686\u06CC\u0646",
+        "Telegram": "\u{1F4F2} \u062A\u0644\u06AF\u0631\u0627\u0645",
+        "Github": "\u{1F431} \u06AF\u06CC\u062A\u200C\u0647\u0627\u0628",
+        "Microsoft": "\u24C2\uFE0F \u0633\u0631\u0648\u06CC\u0633\u200C\u0647\u0627\u06CC \u0645\u0627\u06CC\u06A9\u0631\u0648\u0633\u0627\u0641\u062A",
+        "Apple": "\u{1F34F} \u0633\u0631\u0648\u06CC\u0633\u200C\u0647\u0627\u06CC \u0627\u067E\u0644",
+        "Social Media": "\u{1F310} \u0634\u0628\u06A9\u0647\u200C\u0647\u0627\u06CC \u0627\u062C\u062A\u0645\u0627\u0639\u06CC",
+        "Streaming": "\u{1F3AC} \u0627\u0633\u062A\u0631\u06CC\u0645\u06CC\u0646\u06AF",
+        "Gaming": "\u{1F3AE} \u067E\u0644\u062A\u0641\u0631\u0645 \u0628\u0627\u0632\u06CC",
+        "Education": "\u{1F4DA} \u0645\u0646\u0627\u0628\u0639 \u0622\u0645\u0648\u0632\u0634\u06CC",
+        "Financial": "\u{1F4B0} \u0633\u0631\u0648\u06CC\u0633\u200C\u0647\u0627\u06CC \u0645\u0627\u0644\u06CC",
+        "Cloud Services": "\u2601\uFE0F \u0633\u0631\u0648\u06CC\u0633\u200C\u0647\u0627\u06CC \u0627\u0628\u0631\u06CC",
+        "Non-China": "\u{1F310} \u062E\u0627\u0631\u062C \u0627\u0632 \u0686\u06CC\u0646",
+        "GLOBAL": "GLOBAL"
+      },
+      UASettings: "Custom UserAgent",
+      UAtip: "By default it will use curl/7.74.0"
+    }
+  };
+  var currentLang = "zh-CN";
+  function setLanguage(lang) {
+    if (translations[lang]) {
+      currentLang = lang;
+    } else if (checkStartsWith(lang, "en")) {
+      currentLang = "en-US";
+    } else if (checkStartsWith(lang, "fa")) {
+      currentLang = "fa";
+    } else {
+      currentLang = "zh-CN";
+    }
+  }
+  __name(setLanguage, "setLanguage");
+  function t(key) {
+    const keys = key.split(".");
+    let value = translations[currentLang];
+    for (const k of keys) {
+      value = value?.[k];
+      if (value === void 0) {
+        if (checkStartsWith(key, "outboundNames.")) {
+          return key.split(".")[1];
+        }
+        return key;
+      }
+    }
+    return value;
+  }
+  __name(t, "t");
+
   // src/config.js
-  var SITE_RULE_SET_BASE_URL = "https://github.com/lyc8503/sing-box-rules/raw/rule-set-geosite/";
-  var IP_RULE_SET_BASE_URL = "https://github.com/lyc8503/sing-box-rules/raw/rule-set-geoip/";
+  var SITE_RULE_SET_BASE_URL = "https://gh.sageer.me/https://raw.githubusercontent.com/lyc8503/sing-box-rules/refs/heads/rule-set-geosite/";
+  var IP_RULE_SET_BASE_URL = "https://gh.sageer.me/https://raw.githubusercontent.com/lyc8503/sing-box-rules/refs/heads/rule-set-geoip/";
+  var CLASH_SITE_RULE_SET_BASE_URL = "https://gh.sageer.me/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/";
+  var CLASH_IP_RULE_SET_BASE_URL = "https://gh.sageer.me/https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geoip/";
+  var SURGE_SITE_RULE_SET_BASEURL = "https://gh.sageer.me/https://github.com/NSZA156/surge-geox-rules/raw/refs/heads/release/geo/geosite/";
+  var SURGE_IP_RULE_SET_BASEURL = "https://gh.sageer.me/https://github.com/NSZA156/surge-geox-rules/raw/refs/heads/release/geo/geoip/";
   var UNIFIED_RULES = [
     {
       name: "Ad Block",
-      outbound: "\u{1F6D1} \u5E7F\u544A\u62E6\u622A",
+      outbound: t("outboundNames.Ad Block"),
       site_rules: ["category-ads-all"],
       ip_rules: []
     },
     {
       name: "AI Services",
-      outbound: "\u{1F4AC} AI \u670D\u52A1",
-      site_rules: ["openai", "anthropic", "jetbrains-ai", "perplexity"],
+      outbound: t("outboundNames.AI Services"),
+      site_rules: ["category-ai-!cn"],
       ip_rules: []
     },
     {
       name: "Bilibili",
-      outbound: "\u{1F4FA} \u54D4\u54E9\u54D4\u54E9",
+      outbound: t("outboundNames.Bilibili"),
       site_rules: ["bilibili"],
       ip_rules: []
     },
     {
       name: "Youtube",
-      outbound: "\u{1F4F9} \u6CB9\u7BA1\u89C6\u9891",
+      outbound: t("outboundNames.Youtube"),
       site_rules: ["youtube"],
       ip_rules: []
     },
     {
       name: "Google",
-      outbound: "\u{1F50D} \u8C37\u6B4C\u670D\u52A1",
+      outbound: t("outboundNames.Google"),
       site_rules: ["google"],
       ip_rules: ["google"]
     },
     {
       name: "Private",
-      outbound: "\u{1F3E0} \u79C1\u6709\u7F51\u7EDC",
+      outbound: t("outboundNames.Private"),
       site_rules: [],
       ip_rules: ["private"]
     },
     {
       name: "Location:CN",
-      outbound: "\u{1F512} \u56FD\u5185\u670D\u52A1",
+      outbound: t("outboundNames.Location:CN"),
       site_rules: ["geolocation-cn"],
       ip_rules: ["cn"]
     },
     {
       name: "Telegram",
-      outbound: "\u{1F4F2} \u7535\u62A5\u6D88\u606F",
+      outbound: t("outboundNames.Telegram"),
       site_rules: [],
       ip_rules: ["telegram"]
     },
     {
       name: "Github",
-      outbound: "\u{1F431} Github",
+      outbound: t("outboundNames.Github"),
       site_rules: ["github", "gitlab"],
       ip_rules: []
     },
     {
       name: "Microsoft",
-      outbound: "\u24C2\uFE0F \u5FAE\u8F6F\u670D\u52A1",
+      outbound: t("outboundNames.Microsoft"),
       site_rules: ["microsoft"],
       ip_rules: []
     },
     {
       name: "Apple",
-      outbound: "\u{1F34F} \u82F9\u679C\u670D\u52A1",
+      outbound: t("outboundNames.Apple"),
       site_rules: ["apple"],
       ip_rules: []
     },
     {
       name: "Social Media",
-      outbound: "\u{1F310} \u793E\u4EA4\u5A92\u4F53",
+      outbound: t("outboundNames.Social Media"),
       site_rules: ["facebook", "instagram", "twitter", "tiktok", "linkedin"],
       ip_rules: []
     },
     {
       name: "Streaming",
-      outbound: "\u{1F3AC} \u6D41\u5A92\u4F53",
+      outbound: t("outboundNames.Streaming"),
       site_rules: ["netflix", "hulu", "disney", "hbo", "amazon", "bahamut"],
       ip_rules: []
     },
     {
       name: "Gaming",
-      outbound: "\u{1F3AE} \u6E38\u620F\u5E73\u53F0",
+      outbound: t("outboundNames.Gaming"),
       site_rules: ["steam", "epicgames", "ea", "ubisoft", "blizzard"],
       ip_rules: []
     },
     {
       name: "Education",
-      outbound: "\u{1F4DA} \u6559\u80B2\u8D44\u6E90",
+      outbound: t("outboundNames.Education"),
       site_rules: ["coursera", "edx", "udemy", "khanacademy", "category-scholar-!cn"],
       ip_rules: []
     },
     {
       name: "Financial",
-      outbound: "\u{1F4B0} \u91D1\u878D\u670D\u52A1",
+      outbound: t("outboundNames.Financial"),
       site_rules: ["paypal", "visa", "mastercard", "stripe", "wise"],
       ip_rules: []
     },
     {
       name: "Cloud Services",
-      outbound: "\u2601\uFE0F \u4E91\u670D\u52A1",
+      outbound: t("outboundNames.Cloud Services"),
       site_rules: ["aws", "azure", "digitalocean", "heroku", "dropbox"],
       ip_rules: []
     },
     {
       name: "Non-China",
-      outbound: "\u{1F310} \u975E\u4E2D\u56FD",
+      outbound: t("outboundNames.Non-China"),
       site_rules: ["geolocation-!cn"],
       ip_rules: []
     }
@@ -132,14 +570,26 @@
     });
     return acc;
   }, {});
+  var CLASH_SITE_RULE_SETS = UNIFIED_RULES.reduce((acc, rule) => {
+    rule.site_rules.forEach((site_rule) => {
+      acc[site_rule] = `${site_rule}.mrs`;
+    });
+    return acc;
+  }, {});
+  var CLASH_IP_RULE_SETS = UNIFIED_RULES.reduce((acc, rule) => {
+    rule.ip_rules.forEach((ip_rule) => {
+      acc[ip_rule] = `${ip_rule}.mrs`;
+    });
+    return acc;
+  }, {});
   function getOutbounds(selectedRuleNames) {
     if (!selectedRuleNames || !Array.isArray(selectedRuleNames)) {
       return [];
     }
-    return UNIFIED_RULES.filter((rule) => selectedRuleNames.includes(rule.name)).map((rule) => rule.outbound);
+    return UNIFIED_RULES.filter((rule) => selectedRuleNames.includes(rule.name)).map((rule) => rule.name);
   }
   __name(getOutbounds, "getOutbounds");
-  function generateRules(selectedRules = [], customRules = [], pin) {
+  function generateRules(selectedRules = [], customRules = []) {
     if (typeof selectedRules === "string" && PREDEFINED_RULE_SETS[selectedRules]) {
       selectedRules = PREDEFINED_RULE_SETS[selectedRules];
     }
@@ -154,34 +604,22 @@
           ip_rules: rule.ip_rules,
           domain_suffix: rule?.domain_suffix,
           ip_cidr: rule?.ip_cidr,
-          outbound: rule.outbound
+          outbound: rule.name
         });
       }
     });
-    if (customRules && customRules.length > 0 && pin !== "true") {
-      customRules.forEach((rule) => {
-        rules.push({
-          site_rules: rule.site.split(","),
-          ip_rules: rule.ip.split(","),
-          domain_suffix: rule.domain_suffix ? rule.domain_suffix.split(",") : [],
-          domain_keyword: rule.domain_keyword ? rule.domain_keyword.split(",") : [],
-          ip_cidr: rule.ip_cidr ? rule.ip_cidr.split(",") : [],
-          outbound: rule.name
-        });
+    customRules.reverse();
+    customRules.forEach((rule) => {
+      rules.unshift({
+        site_rules: rule.site.split(","),
+        ip_rules: rule.ip.split(","),
+        domain_suffix: rule.domain_suffix ? rule.domain_suffix.split(",") : [],
+        domain_keyword: rule.domain_keyword ? rule.domain_keyword.split(",") : [],
+        ip_cidr: rule.ip_cidr ? rule.ip_cidr.split(",") : [],
+        protocol: rule.protocol ? rule.protocol.split(",") : [],
+        outbound: rule.name
       });
-    } else if (customRules && customRules.length > 0 && pin === "true") {
-      customRules.reverse();
-      customRules.forEach((rule) => {
-        rules.unshift({
-          site_rules: rule.site.split(","),
-          ip_rules: rule.ip.split(","),
-          domain_suffix: rule.domain_suffix ? rule.domain_suffix.split(",") : [],
-          domain_keyword: rule.domain_keyword ? rule.domain_keyword.split(",") : [],
-          ip_cidr: rule.ip_cidr ? rule.ip_cidr.split(",") : [],
-          outbound: rule.name
-        });
-      });
-    }
+    });
     return rules;
   }
   __name(generateRules, "generateRules");
@@ -206,23 +644,20 @@
       tag: rule,
       type: "remote",
       format: "binary",
-      url: `${SITE_RULE_SET_BASE_URL}${SITE_RULE_SETS[rule]}`,
-      download_detour: "\u26A1 \u81EA\u52A8\u9009\u62E9"
+      url: `${SITE_RULE_SET_BASE_URL}${SITE_RULE_SETS[rule]}`
     }));
     const ip_rule_sets = Array.from(ipRuleSets).map((rule) => ({
       tag: `${rule}-ip`,
       type: "remote",
       format: "binary",
-      url: `${IP_RULE_SET_BASE_URL}${IP_RULE_SETS[rule]}`,
-      download_detour: "\u26A1 \u81EA\u52A8\u9009\u62E9"
+      url: `${IP_RULE_SET_BASE_URL}${IP_RULE_SETS[rule]}`
     }));
     if (!selectedRules.includes("Non-China")) {
       site_rule_sets.push({
         tag: "geolocation-!cn",
         type: "remote",
         format: "binary",
-        url: `${SITE_RULE_SET_BASE_URL}geosite-geolocation-!cn.srs`,
-        download_detour: "\u26A1 \u81EA\u52A8\u9009\u62E9"
+        url: `${SITE_RULE_SET_BASE_URL}geosite-geolocation-!cn.srs`
       });
     }
     if (customRules) {
@@ -233,8 +668,7 @@
               tag: site.trim(),
               type: "remote",
               format: "binary",
-              url: `${SITE_RULE_SET_BASE_URL}geosite-${site.trim()}.srs`,
-              download_detour: "\u26A1 \u81EA\u52A8\u9009\u62E9"
+              url: `${SITE_RULE_SET_BASE_URL}geosite-${site.trim()}.srs`
             });
           });
         }
@@ -244,8 +678,7 @@
               tag: `${ip.trim()}-ip`,
               type: "remote",
               format: "binary",
-              url: `${IP_RULE_SET_BASE_URL}geoip-${ip.trim()}.srs`,
-              download_detour: "\u26A1 \u81EA\u52A8\u9009\u62E9"
+              url: `${IP_RULE_SET_BASE_URL}geoip-${ip.trim()}.srs`
             });
           });
         }
@@ -255,6 +688,87 @@
     return { site_rule_sets, ip_rule_sets };
   }
   __name(generateRuleSets, "generateRuleSets");
+  function generateClashRuleSets(selectedRules = [], customRules = []) {
+    if (typeof selectedRules === "string" && PREDEFINED_RULE_SETS[selectedRules]) {
+      selectedRules = PREDEFINED_RULE_SETS[selectedRules];
+    }
+    if (!selectedRules || selectedRules.length === 0) {
+      selectedRules = PREDEFINED_RULE_SETS.minimal;
+    }
+    const selectedRulesSet = new Set(selectedRules);
+    const siteRuleSets = /* @__PURE__ */ new Set();
+    const ipRuleSets = /* @__PURE__ */ new Set();
+    UNIFIED_RULES.forEach((rule) => {
+      if (selectedRulesSet.has(rule.name)) {
+        rule.site_rules.forEach((siteRule) => siteRuleSets.add(siteRule));
+        rule.ip_rules.forEach((ipRule) => ipRuleSets.add(ipRule));
+      }
+    });
+    const site_rule_providers = {};
+    const ip_rule_providers = {};
+    Array.from(siteRuleSets).forEach((rule) => {
+      site_rule_providers[rule] = {
+        type: "http",
+        format: "mrs",
+        behavior: "domain",
+        url: `${CLASH_SITE_RULE_SET_BASE_URL}${CLASH_SITE_RULE_SETS[rule]}`,
+        path: `./ruleset/${CLASH_SITE_RULE_SETS[rule]}`,
+        interval: 86400
+      };
+    });
+    Array.from(ipRuleSets).forEach((rule) => {
+      ip_rule_providers[rule] = {
+        type: "http",
+        format: "mrs",
+        behavior: "ipcidr",
+        url: `${CLASH_IP_RULE_SET_BASE_URL}${CLASH_IP_RULE_SETS[rule]}`,
+        path: `./ruleset/${CLASH_IP_RULE_SETS[rule]}`,
+        interval: 86400
+      };
+    });
+    if (!selectedRules.includes("Non-China")) {
+      site_rule_providers["geolocation-!cn"] = {
+        type: "http",
+        format: "mrs",
+        behavior: "domain",
+        url: `${CLASH_SITE_RULE_SET_BASE_URL}geolocation-!cn.mrs`,
+        path: "./ruleset/geolocation-!cn.mrs",
+        interval: 86400
+      };
+    }
+    if (customRules) {
+      customRules.forEach((rule) => {
+        if (rule.site != "") {
+          rule.site.split(",").forEach((site) => {
+            const site_trimmed = site.trim();
+            site_rule_providers[site_trimmed] = {
+              type: "http",
+              format: "mrs",
+              behavior: "domain",
+              url: `${CLASH_SITE_RULE_SET_BASE_URL}${site_trimmed}.mrs`,
+              path: `./ruleset/${site_trimmed}.mrs`,
+              interval: 86400
+            };
+          });
+        }
+        if (rule.ip != "") {
+          rule.ip.split(",").forEach((ip) => {
+            const ip_trimmed = ip.trim();
+            ip_rule_providers[ip_trimmed] = {
+              type: "http",
+              format: "mrs",
+              behavior: "ipcidr",
+              url: `${CLASH_IP_RULE_SET_BASE_URL}${ip_trimmed}.mrs`,
+              path: `./ruleset/${ip_trimmed}.mrs`,
+              interval: 86400
+            };
+          });
+        }
+      });
+    }
+    return { site_rule_providers, ip_rule_providers };
+  }
+  __name(generateClashRuleSets, "generateClashRuleSets");
   var SING_BOX_CONFIG = {
     dns: {
       servers: [
@@ -338,7 +852,7 @@
     },
     inbounds: [
       { type: "mixed", tag: "mixed-in", listen: "0.0.0.0", listen_port: 2080 },
-      { type: "tun", tag: "tun-in", inet4_address: "172.19.0.1/30", auto_route: true, strict_route: true, stack: "mixed", sniff: true }
+      { type: "tun", tag: "tun-in", address: "172.19.0.1/30", auto_route: true, strict_route: true, stack: "mixed", sniff: true }
     ],
     outbounds: [
       { type: "direct", tag: "DIRECT" },
@@ -354,36 +868,40 @@
           "path": "geosite-geolocation-!cn.srs"
         }
       ],
-      rules: [
-        {
-          "outbound": "any",
-          "server": "dns_resolver"
-        }
-      ]
+      rules: []
     },
     experimental: {
       cache_file: {
         enabled: true,
         store_fakeip: true
-      },
-      clash_api: {
-        external_controller: "127.0.0.1:9090",
-        external_ui: "dashboard"
       }
     }
   };
   var CLASH_CONFIG = {
-    port: 7890,
+    "port": 7890,
     "socks-port": 7891,
     "allow-lan": false,
-    mode: "Rule",
+    "mode": "rule",
     "log-level": "info",
-    dns: {
-      enable: true,
-      ipv6: true,
+    "geodata-mode": true,
+    "geo-auto-update": true,
+    "geodata-loader": "standard",
+    "geo-update-interval": 24,
+    "geox-url": {
+      "geoip": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat",
+      "geosite": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat",
+      "mmdb": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb",
+      "asn": "https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
+    },
+    "rule-providers": {
+      // 将由代码自动生成
+    },
+    "dns": {
+      "enable": true,
+      "ipv6": true,
       "respect-rules": true,
       "enhanced-mode": "fake-ip",
-      nameserver: [
+      "nameserver": [
         "https://120.53.53.53/dns-query",
         "https://223.5.5.5/dns-query"
       ],
@@ -402,108 +920,44 @@
         ]
       }
     },
-    proxies: [],
+    "proxies": [],
     "proxy-groups": []
   };
-
-  // src/utils.js
-  var PATH_LENGTH = 7;
-  function decodeBase64(str2) {
-    const binString = atob(str2);
-    const bytes = Uint8Array.from(binString, (m) => m.codePointAt(0));
-    return new TextDecoder().decode(bytes);
-  }
-  __name(decodeBase64, "decodeBase64");
-  function encodeBase64(str2) {
-    return btoa(str2);
-  }
-  __name(encodeBase64, "encodeBase64");
-  function DeepCopy(obj) {
-    if (obj === null || typeof obj !== "object") {
-      return obj;
+  var SURGE_CONFIG = {
+    "general": {
+      "allow-wifi-access": false,
+      "wifi-access-http-port": 6152,
+      "wifi-access-socks5-port": 6153,
+      "http-listen": "127.0.0.1:6152",
+      "socks5-listen": "127.0.0.1:6153",
+      "allow-hotspot-access": false,
+      "skip-proxy": "127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,17.0.0.0/8,localhost,*.local,*.crashlytics.com,seed-sequoia.siri.apple.com,sequoia.apple.com",
+      "test-timeout": 5,
+      "proxy-test-url": "http://cp.cloudflare.com/generate_204",
+      "internet-test-url": "http://www.apple.com/library/test/success.html",
+      "geoip-maxmind-url": "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb",
+      "ipv6": false,
+      "show-error-page-for-reject": true,
+      "dns-server": "119.29.29.29, 180.184.1.1, 223.5.5.5, system",
+      "encrypted-dns-server": "https://223.5.5.5/dns-query",
+      "exclude-simple-hostnames": true,
+      "read-etc-hosts": true,
+      "always-real-ip": "*.msftconnecttest.com, *.msftncsi.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.logon.battlenet.com.cn, *.logon.battle.net, stun.l.google.com, easy-login.10099.com.cn,*-update.xoyocdn.com, *.prod.cloud.netflix.com, appboot.netflix.com, *-appboot.netflix.com",
+      "hijack-dns": "*:53",
+      "udp-policy-not-supported-behaviour": "REJECT",
+      "hide-vpn-icon": false
+    },
+    "replica": {
+      "hide-apple-request": true,
+      "hide-crashlytics-request": true,
+      "use-keyword-filter": false,
+      "hide-udp": false
     }
-    if (Array.isArray(obj)) {
-      return obj.map((item) => DeepCopy(item));
-    }
-    const newObj = {};
-    for (const key in obj) {
-      if (Object.prototype.hasOwnProperty.call(obj, key)) {
-        newObj[key] = DeepCopy(obj[key]);
-      }
-    }
-    return newObj;
-  }
-  __name(DeepCopy, "DeepCopy");
-  function GenerateWebPath(length = PATH_LENGTH) {
-    const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-    let result = "";
-    for (let i = 0; i < length; i++) {
-      result += characters.charAt(Math.floor(Math.random() * characters.length));
-    }
-    return result;
-  }
-  __name(GenerateWebPath, "GenerateWebPath");
-  function parseServerInfo(serverInfo) {
-    let host, port;
-    if (serverInfo.startsWith("[")) {
-      const closeBracketIndex = serverInfo.indexOf("]");
-      host = serverInfo.slice(1, closeBracketIndex);
-      port = serverInfo.slice(closeBracketIndex + 2);
-    } else {
-      const lastColonIndex = serverInfo.lastIndexOf(":");
-      host = serverInfo.slice(0, lastColonIndex);
-      port = serverInfo.slice(lastColonIndex + 1);
-    }
-    return { host, port: parseInt(port) };
-  }
-  __name(parseServerInfo, "parseServerInfo");
-  function parseUrlParams(url) {
-    const [, rest] = url.split("://");
-    const [addressPart, ...remainingParts] = rest.split("?");
-    const paramsPart = remainingParts.join("?");
-    const [paramsOnly, ...fragmentParts] = paramsPart.split("#");
-    const searchParams = new URLSearchParams(paramsOnly);
-    const params = Object.fromEntries(searchParams.entries());
-    const name = fragmentParts.length > 0 ? decodeURIComponent(fragmentParts.join("#")) : "";
-    return { addressPart, params, name };
-  }
-  __name(parseUrlParams, "parseUrlParams");
-  function createTlsConfig(params) {
-    let tls = { enabled: false };
-    if (params.security === "xtls" || params.security === "tls" || params.security === "reality") {
-      tls = {
-        enabled: true,
-        server_name: params.sni,
-        insecure: false,
-        utls: {
-          enabled: true,
-          fingerprint: "chrome"
-        }
-      };
-      if (params.security === "reality") {
-        tls.reality = {
-          enabled: true,
-          public_key: params.pbk,
-          short_id: params.sid
-        };
-      }
-    }
-    return tls;
-  }
-  __name(createTlsConfig, "createTlsConfig");
-  function createTransportConfig(params) {
-    return {
-      type: params.type,
-      path: params.path ?? void 0,
-      ...params.host && { "headers": { "host": params.host } },
-      service_name: params.serviceName ?? void 0
-    };
-  }
-  __name(createTransportConfig, "createTransportConfig");
+  };
 
   // src/ProxyParsers.js
   var ProxyParser = class {
-    static parse(url) {
+    static parse(url, userAgent) {
       url = url.trim();
       const type2 = url.split("://")[0];
       switch (type2) {
@@ -514,10 +968,11 @@
         case "vless":
           return new VlessParser().parse(url);
         case "hysteria2":
+        case "hy2":
           return new Hysteria2Parser().parse(url);
         case "http":
         case "https":
-          return HttpParser.parse(url);
+          return HttpParser.parse(url, userAgent);
         case "trojan":
           return new TrojanParser().parse(url);
         case "tuic":
@@ -531,23 +986,40 @@
       let parts = url.replace("ss://", "").split("#");
       let mainPart = parts[0];
       let tag = parts[1];
-      if (tag.includes("%")) {
+      if (tag && tag.includes("%")) {
         tag = decodeURIComponent(tag);
       }
-      let [base64, serverPart] = mainPart.split("@");
-      let decodedParts = decodeBase64(base64).split(":");
-      let method = decodedParts[0];
-      let password = decodedParts.slice(1).join(":");
-      let match = serverPart.match(/\[([^\]]+)\]:(\d+)/);
-      let server, server_port;
-      if (match) {
-        server = match[1];
-        server_port = match[2];
-      } else {
-        [server, server_port] = serverPart.split(":");
+      try {
+        let [base64, serverPart] = mainPart.split("@");
+        if (!serverPart) {
+          let decodedLegacy = base64ToBinary(mainPart);
+          let [methodAndPass, serverInfo] = decodedLegacy.split("@");
+          let [method2, password2] = methodAndPass.split(":");
+          let [server2, server_port2] = this.parseServer(serverInfo);
+          return this.createConfig(tag, server2, server_port2, method2, password2);
+        }
+        let decodedParts = base64ToBinary(decodeURIComponent(base64)).split(":");
+        let method = decodedParts[0];
+        let password = decodedParts.slice(1).join(":");
+        let [server, server_port] = this.parseServer(serverPart);
+        return this.createConfig(tag, server, server_port, method, password);
+      } catch (e) {
+        console.error("Failed to parse shadowsocks URL:", e);
+        return null;
       }
+    }
+    // Helper method to parse server info
+    parseServer(serverPart) {
+      let match = serverPart.match(/\[([^\]]+)\]:(\d+)/);
+      if (match) {
+        return [match[1], match[2]];
+      }
+      return serverPart.split(":");
+    }
+    // Helper method to create config object
+    createConfig(tag, server, server_port, method, password) {
       return {
-        "tag": tag,
+        "tag": tag || "Shadowsocks",
         "type": "shadowsocks",
         "server": server,
         "server_port": parseInt(server_port),
@@ -601,13 +1073,19 @@
       const [uuid, serverInfo] = addressPart.split("@");
       const { host, port } = parseServerInfo(serverInfo);
       const tls = createTlsConfig(params);
+      if (tls.reality) {
+        tls.utls = {
+          enabled: true,
+          fingerprint: "chrome"
+        };
+      }
       const transport = params.type !== "tcp" ? createTransportConfig(params) : void 0;
       return {
         type: "vless",
         tag: name,
         server: host,
         server_port: port,
-        uuid,
+        uuid: decodeURIComponent(uuid),
         tcp_fast_open: false,
         tls,
         transport,
@@ -622,12 +1100,7 @@
       const { addressPart, params, name } = parseUrlParams(url);
       const [uuid, serverInfo] = addressPart.split("@");
       const { host, port } = parseServerInfo(serverInfo);
-      const tls = {
-        enabled: true,
-        server_name: params.sni,
-        insecure: true,
-        alpn: ["h3"]
-      };
+      const tls = createTlsConfig(params);
       const obfs = {};
       if (params["obfs-password"]) {
         obfs.type = params.obfs;
@@ -639,11 +1112,11 @@
         type: "hysteria2",
         server: host,
         server_port: port,
-        password: uuid,
+        password: decodeURIComponent(uuid),
         tls,
-        obfs,
-        up_mbps: 100,
-        down_mbps: 100
+        obfs
+        // up_mbps: 100,
+        // down_mbps: 100
       };
     }
   };
@@ -661,7 +1134,7 @@
         tag: name,
         server: host,
         server_port: port,
-        password: password || parsedURL.username,
+        password: decodeURIComponent(password) || parsedURL.username,
         network: "tcp",
         tcp_fast_open: false,
         tls,
@@ -687,8 +1160,8 @@
         type: "tuic",
         server: host,
         server_port: port,
-        uuid: userinfo.split(":")[0],
-        password: userinfo.split(":")[1],
+        uuid: decodeURIComponent(userinfo.split(":")[0]),
+        password: decodeURIComponent(userinfo.split(":")[1]),
         congestion_control: params.congestion_control,
         tls,
         flow: params.flow ?? void 0
@@ -697,9 +1170,15 @@
   };
   __name(TuicParser, "TuicParser");
   var HttpParser = class {
-    static async parse(url) {
+    static async parse(url, userAgent) {
       try {
-        const response = await fetch(url);
+        let headers = new Headers({
+          "User-Agent": userAgent
+        });
+        const response = await fetch(url, {
+          method: "GET",
+          headers
+        });
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -731,10 +1210,13 @@
 
   // src/BaseConfigBuilder.js
   var BaseConfigBuilder = class {
-    constructor(inputString, baseConfig) {
+    constructor(inputString, baseConfig, lang, userAgent) {
       this.inputString = inputString;
       this.config = DeepCopy(baseConfig);
       this.customRules = [];
+      this.selectedRules = [];
+      setLanguage(lang);
+      this.userAgent = userAgent;
     }
     async build() {
       const customItems = await this.parseCustomItems();
@@ -746,48 +1228,57 @@
       const urls = this.inputString.split("\n").filter((url) => url.trim() !== "");
       const parsedItems = [];
       for (const url of urls) {
-        const result = await ProxyParser.parse(url);
-        if (Array.isArray(result)) {
-          for (const subUrl of result) {
-            const subResult = await ProxyParser.parse(subUrl);
-            if (subResult) {
-              parsedItems.push(subResult);
+        const processedUrls = this.tryDecodeBase64(url);
+        if (Array.isArray(processedUrls)) {
+          for (const processedUrl of processedUrls) {
+            const result = await ProxyParser.parse(processedUrl, this.userAgent);
+            if (Array.isArray(result)) {
+              for (const subUrl of result) {
+                const subResult = await ProxyParser.parse(subUrl, this.userAgent);
+                if (subResult) {
+                  parsedItems.push(subResult);
+                }
+              }
+            } else if (result) {
+              parsedItems.push(result);
             }
           }
-        } else if (result) {
-          parsedItems.push(result);
+        } else {
+          const result = await ProxyParser.parse(processedUrls, this.userAgent);
+          if (Array.isArray(result)) {
+            for (const subUrl of result) {
+              const subResult = await ProxyParser.parse(subUrl, this.userAgent);
+              if (subResult) {
+                parsedItems.push(subResult);
+              }
+            }
+          } else if (result) {
+            parsedItems.push(result);
+          }
         }
       }
       return parsedItems;
     }
-    addCustomItems(customItems) {
-      throw new Error("addCustomItems must be implemented in child class");
-    }
-    addSelectors() {
-      throw new Error("addSelectors must be implemented in child class");
-    }
-    formatConfig() {
-      throw new Error("formatConfig must be implemented in child class");
-    }
-  };
-  __name(BaseConfigBuilder, "BaseConfigBuilder");
-
-  // src/SingboxConfigBuilder.js
-  var ConfigBuilder = class extends BaseConfigBuilder {
-    constructor(inputString, selectedRules, customRules, pin, baseConfig) {
-      if (baseConfig === void 0) {
-        baseConfig = SING_BOX_CONFIG;
+    tryDecodeBase64(str2) {
+      if (str2.includes("://")) {
+        return str2;
       }
-      super(inputString, baseConfig);
-      this.selectedRules = selectedRules;
-      this.customRules = customRules;
-      this.pin = pin;
+      try {
+        const decoded = decodeBase64(str2);
+        if (decoded.includes("\n")) {
+          const multipleUrls = decoded.split("\n").filter((url) => url.trim() !== "");
+          if (multipleUrls.some((url) => url.includes("://"))) {
+            return multipleUrls;
+          }
+        }
+        if (decoded.includes("://")) {
+          return decoded;
+        }
+      } catch (e) {
+      }
+      return str2;
     }
-    addCustomItems(customItems) {
-      const validItems = customItems.filter((item) => item != null);
-      this.config.outbounds.push(...validItems);
-    }
-    addSelectors() {
+    getOutboundsList() {
       let outbounds;
       if (typeof this.selectedRules === "string" && PREDEFINED_RULE_SETS[this.selectedRules]) {
         outbounds = getOutbounds(PREDEFINED_RULE_SETS[this.selectedRules]);
@@ -796,100 +1287,186 @@
       } else {
         outbounds = getOutbounds(PREDEFINED_RULE_SETS.minimal);
       }
-      const proxyList = this.config.outbounds.filter((outbound) => outbound?.server != void 0).map((outbound) => outbound.tag);
+      return outbounds;
+    }
+    getProxyList() {
+      return this.getProxies().map((proxy) => this.getProxyName(proxy));
+    }
+    getProxies() {
+      throw new Error("getProxies must be implemented in child class");
+    }
+    getProxyName(proxy) {
+      throw new Error("getProxyName must be implemented in child class");
+    }
+    convertProxy(proxy) {
+      throw new Error("convertProxy must be implemented in child class");
+    }
+    addProxyToConfig(proxy) {
+      throw new Error("addProxyToConfig must be implemented in child class");
+    }
+    addAutoSelectGroup(proxyList) {
+      throw new Error("addAutoSelectGroup must be implemented in child class");
+    }
+    addNodeSelectGroup(proxyList) {
+      throw new Error("addNodeSelectGroup must be implemented in child class");
+    }
+    addOutboundGroups(outbounds, proxyList) {
+      throw new Error("addOutboundGroups must be implemented in child class");
+    }
+    addCustomRuleGroups(proxyList) {
+      throw new Error("addCustomRuleGroups must be implemented in child class");
+    }
+    addFallBackGroup(proxyList) {
+      throw new Error("addFallBackGroup must be implemented in child class");
+    }
+    addCustomItems(customItems) {
+      const validItems = customItems.filter((item) => item != null);
+      validItems.forEach((item) => {
+        if (item?.tag) {
+          const convertedProxy = this.convertProxy(item);
+          if (convertedProxy) {
+            this.addProxyToConfig(convertedProxy);
+          }
+        }
+      });
+    }
+    addSelectors() {
+      const outbounds = this.getOutboundsList();
+      const proxyList = this.getProxyList();
+      this.addAutoSelectGroup(proxyList);
+      this.addNodeSelectGroup(proxyList);
+      this.addOutboundGroups(outbounds, proxyList);
+      this.addCustomRuleGroups(proxyList);
+      this.addFallBackGroup(proxyList);
+    }
+    generateRules() {
+      return generateRules(this.selectedRules, this.customRules);
+    }
+    formatConfig() {
+      throw new Error("formatConfig must be implemented in child class");
+    }
+  };
+  __name(BaseConfigBuilder, "BaseConfigBuilder");
+
+  // src/SingboxConfigBuilder.js
+  var SingboxConfigBuilder = class extends BaseConfigBuilder {
+    constructor(inputString, selectedRules, customRules, baseConfig, lang, userAgent) {
+      if (baseConfig === void 0) {
+        baseConfig = SING_BOX_CONFIG;
+        if (baseConfig.dns && baseConfig.dns.servers) {
+          baseConfig.dns.servers[0].detour = t("outboundNames.Node Select");
+        }
+      }
+      super(inputString, baseConfig, lang, userAgent);
+      this.selectedRules = selectedRules;
+      this.customRules = customRules;
+    }
+    getProxies() {
+      return this.config.outbounds.filter((outbound) => outbound?.server != void 0);
+    }
+    getProxyName(proxy) {
+      return proxy.tag;
+    }
+    convertProxy(proxy) {
+      return proxy;
+    }
+    addProxyToConfig(proxy) {
+      this.config.outbounds.push(proxy);
+    }
+    addAutoSelectGroup(proxyList) {
       this.config.outbounds.unshift({
         type: "urltest",
-        tag: "\u26A1 \u81EA\u52A8\u9009\u62E9",
+        tag: t("outboundNames.Auto Select"),
         outbounds: DeepCopy(proxyList)
       });
-      proxyList.unshift("DIRECT", "REJECT", "\u26A1 \u81EA\u52A8\u9009\u62E9");
-      outbounds.unshift("\u{1F680} \u8282\u70B9\u9009\u62E9", "GLOBAL");
+    }
+    addNodeSelectGroup(proxyList) {
+      proxyList.unshift("DIRECT", "REJECT", t("outboundNames.Auto Select"));
+      this.config.outbounds.unshift({
+        type: "selector",
+        tag: t("outboundNames.Node Select"),
+        outbounds: proxyList
+      });
+    }
+    addOutboundGroups(outbounds, proxyList) {
       outbounds.forEach((outbound) => {
-        if (outbound !== "\u{1F680} \u8282\u70B9\u9009\u62E9") {
+        if (outbound !== t("outboundNames.Node Select")) {
           this.config.outbounds.push({
             type: "selector",
-            tag: outbound,
-            outbounds: ["\u{1F680} \u8282\u70B9\u9009\u62E9", ...proxyList]
-          });
-        } else {
-          this.config.outbounds.unshift({
-            type: "selector",
-            tag: outbound,
-            outbounds: proxyList
+            tag: t(`outboundNames.${outbound}`),
+            outbounds: [t("outboundNames.Node Select"), ...proxyList]
           });
         }
       });
+    }
+    addCustomRuleGroups(proxyList) {
       if (Array.isArray(this.customRules)) {
         this.customRules.forEach((rule) => {
           this.config.outbounds.push({
             type: "selector",
             tag: rule.name,
-            outbounds: ["\u{1F680} \u8282\u70B9\u9009\u62E9", ...proxyList]
+            outbounds: [t("outboundNames.Node Select"), ...proxyList]
           });
         });
       }
+    }
+    addFallBackGroup(proxyList) {
       this.config.outbounds.push({
         type: "selector",
-        tag: "\u{1F41F} \u6F0F\u7F51\u4E4B\u9C7C",
-        outbounds: ["\u{1F680} \u8282\u70B9\u9009\u62E9", ...proxyList]
+        tag: t("outboundNames.Fall Back"),
+        outbounds: [t("outboundNames.Node Select"), ...proxyList]
       });
     }
     formatConfig() {
-      const rules = generateRules(this.selectedRules, this.customRules, this.pin);
+      const rules = generateRules(this.selectedRules, this.customRules);
       const { site_rule_sets, ip_rule_sets } = generateRuleSets(this.selectedRules, this.customRules);
       this.config.route.rule_set = [...site_rule_sets, ...ip_rule_sets];
-      this.config.route.rules = rules.map((rule) => ({
-        rule_set: [
-          ...rule.site_rules.length > 0 && rule.site_rules[0] !== "" ? rule.site_rules : [],
-          ...rule.ip_rules.filter((ip) => ip.trim() !== "").map((ip) => `${ip}-ip`)
-        ],
-        domain_suffix: rule.domain_suffix,
-        domain_keyword: rule.domain_keyword,
-        ip_cidr: rule.ip_cidr,
-        outbound: rule.outbound
-      }));
+      rules.filter((rule) => !!rule.domain_suffix || !!rule.domain_keyword).map((rule) => {
+        this.config.route.rules.push({
+          domain_suffix: rule.domain_suffix,
+          domain_keyword: rule.domain_keyword,
+          protocol: rule.protocol,
+          outbound: t(`outboundNames.${rule.outbound}`)
+        });
+      });
+      rules.filter((rule) => !!rule.site_rules[0]).map((rule) => {
+        this.config.route.rules.push({
+          rule_set: [
+            ...rule.site_rules.length > 0 && rule.site_rules[0] !== "" ? rule.site_rules : []
+          ],
+          protocol: rule.protocol,
+          outbound: t(`outboundNames.${rule.outbound}`)
+        });
+      });
+      rules.filter((rule) => !!rule.ip_rules[0]).map((rule) => {
+        this.config.route.rules.push({
+          rule_set: [
+            ...rule.ip_rules.filter((ip) => ip.trim() !== "").map((ip) => `${ip}-ip`)
+          ],
+          protocol: rule.protocol,
+          outbound: t(`outboundNames.${rule.outbound}`)
+        });
+      });
+      rules.filter((rule) => !!rule.ip_cidr).map((rule) => {
+        this.config.route.rules.push({
+          ip_cidr: rule.ip_cidr,
+          protocol: rule.protocol,
+          outbound: t(`outboundNames.${rule.outbound}`)
+        });
+      });
       this.config.route.rules.unshift(
         { protocol: "dns", outbound: "dns-out" },
         { clash_mode: "direct", outbound: "DIRECT" },
-        { clash_mode: "global", outbound: "GLOBAL" }
+        { clash_mode: "global", outbound: t("outboundNames.Node Select") }
       );
       this.config.route.auto_detect_interface = true;
-      this.config.route.final = "\u{1F41F} \u6F0F\u7F51\u4E4B\u9C7C";
+      this.config.route.final = t("outboundNames.Fall Back");
       return this.config;
     }
   };
-  __name(ConfigBuilder, "ConfigBuilder");
+  __name(SingboxConfigBuilder, "SingboxConfigBuilder");
 
-  // src/htmlBuilder.js
-  function generateHtml(xrayUrl, singboxUrl, clashUrl, baseUrl) {
-    return `
-    <!DOCTYPE html>
-    <html lang="en">
-      ${generateHead()}
-      ${generateBody(xrayUrl, singboxUrl, clashUrl, baseUrl)}
-    </html>
-  `;
-  }
-  __name(generateHtml, "generateHtml");
-  var generateHead = /* @__PURE__ */ __name(() => `
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sublink Worker\u662F\u4E00\u6B3E\u5F3A\u5927\u7684\u5728\u7EBF\u8BA2\u9605\u94FE\u63A5\u8F6C\u6362\u5DE5\u5177,\u652F\u6301V2Ray/Xray\u3001SingBox\u3001Clash\u7B49\u591A\u79CD\u5BA2\u6237\u7AEF\uFF0C\u63D0\u4F9B\u81EA\u5B9A\u4E49\u89C4\u5219\u548C\u9AD8\u6548\u8F6C\u6362\uFF0C\u5E2E\u52A9\u60A8\u8F7B\u677E\u7BA1\u7406\u548C\u4F18\u5316\u4EE3\u7406\u8282\u70B9\u3002">
-    <meta name="keywords" content="Sublink, Worker, \u8BA2\u9605\u94FE\u63A5, \u4EE3\u7406, Xray, SingBox, Clash, V2Ray, \u81EA\u5B9A\u4E49\u89C4\u5219, \u5728\u7EBF, \u8BA2\u9605\u8F6C\u6362, \u673A\u573A\u8BA2\u9605, \u8282\u70B9\u7BA1\u7406, \u8282\u70B9\u89E3\u6790">
-    <title>Sublink Worker - \u8F7B\u91CF\u9AD8\u6548\u7684\u8BA2\u9605\u8F6C\u6362\u5DE5\u5177 | \u652F\u6301V2Ray/Xray\u3001SingBox\u3001Clash</title>
-    <meta property="og:title" content="Sublink Worker - \u8F7B\u91CF\u9AD8\u6548\u7684\u8BA2\u9605\u94FE\u63A5\u8F6C\u6362\u5DE5\u5177">
-    <meta property="og:description" content="\u5F3A\u5927\u7684\u5728\u7EBF\u8BA2\u9605\u94FE\u63A5\u8F6C\u6362\u5DE5\u5177,\u652F\u6301\u591A\u79CD\u4EE3\u7406\u534F\u8BAE\u548C\u81EA\u5B9A\u4E49\u89C4\u5219">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sublink-worker.sageer.me/">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"><\/script>
-    <style>
-      ${generateStyles()}
-    </style>
-  </head>
-`, "generateHead");
+  // src/style.js
   var generateStyles = /* @__PURE__ */ __name(() => `
   :root {
     --bg-color: #f0f2f5;
@@ -1109,15 +1686,15 @@
     visibility: hidden;
     opacity: 0;
     background-color: var(--card-bg);
-    position: fixed; // \u6539\u4E3A\u56FA\u5B9A\u5B9A\u4F4D
+    position: fixed;
     background-color: var(--card-bg);
     color: var(--text-color);
     border: 1px solid var(--input-border);
     border-radius: 6px;
     padding: 10px;
-    z-index: 1000; // \u63D0\u9AD8z-index\u503C
-    width: 300px;
-    max-width: 90vw; // \u9650\u5236\u6700\u5927\u5BBD\u5EA6
+    z-index: 1000;
+    width: 180px;
+    max-width: 90vw;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: opacity 0.3s, visibility 0.3s;
   }
@@ -1490,7 +2067,38 @@
     transform: translateY(0);
   }
 `, "generateStyles");
-  var generateBody = /* @__PURE__ */ __name((xrayUrl, singboxUrl, clashUrl, baseUrl) => `
+
+  // src/htmlBuilder.js
+  function generateHtml(xrayUrl, singboxUrl, clashUrl, surgeUrl, baseUrl) {
+    return `
+    <!DOCTYPE html>
+    <html lang="en">
+      ${generateHead()}
+      ${generateBody(xrayUrl, singboxUrl, clashUrl, surgeUrl, baseUrl)}
+    </html>
+  `;
+  }
+  __name(generateHtml, "generateHtml");
+  var generateHead = /* @__PURE__ */ __name(() => `
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="${t("pageDescription")}">
+    <meta name="keywords" content="${t("pageKeywords")}">
+    <title>${t("pageTitle")}</title>
+    <meta property="og:title" content="${t("ogTitle")}">
+    <meta property="og:description" content="${t("ogDescription")}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sublink-worker.sageer.me/">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"><\/script>
+    <style>
+      ${generateStyles()}
+    </style>
+  </head>
+`, "generateHead");
+  var generateBody = /* @__PURE__ */ __name((xrayUrl, singboxUrl, clashUrl, surgeUrl, baseUrl) => `
   <body>
     ${generateDarkModeToggle()}
     ${generateGithubLink()}
@@ -1500,15 +2108,12 @@
         <div class="card-body">
           ${generateForm()}
           <div id="subscribeLinksContainer">
-            ${generateSubscribeLinks(xrayUrl, singboxUrl, clashUrl, baseUrl)}
+            ${generateSubscribeLinks(xrayUrl, singboxUrl, clashUrl, surgeUrl, baseUrl)}
           </div>
         </div>
       </div>
     </div>
     ${generateScripts()}
-    <!-- Cloudflare Web Analytics -->
-    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "67ed5892c109479cb0baddfaa9249c4e"}'><\/script>
-    <!-- End Cloudflare Web Analytics -->
   </body>
 `, "generateBody");
   var generateDarkModeToggle = /* @__PURE__ */ __name(() => `
@@ -1529,13 +2134,13 @@
   var generateForm = /* @__PURE__ */ __name(() => `
   <form method="POST" id="encodeForm">
     <div class="form-section">
-      <div class="form-section-title">Share URLs</div>
-      <textarea class="form-control" id="inputTextarea" name="input" required placeholder="vmess://abcd..." rows="3"></textarea>
+      <div class="form-section-title">${t("shareUrls")}</div>
+      <textarea class="form-control" id="inputTextarea" name="input" required placeholder="${t("urlPlaceholder")}" rows="3"></textarea>
     </div>
 
     <div class="form-check form-switch mb-3">
       <input class="form-check-input" type="checkbox" id="advancedToggle">
-      <label class="form-check-label" for="advancedToggle">Advanced Options</label>
+      <label class="form-check-label" for="advancedToggle">${t("advancedOptions")}</label>
     </div>
 
     <div id="advancedOptions">
@@ -1545,11 +2150,11 @@
 
       <div class="form-section">
         <div class="form-section-title d-flex align-items-center">
-          Base Config Settings(Optional)
+          ${t("baseConfigSettings")}
           <span class="tooltip-icon ms-2">
             <i class="fas fa-question-circle"></i>
             <span class="tooltip-content">
-              This feature is experimental and may not work as expected. You can paste your own base config here. Go to <a href="https://github.com/7Sageer/sublink-worker/blob/main/docs/base-config.md" target="_blank">docs</a> for more information.
+              ${t("baseConfigTooltip")}
             </span>
           </span>
         </div>
@@ -1563,39 +2168,52 @@
           <textarea class="form-control" id="configEditor" rows="3" placeholder="Paste your custom config here..."></textarea>
         </div>
         <div class="d-flex gap-2">
-          <button type="button" class="btn btn-secondary" onclick="saveConfig()">Save Config</button>
+          <button type="button" class="btn btn-secondary" onclick="saveConfig()">${t("saveConfig")}</button>
           <button type="button" class="btn btn-outline-danger" onclick="clearConfig()">
-            <i class="fas fa-trash-alt me-2"></i>Clear Config
+            <i class="fas fa-trash-alt me-2"></i>${t("clearConfig")}
           </button>
         </div>
+      </div>
+
+      <div class="form-section">
+        <div class="form-section-title d-flex align-items-center">
+          ${t("UASettings")}
+          <span class="tooltip-icon ms-2">
+            <i class="fas fa-question-circle"></i>
+            <span class="tooltip-content">
+              ${t("UAtip")}
+            </span>
+          </span>
+        </div>
+        <input type="text" class="form-control" id="customUA" placeholder="curl/7.74.0">
       </div>
     </div>
 
     <div class="d-flex gap-2 mt-4">
       <button type="submit" class="btn btn-primary flex-grow-1">
-        <i class="fas fa-sync-alt me-2"></i>Convert
+        <i class="fas fa-sync-alt me-2"></i>${t("convert")}
       </button>
       <button type="button" class="btn btn-outline-secondary" id="clearFormBtn">
-        <i class="fas fa-trash-alt me-2"></i>Clear
+        <i class="fas fa-trash-alt me-2"></i>${t("clear")}
       </button>
     </div>
   </form>
 `, "generateForm");
-  var generateSubscribeLinks = /* @__PURE__ */ __name((xrayUrl, singboxUrl, clashUrl, baseUrl) => `
+  var generateSubscribeLinks = /* @__PURE__ */ __name((xrayUrl, singboxUrl, clashUrl, surgeUrl, baseUrl) => `
   <div class="mt-5">
-    <h2 class="mb-4">Your subscribe links:</h2>
-    ${generateLinkInput("Xray Link:", "xrayLink", xrayUrl)}
+    ${generateLinkInput("Xray Link (Base64):", "xrayLink", xrayUrl)}
     ${generateLinkInput("SingBox Link:", "singboxLink", singboxUrl)}
     ${generateLinkInput("Clash Link:", "clashLink", clashUrl)}
+    ${generateLinkInput("Surge Link:", "surgeLink", surgeUrl)}
     <div class="mb-3">
-      <label for="customShortCode" class="form-label">Custom Path (optional):</label>
+      <label for="customShortCode" class="form-label">${t("customPath")}</label>
       <div class="input-group flex-nowrap">
         <span class="input-group-text text-truncate" style="max-width: 400px;" title="${baseUrl}/s/">
           ${baseUrl}/s/
         </span>
         <input type="text" class="form-control" id="customShortCode" placeholder="e.g. my-custom-link">
         <select id="savedCustomPaths" class="form-select" style="max-width: 200px;">
-          <option value="">Saved paths</option>
+          <option value="">${t("savedPaths")}</option>
         </select>
         <button class="btn btn-outline-danger" type="button" onclick="deleteSelectedPath()">
           <i class="fas fa-trash-alt"></i>
@@ -1604,7 +2222,7 @@
     </div>
     <div class="d-grid">
       <button class="btn btn-primary btn-lg" type="button" onclick="shortenAllUrls()">
-        <i class="fas fa-compress-alt me-2"></i>Shorten Links
+        <i class="fas fa-compress-alt me-2"></i>${t("shortenLinks")}
       </button>
     </div>
   </div>
@@ -1633,7 +2251,7 @@
     ${applyPredefinedRulesFunction()}
     ${tooltipFunction()}
     ${submitFormFunction()}
-    ${customRuleFunctions}
+    ${customRuleFunctions()}
     ${generateQRCodeFunction()}
     ${customPathFunctions()}
     ${saveConfig()}
@@ -1719,6 +2337,8 @@
   }
 `, "copyToClipboardFunction");
   var shortenAllUrlsFunction = /* @__PURE__ */ __name(() => `
+  let isShortening = false;
+
   async function shortenUrl(url, customShortCode) {
     saveCustomPath();
     const response = await fetch(\`/shorten-v2?url=\${encodeURIComponent(url)}&shortCode=\${encodeURIComponent(customShortCode || '')}\`);
@@ -1730,25 +2350,40 @@
   }
 
   async function shortenAllUrls() {
-    const shortenButton = document.querySelector('button[onclick="shortenAllUrls()"]');
-    shortenButton.disabled = true;
-    shortenButton.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Shortening...';
+    if (isShortening) {
+      return;
+    }
 
+    const shortenButton = document.querySelector('button[onclick="shortenAllUrls()"]');
+    
     try {
-      const xrayLink = document.getElementById('xrayLink');
+      isShortening = true;
+      shortenButton.disabled = true;
+      shortenButton.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Shortening...';
+
       const singboxLink = document.getElementById('singboxLink');
-      const clashLink = document.getElementById('clashLink');
       const customShortCode = document.getElementById('customShortCode').value;
 
+      if (singboxLink.value.includes('/b/')) {
+        alert('Links are already shortened!');
+        return;
+      }
+
       const shortCode = await shortenUrl(singboxLink.value, customShortCode);
+
+      const xrayLink = document.getElementById('xrayLink');
+      const clashLink = document.getElementById('clashLink');
+      const surgeLink = document.getElementById('surgeLink');
 
       xrayLink.value = window.location.origin + '/x/' + shortCode;
       singboxLink.value = window.location.origin + '/b/' + shortCode;
       clashLink.value = window.location.origin + '/c/' + shortCode;
+      surgeLink.value = window.location.origin + '/s/' + shortCode;
     } catch (error) {
       console.error('Error:', error);
       alert('Failed to shorten URLs. Please try again.');
     } finally {
+      isShortening = false;
       shortenButton.disabled = false;
       shortenButton.innerHTML = '<i class="fas fa-compress-alt me-2"></i>Shorten Links';
     }
@@ -1789,21 +2424,23 @@
   var generateRuleSetSelection = /* @__PURE__ */ __name(() => `
   <div class="container">
     <div class="header-container">
-      <h4 class="header-title">Rule Selection</h4>
-      <span class="tooltip-icon">
-        <i class="fas fa-question-circle"></i>
-        <span class="tooltip-content">
-          These rules determine how traffic is directed through different proxies or directly. If you're unsure, you can use a predefined rule set.
-        </span>
-      </span>
+        <div class="form-section-title d-flex align-items-center">
+          ${t("ruleSelection")}
+          <span class="tooltip-icon ms-2">
+            <i class="fas fa-question-circle"></i>
+            <span class="tooltip-content">
+              ${t("ruleSelectionTooltip")}
+            </span>
+          </span>
+        </div>
     </div>
 
     <div class="content-container mb-3">
       <select class="form-select" id="predefinedRules" onchange="applyPredefinedRules()">
-        <option value="custom">Custom</option>
-        <option value="minimal">Minimal</option>
-        <option value="balanced">Balanced</option>
-        <option value="comprehensive">Comprehensive</option>
+        <option value="custom">${t("custom")}</option>
+        <option value="minimal">${t("minimal")}</option>
+        <option value="balanced">${t("balanced")}</option>
+        <option value="comprehensive">${t("comprehensive")}</option>
       </select>
     </div>
     <div class="row" id="ruleCheckboxes">
@@ -1811,21 +2448,16 @@
         <div class="col-md-4 mb-2">
           <div class="form-check">
             <input class="form-check-input rule-checkbox" type="checkbox" value="${rule.name}" id="${rule.name}" name="selectedRules">
-            <label class="form-check-label" for="${rule.name}">${rule.outbound}</label>
+            <label class="form-check-label" for="${rule.name}">${t("outboundNames." + rule.name)}</label>
           </div>
         </div>
       `).join("")}
     </div>
-    <div class="mt-4">
-      <h5>Custom Rules</h5>
-      <div class="form-check form-switch mb-3">
-        <input class="form-check-input" type="checkbox" id="crpinToggle">
-        <label class="form-check-label" for="crpinToggle">Pin Custom Rules</label>
-      </div>
+    <div class="mt-2">
       <div id="customRules">
       <!-- Custom rules will be dynamically added here -->
     </div>
-    <button type="button" class="btn btn-secondary mt-2" onclick="addCustomRule()">Add Custom Rule</button>
+    <button type="button" class="btn btn-secondary mt-2" onclick="addCustomRule()">${t("addCustomRule")}</button>
   </div>
   </div>
 `, "generateRuleSetSelection");
@@ -1851,6 +2483,19 @@
       }
     });
   }
+
+  // Add event listeners to checkboxes
+  document.addEventListener('DOMContentLoaded', function() {
+    const checkboxes = document.querySelectorAll('.rule-checkbox');
+    checkboxes.forEach(checkbox => {
+      checkbox.addEventListener('change', function() {
+        const predefinedSelect = document.getElementById('predefinedRules');
+        if (predefinedSelect.value !== 'custom') {
+          predefinedSelect.value = 'custom';
+        }
+      });
+    });
+  });
 `, "applyPredefinedRulesFunction");
   var tooltipFunction = /* @__PURE__ */ __name(() => `
   function initTooltips() {
@@ -1879,11 +2524,15 @@
     const form = event.target;
     const formData = new FormData(form);
     const inputString = formData.get('input');
+
+    const userAgent = document.getElementById('customUA').value;
     
     // Save form data to localStorage
     localStorage.setItem('inputTextarea', inputString);
     localStorage.setItem('advancedToggle', document.getElementById('advancedToggle').checked);
-    localStorage.setItem('crpinToggle', document.getElementById('crpinToggle').checked);
+
+    // Save UserAgent data to localStorage
+    localStorage.setItem('userAgent', document.getElementById('customUA').value);
     
     // \u4FDD\u5B58 configEditor \u548C configType \u5230 localStorage
     localStorage.setItem('configEditor', document.getElementById('configEditor').value);
@@ -1898,7 +2547,6 @@
         .map(checkbox => checkbox.value);
     }
     
-    let pin = document.getElementById('crpinToggle').checked;
     const configEditor = document.getElementById('configEditor');
     const configId = new URLSearchParams(window.location.search).get('configId') || '';
 
@@ -1908,18 +2556,19 @@
       name: rule.querySelector('input[name="customRuleName[]"]').value,
       domain_suffix: rule.querySelector('input[name="customRuleDomainSuffix[]"]').value,
       domain_keyword: rule.querySelector('input[name="customRuleDomainKeyword[]"]').value,
-      ip_cidr: rule.querySelector('input[name="customRuleIPCIDR[]"]').value
+      ip_cidr: rule.querySelector('input[name="customRuleIPCIDR[]"]').value,
+      protocol: rule.querySelector('input[name="customRuleProtocol[]"]').value
     }));
 
     const configParam = configId ? \`&configId=\${configId}\` : '';
-    const xrayUrl = \`\${window.location.origin}/xray?config=\${encodeURIComponent(inputString)}\${configParam}\`;
-    const singboxUrl = \`\${window.location.origin}/singbox?config=\${encodeURIComponent(inputString)}&selectedRules=\${encodeURIComponent(JSON.stringify(selectedRules))}&customRules=\${encodeURIComponent(JSON.stringify(customRules))}&pin=\${pin}\${configParam}\`;
-    const clashUrl = \`\${window.location.origin}/clash?config=\${encodeURIComponent(inputString)}&selectedRules=\${encodeURIComponent(JSON.stringify(selectedRules))}&customRules=\${encodeURIComponent(JSON.stringify(customRules))}&pin=\${pin}\${configParam}\`;
-
+    const xrayUrl = \`\${window.location.origin}/xray?config=\${encodeURIComponent(inputString)}&ua=\${encodeURIComponent(userAgent)}\${configParam}\`;
+    const singboxUrl = \`\${window.location.origin}/singbox?config=\${encodeURIComponent(inputString)}&ua=\${encodeURIComponent(userAgent)}&selectedRules=\${encodeURIComponent(JSON.stringify(selectedRules))}&customRules=\${encodeURIComponent(JSON.stringify(customRules))}\${configParam}\`;
+    const clashUrl = \`\${window.location.origin}/clash?config=\${encodeURIComponent(inputString)}&ua=\${encodeURIComponent(userAgent)}&selectedRules=\${encodeURIComponent(JSON.stringify(selectedRules))}&customRules=\${encodeURIComponent(JSON.stringify(customRules))}\${configParam}\`;
+    const surgeUrl = \`\${window.location.origin}/surge?config=\${encodeURIComponent(inputString)}&ua=\${encodeURIComponent(userAgent)}&selectedRules=\${encodeURIComponent(JSON.stringify(selectedRules))}&customRules=\${encodeURIComponent(JSON.stringify(customRules))}\${configParam}\`;
     document.getElementById('xrayLink').value = xrayUrl;
     document.getElementById('singboxLink').value = singboxUrl;
     document.getElementById('clashLink').value = clashUrl;
-
+    document.getElementById('surgeLink').value = surgeUrl;
     // Show the subscribe part
     const subscribeLinksContainer = document.getElementById('subscribeLinksContainer');
     subscribeLinksContainer.classList.remove('hide');
@@ -1941,6 +2590,12 @@
       if (advancedToggle === 'true') {
         document.getElementById('advancedOptions').classList.add('show');
       }
+    }
+    
+    // Load userAgent
+    const savedUA = localStorage.getItem('userAgent');
+    if (savedUA) {
+      document.getElementById('customUA').value = savedUA;
     }
     
     // \u52A0\u8F7D configEditor \u548C configType
@@ -1994,12 +2649,14 @@
     localStorage.removeItem('predefinedRules');
     localStorage.removeItem('configEditor');  // \u6DFB\u52A0\u6E05\u9664 configEditor
     localStorage.removeItem('configType');    // \u6DFB\u52A0\u6E05\u9664 configType
+    localStorage.removeItem('userAgent');
     
     document.getElementById('inputTextarea').value = '';
     document.getElementById('advancedToggle').checked = false;
     document.getElementById('advancedOptions').classList.remove('show');
     document.getElementById('configEditor').value = '';
     document.getElementById('configType').value = 'singbox';  // \u91CD\u7F6E\u4E3A\u9ED8\u8BA4\u503C
+    document.getElementById('customUA').value = '';
     
     localStorage.removeItem('customPath');
     document.getElementById('customShortCode').value = '';
@@ -2024,7 +2681,7 @@
     document.getElementById('clearFormBtn').addEventListener('click', clearFormData);
   });
 `, "submitFormFunction");
-  var customRuleFunctions = `
+  var customRuleFunctions = /* @__PURE__ */ __name(() => `
   let customRuleCount = 0;
 
   function addCustomRule() {
@@ -2034,42 +2691,52 @@
     newRuleDiv.dataset.ruleId = customRuleCount++;
     newRuleDiv.innerHTML = \`
       <div class="mb-2">
-        <label class="form-label">Outbound Name*</label>
-        <input type="text" class="form-control mb-2" name="customRuleName[]" placeholder="Rule Name" required>
+        <label class="form-label">${t("customRuleOutboundName")}</label>
+        <input type="text" class="form-control mb-2" name="customRuleName[]" placeholder="${t("customRuleOutboundName")}" required>
       </div>
       <div class="mb-2">
-        <label class="form-label">Geo-Site Rule Sets</label>
+        <label class="form-label">${t("customRuleGeoSite")}</label>
         <span class="tooltip-icon">
           <i class="fas fa-question-circle"></i>
           <span class="tooltip-content">
-            Site Rules in SingBox comes from https://github.com/lyc8503/sing-box-rules, that means your custom rules must be in the repos
+            ${t("customRuleGeoSiteTooltip")}
           </span>
         </span>
-        <input type="text" class="form-control" name="customRuleSite[]" placeholder="e.g., google,anthropic">
+        <input type="text" class="form-control" name="customRuleSite[]" placeholder="${t("customRuleGeoSitePlaceholder")}">
       </div>
       <div class="mb-2">
-        <label class="form-label">Geo-IP Rule Sets</label>
+        <label class="form-label">${t("customRuleGeoIP")}</label>
         <span class="tooltip-icon">
           <i class="fas fa-question-circle"></i>
           <span class="tooltip-content">
-            IP Rules in SingBox comes from https://github.com/lyc8503/sing-box-rules, that means your custom rules must be in the repos
+            ${t("customRuleGeoIPTooltip")}
           </span>
         </span>
-        <input type="text" class="form-control" name="customRuleIP[]" placeholder="e.g., private,cn">
+        <input type="text" class="form-control" name="customRuleIP[]" placeholder="${t("customRuleGeoIPPlaceholder")}">
       </div>
       <div class="mb-2">
-        <label class="form-label">Domain Suffix</label>
-        <input type="text" class="form-control mb-2" name="customRuleDomainSuffix[]" placeholder="Domain Suffix (comma separated)">
+        <label class="form-label">${t("customRuleDomainSuffix")}</label>
+        <input type="text" class="form-control mb-2" name="customRuleDomainSuffix[]" placeholder="${t("customRuleDomainSuffixPlaceholder")}">
       </div>
       <div class="mb-2">
-        <label class="form-label">Domain Keyword</label>
-        <input type="text" class="form-control mb-2" name="customRuleDomainKeyword[]" placeholder="Domain Keyword (comma separated)">
+        <label class="form-label">${t("customRuleDomainKeyword")}</label>
+        <input type="text" class="form-control mb-2" name="customRuleDomainKeyword[]" placeholder="${t("customRuleDomainKeywordPlaceholder")}">
       </div>
       <div class="mb-2">
-        <label class="form-label">IP CIDR</label>
-        <input type="text" class="form-control mb-2" name="customRuleIPCIDR[]" placeholder="IP CIDR (comma separated)">
+        <label class="form-label">${t("customRuleIPCIDR")}</label>
+        <input type="text" class="form-control mb-2" name="customRuleIPCIDR[]" placeholder="${t("customRuleIPCIDRPlaceholder")}">
       </div>
-      <button type="button" class="btn btn-danger btn-sm" onclick="removeCustomRule(this)">Remove</button>
+      <div class="mb-2">
+        <label class="form-label">${t("customRuleProtocol")}</label>
+        <span class="tooltip-icon">
+          <i class="fas fa-question-circle"></i>
+          <span class="tooltip-content">
+            ${t("customRuleProtocolTooltip")}
+          </span>
+        </span>
+        <input type="text" class="form-control mb-2" name="customRuleProtocol[]" placeholder="${t("customRuleProtocolPlaceholder")}">
+      </div>
+      <button type="button" class="btn btn-danger btn-sm" onclick="removeCustomRule(this)">${t("removeCustomRule")}</button>
     \`;
     customRulesDiv.appendChild(newRuleDiv);
   }
@@ -2084,7 +2751,7 @@
       }, { once: true });
     }
   }
-`;
+`, "customRuleFunctions");
   var generateQRCodeFunction = /* @__PURE__ */ __name(() => `
   function generateQRCode(id) {
     const input = document.getElementById(id);
@@ -2151,8 +2818,7 @@
     const configEditor = document.getElementById('configEditor');
     const configType = document.getElementById('configType').value;
     const config = configEditor.value;
-    
-    // \u4FDD\u5B58\u5230 localStorage
+
     localStorage.setItem('configEditor', config);
     localStorage.setItem('configType', configType);
     
@@ -2193,7 +2859,7 @@
   }
 `, "clearConfig");
 
-  // node_modules/js-yaml/dist/js-yaml.mjs
+  // node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs
   function isNothing(subject) {
     return typeof subject === "undefined" || subject === null;
   }
@@ -5006,86 +5672,21 @@
 
   // src/ClashConfigBuilder.js
   var ClashConfigBuilder = class extends BaseConfigBuilder {
-    constructor(inputString, selectedRules, customRules, pin, baseConfig) {
+    constructor(inputString, selectedRules, customRules, baseConfig, lang, userAgent) {
       if (!baseConfig) {
         baseConfig = CLASH_CONFIG;
       }
-      super(inputString, baseConfig);
+      super(inputString, baseConfig, lang, userAgent);
       this.selectedRules = selectedRules;
       this.customRules = customRules;
-      this.pin = pin;
     }
-    addCustomItems(customItems) {
-      customItems.forEach((item) => {
-        if (item?.tag && !this.config.proxies.some((p) => p.name === item.tag)) {
-          this.config.proxies.push(this.convertToClashProxy(item));
-        }
-      });
+    getProxies() {
+      return this.config.proxies || [];
     }
-    addSelectors() {
-      let outbounds;
-      if (typeof this.selectedRules === "string" && PREDEFINED_RULE_SETS[this.selectedRules]) {
-        outbounds = getOutbounds(PREDEFINED_RULE_SETS[this.selectedRules]);
-      } else if (this.selectedRules && Object.keys(this.selectedRules).length > 0) {
-        outbounds = getOutbounds(this.selectedRules);
-      } else {
-        outbounds = getOutbounds(PREDEFINED_RULE_SETS.minimal);
-      }
-      const proxyList = this.config.proxies.map((proxy) => proxy.name);
-      this.config["proxy-groups"].push({
-        name: "\u26A1 \u81EA\u52A8\u9009\u62E9",
-        type: "url-test",
-        proxies: DeepCopy(proxyList),
-        url: "https://www.gstatic.com/generate_204",
-        interval: 300,
-        lazy: false
-      });
-      proxyList.unshift("DIRECT", "REJECT", "\u26A1 \u81EA\u52A8\u9009\u62E9");
-      outbounds.unshift("\u{1F680} \u8282\u70B9\u9009\u62E9");
-      outbounds.forEach((outbound) => {
-        if (outbound !== "\u{1F680} \u8282\u70B9\u9009\u62E9") {
-          this.config["proxy-groups"].push({
-            type: "select",
-            name: outbound,
-            proxies: ["\u{1F680} \u8282\u70B9\u9009\u62E9", ...proxyList]
-          });
-        } else {
-          this.config["proxy-groups"].unshift({
-            type: "select",
-            name: outbound,
-            proxies: proxyList
-          });
-        }
-      });
-      if (Array.isArray(this.customRules)) {
-        this.customRules.forEach((rule) => {
-          this.config["proxy-groups"].push({
-            type: "select",
-            name: rule.name,
-            proxies: ["\u{1F680} \u8282\u70B9\u9009\u62E9", ...proxyList]
-          });
-        });
-      }
-      this.config["proxy-groups"].push({
-        type: "select",
-        name: "\u{1F41F} \u6F0F\u7F51\u4E4B\u9C7C",
-        proxies: ["\u{1F680} \u8282\u70B9\u9009\u62E9", ...proxyList]
-      });
+    getProxyName(proxy) {
+      return proxy.name;
     }
-    formatConfig() {
-      const rules = generateRules(this.selectedRules, this.customRules, this.pin);
-      this.config.rules = rules.flatMap((rule) => {
-        const siteRules = rule.site_rules[0] !== "" ? rule.site_rules.map((site) => `GEOSITE,${site},${rule.outbound}`) : [];
-        const ipRules = rule.ip_rules[0] !== "" ? rule.ip_rules.map((ip) => `GEOIP,${ip},${rule.outbound}`) : [];
-        const domainSuffixRules = rule.domain_suffix ? rule.domain_suffix.map((suffix) => `DOMAIN-SUFFIX,${suffix},${rule.outbound}`) : [];
-        const domainKeywordRules = rule.domain_keyword ? rule.domain_keyword.map((keyword) => `DOMAIN-KEYWORD,${keyword},${rule.outbound}`) : [];
-        const ipCidrRules = rule.ip_cidr ? rule.ip_cidr.map((cidr) => `IP-CIDR,${cidr},${rule.outbound}`) : [];
-        return [...siteRules, ...ipRules, ...domainSuffixRules, ...domainKeywordRules, ...ipCidrRules];
-      });
-      this.config.rules.push("MATCH,\u{1F41F} \u6F0F\u7F51\u4E4B\u9C7C");
-      return js_yaml_default.dump(this.config);
-    }
-    convertToClashProxy(proxy) {
+    convertProxy(proxy) {
       switch (proxy.type) {
         case "shadowsocks":
           return {
@@ -5134,7 +5735,6 @@
               "short-id": proxy.tls.reality.short_id
             } : void 0,
             "grpc-opts": proxy.transport?.type === "grpc" ? {
-              "grpc-mode": "gun",
               "grpc-service-name": proxy.transport.service_name
             } : void 0,
             tfo: proxy.tcp_fast_open,
@@ -5163,7 +5763,7 @@
             cipher: proxy.security,
             tls: proxy.tls?.enabled || false,
             "client-fingerprint": proxy.tls.utls?.fingerprint,
-            servername: proxy.tls?.server_name || "",
+            sni: proxy.tls?.server_name || "",
             network: proxy.transport?.type || "tcp",
             "ws-opts": proxy.transport?.type === "ws" ? {
               path: proxy.transport.path,
@@ -5174,7 +5774,6 @@
               "short-id": proxy.tls.reality.short_id
             } : void 0,
             "grpc-opts": proxy.transport?.type === "grpc" ? {
-              "grpc-mode": "gun",
               "grpc-service-name": proxy.transport.service_name
             } : void 0,
             tfo: proxy.tcp_fast_open,
@@ -5200,8 +5799,320 @@
           return proxy;
       }
     }
+    addProxyToConfig(proxy) {
+      this.config.proxies = this.config.proxies || [];
+      this.config.proxies.push(proxy);
+    }
+    addAutoSelectGroup(proxyList) {
+      this.config["proxy-groups"] = this.config["proxy-groups"] || [];
+      this.config["proxy-groups"].push({
+        name: t("outboundNames.Auto Select"),
+        type: "url-test",
+        proxies: DeepCopy(proxyList),
+        url: "https://www.gstatic.com/generate_204",
+        interval: 300,
+        lazy: false
+      });
+    }
+    addNodeSelectGroup(proxyList) {
+      proxyList.unshift("DIRECT", "REJECT", t("outboundNames.Auto Select"));
+      this.config["proxy-groups"].unshift({
+        type: "select",
+        name: t("outboundNames.Node Select"),
+        proxies: proxyList
+      });
+    }
+    addOutboundGroups(outbounds, proxyList) {
+      outbounds.forEach((outbound) => {
+        if (outbound !== t("outboundNames.Node Select")) {
+          this.config["proxy-groups"].push({
+            type: "select",
+            name: t(`outboundNames.${outbound}`),
+            proxies: [t("outboundNames.Node Select"), ...proxyList]
+          });
+        }
+      });
+    }
+    addCustomRuleGroups(proxyList) {
+      if (Array.isArray(this.customRules)) {
+        this.customRules.forEach((rule) => {
+          this.config["proxy-groups"].push({
+            type: "select",
+            name: t(`outboundNames.${rule.name}`),
+            proxies: [t("outboundNames.Node Select"), ...proxyList]
+          });
+        });
+      }
+    }
+    addFallBackGroup(proxyList) {
+      this.config["proxy-groups"].push({
+        type: "select",
+        name: t("outboundNames.Fall Back"),
+        proxies: [t("outboundNames.Node Select"), ...proxyList]
+      });
+    }
+    // 生成规则
+    generateRules() {
+      return generateRules(this.selectedRules, this.customRules);
+    }
+    formatConfig() {
+      const rules = this.generateRules();
+      const ruleResults = [];
+      const { site_rule_providers, ip_rule_providers } = generateClashRuleSets(this.selectedRules, this.customRules);
+      this.config["rule-providers"] = {
+        ...site_rule_providers,
+        ...ip_rule_providers
+      };
+      rules.filter((rule) => !!rule.domain_suffix || !!rule.domain_keyword).map((rule) => {
+        rule.domain_suffix.forEach((suffix) => {
+          ruleResults.push(`DOMAIN-SUFFIX,${suffix},${t("outboundNames." + rule.outbound)}`);
+        });
+        rule.domain_keyword.forEach((keyword) => {
+          ruleResults.push(`DOMAIN-KEYWORD,${keyword},${t("outboundNames." + rule.outbound)}`);
+        });
+      });
+      rules.filter((rule) => !!rule.site_rules[0]).map((rule) => {
+        rule.site_rules.forEach((site) => {
+          ruleResults.push(`RULE-SET,${site},${t("outboundNames." + rule.outbound)}`);
+        });
+      });
+      rules.filter((rule) => !!rule.ip_rules[0]).map((rule) => {
+        rule.ip_rules.forEach((ip) => {
+          ruleResults.push(`RULE-SET,${ip},${t("outboundNames." + rule.outbound)},no-resolve`);
+        });
+      });
+      rules.filter((rule) => !!rule.ip_cidr).map((rule) => {
+        rule.ip_cidr.forEach((cidr) => {
+          ruleResults.push(`IP-CIDR,${cidr},${t("outboundNames." + rule.outbound)},no-resolve`);
+        });
+      });
+      this.config.rules = [...ruleResults];
+      this.config.rules.push(`MATCH,${t("outboundNames.Fall Back")}`);
+      return js_yaml_default.dump(this.config);
+    }
   };
   __name(ClashConfigBuilder, "ClashConfigBuilder");
+
+  // src/SurgeConfigBuilder.js
+  var SurgeConfigBuilder = class extends BaseConfigBuilder {
+    constructor(inputString, selectedRules, customRules, baseConfig, lang, userAgent) {
+      baseConfig = SURGE_CONFIG;
+      super(inputString, baseConfig, lang, userAgent);
+      this.selectedRules = selectedRules;
+      this.customRules = customRules;
+      this.subscriptionUrl = null;
+    }
+    setSubscriptionUrl(url) {
+      this.subscriptionUrl = url;
+      return this;
+    }
+    getProxies() {
+      return this.config.proxies || [];
+    }
+    getProxyName(proxy) {
+      return proxy.split("=")[0].trim();
+    }
+    convertProxy(proxy) {
+      let surgeProxy;
+      switch (proxy.type) {
+        case "shadowsocks":
+          surgeProxy = `${proxy.tag} = ss, ${proxy.server}, ${proxy.server_port}, encrypt-method=${proxy.method}, password=${proxy.password}`;
+          break;
+        case "vmess":
+          surgeProxy = `${proxy.tag} = vmess, ${proxy.server}, ${proxy.server_port}, username=${proxy.uuid}`;
+          if (proxy.alter_id == 0) {
+            surgeProxy += ", vmess-aead=true";
+          }
+          if (proxy.tls?.enabled) {
+            surgeProxy += ", tls=true";
+            if (proxy.tls.server_name) {
+              surgeProxy += `, sni=${proxy.tls.server_name}`;
+            }
+            if (proxy.tls.insecure) {
+              surgeProxy += ", skip-cert-verify=true";
+            }
+            if (proxy.tls.alpn) {
+              surgeProxy += `, alpn=${proxy.tls.alpn.join(",")}`;
+            }
+          }
+          if (proxy.transport?.type === "ws") {
+            surgeProxy += `, ws=true, ws-path=${proxy.transport.path}`;
+            if (proxy.transport.headers) {
+              surgeProxy += `, ws-headers=Host:${proxy.transport.headers.Host}`;
+            }
+          } else if (proxy.transport?.type === "grpc") {
+            surgeProxy += `, grpc-service-name=${proxy.transport.service_name}`;
+          }
+          break;
+        case "trojan":
+          surgeProxy = `${proxy.tag} = trojan, ${proxy.server}, ${proxy.server_port}, password=${proxy.password}`;
+          if (proxy.tls?.server_name) {
+            surgeProxy += `, sni=${proxy.tls.server_name}`;
+          }
+          if (proxy.tls?.insecure) {
+            surgeProxy += ", skip-cert-verify=true";
+          }
+          if (proxy.tls?.alpn) {
+            surgeProxy += `, alpn=${proxy.tls.alpn.join(",")}`;
+          }
+          if (proxy.transport?.type === "ws") {
+            surgeProxy += `, ws=true, ws-path=${proxy.transport.path}`;
+            if (proxy.transport.headers) {
+              surgeProxy += `, ws-headers=Host:${proxy.transport.headers.Host}`;
+            }
+          } else if (proxy.transport?.type === "grpc") {
+            surgeProxy += `, grpc-service-name=${proxy.transport.service_name}`;
+          }
+          break;
+        case "hysteria2":
+          surgeProxy = `${proxy.tag} = hysteria2, ${proxy.server}, ${proxy.server_port}, password=${proxy.password}`;
+          if (proxy.tls?.server_name) {
+            surgeProxy += `, sni=${proxy.tls.server_name}`;
+          }
+          if (proxy.tls?.insecure) {
+            surgeProxy += ", skip-cert-verify=true";
+          }
+          if (proxy.tls?.alpn) {
+            surgeProxy += `, alpn=${proxy.tls.alpn.join(",")}`;
+          }
+          break;
+        case "tuic":
+          surgeProxy = `${proxy.tag} = tuic, ${proxy.server}, ${proxy.server_port}, password=${proxy.password}, uuid=${proxy.uuid}`;
+          if (proxy.tls?.server_name) {
+            surgeProxy += `, sni=${proxy.tls.server_name}`;
+          }
+          if (proxy.tls?.alpn) {
+            surgeProxy += `, alpn=${proxy.tls.alpn.join(",")}`;
+          }
+          if (proxy.tls?.insecure) {
+            surgeProxy += ", skip-cert-verify=true";
+          }
+          if (proxy.congestion_control) {
+            surgeProxy += `, congestion-controller=${proxy.congestion_control}`;
+          }
+          if (proxy.udp_relay_mode) {
+            surgeProxy += `, udp-relay-mode=${proxy.udp_relay_mode}`;
+          }
+          break;
+        default:
+          surgeProxy = `# ${proxy.tag} - Unsupported proxy type: ${proxy.type}`;
+      }
+      return surgeProxy;
+    }
+    addProxyToConfig(proxy) {
+      this.config.proxies = this.config.proxies || [];
+      this.config.proxies.push(proxy);
+    }
+    createProxyGroup(name, type2, options = [], extraConfig = "") {
+      const baseOptions = type2 === "url-test" ? [] : ["DIRECT", "REJECT-DROP"];
+      const proxyNames = this.getProxies().map((proxy) => this.getProxyName(proxy));
+      const allOptions = [...baseOptions, ...options, ...proxyNames];
+      return `${name} = ${type2}, ${allOptions.join(", ")}${extraConfig}`;
+    }
+    addAutoSelectGroup(proxyList) {
+      this.config["proxy-groups"] = this.config["proxy-groups"] || [];
+      this.config["proxy-groups"].push(
+        this.createProxyGroup(t("outboundNames.Auto Select"), "url-test", [], ", url=http://www.gstatic.com/generate_204, interval=300")
+      );
+    }
+    addNodeSelectGroup(proxyList) {
+      this.config["proxy-groups"].push(
+        this.createProxyGroup(t("outboundNames.Node Select"), "select", [t("outboundNames.Auto Select")])
+      );
+    }
+    addOutboundGroups(outbounds, proxyList) {
+      outbounds.forEach((outbound) => {
+        if (outbound !== t("outboundNames.Node Select")) {
+          this.config["proxy-groups"].push(
+            this.createProxyGroup(t(`outboundNames.${outbound}`), "select", [t("outboundNames.Node Select")])
+          );
+        }
+      });
+    }
+    addCustomRuleGroups(proxyList) {
+      if (Array.isArray(this.customRules)) {
+        this.customRules.forEach((rule) => {
+          this.config["proxy-groups"].push(
+            this.createProxyGroup(rule.name, "select", [t("outboundNames.Node Select")])
+          );
+        });
+      }
+    }
+    addFallBackGroup(proxyList) {
+      this.config["proxy-groups"].push(
+        this.createProxyGroup(t("outboundNames.Fall Back"), "select", [t("outboundNames.Node Select")])
+      );
+    }
+    formatConfig() {
+      const rules = generateRules(this.selectedRules, this.customRules);
+      let finalConfig = [];
+      if (this.subscriptionUrl) {
+        finalConfig.push(`#!MANAGED-CONFIG ${this.subscriptionUrl} interval=43200 strict=false`);
+        finalConfig.push("");
+      }
+      finalConfig.push("[General]");
+      if (this.config.general) {
+        Object.entries(this.config.general).forEach(([key, value]) => {
+          finalConfig.push(`${key} = ${value}`);
+        });
+      }
+      if (this.config.replica) {
+        finalConfig.push("\n[Replica]");
+        Object.entries(this.config.replica).forEach(([key, value]) => {
+          finalConfig.push(`${key} = ${value}`);
+        });
+      }
+      finalConfig.push("\n[Proxy]");
+      finalConfig.push("DIRECT = direct");
+      if (this.config.proxies) {
+        finalConfig.push(...this.config.proxies);
+      }
+      finalConfig.push("\n[Proxy Group]");
+      if (this.config["proxy-groups"]) {
+        finalConfig.push(...this.config["proxy-groups"]);
+      }
+      finalConfig.push("\n[Rule]");
+      rules.filter((rule) => !!rule.domain_suffix).map((rule) => {
+        rule.domain_suffix.forEach((suffix) => {
+          finalConfig.push(`DOMAIN-SUFFIX,${suffix},${t("outboundNames." + rule.outbound)}`);
+        });
+      });
+      rules.filter((rule) => !!rule.domain_keyword).map((rule) => {
+        rule.domain_keyword.forEach((keyword) => {
+          finalConfig.push(`DOMAIN-KEYWORD,${keyword},${t("outboundNames." + rule.outbound)}`);
+        });
+      });
+      rules.filter((rule) => rule.site_rules[0] !== "").map((rule) => {
+        rule.site_rules.forEach((site) => {
+          finalConfig.push(`RULE-SET,${SURGE_SITE_RULE_SET_BASEURL}${site}.conf,${t("outboundNames." + rule.outbound)}`);
+        });
+      });
+      rules.filter((rule) => rule.ip_rules[0] !== "").map((rule) => {
+        rule.ip_rules.forEach((ip) => {
+          finalConfig.push(`RULE-SET,${SURGE_IP_RULE_SET_BASEURL}${ip}.txt,${t("outboundNames." + rule.outbound)},no-resolve`);
+        });
+      });
+      rules.filter((rule) => !!rule.ip_cidr).map((rule) => {
+        rule.ip_cidr.forEach((cidr) => {
+          finalConfig.push(`IP-CIDR,${cidr},${t("outboundNames." + rule.outbound)},no-resolve`);
+        });
+      });
+      finalConfig.push("FINAL," + t("outboundNames.Fall Back"));
+      return finalConfig.join("\n");
+    }
+    getCurrentUrl() {
+      try {
+        if (typeof self !== "undefined" && self.location) {
+          return self.location.href;
+        }
+        return null;
+      } catch (error) {
+        console.error("Error getting current URL:", error);
+        return null;
+      }
+    }
+  };
+  __name(SurgeConfigBuilder, "SurgeConfigBuilder");
 
   // src/index.js
   addEventListener("fetch", (event) => {
@@ -5210,40 +6121,23 @@
   async function handleRequest(request) {
     try {
       const url = new URL(request.url);
+      const lang = url.searchParams.get("lang");
+      setLanguage(lang || request.headers.get("accept-language")?.split(",")[0]);
       if (request.method === "GET" && url.pathname === "/") {
-        return new Response(generateHtml("", "", "", url.origin), {
+        return new Response(generateHtml("", "", "", "", url.origin), {
           headers: { "Content-Type": "text/html" }
         });
-      } else if (request.method === "POST" && url.pathname === "/") {
-        const formData = await request.formData();
-        const inputString = formData.get("input");
-        const selectedRules = formData.getAll("selectedRules");
-        const customRuleDomains = formData.getAll("customRuleSite[]");
-        const customRuleIPs = formData.getAll("customRuleIP[]");
-        const customRuleNames = formData.getAll("customRuleName[]");
-        const customRules = customRuleDomains.map((domains, index) => ({
-          sites: domains.split(",").map((site) => site.trim()),
-          ips: customRuleIPs[index].split(",").map((ip) => ip.trim()),
-          outbound: customRuleNames[index]
-        }));
-        const pin = formData.get("pin");
-        if (!inputString) {
-          return new Response("Missing input parameter", { status: 400 });
-        }
-        const rulesToUse = selectedRules.length > 0 ? selectedRules : ["\u5E7F\u544A\u62E6\u622A", "\u8C37\u6B4C\u670D\u52A1", "\u56FD\u5916\u5A92\u4F53", "\u7535\u62A5\u6D88\u606F"];
-        const xrayUrl = `${url.origin}/xray?config=${encodeURIComponent(inputString)}`;
-        const singboxUrl = `${url.origin}/singbox?config=${encodeURIComponent(inputString)}&selectedRules=${encodeURIComponent(JSON.stringify(rulesToUse))}&customRules=${encodeURIComponent(JSON.stringify(customRules))}pin=${pin}`;
-        const clashUrl = `${url.origin}/clash?config=${encodeURIComponent(inputString)}&selectedRules=${encodeURIComponent(JSON.stringify(rulesToUse))}&customRules=${encodeURIComponent(JSON.stringify(customRules))}pin=${pin}`;
-        return new Response(generateHtml(xrayUrl, singboxUrl, clashUrl), {
-          headers: { "Content-Type": "text/html" }
-        });
-      } else if (url.pathname.startsWith("/singbox") || url.pathname.startsWith("/clash")) {
+      } else if (url.pathname.startsWith("/singbox") || url.pathname.startsWith("/clash") || url.pathname.startsWith("/surge")) {
         const inputString = url.searchParams.get("config");
         let selectedRules = url.searchParams.get("selectedRules");
         let customRules = url.searchParams.get("customRules");
-        let pin = url.searchParams.get("pin");
+        let lang2 = url.searchParams.get("lang") || "zh-CN";
+        let userAgent = url.searchParams.get("ua");
+        if (!userAgent) {
+          userAgent = "curl/7.74.0";
+        }
         if (!inputString) {
-          return new Response("Missing config parameter", { status: 400 });
+          return new Response(t("missingConfig"), { status: 400 });
         }
         if (PREDEFINED_RULE_SETS[selectedRules]) {
           selectedRules = PREDEFINED_RULE_SETS[selectedRules];
@@ -5271,23 +6165,27 @@
         }
         let configBuilder;
         if (url.pathname.startsWith("/singbox")) {
-          configBuilder = new ConfigBuilder(inputString, selectedRules, customRules, pin, baseConfig);
+          configBuilder = new SingboxConfigBuilder(inputString, selectedRules, customRules, baseConfig, lang2, userAgent);
+        } else if (url.pathname.startsWith("/clash")) {
+          configBuilder = new ClashConfigBuilder(inputString, selectedRules, customRules, baseConfig, lang2, userAgent);
         } else {
-          configBuilder = new ClashConfigBuilder(inputString, selectedRules, customRules, pin, baseConfig);
+          configBuilder = new SurgeConfigBuilder(inputString, selectedRules, customRules, baseConfig, lang2, userAgent).setSubscriptionUrl(url.href);
         }
         const config = await configBuilder.build();
+        const headers = {
+          "content-type": url.pathname.startsWith("/singbox") ? "application/json; charset=utf-8" : url.pathname.startsWith("/clash") ? "text/yaml; charset=utf-8" : "text/plain; charset=utf-8"
+        };
+        if (url.pathname.startsWith("/surge")) {
+          headers["subscription-userinfo"] = "upload=0; download=0; total=10737418240; expire=2546249531";
+        }
         return new Response(
           url.pathname.startsWith("/singbox") ? JSON.stringify(config, null, 2) : config,
-          {
-            headers: {
-              "content-type": url.pathname.startsWith("/singbox") ? "application/json; charset=utf-8" : "text/yaml; charset=utf-8"
-            }
-          }
+          { headers }
         );
       } else if (url.pathname === "/shorten") {
         const originalUrl = url.searchParams.get("url");
         if (!originalUrl) {
-          return new Response("Missing URL parameter", { status: 400 });
+          return new Response(t("missingUrl"), { status: 400 });
         }
         const shortCode = GenerateWebPath();
         await SUBLINK_KV.put(shortCode, originalUrl);
@@ -5310,14 +6208,7 @@
         return new Response(shortCode, {
           headers: { "Content-Type": "text/plain" }
         });
-      } else if (url.pathname.startsWith("/s/")) {
-        const shortCode = url.pathname.split("/")[2];
-        const originalUrl = await SUBLINK_KV.get(shortCode);
-        if (originalUrl === null) {
-          return new Response("Short URL not found", { status: 404 });
-        }
-        return Response.redirect(originalUrl, 302);
-      } else if (url.pathname.startsWith("/b/") || url.pathname.startsWith("/c/") || url.pathname.startsWith("/x/")) {
+      } else if (url.pathname.startsWith("/b/") || url.pathname.startsWith("/c/") || url.pathname.startsWith("/x/") || url.pathname.startsWith("/s/")) {
         const shortCode = url.pathname.split("/")[2];
         const originalParam = await SUBLINK_KV.get(shortCode);
         let originalUrl;
@@ -5327,19 +6218,31 @@
           originalUrl = `${url.origin}/clash${originalParam}`;
         } else if (url.pathname.startsWith("/x/")) {
           originalUrl = `${url.origin}/xray${originalParam}`;
+        } else if (url.pathname.startsWith("/s/")) {
+          originalUrl = `${url.origin}/surge${originalParam}`;
         }
         if (originalUrl === null) {
-          return new Response("Short URL not found", { status: 404 });
+          return new Response(t("shortUrlNotFound"), { status: 404 });
         }
         return Response.redirect(originalUrl, 302);
       } else if (url.pathname.startsWith("/xray")) {
         const inputString = url.searchParams.get("config");
         const proxylist = inputString.split("\n");
         const finalProxyList = [];
+        let userAgent = url.searchParams.get("ua");
+        if (!userAgent) {
+          userAgent = "curl/7.74.0";
+        }
+        let headers = new Headers({
+          "User-Agent": userAgent
+        });
         for (const proxy of proxylist) {
           if (proxy.startsWith("http://") || proxy.startsWith("https://")) {
             try {
-              const response = await fetch(proxy);
+              const response = await fetch(proxy, {
+                method: "GET",
+                headers
+              });
               const text = await response.text();
               let decodedText;
               decodedText = decodeBase64(text.trim());
@@ -5388,16 +6291,16 @@
           });
         } catch (error) {
           console.error("Config validation error:", error);
-          return new Response("Invalid format: " + error.message, {
+          return new Response(t("invalidFormat") + error.message, {
             status: 400,
             headers: { "Content-Type": "text/plain" }
           });
         }
       }
-      return new Response("Not Found", { status: 404 });
+      return new Response(t("notFound"), { status: 404 });
     } catch (error) {
       console.error("Error processing request:", error);
-      return new Response("Internal Server Error", { status: 500 });
+      return new Response(t("internalError"), { status: 500 });
     }
   }
   __name(handleRequest, "handleRequest");
