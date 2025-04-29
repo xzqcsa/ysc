@@ -1,0 +1,9 @@
+services:
+  nps:
+    image: duan2001/nps  # 使用指定的镜像
+    container_name: nps  # 容器名称
+    restart: always  # 始终重启容器
+    network_mode: host  # 使用宿主机网络
+    volumes:
+      - /nps/conf:/conf  # 将当前目录下的 conf 文件夹挂载到容器的 /conf 目录
+      - /etc/localtime:/etc/localtime:ro  # 将宿主机的 /etc/localtime 文件挂载到容器中，只读模式
