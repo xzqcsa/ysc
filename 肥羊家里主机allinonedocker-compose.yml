@@ -1,0 +1,8 @@
+services:
+  allinone:
+    image: youshandefeiyang/allinone
+    container_name: allinone
+    privileged: true
+    restart: always
+    network_mode: host
+    command: -tv=true -aesKey=vcccs64we5d5473xelbpx82fz84qx1bd -userid=7532630459 -token=43d962ad0cf645f9a98e492fb7aed47c2e414dfb49eeb71b68a1cac03fe77afc69ccfc84811f3b5878817e76df69f7b6eff6ca6b7e6f45df9f154f4ef05827b9dbccc2f121a573
