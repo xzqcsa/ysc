@@ -1,0 +1,52 @@
+#!/bin/sh /etc/rc.common
+
+START=99
+
+start() {
+    echo "Waiting for network to be ready..."
+    sleep 60  # 增加延迟时间到60秒
+
+    echo "Starting mefrpc instances..."
+    /mnt/sata2-4/mefrp/mefrpc -t 2e66331cf8bb3f812392b0bad2a62446 -p 73688 > /var/log/mefrpc_73688.log 2>&1 &
+    echo $! > /var/run/mefrpc_73688.pid
+    echo "Started mefrpc_73688 with PID $(cat /var/run/mefrpc_73688.pid)"
+
+    /mnt/sata2-4/mefrp/mefrpc -t 2e66331cf8bb3f812392b0bad2a62446 -p 73689 > /var/log/mefrpc_73689.log 2>&1 &
+    echo $! > /var/run/mefrpc_73689.pid
+    echo "Started mefrpc_73689 with PID $(cat /var/run/mefrpc_73689.pid)"
+
+    /mnt/sata2-4/mefrp/mefrpc -t 2e66331cf8bb3f812392b0bad2a62446 -p 73690 > /var/log/mefrpc_73690.log 2>&1 &
+    echo $! > /var/run/mefrpc_73690.pid
+    echo "Started mefrpc_73690 with PID $(cat /var/run/mefrpc_73690.pid)"
+
+    /mnt/sata2-4/mefrp/mefrpc -t 2e66331cf8bb3f812392b0bad2a62446 -p 73691 > /var/log/mefrpc_73691.log 2>&1 &
+    echo $! > /var/run/mefrpc_73691.pid
+    echo "Started mefrpc_73691 with PID $(cat /var/run/mefrpc_73691.pid)"
+}
+
+stop() {
+    echo "Stopping mefrpc instances..."
+    if [ -f /var/run/mefrpc_73688.pid ]; then
+        kill $(cat /var/run/mefrpc_73688.pid)
+        rm -f /var/run/mefrpc_73688.pid
+        echo "Stopped mefrpc_73688"
+    fi
+
+    if [ -f /var/run/mefrpc_73689.pid ]; then
+        kill $(cat /var/run/mefrpc_73689.pid)
+        rm -f /var/run/mefrpc_73689.pid
+        echo "Stopped mefrpc_73689"
+    fi
+
+    if [ -f /var/run/mefrpc_73690.pid ]; then
+        kill $(cat /var/run/mefrpc_73690.pid)
+        rm -f /var/run/mefrpc_73690.pid
+        echo "Stopped mefrpc_73690"
+    fi
+
+    if [ -f /var/run/mefrpc_73691.pid ]; then
+        kill $(cat /var/run/mefrpc_73691.pid)
+        rm -f /var/run/mefrpc_73691.pid
+        echo "Stopped mefrpc_73691"
+    fi
+}
